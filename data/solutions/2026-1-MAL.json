@@ -1,0 +1,517 @@
+[
+ {
+  "id": "2026-1-MAL-01",
+  "sonuc": "C",
+  "ozet": "İlk maliyet = DİMM + Dİ = 138.750 ₺; dönüşüm maliyeti = Dİ + GÜG = 79.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Tanımlar.</strong> İlk (asal) maliyet, mamule doğrudan yüklenebilen giderlerin toplamıdır: Direkt İlk Madde ve Malzeme + Direkt İşçilik. Dönüşüm (şekillendirme) maliyeti, hammaddeyi mamule dönüştürmenin maliyetidir: Direkt İşçilik + Genel Üretim Giderleri.</p>",
+   "<p><strong>2. İlk maliyet.</strong> 107.750 + 31.000 = <strong>138.750 ₺</strong></p>",
+   "<p><strong>3. Dönüşüm maliyeti.</strong> 31.000 + 48.000 = <strong>79.000 ₺</strong></p>",
+   "<p>Direkt işçilik her iki tanımda da yer alır; bu nedenle ilk maliyet ile dönüşüm maliyetinin toplamı (217.750 ₺) toplam üretim maliyetine (186.750 ₺) eşit değildir.</p>"
+  ],
+  "dayanak": "Maliyet unsurlarının sınıflandırılması: ilk (asal) maliyet ve dönüşüm (şekillendirme) maliyeti tanımları.",
+  "tuzaklar": {
+   "A": "Yalnızca DİMM ve Dİ tutarları ayrı ayrı yazılmış; ikisi toplanmamış ve dönüşüm maliyeti hesaplanmamış.",
+   "B": "186.750, üç unsurun toplamıdır (toplam üretim maliyeti), dönüşüm maliyeti değil; ilk maliyete de direkt işçilik eklenmemiş.",
+   "D": "İlk maliyet doğru, ancak 155.750 = DİMM + GÜG'dür; dönüşüm maliyetinde DİMM değil Dİ yer alır.",
+   "E": "155.750 (DİMM + GÜG) ilk maliyet sanılmış; GÜG direkt gider değildir."
+  },
+  "kartlar": [
+   {
+    "on": "İlk (asal) maliyet = ?",
+    "arka": "Direkt İlk Madde ve Malzeme + Direkt İşçilik"
+   },
+   {
+    "on": "Dönüşüm (şekillendirme) maliyeti = ?",
+    "arka": "Direkt İşçilik + Genel Üretim Giderleri"
+   }
+  ],
+  "konuBaglantisi": "01-maliyet-kavramlari"
+ },
+ {
+  "id": "2026-1-MAL-02",
+  "sonuc": "B",
+  "ozet": "Yüklenen GÜG gerçekleşenden büyükse fazla, küçükse eksik yükleme vardır: değişkende 35.150 ₺ fazla, sabitte 2.076 ₺ eksik, toplamda 33.074 ₺ fazla.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> Fark = Yüklenen GÜG − Gerçekleşen GÜG. Fark pozitifse mamullere gerçekleşenden fazla GÜG yüklenmiştir (fazla yükleme, +); negatifse eksik yüklenmiştir (eksik yükleme, −).</p>",
+   "<p><strong>2. Değişken GÜG.</strong> 567.368 − 532.218 = +35.150 ₺ → <strong>Fazla (+) 35.150</strong></p>",
+   "<p><strong>3. Sabit GÜG.</strong> 611.840 − 613.916 = −2.076 ₺ → <strong>Eksik (−) 2.076</strong></p>",
+   "<p><strong>4. Toplam GÜG.</strong> 1.179.208 − 1.146.134 = +33.074 ₺ → <strong>Fazla (+) 33.074</strong></p>",
+   "<p><strong>5. Sağlama.</strong> 35.150 − 2.076 = 33.074 ₺; toplam fark, kalem farklarının cebirsel toplamına eşittir.</p>"
+  ],
+  "dayanak": "Yüklenen (standart/tahmini) GÜG ile gerçekleşen GÜG karşılaştırması; fazla ve eksik yüklenen GÜG farkları.",
+  "tuzaklar": {
+   "A": "Tutarlar doğru, yönler ters: yüklenen tutarın gerçekleşenden büyük olması fazla yükleme demektir, eksik değil.",
+   "C": "Farklar iki katına çıkarılmış (70.300 = 2 × 35.150, 4.152 = 2 × 2.076) ve toplam fark 'Eksik (+)' gibi tutarsız bir işaretle yazılmış.",
+   "D": "Fark hesaplanmamış, yalnızca yüklenen tutarlar 'eksik' olarak yazılmış.",
+   "E": "Fark hesaplanmamış, yalnızca yüklenen tutarlar 'fazla' olarak yazılmış."
+  },
+  "kartlar": [
+   {
+    "on": "Yüklenen GÜG > Gerçekleşen GÜG ise?",
+    "arka": "Fazla yüklenmiş GÜG (fark +). Yüklenen < Gerçekleşen ise eksik yüklenmiş GÜG (fark −)."
+   },
+   {
+    "on": "Toplam GÜG farkı nasıl sağlanır?",
+    "arka": "Değişken GÜG farkı ile sabit GÜG farkının işaretli (cebirsel) toplamına eşittir."
+   }
+  ],
+  "konuBaglantisi": "05-genel-uretim-giderleri-dagitim"
+ },
+ {
+  "id": "2026-1-MAL-03",
+  "sonuc": "A",
+  "ozet": "Eşdeğer Ürün Birimleri Tablosu, yarım kalan birimleri de içeren fiziki çıktıyı tamamlanmış ürün eşdeğerine çevirmek için düzenlenir.",
+  "adimlar": [
+   "<p><strong>1. Sorun.</strong> Safha maliyetinde dönem sonunda bir kısım birim yarımamul olarak kalır. Yarı tamamlanmış bir birim ile tam bir birim aynı maliyeti taşımaz; bu nedenle maliyetleri doğrudan fiziki birim sayısına bölmek yanlış sonuç verir.</p>",
+   "<p><strong>2. Tablonun işlevi.</strong> Eşdeğer Ürün Birimleri Tablosu, fiziki birimleri tamamlanma dereceleriyle çarparak tam ürün eşdeğerine çevirir (örneğin %40 tamamlanmış 1.000 birim = 400 eşdeğer birim). Hesaplama her maliyet unsuru (DİMM, Dİ, GÜG ya da dönüşüm maliyeti) için ayrı yapılır.</p>",
+   "<p><strong>3. Kullanımı.</strong> Birim maliyet = Maliyet unsuru tutarı ÷ o unsurun eşdeğer ürün miktarı. Bu yüzden doğru cevap <strong>A</strong>'dır.</p>",
+   "<p><strong>4. Ayırt edilmesi gereken tablo.</strong> Fiziki giriş ile çıkışın dengesini (DB yarımamul + başlanan = tamamlanan + DS yarımamul + fire) gösteren tablo Miktar (Fiziki Akış) Tablosu'dur; eşdeğer ürün tablosu bunun üzerine kurulur.</p>"
+  ],
+  "dayanak": "Safha maliyeti yöntemi: miktar tablosu, eşdeğer ürün birimleri tablosu ve birim maliyet hesabı.",
+  "tuzaklar": {
+   "B": "Üretimdeki miktar dengesini gösteren tablo Miktar (Fiziki Akış) Tablosu'dur, eşdeğer ürün tablosu değil.",
+   "C": "Standart ile gerçek maliyetin karşılaştırılması standart maliyet sistemindeki sapma analizinin konusudur.",
+   "D": "Dönemde üretimine başlanan birim sayısı verilen bir fiziki miktardır; miktar tablosunda yer alır, eşdeğer ürün tablosuyla hesaplanmaz.",
+   "E": "Tamamlanma yüzdeleri tablonun girdisidir (üretim sorumlularınca tahmin edilir); tablo bu yüzdeleri belirlemez, kullanır."
+  },
+  "kartlar": [
+   {
+    "on": "Eşdeğer ürün birimi nedir?",
+    "arka": "Fiziki birim × tamamlanma derecesi; yarım birimlerin tam ürün cinsinden karşılığı."
+   },
+   {
+    "on": "Miktar tablosu ile eşdeğer ürün tablosunun farkı?",
+    "arka": "Miktar tablosu fiziki giriş-çıkış dengesini gösterir; eşdeğer ürün tablosu bu fiziki miktarları tam ürün eşdeğerine çevirir."
+   }
+  ],
+  "konuBaglantisi": "07-safha-maliyeti"
+ },
+ {
+  "id": "2026-1-MAL-04",
+  "sonuc": "C",
+  "ozet": "Her faaliyetin yükleme oranı = Bütçelenmiş GÜG ÷ Bütçelenmiş işlem sayısı: 900, 600, 8.250 ve 5.200 ₺.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> Faaliyet tabanlı maliyetlemede her faaliyet havuzu için ayrı bir yükleme oranı hesaplanır: Faaliyet yükleme oranı = Faaliyetin bütçelenmiş GÜG'ü ÷ Faaliyetin bütçelenmiş maliyet etkeni (işlem) sayısı.</p>",
+   "<p><strong>2. Makine Ayarlama.</strong> 4.500.000 ÷ 5.000 = <strong>900 ₺/Ayar sayısı</strong></p>",
+   "<p><strong>3. Kalite Kontrol.</strong> 4.800.000 ÷ 8.000 = <strong>600 ₺/Test sayısı</strong></p>",
+   "<p><strong>4. İş Emirleri.</strong> 3.300.000 ÷ 400 = <strong>8.250 ₺/İş emri sayısı</strong></p>",
+   "<p><strong>5. Makine Elleçleme.</strong> 3.900.000 ÷ 750 = <strong>5.200 ₺/Teslim sayısı</strong></p>",
+   "<p>Toplam satırındaki 16.500.000 ₺ yalnızca kontrol içindir; FTM'de tek bir toplam oran kullanılmaz.</p>"
+  ],
+  "dayanak": "Faaliyet tabanlı maliyetleme: faaliyet havuzu bazında maliyet etkeni (yükleme) oranı.",
+  "tuzaklar": {
+   "A": "Her faaliyetin GÜG'ü toplam GÜG'e bölünmüş (4.500.000 ÷ 16.500.000 = 0,2727); bu oran faaliyetin toplam içindeki payıdır, işlem başına maliyet değildir.",
+   "B": "Rakamlar bütçelenmiş GÜG'ün işlem sayısına bölünmesiyle elde edilemez (örneğin 4.500.000 ÷ 5.000 = 900'dür, 225 değil).",
+   "D": "A şıkkındaki pay oranları işlem sayılarıyla çarpılmış (0,2727 × 5.000 = 1.363,5); bölünmesi gereken yerde çarpma yapılmış ve pay oranı kullanılmış.",
+   "E": "Yalnızca işlem sayıları ₺ birimiyle yazılmış; maliyet etkeni miktarı, oran değildir."
+  },
+  "kartlar": [
+   {
+    "on": "FTM'de faaliyet yükleme oranı = ?",
+    "arka": "Faaliyetin bütçelenmiş maliyeti ÷ bütçelenmiş maliyet etkeni (işlem) miktarı"
+   },
+   {
+    "on": "FTM'de mamule yüklenen GÜG nasıl bulunur?",
+    "arka": "Her faaliyet için: mamulün kullandığı maliyet etkeni miktarı × faaliyet yükleme oranı; sonra faaliyetler toplanır."
+   }
+  ],
+  "konuBaglantisi": "14-faaliyet-tabanli-maliyetleme"
+ },
+ {
+  "id": "2026-1-MAL-05",
+  "sonuc": "E",
+  "ozet": "Satış değerleri A 16.000 ₺, B 8.000 ₺ olduğundan 19.500 ₺ ortak maliyet 2/3 – 1/3 oranında dağıtılır: A 13.000 ₺, B 6.500 ₺.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> Satış değeri yönteminde ortak maliyet, ortak mamullerin ayrılma noktasındaki toplam satış değerleri oranında dağıtılır.</p>",
+   "<p><strong>2. Satış değerleri.</strong> A: 800 kg × 20 ₺ = 16.000 ₺; B: 500 kg × 16 ₺ = 8.000 ₺; toplam 24.000 ₺.</p>",
+   "<p><strong>3. Paylar.</strong> A: 19.500 × 16.000 / 24.000 = <strong>13.000 ₺</strong>; B: 19.500 × 8.000 / 24.000 = <strong>6.500 ₺</strong>.</p>",
+   "<p><strong>4. Sağlama.</strong> 13.000 + 6.500 = 19.500 ₺.</p>",
+   "<p><strong>Dikkat:</strong> Fiziki miktar (kg) yöntemi kullanılsaydı paylar 19.500 × 800/1.300 = 12.000 ₺ ve 19.500 × 500/1.300 = 7.500 ₺ olurdu; soru açıkça satış değeri yöntemini istemektedir.</p>"
+  ],
+  "dayanak": "Birleşik (ortak) mamullerde ortak maliyetin satış değeri yöntemiyle dağıtımı.",
+  "tuzaklar": {
+   "A": "Doğru tutarlar ters mamullere yazılmış; satış değeri yüksek olan A daha büyük payı almalıdır.",
+   "C": "9.500 / 10.000 dağılımı satış değeri oranıyla (16.000 : 8.000 = 2 : 1) tutarlı değildir; B'ye A'dan fazla pay verilmiştir.",
+   "D": "10.000 / 9.500 dağılımı da 2 : 1 oranını vermez; ortak maliyet neredeyse eşit bölünmüş."
+  },
+  "kartlar": [
+   {
+    "on": "Satış değeri yönteminde mamulün ortak maliyet payı = ?",
+    "arka": "Ortak maliyet × (mamulün satış değeri ÷ tüm ortak mamullerin toplam satış değeri); satış değeri = miktar × birim satış fiyatı."
+   }
+  ],
+  "konuBaglantisi": "08-birlesik-yan-urun"
+ },
+ {
+  "id": "2026-1-MAL-06",
+  "sonuc": "C",
+  "ozet": "7/A seçeneğinde giderler fonksiyonel gider hesaplarına, bunların altında gider yerleri ve gider türleri itibarıyla tek kayıtla, yani eşzamanlı olarak kaydedilir.",
+  "adimlar": [
+   "<p><strong>1. 7/A seçeneğinin yapısı.</strong> 7/A'da giderler doğrudan fonksiyon esasına göre 7 grubundaki hesaplara kaydedilir: 710 DİMM, 720 Dİ, 730 GÜG, 740 Hizmet Üretim Maliyeti, 750 Araştırma ve Geliştirme, 760 Pazarlama Satış ve Dağıtım, 770 Genel Yönetim ve 780 Finansman Giderleri.</p>",
+   "<p><strong>2. Eşzamanlılık.</strong> Her fonksiyonel gider hesabının altında gider yerleri, bunların altında da gider türleri (çeşitleri) yardımcı hesaplar olarak izlenir. Böylece bir gider kaydedildiği anda hem hangi fonksiyona, hem hangi gider yerine, hem de hangi türe ait olduğu aynı kayıtta belirlenmiş olur.</p>",
+   "<p><strong>3. Sonuç.</strong> Bu tanıma karşılık gelen şık <strong>C</strong>'dir.</p>",
+   "<p><strong>4. Karşılaştırma.</strong> 7/B seçeneğinde ise giderler önce çeşit esasına göre 79 grubu hesaplarına kaydedilir; bunlar dönem sonunda 798 Gider Çeşitleri Yansıtma Hesabı aracılığıyla ilgili stok ve gelir tablosu hesaplarına aktarılır. Yani 7/B'de çeşit ve fonksiyon bilgisi aynı kayıtta oluşmaz.</p>"
+  ],
+  "dayanak": "Tekdüzen Muhasebe Sistemi Uygulama Genel Tebliği, 7/A seçeneği (giderlerin fonksiyon esasına göre izlenmesi).",
+  "tuzaklar": {
+   "A": "Yalnızca esas üretim gider yerlerine kayıt yapılması, yardımcı gider yerlerini, gider türlerini ve üretim dışı fonksiyonları dışarıda bırakır.",
+   "B": "Fonksiyonel giderler yalnızca 710-720-730 değildir; Ar-Ge, pazarlama, yönetim ve finansman fonksiyonları da vardır ve gider yeri/gider türü boyutu eksiktir.",
+   "D": "Stok hesaplarına (hammadde, yarımamul, mamul, ticari mal) yapılan kayıt gider kaydı değildir.",
+   "E": "Endirekt madde, endirekt işçilik ve enerji yalnızca bazı gider türleridir; 7/A'nın fonksiyon ve gider yeri boyutunu karşılamaz."
+  },
+  "kartlar": [
+   {
+    "on": "7/A seçeneğinde 'eşzamanlı kayıt' ne demektir?",
+    "arka": "Gider, fonksiyonel hesaba (710-780) kaydedilirken alt hesaplarda gider yeri ve gider türü de aynı anda belirlenir."
+   },
+   {
+    "on": "7/A ile 7/B'nin temel farkı?",
+    "arka": "7/A: giderler doğrudan fonksiyon esasına göre (710-780). 7/B: giderler çeşit esasına göre (79 grubu), dönem sonunda 798 Gider Çeşitleri Yansıtma Hesabı ile aktarılır."
+   }
+  ],
+  "konuBaglantisi": "02-maliyet-akisi-7a-7b"
+ },
+ {
+  "id": "2026-1-MAL-07",
+  "sonuc": "E",
+  "ozet": "MHK analizi giderlerin değişken ve sabit olarak ayrılabildiğini varsayar; 'ayrılmaz' ifadesi bu temel varsayımın tersidir.",
+  "adimlar": [
+   "<p><strong>1. MHK analizinin temel varsayımları.</strong> Satış fiyatı ilgili faaliyet aralığında sabittir; maliyet ve gelir fonksiyonları belirlidir ve ilgili aralıkta doğrusaldır; toplam maliyetler değişken ve sabit olarak ayrılabilir; maliyetleri etkileyen tek faktör üretim/satış hacmidir; üretimin teknik verimliliği (verimlilik düzeyi) sabittir; çok mamullü işletmelerde satış karması sabittir; üretilen miktar ile satılan miktar eşittir.</p>",
+   "<p><strong>2. Uygulama.</strong> Başabaş noktası = Sabit maliyetler ÷ Birim katkı payı formülü, giderlerin sabit ve değişken olarak ayrılabilmesine dayanır. Giderler ayrılamazsa katkı payı hesaplanamaz ve MHK analizi yapılamaz.</p>",
+   "<p><strong>3. Sonuç.</strong> A, B, C ve D şıkları varsayımları ifade eder; varsayım olmayan, aksine varsayımın tersini söyleyen ifade <strong>E</strong>'dir.</p>"
+  ],
+  "dayanak": "Maliyet-hacim-kâr analizinin temel varsayımları.",
+  "tuzaklar": {
+   "A": "Satış fiyatının sabit olduğu (hacimle değişmediği) MHK'nın temel varsayımlarından biridir.",
+   "B": "MHK analizi maliyet ve gelir fonksiyonlarının belirli, gerçekçi ve ilgili aralıkta doğrusal olduğunu kabul eder; şık bu varsayımı anlatır.",
+   "C": "Teknik verimliliğin sabit kaldığı varsayılır; aksi halde birim değişken maliyet hacimle değişirdi.",
+   "D": "Maliyetleri etkileyen tek faktörün hacim olduğu varsayımı MHK modelinin dayanağıdır."
+  },
+  "kartlar": [
+   {
+    "on": "MHK analizinin giderlere ilişkin temel varsayımı?",
+    "arka": "Toplam giderler sabit ve değişken olarak ayrılabilir; birim değişken maliyet ve toplam sabit maliyet ilgili aralıkta sabittir."
+   },
+   {
+    "on": "Başabaş noktası (miktar) = ?",
+    "arka": "Sabit maliyetler ÷ (Birim satış fiyatı − Birim değişken maliyet)"
+   }
+  ],
+  "konuBaglantisi": "10-maliyet-hacim-kar"
+ },
+ {
+  "id": "2026-1-MAL-08",
+  "sonuc": "C",
+  "ozet": "SMM = DB mamul + dönemde üretilen mamul maliyeti − DS mamul = 12.000 + 20.000 − 10.000 = 22.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Formül.</strong> Satılan Mamuller Maliyeti = Dönembaşı Mamul Stok + Dönemde Üretilen Mamuller Maliyeti − Dönemsonu Mamul Stok.</p>",
+   "<p><strong>2. Hesap.</strong> 12.000 + 20.000 − 10.000 = <strong>22.000 ₺</strong></p>",
+   "<p><strong>3. İlgisiz veriler.</strong> Dönembaşı yarımamul stok ve GÜG, dönemde üretilen mamul maliyetinin (20.000 ₺) içinde zaten yer alır; ayrıca eklenmez. Genel yönetim, pazarlama-satış-dağıtım ve finansman giderleri dönem gideridir, SMM'ye girmez. Net satışlar ise brüt satış kârının hesabında kullanılır (50.000 − 22.000 = 28.000 ₺).</p>"
+  ],
+  "dayanak": "Satılan mamuller maliyeti tablosu: mamul stoklarındaki değişim ile üretilen mamul maliyetinin ilişkisi.",
+  "tuzaklar": {
+   "A": "17.000 = 7.000 + 20.000 − 10.000; dönembaşı mamul stok yerine dönembaşı yarımamul stok kullanılmış.",
+   "B": "18.000 = 20.000 − 12.000 + 10.000; dönembaşı ve dönemsonu mamul stoklarının işaretleri ters alınmış.",
+   "D": "30.000 = 20.000 + 10.000; dönemsonu stok düşülecekken eklenmiş ve dönembaşı stok unutulmuş.",
+   "E": "33.000 = 22.000 + 11.000; GÜG üretilen mamul maliyetinde zaten bulunduğu halde ikinci kez eklenmiş."
+  },
+  "kartlar": [
+   {
+    "on": "Satılan Mamuller Maliyeti = ?",
+    "arka": "DB Mamul Stok + Dönemde Üretilen Mamuller Maliyeti − DS Mamul Stok"
+   },
+   {
+    "on": "Genel yönetim, pazarlama ve finansman giderleri SMM'ye girer mi?",
+    "arka": "Hayır; bunlar faaliyet (dönem) giderleri ve finansman giderleridir, gelir tablosunda brüt kârdan sonra düşülür."
+   }
+  ],
+  "konuBaglantisi": "02-maliyet-akisi-7a-7b"
+ },
+ {
+  "id": "2026-1-MAL-09",
+  "sonuc": "A",
+  "ozet": "DİMM gideri = DB DİMM stok + alımlar − DS DİMM stok = 8.000 + 12.000 − 10.000 = 10.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Formül.</strong> Kullanılan (gidere dönüşen) Direkt İlk Madde ve Malzeme = Dönembaşı DİMM Stok + Dönemiçi DİMM Alımları − Dönemsonu DİMM Stok.</p>",
+   "<p><strong>2. Hesap.</strong> 8.000 + 12.000 − 10.000 = <strong>10.000 ₺</strong></p>",
+   "<p><strong>3. İlgisiz veriler.</strong> Yarımamul ve mamul stokları, direkt işçilik ve GÜG bu sorunun cevabı için gerekmez; bunlar üretilen ve satılan mamul maliyetinin hesabında kullanılır.</p>",
+   "<p><strong>Not:</strong> Verilerle devam edilseydi: Dönem üretim maliyeti = 10.000 + 2.000 + 14.000 = 26.000 ₺; üretilen mamul maliyeti = 6.000 + 26.000 − 4.000 = 28.000 ₺; satılan mamul maliyeti = 2.000 + 28.000 − 8.000 = 22.000 ₺.</p>"
+  ],
+  "dayanak": "Maliyet akışı: kullanılan direkt ilk madde ve malzeme tutarının stok hareketlerinden bulunması.",
+  "tuzaklar": {
+   "B": "12.000 dönemiçi alımlardır; alınan her malzeme üretimde kullanılmaz, stok değişimi dikkate alınmalıdır.",
+   "C": "20.000 = 8.000 + 12.000; kullanıma hazır malzeme tutarıdır, dönemsonu stok düşülmemiştir.",
+   "D": "28.000 hem alımlar + Dİ + GÜG (12.000 + 2.000 + 14.000) toplamına hem de doğru hesaplanan üretilen mamul maliyetine eşittir; DİMM gideri değildir.",
+   "E": "30.000 = 8.000 + 12.000 + 10.000; dönemsonu stok düşülecekken eklenmiştir."
+  },
+  "kartlar": [
+   {
+    "on": "Kullanılan DİMM (DİMM gideri) = ?",
+    "arka": "DB DİMM Stok + Alımlar − DS DİMM Stok"
+   }
+  ],
+  "konuBaglantisi": "03-direkt-ilk-madde-malzeme"
+ },
+ {
+  "id": "2026-1-MAL-10",
+  "sonuc": "E",
+  "ozet": "Maliyet muhasebesi maliyet hesaplama, planlama, kontrol ve karar alma için bilgi üretir; ortaklık yapısına ilişkin kararlar onun amaçları arasında değildir.",
+  "adimlar": [
+   "<p><strong>1. Maliyet muhasebesinin amaçları.</strong> (a) Mamul ve hizmetlerin birim maliyetini hesaplamak, stokları değerlemek ve dönem kârını belirlemek; (b) planlama (bütçeleme) faaliyetlerine bilgi sağlamak; (c) maliyetleri kontrol etmek ve performansı ölçmek; (d) yönetsel kararlar (fiyatlama, üret-satın al, sipariş kabulü vb.) için bilgi sağlamak.</p>",
+   "<p><strong>2. Uygulama.</strong> A, B, C ve D bu amaçların doğrudan karşılığıdır. İşletmenin ortaklık yapısı (sermaye yapısı, pay sahipliği) hakkındaki kararlar ortakların ve genel kurulun, şirketler hukuku ve finansman kararlarının konusudur; maliyet muhasebesinin amacı değildir. Cevap <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Maliyet muhasebesinin amaçları: maliyet hesaplama ve stok değerleme, planlama, kontrol, karar verme.",
+  "tuzaklar": {
+   "A": "Maliyetlerin kontrolü (standart ve gerçek maliyet karşılaştırması, sapma analizi) maliyet muhasebesinin temel amaçlarındandır.",
+   "B": "Birim maliyet hesaplamak maliyet muhasebesinin en temel amacıdır.",
+   "C": "Bütçeleme gibi planlama faaliyetleri maliyet bilgisine dayanır.",
+   "D": "Fiyatlama, üret-satın al gibi yönetsel kararlar maliyet muhasebesi bilgisiyle verilir."
+  },
+  "kartlar": [
+   {
+    "on": "Maliyet muhasebesinin dört temel amacı?",
+    "arka": "Maliyet hesaplama ve stok değerleme; planlama; kontrol; yönetsel karar verme"
+   }
+  ],
+  "konuBaglantisi": "01-maliyet-kavramlari"
+ },
+ {
+  "id": "2026-1-MAL-11",
+  "sonuc": "D",
+  "ozet": "Üretilen mamul maliyeti = DB yarımamul + (DİMM + Dİ + GÜG) − DS yarımamul.",
+  "adimlar": [
+   "<p><strong>1. Mantık.</strong> Dönemde tamamlanan mamullerin maliyeti, üretim sürecine giren tüm maliyetlerden süreçte kalan kısmın düşülmesiyle bulunur. Sürece girenler: dönembaşında yarım kalmış işler (DB yarımamul) ve dönemin üretim maliyeti (DİMM + Dİ + GÜG). Süreçte kalan: dönemsonu yarımamul.</p>",
+   "<p><strong>2. Formül.</strong> Üretilen Mamul Maliyeti = DB Yarımamul Stok + DİMM Giderleri + Dİ Giderleri + GÜG − DS Yarımamul Stok. Bu, <strong>D</strong> şıkkıdır.</p>",
+   "<p><strong>3. Zincir.</strong> Kullanılan DİMM → Dönem üretim maliyeti → Üretilen mamul maliyeti (yarımamul düzeltmesi) → Satılan mamul maliyeti (mamul stok düzeltmesi).</p>"
+  ],
+  "dayanak": "Maliyet akışı: dönem üretim maliyeti, üretilen mamul maliyeti ve satılan mamul maliyeti tablosu.",
+  "tuzaklar": {
+   "A": "Yalnızca hammadde stok hesabıdır ve dönemsonu stok eklenmiş; doğru biçimiyle (DS düşülerek) bile yalnızca kullanılan DİMM'i verir.",
+   "B": "Yarımamul düzeltmesinde dönembaşı mamul stok kullanılmış; mamul stokları satılan mamul maliyetinin hesabına aittir.",
+   "C": "Dönemsonu mamul stok eklenmiş; üretilen mamul maliyetinde dönemsonu yarımamul düşülür.",
+   "E": "Ticari mal stok hareketidir (ticaret işletmesi) ve dönemsonu stok eklenmiştir."
+  },
+  "kartlar": [
+   {
+    "on": "Üretilen Mamul Maliyeti = ?",
+    "arka": "DB Yarımamul + DİMM + Dİ + GÜG − DS Yarımamul"
+   },
+   {
+    "on": "Hangi stok hangi hesapta düzeltilir?",
+    "arka": "DİMM stoku → kullanılan DİMM; yarımamul stoku → üretilen mamul maliyeti; mamul stoku → satılan mamul maliyeti."
+   }
+  ],
+  "konuBaglantisi": "02-maliyet-akisi-7a-7b"
+ },
+ {
+  "id": "2026-1-MAL-12",
+  "sonuc": "D",
+  "ozet": "GÜG, direkt madde ve direkt işçilik dışında kalan üretim giderleridir; elektrik, amortisman ve endirekt (sarf) malzeme bunun tipik örnekleridir.",
+  "adimlar": [
+   "<p><strong>1. Tanım.</strong> Genel üretim giderleri, üretimle ilgili olup mamule doğrudan izlenemeyen giderlerdir: endirekt malzeme, endirekt işçilik ve diğer üretim giderleri (enerji, amortisman, bakım-onarım, sigorta, kira, su vb.).</p>",
+   "<p><strong>2. Eleme.</strong> Direkt madde (hammadde) tüketimi 710 DİMM'e, direkt işçilik 720 Dİ'ye aittir; bunları içeren şıklar (A, B, C, E) GÜG kapsamında olamaz.</p>",
+   "<p><strong>3. Sonuç.</strong> D şıkkındaki elektrik giderleri, amortisman giderleri ve sarf malzemesi (endirekt madde) giderlerinin üçü de GÜG'dür. Cevap <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Üretim maliyeti unsurları: DİMM, Dİ ve GÜG ayrımı.",
+  "tuzaklar": {
+   "A": "Endirekt işçilik ve makine yağları GÜG'dür, ancak hammadde (direkt madde) tüketimi DİMM'dir.",
+   "B": "Temizlik malzemesi ve su GÜG olabilir, ancak direkt işçilik giderleri Dİ'dir.",
+   "C": "Bakım-onarım malzemesi ve amortisman GÜG'dür, ancak direkt işçilik giderleri Dİ'dir.",
+   "E": "Hammadde (direkt madde) tüketimi DİMM'dir; finansman giderleri de kural olarak 780 Finansman Giderleri'nde izlenen dönem gideridir."
+  },
+  "kartlar": [
+   {
+    "on": "GÜG'ün üç ana grubu?",
+    "arka": "Endirekt malzeme, endirekt işçilik, diğer üretim giderleri (enerji, amortisman, bakım-onarım, kira, sigorta vb.)"
+   }
+  ],
+  "konuBaglantisi": "05-genel-uretim-giderleri-dagitim"
+ },
+ {
+  "id": "2026-1-MAL-13",
+  "sonuc": "B",
+  "ozet": "Her alımdan sonra yeni ortalama birim maliyet hesaplanan yöntem hareketli (yürüyen) ortalama maliyet yöntemidir.",
+  "adimlar": [
+   "<p><strong>1. Hareketli ortalama.</strong> Her yeni alım (stok girişi) sonrasında, eldeki stok tutarı ile yeni alım tutarı toplanıp toplam miktara bölünerek yeni birim maliyet bulunur; sonraki çıkışlar bu yeni ortalamayla değerlenir. Soru kökündeki 'her satın alma ve stoklara giriş işleminden sonra yeni birim maliyet' tanımı budur.</p>",
+   "<p><strong>2. Tartılı ortalama.</strong> Dönem sonunda, dönembaşı stok ve dönem boyunca yapılan tüm alımlar için tek bir ağırlıklı ortalama hesaplanır; her girişte yeniden hesaplama yapılmaz.</p>",
+   "<p><strong>3. Sonuç.</strong> Cevap <strong>B</strong>.</p>"
+  ],
+  "dayanak": "Stok çıkışlarının değerlemesi: hareketli ortalama, tartılı ortalama, FIFO, LIFO ve standart maliyet yöntemleri.",
+  "tuzaklar": {
+   "A": "Tartılı (ağırlıklı) ortalama dönem sonunda tek seferde hesaplanır; her girişten sonra yeni birim maliyet bulunmaz.",
+   "C": "İlk giren ilk çıkar yönteminde ortalama hesaplanmaz; her parti kendi alış maliyetiyle izlenir ve çıkışlar en eski partiden yapılır.",
+   "D": "Standart maliyet önceden belirlenmiş bir maliyettir; fiili alımlara göre yeniden hesaplanmaz.",
+   "E": "Son giren ilk çıkar yönteminde de partiler ayrı izlenir; çıkışlar en son partiden yapılır, ortalama alınmaz."
+  },
+  "kartlar": [
+   {
+    "on": "Hareketli ortalama ile tartılı ortalama farkı?",
+    "arka": "Hareketli: her girişten sonra yeni ortalama birim maliyet. Tartılı: dönem sonunda tüm girişler için tek ortalama."
+   }
+  ],
+  "konuBaglantisi": "03-direkt-ilk-madde-malzeme"
+ },
+ {
+  "id": "2026-1-MAL-14",
+  "sonuc": "A",
+  "ozet": "7/A seçeneğinde 740'ta toplanan hizmet maliyeti 741 yansıtma hesabı aracılığıyla 622 Satılan Hizmet Maliyeti'ne aktarılır, ardından 741 ile 740 karşılıklı kapatılır.",
+  "adimlar": [
+   "<p><strong>1. Hesapların işleyişi.</strong> 7/A seçeneğinde hizmet üretim maliyetleri dönem içinde 740 Hizmet Üretim Maliyeti hesabının borcunda toplanır. Bu maliyet gelir tablosuna 741 Hizmet Üretim Maliyeti Yansıtma Hesabı aracılığıyla aktarılır.</p>",
+   "<p><strong>2. Gelir tablosuna aktarma.</strong> Satılan hizmetin maliyeti 622 Satılan Hizmet Maliyeti hesabına borç, 741 hesabına alacak kaydedilir: 622 B / 741 A 2.000 ₺.</p>",
+   "<p><strong>3. Kapanış.</strong> Dönem sonunda 741 hesabının alacak bakiyesi ile 740 hesabının borç bakiyesi karşılıklı kapatılır: 741 B / 740 A 2.000 ₺. Böylece 7 grubu hesapları sıfırlanır, maliyet 6 grubunda (gelir tablosunda) yer alır.</p>",
+   "<p><strong>4. Sonuç.</strong> Bu iki kaydı veren şık <strong>A</strong>'dır.</p>"
+  ],
+  "dayanak": "Tekdüzen Muhasebe Sistemi Uygulama Genel Tebliği, 7/A seçeneği: 740 Hizmet Üretim Maliyeti ve 741 Hizmet Üretim Maliyeti Yansıtma Hesabı'nın işleyişi.",
+  "tuzaklar": {
+   "B": "İkinci kayıt doğrudur, ancak hizmet maliyeti 620 Satılan Mamuller Maliyeti'ne değil 622 Satılan Hizmet Maliyeti'ne aktarılır.",
+   "C": "İlk kayıtta 622 yerine 740 borçlandırılmış; iki kayıt birbirini götürür ve maliyet gelir tablosuna hiç aktarılmaz.",
+   "D": "İlk kayıt 741'i atlayarak 740'ı doğrudan kapatıyor, ikinci kayıt ise 740'ı yeniden borçlandırıp 741'e alacak yazıyor; dönem sonunda 740 ve 741 bakiye verir, kapanış ters yönlüdür.",
+   "E": "İlk kayıt 740'ı kapatmak yerine yeniden borçlandırıyor (bakiye 4.000 ₺'ye çıkar); ikinci kayıt 622'yi borç yerine alacaklandırıyor. Maliyet gelir tablosuna ters yönde gider ve 740 kapanmaz."
+  },
+  "kartlar": [
+   {
+    "on": "7/A'da 740 hesabının dönem sonu kayıtları?",
+    "arka": "622 Satılan Hizmet Maliyeti B / 741 Yansıtma A; ardından 741 B / 740 A (karşılıklı kapanış)."
+   },
+   {
+    "on": "Yansıtma hesaplarının (7x1) amacı?",
+    "arka": "7 grubundaki fonksiyonel maliyetleri 6 grubuna (veya stoklara) aktarmak; dönem sonunda ilgili ana hesapla karşılıklı kapanırlar."
+   }
+  ],
+  "konuBaglantisi": "02-maliyet-akisi-7a-7b"
+ },
+ {
+  "id": "2026-1-MAL-15",
+  "sonuc": "D",
+  "ozet": "Tamamlanıp devrolunan = 10.000 + 250.000 − 29.000 − 1.000 = 230.000 br; FIFO'da başlanıp tamamlanan = 230.000 − 10.000 = 220.000 br.",
+  "adimlar": [
+   "<p><strong>1. Miktar dengesi.</strong> Girişler = Çıkışlar: DB Yarımamul + Dönemde Başlanan = Tamamlanıp Devrolunan + DS Yarımamul + Fire.</p>",
+   "<p><strong>2. Tamamlanıp devrolunan.</strong> 10.000 + 250.000 = 260.000 br giriş; 260.000 − 29.000 − 1.000 = <strong>230.000 br</strong>.</p>",
+   "<p><strong>3. FIFO mantığı.</strong> İlk giren ilk çıkar yönteminde önce dönembaşı yarımamuller tamamlanır. Tamamlanan 230.000 birimin 10.000'i dönembaşı yarımamuldür.</p>",
+   "<p><strong>4. Başlanıp tamamlanan.</strong> 230.000 − 10.000 = <strong>220.000 br</strong>. Sağlama: dönemde başlanan 250.000 birimden dönemsonunda yarım kalan 29.000 ve fire 1.000 çıkarılınca da 220.000 br bulunur.</p>"
+  ],
+  "dayanak": "Safha maliyeti, FIFO yöntemi: miktar (fiziki akış) tablosu.",
+  "tuzaklar": {
+   "A": "200.000, tamamlanan 230.000'den dönemsonu yarımamul ve fire bir kez daha düşülerek bulunur; çifte indirimdir.",
+   "B": "220.000 tamamlanan miktar olarak yazılmış; dönembaşı yarımamulün de tamamlanıp devredildiği unutulmuş.",
+   "C": "Başlanıp tamamlanan miktar olarak dönemde başlanan miktarın (250.000) tamamı yazılmış; dönemsonu yarımamul ve fire düşülmemiş.",
+   "E": "Tamamlanıp devrolunan miktar dönemde başlanan miktara (250.000) eşit sanılmış."
+  },
+  "kartlar": [
+   {
+    "on": "Safha maliyetinde miktar dengesi?",
+    "arka": "DB Yarımamul + Dönemde Başlanan = Tamamlanıp Devrolunan + DS Yarımamul + Fire"
+   },
+   {
+    "on": "FIFO'da dönemde başlanıp tamamlanan = ?",
+    "arka": "Tamamlanıp devrolunan − DB yarımamul"
+   }
+  ],
+  "konuBaglantisi": "07-safha-maliyeti"
+ },
+ {
+  "id": "2026-1-MAL-16",
+  "sonuc": "B",
+  "ozet": "Yükleme katsayısı = gider yerinin II. dağıtım toplamı ÷ yükleme anahtarı: A 28.750.000 ÷ 500.000 = 57,5 ₺/kg, B 39.750.000 ÷ 300.000 = 132,5 ₺/DİS.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> GÜG dağıtım tablosunda II. dağıtım (yardımcı gider yerlerinin esas gider yerlerine dağıtımı) sonrası esas üretim gider yerlerinde toplanan tutar, o gider yerinin yükleme anahtarına bölünerek GÜG yükleme katsayısı bulunur.</p>",
+   "<p><strong>2. A Ana Üretici Gider Yeri (anahtar: hammadde kg).</strong> 28.750.000 ÷ 500.000 kg = <strong>57,5 ₺/kg</strong></p>",
+   "<p><strong>3. B Ana Üretici Gider Yeri (anahtar: DİS).</strong> 39.750.000 ÷ 300.000 DİS = <strong>132,5 ₺/DİS</strong></p>",
+   "<p><strong>Dikkat:</strong> Her gider yeri kendi anahtarına bölünür. B'nin tutarı kg'a bölünseydi 79,5 ₺/kg gibi anlamsız bir sonuç çıkardı.</p>"
+  ],
+  "dayanak": "Genel üretim giderlerinin dağıtımı: I. ve II. dağıtım; esas üretim gider yerlerinde GÜG yükleme katsayısı.",
+  "tuzaklar": {
+   "A": "A gider yerinin katsayısı doğru, ancak 75 ₺/DİS B'nin II. dağıtım toplamının (39.750.000) 300.000 DİS'e bölünmesiyle bulunamaz.",
+   "C": "157,5 ₺/DİS, B'nin II. dağıtım toplamının DİS'e bölünmesiyle elde edilen 132,5 ₺/DİS ile uyuşmaz.",
+   "D": "157,5 ₺/kg, A'nın II. dağıtım toplamının 500.000 kg'a bölünmesiyle elde edilen 57,5 ₺/kg ile uyuşmaz; B'nin katsayısı da yanlış.",
+   "E": "B'nin katsayısı doğru, ancak A için 157,5 ₺/kg hesapla uyuşmaz (28.750.000 ÷ 500.000 = 57,5)."
+  },
+  "kartlar": [
+   {
+    "on": "GÜG yükleme katsayısı = ?",
+    "arka": "Esas üretim gider yerinin II. dağıtım sonrası GÜG toplamı ÷ o gider yerinin yükleme anahtarı miktarı (DİS, makine saati, kg vb.)"
+   }
+  ],
+  "konuBaglantisi": "05-genel-uretim-giderleri-dagitim"
+ },
+ {
+  "id": "2026-1-MAL-18",
+  "sonuc": "B",
+  "ozet": "Katsayılı birimler 5.000, 8.000 ve 3.000 (toplam 16.000) olduğundan katsayılı birim maliyeti 100 ₺'dir: A 500.000 ₺, B 800.000 ₺, C 300.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> Katsayılı bölme yönteminde her mamulün üretim miktarı kendi katsayısıyla çarpılarak ortak bir birime (katsayılı birim) çevrilir; ortak gider toplam katsayılı birime bölünür ve bulunan birim maliyet her mamulün katsayılı birimiyle çarpılır.</p>",
+   "<p><strong>2. Katsayılı birimler.</strong> A: 1.000 × 5 = 5.000; B: 2.000 × 4 = 8.000; C: 3.000 × 1 = 3.000; toplam 16.000 katsayılı birim.</p>",
+   "<p><strong>3. Katsayılı birim maliyeti.</strong> 1.600.000 ÷ 16.000 = 100 ₺.</p>",
+   "<p><strong>4. Mamul maliyetleri.</strong> A: 5.000 × 100 = <strong>500.000 ₺</strong>; B: 8.000 × 100 = <strong>800.000 ₺</strong>; C: 3.000 × 100 = <strong>300.000 ₺</strong>. Sağlama: toplam 1.600.000 ₺.</p>",
+   "<p><strong>Ek:</strong> Fiziki birim maliyetleri A 500, B 400, C 100 ₺/br olur; oranları katsayılarla (5 : 4 : 1) aynıdır.</p>"
+  ],
+  "dayanak": "Birleşik mamullerde ortak giderin katsayılı bölme (eşdeğer birim) yöntemiyle dağıtımı.",
+  "tuzaklar": {
+   "A": "Toplam 1.600.000 ₺ tutsa da dağılım katsayılı birimlerle (5.000 : 8.000 : 3.000) orantılı değildir.",
+   "C": "A doğru, ancak B ve C katsayılı birim × 100 ₺ ile uyuşmaz (B 800.000, C 300.000 olmalı).",
+   "D": "A doğru, ancak B ve C için katsayılı birimlerle orantılı olmayan tutarlar yazılmış.",
+   "E": "Dağılım katsayılı birimlerle orantılı değildir; A'ya 5.000 × 100 = 500.000 ₺ düşer."
+  },
+  "kartlar": [
+   {
+    "on": "Katsayılı bölme yönteminde dağıtım ölçüsü?",
+    "arka": "Üretim miktarı × katsayı = katsayılı (eşdeğer) birim; ortak gider bu birimler oranında dağıtılır."
+   }
+  ],
+  "konuBaglantisi": "08-birlesik-yan-urun"
+ },
+ {
+  "id": "2026-1-MAL-19",
+  "sonuc": "C",
+  "ozet": "Net alımlar 3.000.000 − 200.000 + 100.000 = 2.900.000 ₺; STMM = 800.000 + 2.900.000 − 1.200.000 = 2.500.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Formül.</strong> Satılan Ticari Mallar Maliyeti = Dönembaşı Ticari Mal Stoku + Net Alımlar − Dönemsonu Ticari Mal Stoku. Net Alımlar = Alımlar − Alım İadeleri (ve iskontoları) + Alım Giderleri.</p>",
+   "<p><strong>2. Net alımlar.</strong> 3.000.000 − 200.000 + 100.000 = 2.900.000 ₺. Alım giderleri (nakliye, sigorta vb.) malın maliyetine eklenir; alım iadeleri maliyetten düşülür.</p>",
+   "<p><strong>3. STMM.</strong> 800.000 + 2.900.000 − 1.200.000 = <strong>2.500.000 ₺</strong></p>"
+  ],
+  "dayanak": "Satılan ticari mallar maliyetinin aralıklı (dönemsel) envanter yöntemiyle hesabı.",
+  "tuzaklar": {
+   "B": "2.400.000 = 800.000 + 3.000.000 − 200.000 − 1.200.000; alım giderleri maliyete eklenmemiş.",
+   "D": "2.700.000 = 800.000 + 3.000.000 + 100.000 − 1.200.000; alım iadesi düşülmemiş.",
+   "E": "3.000.000 brüt alım tutarıdır; stok değişimi, iade ve alım giderleri dikkate alınmamış."
+  },
+  "kartlar": [
+   {
+    "on": "Satılan Ticari Mallar Maliyeti = ?",
+    "arka": "DB Stok + (Alımlar − Alım İadeleri + Alım Giderleri) − DS Stok"
+   }
+  ],
+  "konuBaglantisi": "02-maliyet-akisi-7a-7b"
+ },
+ {
+  "id": "2026-1-MAL-20",
+  "sonuc": "D",
+  "ozet": "Net satış değerleri A 600 ₺, C 200 ₺ (toplam 800 ₺) olduğundan 5.000 ₺ ortak maliyet 3/4 – 1/4 oranında dağıtılır: A 3.750 ₺, C 1.250 ₺.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> Net satış değeri (NSD) yönteminde ortak maliyet, ortak mamullerin ayrılma noktasındaki net satış değerleri oranında dağıtılır. NSD = Satış değeri − Ayrılma noktasından sonraki ek maliyetler.</p>",
+   "<p><strong>2. Net satış değerleri.</strong> A: 620 − 20 = 600 ₺; C: 230 − 30 = 200 ₺; toplam 800 ₺.</p>",
+   "<p><strong>3. Dağıtım.</strong> A: 5.000 × 600 / 800 = <strong>3.750 ₺</strong>; C: 5.000 × 200 / 800 = <strong>1.250 ₺</strong>. Sağlama: 3.750 + 1.250 = 5.000 ₺.</p>",
+   "<p><strong>Not:</strong> Soruda mamul miktarları verilmediğinden şıklardaki 'birim maliyet', her mamulün ortak maliyetten aldığı paydır (her mamulden birer birim üretildiği kabulüyle). Ek maliyetler (20 ₺ ve 30 ₺) ortak maliyet payına dahil edilmez; mamulün tam maliyeti istenseydi paya eklenirdi.</p>",
+   "<p><strong>Dikkat:</strong> Ek maliyetler düşülmeden brüt satış değeri (620 ve 230) oranında dağıtılsaydı A ≈ 3.647 ₺, C ≈ 1.353 ₺ bulunurdu; bu satış değeri yöntemidir, NSD yöntemi değildir.</p>"
+  ],
+  "dayanak": "Birleşik mamullerde ortak maliyetin net satış değeri (net gerçekleşebilir değer) yöntemiyle dağıtımı.",
+  "tuzaklar": {
+   "A": "Doğru tutarlar ters mamullere yazılmış; net satış değeri yüksek olan A daha büyük payı almalıdır.",
+   "B": "Ortak maliyet eşit bölünmüş; NSD yönteminde dağıtım 600 : 200 = 3 : 1 oranında yapılır.",
+   "C": "2.750 / 2.250 dağılımı 3 : 1 NSD oranıyla tutarlı değildir.",
+   "E": "4.000 / 1.000 (4 : 1) dağılımı da 3 : 1 NSD oranıyla tutarlı değildir."
+  },
+  "kartlar": [
+   {
+    "on": "Net satış değeri (NSD) = ?",
+    "arka": "Satış değeri − ayrılma noktasından sonraki ek işleme (ve satış) maliyetleri"
+   },
+   {
+    "on": "NSD yönteminde mamulün ortak maliyet payı = ?",
+    "arka": "Ortak maliyet × (mamulün NSD'si ÷ toplam NSD)"
+   }
+  ],
+  "konuBaglantisi": "08-birlesik-yan-urun"
+ }
+]

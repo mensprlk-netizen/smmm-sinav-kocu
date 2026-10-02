@@ -1,0 +1,562 @@
+[
+ {
+  "id": "2026-1-MAL-01",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 1,
+  "konu": "01-maliyet-kavramlari",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Büro mobilyası üreten bir işletmede ocak ayı Direkt İlk Madde ve Malzeme Giderleri 107.750 ₺, Direkt İşçilik Giderleri 31.000 ₺ ve Genel Üretim Giderleri 48.000 ₺ ise İlk (Asal) Maliyet ve Dönüşüm (Şekillendirme) Maliyeti sırasıyla kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>107.750; 31.000</p>",
+   "B": "<p>107.750; 186.750</p>",
+   "C": "<p>138.750; 79.000</p>",
+   "D": "<p>138.750; 155.750</p>",
+   "E": "<p>155.750; 186.750</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    317,
+    509,
+    252
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-02",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 2,
+  "konu": "05-genel-uretim-giderleri-dagitim",
+  "ortakBilgi": null,
+  "metin": "<p>Bir ayakkabı üretim işletmesinde Ocak ayında mamullere Yüklenen (Standart) ve Gerçekleşen Genel Üretim Giderleri (GÜG) şöyledir:</p><table class=\"veri\"><tr><th></th><th class=\"n\">Değişken GÜG</th><th class=\"n\">Sabit GÜG</th><th class=\"n\">Toplam</th></tr><tr><td>Yüklenen (Standart) GÜG</td><td class=\"n\">567.368 ₺</td><td class=\"n\">611.840 ₺</td><td class=\"n\">1.179.208 ₺</td></tr><tr><td>Gerçekleşen GÜG</td><td class=\"n\">532.218 ₺</td><td class=\"n\">613.916 ₺</td><td class=\"n\">1.146.134 ₺</td></tr></table><p><strong>Buna göre değişken GÜG, Sabit GÜG ve Toplam GÜG’de fazla (+) ya da eksik (-) yüklenen tutarlar sırasıyla kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Eksik (-) 35.150, Fazla (+) 2.076, Eksik (-) 33.074</p>",
+   "B": "<p>Fazla (+) 35.150, Eksik (-) 2.076, Fazla (+) 33.074</p>",
+   "C": "<p>Fazla (+) 70.300, Eksik (-) 4.152, Eksik (+) 66.148</p>",
+   "D": "<p>Eksik (-) 567.368, Eksik (-) 611.840, Eksik (-) 1.179.208</p>",
+   "E": "<p>Fazla (+) 567.368, Fazla (+) 611.840, Fazla (+) 1.179.208</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    855,
+    529,
+    446
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-03",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 3,
+  "konu": "07-safha-maliyeti",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Safha maliyeti yöntemini uygulayan işletmelerde Eşdeğer Ürün Birimleri Tablosu neden düzenlenir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Fiziki çıktıların ürün eşdeğerlerini hesaplamak için</p>",
+   "B": "<p>Üretimdeki miktar dengesini sağlamak için</p>",
+   "C": "<p>Standart Maliyet ile Gerçek Maliyetleri karşılaştırmak için</p>",
+   "D": "<p>Dönemde Üretimine Başlanan birim sayısını hesaplamak için</p>",
+   "E": "<p>Ürün tamamlanma yüzdelerini belirlemek için</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    133,
+    521,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-04",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 4,
+  "konu": "14-faaliyet-tabanli-maliyetleme",
+  "ortakBilgi": null,
+  "metin": "<table class=\"veri\"><tr><th>Faaliyet</th><th>GÜG Yükleme Verisi</th><th class=\"n\">Bütçelenmiş GÜG (₺)</th><th class=\"n\">Bütçelenmiş İşlem Sayısı</th></tr><tr><td>Makine Ayarlama</td><td>Ayar sayısı</td><td class=\"n\">4.500.000</td><td class=\"n\">5.000</td></tr><tr><td>Kalite Kontrol</td><td>Test sayısı</td><td class=\"n\">4.800.000</td><td class=\"n\">8.000</td></tr><tr><td>İş Emirleri</td><td>İş emri sayısı</td><td class=\"n\">3.300.000</td><td class=\"n\">400</td></tr><tr><td>Makine Elleçleme</td><td>Teslim sayısı</td><td class=\"n\">3.900.000</td><td class=\"n\">750</td></tr><tr><td>TOPLAM</td><td></td><td class=\"n\">16.500.000</td><td class=\"n\"></td></tr></table><p><strong>A Üretim İşletmesi’nde bu veriler kullanılarak hesaplanan Genel Üretim Giderleri (GÜG) Yükleme Oranları’nı sırasıyla doğru olarak gösteren seçenek aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>0,2727 ₺/Ayar sayısı; 0,2909 ₺/Test sayısı; 0,2 ₺/İş emri sayısı; 0,2363 ₺/Teslim sayısı</p>",
+   "B": "<p>225 ₺/Ayar sayısı; 384 ₺/Test sayısı; 132 ₺/İş emri sayısı; 2.925 ₺/Teslim sayısı</p>",
+   "C": "<p>900 ₺/Ayar sayısı; 600 ₺/Test sayısı; 8.250 ₺/İş emri sayısı; 5.200 ₺/Teslim sayısı</p>",
+   "D": "<p>1.363,5 ₺/Ayar sayısı; 2.327,2 ₺/Test sayısı; 80 ₺/İş emri sayısı; 177,2 ₺/Teslim sayısı</p>",
+   "E": "<p>5.000 ₺/Ayar sayısı; 8.000 ₺/Test sayısı; 400 ₺/İş emri sayısı; 750 ₺/Teslim sayısı</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    669,
+    551,
+    499,
+    692
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-05",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 5,
+  "konu": "08-birlesik-yan-urun",
+  "ortakBilgi": null,
+  "metin": "<p>B Üretim İşletmesi’nde döneme ilişkin Ortak Maliyet 19.500 ₺’dir. Ayrılma noktasında A mamulü 800 kg, B mamulü 500 kg’dır. A mamulünün birim fiyatı 20 ₺, B mamulünün birim fiyatı 16 ₺’dir.</p><p><strong>Satış Değeri yöntemi kullanılarak dağıtılan ortak maliyetten A ve B’nin alacağı paylar sırasıyla kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>A mamulü 6.500, B mamulü 13.000</p>",
+   "B": "<p>A mamulü 8.125, B mamulü 11.375</p>",
+   "C": "<p>A mamulü 9.500, B mamulü 10.000</p>",
+   "D": "<p>A mamulü 10.000, B mamulü 9.500</p>",
+   "E": "<p>A mamulü 13.000, B mamulü 6.500</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    133,
+    519,
+    286
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-06",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 6,
+  "konu": "02-maliyet-akisi-7a-7b",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Tekdüzen Muhasebe Sistemi Uygulama Genel Tebliği 7/A Seçeneği’ne göre eşzamanlı kayıt yöntemi aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Giderlerin sadece esas üretici gider yerlerine göre kaydedilmesi</p>",
+   "B": "<p>Fonksiyonel giderlerin sadece Direkt İlk Madde ve Malzeme Giderleri’ne, Direkt İşçilik Giderleri’ne ve Genel Üretim Giderleri’ne kaydedilmesi</p>",
+   "C": "<p>Fonksiyonel gider hesaplarının altında Gider Yerleri ve Gider Türüne göre kayıt yapılması</p>",
+   "D": "<p>Giderler için sadece Direkt İlk Madde ve Malzeme, Yarımamul, Mamul ve Ticari Mallara kayıt yapılması</p>",
+   "E": "<p>Giderler için sadece Endirekt Madde, Endirekt İşçilik ve Enerji giderlerine kayıt yapılması</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    593,
+    518,
+    339
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-07",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 7,
+  "konu": "10-maliyet-hacim-kar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi Maliyet-Hacim-Kâr analizlerinin dayandığı varsayımlardan biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Satış fiyatı sabittir.</p>",
+   "B": "<p>Maliyet fonksiyonları ve satış fiyatı gerçektir.</p>",
+   "C": "<p>Üretimin teknik verimliliği sabit kalır.</p>",
+   "D": "<p>Maliyetleri etkileyen tek faktör üretim hacmidir.</p>",
+   "E": "<p>Giderler, değişken ve sabit olarak ayrılmaz.</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    1134,
+    489,
+    188
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-08",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 8,
+  "konu": "02-maliyet-akisi-7a-7b",
+  "ortakBilgi": null,
+  "metin": "<ul><li>Dönemsonu Mamul Stok: 10.000 ₺</li><li>Dönembaşı Mamul Stok: 12.000 ₺</li><li>Dönembaşı Yarımamul Stok: 7.000 ₺</li><li>Genel Yönetim Giderleri: 8.000 ₺</li><li>Finansman Giderleri: 17.000 ₺</li><li>Genel Üretim Giderleri: 11.000 ₺</li><li>Pazarlama, Satış ve Dağıtım Giderleri: 6.000 ₺</li><li>Net Satışlar: 50.000 ₺</li><li>Dönemde Üretilen Mamuller Maliyeti: 20.000 ₺</li></ul><p><strong>Yukarıdaki verilere göre C Üretim İşletmesi’nde döneme ilişkin Satılan Mamuller Maliyeti kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>17.000</p>",
+   "B": "<p>18.000</p>",
+   "C": "<p>22.000</p>",
+   "D": "<p>30.000</p>",
+   "E": "<p>33.000</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    648,
+    133,
+    478,
+    411
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-09",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 9,
+  "konu": "03-direkt-ilk-madde-malzeme",
+  "ortakBilgi": null,
+  "metin": "<table class=\"veri\"><tr><th></th><th class=\"n\">Dönembaşı</th><th class=\"n\">Dönemsonu</th></tr><tr><td>Direkt İlk Madde ve Malzeme Stok</td><td class=\"n\">8.000 ₺</td><td class=\"n\">10.000 ₺</td></tr><tr><td>Yarımamul Stok</td><td class=\"n\">6.000 ₺</td><td class=\"n\">4.000 ₺</td></tr><tr><td>Mamul Stok</td><td class=\"n\">2.000 ₺</td><td class=\"n\">8.000 ₺</td></tr></table><p>Döneme ilişkin direkt ilk madde ve malzeme alımları 12.000 ₺, direkt işçilik giderleri 2.000 ₺, genel üretim giderleri 14.000 ₺’dir.</p><p><strong>Yukarıdaki verilere göre D Üretim İşletmesi’nde döneme ilişkin direkt ilk madde ve malzeme giderleri kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>10.000</p>",
+   "B": "<p>12.000</p>",
+   "C": "<p>20.000</p>",
+   "D": "<p>28.000</p>",
+   "E": "<p>30.000</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    669,
+    926,
+    473,
+    378
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-10",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 10,
+  "konu": "01-maliyet-kavramlari",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi maliyet muhasebesinin amaçlarından biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>İşletmede kontrol faaliyetlerine yardımcı olmak</p>",
+   "B": "<p>Üretilen mamullerin birim maliyetini hesaplamak</p>",
+   "C": "<p>İşletmede planlama faaliyetlerine yardımcı olmak</p>",
+   "D": "<p>Yönetsel kararların verilmesine yardımcı olmak</p>",
+   "E": "<p>İşletmenin ortaklık yapısı ile ilgili karar vermek</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    133,
+    467,
+    188
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-11",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 11,
+  "konu": "02-maliyet-akisi-7a-7b",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Üretilen mamulün maliyetinin hesaplanmasında aşağıdaki formüllerden hangisinden yararlanılır?</strong></p>",
+  "secenekler": {
+   "A": "<p>Dönembaşı Direkt İlk Madde ve Malzeme Stok + Dönemiçi Direkt İlk Madde ve Malzeme Alımları + Dönemsonu Direkt İlk Madde ve Malzeme Stok</p>",
+   "B": "<p>Dönembaşı Mamul Stok + Direkt İlk Madde ve Malzeme Giderleri + Direkt İşçilik Giderleri + Genel Üretim Giderleri - Dönemsonu Yarımamul Stok</p>",
+   "C": "<p>Dönembaşı Yarımamul Stok + Direkt İlk Madde ve Malzeme Giderleri + Direkt İşçilik Giderleri + Genel Üretim Giderleri + Dönemsonu Mamul Stok</p>",
+   "D": "<p>Dönembaşı Yarımamul Stok + Direkt İlk Madde ve Malzeme Giderleri + Direkt İşçilik Giderleri + Genel Üretim Giderleri - Dönemsonu Yarımamul Stok</p>",
+   "E": "<p>Dönembaşı Ticari Mal Stok + Dönemiçi Ticari Mal Alımları + Dönemsonu Ticari Mal Stok</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    467,
+    524,
+    382
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-12",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 12,
+  "konu": "05-genel-uretim-giderleri-dagitim",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdaki seçeneklerin hangisinde yer alan örnekler genel üretim giderleri kapsamındadır?</strong></p>",
+  "secenekler": {
+   "A": "<p>Endirekt işçilik, makine yağları tüketimi, hammadde (direkt madde) tüketimi</p>",
+   "B": "<p>Temizlik malzemesi tüketimi, direkt işçilik giderleri, su giderleri</p>",
+   "C": "<p>Bakım onarım malzemeleri tüketimi, direkt işçilik giderleri, amortisman giderleri</p>",
+   "D": "<p>Elektrik giderleri, amortisman giderleri, sarf malzemesi (endirekt madde) giderleri</p>",
+   "E": "<p>Hammadde (direkt madde) tüketimi, üretimle ilgili finansman giderleri, vergi, resim ve harçlar</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    1022,
+    512,
+    295
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-13",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 13,
+  "konu": "03-direkt-ilk-madde-malzeme",
+  "ortakBilgi": null,
+  "metin": "<p><strong>İşletmelerde her hammadde ve malzeme satın alma ve stoklara giriş işleminden sonra yeni birim maliyetin hesaplanmasına imkan tanıyan stok değerleme yöntemi aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Tartılı Ortalama Maliyet Yöntemi</p>",
+   "B": "<p>Hareketli Ortalama Maliyet Yöntemi</p>",
+   "C": "<p>İlk Giren İlk Çıkar Yöntemi</p>",
+   "D": "<p>Standart Maliyet Yöntemi</p>",
+   "E": "<p>Son Giren İlk Çıkar Yöntemi</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    133,
+    518,
+    231
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-14",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 14,
+  "konu": "02-maliyet-akisi-7a-7b",
+  "ortakBilgi": null,
+  "metin": "<p>Bir hizmet üretim işletmesinde dönem sonunda 740 Hizmet Üretim Maliyeti hesabının borç kalanı 2.000 ₺’dir.</p><p><strong>Bu maliyetin gelir tablosuna aktarılması ve ilgili dönem sonu kaydı aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<table class=\"yevmiye\"><tr><td>622 SATILAN HİZMET MALİYETİ</td><td class=\"n\">2.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">741 HİZMET ÜRETİM MALİYETİ YANSITMA HESABI</td><td class=\"n\"></td><td class=\"n\">2.000</td></tr></table><table class=\"yevmiye\"><tr><td>741 HİZMET ÜRETİM MALİYETİ YANSITMA HESABI</td><td class=\"n\">2.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">740 HİZMET ÜRETİM MALİYETİ</td><td class=\"n\"></td><td class=\"n\">2.000</td></tr></table>",
+   "B": "<table class=\"yevmiye\"><tr><td>620 SATILAN MAMULLER MALİYETİ</td><td class=\"n\">2.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">741 HİZMET ÜRETİM MALİYETİ YANSITMA HESABI</td><td class=\"n\"></td><td class=\"n\">2.000</td></tr></table><table class=\"yevmiye\"><tr><td>741 HİZMET ÜRETİM MALİYETİ YANSITMA HESABI</td><td class=\"n\">2.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">740 HİZMET ÜRETİM MALİYETİ</td><td class=\"n\"></td><td class=\"n\">2.000</td></tr></table>",
+   "C": "<table class=\"yevmiye\"><tr><td>740 HİZMET ÜRETİM MALİYETİ</td><td class=\"n\">2.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">741 HİZMET ÜRETİM MALİYETİ YANSITMA HESABI</td><td class=\"n\"></td><td class=\"n\">2.000</td></tr></table><table class=\"yevmiye\"><tr><td>741 HİZMET ÜRETİM MALİYETİ YANSITMA HESABI</td><td class=\"n\">2.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">740 HİZMET ÜRETİM MALİYETİ</td><td class=\"n\"></td><td class=\"n\">2.000</td></tr></table>",
+   "D": "<table class=\"yevmiye\"><tr><td>622 SATILAN HİZMET MALİYETİ</td><td class=\"n\">2.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">740 HİZMET ÜRETİM MALİYETİ</td><td class=\"n\"></td><td class=\"n\">2.000</td></tr></table><table class=\"yevmiye\"><tr><td>740 HİZMET ÜRETİM MALİYETİ</td><td class=\"n\">2.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">741 HİZMET ÜRETİM MALİYETİ YANSITMA HESABI</td><td class=\"n\"></td><td class=\"n\">2.000</td></tr></table>",
+   "E": "<table class=\"yevmiye\"><tr><td>740 HİZMET ÜRETİM MALİYETİ</td><td class=\"n\">2.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">741 HİZMET ÜRETİM MALİYETİ YANSITMA HESABI</td><td class=\"n\"></td><td class=\"n\">2.000</td></tr></table><table class=\"yevmiye\"><tr><td>741 HİZMET ÜRETİM MALİYETİ YANSITMA HESABI</td><td class=\"n\">2.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">622 SATILAN HİZMET MALİYETİ</td><td class=\"n\"></td><td class=\"n\">2.000</td></tr></table>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    501,
+    548,
+    1050
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-15",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 15,
+  "konu": "07-safha-maliyeti",
+  "ortakBilgi": null,
+  "metin": "<p>Safha maliyeti yöntemini uygulayan bir endüstri işletmesinde cari dönemde Dönembaşı Yarımamul Stoku 10.000 br, Dönemde Üretimine Başlanan miktar 250.000 br, Dönemsonu Yarımamul Stoku 29.000 br, Fire miktarı 1.000 br’dir.</p><p><strong>Buna göre İlk Giren İlk Çıkar yöntemini kullanarak hesaplanan Dönemde Tamamlanıp Devrolunan miktar ve Dönemde Üretimine Başlanıp Tamamlanan miktar aşağıdakilerden hangisinde sırasıyla doğru olarak verilmiştir?</strong></p>",
+  "secenekler": {
+   "A": "<p>200.000; 220.000</p>",
+   "B": "<p>220.000; 220.000</p>",
+   "C": "<p>230.000; 250.000</p>",
+   "D": "<p>230.000; 220.000</p>",
+   "E": "<p>250.000; 220.000</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    133,
+    538,
+    373
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-16",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 16,
+  "konu": "05-genel-uretim-giderleri-dagitim",
+  "ortakBilgi": null,
+  "metin": "<p>D Endüstri İşletmesi’nde Mart ayında düzenlenen Genel Üretim Gideri Dağıtım Tablosu II. Toplamları; A Ana Üretici Gider Yeri’nde 28.750.000 ₺, B Ana Üretici Gider Yeri’nde 39.750.000 ₺’dir.</p><p>İşletmede Genel Üretim Gideri yükleme anahtarları A ve B için sırasıyla Direkt İlk Madde ve Malzeme miktarı (hammadde miktarı) ve Direkt İşçilik Saati (DİS)’dir. Bu ayda 500.000 kg Direkt İlk Madde ve Malzeme (hammadde) kullanılmış ve 300.000 Direkt İşçilik Saatlik üretim yapılmıştır.</p><p><strong>A ve B Ana Üretici Gider Yerleri’nde Genel Üretim Gideri yükleme katsayıları sırasıyla aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>57,5 ₺/kg ; 75 ₺/DİS</p>",
+   "B": "<p>57,5 ₺/kg ; 132,5 ₺/DİS</p>",
+   "C": "<p>57,5 ₺/kg ; 157,5 ₺/DİS</p>",
+   "D": "<p>157,5 ₺/kg ; 75 ₺/DİS</p>",
+   "E": "<p>157,5 ₺/kg ; 132,5 ₺/DİS</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    846,
+    524,
+    450
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-17",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 17,
+  "konu": "08-birlesik-yan-urun",
+  "ortakBilgi": null,
+  "metin": "<p>E Endüstri İşletmesi’nde Yan Ürün maliyeti, “Satış Fiyatından Geriye Doğru Hesaplama Yöntemi” kullanılarak hesaplanmaktadır. İşletmede Ortak Maliyet 5.000.000 ₺, yan ürün satış tutarı 250.000 ₺, satış tutarı üzerinden yan ürün kârlılığı %20, yan ürünün satışa hazır hale gelmesi için ek maliyet 50.000 ₺’dir.</p><p><strong>İşletmede yan ürünlere ve ana ürüne yüklenecek toplam maliyetler aşağıdakilerden hangisinde sırasıyla doğru olarak verilmiştir?</strong></p>",
+  "secenekler": {
+   "A": "<p>200.000 ₺, 4.800.000 ₺</p>",
+   "B": "<p>250.000 ₺, 4.750.000 ₺</p>",
+   "C": "<p>275.000 ₺, 4.725.000 ₺</p>",
+   "D": "<p>300.000 ₺, 4.700.000 ₺</p>",
+   "E": "<p>350.000 ₺, 4.650.000 ₺</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    133,
+    522,
+    351
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-18",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 18,
+  "konu": "08-birlesik-yan-urun",
+  "ortakBilgi": null,
+  "metin": "<p>F Endüstri İşletmesi’nde mart ayında üretilen mamullerle ilgili ortak giderler 1.600.000 ₺’dir. Üretilen ortak mamullerin miktar bilgileri şöyledir:</p><table class=\"veri\"><tr><th>Mamuller</th><th class=\"n\">Katsayılar</th><th class=\"n\">Üretim Miktarı</th></tr><tr><td>A</td><td class=\"n\">5</td><td class=\"n\">1.000 br</td></tr><tr><td>B</td><td class=\"n\">4</td><td class=\"n\">2.000 br</td></tr><tr><td>C</td><td class=\"n\">1</td><td class=\"n\">3.000 br</td></tr></table><p><strong>“Katsayılı Bölme Yöntemi” kullanılarak hesaplanan ortak mamullerin her birinin maliyeti aşağıdakilerden hangisinde sırasıyla doğru olarak gösterilmiştir?</strong></p>",
+  "secenekler": {
+   "A": "<p>400.000 ₺, 900.000 ₺, 300.000 ₺</p>",
+   "B": "<p>500.000 ₺, 800.000 ₺, 300.000 ₺</p>",
+   "C": "<p>500.000 ₺, 900.000 ₺, 200.000 ₺</p>",
+   "D": "<p>500.000 ₺, 950.000 ₺, 150.000 ₺</p>",
+   "E": "<p>700.000 ₺, 800.000 ₺, 100.000 ₺</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    852,
+    531,
+    440
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-19",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 19,
+  "konu": "02-maliyet-akisi-7a-7b",
+  "ortakBilgi": null,
+  "metin": "<p><strong>AB Ticaret İşletmesi’nde mart ayında Ticari Mal Alımları 3.000.000 ₺, Dönembaşı Ticari Mal Stoku 800.000 ₺, Dönemsonu Ticari Mal Stoku 1.200.000 ₺, Ticari Mal Alım İadesi 200.000 ₺, Ticari Mal Alım Giderleri 100.000 ₺ ise Satılan Ticari Malların Maliyeti kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1.250.000</p>",
+   "B": "<p>2.400.000</p>",
+   "C": "<p>2.500.000</p>",
+   "D": "<p>2.700.000</p>",
+   "E": "<p>3.000.000</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    57,
+    133,
+    530,
+    169
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MAL-20",
+  "donem": "2026-1",
+  "ders": "MAL",
+  "no": 20,
+  "konu": "08-birlesik-yan-urun",
+  "ortakBilgi": null,
+  "metin": "<p>AC Endüstri İşletmesi’nde ortak maliyet 5.000 ₺’dir. Ayrılma noktasında A ve C ortak mamulleri elde edilmiştir. İşletmede A mamulü 20 ₺ ek maliyet ile 620 ₺’ye, C mamulü 30 ₺ ek maliyet ile 230 ₺’ye satılmaktadır.</p><p><strong>Net Satış Değeri yöntemi kullanıldığında A ve C ortak mamullerinin birim maliyetleri sırasıyla aşağıdakilerden hangisinde doğru olarak verilmiştir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1.250 ₺, 3.750 ₺</p>",
+   "B": "<p>2.500 ₺, 2.500 ₺</p>",
+   "C": "<p>2.750 ₺, 2.250 ₺</p>",
+   "D": "<p>3.750 ₺, 1.250 ₺</p>",
+   "E": "<p>4.000 ₺, 1.000 ₺</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    57,
+    732,
+    530,
+    308
+   ]
+  }
+ }
+]
