@@ -12,7 +12,10 @@ export function sinavaKalanGun(now, examDate) {
 export function dailyCounter(prev, today) {
   return prev && prev.tarih === today ? { ...prev } : { tarih: today, sayac: 0 };
 }
-export const todayKey = (now = Date.now()) => new Date(now).toISOString().slice(0, 10);
+export const todayKey = (now = Date.now()) => {
+  const d = new Date(now);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+};
 
 export function gunlukPlan({ hedefSaat = 1.5, vadesiGelen = 0, sinavaKalanGun: gun = 60, dersIstatistik = [] }) {
   const sorted = [...dersIstatistik].sort((a, b) => {
