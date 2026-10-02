@@ -1,0 +1,534 @@
+[
+ {
+  "id": "2026-2-MAL-01",
+  "sonuc": "C",
+  "ozet": "Genel üretim giderleri, üretimle ilgili olup mamule doğrudan izlenemeyen giderlerdir; elektrik, amortisman ve sarf malzemesi giderleri bu niteliktedir, direkt ilk madde ve malzeme ile direkt işçilik ise GÜG değildir.",
+  "adimlar": [
+   "<p><strong>1. Tanım.</strong> Üretim maliyeti üç unsurdan oluşur: Direkt İlk Madde ve Malzeme (DİMM), Direkt İşçilik (Dİ) ve Genel Üretim Giderleri (GÜG). GÜG, üretimle ilgili olan ama belirli bir mamule doğrudan ve ekonomik biçimde izlenemeyen giderlerin toplamıdır: endirekt malzeme (sarf/işletme malzemesi), endirekt işçilik, fabrika binası ve makinelerinin amortismanı, enerji (elektrik, su, doğalgaz), bakım onarım, sigorta, kira gibi.</p>",
+   "<p><strong>2. Eleme kuralı.</strong> İçinde DİMM ya da Dİ geçen bir şık, bu iki kalem GÜG'nin değil ayrı birer maliyet unsurunun parçası olduğu için doğru olamaz. A ve D'de direkt işçilik, B'de direkt ilk madde ve malzeme, E'de ikisi birden var.</p>",
+   "<p><strong>3. Doğru şık.</strong> C'deki elektrik gideri (enerji), amortisman gideri ve sarf malzemesi gideri (endirekt malzeme) üçü de GÜG kalemidir. Cevap <strong>C</strong>.</p>"
+  ],
+  "dayanak": "Maliyet unsurlarının sınıflandırılması: direkt ilk madde ve malzeme, direkt işçilik ve genel üretim giderleri (7/A'da 710, 720, 730 hesapları).",
+  "tuzaklar": {
+   "A": "Bakım onarım ve amortisman GÜG'dür, ancak direkt işçilik ayrı bir maliyet unsurudur (720), GÜG'ye girmez.",
+   "B": "Endirekt işçilik ve sarf malzemesi GÜG'dür, ancak direkt ilk madde ve malzeme ayrı bir unsurdur (710).",
+   "D": "Sarf malzemesi ve su gideri GÜG'dür, ancak direkt işçilik GÜG değildir.",
+   "E": "Direkt ilk madde ve malzeme ile direkt işçilik direkt giderlerdir; şıkta yalnız memur ücret ve gideri (üretimle ilgiliyse) GÜG sayılabilir."
+  },
+  "kartlar": [
+   {
+    "on": "Genel üretim gideri (GÜG) nedir?",
+    "arka": "Üretimle ilgili olup mamule doğrudan izlenemeyen giderler: endirekt malzeme, endirekt işçilik, amortisman, enerji, bakım onarım vb. DİMM ve Dİ GÜG'ye girmez."
+   },
+   {
+    "on": "Üretim maliyetinin üç unsuru?",
+    "arka": "Direkt ilk madde ve malzeme (710) + Direkt işçilik (720) + Genel üretim giderleri (730)."
+   }
+  ],
+  "konuBaglantisi": "05-genel-uretim-giderleri-dagitim"
+ },
+ {
+  "id": "2026-2-MAL-02",
+  "sonuc": "D",
+  "ozet": "Kusurlu mamuller, ek bir işlem (ek maliyet) ile birinci kalite mamul niteliğine getirilebilen mamullerdir; bozuk mamuller ise birinci kaliteye dönüştürülemez.",
+  "adimlar": [
+   "<p><strong>1. Üretim kayıpları.</strong> Üretim sürecinde ortaya çıkan kayıplar başlıca fire, artık, bozuk mamul ve kusurlu mamuldür.</p>",
+   "<p><strong>2. Tanımlar.</strong> <em>Fire:</em> hammaddenin buharlaşma, kesim, kırılma gibi nedenlerle miktarca kaybolan, geri kazanılamayan kısmı. <em>Artık:</em> üretimde hammaddeden geriye kalan talaş, kırpıntı gibi parçalar; satılabilir ya da başka işte kullanılabilir ama mamul niteliği yoktur. <em>Bozuk mamul:</em> kalite standartlarına uymayan ve ek işlemle de birinci kalite mamule dönüştürülemeyen (ya da dönüştürülmesi ekonomik olmayan) mamul; olduğu gibi düşük fiyatla satılır ya da hurdaya ayrılır. <em>Kusurlu mamul:</em> standartlara uymayan, ancak ek bir işçilik, malzeme ve GÜG harcanarak birinci kalite mamul haline getirilebilen mamul.</p>",
+   "<p><strong>3. Uygulama.</strong> Soru 'ek bir işleme tabi tutularak birinci kalite mamul niteliğine dönüştürülebilen' kaybı soruyor; bu tanım kusurlu mamule aittir. Cevap <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Üretim kayıpları: fire, artık, bozuk mamul ve kusurlu mamul tanımları.",
+  "tuzaklar": {
+   "A": "Bozuk mamule yok etme maliyeti eklemek onu birinci kaliteye dönüştürmez; bu, bozuk mamulün elden çıkarılmasıyla ilgili bir maliyettir.",
+   "B": "Bozuk mamul, ek işlemle birinci kaliteye getirilemeyen mamuldür; kusurlu mamulle karıştırılmaması gerekir.",
+   "C": "Artıklar hammaddeden kalan parçalardır; mamul niteliği taşımaz, birinci kalite mamule dönüştürülmez.",
+   "E": "Fire miktarca yok olan kayıptır; geri kazanılamaz."
+  },
+  "kartlar": [
+   {
+    "on": "Kusurlu mamul ile bozuk mamul farkı?",
+    "arka": "Kusurlu mamul ek işlemle birinci kalite mamule dönüştürülebilir; bozuk mamul dönüştürülemez (olduğu gibi satılır veya hurdaya ayrılır)."
+   },
+   {
+    "on": "Fire ile artık farkı?",
+    "arka": "Fire miktarca yok olan, geri kazanılamayan kayıptır; artık ise hammaddeden geriye kalan, satılabilen veya kullanılabilen parçalardır."
+   }
+  ],
+  "konuBaglantisi": "01-maliyet-kavramlari"
+ },
+ {
+  "id": "2026-2-MAL-03",
+  "sonuc": "A",
+  "ozet": "Zaman sapması = (2.500 − 2.400) × 210 = 21.000 ₺ olumsuz; ücret sapması = (200 − 210) × 2.500 = −25.000 ₺, yani 25.000 ₺ olumlu.",
+  "adimlar": [
+   "<p><strong>1. Veriler.</strong> Fiili süre (FS) 2.500 DİS, fiili ücret (FÜ) 200 ₺/saat; planlanan (standart) süre (SS) 2.400 DİS, standart ücret (SÜ) 210 ₺/saat.</p>",
+   "<p><strong>2. Formüller.</strong> Zaman (süre, verimlilik) sapması = (FS − SS) × SÜ. Ücret (fiyat) sapması = (FÜ − SÜ) × FS. Sonuç pozitifse fiili maliyet standardı aşmıştır: <em>olumsuz</em>; negatifse <em>olumlu</em>.</p>",
+   "<p><strong>3. Zaman sapması.</strong> (2.500 − 2.400) × 210 = 100 × 210 = <strong>21.000 ₺ olumsuz</strong> (planlanandan 100 saat fazla çalışıldı).</p>",
+   "<p><strong>4. Ücret sapması.</strong> (200 − 210) × 2.500 = −10 × 2.500 = −25.000 ₺ → <strong>25.000 ₺ olumlu</strong> (saat başına 10 ₺ daha düşük ücret ödendi).</p>",
+   "<p><strong>5. Sağlama.</strong> Fiili Dİ maliyeti 2.500 × 200 = 500.000 ₺; standart Dİ maliyeti 2.400 × 210 = 504.000 ₺. Toplam sapma 500.000 − 504.000 = −4.000 ₺ (olumlu) = 21.000 − 25.000. Cevap <strong>A</strong>.</p>"
+  ],
+  "dayanak": "Standart maliyet sistemi, direkt işçilik sapmaları: zaman (süre) sapması ve ücret (fiyat) sapması (7/A'da 723 Direkt İşçilik Süre Farkları, 722 Direkt İşçilik Ücret Farkları).",
+  "tuzaklar": {
+   "B": "Tutarlar doğru, yönler ters: standarttan fazla süre olumsuz, standarttan düşük ücret olumludur.",
+   "C": "Ücret sapması olumsuz gösterilmiş; fiili ücret (200) standart ücretten (210) düşük olduğundan sapma olumludur.",
+   "D": "Zaman sapması olumlu gösterilmiş; fiili süre (2.500) planlanan süreyi (2.400) aştığından sapma olumsuzdur.",
+   "E": "Tutarlar yer değiştirmiş: zaman sapması 21.000 ₺, ücret sapması 25.000 ₺'dir."
+  },
+  "kartlar": [
+   {
+    "on": "Dİ zaman (süre) sapması formülü?",
+    "arka": "(Fiili süre − Standart süre) × Standart ücret. Pozitifse olumsuz."
+   },
+   {
+    "on": "Dİ ücret sapması formülü?",
+    "arka": "(Fiili ücret − Standart ücret) × Fiili süre. Negatifse olumlu."
+   }
+  ],
+  "konuBaglantisi": "09-standart-maliyet-sapma"
+ },
+ {
+  "id": "2026-2-MAL-04",
+  "sonuc": "E",
+  "ozet": "Standart maliyet sistemi ayrıntılı teknik ve mühendislik çalışmaları gerektirdiğinden her işletmede kurulması ve uygulanması kolay değildir; E yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Standart maliyet sistemi.</strong> Üretimden önce, mamul birimi başına DİMM miktarı ve fiyatı, Dİ süresi ve ücreti, GÜG yükleme oranı bilimsel yöntemlerle (zaman etüdleri, mühendislik çalışmaları, bütçeler) belirlenir; fiili maliyetler bu standartlarla karşılaştırılıp sapmalar analiz edilir.</p>",
+   "<p><strong>2. Sağladığı yararlar.</strong> Dİ'nin süre ve ücret olarak, DİMM'nin miktar ve fiyat olarak ayrı ayrı kontrol edilmesine (A, B), planlama ve bütçelemeye (C) ve sapmaların yönetimin dikkatine sunulmasıyla istisnalarla yönetime (D) imkân verir. Bu ifadeler doğrudur.</p>",
+   "<p><strong>3. Sınırlılığı.</strong> Standartların belirlenmesi uzmanlık, zaman ve maliyet gerektirir; üretimi tekrar etmeyen, her siparişi farklı olan ya da küçük işletmelerde standart belirlemek güçtür ve standartların sürekli güncellenmesi gerekir. Bu yüzden 'her işletmede kurulması ve uygulanması kolaydır' ifadesi yanlıştır. Cevap <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Standart maliyet sisteminin amaçları, yararları ve sınırlılıkları.",
+  "tuzaklar": {
+   "A": "Doğru bir ifade: Dİ sapması zaman (süre) ve ücret sapması olarak ayrılarak kontrol edilir.",
+   "B": "Doğru bir ifade: DİMM sapması miktar ve fiyat sapması olarak ayrılarak kontrol edilir.",
+   "C": "Doğru bir ifade: standartlar bütçe hazırlamanın ve planlamanın temelini oluşturur.",
+   "D": "Doğru bir ifade: sapmalar sorunlu alanları gösterir (istisnalarla yönetim) ve düzeltici önlem almayı kolaylaştırır."
+  },
+  "kartlar": [
+   {
+    "on": "Standart maliyet sisteminin temel sınırlılığı?",
+    "arka": "Standartların belirlenmesi ve güncel tutulması uzmanlık, zaman ve maliyet ister; her işletmede kurulması kolay değildir."
+   }
+  ],
+  "konuBaglantisi": "09-standart-maliyet-sapma"
+ },
+ {
+  "id": "2026-2-MAL-05",
+  "sonuc": "B",
+  "ozet": "Üretilen mamul maliyeti 2.000 × 100 = 200.000 ₺ = 120.000 + Dİ + 130.000 + 20.000 − 100.000 eşitliğinden direkt işçilik 30.000 ₺ bulunur.",
+  "adimlar": [
+   "<p><strong>1. Formül.</strong> Üretilen Mamul Maliyeti = DİMM + Dİ + GÜG + Dönem başı yarı mamul − Dönem sonu yarı mamul.</p>",
+   "<p><strong>2. Üretilen mamul maliyeti.</strong> 2.000 br × 100 ₺ = <strong>200.000 ₺</strong>.</p>",
+   "<p><strong>3. Denklem.</strong> 200.000 = 120.000 + Dİ + 130.000 + 20.000 − 100.000 = 170.000 + Dİ.</p>",
+   "<p><strong>4. Direkt işçilik.</strong> Dİ = 200.000 − 170.000 = <strong>30.000 ₺</strong>.</p>",
+   "<p><strong>5. Sağlama.</strong> Dönemin üretim giderleri 120.000 + 30.000 + 130.000 = 280.000 ₺; + 20.000 − 100.000 = 200.000 ₺ = 2.000 × 100. Cevap <strong>B</strong>.</p>"
+  ],
+  "dayanak": "Üretilen mamul maliyeti formülü: dönem üretim giderleri ± yarı mamul stok değişimi.",
+  "tuzaklar": {
+   "A": "20.000 ₺ dönem başı yarı mamul stokudur, direkt işçilik değil.",
+   "C": "80.000 ₺ yarı mamul stokundaki artıştır (100.000 − 20.000); direkt işçilik değildir.",
+   "D": "200.000 ₺ üretilen mamul maliyetidir (2.000 × 100).",
+   "E": "280.000 ₺ dönemin toplam üretim giderleridir (DİMM + Dİ + GÜG = 120.000 + 30.000 + 130.000)."
+  },
+  "kartlar": [
+   {
+    "on": "Üretilen mamul maliyeti formülü?",
+    "arka": "DİMM + Dİ + GÜG + Dönem başı yarı mamul − Dönem sonu yarı mamul."
+   }
+  ],
+  "konuBaglantisi": "02-maliyet-akisi-7a-7b"
+ },
+ {
+  "id": "2026-2-MAL-06",
+  "sonuc": "A",
+  "ozet": "Finansal muhasebe öncelikle işletme dışı bilgi kullanıcılarına (ortaklar, yatırımcılar, kredi verenler, devlet) bilgi sağlar; 'sadece işletme içi' ifadesi yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Muhasebe bilgi sistemi.</strong> Muhasebe bilgi sistemi, işletmenin finansal nitelikteki verilerini toplayan, kaydeden, sınıflandıran, özetleyen ve rapor eden bir sistemdir (C). Bilgi teknolojileriyle yakından ilgilidir (B) ve işletmenin yönetim bilgi sisteminin bir alt sistemi olarak kabul edilir (E).</p>",
+   "<p><strong>2. Alt sistemler.</strong> Muhasebe bilgi sisteminin finansal muhasebe, maliyet muhasebesi ve yönetim muhasebesi alt sistemleri vardır (D).</p>",
+   "<p><strong>3. Finansal muhasebenin kullanıcıları.</strong> Finansal muhasebe genel kabul görmüş ilkelere ve yasal düzenlemelere göre hazırlanan finansal tablolarla başta işletme dışındakiler (ortaklar, yatırımcılar, kredi kuruluşları, devlet, çalışanlar) olmak üzere tüm ilgililere bilgi sunar. İşletme içi yönetime yönelik bilgi ağırlıkla maliyet ve yönetim muhasebesinin alanıdır. A'daki 'sadece işletme içi' ifadesi yanlıştır. Cevap <strong>A</strong>.</p>"
+  ],
+  "dayanak": "Muhasebe bilgi sistemi ve alt sistemleri (finansal, maliyet ve yönetim muhasebesi); finansal muhasebenin dış kullanıcılara yönelik olması.",
+  "tuzaklar": {
+   "B": "Doğru bir ifade: muhasebe bilgi sistemi bilgi teknolojileriyle iç içedir.",
+   "C": "Doğru bir ifade: toplama, kaydetme, özetleme ve raporlama muhasebenin temel işlevleridir.",
+   "D": "Doğru bir ifade: maliyet ve yönetim muhasebesi muhasebe bilgi sisteminin alt sistemleridir.",
+   "E": "Doğru bir ifade: muhasebe bilgi sistemi yönetim bilgi sisteminin bir alt sistemidir."
+  },
+  "kartlar": [
+   {
+    "on": "Finansal muhasebe kimler için bilgi üretir?",
+    "arka": "Başta işletme dışı kullanıcılar (ortaklar, yatırımcılar, kredi verenler, devlet) olmak üzere tüm ilgililer için; yalnız iç kullanıcılar için değil."
+   }
+  ],
+  "konuBaglantisi": "01-maliyet-kavramlari"
+ },
+ {
+  "id": "2026-2-MAL-07",
+  "sonuc": "B",
+  "ozet": "GÜG = endirekt madde 100.000 + endirekt işçilik 50.000 + elektrik su doğalgaz 200.000 + çeşitli GÜG 50.000 + amortisman 150.000 = 550.000 ₺; birim başına 550.000 / 10.000 = 55 ₺.",
+  "adimlar": [
+   "<p><strong>1. Ayırma.</strong> Direkt ilk madde ve malzeme (1.000.000 ₺) ve direkt işçilik (500.000 ₺) direkt giderlerdir, GÜG'ye girmez. Geri kalan kalemler mamule doğrudan izlenemeyen üretim giderleridir.</p>",
+   "<p><strong>2. GÜG toplamı.</strong> 100.000 (endirekt madde) + 50.000 (endirekt işçilik) + 200.000 (elektrik su doğalgaz) + 50.000 (çeşitli GÜG) + 150.000 (makine amortismanı) = <strong>550.000 ₺</strong>.</p>",
+   "<p><strong>3. Birim GÜG.</strong> 550.000 / 10.000 br = <strong>55 ₺/br</strong>. Cevap <strong>B</strong>.</p>"
+  ],
+  "dayanak": "Maliyet unsurlarının sınıflandırılması; GÜG'nin kapsamı.",
+  "tuzaklar": {
+   "A": "50 ₺ = 500.000 / 10.000; ya GÜG'den bir kalem (örneğin 50.000 ₺'lik endirekt işçilik) eksik alınmış ya da direkt işçiliğin birim tutarı hesaplanmıştır.",
+   "C": "105 ₺ = (500.000 + 550.000) / 10.000; direkt işçilik GÜG'ye katılmış, bu birim dönüştürme maliyetidir.",
+   "D": "150 ₺ = (1.000.000 + 500.000) / 10.000; birim ilk (asal) maliyettir.",
+   "E": "205 ₺ = 2.050.000 / 10.000; tüm üretim giderlerinin birim tutarıdır (birim üretim maliyeti)."
+  },
+  "kartlar": [
+   {
+    "on": "Endirekt madde ve endirekt işçilik hangi maliyet unsurundadır?",
+    "arka": "Genel üretim giderlerinde (GÜG)."
+   }
+  ],
+  "konuBaglantisi": "05-genel-uretim-giderleri-dagitim"
+ },
+ {
+  "id": "2026-2-MAL-08",
+  "sonuc": "B",
+  "ozet": "Satışların maliyeti; satılan mamuller, satılan ticari mallar, satılan hizmet ve diğer satışların maliyetinden oluşur; satıştan indirimler maliyet değil brüt satışlardan indirilen bir kalemdir.",
+  "adimlar": [
+   "<p><strong>1. Satışların maliyeti kapsamı.</strong> Tekdüzen Hesap Planında 62 Satışların Maliyeti grubu 620 Satılan Mamuller Maliyeti, 621 Satılan Ticari Mallar Maliyeti, 622 Satılan Hizmet Maliyeti ve 623 Diğer Satışların Maliyeti hesaplarından oluşur. Gelir tablosunda 'C. Satışların Maliyeti (−)' başlığı da bu dört kalemi gösterir. Satışların maliyeti tablosu, bu kalemin nasıl oluştuğunu ayrıntılı gösteren ek mali tablodur; I, II, III ve IV bu kapsamdadır.</p>",
+   "<p><strong>2. Satış indirimleri.</strong> Satıştan iadeler, satış iskontoları ve diğer indirimler 61 Satış İndirimleri grubunda izlenir. Gelir tablosunda ayrı bir başlık ('B. Satış İndirimleri (−)') olarak brüt satışlardan düşülür ve net satışlara ulaşılır. Bir maliyet kalemi değildir, satışların maliyeti tablosunda yer almaz.</p>",
+   "<p><strong>3. Sonuç.</strong> Yer almayan yalnızca V'tir. Cevap <strong>B</strong>.</p>"
+  ],
+  "dayanak": "Tekdüzen Hesap Planı: 62 Satışların Maliyeti (620-623) ve 61 Satış İndirimleri grupları; gelir tablosu ve satışların maliyeti tablosu.",
+  "tuzaklar": {
+   "A": "Diğer satışların maliyeti (623) satışların maliyetinin bir parçasıdır; asıl yer almayan satıştan indirimlerdir.",
+   "C": "Satılan hizmet maliyeti (622) ve diğer satışların maliyeti (623) satışların maliyeti kapsamındadır.",
+   "D": "V doğru seçilmiş, ancak IV (623 Diğer Satışların Maliyeti) satışların maliyetinin içindedir.",
+   "E": "III ve IV satışların maliyeti kapsamındadır; yalnızca V yer almaz."
+  },
+  "kartlar": [
+   {
+    "on": "62 Satışların Maliyeti grubunun hesapları?",
+    "arka": "620 Satılan Mamuller Maliyeti, 621 Satılan Ticari Mallar Maliyeti, 622 Satılan Hizmet Maliyeti, 623 Diğer Satışların Maliyeti."
+   },
+   {
+    "on": "Satış indirimleri gelir tablosunda nerede?",
+    "arka": "61 grubu; brüt satışlardan düşülerek net satışlara ulaşılır. Satışların maliyetinde yer almaz."
+   }
+  ],
+  "konuBaglantisi": "02-maliyet-akisi-7a-7b"
+ },
+ {
+  "id": "2026-2-MAL-09",
+  "sonuc": "A",
+  "ozet": "7/A'da yansıtma hesapları, fiili maliyet uygulanıyorsa gider hesaplarında toplanan giderlerin tümünü, önceden saptanmış maliyet uygulanıyorsa bu yöntemle saptanan tutarları ilgili hesaplara yansıtmak için kullanılır.",
+  "adimlar": [
+   "<p><strong>1. 7/A'nın yapısı.</strong> 7/A seçeneğinde giderler fonksiyonlarına göre ana gider hesaplarında (710, 720, 730, 740, 750, 760, 770, 780) toplanır. Her ana hesabın bir yansıtma hesabı (711, 721, 731, 741, 751, 761, 771, 781) vardır; önceden saptanmış maliyet kullanılan durumlarda ayrıca fark hesapları (örneğin 712-713, 722-723, 732-734) kullanılır.</p>",
+   "<p><strong>2. Yansıtma hesaplarının işlevi.</strong> Fiili maliyet sisteminde ana gider hesabında toplanan giderlerin <em>tümü</em>, yansıtma hesabı aracılığıyla ilgili hesaplara (151 Yarı Mamuller, 62 veya 63 grubu) aktarılır. Önceden saptanmış (standart veya tahmini) maliyet sisteminde ise bu yöntemle saptanan tutar yansıtılır; fiili tutarla arasındaki fark, fark hesaplarında izlenir.</p>",
+   "<p><strong>3. Uygulama.</strong> Bu tanımı eksiksiz veren şık A'dır. B, C ve D yansıtma hesaplarını gereksiz yere 'sadece' üretim veya faaliyet giderleriyle sınırlıyor; E ise önceden saptanmış maliyette de kullanılan yansıtma hesaplarını yok sayıyor. Cevap <strong>A</strong>.</p>"
+  ],
+  "dayanak": "Tekdüzen Muhasebe Sistemi Uygulama Genel Tebliği, 7/A seçeneği: yansıtma ve fark hesaplarının işleyişi.",
+  "tuzaklar": {
+   "B": "Fiili maliyette yansıtma hesapları yalnız üretim giderleri için değil, faaliyet ve finansman giderleri dahil tüm gider hesapları için kullanılır.",
+   "C": "Yansıtma hesapları yalnız faaliyet giderlerine özgü değildir; üretim giderlerinin de (711, 721, 731) yansıtma hesapları vardır.",
+   "D": "Önceden saptanmış maliyette de yansıtma hesapları tüm gider hesapları için kullanılır; 'sadece üretim gider hesapları' kısıtlaması yanlıştır.",
+   "E": "Önceden saptanmış maliyet yönteminde de yansıtma hesapları kullanılır; saptanan tutarlar bu hesaplarla aktarılır."
+  },
+  "kartlar": [
+   {
+    "on": "7/A'da yansıtma hesapları ne işe yarar?",
+    "arka": "Fiili maliyette gider hesaplarında toplanan giderlerin tümünü, önceden saptanmış maliyette saptanan tutarları ilgili hesaplara aktarır; dönem sonunda ana hesapla karşılıklı kapanır."
+   }
+  ],
+  "konuBaglantisi": "02-maliyet-akisi-7a-7b"
+ },
+ {
+  "id": "2026-2-MAL-10",
+  "sonuc": "E",
+  "ozet": "732 GÜG Bütçe Farkları hesabında fiili GÜG ile yüklenen önceden saptanmış GÜG arasındaki olumlu ve olumsuz farkların ikisi de izlenir; olumsuz farklar borca, olumlu farklar alacağa yazılır ve hesap dönem sonunda ilgili stok ve satış maliyeti hesaplarına aktarılarak kapatılır.",
+  "adimlar": [
+   "<p><strong>1. Hesabın niteliği.</strong> 7/A'da önceden saptanmış (standart/tahmini) maliyet uygulandığında GÜG farkları 732 Bütçe Farkları, 733 Verimlilik Farkları ve 734 Kapasite Farkları hesaplarında izlenir. 732, fiili GÜG ile maliyetlere yüklenen önceden saptanmış GÜG arasındaki bütçe farkını izler.</p>",
+   "<p><strong>2. İşleyiş.</strong> Fark hem olumlu hem olumsuz olabilir. Fiili gider yükleneni aşıyorsa olumsuz fark vardır ve hesabın <em>borcuna</em>; yüklenen fiiliden fazlaysa olumlu fark vardır ve hesabın <em>alacağına</em> kaydedilir.</p>",
+   "<p><strong>3. Kapanış.</strong> Dönem sonunda farklar, maliyeti taşıyan ilgili stok hesaplarına (yarı mamul, mamul) ve satış maliyeti hesabına aktarılarak hesap kapatılır.</p>",
+   "<p><strong>4. Sonuç.</strong> Bu üç özelliği birlikte veren şık E'dir. Cevap <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Tekdüzen Muhasebe Sistemi Uygulama Genel Tebliği, 7/A seçeneği: 732 Genel Üretim Giderleri Bütçe Farkları hesabının işleyişi.",
+  "tuzaklar": {
+   "A": "Hesap yalnız olumlu farkları değil, olumsuz farkları da izler; kapanışta stoklarla birlikte satış maliyeti hesabına da aktarılır.",
+   "B": "Olumlu farkların alacağa yazılması doğrudur, ancak olumsuz farklar da izlenir ve hesap yalnız satış maliyetine değil stoklara da aktarılır.",
+   "C": "Olumsuz farkların borca yazılması doğrudur, ancak olumlu farklar da izlenir ve kapanış yalnız satış maliyetine yapılmaz.",
+   "D": "Hesap yalnız olumsuz farkları izlemez; kapanış 'aktif hesaplar' gibi genel bir ifadeyle değil, ilgili stok ve satış maliyeti hesaplarına yapılır."
+  },
+  "kartlar": [
+   {
+    "on": "732 GÜG Bütçe Farkları: borç ve alacak tarafı?",
+    "arka": "Olumsuz fark (fiili > yüklenen) borca, olumlu fark (yüklenen > fiili) alacağa. Dönem sonunda ilgili stok ve satış maliyeti hesaplarına aktarılır."
+   },
+   {
+    "on": "7/A'da GÜG fark hesapları?",
+    "arka": "732 Bütçe Farkları, 733 Verimlilik Farkları, 734 Kapasite Farkları."
+   }
+  ],
+  "konuBaglantisi": "02-maliyet-akisi-7a-7b"
+ },
+ {
+  "id": "2026-2-MAL-11",
+  "sonuc": "D",
+  "ozet": "Tebliğe göre gider yeri, üretim ve hizmetlerin yapıldığı ve maliyetlerin oluştuğu örgütün bir birimini ya da birim içindeki bir yeri ifade eder; yalnız üretimle ya da yalnız hizmetle sınırlı değildir.",
+  "adimlar": [
+   "<p><strong>1. Tanım.</strong> Muhasebe Sistemi Uygulama Genel Tebliğlerinde gider yeri; üretim ve hizmetlerin yapıldığı ve maliyetlerin oluştuğu, örgütün bir birimi ya da birim içindeki bir yer olarak tanımlanır.</p>",
+   "<p><strong>2. Kapsam.</strong> Gider yerleri yalnız üretim bölümlerinden ibaret değildir: esas üretim, yardımcı üretim, yardımcı hizmet ve yatırım gider yerlerinin yanında araştırma-geliştirme, pazarlama-satış-dağıtım ve genel yönetim gibi faaliyet gider yerleri de vardır. Giderler önce gider yerlerinde toplanır, sonra dağıtım anahtarlarıyla mamullere yüklenir.</p>",
+   "<p><strong>3. Uygulama.</strong> A, B, C ve E tanımı 'sadece' sözcüğüyle tek bir türe indiriyor. Tanımı tebliğdeki biçimiyle veren D'dir. Cevap <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Muhasebe Sistemi Uygulama Genel Tebliği: gider yeri tanımı ve gider yerlerinin sınıflandırılması.",
+  "tuzaklar": {
+   "A": "Gider yeri yalnız üretimin yapıldığı birim değildir; hizmetlerin yapıldığı birimleri de kapsar.",
+   "B": "Gider yerleri tek bir türle sınırlı değildir; üretim, hizmet, yatırım ve faaliyet gider yerlerinin tümü bu kavramın içindedir.",
+   "C": "Gider yeri yalnız hizmetlerin yapıldığı birim değildir; üretimin yapıldığı birimleri de kapsar.",
+   "E": "Yatırım gider yerleri gider yeri türlerinden yalnızca biridir."
+  },
+  "kartlar": [
+   {
+    "on": "Tebliğe göre gider yeri nedir?",
+    "arka": "Üretim ve hizmetlerin yapıldığı ve maliyetlerin oluştuğu örgütün bir birimi ya da birim içindeki bir yer."
+   }
+  ],
+  "konuBaglantisi": "05-genel-uretim-giderleri-dagitim"
+ },
+ {
+  "id": "2026-2-MAL-12",
+  "sonuc": "E",
+  "ozet": "GÜG yükleme oranı 800.000 / 400.000 = 2 ₺ (DİMM'nin her 1 ₺'si başına); X'e yüklenen GÜG 300.000 × 2 = 600.000 ₺, X'in toplam maliyeti 300.000 + 400.000 + 600.000 = 1.300.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Dağıtım anahtarı.</strong> GÜG, siparişlere direkt ilk madde ve malzeme gideri esas alınarak yükleniyor. Toplam DİMM = 100.000 (A) + 300.000 (X) = <strong>400.000 ₺</strong>.</p>",
+   "<p><strong>2. Yükleme oranı.</strong> 800.000 / 400.000 = <strong>2 ₺</strong> (her 1 ₺ DİMM için 2 ₺ GÜG).</p>",
+   "<p><strong>3. X'e yüklenen GÜG.</strong> 300.000 × 2 = <strong>600.000 ₺</strong> (A'ya 100.000 × 2 = 200.000 ₺; toplam 800.000 ₺, sağlama tamam).</p>",
+   "<p><strong>4. X'in toplam maliyeti.</strong> DİMM 300.000 + Dİ 400.000 + GÜG 600.000 = <strong>1.300.000 ₺</strong>. Cevap <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Sipariş maliyet sistemi: GÜG'nin önceden belirlenen dağıtım anahtarına (burada DİMM tutarı) göre siparişlere yüklenmesi.",
+  "tuzaklar": {
+   "A": "600.000 ₺ yalnız X'e yüklenen GÜG payıdır; DİMM ve Dİ eklenmemiş.",
+   "B": "700.000 ₺ X'in ilk maliyetidir (300.000 + 400.000); GÜG payı eklenmemiş.",
+   "C": "900.000 ₺ = 300.000 + 600.000; X'in direkt işçiliği (400.000 ₺) unutulmuş.",
+   "D": "1.200.000 ₺ DİMM esaslı yüklemeyle bulunamaz; X'in maliyeti 1.300.000 ₺'dir."
+  },
+  "kartlar": [
+   {
+    "on": "GÜG yükleme oranı (DİMM esaslı)?",
+    "arka": "Toplam GÜG / Toplam DİMM; siparişin payı = siparişin DİMM'si × oran."
+   },
+   {
+    "on": "Siparişin toplam maliyeti?",
+    "arka": "Siparişin DİMM'si + Dİ'si + yüklenen GÜG payı."
+   }
+  ],
+  "konuBaglantisi": "06-siparis-maliyeti"
+ },
+ {
+  "id": "2026-2-MAL-13",
+  "sonuc": "E",
+  "ozet": "Şekillendirme (dönüştürme) maliyeti = Dİ + GÜG = 400.000 + 440.000 = 840.000 ₺; birim başına 840.000 / 100 = 8.400 ₺.",
+  "adimlar": [
+   "<p><strong>1. Tanım.</strong> Şekillendirme (dönüştürme) maliyeti = Direkt İşçilik + Genel Üretim Giderleri. DİMM bu maliyete girmez.</p>",
+   "<p><strong>2. GÜG.</strong> Soruda tüm kalemler üretimle ilgili olarak katlanılmış. DİMM ve Dİ dışındakiler GÜG'dür: memur ücret ve gideri 100.000 + amortisman 80.000 + dışarıdan sağlanan fayda ve hizmetler 50.000 + enerji 150.000 + işletme malzemesi 60.000 = <strong>440.000 ₺</strong>.</p>",
+   "<p><strong>3. Dönüştürme maliyeti.</strong> 400.000 + 440.000 = <strong>840.000 ₺</strong>. Stok bulunmadığı için dönemin maliyetinin tamamı tamamlanan 100 adede aittir.</p>",
+   "<p><strong>4. Birim tutar.</strong> 840.000 / 100 = <strong>8.400 ₺</strong>. Cevap <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Maliyet unsurlarının sınıflandırılması: dönüştürme (şekillendirme) maliyeti = Dİ + GÜG.",
+  "tuzaklar": {
+   "A": "4.400 ₺ yalnız birim GÜG'dür (440.000 / 100); direkt işçilik eklenmemiş.",
+   "B": "6.000 ₺ birim ilk (asal) maliyettir: (200.000 + 400.000) / 100.",
+   "C": "6.400 ₺ = (200.000 + 440.000) / 100; Dİ yerine DİMM alınmış (DİMM + GÜG).",
+   "D": "8.000 ₺ dönüştürme maliyetinin doğru hesabıyla bulunamaz; doğru tutar 8.400 ₺'dir."
+  },
+  "kartlar": [
+   {
+    "on": "Şekillendirme (dönüştürme) maliyeti = ?",
+    "arka": "Direkt İşçilik + Genel Üretim Giderleri."
+   }
+  ],
+  "konuBaglantisi": "01-maliyet-kavramlari"
+ },
+ {
+  "id": "2026-2-MAL-14",
+  "sonuc": "A",
+  "ozet": "Üretilen mamul maliyeti 1.800.000 + 100.000 − 400.000 = 1.500.000 ₺, birim maliyet 15 ₺; satılan 80.000 br'nin maliyeti 80.000 × 15 = 1.200.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Dönemin üretim giderleri.</strong> 1.000.000 + 300.000 + 500.000 = <strong>1.800.000 ₺</strong>.</p>",
+   "<p><strong>2. Üretilen mamul maliyeti.</strong> 1.800.000 + 100.000 (dönem başı yarı mamul) − 400.000 (dönem sonu yarı mamul) = <strong>1.500.000 ₺</strong>.</p>",
+   "<p><strong>3. Birim maliyet.</strong> 1.500.000 / 100.000 br = <strong>15 ₺/br</strong>.</p>",
+   "<p><strong>4. Satılan mamuller maliyeti.</strong> Dönem başı mamul stoku yok. SMM = 0 + 1.500.000 − dönem sonu mamul stoku (20.000 br × 15 = 300.000) = <strong>1.200.000 ₺</strong> (aynı sonuç: 80.000 × 15). Cevap <strong>A</strong>.</p>"
+  ],
+  "dayanak": "Üretilen mamul maliyeti ve satılan mamuller maliyeti: SMM = Dönem başı mamul + Üretilen mamul maliyeti − Dönem sonu mamul.",
+  "tuzaklar": {
+   "B": "1.500.000 ₺ üretilen mamul maliyetidir; satılmayan 20.000 br'nin maliyeti (300.000 ₺) düşülmemiş.",
+   "C": "1.600.000 ₺ bu verilerle doğru yöntemle bulunamaz.",
+   "D": "1.800.000 ₺ dönemin üretim giderleridir; yarı mamul ve mamul stok değişimleri dikkate alınmamış.",
+   "E": "1.900.000 ₺ = 1.800.000 + 100.000; dönem başı yarı mamul eklenmiş, ama dönem sonu yarı mamul ve satılmayan mamuller düşülmemiş."
+  },
+  "kartlar": [
+   {
+    "on": "Satılan mamuller maliyeti formülü?",
+    "arka": "Dönem başı mamul stoku + Üretilen mamul maliyeti − Dönem sonu mamul stoku."
+   }
+  ],
+  "konuBaglantisi": "02-maliyet-akisi-7a-7b"
+ },
+ {
+  "id": "2026-2-MAL-15",
+  "sonuc": "D",
+  "ozet": "Toplam satış değeri 15.000 + 24.000 + 21.000 = 60.000 ₺; dağıtım oranı 180.000 / 60.000 = 3; Z'nin payı 21.000 × 3 = 63.000 ₺, kg başına 63.000 / 300 = 210 ₺.",
+  "adimlar": [
+   "<p><strong>1. Satış değerleri.</strong> X: 500 × 30 = 15.000 ₺; Y: 400 × 60 = 24.000 ₺; Z: 300 × 70 = 21.000 ₺. Toplam <strong>60.000 ₺</strong>.</p>",
+   "<p><strong>2. Dağıtım oranı.</strong> Ortak maliyet / toplam satış değeri = 180.000 / 60.000 = <strong>3</strong> (her 1 ₺ satış değerine 3 ₺ ortak maliyet).</p>",
+   "<p><strong>3. Z'nin payı.</strong> 21.000 × 3 = <strong>63.000 ₺</strong> (X 45.000, Y 72.000; toplam 180.000 ₺, sağlama tamam).</p>",
+   "<p><strong>4. Kg başına pay.</strong> 63.000 / 300 kg = <strong>210 ₺/kg</strong>. Kısa yol: kg başına pay = satış fiyatı × oran = 70 × 3 = 210 ₺. Cevap <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Birleşik mamullerde ortak maliyetlerin dağıtımı: satış değeri yöntemi.",
+  "tuzaklar": {
+   "A": "90 ₺ (30 × 3) X mamulünün kg başına payıdır.",
+   "B": "160 ₺ satış değeri yöntemine göre hiçbir mamulün payına karşılık gelmez.",
+   "C": "180 ₺ (60 × 3) Y mamulünün kg başına payıdır.",
+   "E": "240 ₺ satış değeri yöntemiyle Z için bulunamaz; doğru pay 210 ₺'dir."
+  },
+  "kartlar": [
+   {
+    "on": "Satış değeri yönteminde ortak maliyet payı?",
+    "arka": "Pay = Ortak maliyet × (Mamulün satış değeri / Toplam satış değeri). Birim başına pay = birim satış fiyatı × (Ortak maliyet / Toplam satış değeri)."
+   }
+  ],
+  "konuBaglantisi": "08-birlesik-yan-urun"
+ },
+ {
+  "id": "2026-2-MAL-16",
+  "sonuc": "B",
+  "ozet": "Mayıs dönem sonu mamul stoku 40.000 + 825.000 − 845.000 = 20.000 ₺ Haziran'ın dönem başı stokudur; Haziran üretilen mamul maliyeti 910.000 ₺, SMM = 20.000 + 910.000 − 30.000 = 900.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Mayıs dönem sonu mamul stoku.</strong> SMM = Dönem başı mamul + Üretilen mamul − Dönem sonu mamul ⇒ Dönem sonu = 40.000 + 825.000 − 845.000 = <strong>20.000 ₺</strong>. Bu tutar Haziran'ın dönem başı mamul stokudur.</p>",
+   "<p><strong>2. Mayıs verisinin sağlaması.</strong> 500.000 + 100.000 + 200.000 + 25.000 − 0 = 825.000 ₺; tabloyla tutarlı.</p>",
+   "<p><strong>3. Haziran üretilen mamul maliyeti.</strong> 600.000 + 135.000 + 175.000 + 0 (dönem başı yarı mamul) − 0 (dönem sonu yarı mamul) = <strong>910.000 ₺</strong>.</p>",
+   "<p><strong>4. Haziran SMM.</strong> 20.000 + 910.000 − 30.000 = <strong>900.000 ₺</strong>. Cevap <strong>B</strong>.</p>"
+  ],
+  "dayanak": "Üretilen mamul maliyeti ve satılan mamuller maliyeti hesabı; bir dönemin dönem sonu stokunun sonraki dönemin dönem başı stoku olması.",
+  "tuzaklar": {
+   "A": "880.000 ₺ = 910.000 − 30.000; Haziran'ın dönem başı mamul stoku (20.000 ₺) eklenmemiş.",
+   "C": "910.000 ₺ Haziran'ın üretilen mamul maliyetidir; mamul stok değişimi dikkate alınmamış.",
+   "D": "950.000 ₺ = 910.000 + 40.000; Mayıs'ın dönem başı stoku Haziran'a taşınmış ve Haziran dönem sonu stoku düşülmemiş.",
+   "E": "1.000.000 ₺ bu verilerle doğru yöntemle bulunamaz."
+  },
+  "kartlar": [
+   {
+    "on": "Bir ayın dönem başı mamul stoku nereden bulunur?",
+    "arka": "Önceki ayın dönem sonu mamul stokundan: Dönem başı + Üretilen − SMM."
+   }
+  ],
+  "konuBaglantisi": "02-maliyet-akisi-7a-7b"
+ },
+ {
+  "id": "2026-2-MAL-17",
+  "sonuc": "C",
+  "ozet": "Nisan DİMM gideri 2.400.000 − 145.000 − 195.000 = 2.060.000 ₺; dönem başı stok Mart sonu stoku 300.000 ₺; alımlar = 2.060.000 + 450.000 − 300.000 = 2.210.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Nisan DİMM gideri.</strong> Üretim giderleri toplamı = DİMM + Dİ + GÜG ⇒ DİMM = 2.400.000 − 145.000 − 195.000 = <strong>2.060.000 ₺</strong>.</p>",
+   "<p><strong>2. Nisan dönem başı DİMM stoku.</strong> Mart dönem sonu stoku = <strong>300.000 ₺</strong>. (Mart sağlaması: 450.000 + 1.050.000 − 300.000 = 1.200.000; 1.200.000 + 250.000 + 750.000 = 2.200.000 ₺.)</p>",
+   "<p><strong>3. Formül.</strong> DİMM gideri = Dönem başı stok + Alımlar − Dönem sonu stok ⇒ Alımlar = DİMM gideri + Dönem sonu stok − Dönem başı stok.</p>",
+   "<p><strong>4. Alımlar.</strong> 2.060.000 + 450.000 − 300.000 = <strong>2.210.000 ₺</strong>. Cevap <strong>C</strong>.</p>"
+  ],
+  "dayanak": "Kullanılan direkt ilk madde ve malzeme = Dönem başı stok + Alımlar − Dönem sonu stok.",
+  "tuzaklar": {
+   "A": "1.910.000 ₺ = 2.060.000 − 450.000 + 300.000; stoklar ters işaretle kullanılmış.",
+   "B": "2.060.000 ₺ Nisan'da kullanılan DİMM (gider) tutarıdır, alım tutarı değil.",
+   "D": "2.510.000 ₺ = 2.060.000 + 450.000; dönem başı stok (Mart sonu 300.000 ₺) düşülmemiş.",
+   "E": "2.660.000 ₺ bu verilerle doğru yöntemle bulunamaz."
+  },
+  "kartlar": [
+   {
+    "on": "DİMM alımları nasıl bulunur?",
+    "arka": "Alımlar = Kullanılan DİMM + Dönem sonu stok − Dönem başı stok."
+   }
+  ],
+  "konuBaglantisi": "03-direkt-ilk-madde-malzeme"
+ },
+ {
+  "id": "2026-2-MAL-18",
+  "sonuc": "C",
+  "ozet": "FIFO'da GÜG eşdeğer miktarı 440.000 / 40 = 11.000 br = 4.000 × (1 − t) + 8.000 + 600; buradan 4.000 × (1 − t) = 2.400, (1 − t) = %60 ve dönem başı tamamlanma derecesi t = %40.",
+  "adimlar": [
+   "<p><strong>1. FIFO eşdeğer birim.</strong> FIFO'da yalnız bu dönemde yapılan iş ölçülür: Eşdeğer = Dönem başı yarı mamul × (1 − dönem başı tamamlanma derecesi) + Dönemde başlanıp tamamlanan + Dönem sonu yarı mamul × dönem sonu tamamlanma derecesi.</p>",
+   "<p><strong>2. GÜG eşdeğer miktarı.</strong> FIFO'da birim maliyet yalnız bu dönemin giderlerine dayanır: 440.000 / 40 = <strong>11.000 br</strong>.</p>",
+   "<p><strong>3. Bilinen kısımlar.</strong> Dönemde başlanıp tamamlanan = 12.000 − 4.000 = 8.000 br (ya da 10.000 − 2.000). Dönem sonu yarı mamul: 2.000 × %30 = 600 br.</p>",
+   "<p><strong>4. Denklem.</strong> 4.000 × (1 − t) + 8.000 + 600 = 11.000 ⇒ 4.000 × (1 − t) = 2.400 ⇒ 1 − t = 0,60 ⇒ t = <strong>%40</strong>.</p>",
+   "<p><strong>5. Sağlama.</strong> 4.000 × %60 = 2.400; 2.400 + 8.000 + 600 = 11.000; 11.000 × 40 = 440.000 ₺. Cevap <strong>C</strong>.</p>"
+  ],
+  "dayanak": "Safha maliyet sistemi, ilk giren ilk çıkar (FIFO) yönteminde eşdeğer birim hesabı.",
+  "tuzaklar": {
+   "B": "%30 dönem sonu yarı mamullerin tamamlanma derecesidir; dönem başı derecesi değil.",
+   "E": "%60 bu dönemde dönem başı stoklara yapılan işin oranıdır (1 − t); dönem başı stokların önceki dönemde ulaştığı tamamlanma derecesi bunun tümleyeni %40'tır.",
+   "A": "%20 ile eşdeğer miktar 4.000 × 0,80 + 8.000 + 600 = 11.800 br olur; 11.000 br'ye eşit değildir.",
+   "D": "%50 ile eşdeğer miktar 4.000 × 0,50 + 8.000 + 600 = 10.600 br olur; 11.000 br'ye eşit değildir."
+  },
+  "kartlar": [
+   {
+    "on": "FIFO'da eşdeğer birim formülü?",
+    "arka": "DB yarı mamul × (1 − DB tamamlanma) + Başlanıp tamamlanan + DS yarı mamul × DS tamamlanma."
+   },
+   {
+    "on": "FIFO'da birim eşdeğer maliyet hangi giderle hesaplanır?",
+    "arka": "Yalnız cari dönemin giderleriyle (dönem başı stok maliyeti katılmaz)."
+   }
+  ],
+  "konuBaglantisi": "07-safha-maliyeti"
+ },
+ {
+  "id": "2026-2-MAL-19",
+  "sonuc": "E",
+  "ozet": "Tamamlanan 47.000 br, başlanıp tamamlanan 45.000 br; FIFO eşdeğeri DİMM 600 + 45.000 + 1.000 = 46.600 br, Dİ ve GÜG 900 + 45.000 + 2.000 = 47.900 br.",
+  "adimlar": [
+   "<p><strong>1. Fiziki akış.</strong> Tamamlanan = 2.000 + 50.000 − 5.000 = <strong>47.000 br</strong> (kayıp yok). Dönemde başlanıp tamamlanan = 47.000 − 2.000 = <strong>45.000 br</strong>.</p>",
+   "<p><strong>2. FIFO formülü.</strong> Eşdeğer = Dönem başı yarı mamul × (1 − dönem başı derecesi) + Başlanıp tamamlanan + Dönem sonu yarı mamul × dönem sonu derecesi.</p>",
+   "<p><strong>3. DİMM.</strong> 2.000 × (1 − 0,70) = 600; 600 + 45.000 + 5.000 × 0,20 (= 1.000) = <strong>46.600 br</strong>.</p>",
+   "<p><strong>4. Dİ ve GÜG.</strong> 2.000 × (1 − 0,55) = 900; 900 + 45.000 + 5.000 × 0,40 (= 2.000) = <strong>47.900 br</strong>.</p>",
+   "<p><strong>5. Sonuç.</strong> DİMM 46.600 br, Dİ 47.900 br, GÜG 47.900 br. Cevap <strong>E</strong>. (Ağırlıklı ortalamada sonuç DİMM 48.000, Dİ/GÜG 49.000 br olurdu; FIFO'da dönem başı stokun önceki dönemde yapılan kısmı düşülür.)</p>"
+  ],
+  "dayanak": "Safha maliyet sistemi, ilk giren ilk çıkar (FIFO) yönteminde eşdeğer birim hesabı.",
+  "tuzaklar": {
+   "A": "Dİ/GÜG doğru, ancak DİMM'de dönem sonu yarı mamulün payı (5.000 × %20 = 1.000) unutulmuş: 600 + 45.000 = 45.600.",
+   "B": "DİMM'de dönem başı payı (600), Dİ/GÜG'de dönem sonu payı (2.000) unutulmuş: 45.000 + 1.000 = 46.000; 45.000 + 900 = 45.900.",
+   "C": "DİMM 46.500 FIFO formülüyle bulunamaz; doğru tutar 46.600 br'dir.",
+   "D": "DİMM doğru; Dİ/GÜG için 47.000 yalnız tamamlanan miktardır. Dönem başı stokun önceki dönemde yapılan kısmı (−1.100) düşülmeli, dönem sonu stokun %40'ı (+2.000) eklenmelidir."
+  },
+  "kartlar": [
+   {
+    "on": "FIFO'da başlanıp tamamlanan miktar?",
+    "arka": "Tamamlanan − Dönem başı yarı mamul (veya Başlanan − Dönem sonu yarı mamul)."
+   },
+   {
+    "on": "FIFO ile ağırlıklı ortalama eşdeğer birim farkı?",
+    "arka": "Ağırlıklı ortalama = FIFO + DB yarı mamul × DB tamamlanma derecesi."
+   }
+  ],
+  "konuBaglantisi": "07-safha-maliyeti"
+ },
+ {
+  "id": "2026-2-MAL-20",
+  "sonuc": "C",
+  "ozet": "78 Finansman Giderleri grubunda, işletmenin borçlandığı tutarlarla ilgili katlanılan ve varlıkların maliyetine eklenmemiş faiz ve benzeri giderler ile yansıtma ve fark hesapları yer alır.",
+  "adimlar": [
+   "<p><strong>1. Grubun kapsamı.</strong> 7/A'da 78 Finansman Giderleri grubu, işletmenin borçlandığı tutarlarla ilgili olarak katlanılan ve varlıkların maliyetine eklenmemiş bulunan faiz ve benzeri giderler (faiz, komisyon, kur farkı gibi) ile yansıtma ve fark hesaplarından oluşur.</p>",
+   "<p><strong>2. Hesaplar.</strong> 780 Finansman Giderleri (giderlerin toplandığı ana hesap), 781 Finansman Giderleri Yansıtma Hesabı ve önceden saptanmış maliyet kullanılıyorsa 782 Finansman Giderleri Fark Hesabı.</p>",
+   "<p><strong>3. Kapanış.</strong> Dönem sonunda finansman giderleri 781 aracılığıyla gelir tablosundaki 66 Finansman Giderleri grubuna (660 Kısa Vadeli Borçlanma Giderleri, 661 Uzun Vadeli Borçlanma Giderleri) aktarılır; 780 ile 781 karşılıklı kapatılır. Banka hesaplarına aktarma söz konusu değildir.</p>",
+   "<p><strong>4. Sonuç.</strong> Tanımı eksiksiz veren C'dir. Cevap <strong>C</strong>.</p>"
+  ],
+  "dayanak": "Tekdüzen Muhasebe Sistemi Uygulama Genel Tebliği, 7/A seçeneği: 78 Finansman Giderleri grubu (780, 781, 782).",
+  "tuzaklar": {
+   "A": "Grup varlık alımıyla sınırlı değildir: işletmenin borçlandığı tüm tutarlarla ilgili, varlık maliyetine eklenmemiş faiz ve benzeri giderler bu gruptadır. Varlık maliyetine eklenen faizler ise tanım gereği grubun dışındadır.",
+   "B": "Grup yalnız faizlerden oluşmaz; faiz benzeri giderler (komisyon, kur farkı gibi) ile yansıtma ve fark hesapları da gruptadır.",
+   "D": "Grupta 781 yansıtma ve 782 fark hesapları vardır.",
+   "E": "Hesaplar banka hesaplarına değil, 781 aracılığıyla 66 Finansman Giderleri grubuna aktarılarak kapatılır."
+  },
+  "kartlar": [
+   {
+    "on": "7/A'da 78 Finansman Giderleri grubunun hesapları?",
+    "arka": "780 Finansman Giderleri, 781 Finansman Giderleri Yansıtma Hesabı, 782 Finansman Giderleri Fark Hesabı."
+   },
+   {
+    "on": "780'de toplanan giderler dönem sonunda nereye aktarılır?",
+    "arka": "781 aracılığıyla gelir tablosundaki 660 / 661 Borçlanma Giderleri hesaplarına."
+   }
+  ],
+  "konuBaglantisi": "02-maliyet-akisi-7a-7b"
+ }
+]
