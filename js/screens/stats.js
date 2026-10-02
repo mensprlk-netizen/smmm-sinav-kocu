@@ -78,6 +78,6 @@ export async function render(view, params, ctx) {
     h('div', { class: 'card' }, h('h3', {}, 'Hata defteri'),
       h('div', { class: 'row' },
         h('select', { 'aria-label': 'Ders', onChange: (e) => { filt.ders = e.target.value; renderDefter(); } }, h('option', { value: '' }, 'Tüm dersler'), ...DERSLER.map(d => h('option', { value: d.kod }, d.ad))),
-        h('select', { 'aria-label': 'Hata türü', onChange: (e) => { filt.etiket = e.target.value; renderDefter(); } }, h('option', { value: '' }, 'Tüm etiketler'), ...Object.entries(ETIKET).filter(([k]) => k !== 'etiketsiz').map(([k, v]) => h('option', { value: k }, v)))),
+        h('select', { 'aria-label': 'Hata türü', onChange: (e) => { filt.etiket = e.target.value; renderDefter(); } }, h('option', { value: '' }, 'Tüm etiketler'), ...Object.entries(ETIKET).map(([k, v]) => h('option', { value: k }, v)))),
       defterList, kurBtn));
 }
