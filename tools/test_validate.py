@@ -48,3 +48,67 @@ def test_konu_cikmis_soru_referansi(tmp_path):
     _write(tmp_path, [_q(i) for i in range(1, 21)], [_s(i) for i in range(1, 21)], [konu])
     errs = validate(tmp_path)
     assert any("2026-1-MAL-99" in e for e in errs)
+
+def test_malformed_question_json(tmp_path):
+    (tmp_path / "data/questions").mkdir(parents=True); (tmp_path / "data/solutions").mkdir(parents=True)
+    (tmp_path / "data/topics/maliyet").mkdir(parents=True)
+    (tmp_path / "data/index.json").write_text(json.dumps({"surum": 1, "donemler": ["2026-1"], "dersler": ["MAL"],
+        "konular": ["10-maliyet-hacim-kar"]}), encoding="utf-8")
+    (tmp_path / "data/questions/2026-1-MAL.json").write_text("{invalid json", encoding="utf-8")
+    (tmp_path / "data/solutions/2026-1-MAL.json").write_text(json.dumps([]), encoding="utf-8")
+    errs = validate(tmp_path)
+    assert isinstance(errs, list)
+    assert any("2026-1-MAL" in e and ("JSON" in e or "okunamadı" in e) for e in errs)
+
+def test_question_missing_no(tmp_path):
+    qs = [_q(i) for i in range(1, 21)]; del qs[0]["no"]
+    _write(tmp_path, qs, [_s(i) for i in range(1, 21)])
+    errs = validate(tmp_path)
+    assert isinstance(errs, list)
+    assert any("2026-1-MAL" in e and "no" in e.lower() for e in errs)
+
+def test_non_dict_item(tmp_path):
+    qs = [_q(i) for i in range(1, 21)]; qs[5] = "not a dict"
+    _write(tmp_path, qs, [_s(i) for i in range(1, 21)])
+    errs = validate(tmp_path)
+    assert isinstance(errs, list)
+    assert any("sözlük" in e or "dict" in e.lower() or "6" in e for e in errs)
+
+def test_index_missing_dersler(tmp_path):
+    (tmp_path / "data/questions").mkdir(parents=True); (tmp_path / "data/solutions").mkdir(parents=True)
+    (tmp_path / "data/topics/maliyet").mkdir(parents=True)
+    (tmp_path / "data/index.json").write_text(json.dumps({"surum": 1, "donemler": ["2026-1"]}), encoding="utf-8")
+    errs = validate(tmp_path)
+    assert isinstance(errs, list)
+    assert any("index.json" in e and ("dersler" in e or "eksik" in e) for e in errs)
+
+def test_orphan_solution_id(tmp_path):
+    qs = [_q(i) for i in range(1, 21)]
+    ss = [_s(i) for i in range(1, 21)]; ss.append(_s(21))  # Extra solution for non-existent question
+    _write(tmp_path, qs, ss)
+    errs = validate(tmp_path)
+    assert isinstance(errs, list)
+    assert any("2026-1-MAL-21" in e and "sorusu yok" in e for e in errs)
+
+def test_duplicate_question_id(tmp_path):
+    qs = [_q(i) for i in range(1, 21)]; qs[5]["id"] = "2026-1-MAL-01"  # Duplicate first question's id
+    _write(tmp_path, qs, [_s(i) for i in range(1, 21)])
+    errs = validate(tmp_path)
+    assert isinstance(errs, list)
+    assert any("2026-1-MAL-01" in e and "yinelenen" in e for e in errs)
+
+def test_tuzaklar_string(tmp_path):
+    qs = [_q(i) for i in range(1, 21)]
+    ss = [_s(i) for i in range(1, 21)]; ss[5]["tuzaklar"] = "not a dict"
+    _write(tmp_path, qs, ss)
+    errs = validate(tmp_path)
+    assert isinstance(errs, list)
+    assert any("2026-1-MAL-06" in e and ("tuzaklar" in e and "sözlük" in e) for e in errs)
+
+def test_adimlar_string(tmp_path):
+    qs = [_q(i) for i in range(1, 21)]
+    ss = [_s(i) for i in range(1, 21)]; ss[3]["adimlar"] = "not a list"
+    _write(tmp_path, qs, ss)
+    errs = validate(tmp_path)
+    assert isinstance(errs, list)
+    assert any("2026-1-MAL-04" in e and "adımlar" in e.lower() for e in errs)
