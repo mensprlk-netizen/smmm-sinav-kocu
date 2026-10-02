@@ -14,7 +14,7 @@ export async function render(view, params, ctx) {
   const st = dersIstatistikleri(questions, answers);
   const plan = gunlukPlan({ hedefSaat: await db.getSetting('hedefSaat', 1.5), vadesiGelen: cards.filter(c => c.state !== 'new' && c.due <= now).length, sinavaKalanGun: gun, dersIstatistik: st });
   const counter = dailyCounter(await db.getSetting('review:gun', null), todayKey(now));
-  const bugunYeni = answers.filter(a => a.mod === 'study' && todayKey(a.tarih) === todayKey(now)).length;
+  const bugunYeni = new Set(answers.filter(a => a.mod === 'study' && todayKey(a.tarih) === todayKey(now)).map(a => a.soruId)).size;
   const saved = await db.getSetting('study:state', null);
   const unfinished = (await db.allExams()).find(e => !e.bittiMi);
   const tarihEtiketi = new Date(examDate).toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });

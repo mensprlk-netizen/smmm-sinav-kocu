@@ -4,9 +4,10 @@ import { lastAnswerMap } from './progress.js';
 const DAY = 86400000;
 
 export function sinavaKalanGun(now, examDate) {
-  const diff = examDate - now;
-  if (diff <= 0) return -Math.floor(-diff / DAY) || 0;
-  return Math.ceil(diff / DAY);
+  const n = new Date(now), e = new Date(examDate);
+  const a = new Date(n.getFullYear(), n.getMonth(), n.getDate());
+  const b = new Date(e.getFullYear(), e.getMonth(), e.getDate());
+  return Math.round((b - a) / DAY) || 0;
 }
 
 export function dailyCounter(prev, today) {
