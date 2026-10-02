@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import { IDBFactory } from 'fake-indexeddb';
 import * as db from '../app/js/db.js';
 import * as fsrs from '../app/js/fsrs.js';
-import { recordAnswer, addInfoCards, lastAnswerMap, kartIdSoru } from '../app/js/progress.js';
+import { recordAnswer, scheduleForReview, addInfoCards, lastAnswerMap, kartIdSoru } from '../app/js/progress.js';
 
 const q = { id: '2026-1-MAL-01', dogru: 'C', iptal: false };
 const now = Date.UTC(2026, 9, 2);
@@ -41,4 +41,27 @@ test('son cevap haritası', () => {
   const m = lastAnswerMap([{ soruId: 'a', dogruMu: false, tarih: 1 }, { soruId: 'a', dogruMu: true, tarih: 2 }, { soruId: 'b', dogruMu: false, tarih: 1 }]);
   assert.equal(m.get('a').dogruMu, true);
   assert.equal(m.get('b').dogruMu, false);
+});
+
+test('scheduleForReview: yeni learning kartı oluşturur, cevap satırı yazmaz', async () => {
+  const card = await scheduleForReview({ db, fsrs, question: q, now });
+  assert.equal(card.kartId, kartIdSoru(q.id));
+  assert.equal(card.state, 'learning');
+  assert.equal((await db.allCards()).length, 1);
+  assert.equal((await db.allAnswers()).length, 0);
+});
+
+test('scheduleForReview: var olan kartı günceller, ikinci kart oluşturmaz', async () => {
+  const c1 = await scheduleForReview({ db, fsrs, question: q, now });
+  const c2 = await scheduleForReview({ db, fsrs, question: q, now: now + 3600000 });
+  assert.equal((await db.allCards()).length, 1);
+  assert.equal(c2.reps, c1.reps + 1);
+  assert.equal((await db.allAnswers()).length, 0);
+});
+
+test('scheduleForReview: iptal soruda null döner, kart ve cevap yazılmaz', async () => {
+  const c = await scheduleForReview({ db, fsrs, question: { ...q, iptal: true }, now });
+  assert.equal(c, null);
+  assert.equal((await db.allCards()).length, 0);
+  assert.equal((await db.allAnswers()).length, 0);
 });
