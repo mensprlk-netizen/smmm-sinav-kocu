@@ -18,14 +18,15 @@ export const todayKey = (now = Date.now()) => {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 };
 
-export function gunlukPlan({ hedefSaat = 1.5, vadesiGelen = 0, sinavaKalanGun: gun = 60, dersIstatistik = [] }) {
+export function gunlukPlan({ hedefSaat = 1.5, vadesiGelen = 0, sinavaKalanGun: gun = 60, dersIstatistik = [], bugunYapilan = 0 }) {
   const sorted = [...dersIstatistik].sort((a, b) => {
     const da = a.dogruluk ?? -1, db_ = b.dogruluk ?? -1;
     return da - db_ || a.gorulen - b.gorulen;
   });
   const oneriDers = sorted[0]?.kod ?? null;
   if (gun <= 0) return { tekrarKotasi: 0, yeniSoruHedefi: 0, oneriDers, mesaj: gun === 0 ? 'Sınav günü. Başarılar!' : 'Sınav tarihi geçti; Ayarlar’dan yeni tarih gir.' };
-  const tekrarKotasi = Math.min(40, vadesiGelen, Math.round(hedefSaat * 25));
+  const gunlukTavan = Math.min(40, Math.round(hedefSaat * 25));
+  const tekrarKotasi = Math.min(Math.max(0, gunlukTavan - bugunYapilan), vadesiGelen);
   const taban = gun <= 10 ? 10 : 20;
   const yeniSoruHedefi = Math.max(5, Math.round(taban * hedefSaat / 1.5));
   let mesaj;
