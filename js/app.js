@@ -3,6 +3,7 @@ import { parseRoute } from './router.js';
 import { toast } from './ui.js';
 import * as db from './db.js';
 import * as data from './data.js';
+import { registerSw } from './sw-register.js';
 
 const view = document.getElementById('view');
 let current = null;
@@ -29,24 +30,6 @@ async function route() {
     view.innerHTML = '<p class="card">Ekran yüklenemedi.</p>';
   }
   window.scrollTo(0, 0);
-}
-
-function registerSw() {
-  if (!('serviceWorker' in navigator)) return;
-  navigator.serviceWorker.register('sw.js').then(reg => {
-    reg.addEventListener('updatefound', () => {
-      const nw = reg.installing;
-      nw?.addEventListener('statechange', () => {
-        if (nw.state === 'installed' && navigator.serviceWorker.controller) {
-          const bar = document.getElementById('update-bar');
-          bar.hidden = false;
-          document.getElementById('update-btn').onclick = () => nw.postMessage({ type: 'SKIP_WAITING' });
-        }
-      });
-    });
-  }).catch(() => {});
-  let refreshing = false;
-  navigator.serviceWorker.addEventListener('controllerchange', () => { if (!refreshing) { refreshing = true; location.reload(); } });
 }
 
 async function start() {
