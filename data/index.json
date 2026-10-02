@@ -1,0 +1,10 @@
+{
+  "surum": 1,
+  "donemler": ["2026-1", "2026-2"],
+  "dersler": ["FM", "MAL", "HUK", "SPK", "FTA", "DEN", "VER", "MH"],
+  "konular": ["01-maliyet-kavramlari", "02-maliyet-akisi-7a-7b", "03-direkt-ilk-madde-malzeme", "04-direkt-iscilik", "05-genel-uretim-giderleri-dagitim", "06-siparis-maliyeti", "07-safha-maliyeti", "08-birlesik-yan-urun", "09-standart-maliyet-sapma", "10-maliyet-hacim-kar", "11-maliyet-yontemleri", "12-butceleme-esnek-butce", "13-karar-verme-ilgili-maliyet", "14-faaliyet-tabanli-maliyetleme"],
+  "kaynaklar": {
+    "2026-1": { "url": "https://smmmonline.com/yeterlilik-cikmis-sorular/2026-1", "aciklama": "TÜRMOB-TESMER SMMM 2026-1 resmi soru kitapçıkları", "indirme": "2026-10-02" },
+    "2026-2": { "url": "https://smmmonline.com/yeterlilik-cikmis-sorular/2026-2", "aciklama": "TÜRMOB SMMM 2026-2 resmi soru kitapçıkları (TESMER 27.07.2026 yayını)", "indirme": "2026-10-02" }
+  }
+}
