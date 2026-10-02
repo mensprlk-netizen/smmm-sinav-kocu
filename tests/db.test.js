@@ -59,3 +59,27 @@ test('resetAll her şeyi siler', async () => {
   await db.resetAll();
   assert.equal(await db.getSetting('tema', 'system'), 'system');
 });
+
+test('depolar null ise reddedilir ve veri korunur', async () => {
+  await db.setSetting('tema', 'dark');
+  await assert.rejects(() => db.importAll({ surum: 1, depolar: null }), /Yedek dosyası tanınmadı/);
+  assert.equal(await db.getSetting('tema', 'system'), 'dark');
+});
+
+test('geçersiz eleman içeren yedek reddedilir ve veri korunur', async () => {
+  await db.setSetting('tema', 'dark');
+  const badBackup = {
+    surum: 1,
+    tarih: new Date().toISOString(),
+    depolar: {
+      answers: [],
+      cards: [],
+      ink: [],
+      exams: [],
+      settings: [null],
+      flags: []
+    }
+  };
+  await assert.rejects(() => db.importAll(badBackup), /Yedek dosyası tanınmadı/);
+  assert.equal(await db.getSetting('tema', 'system'), 'dark');
+});
