@@ -280,3 +280,45 @@ def test_cli_merges_file_and_option(tmp_path, capsys):
     _data(app, skip=(17, 18))
     f = tmp_path / "a.txt"; f.write_text("# c\n2026-1-MAL-17\n", encoding="utf-8")
     assert validate_main([str(app), "--allow-missing", "2026-1-MAL-18", "--allow-file", str(f)]) == 0
+
+
+def test_load_allow_missing_bom_crlf_inline_comment(tmp_path):
+    f = tmp_path / "a.txt"
+    raw = "﻿# açıklama\r\n2026-1-MAL-17 # satır içi\r\n\r\n2026-2-FM-01\r\n"
+    f.write_bytes(raw.encode("utf-8"))
+    assert load_allow_missing(f) == ["2026-1-MAL-17", "2026-2-FM-01"]
+
+def test_cli_undecodable_allow_file(tmp_path, capsys):
+    app = tmp_path / "app"; app.mkdir(); _data(app)
+    f = tmp_path / "bad.txt"; f.write_bytes(bytes([0xff, 0xfe, 0x80, 0x81]))
+    assert validate_main([str(app), "--allow-file", str(f)]) == 1
+    out = capsys.readouterr().out
+    assert "HATA:" in out and "bad.txt" in out
+
+def test_allow_missing_none_and_string(tmp_path):
+    _missing_data(tmp_path)
+    assert validate_full(tmp_path, None)[0] == [f"{MISSING}: çözüm yok"]
+    errs, warns = validate_full(tmp_path, MISSING)
+    assert errs == [] and warns == [f"{MISSING}: çözüm yok (izinli istisna)"]
+
+def test_cli_summary_counts_warnings(tmp_path, capsys):
+    app = tmp_path / "app"; app.mkdir(); _missing_data(app)
+    empty = tmp_path / "bos.txt"; empty.write_text("", encoding="utf-8")
+    validate_main([str(app), "--allow-missing", MISSING, "--allow-file", str(empty)])
+    assert "Doğrulama: GEÇTİ (1 uyarı)" in capsys.readouterr().out
+    validate_main([str(app), "--allow-missing", "2026-1-MAL-99", "--allow-file", str(empty)])
+    out = capsys.readouterr().out
+    assert "Doğrulama: 1 hata, 1 uyarı" in out
+
+def test_allow_list_cannot_hide_wrong_solution(tmp_path):
+    _write(tmp_path, [_q(i) for i in range(1, 21)],
+           [_s(i, **({"sonuc": "B"} if i == 17 else {})) for i in range(1, 21)], konular=[_TOPIC])
+    errs, warns = validate_full(tmp_path, allow_missing=[MISSING])
+    assert any(MISSING in e and "sonuc" in e for e in errs)
+    assert warns == [f"{MISSING}: izinli istisna listesinde ama gerek yok"]
+
+def test_cli_summary_clean(tmp_path, capsys):
+    app = tmp_path / "app"; app.mkdir(); _data(app)
+    empty = tmp_path / "bos.txt"; empty.write_text("", encoding="utf-8")
+    assert validate_main([str(app), "--allow-file", str(empty)]) == 0
+    assert capsys.readouterr().out.splitlines()[-1] == "Doğrulama: GEÇTİ"

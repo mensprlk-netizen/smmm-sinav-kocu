@@ -225,6 +225,8 @@ def validate(app_dir, allow_missing=()):
 def validate_full(app_dir, allow_missing=()):
     """(hatalar, uyarılar) döner. allow_missing: çözümü bilerek yayımlanmayan soru id'leri."""
     errs = []; warns = []
+    if allow_missing is None: allow_missing = ()
+    elif isinstance(allow_missing, str): allow_missing = (allow_missing,)
     allow = frozenset(allow_missing)
     state = {"tolerated": set()}
     all_ids = set()
@@ -272,7 +274,7 @@ def load_allow_missing(path):
     p = pathlib.Path(path)
     if not p.exists(): return []
     out = []
-    for line in p.read_text(encoding="utf-8").splitlines():
+    for line in p.read_text(encoding="utf-8-sig").splitlines():
         line = line.split("#", 1)[0].strip()
         if line: out.append(line)
     return out
@@ -286,11 +288,19 @@ def main(argv=None):
     ap.add_argument("--allow-missing", default="", help="virgülle ayrılmış, çözümü olmayabilecek soru id'leri")
     ap.add_argument("--allow-file", default=str(here / "allow-missing.txt"), help="izinli istisna dosyası")
     a = ap.parse_args(argv)
-    allow = load_allow_missing(a.allow_file) + [x.strip() for x in a.allow_missing.split(",") if x.strip()]
+    try:
+        from_file = load_allow_missing(a.allow_file)
+    except (OSError, UnicodeDecodeError) as e:
+        print(f"HATA: izin dosyası okunamadı: {a.allow_file} ({type(e).__name__})")
+        return 1
+    allow = from_file + [x.strip() for x in a.allow_missing.split(",") if x.strip()]
     errs, warns = validate_full(a.app_dir, allow)
     for e in errs: print("HATA:", e)
     for w in warns: print("UYARI:", w)
-    print("Doğrulama:", "GEÇTİ" if not errs else f"{len(errs)} hata")
+    if not errs:
+        print("Doğrulama: GEÇTİ" + (f" ({len(warns)} uyarı)" if warns else ""))
+    else:
+        print(f"Doğrulama: {len(errs)} hata" + (f", {len(warns)} uyarı" if warns else ""))
     return 1 if errs else 0
 
 

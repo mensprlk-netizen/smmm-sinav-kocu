@@ -20,20 +20,50 @@ def parse_name(stem):
     return f"{m.group(1)}-{m.group(2)}", SLUG[m.group(3)]
 
 
-def main():
+# Resmi cevap anahtarı sayfalarından belirlenen iptal edilmiş sorular (kitapçıkları okuyarak saptandı).
+BEKLENEN_IPTAL = frozenset({"2026-2-FTA-06", "2026-2-FTA-07", "2026-2-HUK-03", "2026-2-DEN-11"})
+BEKLENEN_TOPLAM = 320
+
+
+def supheli(q):
+    """Cevabı olmayan veya tam beş seçeneği olmayan soru şüphelidir (iptal edilmiş olsa da)."""
+    return q["dogru"] is None or len(q["secenekler_raw"]) != 5
+
+
+def main(pdf_dir=None, out_dir=None, render_dir=None, do_render=True):
+    """Çıkarır, yazar, kendini denetler. Çıkış kodu: 0 tamam, 1 sorun var."""
+    pdf_dir = pathlib.Path(pdf_dir or HERE / "pdfs")
+    out_dir = pathlib.Path(out_dir or HERE / "out" / "raw")
+    problems = []
     total = 0
-    for pdf in sorted((HERE / "pdfs").glob("*.pdf")):
-        donem, ders = parse_name(pdf.stem)
+    iptal_all = set()
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for pdf in sorted(pdf_dir.glob("*.pdf")):
+        try:
+            donem, ders = parse_name(pdf.stem)
+        except ValueError as e:
+            print(f"HATA: {e}")
+            problems.append(str(e)); continue
+        key = f"{donem}-{ders}"
         qs = extract(pdf, donem, ders)
-        dest = HERE / "out" / "raw" / f"{donem}-{ders}.json"
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_text(json.dumps(qs, ensure_ascii=False, indent=1), encoding="utf-8")
-        pages = render(pdf, donem, ders)
-        eksik = [q["id"] for q in qs if (q["dogru"] is None and not q["iptal"]) or len(q["secenekler_raw"]) != 5]
-        print(f"{donem}-{ders}: {len(qs)} soru, {len(pages)} sayfa, şüpheli: {eksik}")
-        total += len(qs)
+        (out_dir / f"{key}.json").write_text(json.dumps(qs, ensure_ascii=False, indent=1), encoding="utf-8")
+        npages = len(render(pdf, donem, ders, dest_dir=render_dir)) if do_render else 0
+        eksik = [q["id"] for q in qs if supheli(q)]
+        iptal = [q["id"] for q in qs if q["iptal"]]
+        print(f"{key}: {len(qs)} soru, {npages} sayfa, şüpheli: {eksik}, iptal: {iptal}")
+        if [q["no"] for q in qs] != list(range(1, 21)):
+            problems.append(f"{key}: soru numaraları 1..20 değil ({len(qs)} soru)")
+        if eksik: problems.append(f"{key}: şüpheli sorular {eksik}")
+        total += len(qs); iptal_all.update(iptal)
     print("toplam", total)
+    print("iptal:", sorted(iptal_all))
+    if total != BEKLENEN_TOPLAM: problems.append(f"toplam {total}, beklenen {BEKLENEN_TOPLAM}")
+    if iptal_all != BEKLENEN_IPTAL:
+        problems.append(f"iptal kümesi beklenenden farklı: fazla {sorted(iptal_all - BEKLENEN_IPTAL)}, "
+                        f"eksik {sorted(BEKLENEN_IPTAL - iptal_all)}")
+    for p in problems: print("SORUN:", p)
+    return 1 if problems else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
