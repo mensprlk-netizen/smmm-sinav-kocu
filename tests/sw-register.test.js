@@ -95,3 +95,22 @@ test('kayıt reddedilirse hata fırlatmaz', async () => {
   await registerSw(t.opts);
   assert.equal(t.bar.hidden, true);
 });
+
+test('başlangıçta controller yok: ilk controllerchange yenilemez, sonraki bir kez yeniler', async () => {
+  const t = setup({ controller: null });
+  await registerSw(t.opts);
+  t.sw.emit('controllerchange');
+  assert.equal(t.reloads(), 0);
+  t.sw.emit('controllerchange');
+  t.sw.emit('controllerchange');
+  assert.equal(t.reloads(), 1);
+});
+
+test('başlangıçta controller var: ilk controllerchange yeniler, çift olay tek yenileme', async () => {
+  const t = setup({ controller: {} });
+  await registerSw(t.opts);
+  t.sw.emit('controllerchange');
+  assert.equal(t.reloads(), 1);
+  t.sw.emit('controllerchange');
+  assert.equal(t.reloads(), 1);
+});

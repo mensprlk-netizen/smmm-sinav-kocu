@@ -7,6 +7,7 @@ Kullanım:
 import hashlib
 import json
 import pathlib
+import re
 import sys
 
 APP = pathlib.Path(__file__).resolve().parent.parent / "app"
@@ -36,20 +37,36 @@ def build(app_dir=None, write=True):
         h.update(rel.encode("utf-8"))
         h.update(b"\0")
         h.update(p.read_bytes())
+    # sw.js listeye girmez ama sürümü etkiler: işçi değişince önbellek adı da değişir.
+    sw = app / "sw.js"
+    if sw.is_file():
+        h.update(b"\0sw.js\0")
+        h.update(sw.read_bytes())
     version = h.hexdigest()[:12]
     if write:
         (app / "sw-manifest.js").write_text(_render(version, files), encoding="utf-8", newline="\n")
     return version, files
 
 
+def _parse(text):
+    mv = re.search(r"self\.__VERSION\s*=\s*'([0-9a-f]+)'\s*;", text)
+    ma = re.search(r"self\.__PRECACHE\s*=\s*(\[.*?\])\s*;", text, re.S)
+    if not mv or not ma:
+        return None
+    try:
+        return mv.group(1), json.loads(ma.group(1))
+    except ValueError:
+        return None
+
+
 def check(app_dir=None):
     app = pathlib.Path(app_dir) if app_dir is not None else APP
     version, files = build(app, write=False)
     try:
-        current = (app / "sw-manifest.js").read_bytes().decode("utf-8")
-    except OSError:
+        parsed = _parse((app / "sw-manifest.js").read_bytes().decode("utf-8"))
+    except (OSError, UnicodeDecodeError):
         return False
-    return current == _render(version, files)
+    return parsed == (version, files)
 
 
 def main(argv):

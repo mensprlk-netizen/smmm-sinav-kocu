@@ -83,3 +83,39 @@ def test_cli_default_writes_and_prints(app, monkeypatch, capsys):
     assert m.main([]) == 0
     assert "sürüm " in capsys.readouterr().out
     assert m.check(app) is True
+
+
+def test_version_changes_when_only_sw_js_changes_but_not_listed(app):
+    v1, _ = m.build(app, write=False)
+    (app / "sw.js").write_bytes(b"sw2")
+    v2, files = m.build(app, write=False)
+    assert v2 != v1
+    assert "./sw.js" not in files
+
+
+def test_manifest_content_does_not_affect_version(app):
+    v1, _ = m.build(app, write=False)
+    (app / "sw-manifest.js").write_bytes(b"completely different")
+    assert m.build(app, write=False)[0] == v1
+
+
+def test_check_accepts_crlf_manifest(app):
+    m.build(app)
+    p = app / "sw-manifest.js"
+    p.write_bytes(p.read_bytes().replace(b"\n", b"\r\n"))
+    assert m.check(app) is True
+
+
+def test_check_rejects_wrong_version_or_list_or_missing(app):
+    m.build(app)
+    p = app / "sw-manifest.js"
+    good = p.read_text(encoding="utf-8")
+    version = re.search(r"'([0-9a-f]{12})'", good).group(1)
+    p.write_text(good.replace(version, "0" * 12), encoding="utf-8")
+    assert m.check(app) is False
+    p.write_text(good.replace('"./index.html"', '"./other.html"'), encoding="utf-8")
+    assert m.check(app) is False
+    p.write_text("garbage", encoding="utf-8")
+    assert m.check(app) is False
+    p.unlink()
+    assert m.check(app) is False

@@ -9,11 +9,13 @@ export async function registerSw({
 } = {}) {
   if (!sw) return;
   try {
-    // İlk kurulumda clients.claim() da controllerchange tetikler; o durumda sayfa yenilenmez.
-    const hadController = !!sw.controller;
+    // Başlangıçta controller yoksa ilk controllerchange clients.claim() kaynaklıdır: yenilenmez.
+    // Ondan sonra sayfa kontrollü sayılır; sonraki her değişim (kullanıcı "Yenile"ye bastı) bir kez yeniler.
+    let claimed = !!sw.controller;
     let reloading = false;
     sw.addEventListener('controllerchange', () => {
-      if (!hadController || reloading) return;
+      if (!claimed) { claimed = true; return; }
+      if (reloading) return;
       reloading = true;
       reload();
     });

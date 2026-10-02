@@ -12,7 +12,7 @@ const PRECACHE = ['./', './index.html', './js/app.js', './data/index.json'];
 const abs = (u) => new URL(typeof u === 'string' ? u : u.url, ORIGIN + '/smmm/').href;
 const at = (p) => ORIGIN + '/smmm/' + p;
 
-function makeEnv({ network = async () => new Response('net', { status: 200 }), initialCaches = [] } = {}) {
+function makeEnv({ network = async () => new Response('net', { status: 200 }), initialCaches = [], deleteFails = new Set() } = {}) {
   const store = new Map(); // ad -> Map(url -> Response)
   for (const n of initialCaches) store.set(n, new Map());
   const calls = { fetch: [], skipWaiting: 0, claim: 0, deleted: [] };
@@ -40,8 +40,9 @@ function makeEnv({ network = async () => new Response('net', { status: 200 }), i
     importScripts: () => { self.__VERSION = VERSION; self.__PRECACHE = PRECACHE; },
     caches: {
       async open(n) { if (!store.has(n)) store.set(n, new Map()); return mkCache(n); },
+      async has(n) { return store.has(n); },
       async keys() { return [...store.keys()]; },
-      async delete(n) { calls.deleted.push(n); return store.delete(n); },
+      async delete(n) { if (deleteFails.has(n)) throw new Error('silinemedi'); calls.deleted.push(n); return store.delete(n); },
     },
     fetch: async (req) => { calls.fetch.push(req); return network(req); },
   };
@@ -58,6 +59,11 @@ function fire(handlers, type, event = {}) {
 
 const nav = (url) => Object.defineProperty(new Request(url), 'mode', { value: 'navigate' });
 const offline = async () => { throw new TypeError('offline'); };
+
+async function caches_match(env, p) {
+  const r = env.store.get(CACHE).get(at(p));
+  return r.clone();
+}
 
 function withCached(opts = {}) {
   const env = makeEnv({ initialCaches: [CACHE], ...opts });
@@ -82,6 +88,14 @@ test('install: bir dosya ağ hatası verirse waitUntil reddedilir', async () => 
   assert.equal(env.store.has(CACHE), false);
 });
 
+test('install: önceden var olan tam önbellek hata sonrası silinmez, eski kayıtlar durur', async () => {
+  const env = withCached({ network: async () => { throw new TypeError('offline'); } });
+  await assert.rejects(fire(env.handlers, 'install').promise);
+  assert.equal(env.store.has(CACHE), true);
+  const hit = await (await caches_match(env, 'js/app.js')).text();
+  assert.equal(hit, 'cached-app');
+});
+
 test('install: ok olmayan yanıt waitUntil reddeder', async () => {
   let n = 0;
   const env = makeEnv({ network: async () => new Response('', { status: ++n === 3 ? 404 : 200 }) });
@@ -92,6 +106,13 @@ test('activate: yalnızca eski smmm-koc- önbelleği silinir, başka uygulamanı
   const env = makeEnv({ initialCaches: ['smmm-koc-old', CACHE, 'other-app-v1'] });
   await fire(env.handlers, 'activate').promise;
   assert.deepEqual(env.calls.deleted, ['smmm-koc-old']);
+  assert.equal(env.calls.claim, 1);
+});
+
+test('activate: bir silme başarısız olsa da diğerleri silinir, claim çalışır, söz çözülür', async () => {
+  const env = makeEnv({ initialCaches: ['smmm-koc-old1', 'smmm-koc-old2', CACHE], deleteFails: new Set(['smmm-koc-old1']) });
+  await fire(env.handlers, 'activate').promise;
+  assert.deepEqual(env.calls.deleted, ['smmm-koc-old2']);
   assert.equal(env.calls.claim, 1);
 });
 

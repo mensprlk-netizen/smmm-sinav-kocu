@@ -7,6 +7,7 @@ const CACHE = PREFIX + self.__VERSION;
 // HTTP önbelleği atlanır; böylece yeni sürüm eski dosyalardan kurulmaz.
 self.addEventListener('install', (e) => {
   e.waitUntil((async () => {
+    const existed = await caches.has(CACHE);
     const cache = await caches.open(CACHE);
     try {
       await Promise.all(self.__PRECACHE.map(async (u) => {
@@ -16,7 +17,8 @@ self.addEventListener('install', (e) => {
         await cache.put(req, res);
       }));
     } catch (err) {
-      await caches.delete(CACHE); // yarım dolu önbellek kalmasın
+      // Yarım dolu önbellek kalmasın; ama önceden var olan (hizmet veren) önbelleğe dokunulmaz.
+      if (!existed) await caches.delete(CACHE);
       throw err;
     }
   })());
@@ -26,7 +28,7 @@ self.addEventListener('install', (e) => {
 self.addEventListener('activate', (e) => {
   e.waitUntil((async () => {
     for (const k of await caches.keys()) {
-      if (k.startsWith(PREFIX) && k !== CACHE) await caches.delete(k);
+      if (k.startsWith(PREFIX) && k !== CACHE) { try { await caches.delete(k); } catch { /* sonraki sefer */ } }
     }
     await self.clients.claim();
   })());
