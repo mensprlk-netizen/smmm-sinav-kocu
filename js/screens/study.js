@@ -1,5 +1,5 @@
 // app/js/screens/study.js
-import { h, toast } from '../ui.js';
+import { h, toast, safe, kayitHatasi } from '../ui.js';
 import { createQuestionView } from './question-view.js';
 import * as fsrs from '../fsrs.js';
 import { recordAnswer, addInfoCards, lastAnswerMap, examDateMs } from '../progress.js';
@@ -10,14 +10,6 @@ let epoch = 0;   // destroy() bumps it; in-flight work from an older epoch stops
 let seq = 0;     // each show() bumps it; only the newest transition may attach a view
 let busy = false;
 export function destroy() { epoch++; seq++; busy = false; qv?.destroy(); qv = null; }
-
-const kayitHatasi = () => toast('Kayıt yapılamadı, yedek almayı deneyin.');
-function safe(fn) {
-  return (...a) => {
-    try { const r = fn(...a); return r && typeof r.then === 'function' ? r.then(undefined, kayitHatasi) : r; }
-    catch { kayitHatasi(); }
-  };
-}
 
 export async function render(view, params, ctx) {
   const { db } = ctx;

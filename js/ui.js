@@ -22,6 +22,15 @@ export function toast(msg, ms = 2500) {
   setTimeout(() => { t.classList.remove('show'); setTimeout(() => t.remove(), 300); }, ms);
 }
 
+export const KAYIT_HATASI = 'Kayıt yapılamadı, yedek almayı deneyin.';
+export const kayitHatasi = () => toast(KAYIT_HATASI);
+export function safe(fn) {
+  return (...a) => {
+    try { const r = fn(...a); return r && typeof r.then === 'function' ? r.then(undefined, kayitHatasi) : r; }
+    catch { kayitHatasi(); }
+  };
+}
+
 export function sheet({ title, content, full = false }) {
   const backdrop = h('div', { class: 'sheet-backdrop' });
   const box = h('div', { class: 'sheet' + (full ? ' sheet-full' : ''), role: 'dialog', 'aria-label': title },
