@@ -1,3 +1,4 @@
+process.env.TZ = 'Europe/Istanbul';
 import 'fake-indexeddb/auto';
 import { test, beforeEach, afterEach, mock } from 'node:test';
 import assert from 'node:assert/strict';
@@ -103,11 +104,46 @@ test('sınav tarihi geçmişte: Geçti, çökmez', async () => {
 });
 
 test('Yeni soru sayacı yerel güne göre: gece yarısından sonraki cevap sayılır, önceki gün sayılmaz', async () => {
+  await db.setSetting('sinavTarihi', '2026-11-28');
   mock.timers.setTime(new Date(2026, 9, 1, 23, 30).getTime());
   await db.addAnswer({ soruId: '2026-1-MAL-01', cevap: 'C', dogruMu: true, emin: true, sure: 5, mod: 'study', denemeId: null });
   mock.timers.setTime(new Date(2026, 9, 2, 0, 45).getTime());
   await db.addAnswer({ soruId: '2026-1-MAL-02', cevap: 'C', dogruMu: true, emin: true, sure: 5, mod: 'study', denemeId: null });
   mock.timers.setTime(new Date(2026, 9, 2, 1, 30).getTime());
+  await run();
+  assert.equal(rowText('Yeni soru'), '1 / 20');
+});
+
+test('sınav günü sabah 08:00 de Bugün', async () => {
+  mock.timers.setTime(new Date(2026, 9, 12, 8, 0).getTime());
+  await run();
+  assert.equal(big(), 'Bugün');
+  assert.ok(view.textContent.includes('Sınav günü'));
+});
+
+test('sınavdan önceki akşam 23:00: 1 gün ve tam oturum önerisi', async () => {
+  mock.timers.setTime(new Date(2026, 9, 11, 23, 0).getTime());
+  await run();
+  assert.equal(big(), '1 gün');
+  assert.ok(view.textContent.includes('tam oturum'));
+});
+
+test('sınavdan sonraki gün 00:30: Geçti', async () => {
+  mock.timers.setTime(new Date(2026, 9, 13, 0, 30).getTime());
+  await run();
+  assert.equal(big(), 'Geçti');
+});
+
+test('eski günün tekrar sayacı bugün 0 / kota gösterir', async () => {
+  await db.saveCard({ kartId: 'soru:2026-1-MAL-01', tur: 'soru', kaynakId: '2026-1-MAL-01', state: 'review', due: NOW - 1000 });
+  await db.setSetting('review:gun', { tarih: '2026-10-01', sayac: 5 });
+  await run();
+  assert.equal(rowText('Tekrar'), '0 / 1');
+});
+
+test('aynı soru bugün iki kez çalışılınca Yeni soru 1 sayılır (ayrık soru)', async () => {
+  await db.setSetting('sinavTarihi', '2026-11-28');
+  for (let i = 0; i < 2; i++) await db.addAnswer({ soruId: '2026-1-MAL-01', cevap: 'C', dogruMu: true, emin: true, sure: 5, mod: 'study', denemeId: null });
   await run();
   assert.equal(rowText('Yeni soru'), '1 / 20');
 });

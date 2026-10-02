@@ -1,15 +1,21 @@
+process.env.TZ = 'Europe/Istanbul';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { gunlukPlan, sinavaKalanGun, dersIstatistikleri, dailyCounter, todayKey } from '../app/js/planner.js';
 
 const DAY = 86400000;
 
-test('kalan gün hesabı', () => {
-  const exam = Date.UTC(2026, 10, 28, 9);
-  assert.equal(sinavaKalanGun(Date.UTC(2026, 9, 2, 12), exam), 57);
-  assert.equal(sinavaKalanGun(exam - 1000, exam), 1);
-  assert.equal(sinavaKalanGun(exam + 1000, exam), 0);
-  assert.equal(sinavaKalanGun(exam + 2 * DAY, exam), -2);
+test('kalan gün hesabı (yerel takvim günü)', () => {
+  const exam = new Date(2026, 10, 28, 9, 0).getTime();
+  const L = (...a) => new Date(...a).getTime();
+  assert.equal(sinavaKalanGun(L(2026, 9, 2, 12, 0), exam), 57);
+  assert.equal(sinavaKalanGun(L(2026, 10, 28, 0, 5), exam), 0);
+  assert.equal(sinavaKalanGun(L(2026, 10, 28, 8, 0), exam), 0);
+  assert.equal(sinavaKalanGun(L(2026, 10, 28, 23, 55), exam), 0);
+  assert.equal(sinavaKalanGun(L(2026, 10, 27, 23, 0), exam), 1);
+  assert.equal(sinavaKalanGun(L(2026, 10, 29, 0, 30), exam), -1);
+  assert.equal(sinavaKalanGun(L(2026, 10, 30, 15, 0), exam), -2);
+  assert.equal(sinavaKalanGun(L(2026, 10, 21, 9, 0), exam), 7);
 });
 
 test('normal gün: kota ve yeni soru hedefi', () => {
