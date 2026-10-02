@@ -33,7 +33,7 @@
   "ozet": "Kusurlu mamuller, ek bir işlem (ek maliyet) ile birinci kalite mamul niteliğine getirilebilen mamullerdir; bozuk mamuller ise birinci kaliteye dönüştürülemez.",
   "adimlar": [
    "<p><strong>1. Üretim kayıpları.</strong> Üretim sürecinde ortaya çıkan kayıplar başlıca fire, artık, bozuk mamul ve kusurlu mamuldür.</p>",
-   "<p><strong>2. Tanımlar.</strong> <em>Fire:</em> hammaddenin buharlaşma, kesim, kırılma gibi nedenlerle miktarca kaybolan, geri kazanılamayan kısmı. <em>Artık:</em> üretimde hammaddeden geriye kalan talaş, kırpıntı gibi parçalar; satılabilir ya da başka işte kullanılabilir ama mamul niteliği yoktur. <em>Bozuk mamul:</em> kalite standartlarına uymayan ve ek işlemle de birinci kalite mamule dönüştürülemeyen (ya da dönüştürülmesi ekonomik olmayan) mamul; olduğu gibi düşük fiyatla satılır ya da hurdaya ayrılır. <em>Kusurlu mamul:</em> standartlara uymayan, ancak ek bir işçilik, malzeme ve GÜG harcanarak birinci kalite mamul haline getirilebilen mamul.</p>",
+   "<p><strong>2. Tanımlar.</strong> <em>Fire:</em> hammaddenin buharlaşma, kuruma, sızma, kırılma gibi nedenlerle miktarca kaybolan, geri kazanılamayan kısmı. <em>Artık:</em> üretimde hammaddeden geriye kalan talaş, kırpıntı gibi parçalar; satılabilir ya da başka işte kullanılabilir ama mamul niteliği yoktur. <em>Bozuk mamul:</em> kalite standartlarına uymayan ve ek işlemle de birinci kalite mamule dönüştürülemeyen (ya da dönüştürülmesi ekonomik olmayan) mamul; olduğu gibi düşük fiyatla satılır ya da hurdaya ayrılır. <em>Kusurlu mamul:</em> standartlara uymayan, ancak ek bir işçilik, malzeme ve GÜG harcanarak birinci kalite mamul haline getirilebilen mamul.</p>",
    "<p><strong>3. Uygulama.</strong> Soru 'ek bir işleme tabi tutularak birinci kalite mamul niteliğine dönüştürülebilen' kaybı soruyor; bu tanım kusurlu mamule aittir. Cevap <strong>D</strong>.</p>"
   ],
   "dayanak": "Üretim kayıpları: fire, artık, bozuk mamul ve kusurlu mamul tanımları.",
@@ -170,7 +170,7 @@
   ],
   "dayanak": "Maliyet unsurlarının sınıflandırılması; GÜG'nin kapsamı.",
   "tuzaklar": {
-   "A": "50 ₺ = 500.000 / 10.000; ya GÜG'den bir kalem (örneğin 50.000 ₺'lik endirekt işçilik) eksik alınmış ya da direkt işçiliğin birim tutarı hesaplanmıştır.",
+   "A": "50 ₺ = 500.000 / 10.000: 50.000 ₺'lik kalemlerden biri (endirekt işçilik ya da çeşitli GÜG) unutulmuş ya da birim direkt işçilik (500.000/10.000) hesaplanmış.",
    "C": "105 ₺ = (500.000 + 550.000) / 10.000; direkt işçilik GÜG'ye katılmış, bu birim dönüştürme maliyetidir.",
    "D": "150 ₺ = (1.000.000 + 500.000) / 10.000; birim ilk (asal) maliyettir.",
    "E": "205 ₺ = 2.050.000 / 10.000; tüm üretim giderlerinin birim tutarıdır (birim üretim maliyeti)."
@@ -186,23 +186,24 @@
  {
   "id": "2026-2-MAL-08",
   "sonuc": "B",
-  "ozet": "Satışların maliyeti; satılan mamuller, satılan ticari mallar, satılan hizmet ve diğer satışların maliyetinden oluşur; satıştan indirimler maliyet değil brüt satışlardan indirilen bir kalemdir.",
+  "ozet": "Gelir tablosundaki Satışların Maliyeti bölümü (62 grubu) satılan mamuller, satılan ticari mallar, satılan hizmet ve diğer satışların maliyetinden oluşur; satıştan indirimler maliyet değil, brüt satışlardan indirilen bir kalemdir. Resmi anahtar bu dört kalemli kapsamı esas alır (tablonun MSUGT'deki üç satırlı biçimine ilişkin not çözümde).",
   "adimlar": [
-   "<p><strong>1. Satışların maliyeti kapsamı.</strong> Tekdüzen Hesap Planında 62 Satışların Maliyeti grubu 620 Satılan Mamuller Maliyeti, 621 Satılan Ticari Mallar Maliyeti, 622 Satılan Hizmet Maliyeti ve 623 Diğer Satışların Maliyeti hesaplarından oluşur. Gelir tablosunda 'C. Satışların Maliyeti (−)' başlığı da bu dört kalemi gösterir. Satışların maliyeti tablosu, bu kalemin nasıl oluştuğunu ayrıntılı gösteren ek mali tablodur; I, II, III ve IV bu kapsamdadır.</p>",
+   "<p><strong>1. Satışların maliyeti kapsamı.</strong> Gelir tablosunun 'C. Satışların Maliyeti (−)' bölümü ve 62 grubu dört kalemden oluşur: 620 Satılan Mamuller Maliyeti, 621 Satılan Ticari Mallar Maliyeti, 622 Satılan Hizmet Maliyeti, 623 Diğer Satışların Maliyeti. Satışların maliyeti tablosu gelir tablosunun bu bölümünü ayrıntılandıran ek tablodur. Resmi anahtar I-IV'ün hepsini bu kapsamda saymaktadır.</p>",
    "<p><strong>2. Satış indirimleri.</strong> Satıştan iadeler, satış iskontoları ve diğer indirimler 61 Satış İndirimleri grubunda izlenir. Gelir tablosunda ayrı bir başlık ('B. Satış İndirimleri (−)') olarak brüt satışlardan düşülür ve net satışlara ulaşılır. Bir maliyet kalemi değildir, satışların maliyeti tablosunda yer almaz.</p>",
+   "<p><strong>Not.</strong> MSUGT'deki tablo örneği satır satır yalnız satılan mamul, satılan ticari mal ve satılan hizmet maliyetini gösterir ve toplamı bu üçünün toplamı olarak tanımlar; 'Diğer Satışların Maliyeti' ayrı satır değildir. Tablo bu dar biçimde okunursa IV de yer almaz sayılabilir (D). Anahtar ise gelir tablosundaki dört kalemli bölümü esas almıştır; kesin olarak dışarıda kalan kalem satış indirimleridir.</p>",
    "<p><strong>3. Sonuç.</strong> Yer almayan yalnızca V'tir. Cevap <strong>B</strong>.</p>"
   ],
-  "dayanak": "Tekdüzen Hesap Planı: 62 Satışların Maliyeti (620-623) ve 61 Satış İndirimleri grupları; gelir tablosu ve satışların maliyeti tablosu.",
+  "dayanak": "MSUGT (1 Sıra No.lu): gelir tablosu 'B. Satış İndirimleri' (610-612) ve 'C. Satışların Maliyeti' (620-623) bölümleri; ek mali tablo 'Satışların Maliyeti Tablosu' (Ek Tablo 5).",
   "tuzaklar": {
-   "A": "Diğer satışların maliyeti (623) satışların maliyetinin bir parçasıdır; asıl yer almayan satıştan indirimlerdir.",
-   "C": "Satılan hizmet maliyeti (622) ve diğer satışların maliyeti (623) satışların maliyeti kapsamındadır.",
-   "D": "V doğru seçilmiş, ancak IV (623 Diğer Satışların Maliyeti) satışların maliyetinin içindedir.",
-   "E": "III ve IV satışların maliyeti kapsamındadır; yalnızca V yer almaz."
+   "A": "Diğer satışların maliyeti (623) gelir tablosundaki Satışların Maliyeti bölümünün (62 grubu) parçasıdır; asıl yer almayan satıştan indirimlerdir.",
+   "C": "Satılan hizmet maliyeti (622) ve diğer satışların maliyeti (623) gelir tablosundaki Satışların Maliyeti bölümünün (62 grubu) parçasıdır.",
+   "D": "IV ve V'yi seçmek, tablonun MSUGT örneğindeki üç satırlık (I+II+III) biçimine dayanır; ancak anahtar, 623'ü de içeren gelir tablosu 'Satışların Maliyeti' bölümünü esas almıştır. Yalnız V kesin olarak dışarıdadır.",
+   "E": "Satılan hizmet maliyeti (622) her iki okumada da satışların maliyetindedir; III'ün dışarıda sayılması yanlıştır."
   },
   "kartlar": [
    {
     "on": "62 Satışların Maliyeti grubunun hesapları?",
-    "arka": "620 Satılan Mamuller Maliyeti, 621 Satılan Ticari Mallar Maliyeti, 622 Satılan Hizmet Maliyeti, 623 Diğer Satışların Maliyeti."
+    "arka": "620 Satılan Mamuller Maliyeti, 621 Satılan Ticari Mallar Maliyeti, 622 Satılan Hizmet Maliyeti, 623 Diğer Satışların Maliyeti. (MSUGT'deki Satışların Maliyeti Tablosu örneği ise toplamı I+II+III olarak üç satırla verir.)"
    },
    {
     "on": "Satış indirimleri gelir tablosunda nerede?",
@@ -217,7 +218,7 @@
   "ozet": "7/A'da yansıtma hesapları, fiili maliyet uygulanıyorsa gider hesaplarında toplanan giderlerin tümünü, önceden saptanmış maliyet uygulanıyorsa bu yöntemle saptanan tutarları ilgili hesaplara yansıtmak için kullanılır.",
   "adimlar": [
    "<p><strong>1. 7/A'nın yapısı.</strong> 7/A seçeneğinde giderler fonksiyonlarına göre ana gider hesaplarında (710, 720, 730, 740, 750, 760, 770, 780) toplanır. Her ana hesabın bir yansıtma hesabı (711, 721, 731, 741, 751, 761, 771, 781) vardır; önceden saptanmış maliyet kullanılan durumlarda ayrıca fark hesapları (örneğin 712-713, 722-723, 732-734) kullanılır.</p>",
-   "<p><strong>2. Yansıtma hesaplarının işlevi.</strong> Fiili maliyet sisteminde ana gider hesabında toplanan giderlerin <em>tümü</em>, yansıtma hesabı aracılığıyla ilgili hesaplara (151 Yarı Mamuller, 62 veya 63 grubu) aktarılır. Önceden saptanmış (standart veya tahmini) maliyet sisteminde ise bu yöntemle saptanan tutar yansıtılır; fiili tutarla arasındaki fark, fark hesaplarında izlenir.</p>",
+   "<p><strong>2. Yansıtma hesaplarının işlevi.</strong> Fiili maliyet sisteminde ana gider hesabında toplanan giderlerin <em>tümü</em>, yansıtma hesabı aracılığıyla ilgili hesaplara (151, 62, 63 veya 66 grubu) aktarılır. Önceden saptanmış (standart veya tahmini) maliyet sisteminde ise bu yöntemle saptanan tutar yansıtılır; fiili tutarla arasındaki fark, fark hesaplarında izlenir.</p>",
    "<p><strong>3. Uygulama.</strong> Bu tanımı eksiksiz veren şık A'dır. B, C ve D yansıtma hesaplarını gereksiz yere 'sadece' üretim veya faaliyet giderleriyle sınırlıyor; E ise önceden saptanmış maliyette de kullanılan yansıtma hesaplarını yok sayıyor. Cevap <strong>A</strong>.</p>"
   ],
   "dayanak": "Tekdüzen Muhasebe Sistemi Uygulama Genel Tebliği, 7/A seçeneği: yansıtma ve fark hesaplarının işleyişi.",
@@ -270,13 +271,13 @@
   "ozet": "Tebliğe göre gider yeri, üretim ve hizmetlerin yapıldığı ve maliyetlerin oluştuğu örgütün bir birimini ya da birim içindeki bir yeri ifade eder; yalnız üretimle ya da yalnız hizmetle sınırlı değildir.",
   "adimlar": [
    "<p><strong>1. Tanım.</strong> Muhasebe Sistemi Uygulama Genel Tebliğlerinde gider yeri; üretim ve hizmetlerin yapıldığı ve maliyetlerin oluştuğu, örgütün bir birimi ya da birim içindeki bir yer olarak tanımlanır.</p>",
-   "<p><strong>2. Kapsam.</strong> Gider yerleri yalnız üretim bölümlerinden ibaret değildir: esas üretim, yardımcı üretim, yardımcı hizmet ve yatırım gider yerlerinin yanında araştırma-geliştirme, pazarlama-satış-dağıtım ve genel yönetim gibi faaliyet gider yerleri de vardır. Giderler önce gider yerlerinde toplanır, sonra dağıtım anahtarlarıyla mamullere yüklenir.</p>",
+   "<p><strong>2. Kapsam.</strong> Gider yerleri yalnız üretim bölümlerinden ibaret değildir: esas üretim, yardımcı üretim, yardımcı hizmet, üretim yerleri yönetimi ve yatırım gider yerlerinin yanında araştırma-geliştirme, pazarlama-satış-dağıtım ve genel yönetim gibi faaliyet gider yerleri de vardır. Üretim gider yerlerinde toplanan giderler (yardımcı gider yerlerinden esas üretim gider yerlerine dağıtılarak) mamullere yüklenir; faaliyet gider yerlerindeki giderler dönem gideri olarak 63 grubuna aktarılır.</p>",
    "<p><strong>3. Uygulama.</strong> A, B, C ve E tanımı 'sadece' sözcüğüyle tek bir türe indiriyor. Tanımı tebliğdeki biçimiyle veren D'dir. Cevap <strong>D</strong>.</p>"
   ],
   "dayanak": "Muhasebe Sistemi Uygulama Genel Tebliği: gider yeri tanımı ve gider yerlerinin sınıflandırılması.",
   "tuzaklar": {
    "A": "Gider yeri yalnız üretimin yapıldığı birim değildir; hizmetlerin yapıldığı birimleri de kapsar.",
-   "B": "Gider yerleri tek bir türle sınırlı değildir; üretim, hizmet, yatırım ve faaliyet gider yerlerinin tümü bu kavramın içindedir.",
+   "B": "Üretim yerleri yönetimi gider yerleri gerçek bir gider yeri türüdür, ancak türlerden yalnızca biridir.",
    "C": "Gider yeri yalnız hizmetlerin yapıldığı birim değildir; üretimin yapıldığı birimleri de kapsar.",
    "E": "Yatırım gider yerleri gider yeri türlerinden yalnızca biridir."
   },
@@ -406,7 +407,7 @@
   "tuzaklar": {
    "A": "880.000 ₺ = 910.000 − 30.000; Haziran'ın dönem başı mamul stoku (20.000 ₺) eklenmemiş.",
    "C": "910.000 ₺ Haziran'ın üretilen mamul maliyetidir; mamul stok değişimi dikkate alınmamış.",
-   "D": "950.000 ₺ = 910.000 + 40.000; Mayıs'ın dönem başı stoku Haziran'a taşınmış ve Haziran dönem sonu stoku düşülmemiş.",
+   "D": "950.000 = 910.000 + 40.000 (Mayıs dönem başı stoku); Haziran'ın stokları doğru kullanılmamış.",
    "E": "1.000.000 ₺ bu verilerle doğru yöntemle bulunamaz."
   },
   "kartlar": [
@@ -455,10 +456,10 @@
   ],
   "dayanak": "Safha maliyet sistemi, ilk giren ilk çıkar (FIFO) yönteminde eşdeğer birim hesabı.",
   "tuzaklar": {
-   "B": "%30 dönem sonu yarı mamullerin tamamlanma derecesidir; dönem başı derecesi değil.",
-   "E": "%60 bu dönemde dönem başı stoklara yapılan işin oranıdır (1 − t); dönem başı stokların önceki dönemde ulaştığı tamamlanma derecesi bunun tümleyeni %40'tır.",
    "A": "%20 ile eşdeğer miktar 4.000 × 0,80 + 8.000 + 600 = 11.800 br olur; 11.000 br'ye eşit değildir.",
-   "D": "%50 ile eşdeğer miktar 4.000 × 0,50 + 8.000 + 600 = 10.600 br olur; 11.000 br'ye eşit değildir."
+   "B": "%30 dönem sonu yarı mamullerin tamamlanma derecesidir; dönem başı derecesi değil.",
+   "D": "%50 ile eşdeğer miktar 4.000 × 0,50 + 8.000 + 600 = 10.600 br olur; 11.000 br'ye eşit değildir.",
+   "E": "%60 bu dönemde dönem başı stoklara yapılan işin oranıdır (1 − t); dönem başı stokların önceki dönemde ulaştığı tamamlanma derecesi bunun tümleyeni %40'tır."
   },
   "kartlar": [
    {
@@ -509,7 +510,7 @@
   "adimlar": [
    "<p><strong>1. Grubun kapsamı.</strong> 7/A'da 78 Finansman Giderleri grubu, işletmenin borçlandığı tutarlarla ilgili olarak katlanılan ve varlıkların maliyetine eklenmemiş bulunan faiz ve benzeri giderler (faiz, komisyon, kur farkı gibi) ile yansıtma ve fark hesaplarından oluşur.</p>",
    "<p><strong>2. Hesaplar.</strong> 780 Finansman Giderleri (giderlerin toplandığı ana hesap), 781 Finansman Giderleri Yansıtma Hesabı ve önceden saptanmış maliyet kullanılıyorsa 782 Finansman Giderleri Fark Hesabı.</p>",
-   "<p><strong>3. Kapanış.</strong> Dönem sonunda finansman giderleri 781 aracılığıyla gelir tablosundaki 66 Finansman Giderleri grubuna (660 Kısa Vadeli Borçlanma Giderleri, 661 Uzun Vadeli Borçlanma Giderleri) aktarılır; 780 ile 781 karşılıklı kapatılır. Banka hesaplarına aktarma söz konusu değildir.</p>",
+   "<p><strong>3. Kapanış.</strong> Dönem sonunda finansman giderleri 781 aracılığıyla gelir tablosundaki 66 Finansman Giderleri grubuna (660 Kısa Vadeli Borçlanma Giderleri, 661 Uzun Vadeli Borçlanma Giderleri) aktarılır (üretim maliyetine yüklenen kısım varsa ilgili maliyet hesaplarına); 780 ile 781 karşılıklı kapatılır. Banka hesaplarına aktarma söz konusu değildir.</p>",
    "<p><strong>4. Sonuç.</strong> Tanımı eksiksiz veren C'dir. Cevap <strong>C</strong>.</p>"
   ],
   "dayanak": "Tekdüzen Muhasebe Sistemi Uygulama Genel Tebliği, 7/A seçeneği: 78 Finansman Giderleri grubu (780, 781, 782).",
@@ -526,7 +527,7 @@
    },
    {
     "on": "780'de toplanan giderler dönem sonunda nereye aktarılır?",
-    "arka": "781 aracılığıyla gelir tablosundaki 660 / 661 Borçlanma Giderleri hesaplarına."
+    "arka": "781 aracılığıyla gelir tablosundaki 660 / 661 Borçlanma Giderleri hesaplarına (üretim maliyetine yüklenen kısım varsa ilgili maliyet hesaplarına)."
    }
   ],
   "konuBaglantisi": "02-maliyet-akisi-7a-7b"

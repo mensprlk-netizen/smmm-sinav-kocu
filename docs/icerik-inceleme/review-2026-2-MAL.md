@@ -14,7 +14,7 @@ Genel: Satır sonları birleştirildi; ₺, binlik ayracı ve kitapçıktaki kes
 | 05 | ok | Yalnız satır birleştirme | B (30.000) | B | evet |
 | 06 | düzeltildi | Altı çizili "yanlıştır" `<u>` ile işaretlendi | A | A | evet |
 | 07 | ok | Veri paragrafı ayrı `<p>` | B (550.000 / 10.000 = 55) | B | evet |
-| 08 | düzeltildi | I-V öncülleri `<ul>` listesine çevrildi; altı çizili "yer almaz" `<u>` ile işaretlendi | B (yalnız V) | B | evet |
+| 08 | düzeltildi | I-V öncülleri `<ul class="madde">` listesine çevrildi; altı çizili "yer almaz" `<u>` ile işaretlendi | B (yalnız V) | B | evet |
 | 09 | ok | Uzun şıklarda satır birleştirme | A | A | evet |
 | 10 | ok | Uzun şıklarda satır birleştirme | E | E | evet |
 | 11 | ok | Şıklarda satır birleştirme | D | D | evet |
@@ -32,6 +32,12 @@ Genel: Satır sonları birleştirildi; ₺, binlik ayracı ve kitapçıktaki kes
 
 Yok. 20 sorunun hepsinde bağımsız çözüm, kırmızı işaret ve cevap anahtarı tablosu aynı şıkkı veriyor. `tools/allow-missing.txt` değiştirilmedi.
 
+## Tartışmalı soru: 2026-2-MAL-08
+
+- **Okuma 1 (resmi anahtar, B "Yalnız V"):** Kapsam olarak gelir tablosunun "C. Satışların Maliyeti (−)" bölümü ve 62 grubu alınırsa bu bölüm dört kalemlidir: 620, 621, 622, 623 (Diğer Satışların Maliyeti dahil). I-IV bu kapsamdadır. Satış indirimleri (610-612) ayrı "B. Satış İndirimleri" bölümündedir. Yer almayan yalnız V'tir.
+- **Okuma 2 (lafzi, D "IV ve V"):** MSUGT (1 Sıra No.lu) ek mali tablo "Satışların Maliyeti Tablosu" (Ek Tablo 5) örneği yalnız üç sonuç satırı içerir: Satılan Mamul Maliyeti, Satılan Ticari Mal Maliyeti, Satılan Hizmet Maliyeti. Toplamı "SATIŞLARIN MALİYETİ (I+II+III)" olarak verir; "Diğer Satışların Maliyeti" satırı yoktur. Tablo bu biçimde okunursa IV de yer almaz.
+- **Karar (koordinatör):** Anahtar çelişkisi sayılmadı; sınavı hazırlayanların okuması savunulabilir. Çözüm `sonuc: "B"` ile yayımlandı. Çözümde ayrı bir **Not** adımı iki okumayı açıkça anlatır. `tuzaklar.D`, D'nin hangi okumaya dayandığını söyler; kartta tablonun üç satırlı biçimi belirtilir.
+
 ## Konu kodları
 
 - 01, 07, 11 → `05-genel-uretim-giderleri-dagitim` (GÜG kapsamı; gider yerleri). 2026-1-MAL-12 ile aynı kodlama.
@@ -43,7 +49,7 @@ Yok. 20 sorunun hepsinde bağımsız çözüm, kırmızı işaret ve cevap anaht
 
 - Kitapçıkta açık bir baskı hatası bulunamadı.
 - **03:** Standart süre "dönemde 2.400 DİS çalışılacağını ... planlamıştır" diye verilmiş; fiili üretime göre izin verilen standart süre olarak kabul edildi (sorunun tek tutarlı yorumu, şıklardaki 21.000 / 25.000 tutarları da bunu doğruluyor).
-- **08:** Kitapçık "Satıştan İndirimler" diyor (Tekdüzen hesap planında grup adı "Satış İndirimleri"); aynen aktarıldı. Cevabın dayanağı: gelir tablosunda "Satışların Maliyeti (−)" başlığı 620-623'ün dört kalemini (Diğer Satışların Maliyeti dahil) içerir, satış indirimleri ayrı başlıktır. D şıkkının (IV ve V) elenmesi, Diğer Satışların Maliyeti'nin bu kapsama girmesine dayanıyor. Gelir tablosu biçimi bir kaynaktan teyit edildi; MSUGT ek tablosu "Satışların Maliyeti Tablosu"nun satır satır biçimi ayrıca teyit edilemedi.
+- **08:** Kitapçık "Satıştan İndirimler" diyor (Tekdüzen hesap planında grup adı "Satış İndirimleri"); aynen aktarıldı. İki okuma için yukarıdaki "Tartışmalı soru" bölümüne bakınız. I-V öncülleri `<ul class="madde">` olarak işaretlendi (madde imi gösterilmez).
 - **11:** Çözümde gider yeri türleri "örneğin" diye sayıldı. Tebliğdeki tam liste ve sıra burada aktarılmadı.
 - **13:** "Memur ücret ve gideri" soruda açıkça "üretimle ilgili olarak katlanılan" maliyetler arasında, bu yüzden GÜG sayıldı.
 - **20:** C şıkkında "borçlandığı tutarla" (tekil) yazıyor; aynen aktarıldı. Çözümde 782 Finansman Giderleri Fark Hesabı adı ve 66 grubuna (660/661) kapanış belirtildi.

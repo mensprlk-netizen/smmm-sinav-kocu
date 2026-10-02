@@ -51,3 +51,4 @@ table.yevmiye td.n { text-align: right; white-space: nowrap; width: 1%; }
 .visual { margin: 10px 0; } .visual svg { width: 100%; height: auto; }
 .visual input[type=range] { width: 100%; }
 label.field { display: block; margin-bottom: 10px; } label.field select, label.field input { width: 100%; min-height: 44px; font: inherit; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
+.q-text ul.madde, .opt ul.madde, .solution ul.madde { list-style: none; padding-left: 0; margin: 6px 0; }

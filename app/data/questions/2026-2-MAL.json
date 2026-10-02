@@ -202,7 +202,7 @@
   "no": 8,
   "konu": "02-maliyet-akisi-7a-7b",
   "ortakBilgi": null,
-  "metin": "<ul><li>I. Satılan Mamuller Maliyeti</li><li>II. Satılan Ticari Mallar Maliyeti</li><li>III. Satılan Hizmet Maliyeti</li><li>IV. Diğer Satışların Maliyeti</li><li>V. Satıştan İndirimler</li></ul><p><strong>Yukarıdakilerden hangileri satışların maliyeti tablosunda <u>yer almaz</u>?</strong></p>",
+  "metin": "<ul class=\"madde\"><li>I. Satılan Mamuller Maliyeti</li><li>II. Satılan Ticari Mallar Maliyeti</li><li>III. Satılan Hizmet Maliyeti</li><li>IV. Diğer Satışların Maliyeti</li><li>V. Satıştan İndirimler</li></ul><p><strong>Yukarıdakilerden hangileri satışların maliyeti tablosunda <u>yer almaz</u>?</strong></p>",
   "secenekler": {
    "A": "<p>Yalnız IV</p>",
    "B": "<p>Yalnız V</p>",
