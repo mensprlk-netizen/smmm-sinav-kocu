@@ -1,5 +1,5 @@
 // app/js/screens/review.js
-import { h, toast } from '../ui.js';
+import { h, safe, kayitHatasi } from '../ui.js';
 import { createQuestionView } from './question-view.js';
 import * as fsrs from '../fsrs.js';
 import { buildQueue } from '../reviewqueue.js';
@@ -11,14 +11,6 @@ let epoch = 0;   // destroy() bumps it; in-flight work from an older epoch stops
 let seq = 0;     // each show() bumps it; only the newest transition may attach a view
 export function destroy() { epoch++; seq++; qv?.destroy(); qv = null; }
 
-const kayitHatasi = () => toast('Kayıt yapılamadı, yedek almayı deneyin.');
-function safe(fn) {
-  return (...a) => {
-    try { const r = fn(...a); return r && typeof r.then === 'function' ? r.then(undefined, kayitHatasi) : r; }
-    catch { kayitHatasi(); }
-  };
-}
-
 export async function render(view, params, ctx) {
   const { db, data } = ctx;
   const ep = epoch;
@@ -29,11 +21,23 @@ export async function render(view, params, ctx) {
   if (ep !== epoch) return;
   const vadesiGelen = cards.filter(c => c.state !== 'new' && c.due <= now).length;
   const plan = gunlukPlan({ hedefSaat, vadesiGelen, sinavaKalanGun: sinavaKalanGun(now, examDate), dersIstatistik: [], bugunYapilan: counter.sayac });
-  const queue = buildQueue(cards, now, { kota: plan.tekrarKotasi });
+  // Drop question cards whose question is missing or cancelled; info cards are always kept.
+  const usable = async (list) => {
+    const out = [];
+    for (const c of list) {
+      if (c.tur === 'soru') { const q = await data.getQuestion(c.kaynakId); if (!q || q.iptal) continue; }
+      out.push(c);
+    }
+    return out;
+  };
+  const raw = buildQueue(cards, now, { kota: plan.tekrarKotasi });
+  const queue = await usable(raw);
+  if (ep !== epoch) return;
 
   if (!queue.length) {
-    const erken = buildQueue(cards, now, { kota: 20, erken: true });
-    const baslik = vadesiGelen > 0 && counter.sayac > 0 ? 'Günlük tekrar hedefi tamam.' : (vadesiGelen === 0 ? 'Vadesi gelen kart yok.' : plan.mesaj);
+    const erken = await usable(buildQueue(cards, now, { kota: 20, erken: true }));
+    if (ep !== epoch) return;
+    const baslik = raw.length ? 'Vadesi gelen kart yok.' : vadesiGelen > 0 && counter.sayac > 0 ? 'Günlük tekrar hedefi tamam.' : (vadesiGelen === 0 ? 'Vadesi gelen kart yok.' : plan.mesaj);
     view.append(h('h1', {}, 'Tekrar'),
       h('div', { class: 'card' }, h('h3', {}, baslik),
         h('p', { class: 'muted' }, `Bugün ${counter.sayac} kart tekrar ettin.`),
@@ -76,7 +80,7 @@ export async function render(view, params, ctx) {
           const holder = h('div');
           qv = createQuestionView({ question: q, solution: sol, mode: 'review', index: i, total: list.length, inkStrokes, feynmanStrokes,
             onAnswer: safe(async ({ cevap, dogruMu, emin }) => {
-              await db.addAnswer({ soruId: q.id, cevap, dogruMu, emin, sure: 0, mod: 'review' });
+              try { await db.addAnswer({ soruId: q.id, cevap, dogruMu, emin, sure: 0, mod: 'review' }); } catch { kayitHatasi(); }
               if (stale()) return;
               holder.append(h('p', { class: 'muted' }, dogruMu ? 'Doğru. Ne kadar kolaydı?' : 'Yanlış. Çözümü oku, sonra derecelendir.'), ratingRow(card));
             }),

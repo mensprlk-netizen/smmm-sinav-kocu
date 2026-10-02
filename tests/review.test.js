@@ -166,15 +166,48 @@ test('verisi olmayan soru kartı atlanır, sıradaki kart gösterilir', async ()
   await run();
   assert.ok(view.textContent.includes('Ön 0'));
   assert.equal(opts().length, 0);
+  assert.ok(view.textContent.includes('1 / 1'));
+});
+
+test('eksik soru toplamdan düşer: üç karttan biri yoksa 1 / 2 ve 2 / 2', async () => {
+  await putAll([{ ...qCard(9, NOW - 9000), kartId: 'soru:yok-99', kaynakId: 'yok-99' }, iCard(0, NOW - 5000), iCard(1, NOW - 4000)]);
+  await run();
+  assert.ok(view.textContent.includes('1 / 2'));
+  await click('Cevabı göster'); await click('İyi');
+  assert.ok(view.textContent.includes('2 / 2'));
+  assert.equal((await db.getSetting('review:gun', null)).sayac, 1);
+});
+
+test('iptal edilmiş sorunun kartı sunulmaz; tek kartsa "Vadesi gelen kart yok." ve sayaç yazılmaz', async () => {
+  FILES['data/questions/2026-1-FM.json'] = [mkQ(1), mkQ(2), { ...mkQ(3), iptal: true }];
+  try {
+    await putAll([qCard(3, NOW - 1000)]);
+    await run();
+    assert.equal(opts().length, 0);
+    assert.ok(view.textContent.includes('Vadesi gelen kart yok.'));
+    assert.equal(await db.getSetting('review:gun', null), null);
+  } finally { FILES['data/questions/2026-1-FM.json'] = [mkQ(1), mkQ(2), mkQ(3)]; }
+});
+
+test('addAnswer reddedilse de toast çıkar ve derece düğmeleri bir kez görünür; İyi kaydeder', async () => {
+  await putAll([qCard(1, NOW - 1000)]);
+  const failing = { ...db, addAnswer: async () => { throw new Error('boom'); } };
+  await review.render(view, {}, { ...ctx, db: failing }); await settle();
+  view.querySelector('button.opt[data-letter="C"]').click(); await settle();
+  assert.ok(document.body.textContent.includes('Kayıt yapılamadı, yedek almayı deneyin.'));
+  for (const t of RATINGS) assert.equal(btns(t).length, 1);
+  await click('İyi');
+  assert.equal((await db.getCard('soru:2026-1-FM-01')).reps, 3);
+  assert.ok(view.textContent.includes('Tekrar bitti.'));
 });
 
 test('oturum ortasında destroy: hata yok, geç gelen adım görünüme eleman eklemez', async () => {
   await putAll([qCard(1, NOW - 1000)]);
   let gate;
   const slow = { ...data, getQuestion: () => new Promise((r) => { gate = r; }), getSolution: data.getSolution };
-  await review.render(view, {}, { ...ctx, data: slow }); await settle();
+  const p = review.render(view, {}, { ...ctx, data: slow }); await settle();
   review.destroy();
-  gate(mkQ(1)); await settle();
+  gate(mkQ(1)); await p; await settle();
   assert.equal(view.children.length, 0);
   assert.doesNotThrow(() => review.destroy());
 });
@@ -185,6 +218,7 @@ test('sınav günü: kota 0, soru gösterilmez, çökmez', async () => {
   await run();
   assert.equal(opts().length, 0);
   assert.ok(view.textContent.includes('Sınav günü'));
+  assert.equal(erkenBtns().length, 1); // mevcut davranış: vadesi gelen kart erken tekrar olarak sunulur
 });
 
 test('kayıt hatası sessiz değil: toast gösterilir, kart ilerlemez, işlenmeyen ret yok', async () => {
@@ -195,4 +229,14 @@ test('kayıt hatası sessiz değil: toast gösterilir, kart ilerlemez, işlenmey
   assert.ok(document.body.textContent.includes('Kayıt yapılamadı, yedek almayı deneyin.'));
   assert.ok(view.textContent.includes('1 / 2'));
   assert.equal((await db.getCard('bilgi:k:0')).reps, 2);
+});
+
+test('show aşamasında destroy: geç gelen soru görünüme eklenmez', async () => {
+  await putAll([qCard(1, NOW - 1000)]);
+  let gate, n = 0;
+  const slow = { ...data, getQuestion: (id) => (++n === 1 ? data.getQuestion(id) : new Promise((r) => { gate = r; })), getSolution: data.getSolution };
+  await review.render(view, {}, { ...ctx, data: slow }); await settle();
+  review.destroy();
+  gate(mkQ(1)); await settle();
+  assert.equal(view.children.length, 0);
 });
