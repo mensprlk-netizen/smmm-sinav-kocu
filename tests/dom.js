@@ -11,7 +11,15 @@ export function setupDom() {
     };
   }
   globalThis.PointerEvent = w.PointerEvent;
-  w.HTMLCanvasElement.prototype.getContext = () => null;
+  w.scrollBy = () => {};
+  w.HTMLCanvasElement.prototype.getContext = function () {
+    if (this.__ctx) return this.__ctx;
+    const calls = [];
+    const ctx = { calls, canvas: this, globalCompositeOperation: 'source-over', strokeStyle: '', fillStyle: '', lineWidth: 1, lineCap: 'butt', lineJoin: 'miter' };
+    for (const n of ['save', 'restore', 'beginPath', 'moveTo', 'lineTo', 'arc', 'fill', 'clearRect']) ctx[n] = (...a) => { calls.push([n, ...a]); };
+    ctx.stroke = () => { calls.push(['stroke', ctx.globalCompositeOperation]); };
+    return (this.__ctx = ctx);
+  };
   w.HTMLElement.prototype.setPointerCapture = () => {};
   w.HTMLElement.prototype.releasePointerCapture = () => {};
   return w;
