@@ -83,3 +83,17 @@ test('geçersiz eleman içeren yedek reddedilir ve veri korunur', async () => {
   await assert.rejects(() => db.importAll(badBackup), /Yedek dosyası tanınmadı/);
   assert.equal(await db.getSetting('tema', 'system'), 'dark');
 });
+
+test('addAnswers: tüm satırları tarihle yazar, boş liste çözülür', async () => {
+  await db.addAnswers([]);
+  assert.equal((await db.allAnswers()).length, 0);
+  await db.addAnswers([{ soruId: 'a', cevap: 'A', mod: 'exam' }, { soruId: 'b', cevap: 'B', mod: 'exam' }, { soruId: 'c', cevap: 'C', mod: 'exam' }]);
+  const all = await db.allAnswers();
+  assert.equal(all.length, 3);
+  assert.ok(all.every(a => a.tarih > 0));
+});
+
+test('addAnswers: ortadaki geçersiz satır hepsini geri alır', async () => {
+  await assert.rejects(db.addAnswers([{ soruId: 'a', mod: 'exam' }, { id: {}, soruId: 'b', mod: 'exam' }, { soruId: 'c', mod: 'exam' }]));
+  assert.equal((await db.allAnswers()).length, 0);
+});

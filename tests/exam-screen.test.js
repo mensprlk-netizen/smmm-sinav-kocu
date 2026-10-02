@@ -54,7 +54,7 @@ const pattern = (s) => {
 const seedFinished = async () => {
   const s0 = await seed(); const s1 = { ...s0, cevaplar: pattern(s0) };
   const byId = Object.fromEntries((await malPool()).map(q => [q.id, q]));
-  const fin = X.finish(s1, byId, NOW + 20 * MIN); await db.saveExam(fin); return fin;
+  const fin = { ...X.finish(s1, byId, NOW + 20 * MIN), satirlarYazildi: true }; await db.saveExam(fin); return fin;
 };
 
 beforeEach(async () => {
@@ -154,10 +154,10 @@ test('Bitir: onay ister, bir cevap satırı/cevaplı soru, kart yok, sonuca gide
   assert.deepEqual(navs, ['#/exam/result/d1']);
 });
 
-test('sonuç: 10 doğru 4 yanlış 5 boş → 47.37 ve baraj altı mesajı', async () => {
+test('sonuç: 10 doğru 4 yanlış 5 boş → 47,37 ve baraj altı mesajı', async () => {
   await seedFinished(); await run('result', 'd1');
   const t = view.textContent;
-  assert.ok(t.includes('47.37'));
+  assert.ok(t.includes('47,37'));
   assert.ok(t.includes('Doğru 10 · Yanlış 4 · Boş 5'));
   assert.ok(t.includes('Ders barajı 50 altında'));
   assert.ok(t.includes('10D 4Y 5B'));
@@ -189,7 +189,8 @@ test('süre dolması ile Bitir onayı aynı anda: tek sonuç, tek cevap satırı
 });
 
 test('devam: kurulumda Yarım kalan deneme var + Devam et; sınavda cevap ve gerçek kalan süre', async () => {
-  const s0 = await seed(); await db.saveExam({ ...s0, cevaplar: { '2026-1-MAL-01': 'B' } });
+  const s0 = await seed();
+  await db.saveExam({ ...s0, cevaplar: { ...Object.fromEntries(s0.soruIdler.map(id => [id, 'C'])), '2026-1-MAL-20': 'B' } });
   mock.timers.tick(10 * MIN);
   await run();
   assert.ok(view.textContent.includes('Yarım kalan deneme var'));
@@ -343,4 +344,66 @@ test('saveExam reddedilirse standart toast görünür, seçim ekranda kalır', a
   assert.ok(opt('C').classList.contains('selected'));
   await click('Sonraki ›'); await click('‹ Önceki');
   assert.ok(opt('C').classList.contains('selected'));
+});
+
+test('satır yazımı başarısız: bitmiş, satirlarYazildi false, satır yok, toast, sonuca gider; sonuç yeniden dener', async () => {
+  await seed();
+  ctx = { navigate: (h) => { navs.push(h); }, data, db: { ...db, addAnswers: async () => { throw new Error('boom'); } } };
+  await run('run', 'd1');
+  opt('C').click(); await settle();
+  await click('Sonraki ›'); opt('A').click(); await settle();
+  await click('Bitir'); await click('Evet');
+  const s = await db.getExam('d1');
+  assert.equal(s.bittiMi, true);
+  assert.equal(s.satirlarYazildi, false);
+  assert.equal((await db.allAnswers()).filter(a => a.mod === 'exam').length, 0);
+  assert.ok(toastText().includes('Kayıt yapılamadı, yedek almayı deneyin.'));
+  assert.deepEqual(navs, ['#/exam/result/d1']);
+  ctx = { navigate: (h) => { navs.push(h); }, db, data };
+  view.innerHTML = '';
+  await run('result', 'd1');
+  assert.equal((await db.allAnswers()).filter(a => a.mod === 'exam').length, 2);
+  assert.equal((await db.getExam('d1')).satirlarYazildi, true);
+  view.innerHTML = '';
+  await run('result', 'd1');
+  assert.equal((await db.allAnswers()).filter(a => a.mod === 'exam').length, 2);
+});
+
+test('bayat oturum: kayıtlı sınav başka yerde bitmişse yeniden bitirmez', async () => {
+  await seed(); await run('run', 'd1');
+  opt('C').click(); await settle();
+  const fin = await seedFinished();
+  const sonuc = JSON.stringify(fin.sonuc);
+  const before = (await db.allAnswers()).length;
+  await click('Bitir'); await click('Evet');
+  assert.equal((await db.allAnswers()).length, before);
+  assert.equal(JSON.stringify((await db.getExam('d1')).sonuc), sonuc);
+  assert.deepEqual(navs, ['#/exam/result/d1']);
+});
+
+test('Özel: süre ve soru sayısı sınırlanır', async () => {
+  const mk = async (adet, sure, dersler = ['MAL']) => {
+    await db.resetAll(); view.innerHTML = ''; navs.length = 0;
+    await run();
+    const c = cardOf('Özel');
+    c.querySelectorAll('input[type=checkbox]').forEach(i => { i.checked = dersler.includes(i.value); });
+    const [a, s] = [...c.querySelectorAll('input[type=number]')];
+    a.value = adet; s.value = sure;
+    startBtn('Özel').click(); await settle();
+    return db.getExam(navs[0].split('/').pop());
+  };
+  assert.equal((await mk('20', '-10')).sureMs, 5 * MIN);
+  assert.equal((await mk('20', '9999')).sureMs, 240 * MIN);
+  assert.equal((await mk('-3', '45')).soruIdler.length, 5);
+  assert.equal((await mk('1000', '45', ['MAL', 'FM'])).soruIdler.length, 59);
+  const e = await mk('', '');
+  assert.equal(e.soruIdler.length, 20);
+  assert.equal(e.sureMs, 45 * MIN);
+});
+
+test('devam: ilk cevapsız soruda açılır', async () => {
+  const s0 = await seed();
+  await db.saveExam({ ...s0, cevaplar: Object.fromEntries(s0.soruIdler.slice(0, 3).map(id => [id, 'C'])) });
+  await run('run', 'd1');
+  assert.ok(view.querySelector('.question').textContent.includes('4 / 19'));
 });
