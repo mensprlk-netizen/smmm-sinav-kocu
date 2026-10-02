@@ -2,6 +2,7 @@
 import { h, toast, confirm, fmtSure, fmtPuan, sheet, safe, kayitHatasi } from '../ui.js';
 import { createQuestionView } from './question-view.js';
 import * as X from '../exam.js';
+import { startExam } from '../examflow.js';
 import * as fsrs from '../fsrs.js';
 import { DERSLER, DONEMLER, dersAdi } from '../data.js';
 import { examDateMs, scheduleForReview } from '../progress.js';
@@ -63,18 +64,8 @@ async function setup(view, ctx) {
       let sorular;
       try { sorular = await pick(); } catch { if (ep === epoch) toast('Sorular yüklenemedi.'); return; }
       if (ep !== epoch) return;
-      if (!sorular.length) return toast('Bu seçimle soru bulunamadı.');
-      const unf = (await db.allExams()).find(e => !e.bittiMi);
-      if (unf) {
-        if (!(await confirm('Yarım kalan deneme silinip yenisi başlatılsın mı?'))) return;
-        if (ep !== epoch) return;
-        await db.del('exams', unf.denemeId);
-      }
-      const s = X.createExam({ tur, sorular, sureDk, denemeId: 'd' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6) });
-      await db.saveExam(s);
-      if (ep !== epoch) return;
-      ctx.navigate('#/exam/run/' + s.denemeId);
-    } catch { kayitHatasi(); } finally { starting = false; }
+      await startExam({ db, navigate: ctx.navigate, tur, sorular, sureDk, alive: () => ep === epoch });
+    } finally { starting = false; }
   };
 
   view.append(h('h1', {}, 'Deneme'),
