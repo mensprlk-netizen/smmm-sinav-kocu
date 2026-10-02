@@ -30,6 +30,7 @@ function tx(store, mode, fn) {
     const r = fn(t.objectStore(store));
     if (r && 'onsuccess' in r) { r.onsuccess = () => resolve(r.result); r.onerror = () => reject(r.error); }
     else { t.oncomplete = () => resolve(r); t.onerror = () => reject(t.error); }
+    t.onabort = () => reject(t.error || new Error('İşlem iptal edildi.'));
   }));
 }
 
@@ -76,15 +77,37 @@ export async function exportAll() {
   return { surum: VERSION, tarih: new Date().toISOString(), depolar };
 }
 
+function validateBackupElement(store, v) {
+  if (v === null || typeof v !== 'object') return false;
+  if (store === 'answers') return true;
+  if (store === 'cards') return 'kartId' in v;
+  if (store === 'ink') return 'hedefId' in v;
+  if (store === 'exams') return 'denemeId' in v;
+  if (store === 'settings') return 'anahtar' in v;
+  if (store === 'flags') return 'soruId' in v;
+  return false;
+}
+
 export async function importAll(json) {
-  if (!json || json.surum !== VERSION || typeof json.depolar !== 'object' || !STORES.every(s => Array.isArray(json.depolar[s]))) {
+  if (!json || json.surum !== VERSION || !json.depolar || typeof json.depolar !== 'object' || !STORES.every(s => Array.isArray(json.depolar[s]))) {
     throw new Error('Yedek dosyası tanınmadı.');
+  }
+  for (const s of STORES) {
+    if (!json.depolar[s].every(v => validateBackupElement(s, v))) {
+      throw new Error('Yedek dosyası tanınmadı.');
+    }
   }
   const d = await dbp;
   await new Promise((resolve, reject) => {
     const t = d.transaction(STORES, 'readwrite');
-    for (const s of STORES) { const o = t.objectStore(s); o.clear(); for (const v of json.depolar[s]) o.put(v); }
-    t.oncomplete = resolve; t.onerror = () => reject(t.error);
+    try {
+      for (const s of STORES) { const o = t.objectStore(s); o.clear(); for (const v of json.depolar[s]) o.put(v); }
+      t.oncomplete = resolve; t.onerror = () => reject(t.error);
+      t.onabort = () => reject(t.error || new Error('İşlem iptal edildi.'));
+    } catch (e) {
+      t.abort();
+      reject(new Error('Yedek dosyası tanınmadı.'));
+    }
   });
 }
 
