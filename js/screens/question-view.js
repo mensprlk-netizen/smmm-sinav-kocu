@@ -9,7 +9,7 @@ export function createQuestionView(o) {
   const q = o.question, mode = o.mode;
   let selected = o.selected ?? null, locked = mode !== 'exam' && selected !== null, emin = o.emin !== false;
   let flagged = !!o.flagged;
-  const inks = [];
+  let solveInk = null, feynmanInk = null;
 
   const head = h('div', { class: 'q-head' },
     h('span', {}, `${dersAdi(q.ders)} · ${q.donem} · Soru ${q.no}`),
@@ -29,7 +29,7 @@ export function createQuestionView(o) {
     optEls[L] = b; return b;
   }));
 
-  const eminBtn = mode === 'exam' || q.iptal ? null : h('button', { class: 'chip' + (emin ? '' : ' on'), 'data-role': 'emin', onClick: () => { emin = !emin; eminBtn.classList.toggle('on', !emin); } }, 'Emin değilim');
+  const eminBtn = mode === 'exam' || q.iptal ? null : h('button', { class: 'chip' + (emin ? '' : ' on'), 'data-role': 'emin', onClick: () => { if (locked) return; emin = !emin; eminBtn.classList.toggle('on', !emin); } }, 'Emin değilim');
 
   const solWrap = h('div');
   const foot = h('div', { class: 'q-foot' },
@@ -40,6 +40,7 @@ export function createQuestionView(o) {
   const el = h('div', { class: 'question' }, head, body, opts, eminBtn ? h('div', { class: 'row', style: 'margin-bottom:10px' }, eminBtn) : null, solWrap, foot);
 
   function paint() {
+    if (eminBtn) { if (locked) eminBtn.setAttribute('disabled', ''); else eminBtn.removeAttribute('disabled'); }
     for (const [L, b] of Object.entries(optEls)) {
       b.classList.toggle('selected', mode === 'exam' && selected === L);
       if (locked || q.iptal) b.setAttribute('disabled', ''); else b.removeAttribute('disabled');
@@ -51,8 +52,8 @@ export function createQuestionView(o) {
     selected = L;
     if (mode === 'exam') { o.onAnswer?.({ cevap: L, dogruMu: L === q.dogru, emin: true }); paint(); return; }
     locked = true; paint();
-    o.onAnswer?.({ cevap: L, dogruMu: L === q.dogru, emin });
     showSolution();
+    o.onAnswer?.({ cevap: L, dogruMu: L === q.dogru, emin });
   }
   function showSolution() {
     const s = o.solution; solWrap.innerHTML = '';
@@ -65,7 +66,7 @@ export function createQuestionView(o) {
       s && Object.keys(s.tuzaklar || {}).length ? h('div', {}, h('h2', {}, 'Tuzak şıklar'), h('ul', {}, ...Object.entries(s.tuzaklar).map(([L, t]) => h('li', {}, h('strong', {}, L + ') '), t)))) : null,
       wrong ? h('div', {}, h('h2', {}, 'Neden yanlış yaptım?'), h('div', { class: 'row' }, ...TAGS.map(([k, label]) => h('button', { class: 'chip', 'data-tag': k, onClick: (e) => { panel.querySelectorAll('[data-tag]').forEach(c => c.classList.remove('on')); e.currentTarget.classList.add('on'); o.onTag?.(k); } }, label)))) : null,
       h('div', { class: 'row', style: 'margin-top:10px' },
-        s?.kartlar?.length ? h('button', { class: 'btn btn-small', 'data-role': 'cards', onClick: () => { o.onCards?.(s.kartlar); toast('Kartlar tekrar kuyruğuna eklendi.'); } }, `Kartları ekle (${s.kartlar.length})`) : null,
+        s?.kartlar?.length ? h('button', { class: 'btn btn-small', 'data-role': 'cards', onClick: (e) => { const btn = e.currentTarget; if (btn.disabled) return; btn.disabled = true; btn.textContent = 'Kartlar eklendi'; o.onCards?.(s.kartlar); toast('Kartlar tekrar kuyruğuna eklendi.'); } }, `Kartları ekle (${s.kartlar.length})`) : null,
         h('button', { class: 'btn btn-small', 'data-role': 'original', onClick: showOriginal }, 'Orijinali göster'),
         h('button', { class: 'btn btn-small', 'data-role': 'feynman', onClick: openFeynman }, 'Kendi cümlenle anlat')));
     solWrap.append(panel);
@@ -77,18 +78,16 @@ export function createQuestionView(o) {
     if (q.orijinal?.kutu) img.addEventListener('load', () => { const scale = img.clientWidth / img.naturalWidth; s.el.querySelector('.sheet-body').scrollTop = Math.max(0, q.orijinal.kutu[1] * scale - 40); });
   }
   function openInk() {
-    const ink = createInk({ strokes: o.inkStrokes || [], height: Math.round((globalThis.innerHeight || 800) * 0.6), onChange: (s) => { o.inkStrokes = s; o.onInk?.(s); } });
-    inks.push(ink);
-    sheet({ title: 'Çözüm alanı', content: ink.el });
+    solveInk ??= createInk({ strokes: o.inkStrokes || [], height: Math.round((globalThis.innerHeight || 800) * 0.6), onChange: (s) => { o.inkStrokes = s; o.onInk?.(s); } });
+    sheet({ title: 'Çözüm alanı', content: solveInk.el });
   }
   function openFeynman() {
-    const ink = createInk({ strokes: o.feynmanStrokes || [], height: 300, onChange: (s) => { o.feynmanStrokes = s; o.onFeynman?.(s); } });
-    inks.push(ink);
-    sheet({ title: 'Kendi cümlenle anlat', content: h('div', {}, h('p', { class: 'muted' }, 'Çözümü okuduktan sonra, kuralı birine öğretir gibi kendi sözlerinle yaz.'), ink.el) });
+    feynmanInk ??= createInk({ strokes: o.feynmanStrokes || [], height: 300, onChange: (s) => { o.feynmanStrokes = s; o.onFeynman?.(s); } });
+    sheet({ title: 'Kendi cümlenle anlat', content: h('div', {}, h('p', { class: 'muted' }, 'Çözümü okuduktan sonra, kuralı birine öğretir gibi kendi sözlerinle yaz.'), feynmanInk.el) });
   }
 
   paint();
   if (locked && mode !== 'exam') showSolution();
   if (q.iptal && mode !== 'exam') showSolution();
-  return { el, reveal() { locked = true; paint(); showSolution(); }, setSelected(L) { selected = L; paint(); }, destroy() { inks.forEach(i => i.destroy()); } };
+  return { el, reveal() { locked = true; paint(); showSolution(); }, setSelected(L) { selected = L; paint(); }, destroy() { solveInk?.destroy(); feynmanInk?.destroy(); } };
 }
