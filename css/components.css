@@ -44,7 +44,7 @@ table.yevmiye td.n { text-align: right; white-space: nowrap; width: 1%; }
 .grid-map button.current { outline: 2px solid var(--primary); }
 .timer { font-variant-numeric: tabular-nums; font-weight: 600; } .timer.low { color: var(--err); }
 .ink-wrap { position: relative; touch-action: pan-y; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
-.ink-wrap canvas { display: block; width: 100%; touch-action: pan-y; }
+.ink-wrap canvas { display: block; width: 100%; touch-action: none; }
 .ink-tools { display: flex; gap: 4px; padding: 6px; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
 .ink-tools .btn-icon.on { background: var(--sel); border-radius: 8px; }
 .stat-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); }
