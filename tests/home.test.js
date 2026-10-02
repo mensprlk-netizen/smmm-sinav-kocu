@@ -147,3 +147,10 @@ test('aynı soru bugün iki kez çalışılınca Yeni soru 1 sayılır (ayrık s
   await run();
   assert.equal(rowText('Yeni soru'), '1 / 20');
 });
+
+test('Tekrar çubuğu bugünkü yapılan + kalan kotayı gösterir (5 / 8)', async () => {
+  for (let i = 0; i < 3; i++) await db.saveCard({ kartId: `bilgi:k:${i}`, tur: 'bilgi', kaynakId: 'k', state: 'review', due: NOW - 1000 });
+  await db.setSetting('review:gun', { tarih: '2026-10-02', sayac: 5 });
+  await run();
+  assert.equal(rowText('Tekrar'), '5 / 8');
+});

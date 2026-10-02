@@ -12,8 +12,8 @@ export async function render(view, params, ctx) {
   const answers = await db.allAnswers();
   const cards = await db.allCards();
   const st = dersIstatistikleri(questions, answers);
-  const plan = gunlukPlan({ hedefSaat: await db.getSetting('hedefSaat', 1.5), vadesiGelen: cards.filter(c => c.state !== 'new' && c.due <= now).length, sinavaKalanGun: gun, dersIstatistik: st });
   const counter = dailyCounter(await db.getSetting('review:gun', null), todayKey(now));
+  const plan = gunlukPlan({ hedefSaat: await db.getSetting('hedefSaat', 1.5), vadesiGelen: cards.filter(c => c.state !== 'new' && c.due <= now).length, sinavaKalanGun: gun, dersIstatistik: st, bugunYapilan: counter.sayac });
   const bugunYeni = new Set(answers.filter(a => a.mod === 'study' && todayKey(a.tarih) === todayKey(now)).map(a => a.soruId)).size;
   const saved = await db.getSetting('study:state', null);
   const unfinished = (await db.allExams()).find(e => !e.bittiMi);
@@ -26,7 +26,7 @@ export async function render(view, params, ctx) {
       h('p', {}, plan.mesaj)),
     unfinished ? h('a', { class: 'btn btn-primary btn-block', href: '#/exam/run/' + unfinished.denemeId }, 'Yarım kalan denemeye devam et') : null,
     h('div', { class: 'card' }, h('h3', {}, 'Bugünkü plan'),
-      bar('Tekrar', counter.sayac, plan.tekrarKotasi), bar('Yeni soru', bugunYeni, plan.yeniSoruHedefi),
+      bar('Tekrar', counter.sayac, counter.sayac + plan.tekrarKotasi), bar('Yeni soru', bugunYeni, plan.yeniSoruHedefi),
       h('div', { class: 'row', style: 'margin-top:10px' },
         h('a', { class: 'btn', href: '#/review' }, 'Tekrara git'),
         h('a', { class: 'btn btn-primary', href: '#/study' }, saved?.ids?.length ? 'Devam et' : 'Çalışmaya başla'),

@@ -69,3 +69,16 @@ test('todayKey yerel takvim gününü kullanır', () => {
   assert.equal(todayKey(new Date(2026, 9, 3, 23, 59).getTime()), '2026-10-03');
   assert.equal(todayKey(new Date(2026, 0, 5, 0, 0).getTime()), '2026-01-05');
 });
+
+test('günlük kota bugünkü yapılan tekrarı düşer, vadesi gelen kartı aşmaz', () => {
+  const k = (o) => gunlukPlan({ hedefSaat: 1.5, sinavaKalanGun: 40, dersIstatistik: [], ...o }).tekrarKotasi;
+  assert.equal(k({ vadesiGelen: 10, bugunYapilan: 5 }), 10); // kalan hak 33, vadesi gelen 10
+  assert.equal(k({ vadesiGelen: 5, bugunYapilan: 5 }), 5);
+  assert.equal(k({ vadesiGelen: 40, bugunYapilan: 5 }), 33);
+  assert.equal(k({ vadesiGelen: 100, bugunYapilan: 30 }), 8);
+  assert.equal(k({ vadesiGelen: 100, bugunYapilan: 38 }), 0);
+  assert.equal(k({ vadesiGelen: 100, bugunYapilan: 50 }), 0);
+  assert.equal(k({ hedefSaat: 2, vadesiGelen: 100, bugunYapilan: 10 }), 30);
+  assert.equal(k({ vadesiGelen: 12, bugunYapilan: 0 }), 12);
+  assert.equal(k({ vadesiGelen: 12, bugunYapilan: 3, sinavaKalanGun: 0 }), 0);
+});
