@@ -133,7 +133,7 @@ def _load_solutions(sp, key, errs):
     return ss
 
 
-def _check_pair(app, donem, ders, konular, all_ids, errs):
+def _check_pair(app, donem, ders, konular, all_ids, errs, allow=frozenset(), warns=None, state=None):
     key = f"{donem}-{ders}"
     qp = app / f"data/questions/{key}.json"; sp = app / f"data/solutions/{key}.json"
     if not qp.exists():
@@ -170,7 +170,12 @@ def _check_pair(app, donem, ders, konular, all_ids, errs):
         if ss is None: continue
         s = ss.get(qid)
         if s is None:
-            errs.append(f"{qid}: çözüm yok"); continue
+            if qid in allow:
+                if state is not None: state["tolerated"].add(qid)
+                if warns is not None: warns.append(f"{qid}: çözüm yok (izinli istisna)")
+            else:
+                errs.append(f"{qid}: çözüm yok")
+            continue
         _check_solution(s, q, errs)
 
     if ss:
@@ -213,30 +218,44 @@ def _str_list(idx, name, errs):
     return v
 
 
-def validate(app_dir):
-    errs = []
+def validate(app_dir, allow_missing=()):
+    return validate_full(app_dir, allow_missing)[0]
+
+
+def validate_full(app_dir, allow_missing=()):
+    """(hatalar, uyarılar) döner. allow_missing: çözümü bilerek yayımlanmayan soru id'leri."""
+    errs = []; warns = []
+    allow = frozenset(allow_missing)
+    state = {"tolerated": set()}
+    all_ids = set()
+    _validate_into(app_dir, errs, warns, allow, state, all_ids)
+    for qid in sorted(allow - state["tolerated"]):
+        warns.append(f"{qid}: izinli istisna listesinde ama gerek yok")
+    return errs, warns
+
+
+def _validate_into(app_dir, errs, warns, allow, state, all_ids):
     try:
         app = pathlib.Path(app_dir)
         ip = app / "data/index.json"
         if not ip.exists():
-            return ["index.json: okunamadı (dosya yok)"]
+            errs.append("index.json: okunamadı (dosya yok)"); return
         idx = _load_json(ip, errs, "index.json:")
-        if idx is None: return errs
+        if idx is None: return
         if not isinstance(idx, dict):
-            return ["index.json: sözlük olmalı"]
+            errs.append("index.json: sözlük olmalı"); return
         for alan in ("donemler", "dersler"):
             if alan not in idx: errs.append(f"index.json: {alan} eksik")
-        if errs: return errs
+        if errs: return
         donemler = _str_list(idx, "donemler", errs)
         dersler = _str_list(idx, "dersler", errs)
         konular_l = _str_list(idx, "konular", errs) if "konular" in idx else []
-        if donemler is None or dersler is None or konular_l is None: return errs
+        if donemler is None or dersler is None or konular_l is None: return
         konular = set(konular_l)
-        all_ids = set()
         for donem in donemler:
             for ders in dersler:
                 try:
-                    _check_pair(app, donem, ders, konular, all_ids, errs)
+                    _check_pair(app, donem, ders, konular, all_ids, errs, allow, warns, state)
                 except Exception as e:  # son çare: asla istisna sızdırma
                     errs.append(f"{donem}-{ders}: beklenmeyen hata ({type(e).__name__})")
         for kod in konular_l:
@@ -246,12 +265,34 @@ def validate(app_dir):
                 errs.append(f"konu {kod}: beklenmeyen hata ({type(e).__name__})")
     except Exception as e:
         errs.append(f"doğrulama: beklenmeyen hata ({type(e).__name__})")
-    return errs
+
+
+def load_allow_missing(path):
+    """Dosyadan id listesi okur (satır başına bir id; boş satır ve # yorumları atlanır)."""
+    p = pathlib.Path(path)
+    if not p.exists(): return []
+    out = []
+    for line in p.read_text(encoding="utf-8").splitlines():
+        line = line.split("#", 1)[0].strip()
+        if line: out.append(line)
+    return out
+
+
+def main(argv=None):
+    import argparse
+    here = pathlib.Path(__file__).parent
+    ap = argparse.ArgumentParser(description="Yayın öncesi veri doğrulama")
+    ap.add_argument("app_dir", nargs="?", default=str(here.parent / "app"))
+    ap.add_argument("--allow-missing", default="", help="virgülle ayrılmış, çözümü olmayabilecek soru id'leri")
+    ap.add_argument("--allow-file", default=str(here / "allow-missing.txt"), help="izinli istisna dosyası")
+    a = ap.parse_args(argv)
+    allow = load_allow_missing(a.allow_file) + [x.strip() for x in a.allow_missing.split(",") if x.strip()]
+    errs, warns = validate_full(a.app_dir, allow)
+    for e in errs: print("HATA:", e)
+    for w in warns: print("UYARI:", w)
+    print("Doğrulama:", "GEÇTİ" if not errs else f"{len(errs)} hata")
+    return 1 if errs else 0
 
 
 if __name__ == "__main__":
-    app_dir = sys.argv[1] if len(sys.argv) > 1 else pathlib.Path(__file__).parent.parent / "app"
-    errs = validate(app_dir)
-    for e in errs: print("HATA:", e)
-    print("Doğrulama:", "GEÇTİ" if not errs else f"{len(errs)} hata")
-    sys.exit(1 if errs else 0)
+    sys.exit(main())

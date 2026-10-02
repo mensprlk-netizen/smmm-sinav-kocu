@@ -218,3 +218,65 @@ def test_gate_sonuc_mismatch_after_guards(tmp_path):
     ss = [_s(i) for i in range(1, 21)]; ss[8]["sonuc"] = "C"
     _ok(tmp_path, ss=ss)
     assert "2026-1-MAL-09: çözüm sonuc (C) anahtarla (A) uyuşmuyor" in _run(tmp_path)
+
+
+# --- izinli eksik çözüm istisnası ---
+from validate import validate_full, load_allow_missing, main as validate_main
+
+MISSING = "2026-1-MAL-17"
+_TOPIC = {"kod": "10-maliyet-hacim-kar", "bolumler": [], "cikmisSorular": [], "kartlar": []}
+
+def _data(tmp, skip=()):
+    _write(tmp, [_q(i) for i in range(1, 21)], [_s(i) for i in range(1, 21) if i not in skip], konular=[_TOPIC])
+
+def _missing_data(tmp):
+    _data(tmp, skip=(17,))
+
+def test_allow_listed_missing_is_warning(tmp_path):
+    _missing_data(tmp_path)
+    errs, warns = validate_full(tmp_path, allow_missing=[MISSING])
+    assert errs == []
+    assert warns == [f"{MISSING}: çözüm yok (izinli istisna)"]
+    assert validate(tmp_path, allow_missing=[MISSING]) == []
+
+def test_not_listed_missing_is_error(tmp_path):
+    _missing_data(tmp_path)
+    errs, warns = validate_full(tmp_path)
+    assert f"{MISSING}: çözüm yok" in errs and warns == []
+    assert validate(tmp_path) == errs
+
+def test_listed_but_has_solution_warns(tmp_path):
+    _data(tmp_path)
+    errs, warns = validate_full(tmp_path, allow_missing=[MISSING])
+    assert errs == [] and warns == [f"{MISSING}: izinli istisna listesinde ama gerek yok"]
+
+def test_listed_unknown_id_warns(tmp_path):
+    _data(tmp_path)
+    errs, warns = validate_full(tmp_path, allow_missing=["2026-1-MAL-99"])
+    assert errs == [] and warns == ["2026-1-MAL-99: izinli istisna listesinde ama gerek yok"]
+
+def test_allow_does_not_hide_other_errors(tmp_path):
+    _data(tmp_path, skip=(17, 18))
+    errs, warns = validate_full(tmp_path, allow_missing=[MISSING])
+    assert errs == ["2026-1-MAL-18: çözüm yok"]
+
+def test_load_allow_missing_ignores_comments_and_blanks(tmp_path):
+    f = tmp_path / "a.txt"
+    f.write_text("# açıklama\n\n  2026-1-MAL-17  \n   \n# x\n2026-2-FM-01 # not\n", encoding="utf-8")
+    assert load_allow_missing(f) == ["2026-1-MAL-17", "2026-2-FM-01"]
+    assert load_allow_missing(tmp_path / "yok.txt") == []
+
+def test_cli_exit_codes(tmp_path, capsys):
+    app = tmp_path / "app"; app.mkdir(); _missing_data(app)
+    empty = tmp_path / "bos.txt"; empty.write_text("", encoding="utf-8")
+    assert validate_main([str(app), "--allow-missing", MISSING, "--allow-file", str(empty)]) == 0
+    out = capsys.readouterr().out
+    assert f"UYARI: {MISSING}: çözüm yok (izinli istisna)" in out and "HATA" not in out
+    assert validate_main([str(app), "--allow-file", str(empty)]) == 1
+    assert f"HATA: {MISSING}: çözüm yok" in capsys.readouterr().out
+
+def test_cli_merges_file_and_option(tmp_path, capsys):
+    app = tmp_path / "app"; app.mkdir()
+    _data(app, skip=(17, 18))
+    f = tmp_path / "a.txt"; f.write_text("# c\n2026-1-MAL-17\n", encoding="utf-8")
+    assert validate_main([str(app), "--allow-missing", "2026-1-MAL-18", "--allow-file", str(f)]) == 0
