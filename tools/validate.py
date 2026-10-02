@@ -1,8 +1,12 @@
-"""Yayın öncesi veri doğrulama. Kullanım: python tools/validate.py [app_dir]"""
+"""Yayın öncesi veri doğrulama. Kullanım: python tools/validate.py [app_dir]
+
+validate() hiçbir girdide istisna fırlatmaz; her bozukluk bir hata satırına dönüşür.
+"""
 import json, pathlib, sys
 from html.parser import HTMLParser
 
 VOID = {"br", "hr", "img", "input", "col"}
+
 
 class _Checker(HTMLParser):
     def __init__(self):
@@ -13,135 +17,237 @@ class _Checker(HTMLParser):
         if not self.stack or self.stack[-1] != tag: self.bad = True
         else: self.stack.pop()
 
+
 def html_ok(s):
     if not isinstance(s, str) or not s.strip(): return False
-    c = _Checker(); c.feed(s); c.close()
+    try:
+        c = _Checker(); c.feed(s); c.close()
+    except Exception:
+        return False
     return not c.bad and not c.stack
 
-def validate(app_dir):
-    app = pathlib.Path(app_dir); errs = []
-    # Load index.json
+
+def _load_json(path, errs, label):
+    """JSON yükler; başarısızsa hata ekler ve None döner."""
     try:
-        idx = json.loads((app / "data/index.json").read_text(encoding="utf-8"))
-    except (json.JSONDecodeError, FileNotFoundError) as e:
-        errs.append(f"index.json: okunamadı (JSON hatası)")
-        return errs
+        return json.loads(path.read_text(encoding="utf-8"))
+    except UnicodeDecodeError:
+        errs.append(f"{label} okunamadı (kodlama hatası)")
+    except (OSError, ValueError, RecursionError) as e:
+        why = "JSON hatası" if isinstance(e, (ValueError, RecursionError)) else "dosya okunamadı"
+        errs.append(f"{label} okunamadı ({why})")
+    return None
 
-    if "donemler" not in idx:
-        errs.append("index.json: donemler eksik")
-    if "dersler" not in idx:
-        errs.append("index.json: dersler eksik")
-    if errs:
-        return errs
 
-    konular = set(idx.get("konular", []))
-    all_ids = set()
-    question_ids = {}  # Track all question ids to detect duplicates
-    solution_ids = {}  # Track all solution ids to detect orphans
+def _is_int(v):
+    return isinstance(v, int) and not isinstance(v, bool)
 
-    for donem in idx["donemler"]:
-        for ders in idx["dersler"]:
-            key = f"{donem}-{ders}"
-            qp = app / f"data/questions/{key}.json"; sp = app / f"data/solutions/{key}.json"
 
-            # Load questions
-            if not qp.exists():
-                errs.append(f"{key}: soru dosyası yok"); continue
-            try:
-                qs = json.loads(qp.read_text(encoding="utf-8"))
-            except json.JSONDecodeError:
-                errs.append(f"{key}: soru dosyası okunamadı (JSON hatası)"); continue
+def _check_kartlar(kartlar, who, errs):
+    if kartlar is None: return
+    if not isinstance(kartlar, list):
+        errs.append(f"{who}: kartlar liste olmalı"); return
+    for i, k in enumerate(kartlar, 1):
+        if not isinstance(k, dict):
+            errs.append(f"{who}: kartlar {i}. öğe sözlük değil"); continue
+        for alan in ("on", "arka"):
+            v = k.get(alan)
+            if not isinstance(v, str) or not v.strip():
+                errs.append(f"{who}: kartlar {i}. öğe '{alan}' eksik veya boş")
 
-            # Check questions are dicts
-            q_list = []
-            for i, q in enumerate(qs):
-                if not isinstance(q, dict):
-                    errs.append(f"{key}: {i+1}. öğe sözlük değil"); continue
-                q_list.append(q)
-            qs = q_list
 
-            # Load solutions
-            ss = {}
-            if sp.exists():
+def _check_question(q, donem, ders, konular, errs):
+    """Bir soruyu denetler (q dict ve id str olmalı)."""
+    qid = q["id"]
+    no = q.get("no")
+    if _is_int(no) and qid != f"{donem}-{ders}-{no:02d}":
+        errs.append(f"{qid}: id biçimi")
+    sec = q.get("secenekler")
+    if not isinstance(sec, dict):
+        errs.append(f"{qid}: seçenekler sözlük olmalı")
+    else:
+        if set(sec) != set("ABCDE"): errs.append(f"{qid}: 5 seçenek yok")
+        for k, v in sec.items():
+            if not html_ok(v): errs.append(f"{qid}: seçenek {k} HTML geçersiz veya boş")
+    if q.get("dogru") not in list("ABCDE"): errs.append(f"{qid}: dogru A-E değil")
+    if not html_ok(q.get("metin")): errs.append(f"{qid}: metin HTML geçersiz veya boş")
+    if q.get("ortakBilgi") is not None and not html_ok(q["ortakBilgi"]):
+        errs.append(f"{qid}: ortakBilgi HTML geçersiz")
+    if ders == "MAL":
+        konu = q.get("konu")
+        if not isinstance(konu, str) or konu not in konular: errs.append(f"{qid}: konu kodu tanımsız")
+
+
+def _check_solution(s, q, errs):
+    """Çözümü (s) sorusuyla (q) karşılaştırarak denetler."""
+    qid = q["id"]
+    if s.get("sonuc") != q.get("dogru"):
+        errs.append(f"{qid}: çözüm sonuc ({s.get('sonuc')}) anahtarla ({q.get('dogru')}) uyuşmuyor")
+    if not s.get("ozet"): errs.append(f"{qid}: çözüm özet boş")
+    adimlar = s.get("adimlar")
+    if adimlar is None or adimlar == [] or adimlar == "":
+        errs.append(f"{qid}: çözüm adımlar eksik veya boş")
+    elif not isinstance(adimlar, list):
+        errs.append(f"{qid}: adımlar liste olmalı")
+    else:
+        for a in adimlar:
+            if not html_ok(a): errs.append(f"{qid}: çözüm adımı HTML geçersiz")
+    tuz = s.get("tuzaklar", {})
+    if not isinstance(tuz, dict):
+        errs.append(f"{qid}: tuzaklar sözlük olmalı")
+    elif len(tuz) < 2 and not q.get("iptal"):
+        errs.append(f"{qid}: en az iki tuzak açıklaması gerekli")
+    _check_kartlar(s.get("kartlar"), f"{qid}: çözüm", errs)
+
+
+def _load_questions(qp, key, errs):
+    """Soru listesini döner (yalnız dict öğeler, (indeks, dict) çiftleri) veya None."""
+    data = _load_json(qp, errs, f"{key}: soru dosyası")
+    if data is None: return None
+    if not isinstance(data, list):
+        errs.append(f"{key}: soru dosyası liste olmalı"); return None
+    out = []
+    for i, q in enumerate(data, 1):
+        if not isinstance(q, dict):
+            errs.append(f"{key}: {i}. öğe sözlük değil"); continue
+        out.append((i, q))
+    return out
+
+
+def _load_solutions(sp, key, errs):
+    """{id: çözüm} sözlüğü döner; dosya okunamazsa None."""
+    data = _load_json(sp, errs, f"{key}: çözüm dosyası")
+    if data is None: return None
+    if not isinstance(data, list):
+        errs.append(f"{key}: çözüm dosyası liste olmalı"); return None
+    ss = {}
+    for i, s in enumerate(data, 1):
+        if not isinstance(s, dict):
+            errs.append(f"{key}: çözüm {i}. öğe sözlük değil"); continue
+        sid = s.get("id")
+        if not isinstance(sid, str) or not sid:
+            errs.append(f"{key}: çözüm {i}. öğe id eksik veya geçersiz"); continue
+        if sid in ss:
+            errs.append(f"{sid}: yinelenen çözüm id"); continue
+        ss[sid] = s
+    return ss
+
+
+def _check_pair(app, donem, ders, konular, all_ids, errs):
+    key = f"{donem}-{ders}"
+    qp = app / f"data/questions/{key}.json"; sp = app / f"data/solutions/{key}.json"
+    if not qp.exists():
+        errs.append(f"{key}: soru dosyası yok")
+        if sp.exists():
+            errs.append(f"{key}: çözüm dosyası var ama soru dosyası yok")
+        return
+    qs = _load_questions(qp, key, errs)
+    ss = None
+    if not sp.exists():
+        errs.append(f"{key}: çözüm dosyası yok")
+        ss = {}
+    else:
+        ss = _load_solutions(sp, key, errs)
+    if qs is None: return
+
+    # no alanı: her soru geçerli tamsayı olmalı; sonra 1..20 sırası
+    no_ok = True
+    for i, q in qs:
+        if not _is_int(q.get("no")):
+            errs.append(f"{key}: {i}. soru no alanı eksik veya tamsayı değil"); no_ok = False
+    if no_ok and [q["no"] for _, q in qs] != list(range(1, 21)):
+        errs.append(f"{key}: 20 soru 1..20 sırayla olmalı")
+
+    seen = set()
+    for i, q in qs:
+        qid = q.get("id")
+        if not isinstance(qid, str) or not qid:
+            errs.append(f"{key}: {i}. soru id eksik veya geçersiz"); continue
+        all_ids.add(qid)
+        if qid in seen: errs.append(f"{qid}: yinelenen soru id")
+        seen.add(qid)
+        _check_question(q, donem, ders, konular, errs)
+        if ss is None: continue
+        s = ss.get(qid)
+        if s is None:
+            errs.append(f"{qid}: çözüm yok"); continue
+        _check_solution(s, q, errs)
+
+    if ss:
+        for sid in ss:
+            if sid not in seen: errs.append(f"{sid}: çözümün sorusu yok")
+
+
+def _check_topic(app, kod, all_ids, errs):
+    tp = app / f"data/topics/maliyet/{kod}.json"
+    if not tp.exists():
+        errs.append(f"konu {kod}: dosya yok"); return
+    t = _load_json(tp, errs, f"konu {kod}:")
+    if t is None: return
+    if not isinstance(t, dict):
+        errs.append(f"konu {kod}: dosya sözlük olmalı"); return
+    if t.get("kod") != kod: errs.append(f"konu {kod}: kod alanı uyuşmuyor")
+    bol = t.get("bolumler", [])
+    if not isinstance(bol, list):
+        errs.append(f"konu {kod}: bolumler liste olmalı")
+    else:
+        for i, b in enumerate(bol, 1):
+            if not isinstance(b, dict):
+                errs.append(f"konu {kod}: bölüm {i}. öğe sözlük değil"); continue
+            if not html_ok(b.get("html")):
+                errs.append(f"konu {kod}: bölüm '{b.get('baslik')}' HTML geçersiz")
+    refs = t.get("cikmisSorular", [])
+    if not isinstance(refs, list):
+        errs.append(f"konu {kod}: cikmisSorular liste olmalı")
+    else:
+        for ref in refs:
+            if not isinstance(ref, str) or ref not in all_ids:
+                errs.append(f"konu {kod}: çıkmış soru {ref} bulunamadı")
+    _check_kartlar(t.get("kartlar"), f"konu {kod}", errs)
+
+
+def _str_list(idx, name, errs):
+    v = idx.get(name)
+    if not isinstance(v, list) or not all(isinstance(x, str) for x in v):
+        errs.append(f"index.json: {name} string listesi olmalı"); return None
+    return v
+
+
+def validate(app_dir):
+    errs = []
+    try:
+        app = pathlib.Path(app_dir)
+        ip = app / "data/index.json"
+        if not ip.exists():
+            return ["index.json: okunamadı (dosya yok)"]
+        idx = _load_json(ip, errs, "index.json:")
+        if idx is None: return errs
+        if not isinstance(idx, dict):
+            return ["index.json: sözlük olmalı"]
+        for alan in ("donemler", "dersler"):
+            if alan not in idx: errs.append(f"index.json: {alan} eksik")
+        if errs: return errs
+        donemler = _str_list(idx, "donemler", errs)
+        dersler = _str_list(idx, "dersler", errs)
+        konular_l = _str_list(idx, "konular", errs) if "konular" in idx else []
+        if donemler is None or dersler is None or konular_l is None: return errs
+        konular = set(konular_l)
+        all_ids = set()
+        for donem in donemler:
+            for ders in dersler:
                 try:
-                    sol_list = json.loads(sp.read_text(encoding="utf-8"))
-                    for s in sol_list:
-                        if isinstance(s, dict) and "id" in s:
-                            ss[s["id"]] = s
-                            solution_ids[s["id"]] = key
-                except json.JSONDecodeError:
-                    errs.append(f"{key}: çözüm dosyası okunamadı (JSON hatası)"); ss = {}
-            elif any(len([q for q in qs]) > 0):
-                # Question file exists but solution file doesn't
-                pass
-
-            # Check question count and order
+                    _check_pair(app, donem, ders, konular, all_ids, errs)
+                except Exception as e:  # son çare: asla istisna sızdırma
+                    errs.append(f"{donem}-{ders}: beklenmeyen hata ({type(e).__name__})")
+        for kod in konular_l:
             try:
-                nos = [q["no"] for q in qs]
-                if nos != list(range(1, 21)):
-                    errs.append(f"{key}: 20 soru 1..20 sırayla olmalı")
-            except (KeyError, TypeError):
-                errs.append(f"{key}: soru numaraları okundu hata (no alanı eksik veya geçersiz)"); continue
-
-            # Validate each question
-            seen_qids = {}
-            for q in qs:
-                qid = q.get("id", "?"); all_ids.add(qid)
-
-                # Check for duplicate ids
-                if qid in seen_qids:
-                    errs.append(f"{qid}: yinelenen soru id")
-                seen_qids[qid] = True
-
-                if qid != f"{donem}-{ders}-{q.get('no', 0):02d}": errs.append(f"{qid}: id biçimi")
-                if set(q.get("secenekler", {})) != set("ABCDE"): errs.append(f"{qid}: 5 seçenek yok")
-                if q.get("dogru") not in list("ABCDE"): errs.append(f"{qid}: dogru A-E değil")
-                if not html_ok(q.get("metin")): errs.append(f"{qid}: metin HTML geçersiz veya boş")
-                for k, v in q.get("secenekler", {}).items():
-                    if not html_ok(v): errs.append(f"{qid}: seçenek {k} HTML geçersiz veya boş")
-                if q.get("ortakBilgi") is not None and not html_ok(q["ortakBilgi"]): errs.append(f"{qid}: ortakBilgi HTML geçersiz")
-                if ders == "MAL" and q.get("konu") not in konular: errs.append(f"{qid}: konu kodu tanımsız")
-
-                s = ss.get(qid)
-                if not s:
-                    errs.append(f"{qid}: çözüm yok"); continue
-                if s.get("sonuc") != q.get("dogru"): errs.append(f"{qid}: çözüm sonuc ({s.get('sonuc')}) anahtarla ({q.get('dogru')}) uyuşmuyor")
-                if not s.get("ozet") or not s.get("adimlar"): errs.append(f"{qid}: çözüm özet/adımlar boş")
-
-                # Type check adimlar
-                if not isinstance(s.get("adimlar"), list):
-                    errs.append(f"{qid}: adımlar liste olmalı"); continue
-                for a in s.get("adimlar", []):
-                    if not html_ok(a): errs.append(f"{qid}: çözüm adımı HTML geçersiz")
-
-                # Type check tuzaklar
-                tuzaklar = s.get("tuzaklar", {})
-                if not isinstance(tuzaklar, dict):
-                    errs.append(f"{qid}: tuzaklar sözlük olmalı"); continue
-                if len(tuzaklar) < 2 and not q.get("iptal"): errs.append(f"{qid}: en az iki tuzak açıklaması gerekli")
-
-    # Check for orphan solutions (solutions without matching questions)
-    for sid in solution_ids:
-        if sid not in all_ids:
-            errs.append(f"{sid}: çözümün sorusu yok")
-
-    # Validate topics
-    for kod in idx.get("konular", []):
-        tp = app / f"data/topics/maliyet/{kod}.json"
-        if not tp.exists():
-            errs.append(f"konu {kod}: dosya yok"); continue
-        try:
-            t = json.loads(tp.read_text(encoding="utf-8"))
-        except json.JSONDecodeError:
-            errs.append(f"konu {kod}: okunamadı (JSON hatası)"); continue
-
-        if t.get("kod") != kod: errs.append(f"konu {kod}: kod alanı uyuşmuyor")
-        for b in t.get("bolumler", []):
-            if not html_ok(b.get("html")): errs.append(f"konu {kod}: bölüm '{b.get('baslik')}' HTML geçersiz")
-        for ref in t.get("cikmisSorular", []):
-            if ref not in all_ids: errs.append(f"konu {kod}: çıkmış soru {ref} bulunamadı")
-
+                _check_topic(app, kod, all_ids, errs)
+            except Exception as e:
+                errs.append(f"konu {kod}: beklenmeyen hata ({type(e).__name__})")
+    except Exception as e:
+        errs.append(f"doğrulama: beklenmeyen hata ({type(e).__name__})")
     return errs
+
 
 if __name__ == "__main__":
     app_dir = sys.argv[1] if len(sys.argv) > 1 else pathlib.Path(__file__).parent.parent / "app"
