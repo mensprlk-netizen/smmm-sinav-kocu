@@ -6,18 +6,31 @@ import { recordAnswer, addInfoCards, lastAnswerMap, examDateMs } from '../progre
 import { DERSLER, DONEMLER } from '../data.js';
 
 let qv = null;
-export function destroy() { qv?.destroy(); qv = null; }
+let epoch = 0;   // destroy() bumps it; in-flight work from an older epoch stops
+let seq = 0;     // each show() bumps it; only the newest transition may attach a view
+let busy = false;
+export function destroy() { epoch++; seq++; busy = false; qv?.destroy(); qv = null; }
+
+const kayitHatasi = () => toast('Kayıt yapılamadı, yedek almayı deneyin.');
+function safe(fn) {
+  return (...a) => {
+    try { const r = fn(...a); return r && typeof r.then === 'function' ? r.then(undefined, kayitHatasi) : r; }
+    catch { kayitHatasi(); }
+  };
+}
 
 export async function render(view, params, ctx) {
-  const { db, data } = ctx;
-  if (params.id) { return showList(view, ctx, [params.id], 0, null); }
+  const { db } = ctx;
+  const ep = epoch;
+  if (params.id) { return showList(view, ctx, [params.id], 0, null, false); }
   const saved = await db.getSetting('study:state', null);
+  if (ep !== epoch) return;
   if (saved?.ids?.length && saved.idx < saved.ids.length && !params.yeni) {
     view.append(h('div', { class: 'card' },
       h('h3', {}, 'Kaldığın yerden devam'),
       h('p', { class: 'muted' }, `${saved.idx + 1} / ${saved.ids.length} soru`),
       h('div', { class: 'row' },
-        h('button', { class: 'btn btn-primary', onClick: () => { view.innerHTML = ''; showList(view, ctx, saved.ids, saved.idx, saved.filtre); } }, 'Devam et'),
+        h('button', { class: 'btn btn-primary', onClick: () => { view.innerHTML = ''; showList(view, ctx, saved.ids, saved.idx, saved.filtre, true); } }, 'Devam et'),
         h('button', { class: 'btn', onClick: () => { view.innerHTML = ''; showFilters(view, ctx); } }, 'Yeni liste'))));
     return;
   }
@@ -26,7 +39,9 @@ export async function render(view, params, ctx) {
 
 async function showFilters(view, ctx) {
   const { db, data } = ctx;
+  const ep = epoch;
   const f = (await db.getSetting('study:filtre', null)) || { dersler: [], donemler: [], kapsam: 'hepsi', sira: 'karisik' };
+  if (ep !== epoch) return;
   const chip = (label, on, cb) => h('button', { class: 'chip' + (on ? ' on' : ''), onClick: (e) => { cb(); e.currentTarget.classList.toggle('on'); } }, label);
   const toggle = (arr, v) => { const i = arr.indexOf(v); i >= 0 ? arr.splice(i, 1) : arr.push(v); };
   const kapsamSel = h('select', {}, ...[['hepsi', 'Tüm sorular'], ['gorulmemis', 'Sadece görülmemişler'], ['yanlis', 'Sadece yanlış yaptıklarım'], ['bayrak', 'Sadece bayraklılar']].map(([v, t]) => h('option', { value: v, selected: f.kapsam === v }, t)));
@@ -44,42 +59,66 @@ async function showFilters(view, ctx) {
     await db.setSetting('study:filtre', f);
     let qs = await data.filterQuestions({ dersler: f.dersler, donemler: f.donemler, iptalHaric: false });
     const last = lastAnswerMap(await db.allAnswers());
+    if (ep !== epoch) return;
     if (f.kapsam === 'gorulmemis') qs = qs.filter(q => !last.has(q.id));
     if (f.kapsam === 'yanlis') qs = qs.filter(q => last.get(q.id)?.dogruMu === false);
-    if (f.kapsam === 'bayrak') { const flags = new Set((await db.allFlags()).filter(x => x.bayrak).map(x => x.soruId)); qs = qs.filter(q => flags.has(q.id)); }
+    if (f.kapsam === 'bayrak') { const flags = new Set((await db.allFlags()).filter(x => x.bayrak).map(x => x.soruId)); if (ep !== epoch) return; qs = qs.filter(q => flags.has(q.id)); }
     if (!qs.length) { toast('Bu filtreyle soru bulunamadı.'); return; }
     let ids = qs.map(q => q.id);
     if (f.sira === 'karisik') for (let i = ids.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [ids[i], ids[j]] = [ids[j], ids[i]]; }
     view.innerHTML = '';
-    showList(view, ctx, ids, 0, f);
+    showList(view, ctx, ids, 0, f, true);
   }
 }
 
-async function showList(view, ctx, ids, idx, filtre) {
+async function showList(view, ctx, ids, idx, filtre, persist) {
   const { db, data } = ctx;
+  const ep = epoch;
   const examDate = await examDateMs(db);
+  if (ep !== epoch) return;
   let startedAt = Date.now();
 
+  async function finish() {
+    if (busy) return;
+    busy = true;
+    const my = ++seq;
+    try {
+      await db.setSetting('study:state', null);
+      if (ep !== epoch || my !== seq) return;
+      qv?.destroy(); qv = null; view.innerHTML = '';
+      showFilters(view, ctx);
+    } catch { kayitHatasi(); } finally { if (my === seq) busy = false; }
+  }
+
   async function show(i) {
-    qv?.destroy(); view.innerHTML = ''; startedAt = Date.now();
-    await db.setSetting('study:state', { ids, idx: i, filtre });
-    const q = await data.getQuestion(ids[i]);
-    if (!q) { view.append(h('p', { class: 'card' }, 'Soru bulunamadı.')); return; }
-    const sol = await data.getSolution(q.id);
-    const flag = await db.getFlag(q.id);
-    const inkStrokes = await db.getInk('soru:' + q.id), feynmanStrokes = await db.getInk('feynman:' + q.id);
-    qv = createQuestionView({
-      question: q, solution: sol, mode: 'study', index: i, total: ids.length, flagged: !!flag?.bayrak, inkStrokes, feynmanStrokes,
-      onAnswer: ({ cevap, dogruMu, emin }) => recordAnswer({ db, fsrs, question: q, cevap, dogruMu, emin, sure: Date.now() - startedAt, mod: 'study', examDate }),
-      onFlag: (b) => db.setFlag(q.id, { bayrak: b }),
-      onTag: async (t) => { const list = await db.answersFor(q.id); const a = list.sort((x, y) => y.tarih - x.tarih)[0]; if (a) { a.hataEtiketi = t; await db.put('answers', a); } },
-      onCards: (kartlar) => addInfoCards({ db, fsrs, kaynakId: q.id, kartlar, examDate }),
-      onInk: (s) => db.saveInk('soru:' + q.id, s),
-      onFeynman: (s) => db.saveInk('feynman:' + q.id, s),
-      onPrev: i > 0 ? () => show(i - 1) : null,
-      onNext: i < ids.length - 1 ? () => show(i + 1) : () => { toast('Liste bitti.'); db.setSetting('study:state', null); ctx.navigate('#/study'); },
-    });
-    view.append(qv.el);
+    if (busy) return;
+    busy = true;
+    const my = ++seq;
+    const stale = () => ep !== epoch || my !== seq;
+    try {
+      qv?.destroy(); qv = null; view.innerHTML = ''; startedAt = Date.now();
+      const q = await data.getQuestion(ids[i]);
+      if (stale()) return;
+      if (!q) { view.append(h('p', { class: 'card' }, 'Soru bulunamadı.')); return; }
+      if (persist) { await db.setSetting('study:state', { ids, idx: i, filtre }); if (stale()) return; }
+      const sol = await data.getSolution(q.id);
+      if (stale()) return;
+      const flag = await db.getFlag(q.id);
+      const inkStrokes = await db.getInk('soru:' + q.id), feynmanStrokes = await db.getInk('feynman:' + q.id);
+      if (stale()) return;
+      qv = createQuestionView({
+        question: q, solution: sol, mode: 'study', index: i, total: ids.length, flagged: !!flag?.bayrak, inkStrokes, feynmanStrokes,
+        onAnswer: safe(({ cevap, dogruMu, emin }) => recordAnswer({ db, fsrs, question: q, cevap, dogruMu, emin, sure: Date.now() - startedAt, mod: 'study', examDate })),
+        onFlag: safe((b) => db.setFlag(q.id, { bayrak: b })),
+        onTag: safe(async (t) => { const list = await db.answersFor(q.id); const a = list.sort((x, y) => y.tarih - x.tarih)[0]; if (a) { a.hataEtiketi = t; await db.put('answers', a); } }),
+        onCards: safe((kartlar) => addInfoCards({ db, fsrs, kaynakId: q.id, kartlar, examDate })),
+        onInk: safe((s) => db.saveInk('soru:' + q.id, s)),
+        onFeynman: safe((s) => db.saveInk('feynman:' + q.id, s)),
+        onPrev: i > 0 ? () => show(i - 1) : null,
+        onNext: i < ids.length - 1 ? () => show(i + 1) : finish,
+      });
+      view.append(qv.el);
+    } catch { kayitHatasi(); } finally { if (my === seq) busy = false; }
   }
   await show(idx);
 }
