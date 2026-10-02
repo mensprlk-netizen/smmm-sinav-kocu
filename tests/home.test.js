@@ -101,3 +101,13 @@ test('sınav tarihi geçmişte: Geçti, çökmez', async () => {
   assert.equal(big(), 'Geçti');
   assert.ok(view.textContent.includes('Sınav tarihi geçti'));
 });
+
+test('Yeni soru sayacı yerel güne göre: gece yarısından sonraki cevap sayılır, önceki gün sayılmaz', async () => {
+  mock.timers.setTime(new Date(2026, 9, 1, 23, 30).getTime());
+  await db.addAnswer({ soruId: '2026-1-MAL-01', cevap: 'C', dogruMu: true, emin: true, sure: 5, mod: 'study', denemeId: null });
+  mock.timers.setTime(new Date(2026, 9, 2, 0, 45).getTime());
+  await db.addAnswer({ soruId: '2026-1-MAL-02', cevap: 'C', dogruMu: true, emin: true, sure: 5, mod: 'study', denemeId: null });
+  mock.timers.setTime(new Date(2026, 9, 2, 1, 30).getTime());
+  await run();
+  assert.equal(rowText('Yeni soru'), '1 / 20');
+});

@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { gunlukPlan, sinavaKalanGun, dersIstatistikleri, dailyCounter } from '../app/js/planner.js';
+import { gunlukPlan, sinavaKalanGun, dersIstatistikleri, dailyCounter, todayKey } from '../app/js/planner.js';
 
 const DAY = 86400000;
 
@@ -56,4 +56,10 @@ test('ders istatistikleri son cevaba göre', () => {
   const st = dersIstatistikleri(qs, ans);
   assert.deepEqual(st.find(s => s.kod === 'FM'), { kod: 'FM', gorulen: 2, toplam: 2, dogruluk: 0.5 });
   assert.deepEqual(st.find(s => s.kod === 'MAL'), { kod: 'MAL', gorulen: 0, toplam: 1, dogruluk: null });
+});
+
+test('todayKey yerel takvim gününü kullanır', () => {
+  assert.equal(todayKey(new Date(2026, 9, 3, 1, 30).getTime()), '2026-10-03');
+  assert.equal(todayKey(new Date(2026, 9, 3, 23, 59).getTime()), '2026-10-03');
+  assert.equal(todayKey(new Date(2026, 0, 5, 0, 0).getTime()), '2026-01-05');
 });

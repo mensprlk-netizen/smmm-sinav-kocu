@@ -29,7 +29,7 @@ export async function render(view, params, ctx) {
       bar('Tekrar', counter.sayac, plan.tekrarKotasi), bar('Yeni soru', bugunYeni, plan.yeniSoruHedefi),
       h('div', { class: 'row', style: 'margin-top:10px' },
         h('a', { class: 'btn', href: '#/review' }, 'Tekrara git'),
-        h('a', { class: 'btn btn-primary', href: saved?.ids?.length ? '#/study' : '#/study' }, saved?.ids?.length ? 'Devam et' : 'Çalışmaya başla'),
+        h('a', { class: 'btn btn-primary', href: '#/study' }, saved?.ids?.length ? 'Devam et' : 'Çalışmaya başla'),
         plan.oneriDers ? h('span', { class: 'muted' }, 'Öneri: ' + dersAdi(plan.oneriDers)) : null)),
     h('div', { class: 'card' }, h('h3', {}, 'Ders bazında hazırlık'),
       ...st.map(s => { const oran = s.toplam ? (s.gorulen / s.toplam) * (s.dogruluk ?? 0) : 0; return h('div', { style: 'margin-bottom:8px' }, h('div', { class: 'row', style: 'justify-content:space-between' }, h('span', {}, dersAdi(s.kod)), h('span', { class: 'muted' }, `${s.gorulen}/${s.toplam} · ${s.dogruluk === null ? '—' : Math.round(s.dogruluk * 100) + '%'}`)), h('div', { class: 'bar' }, h('span', { style: `width:${Math.round(oran * 100)}%` }))); })));
