@@ -95,3 +95,65 @@ test('görülmemişler kapsamı cevaplanan soruyu dışarıda bırakır', async 
   const st = await db.getSetting('study:state', null);
   assert.deepEqual(st.ids, [IDS[1], IDS[2]]);
 });
+
+test('son sorudaki Sonraki filtre ekranını açar ve konumu siler', async () => {
+  await db.setSetting('study:state', { ids: [IDS[0], IDS[1]], idx: 1, filtre: null });
+  await study.render(view, {}, ctx); await settle();
+  btn('Devam et').click(); await settle();
+  assert.ok(view.textContent.includes('Soru 2'));
+  btn('Sonraki ›').click(); await settle();
+  assert.ok(btn('Başla'));
+  assert.equal(view.querySelectorAll('button.opt').length, 0);
+  assert.equal(await db.getSetting('study:state', 'yok'), null);
+});
+
+test('derin bağlantı kayıtlı konumu ezmez', async () => {
+  const seeded = { ids: IDS, idx: 1, filtre: null };
+  await db.setSetting('study:state', seeded);
+  await study.render(view, { id: IDS[0] }, ctx); await settle();
+  assert.equal(opts().length, 5);
+  assert.ok(view.textContent.includes('Soru 1'));
+  assert.deepEqual(await db.getSetting('study:state', null), seeded);
+});
+
+test('çift dokunuşta ikinci Sonraki yok sayılır', async () => {
+  await study.render(view, {}, ctx); await settle();
+  btn('Başla').click(); await settle();
+  const next = btn('Sonraki ›');
+  next.click(); next.click(); await settle();
+  assert.equal(view.querySelectorAll('.question').length, 1);
+  assert.ok(view.textContent.includes('Soru 2'));
+  assert.equal((await db.getSetting('study:state', null)).idx, 1);
+});
+
+test('bekleyen show sırasında destroy soru görünümü bırakmaz', async () => {
+  await study.render(view, {}, ctx); await settle();
+  btn('Başla').click();
+  study.destroy();
+  await settle();
+  assert.equal(view.querySelectorAll('.question').length, 0);
+});
+
+test('bilinmeyen kimlik Soru bulunamadı gösterir ve konum yazmaz', async () => {
+  await study.render(view, { id: '2026-1-MAL-99' }, ctx); await settle();
+  assert.ok(view.textContent.includes('Soru bulunamadı.'));
+  assert.equal(await db.getSetting('study:state', 'yok'), 'yok');
+});
+
+test('hata etiketi son cevaba yazılır', async () => {
+  await study.render(view, {}, ctx); await settle();
+  btn('Başla').click(); await settle();
+  view.querySelector('button.opt[data-letter="A"]').click(); await settle();
+  view.querySelector('[data-tag="dikkat"]').click(); await settle();
+  const list = await db.answersFor(IDS[0]);
+  assert.equal(list.length, 1);
+  assert.equal(list[0].hataEtiketi, 'dikkat');
+});
+
+test('yazma hatası tek cümlelik toast gösterir', async () => {
+  ctx.db = { ...db, addAnswer: () => Promise.reject(new Error('x')) };
+  await study.render(view, { id: IDS[0] }, ctx); await settle();
+  view.querySelector('button.opt[data-letter="A"]').click(); await settle();
+  const toasts = [...document.querySelectorAll('.toast')].map(t => t.textContent);
+  assert.deepEqual(toasts, ['Kayıt yapılamadı, yedek almayı deneyin.']);
+});
