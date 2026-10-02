@@ -38,3 +38,21 @@ test('dersOrtSure: süresi olan satırların ortalaması; süresiz ders yok say�
   // MAL: 1000, 3000, 2000 -> 2000 (iptal soru ve sure 0 satırı sayılmaz); FM: 500; HUK: yalnız sure 0 -> anahtar yok
   assert.deepEqual(dersOrtSure(q2, a2), { MAL: 2000, FM: 500 });
 });
+
+test('aynı konu etiketi iki derste ayrı gruplanır', () => {
+  const q = [{ id: 'p', ders: 'FM', konu: 'genel' }, { id: 'q', ders: 'FM', konu: 'genel' }, { id: 'r', ders: 'DEN', konu: 'genel' }];
+  const a = [{ soruId: 'p', dogruMu: true, tarih: 1, sure: 0 }, { soruId: 'q', dogruMu: false, tarih: 2, sure: 0 }, { soruId: 'r', dogruMu: false, tarih: 3, sure: 0 }];
+  const st = konuIstatistikleri(q, a).filter(k => k.konu === 'genel');
+  assert.deepEqual(st.map(k => [k.ders, k.gorulen, k.dogru, k.dogruluk]), [['FM', 2, 1, 0.5], ['DEN', 1, 0, 0]]);
+});
+
+test('ortalama süre: satır başına 10 dk üst sınır (konu ve ders)', () => {
+  const q = [{ id: 'a', ders: 'MAL', konu: 'k' }];
+  const a = [30000, 60000, 3600000].map((sure, i) => ({ soruId: 'a', dogruMu: true, tarih: i + 1, sure }));
+  assert.equal(konuIstatistikleri(q, a)[0].ortSureMs, 230000);
+  assert.equal(dersOrtSure(q, a).MAL, 230000);
+});
+
+test('hata defteri: etiketsiz filtresi yalnız etiketsiz yanlışları verir', () => {
+  assert.deepEqual(hataDefteri(qs, ans, { etiket: 'etiketsiz' }).map(x => x.question.id), ['b']);
+});

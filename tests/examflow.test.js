@@ -60,8 +60,29 @@ test('kayıt reddedilirse standart toast ve false', async () => {
   assert.deepEqual(toasts(), ['Kayıt yapılamadı, yedek almayı deneyin.']); assert.deepEqual(navs, []);
 });
 
-test('alive() false ise yönlendirme ve kayıt yapılmaz', async () => {
-  const db = fakeDb();
-  assert.equal(await startExam({ db, navigate, tur: 'ozel', sorular: [mkQ('a')], sureDk: 10, alive: () => false }), false);
-  assert.equal(db.store.size, 0); assert.deepEqual(navs, []);
+test('yarım deneme var, kabul, kayıt reddedilir: eski deneme durur, yenisi yok', async () => {
+  const db = fakeDb([{ denemeId: 'eski', bittiMi: false }], true);
+  const p = startExam({ db, navigate, tur: 'ozel', sorular: [mkQ('a')], sureDk: 10 });
+  await settle(); await press('Evet');
+  assert.equal(await p, false);
+  assert.deepEqual([...db.store.keys()], ['eski']); assert.deepEqual(toasts(), ['Kayıt yapılamadı, yedek almayı deneyin.']); assert.deepEqual(navs, []);
+});
+
+test('onaydan sonra alive() false: yeni kaydedilir, eski silinir, yönlendirme yok (false)', async () => {
+  const db = fakeDb([{ denemeId: 'eski', bittiMi: false }]);
+  let canli = true;
+  const p = startExam({ db, navigate, tur: 'ozel', sorular: [mkQ('a')], sureDk: 10, alive: () => canli });
+  await settle(); canli = false; await press('Evet');
+  assert.equal(await p, false);
+  assert.equal(db.store.size, 1); assert.ok(!db.store.has('eski')); assert.deepEqual(navs, []);
+});
+
+test('silme reddedilir (kayıt başarılı): toast, yeni deneme var, yönlendirilir, true', async () => {
+  const db = fakeDb([{ denemeId: 'eski', bittiMi: false }]);
+  db.del = async () => { throw new Error('x'); };
+  const p = startExam({ db, navigate, tur: 'ozel', sorular: [mkQ('a')], sureDk: 10 });
+  await settle(); await press('Evet');
+  assert.equal(await p, true);
+  assert.equal(db.store.size, 2); assert.equal(navs.length, 1);
+  assert.deepEqual(toasts(), ['Kayıt yapılamadı, yedek almayı deneyin.']);
 });

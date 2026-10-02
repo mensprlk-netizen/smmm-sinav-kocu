@@ -165,3 +165,23 @@ test('destroy(): bekleyen render hiçbir şey eklemez', async () => {
   await p; await settle();
   assert.equal(view.children.length, 0);
 });
+
+test('hata defteri: Etiketsiz filtresi süzer ve deneme bu listeden kurulur', async () => {
+  await seedAnswers(); await run();
+  await pick(selects()[1], 'etiketsiz'); assert.deepEqual(logIds(), [M(3)]);
+  kurBtn().click(); await settle();
+  const exams = await db.allExams();
+  assert.equal(exams.length, 1); assert.deepEqual(exams[0].soruIdler, [M(3)]);
+});
+
+test('aynı konu etiketi iki derste: Konu bazında ve Zayıf konular ayrı gösterir', async () => {
+  const f = files();
+  f['data/questions/2026-1-MAL.json'] = [mkQ('MAL', 1, 'genel'), mkQ('MAL', 2, 'genel'), mkQ('MAL', 3, 'genel')];
+  f['data/questions/2026-1-FM.json'] = [mkQ('FM', 1, 'genel'), mkQ('FM', 2, 'genel'), mkQ('FM', 3, 'genel')];
+  useFiles(f);
+  for (const n of [1, 2, 3]) { await ans(F(n), true, 10 + n, 0, 'exam', 'C'); await ans(M(n), n === 1, 20 + n, 0, 'exam', 'C'); }
+  await run();
+  assert.deepEqual([...cardOf('Konu bazında').children].slice(1).map(e => e.tagName + ':' + e.textContent),
+    [`H4:${data.dersAdi('FM')}`, 'DIV:genel3 · 100% · —', `H4:${data.dersAdi('MAL')}`, 'DIV:genel3 · 33% · —']);
+  assert.deepEqual(rowTexts('Zayıf konular'), [`${data.dersAdi('MAL')} · genel | 33% · —`, `${data.dersAdi('FM')} · genel | 100% · —`]);
+});
