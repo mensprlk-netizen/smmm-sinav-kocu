@@ -1,0 +1,562 @@
+[
+ {
+  "id": "2026-2-MAL-01",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 1,
+  "konu": "05-genel-uretim-giderleri-dagitim",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisinde genel üretim giderlerini oluşturan kalemler birlikte doğru bir şekilde verilmiştir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Bakım onarım gideri, direkt işçilik gideri, amortisman gideri</p>",
+   "B": "<p>Endirekt işçilik gideri, sarf malzemesi gideri, direkt ilk madde ve malzeme gideri</p>",
+   "C": "<p>Elektrik gideri, amortisman gideri, sarf malzemesi gideri</p>",
+   "D": "<p>Sarf malzemesi gideri, direkt işçilik gideri, su gideri</p>",
+   "E": "<p>Direkt ilk madde ve malzeme gideri, direkt işçilik gideri, memur ücret ve gideri</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    326,
+    511,
+    274
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-02",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 2,
+  "konu": "01-maliyet-kavramlari",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdaki üretim kayıplarından hangisi ek bir işleme tabi tutularak birinci kalite mamul niteliğine dönüştürülebilir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Bozuk mamuller + Yok etme maliyetleri</p>",
+   "B": "<p>Bozuk mamuller</p>",
+   "C": "<p>Artıklar</p>",
+   "D": "<p>Kusurlu mamuller</p>",
+   "E": "<p>Sarf malzemesi firesi</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    802,
+    493,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-03",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 3,
+  "konu": "09-standart-maliyet-sapma",
+  "ortakBilgi": null,
+  "metin": "<p>Bir üretim işletmesinde çalışılan fiili süre 2.500 Direkt İşçilik Saati (DİS)’dir. Fiili ücret saat başına 200 ₺’dir. İşletme ise dönemde 2.400 DİS çalışılacağını ve saat ücretinin 210 ₺ olacağını planlamıştır.</p><p><strong>Bu bilgilere göre direkt işçilik zaman ve ücret sapması aşağıdakilerden hangisinde sırasıyla doğru olarak verilmiştir?</strong></p>",
+  "secenekler": {
+   "A": "<p>21.000 ₺ olumsuz, 25.000 ₺ olumlu</p>",
+   "B": "<p>21.000 ₺ olumlu, 25.000 ₺ olumsuz</p>",
+   "C": "<p>21.000 ₺ olumsuz, 25.000 ₺ olumsuz</p>",
+   "D": "<p>21.000 ₺ olumlu, 25.000 ₺ olumlu</p>",
+   "E": "<p>25.000 ₺ olumsuz, 21.000 ₺ olumlu</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    1213,
+    515,
+    308
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-04",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 4,
+  "konu": "09-standart-maliyet-sapma",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Standart maliyet sistemiyle ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>İşletmede direkt işçilik, zaman ve ücret olarak kontrol edilebilir.</p>",
+   "B": "<p>Direkt ilk madde ve malzeme maliyetleri verimli bir şekilde kontrol edilebilir.</p>",
+   "C": "<p>İşletmenin planlama faaliyetlerini kolaylaştırır.</p>",
+   "D": "<p>Maliyet sapmaları yönetimin dikkatini çeker ve önlem almak kolaylaşır.</p>",
+   "E": "<p>Standart maliyet sisteminin her işletmede kurulması ve uygulanması kolaydır.</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    133,
+    503,
+    274
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-05",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 5,
+  "konu": "02-maliyet-akisi-7a-7b",
+  "ortakBilgi": null,
+  "metin": "<p>X Endüstri İşletmesi’nde direkt ilk madde ve malzeme gideri 120.000 ₺, genel üretim gideri 130.000 ₺, dönem başı yarı mamul stok 20.000 ₺, dönem sonu yarı mamul stok 100.000 ₺’dir. Dönemde 2.000 birim mamulün üretimi tamamlanmış olup üretilen mamulün birim maliyeti 100 ₺’dir.</p><p><strong>İşletmede direkt işçilik gideri kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>20.000</p>",
+   "B": "<p>30.000</p>",
+   "C": "<p>80.000</p>",
+   "D": "<p>200.000</p>",
+   "E": "<p>280.000</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    664,
+    507,
+    225
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-06",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 6,
+  "konu": "01-maliyet-kavramlari",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Muhasebe bilgi sistemi ile ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Finansal muhasebe sadece işletme içi bilgi kullanıcılarının bilgi ihtiyacını karşılar.</p>",
+   "B": "<p>Muhasebe bilgi sistemi bilgi teknolojileri ile yakından ilgilidir.</p>",
+   "C": "<p>Muhasebe bilgi sisteminde veriler toplanır, kaydedilir, özetlenir ve rapor edilir.</p>",
+   "D": "<p>Maliyet muhasebesi ve yönetim muhasebesi alt sistemleri vardır.</p>",
+   "E": "<p>Muhasebe bilgi sistemi yönetim bilgi sisteminin bir alt sistemidir.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    1174,
+    518,
+    296
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-07",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 7,
+  "konu": "05-genel-uretim-giderleri-dagitim",
+  "ortakBilgi": null,
+  "metin": "<p>Dönemde 10.000 birim (br) mamul üreten işletmede üretimle ilgili katlanılan giderler aşağıdaki gibidir:</p><p>Endirekt madde 100.000 ₺, direkt ilk madde ve malzeme 1.000.000 ₺, endirekt işçilik 50.000 ₺, direkt işçilik 500.000 ₺, elektrik su ve doğalgaz 200.000 ₺, çeşitli genel üretim gideri 50.000 ₺, makine amortismanları 150.000 ₺.</p><p><strong>Bu işletmede birim başına genel üretim gideri kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>50</p>",
+   "B": "<p>55</p>",
+   "C": "<p>105</p>",
+   "D": "<p>150</p>",
+   "E": "<p>205</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    133,
+    508,
+    231
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-08",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 8,
+  "konu": "02-maliyet-akisi-7a-7b",
+  "ortakBilgi": null,
+  "metin": "<ul><li>I. Satılan Mamuller Maliyeti</li><li>II. Satılan Ticari Mallar Maliyeti</li><li>III. Satılan Hizmet Maliyeti</li><li>IV. Diğer Satışların Maliyeti</li><li>V. Satıştan İndirimler</li></ul><p><strong>Yukarıdakilerden hangileri satışların maliyeti tablosunda <u>yer almaz</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yalnız IV</p>",
+   "B": "<p>Yalnız V</p>",
+   "C": "<p>III ve IV</p>",
+   "D": "<p>IV ve V</p>",
+   "E": "<p>III, IV ve V</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    84,
+    599,
+    442,
+    225
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-09",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 9,
+  "konu": "02-maliyet-akisi-7a-7b",
+  "ortakBilgi": null,
+  "metin": "<p><strong>7/A Seçeneği’ne göre aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Gider yansıtma hesapları “fiili maliyetlerin” uygulandığı durumlarda gider hesaplarında toplanan giderlerin tümünün; önceden saptanmış maliyet yöntemlerinin kullanılması durumunda ise bunlara göre saptanan giderlerin ilgili hesaplara yansıtılmasını sağlamak amacıyla kullanılır.</p>",
+   "B": "<p>Gider yansıtma hesapları fiili maliyetlerin uygulandığı durumlarda sadece üretim gider hesaplarında toplanan giderlerin ilgili hesaplara yansıtılmasını sağlamak amacıyla kullanılır.</p>",
+   "C": "<p>Gider yansıtma hesapları fiili maliyetlerin uygulandığı durumlarda sadece faaliyet gider hesaplarında toplanan giderlerin ilgili hesaplara yansıtılmasını sağlamak amacıyla kullanılır.</p>",
+   "D": "<p>Gider yansıtma hesapları önceden saptanmış maliyet yönteminin uygulandığı durumlarda sadece üretim gider hesaplarında toplanan giderlerin ilgili hesaplara yansıtılmasını sağlamak amacıyla kullanılır.</p>",
+   "E": "<p>Gider yansıtma hesapları önceden saptanmış maliyet yönteminin uygulandığı durumlarda kullanılmaz.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    1054,
+    513,
+    511
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-10",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 10,
+  "konu": "02-maliyet-akisi-7a-7b",
+  "ortakBilgi": null,
+  "metin": "<p><strong>7/A Seçeneği’ne göre 732 Genel Üretim Giderleri Bütçe Farkları hesabına ilişkin aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Fiili üretim giderleri ile maliyetlere yüklenen önceden saptanmış giderler arasındaki sadece olumlu bütçe farklarının izlendiği hesaptır. Dönem sonunda bu hesap ilgili stok hesabına aktarılarak kapatılır.</p>",
+   "B": "<p>Fiili üretim giderleri ile maliyetlere yüklenen önceden saptanmış giderler arasındaki sadece olumlu bütçe farklarının izlendiği hesaptır. Olumlu farklar hesabın alacağına kaydedilir. Dönem sonunda bu hesap ilgili satış maliyeti hesabına aktarılarak kapatılır.</p>",
+   "C": "<p>Fiili üretim giderleri ile maliyetlere yüklenen önceden saptanmış giderler arasındaki sadece olumsuz bütçe farklarının izlendiği hesaptır. Olumsuz farklar hesabın borcuna kaydedilir. Dönem sonunda bu hesap ilgili satış maliyeti hesabına aktarılarak kapatılır.</p>",
+   "D": "<p>Fiili üretim giderleri ile maliyetlere yüklenen önceden saptanmış giderler arasındaki sadece olumsuz bütçe farklarının izlendiği hesaptır. Dönem sonunda bu hesap ilgili aktif hesaplara aktarılarak kapatılır.</p>",
+   "E": "<p>Fiili üretim giderleri ile maliyetlere yüklenen önceden saptanmış giderler arasındaki olumlu ya da olumsuz bütçe farklarının izlendiği hesaptır. Olumsuz farklar hesabın borcuna, olumlu farklar ise alacağına kaydedilir. Dönem sonunda bu hesap ilgili stok ve satış maliyeti hesaplarına aktarılarak kapatılır.</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    133,
+    528,
+    619
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-11",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 11,
+  "konu": "05-genel-uretim-giderleri-dagitim",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Muhasebe Sistemi Uygulama Genel Tebliğlerine göre gider yerleriyle ilgili aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Gider yeri sadece üretimin yapıldığı ve maliyetlerin oluştuğu örgütün bir birimini ya da birim içindeki bir yeri ifade eder.</p>",
+   "B": "<p>Gider yeri sadece üretim yerleri yönetimi gider yerleri için tanımlanmıştır.</p>",
+   "C": "<p>Gider yeri sadece hizmetlerin yapıldığı ve maliyetlerin oluştuğu örgütün bir birimini ya da birim içindeki bir yeri ifade eder.</p>",
+   "D": "<p>Gider yeri, üretim ve hizmetlerin yapıldığı ve maliyetlerin oluştuğu örgütün bir birimini ya da birim içindeki bir yeri ifade eder.</p>",
+   "E": "<p>Gider yerleri sadece yatırım gider yerleri için tanımlanmıştır.</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    1037,
+    531,
+    360
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-12",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 12,
+  "konu": "06-siparis-maliyeti",
+  "ortakBilgi": null,
+  "metin": "<p>AX İşletmesi sipariş maliyeti sistemini kullanmaktadır. Üretim yapılan dönemde A ve X siparişleri alınmıştır. Sipariş A’nın direkt ilk madde ve malzeme gideri 100.000 ₺, direkt işçilik gideri 200.000 ₺’dir. X siparişinin direkt ilk madde ve malzeme gideri 300.000 ₺, direkt işçilik gideri 400.000 ₺’dir.</p><p><strong>İşletmede genel üretim giderleri 800.000 ₺ olup siparişlere direkt ilk madde ve malzeme gideri esas alınarak yüklenmektedir. X siparişinin toplam maliyeti kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>600.000</p>",
+   "B": "<p>700.000</p>",
+   "C": "<p>900.000</p>",
+   "D": "<p>1.200.000</p>",
+   "E": "<p>1.300.000</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    133,
+    530,
+    289
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-13",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 13,
+  "konu": "01-maliyet-kavramlari",
+  "ortakBilgi": null,
+  "metin": "<p>AY Üretim İşletmesinde ilgili maliyet döneminde üretimle ilgili olarak katlanılan maliyetler şöyledir:</p><p>Memur ücret ve gideri 100.000 ₺, amortisman giderleri 80.000 ₺, dışarıdan sağlanan fayda ve hizmetler giderleri 50.000 ₺, enerji giderleri 150.000 ₺, direkt ilk madde ve malzeme gideri 200.000 ₺, işletme malzemesi gideri 60.000 ₺, direkt işçilik giderleri 400.000 ₺.</p><p><strong>Dönem başı ve dönem sonu mamul ve yarı mamul stoku bulunmayan işletmede 100 adet mamul üretimi tamamlandığına göre birim başına şekillendirme (dönüştürme) maliyeti kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>4.400</p>",
+   "B": "<p>6.000</p>",
+   "C": "<p>6.400</p>",
+   "D": "<p>8.000</p>",
+   "E": "<p>8.400</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    652,
+    508,
+    323
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-14",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 14,
+  "konu": "02-maliyet-akisi-7a-7b",
+  "ortakBilgi": null,
+  "metin": "<p>AB Üretim İşletmesinde tek mamulün üretimi yapılmaktadır. Üretim döneminde 100.000 birim (br) mamul üretimi tamamlanmış, 80.000 br’lik kısmı satılmıştır. Dönem başı mamul stoku bulunmayan işletmenin döneme ilişkin maliyet verileri şöyledir:</p><p>Direkt ilk madde ve malzeme gideri 1.000.000 ₺, direkt işçilik gideri 300.000 ₺, genel üretim gideri 500.000 ₺, dönem başı yarı mamul maliyeti 100.000 ₺, dönem sonu yarı mamul maliyeti 400.000 ₺.</p><p><strong>Dönemin satılan mamuller maliyeti kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1.200.000</p>",
+   "B": "<p>1.500.000</p>",
+   "C": "<p>1.600.000</p>",
+   "D": "<p>1.800.000</p>",
+   "E": "<p>1.900.000</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    1232,
+    529,
+    302
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-15",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 15,
+  "konu": "08-birlesik-yan-urun",
+  "ortakBilgi": null,
+  "metin": "<p>X, Y ve Z olmak üzere üç ayrı mamulün üretimini yapan bir işletme üretim döneminde ve ayrılma noktasında 180.000 ₺ ortak maliyete katlanarak X mamulünden 500 kg, Y mamulünden 400 kg, Z mamulünden 300 kg üretmiştir. Mamullerin döneme ait satış fiyatları X için 30 ₺/kg, Y için 60 ₺/kg, Z için 70 ₺/kg’dır.</p><p><strong>İşletme ortak maliyetin mamullere dağıtımında Satış Değeri Yöntemi’ni kullandığında Z mamulünün ortak maliyetten kg başına alacağı pay kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>90</p>",
+   "B": "<p>160</p>",
+   "C": "<p>180</p>",
+   "D": "<p>210</p>",
+   "E": "<p>240</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    133,
+    529,
+    240
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-16",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 16,
+  "konu": "02-maliyet-akisi-7a-7b",
+  "ortakBilgi": null,
+  "metin": "<p>AZ Üretim İşletmesinde 2026 yılı Mayıs ve Haziran aylarında dönem sonu yarı mamul stoku bulunmamaktadır. Bu aylara ait maliyet verileri aşağıdadır:</p><table class=\"veri\"><tr><th></th><th class=\"n\">Mayıs 2026</th><th class=\"n\">Haziran 2026</th></tr><tr><td>Direkt ilk madde ve malzeme gideri</td><td class=\"n\">500.000 ₺</td><td class=\"n\">600.000 ₺</td></tr><tr><td>Direkt işçilik gideri</td><td class=\"n\">100.000 ₺</td><td class=\"n\">135.000 ₺</td></tr><tr><td>Genel üretim gideri</td><td class=\"n\">200.000 ₺</td><td class=\"n\">175.000 ₺</td></tr><tr><td>Dönem başı yarı mamul stoku</td><td class=\"n\">25.000 ₺</td><td class=\"n\">0 ₺</td></tr><tr><td>Üretilen mamul maliyeti</td><td class=\"n\">825.000 ₺</td><td class=\"n\">?</td></tr><tr><td>Dönem başı mamul stoku</td><td class=\"n\">40.000 ₺</td><td class=\"n\">?</td></tr><tr><td>Dönem sonu mamul stoku</td><td class=\"n\">?</td><td class=\"n\">30.000 ₺</td></tr><tr><td>Satılan mamul maliyeti</td><td class=\"n\">845.000 ₺</td><td class=\"n\">?</td></tr></table><p><strong>Haziran 2026 ayının satılan mamul maliyeti kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>880.000</p>",
+   "B": "<p>900.000</p>",
+   "C": "<p>910.000</p>",
+   "D": "<p>950.000</p>",
+   "E": "<p>1.000.000</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    686,
+    525,
+    576
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-17",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 17,
+  "konu": "03-direkt-ilk-madde-malzeme",
+  "ortakBilgi": null,
+  "metin": "<p>AD Üretim İşletmesinde 2026 yılı Mart ve Nisan aylarına ait üretim maliyet bilgileri aşağıda verilmiştir:</p><table class=\"veri\"><tr><th></th><th class=\"n\">Mart 2026</th><th class=\"n\">Nisan 2026</th></tr><tr><td>Dönem başı direkt ilk madde ve malzeme stokları</td><td class=\"n\">450.000 ₺</td><td class=\"n\">?</td></tr><tr><td>Dönem içi direkt ilk madde ve malzeme alımları</td><td class=\"n\">1.050.000 ₺</td><td class=\"n\">?</td></tr><tr><td>Dönem sonu direkt ilk madde ve malzeme stokları</td><td class=\"n\">300.000 ₺</td><td class=\"n\">450.000 ₺</td></tr><tr><td>Direkt ilk madde ve malzeme giderleri</td><td class=\"n\">1.200.000 ₺</td><td class=\"n\">?</td></tr><tr><td>Direkt işçilik giderleri</td><td class=\"n\">250.000 ₺</td><td class=\"n\">145.000 ₺</td></tr><tr><td>Genel üretim giderleri</td><td class=\"n\">750.000 ₺</td><td class=\"n\">195.000 ₺</td></tr><tr><td>Üretim giderleri toplamı</td><td class=\"n\">2.200.000 ₺</td><td class=\"n\">2.400.000 ₺</td></tr></table><p><strong>Nisan 2026 döneminde direkt ilk madde ve malzeme alım tutarı kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1.910.000</p>",
+   "B": "<p>2.060.000</p>",
+   "C": "<p>2.210.000</p>",
+   "D": "<p>2.510.000</p>",
+   "E": "<p>2.660.000</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    133,
+    527,
+    630
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-18",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 18,
+  "konu": "07-safha-maliyeti",
+  "ortakBilgi": null,
+  "metin": "<p>Safha (Evre) maliyet sistemini uygulayan bir işletme İlk Giren İlk Çıkar yöntemini kullanarak aylık maliyetlerini hesaplamaktadır. İşletmede Haziran 2026 ayına ilişkin bilgiler şöyledir:</p><p>Dönem başı yarı mamul miktarı 4.000 birim (br), dönemde üretimine başlanan 10.000 br, dönemde tamamlanan 12.000 br, dönem sonu yarı mamul stok miktarı 2.000 br.</p><p>Dönem sonu yarı mamullerin genel üretim gideri açısından tamamlanma derecesi %30’dur. Dönemin genel üretim giderleri 440.000 ₺ ve dönemde eşdeğer birim başına genel üretim gideri 40 ₺’dir. Dönemde üretim kaybı yoktur.</p><p><strong>Bu bilgilere göre dönem başı yarı mamullerin genel üretim gideri açısından tamamlanma derecesi aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>%20</p>",
+   "B": "<p>%30</p>",
+   "C": "<p>%40</p>",
+   "D": "<p>%50</p>",
+   "E": "<p>%60</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    1048,
+    522,
+    373
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-19",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 19,
+  "konu": "07-safha-maliyeti",
+  "ortakBilgi": null,
+  "metin": "<p>Safha (Evre) maliyet sistemini uygulayan bir işletme İlk Giren İlk Çıkar yöntemini kullanarak aylık maliyetlerini hesaplamaktadır. Dönemde üretim kaybı yoktur. Dönem içindeki fiziki hareketler şöyledir:</p><ul><li>Dönem başı yarı mamul stok 2.000 br; tamamlanma dereceleri: Direkt ilk madde ve malzeme (DİMM) %70, direkt işçilik (Dİ) ve genel üretim gideri (GÜG) %55.</li><li>Dönemde üretimine başlanan 50.000 br</li><li>Dönem sonu yarı mamul stok 5.000 br; tamamlanma dereceleri: Direkt ilk madde ve malzeme %20, direkt işçilik ve genel üretim gideri %40.</li></ul><p><strong>Üretim maliyeti unsurları açısından eşdeğer mamul miktarları aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>DİMM 45.600 br, Dİ 47.900 br, GÜG 47.900 br</p>",
+   "B": "<p>DİMM 46.000 br, Dİ 45.900 br, GÜG 45.900 br</p>",
+   "C": "<p>DİMM 46.500 br, Dİ 47.900 br, GÜG 47.900 br</p>",
+   "D": "<p>DİMM 46.600 br, Dİ 47.000 br, GÜG 47.000 br</p>",
+   "E": "<p>DİMM 46.600 br, Dİ 47.900 br, GÜG 47.900 br</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    133,
+    518,
+    479
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MAL-20",
+  "donem": "2026-2",
+  "ders": "MAL",
+  "no": 20,
+  "konu": "02-maliyet-akisi-7a-7b",
+  "ortakBilgi": null,
+  "metin": "<p><strong>7/A Seçeneği’ne göre 78 Finansman Giderleri hesap grubuyla ilgili aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Bu grupta sadece işletmeye varlık alımında kullanılan kredilerin faiz ve benzeri giderleri yer alır.</p>",
+   "B": "<p>Bu grupta sadece işletmenin borçlandığı tutarlarla ilgili olarak katlanılan faizler yer alır.</p>",
+   "C": "<p>Bu grupta, işletmenin borçlandığı tutarla ilgili olarak katlanılan ve varlıkların maliyetine eklenmemiş bulunan faiz ve benzeri giderler ile yansıtma ve fark hesapları yer alır.</p>",
+   "D": "<p>Bu grupta yansıtma ve fark hesapları yer almaz.</p>",
+   "E": "<p>Bu gruptaki hesaplar dönem sonunda banka hesaplarına aktarılarak kapatılır.</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    1036,
+    529,
+    317
+   ]
+  }
+ }
+]
