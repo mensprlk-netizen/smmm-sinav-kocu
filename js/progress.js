@@ -35,3 +35,13 @@ export async function examDateMs(db) {
   const s = await db.getSetting('sinavTarihi', '2026-11-28');
   return new Date(s + 'T09:00:00').getTime();
 }
+
+// Puts a question on the review queue (rating AGAIN) without writing an answer row.
+export async function scheduleForReview({ db, fsrs, question, now = Date.now(), examDate }) {
+  if (question.iptal) return null;
+  const id = kartIdSoru(question.id);
+  const card = (await db.getCard(id)) || fsrs.newCard(id, 'soru', question.id);
+  const next = fsrs.review(card, fsrs.Rating.AGAIN, now, { examDate });
+  await db.saveCard(next);
+  return next;
+}
