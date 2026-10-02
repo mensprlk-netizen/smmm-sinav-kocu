@@ -1,5 +1,5 @@
 // app/js/screens/exam.js
-import { h, toast, confirm, fmtSure, sheet, safe, kayitHatasi } from '../ui.js';
+import { h, toast, confirm, fmtSure, fmtPuan, sheet, safe, kayitHatasi } from '../ui.js';
 import { createQuestionView } from './question-view.js';
 import * as X from '../exam.js';
 import * as fsrs from '../fsrs.js';
@@ -16,6 +16,18 @@ export async function render(view, params, ctx) {
   if (params.stage === 'result') return showResult(view, params.id, ctx);
   if (params.stage === 'review') return reviewWrong(view, params.id, ctx);
   return setup(view, ctx);
+}
+
+const clampInt = (v, lo, hi, def) => { const n = parseInt(v, 10); return Number.isFinite(n) ? Math.min(hi, Math.max(lo, n)) : def; };
+
+// One answer row per answered question; blank questions write none.
+function examRows(s, byId, id) {
+  const rows = [];
+  for (const qid of s.soruIdler) {
+    const q = byId[qid]; const c = s.cevaplar[qid];
+    if (c && q) rows.push({ soruId: qid, cevap: c, dogruMu: c === q.dogru, emin: true, sure: 0, mod: 'exam', denemeId: id });
+  }
+  return rows;
 }
 
 const notFound = (view) => view.append(h('p', { class: 'card' }, 'Deneme bulunamadı.'));
@@ -85,9 +97,10 @@ async function setup(view, ctx) {
       h('button', { class: 'btn btn-primary btn-block', onClick: () => {
         const dersler = ozelDers.map(l => l.querySelector('input')).filter(i => i.checked).map(i => i.value);
         if (!dersler.length) return toast('En az bir ders seç.');
-        return go('ozel', +sureIn.value || 45, async () => {
+        const adet = clampInt(adetIn.value, 5, 160, 20);
+        return go('ozel', clampInt(sureIn.value, 5, 240, 45), async () => {
           const pool = await data.filterQuestions({ dersler, iptalHaric: false });
-          return X.pickQuestions(pool, { mod: 'rastgele', adet: +adetIn.value || 20 });
+          return X.pickQuestions(pool, { mod: 'rastgele', adet });
         })();
       } }, 'Başla')));
 }
@@ -101,7 +114,7 @@ async function runExam(view, id, ctx) {
   if (s.bittiMi) return ctx.navigate('#/exam/result/' + id);
   let i = 0, finishing = false;
   const timerEl = h('span', { class: 'timer' });
-  let mapSheet = null;
+  const sheets = []; // sheets this screen opened
   const save = safe(() => db.saveExam(s)); // s is read synchronously; a failed save keeps the in-memory answer
 
   if (X.remainingMs(s) <= 0) { await end(); return; }
@@ -147,7 +160,8 @@ async function runExam(view, id, ctx) {
   function openMap() {
     if (finishing) return;
     const grid = h('div', { class: 'grid-map' }, ...s.soruIdler.map((qid, k) => h('button', { class: (s.cevaplar[qid] ? 'answered ' : '') + (s.bayraklar[qid] ? 'flagged ' : '') + (k === i ? 'current' : ''), onClick: () => { sh.close(); show(k); } }, String(k + 1))));
-    const sh = mapSheet = sheet({ title: 'Soru haritası', content: h('div', {}, h('p', { class: 'muted' }, `Cevaplı: ${Object.keys(s.cevaplar).length} / ${s.soruIdler.length}`), grid) });
+    const sh = sheet({ title: 'Soru haritası', content: h('div', {}, h('p', { class: 'muted' }, `Cevaplı: ${Object.keys(s.cevaplar).length} / ${s.soruIdler.length}`), grid) });
+    sheets.push(sh);
   }
   // Single-shot: the timer and the "Bitir" confirmation may race; only the first call finishes the exam.
   async function end() {
@@ -156,23 +170,26 @@ async function runExam(view, id, ctx) {
     clearInterval(timer); timer = null;
     let fin, byId = {};
     try {
+      const cur = await db.getExam(id); // a stale session must not finish an exam that is already finished
+      if (ep !== epoch) { finishing = false; return; }
+      if (cur?.bittiMi) { sheets.forEach(x => x.close()); ctx.navigate('#/exam/result/' + id); return; }
       for (const qid of s.soruIdler) byId[qid] = await data.getQuestion(qid);
       if (ep !== epoch) { finishing = false; return; }
-      fin = X.finish(s, byId, Math.min(Date.now(), s.baslangic + s.sureMs));
+      fin = { ...X.finish(s, byId, Math.min(Date.now(), s.baslangic + s.sureMs)), satirlarYazildi: false };
       await db.saveExam(fin);
     } catch { kayitHatasi(); finishing = false; if (ep === epoch && X.remainingMs(s) > 0 && !timer) timer = setInterval(tick, 1000); return; }
     s = fin;
-    document.querySelectorAll('.sheet-backdrop, .sheet').forEach(el => el.remove());
+    sheets.forEach(x => x.close());
     try {
-      for (const qid of s.soruIdler) {
-        const q = byId[qid]; const c = s.cevaplar[qid];
-        if (c && q) await db.addAnswer({ soruId: qid, cevap: c, dogruMu: c === q.dogru, emin: true, sure: 0, mod: 'exam', denemeId: id });
-      }
-    } catch { kayitHatasi(); }
+      await db.addAnswers(examRows(s, byId, id));
+      s = { ...s, satirlarYazildi: true };
+      await db.saveExam(s);
+    } catch { kayitHatasi(); } // the result screen retries the (atomic) row write once
     if (ep !== epoch) return;
     ctx.navigate('#/exam/result/' + id);
   }
-  await show(0);
+  const firstOpen = s.soruIdler.findIndex(q => !s.cevaplar[q]);
+  await show(firstOpen === -1 ? s.soruIdler.length - 1 : firstOpen);
 }
 
 async function showResult(view, id, ctx) {
@@ -182,6 +199,18 @@ async function showResult(view, id, ctx) {
   if (ep !== epoch) return;
   if (!s) return notFound(view);
   if (!s.bittiMi || !s.sonuc) return ctx.navigate('#/exam/run/' + id);
+  if (s.satirlarYazildi !== true) { // the row batch failed when finishing; retry once (atomic, so no duplicates)
+    try {
+      const have = (await db.allAnswers()).some(a => a.mod === 'exam' && a.denemeId === id);
+      if (!have) {
+        const byId = {}; for (const qid of s.soruIdler) byId[qid] = await data.getQuestion(qid);
+        await db.addAnswers(examRows(s, byId, id));
+      }
+      s = { ...s, satirlarYazildi: true };
+      await db.saveExam(s);
+    } catch { kayitHatasi(); }
+    if (ep !== epoch) return;
+  }
   const r = s.sonuc;
   const tekrarBtn = h('button', { class: 'btn btn-primary', disabled: !!s.tekrarEklendi, onClick: async () => {
     if (tekrarBtn.disabled) return;
@@ -203,9 +232,9 @@ async function showResult(view, id, ctx) {
     ? (r.ortalamaGecti ? 'Ortalama barajı (60) geçildi' : 'Ortalama 60 altında')
     : (r.dersler[s.dersler[0]]?.gecti ? 'Ders barajı (50) geçildi' : 'Ders barajı 50 altında');
   view.append(h('h1', {}, 'Deneme sonucu'),
-    h('div', { class: 'card', style: 'text-align:center' }, h('div', { style: 'font-size:2.2em;font-weight:700' }, r.ortalama), h('div', { class: 'muted' }, mesaj),
+    h('div', { class: 'card', style: 'text-align:center' }, h('div', { style: 'font-size:2.2em;font-weight:700' }, fmtPuan(r.ortalama)), h('div', { class: 'muted' }, mesaj),
       h('p', { class: 'muted' }, `Doğru ${r.toplamDogru} · Yanlış ${r.toplamYanlis} · Boş ${r.toplamBos} · Süre ${fmtSure(s.bitis - s.baslangic)}`)),
-    ...Object.entries(r.dersler).map(([kod, d]) => h('div', { class: 'stat-row' }, h('span', {}, dersAdi(kod)), h('span', {}, `${d.dogru}D ${d.yanlis}Y ${d.bos}B → `, h('strong', { style: `color:${d.gecti ? 'var(--ok)' : 'var(--err)'}` }, d.puan)))),
+    ...Object.entries(r.dersler).map(([kod, d]) => h('div', { class: 'stat-row' }, h('span', {}, dersAdi(kod)), h('span', {}, `${d.dogru}D ${d.yanlis}Y ${d.bos}B → `, h('strong', { style: `color:${d.gecti ? 'var(--ok)' : 'var(--err)'}` }, fmtPuan(d.puan))))),
     h('div', { class: 'row', style: 'margin-top:12px' }, tekrarBtn,
       h('a', { class: 'btn', href: '#/exam/review/' + id }, 'Yanlışları gözden geçir'),
       h('a', { class: 'btn', href: '#/exam' }, 'Yeni deneme')));

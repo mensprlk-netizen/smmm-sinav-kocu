@@ -46,6 +46,19 @@ export async function getSetting(anahtar, varsayilan) {
 }
 export const setSetting = (anahtar, deger) => put('settings', { anahtar, deger });
 
+// Writes all rows in ONE transaction: either every row is stored or none.
+export function addAnswers(rows) {
+  if (!rows.length) return Promise.resolve();
+  return dbp.then(d => new Promise((resolve, reject) => {
+    const t = d.transaction('answers', 'readwrite');
+    const st = t.objectStore('answers');
+    t.oncomplete = () => resolve();
+    t.onerror = () => reject(t.error);
+    t.onabort = () => reject(t.error || new Error('İşlem iptal edildi.'));
+    try { const tarih = Date.now(); for (const a of rows) st.put({ ...a, tarih }); }
+    catch (e) { try { t.abort(); } catch {} reject(e); }
+  }));
+}
 export function addAnswer(a) { return put('answers', { ...a, tarih: Date.now() }); }
 export function answersFor(soruId) {
   return tx('answers', 'readonly', o => o.index('soruId').getAll(soruId));
