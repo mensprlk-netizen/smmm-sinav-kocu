@@ -222,3 +222,12 @@ test('destroy() açık ink alanlarındaki bekleyen değişikliği iletir', withT
   assert.equal(fey.length, 1);
   assert.equal(fey[0].length, 1);
 }));
+
+test('tuzak metinleri HTML olarak işlenir', () => {
+  const s = { ...sol, tuzaklar: { A: 'Yalnız <em>net</em> tutar' } };
+  const v = createQuestionView({ question: q, solution: s, mode: 'study', index: 0, total: 1, onAnswer: () => {} });
+  opt(v, 'A').click();
+  const li = v.el.querySelector('.solution ul li');
+  assert.ok(li.querySelector('em'));
+  assert.equal(li.textContent, 'A) Yalnız net tutar');
+});
