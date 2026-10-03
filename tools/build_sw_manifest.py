@@ -21,6 +21,15 @@ def _render(version, files):
     )
 
 
+BINARY_SUFFIXES = {".png", ".ico", ".pdf", ".jpg", ".jpeg", ".webp", ".woff", ".woff2"}
+
+
+def _icerik(p):
+    """Özetlenecek içerik: metin dosyalarında CRLF→LF (Windows checkout'u sürümü değiştirmesin)."""
+    data = p.read_bytes()
+    return data if p.suffix.lower() in BINARY_SUFFIXES else data.replace(b"\r\n", b"\n")
+
+
 def build(app_dir=None, write=True):
     app = pathlib.Path(app_dir) if app_dir is not None else APP
     entries = []
@@ -36,12 +45,12 @@ def build(app_dir=None, write=True):
         files.append(rel)
         h.update(rel.encode("utf-8"))
         h.update(b"\0")
-        h.update(p.read_bytes())
+        h.update(_icerik(p))
     # sw.js listeye girmez ama sürümü etkiler: işçi değişince önbellek adı da değişir.
     sw = app / "sw.js"
     if sw.is_file():
         h.update(b"\0sw.js\0")
-        h.update(sw.read_bytes())
+        h.update(_icerik(sw))
     version = h.hexdigest()[:12]
     if write:
         (app / "sw-manifest.js").write_text(_render(version, files), encoding="utf-8", newline="\n")
