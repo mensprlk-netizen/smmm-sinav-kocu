@@ -1,0 +1,77 @@
+{
+ "kod": "04-direkt-iscilik",
+ "sira": 4,
+ "baslik": "Direkt İşçilik",
+ "amac": "İşçilik maliyetini direkt ve endirekt kısımlarına ayırmak; fazla mesai primi, boşa geçen zaman, izin-ikramiye ve işveren paylarını doğru hesaba (720, 730 ya da dönem gideri) yazmak.",
+ "bolumler": [
+  {
+   "baslik": "Direkt ve endirekt işçilik",
+   "html": "<p><strong>Direkt işçilik (720):</strong> doğrudan mamulün üretiminde çalışan ve belirli bir mamule ya da siparişe ekonomik biçimde izlenebilen işçilik maliyetidir (tezgâh işçisi, montajcı). <strong>Endirekt işçilik:</strong> üretimle ilgili olup mamule doğrudan izlenemeyen işçiliktir (ustabaşı, bakım, depo, kalite kontrol, temizlik); GÜG'ün (730) bir unsurudur. Üretim dışı personelin ücretleri fonksiyonuna göre 760 ya da 770'e yazılır.</p><p>İşçilik maliyeti brüt ücret ile işveren paylarından oluşur. Brüt ücret = net ücret + işçiden kesilen SGK ve işsizlik sigortası primleri, gelir vergisi ve damga vergisi. İşverenin ayrıca ödediği SGK ve işsizlik sigortası işveren payları da işçilik maliyetidir. Ana akım yaklaşımda direkt işçinin işveren payı izlenebildiği için 720'ye, endirekt işçininki 730'a yazılır; bazı kitaplar ve işletmeler pratiklik için tüm işveren paylarını GÜG'de toplar.</p><p>Tahakkuk kaydında 720, 730 (ve 760, 770) borç; 335 Personele Borçlar (net ücret), 360 Ödenecek Vergi ve Fonlar (gelir ve damga vergisi), 361 Ödenecek Sosyal Güvenlik Kesintileri (işçi ve işveren primleri) alacak yazılır.</p>"
+  },
+  {
+   "baslik": "Fazla mesai primi ve boşa geçen zaman",
+   "html": "<p><strong>Fazla mesai ücreti</strong> iki parçadır: normal saat ücreti kadar olan kısım ve <strong>fazla mesai primi</strong>. İş Kanunu md. 41'e göre fazla çalışmanın her saati normal saat ücretinin %50 fazlasıyla ödenir; primi bu %50 oluşturur. Normal ücret kısmı direkt işçiliktir. Prim kısmı:</p><ul><li>belirli bir siparişin (müşterinin acil teslim isteği gibi) yol açtığı fazla mesaide o siparişin direkt işçiliğine (720) yüklenir;</li><li>genel üretim yoğunluğundan kaynaklanıyorsa GÜG'e (730) yazılır ve yükleme oranıyla bütün üretime yayılır; böylece fazla mesai saatine rastlayan siparişin maliyeti tesadüfen şişmez.</li></ul><p><strong>Fazla mesai saat ücreti = Normal saat ücreti × 1,5 = Normal ücret + Prim</strong></p><p><strong>Boşa geçen zaman</strong> (makine arızası, malzeme ya da iş beklemesi, enerji kesintisi), işçiye ödenen ama üretime yansımayan süredir. Üretimin olağan akışında beklenen (normal) kısmı GÜG'e (730) yazılır. Olağan dışı (anormal) kısmı, örneğin uzun süreli arıza ya da sel nedeniyle duruş, maliyete yüklenmez; dönem gideri olarak 68 Olağandışı Gider ve Zararlar grubuna yazılır.</p>",
+   "gorsel": {
+    "tip": "svg-static",
+    "veri": {
+     "svg": "<svg viewBox=\"0 0 600 560\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"İşçilik ücretinin dağılım ağacı: direkt işçilerin ücret parçaları 720 ya da 730 hesabına, anormal boşa geçen zaman 68 grubuna, endirekt işçilik 730 hesabına\"><rect x=\"10\" y=\"10\" width=\"580\" height=\"40\" rx=\"8\" stroke-width=\"1.5\" style=\"fill:var(--surface);stroke:var(--text)\"/><text x=\"22\" y=\"35.0\" font-size=\"14\" style=\"fill:var(--text)\"><tspan font-weight=\"600\">Üretim işçiliği maliyeti</tspan> (brüt ücret + işveren payları)</text><rect x=\"30\" y=\"70\" width=\"220\" height=\"36\" rx=\"8\" stroke-width=\"1.5\" style=\"fill:var(--surface);stroke:var(--text)\"/><text x=\"42\" y=\"93.0\" font-size=\"14\" style=\"fill:var(--text)\"><tspan font-weight=\"600\">Direkt işçiler</tspan></text><rect x=\"80\" y=\"120\" width=\"510\" height=\"36\" rx=\"8\" stroke-width=\"2.5\" style=\"fill:var(--surface);stroke:var(--primary)\"/><text x=\"92\" y=\"143.0\" font-size=\"14\" style=\"fill:var(--text)\">Normal saatlerde üretim → 720 Dİ</text><rect x=\"80\" y=\"166\" width=\"510\" height=\"36\" rx=\"8\" stroke-width=\"2.5\" style=\"fill:var(--surface);stroke:var(--primary)\"/><text x=\"92\" y=\"189.0\" font-size=\"14\" style=\"fill:var(--text)\">Fazla mesai, normal ücret kısmı → 720 Dİ</text><rect x=\"80\" y=\"212\" width=\"510\" height=\"36\" rx=\"8\" stroke-width=\"2.5\" style=\"fill:var(--surface);stroke:var(--primary)\"/><text x=\"92\" y=\"235.0\" font-size=\"14\" style=\"fill:var(--text)\">Fazla mesai primi, belirli sipariş isteği → 720 Dİ</text><rect x=\"80\" y=\"258\" width=\"510\" height=\"36\" rx=\"8\" stroke-width=\"2.5\" style=\"fill:var(--surface);stroke:var(--muted)\"/><text x=\"92\" y=\"281.0\" font-size=\"14\" style=\"fill:var(--text)\">Fazla mesai primi, genel yoğunluk → 730 GÜG</text><rect x=\"80\" y=\"304\" width=\"510\" height=\"36\" rx=\"8\" stroke-width=\"2.5\" style=\"fill:var(--surface);stroke:var(--muted)\"/><text x=\"92\" y=\"327.0\" font-size=\"14\" style=\"fill:var(--text)\">Boşa geçen zaman, normal → 730 GÜG</text><rect x=\"80\" y=\"350\" width=\"510\" height=\"36\" rx=\"8\" stroke-width=\"2.5\" style=\"fill:var(--surface);stroke:var(--err)\"/><text x=\"92\" y=\"373.0\" font-size=\"14\" style=\"fill:var(--text)\">Boşa geçen zaman, anormal → 68 grubu (dönem gideri)</text><rect x=\"80\" y=\"396\" width=\"510\" height=\"36\" rx=\"8\" stroke-width=\"2.5\" style=\"fill:var(--surface);stroke:var(--primary)\"/><text x=\"92\" y=\"419.0\" font-size=\"14\" style=\"fill:var(--text)\">İşveren payları → 720 (bazı kaynaklarda 730)</text><line x1=\"50\" y1=\"106\" x2=\"50\" y2=\"414.0\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"50\" y1=\"138.0\" x2=\"80\" y2=\"138.0\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"50\" y1=\"184.0\" x2=\"80\" y2=\"184.0\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"50\" y1=\"230.0\" x2=\"80\" y2=\"230.0\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"50\" y1=\"276.0\" x2=\"80\" y2=\"276.0\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"50\" y1=\"322.0\" x2=\"80\" y2=\"322.0\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"50\" y1=\"368.0\" x2=\"80\" y2=\"368.0\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"50\" y1=\"414.0\" x2=\"80\" y2=\"414.0\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><rect x=\"30\" y=\"450\" width=\"220\" height=\"36\" rx=\"8\" stroke-width=\"1.5\" style=\"fill:var(--surface);stroke:var(--text)\"/><text x=\"42\" y=\"473.0\" font-size=\"14\" style=\"fill:var(--text)\"><tspan font-weight=\"600\">Endirekt işçiler</tspan></text><rect x=\"80\" y=\"496\" width=\"510\" height=\"36\" rx=\"8\" stroke-width=\"2.5\" style=\"fill:var(--surface);stroke:var(--muted)\"/><text x=\"92\" y=\"519.0\" font-size=\"14\" style=\"fill:var(--text)\">Ustabaşı, bakım, depo, kalite kontrol → 730 GÜG</text><line x1=\"50\" y1=\"486\" x2=\"50\" y2=\"514.0\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"50\" y1=\"514.0\" x2=\"80\" y2=\"514.0\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"140\" y1=\"50\" x2=\"140\" y2=\"70\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"20\" y1=\"50\" x2=\"20\" y2=\"468.0\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"20\" y1=\"468.0\" x2=\"30\" y2=\"468.0\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/></svg>"
+    }
+   }
+  },
+  {
+   "baslik": "İzin, ikramiye ve karşılıklar",
+   "html": "<p>Yıllık ücretli izin, ikramiye ve benzeri ödemeler yıl içinde düzensiz ödenir ama yılın bütün üretimiyle ilgilidir. Ödendiği aya yazılırsa o ayın mamulleri pahalı, diğer ayların mamulleri ucuz görünür. Bu yüzden yıllık tutar tahmin edilir ve her aya eşit pay olarak tahakkuk ettirilir (karşılık ayrılır); ödeme yapıldığında ayrılan karşılık kapatılır.</p><p><strong>Aylık yük = Tahmini yıllık izin ve ikramiye tutarı ÷ 12</strong></p><p>Direkt işçilere ait aylık payın 720'ye (saat ücretine oran olarak eklenerek) mi, 730'a mı yazılacağı kaynaklara göre değişir; ikisinde de ortak kural, tutarın aylara eşit dağıtılmasıdır.</p>"
+  },
+  {
+   "baslik": "Standart maliyette direkt işçilik farkları",
+   "html": "<p>Standart maliyet uygulayan işletmede direkt işçilik farkı ikiye ayrılır (ayrıntısı Konu 9'da):</p><p><strong>Ücret farkı = (Fiili saat ücreti − Standart saat ücreti) × Fiili süre</strong></p><p><strong>Süre (zaman) farkı = (Fiili süre − Standart süre) × Standart saat ücreti</strong></p><p>Sonuç pozitifse fiili maliyet standardı aşmıştır (olumsuz fark), negatifse olumlu farktır. 7/A'da bu farklar 722 Direkt İşçilik Ücret Farkları ve 723 Direkt İşçilik Süre Farkları hesaplarında izlenir.</p>"
+  }
+ ],
+ "sinavYaklasimi": [
+  "2026-1 ve 2026-2 kitapçıklarında doğrudan direkt işçilik konusunda soru yoktur. Aşağıdaki çıkmış sorular direkt işçiliğin kullanıldığı en yakın sorulardır ve bu konudaki kurallarla çözülür.",
+  "Dİ farkı: 2026-2-MAL-03'te süre farkı (2.500 − 2.400) × 210 = 21.000 ₺ olumsuz, ücret farkı (200 − 210) × 2.500 = −25.000 ₺, yani 25.000 ₺ olumlu (A).",
+  "Maliyet akışında bilinmeyen Dİ: 2026-2-MAL-05'te 200.000 = 120.000 + Dİ + 130.000 + 20.000 − 100.000 → Dİ = 30.000 ₺ (B).",
+  "Dİ hem ilk hem dönüşüm maliyetine girer: 2026-1-MAL-01'de 138.750 ve 79.000 ₺ (C); 2026-2-MAL-13'te (400.000 + 440.000) / 100 = 8.400 ₺ (E).",
+  "Endirekt işçilik GÜG'dür, direkt işçilik değildir: 2026-2-MAL-07'de GÜG 550.000 ₺ (direkt işçilik 500.000 ₺ hariç), birim 55 ₺ (B).",
+  "Fazla mesai primi, boşa geçen zaman, izin-ikramiye ve işveren payının sınıflandırması 2026 kitapçıklarında sorulmadı; burada ana akım ders kitabı yaklaşımı anlatıldı. Kaynaklar özellikle işveren payları ile izin-ikramiye payını 720 ya da 730'a yazmakta ayrışır; soru kökü bir sınıflandırma veriyorsa ona uyun.",
+  "Fazla mesai sorusunda ücreti ikiye ayır: normal ücret × tüm saatler (direkt işçilik) ve prim × fazla mesai saatleri (nedenine göre 720 ya da 730)."
+ ],
+ "ornekler": [
+  {
+   "soru": "<p>Direkt işçilerin normal saat ücreti 150 ₺'dir. Ay içinde 1.800 normal mesai saatinin 1.700 saati üretimde, 100 saati olağan makine arızaları nedeniyle boşa geçmiştir. Ayrıca 200 saat fazla mesai yapılmış (%50 zamlı); bunun 120 saati A siparişinin müşterinin istediği acil teslimi için, 80 saati genel üretim yoğunluğu nedeniyledir. Ustabaşı ve bakım personelinin brüt ücreti 60.000 ₺'dir. İşveren payları ihmal edilmiştir.</p><p><strong>Brüt ücretleri 720 Direkt İşçilik Giderleri ve 730 Genel Üretim Giderleri arasında dağıtınız.</strong></p>",
+   "cozum": [
+    "<p><strong>1. Normal mesai.</strong> Üretimde geçen 1.700 × 150 = <strong>255.000 ₺ → 720</strong>. Olağan boşa geçen zaman 100 × 150 = <strong>15.000 ₺ → 730</strong>.</p>",
+    "<p><strong>2. Fazla mesainin normal ücret kısmı.</strong> 200 × 150 = <strong>30.000 ₺ → 720</strong>.</p>",
+    "<p><strong>3. Fazla mesai primi.</strong> Saat başına 150 × %50 = 75 ₺. A siparişinden kaynaklanan 120 × 75 = <strong>9.000 ₺ → 720</strong> (A siparişine); genel yoğunluktan kaynaklanan 80 × 75 = <strong>6.000 ₺ → 730</strong>.</p>",
+    "<p><strong>4. Endirekt işçilik.</strong> <strong>60.000 ₺ → 730</strong>.</p>",
+    "<p><strong>5. Dağılım.</strong> 720: 255.000 + 30.000 + 9.000 = <strong>294.000 ₺</strong>; 730: 15.000 + 6.000 + 60.000 = <strong>81.000 ₺</strong>.</p><table class=\"veri\"><tr><th>Kalem</th><th class=\"n\">Hesaplama</th><th class=\"n\">720 Dİ</th><th class=\"n\">730 GÜG</th></tr><tr><td>Üretimde geçen normal saatler</td><td class=\"n\">1.700 × 150</td><td class=\"n\">255.000</td><td class=\"n\"></td></tr><tr><td>Boşa geçen zaman (normal)</td><td class=\"n\">100 × 150</td><td class=\"n\"></td><td class=\"n\">15.000</td></tr><tr><td>Fazla mesai, normal ücret kısmı</td><td class=\"n\">200 × 150</td><td class=\"n\">30.000</td><td class=\"n\"></td></tr><tr><td>Fazla mesai primi, A siparişi</td><td class=\"n\">120 × 75</td><td class=\"n\">9.000</td><td class=\"n\"></td></tr><tr><td>Fazla mesai primi, genel yoğunluk</td><td class=\"n\">80 × 75</td><td class=\"n\"></td><td class=\"n\">6.000</td></tr><tr><td>Endirekt işçilik (ustabaşı, bakım)</td><td class=\"n\"></td><td class=\"n\"></td><td class=\"n\">60.000</td></tr><tr><td><strong>Toplam</strong></td><td class=\"n\"><strong>375.000</strong></td><td class=\"n\"><strong>294.000</strong></td><td class=\"n\"><strong>81.000</strong></td></tr></table>",
+    "<p><strong>Sağlama.</strong> (1.800 + 200) × 150 + 200 × 75 + 60.000 = 300.000 + 15.000 + 60.000 = 375.000 ₺ = 294.000 + 81.000. Tahakkuk kaydında 720 294.000 ₺ ve 730 81.000 ₺ borç; 335, 360 ve 361 bordrodaki kesintilere göre alacak yazılır.</p>"
+   ]
+  }
+ ],
+ "cikmisSorular": [
+  "2026-2-MAL-03",
+  "2026-2-MAL-05",
+  "2026-1-MAL-01",
+  "2026-2-MAL-13",
+  "2026-2-MAL-07"
+ ],
+ "kartlar": [
+  {
+   "on": "Direkt işçilik ile endirekt işçilik arasındaki fark nedir?",
+   "arka": "Direkt işçilik belirli bir mamule ya da siparişe ekonomik biçimde izlenebilen üretim işçiliğidir (720). Endirekt işçilik (ustabaşı, bakım, depo, kalite kontrol) mamule izlenemez; genel üretim gideridir (730)."
+  },
+  {
+   "on": "Direkt işçinin fazla mesai primi nereye yazılır?",
+   "arka": "Belirli bir siparişin isteğinden kaynaklanıyorsa o siparişin direkt işçiliğine (720); genel üretim yoğunluğundan kaynaklanıyorsa GÜG'e (730). Fazla mesainin normal ücret kısmı her durumda direkt işçiliktir."
+  },
+  {
+   "on": "Boşa geçen zamanın ücreti nasıl sınıflanır?",
+   "arka": "Normal (olağan) boşa geçen zaman genel üretim gideridir (730). Anormal (olağan dışı) boşa geçen zaman maliyete yüklenmez; 68 Olağandışı Gider ve Zararlar grubunda dönem gideridir."
+  },
+  {
+   "on": "Yıllık izin ve ikramiye ödemeleri maliyete nasıl yüklenir?",
+   "arka": "Tahmini yıllık tutar 12'ye bölünür ve her aya eşit pay olarak tahakkuk ettirilir (karşılık ayrılır); ödendiği aya toplu olarak yazılmaz."
+  }
+ ]
+}
