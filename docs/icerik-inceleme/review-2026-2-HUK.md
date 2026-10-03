@@ -100,3 +100,10 @@ Kesin = hüküm metni mevzuat.gov.tr konsolide metninde kelime kelime görülere
 - **5510:** md. 3/1-3, 3/1-4, 3/1-5, 3/1-8, 3/1-12, 3/1-13, 4/1 (a, b-2, c), 4/2 (a–g ve İŞKUR’un işveren sayılmaması), 6/1-a, d, g, k, m ve son cümle — kesin.
 - **İYUK (2577):** md. 6/4, 6/5, 6/6, 7/1–2, 20/A/2-a, 20/B/1 (a, c, ç, e, f, ğ, ı) ve 20/B/2, 28/1 (7588 sayılı Kanun’la eklenen cümle dahil), 28/3, 28/4, 45/1, 46/1 — kesin. İYUK’taki dava açma sürelerinin (md. 7: 60/30, md. 20/A: 30, md. 20/B: 10) taranması metin aramasıyla yapıldı.
 - Madde numarası verilmeden kural olarak anlatılanlar: 16’da işsizlik sigortasının 4447 sayılı İşsizlik Sigortası Kanunu’nda düzenlenmesi (kanun adı; madde verilmedi); 04 tuzaklarında sendikaların toplu iş sözleşmesine taraf olması ve diğer kurumların genel görev alanları; 18 tuzaklarında esastan ret ve yürütmenin durdurulmasının genel tanımları; 03’te “bu süre”nin dört aylık telafi süresini ifade ettiği yorumu (lafız: md. 64/1’in ardışık cümleleri; resmî gerekçe ayrıca indirilmedi). Hiçbiri bir cevabı tek başına taşımaz; 03’teki yorum iptal gerekçesi açıklamasıdır.
+
+## Resmî sınav sonrası anahtar (TESMER, 20.08.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-2_HUK.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/2/06/smmm_2026_2_06.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: **fark yok.** 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; iptal işaretleri de uyumlu.
+- 03: İPTAL (işaretli B); uygulamada zaten `iptal: true`, fark yok.

@@ -107,3 +107,9 @@ Atıflar:
 - **02:** Adım 3’teki saklama amacına ilişkin cümle yorum olarak işaretlendi (“kanaatimizce”).
 - **05:** Not, md. 32/4’ün lafzına göre yeniden yazıldı (izahnamenin geçerlilik süresi; alım ve satım her iki yön).
 - **Etiketler:** md. 62–64 “Kamuyu aydınlatma ve sorumluluk” kapsamına alındı; kripto/kitle fonlaması etiketinin önceliği yazıldı.
+
+## Resmî sınav sonrası anahtar (TESMER, 11.06.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-1_SPK.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/1/08/smmm_2026_1_08.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: **fark yok.** 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; anahtarda İPTAL satırı yok.

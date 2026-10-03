@@ -121,9 +121,9 @@
  ],
  "sinavYaklasimi": [
   "Satış değeri mi, net satış değeri mi: soru “satış değeri” diyorsa miktar × fiyat kullanılır (2026-1-MAL-05: 16.000 ve 8.000 ₺ → A 13.000, B 6.500 ₺, E; 2026-2-MAL-15: oran 180.000 / 60.000 = 3, Z'nin kg başına payı 70 × 3 = 210 ₺, D). “Net satış değeri” diyorsa ek maliyet düşülür (2026-1-MAL-20: 620 − 20 = 600 ve 230 − 30 = 200 → A 3.750, C 1.250 ₺, D). Ek maliyet düşülmeden dağıtmak satış değeri yöntemidir, NSD değildir.",
-  "2026-1-MAL-20 kökünde “birim maliyet” denmesine karşın miktar verilmediğinden şıklar her mamulün ortak maliyet payıdır; ek maliyet paya eklenmez. Ders kitaplarındaki “net gerçekleşebilir değer” ile kitapçıktaki “net satış değeri” aynı yöntemdir.",
+  "2026-1-MAL-20 kökünde “birim maliyet” denmesine karşın miktar verilmediğinden şıklar her mamulün ortak maliyet payıdır; ek maliyet paya eklenmez. Ders kitaplarındaki “net gerçekleşebilir değer” ile kitapçıktaki “net satış değeri” aynı yöntemdir. TESMER bu soruyu da sınav sonrası anahtarda (11.06.2026) iptal etti; yöntem anlatımı geçerlidir.",
   "Katsayılı bölme: 2026-1-MAL-18'de 1.000 × 5 + 2.000 × 4 + 3.000 × 1 = 16.000 katsayılı birim; 1.600.000 / 16.000 = 100 ₺; A 500.000, B 800.000, C 300.000 ₺ (B).",
-  "2026-1-MAL-17 (yan ürün, satış fiyatından geriye doğru hesaplama): standart hesap yan ürüne 250.000 − 250.000 × %20 − 50.000 = 150.000 ₺, ana ürüne 5.000.000 − 150.000 = 4.850.000 ₺ verir. 2026/1 17. sorunun resmî anahtarı (E: 350.000 ₺; 4.650.000 ₺) bu standart hesapla (150.000 / 4.850.000) çelişir; bu soru için çözüm yayımlanmadı. Standart yöntemi öğrenin, bu soruya takılmayın."
+  "2026-1-MAL-17 (yan ürün, satış fiyatından geriye doğru hesaplama): TESMER bu soruyu sınav sonrası cevap anahtarında (11.06.2026) iptal etti; ilk anahtardaki E (350.000 ₺; 4.650.000 ₺) standart hesapla çelişiyordu. Standart hesap yan ürüne 250.000 − 250.000 × %20 − 50.000 = 150.000 ₺, ana ürüne 5.000.000 − 150.000 = 4.850.000 ₺ verir (150.000 / 4.850.000). Standart yöntemi öğrenin, bu soruya takılmayın."
  ],
  "ornekler": [
   {

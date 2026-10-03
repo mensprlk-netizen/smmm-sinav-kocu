@@ -101,3 +101,9 @@ Madde numaraları, mevzuat.gov.tr’den indirilen güncel kanun metninde tek tek
 - 15: MTVK md. 14, 7061 sayılı Kanun’dan beri (I), (I/A) ve (IV) sayılı tarifeleri kapsar. 2018’den itibaren ilk kez tescil edilen binek otomobiller (I/A) sayılı tarifededir. Çözüm metni “(I) ve (I/A) sayılı tarifeler” olarak düzeltildi.
 - Madde numarası verilmeden kural olarak anlatılan bir şey kalmadı.
 - Değişiklik tarihleri: 6183 md. 15 süresi 7061 sayılı Kanun’la 1.1.2018’den itibaren 7 günden 15 güne çıktı; KVK 32/B 7420 sayılı Kanun’la eklendi; ÖTVK 5/1-b’deki serbest bölge ibaresi 7491 sayılı Kanun’la eklendi; DVK md. 5’in birinci cümlesi 6728 sayılı Kanun’la değişti; BES katkı paylarının GVK 89/1-1’den çıkarılması 6327 sayılı Kanun’la; eğitim-sağlık oranının %5’ten %10’a çıkarılması 5281 sayılı Kanun’la — hepsi kanun metnindeki dipnotlardan doğrulandı.
+
+## Resmî sınav sonrası anahtar (TESMER, 11.06.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-1_VER.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/1/05/smmm_2026_1_05.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: **fark yok.** 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; anahtarda İPTAL satırı yok.

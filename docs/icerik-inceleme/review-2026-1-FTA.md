@@ -84,3 +84,10 @@ Yok; kitapçıkta iptal işareti yok.
 - **Yuvarlama:** Kitapçık yüzdelerde tutarlı değil: bazı şıklarda kesiyor (09-B %2,29 = 2,2990; 11-A %23,34 = 23,346), bazılarında yuvarlıyor (10-B %98,43 = 98,4252). Doğru şıkların seçimini etkilemez; hesaplanan değere en yakın şık seçilir.
 - **Tuzaklar:** Mekanizması bulunamayan şıklar için uydurma açıklama yazılmadı; yalnız neden yanlış olduğu söylendi: 03-C, 04-C, 05-C, 06-B, 06-E, 07-D, 08-B, 09-A, 15-C, 15-D; 16 ve 17'de yanlış şıklar için bu tutarla çıkacak süre/oran gösterildi. Bulunan mekanizmaların hepsi betikle hesaplandı.
 - **Dayanak atıfları:** TMS 1 par. 7 (toplam kapsamlı gelir tanımı) ve par. 10 (tam finansal tablo seti) verildi; TMS 7 için paragraf numarası verilmedi.
+
+## Resmî sınav sonrası anahtar (TESMER, 11.06.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-1_FTA.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/1/02/smmm_2026_1_02.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; fark yalnız iptal işaretinde:
+- **18: İPTAL** (işaretli A). Uygulamada iptal değildi; `iptal: true` yapıldı, `dogru` (A) korundu, `cevapNotu` eklendi; mevcut çözüm işaretli şıkkı esas aldığı için korundu.

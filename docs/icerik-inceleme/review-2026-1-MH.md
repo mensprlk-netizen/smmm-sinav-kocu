@@ -104,3 +104,11 @@ Atıflar:
 - **SMMM Odaları Yönetmeliği:** md. 5, 6, 10 — kesin.
 - **Üye Aidatları ile Birlik Paylarının Tespitine Ait Yönetmelik:** md. 8 — kesin.
 - Madde numarası verilmeden kural olarak yazılanlar: 05’te IESBA’nın beş temel ilkesindeki “objectivity”nin bu Yönetmelikte “Tarafsızlık” adıyla yer alması (genel bilgi; cevabı taşımaz, cevap md. 1’in lafzına dayanır). 19’da komanditer ortağın sorumluluğunun koyduğu sermayeyle sınırlı, komandite ortağın sınırsız olduğu bilgisi (TTK genel bilgisi, madde numarası verilmedi; cevap ÇUEY md. 43 ve 47/b’ye dayanır).
+
+## Resmî sınav sonrası anahtar (TESMER, 11.06.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-1_MH.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/1/07/smmm_2026_1_07.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; fark yalnız iptal işaretinde:
+- **01: İPTAL** (işaretli B). Uygulamada iptal değildi; `iptal: true` yapıldı, `dogru` (B) korundu, `cevapNotu` eklendi; mevcut çözüm işaretli şıkkı esas aldığı için korundu.
+- **05: İPTAL** (işaretli D). Uygulamada iptal değildi; `iptal: true` yapıldı, `dogru` (D) korundu, `cevapNotu` eklendi; mevcut çözüm işaretli şıkkı esas aldığı için korundu.

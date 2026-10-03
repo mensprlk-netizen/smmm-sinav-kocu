@@ -379,8 +379,8 @@
    "E": "<p>Sayım ve Tesellüm Noksanları hesabına 1.000 ₺ borç kayıt yapılır.</p>"
   },
   "dogru": "A",
-  "iptal": false,
-  "cevapNotu": null,
+  "iptal": true,
+  "cevapNotu": "TESMER’in sınav sonrası cevap anahtarında (11.06.2026) bu soru İPTAL edilmiştir; kitapçıkta “Değerlendirme Dışı” damgalıdır. İşaretli şık: A. Resmî gerekçe yayımlanmadı. Çözüm işaretli şıkkı (A) esas alır.",
   "orijinal": {
    "sayfa": 5,
    "kutu": [

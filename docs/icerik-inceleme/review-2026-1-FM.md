@@ -67,3 +67,10 @@ Yok. Aşağıdaki "kuşkular" bölümündeki 06 ve 07, resmi cevabı değiştire
 - **03:** Dönem içi alış tarihi verilmediği için tam yıl amortisman (50.000 / 5 = 10.000) hesaplandı; kamyonet binek otomobil olmadığından kıst amortisman sorunu yoktur. Yenileme fonunun tamamı (7.000) ilk yıl amortismanına (10.000) sığdığı için tek kayıtta mahsup edildi.
 - **Tuzaklar:** Mekanizması bulunamayan şıklar için uydurma açıklama yazılmadı: 18-A ("20.000 ₺ doğru yöntemle bulunamaz") ve 19-E ("11.000 ₺ doğru yöntemle bulunamaz"). 12-B (1.700 × 20) ve 12-D (1.700 × 25, birim maliyetlerin basit ortalaması), 05-D (50.000 − 35.000) ve 05-E (60.000 − 35.000) aritmetikle doğrulandı.
 - **Dayanak atıfları:** Madde/paragraf numarası yalnız kesin bilinenlerde verildi: VUK md. 328 (yenileme fonu), VUK md. 322 ve 323 (değersiz ve şüpheli alacaklar), TMS 38 par. 54 ve 57. TMS 16 ve TMS 2 için paragraf numarası verilmedi.
+
+## Resmî sınav sonrası anahtar (TESMER, 11.06.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-1_FM.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/1/01/smmm_2026_1_01.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; fark yalnız iptal işaretinde:
+- **14: İPTAL** (işaretli A). Uygulamada iptal değildi; `iptal: true` yapıldı, `dogru` (A) korundu, `cevapNotu` eklendi; mevcut çözüm işaretli şıkkı esas aldığı için korundu.

@@ -117,3 +117,9 @@ Madde numarası verilmeden kural olarak yazılanlar:
 - **17 (Önemli):** Tedricî tasfiye yalnız md. 86/1 aracı olarak sunuluyordu. md. 97/1 (mali durumu bozulan sermaye piyasası kurumları hakkında Kurulun tedricî tasfiyeye karar verme yetkisi) eklendi; md. 98/1 iki dayanağı birlikte anar (her ikisi 6362 metninde okundu). Adım 2, kart 2 ve `dayanak` (md. 97/1, md. 35) güncellendi. Cevap C değişmedi.
 - **11 (Küçük):** Kart 1 2026-1-SPK-11’in kartının aynısıydı; istisnaya odaklanacak şekilde yeniden yazıldı (kripto zimmet davası → (1) numaralı ağır ceza, md. 115/A-3; diğer suçlar ihtisas asliye ceza, md. 116/1). Adım 3’teki 5235 md. 12 aktarımı tamamlandı (ağırlaştırılmış müebbet, müebbet, on yıldan fazla hapis ve sayılan bazı TCK suçları).
 - **16 (Küçük):** `tuzaklar.E`’ye md. 110 başlığının “Güveni kötüye kullanma ve sahtecilik” olduğu ve sahtecilik niteliğindeki fiilin 110/2 olduğu eklendi (başlık 6362 metninde doğrulandı).
+
+## Resmî sınav sonrası anahtar (TESMER, 20.08.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-2_SPK.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/2/08/smmm_2026_2_08.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: **fark yok.** 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; anahtarda İPTAL satırı yok.

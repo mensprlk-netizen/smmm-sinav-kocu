@@ -118,3 +118,10 @@ Kesin = hüküm metni bu çalışmada indirilen (veya 2026-1-DEN çalışmasınd
 - 12 `adimlar[2]`: kanıt toplamama kuralına dayanan son çıkarım cümlesi silindi.
 - 16 `dayanak`: BDS 200 parag. 13 (“ön kabul” tanımı) ve parag. 4 eklendi; ikisi de indirilen 2025 metninde görüldü.
 - Bu dosyadaki BDS 200 sürüm notu düzeltildi (A39 ve parag. 5, 6, 12, 17, A35–A37 2024 ve 2025 sürümlerinde aynıdır); `review-2026-1-DEN.md`’de “Denetim kavramı ve unsurları” kapsamı “md. 5–10” → “md. 4–10” yapıldı (yalnız bu ifade).
+
+## Resmî sınav sonrası anahtar (TESMER, 20.08.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-2_DEN.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/2/04/smmm_2026_2_04.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: **fark yok.** 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; iptal işaretleri de uyumlu.
+- 11: İPTAL (işaretli A); uygulamada zaten `iptal: true`, fark yok.

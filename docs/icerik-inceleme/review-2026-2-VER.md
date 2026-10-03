@@ -115,3 +115,10 @@ Kesin = madde metni mevzuat.gov.tr metninde görülerek yazıldı.
 - 03 `kartlar[0].arka` ve 4. adım: GVK geçici md. 94 (7587 sayılı Kanun, yürürlük 1/7/2026) eklendi; 4. adımdaki parantez “2025 itibarıyla” diye sınırlandı.
 - 03 Not adımı: “Not (tartışmalı)” oldu; üç ihraççı okuması ve verdikleri sonuç adlandırıldı.
 - 02 `tuzaklar.B` ve Not adımı: B’yi veren hesap (oranın ödenen yabancı vergiye uygulanması: 400.000 × 2/10 = 80.000) yazıldı.
+
+## Resmî sınav sonrası anahtar (TESMER, 20.08.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-2_VER.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/2/05/smmm_2026_2_05.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: **fark yok.** 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; anahtarda İPTAL satırı yok.
+- 02: anahtarda “B --> A” (Şık Değ.); uygulamadaki `dogru` zaten A, fark yok.

@@ -52,3 +52,11 @@ Genel: Ham metindeki satır sonları birleştirildi, ₺ ve binlik ayracı korun
 - **07:** B şıkkı kitapçıkta "Maliyet fonksiyonları ve satış fiyatı gerçektir." diye yazıyor (ders kitaplarında genellikle "doğrusaldır/belirlidir"). Aynen aktarıldı. Çözümde bunun bir MHK varsayımını (belirli ve doğrusal fonksiyonlar) anlattığı açıklandı.
 - **20:** Kök "birim maliyetleri" diyor ama mamul miktarı verilmemiş. Şıklar, her mamulün NSD yöntemiyle ortak maliyetten aldığı payları (3.750 / 1.250) gösteriyor. Çözümde bu açıkça belirtildi (her mamulden bir birim kabulü; ek maliyetler paya dahil değil). Ortak maliyetin (5.000 ₺) toplam NSD'den (800 ₺) büyük olması ekonomik olarak gerçekçi değil, ancak hesap yöntemi ve cevap net.
 - **04, 05, 15, 16, 18, 20 tuzakları:** Bazı yanlış şıkların hangi hatadan üretildiği tersine bulunamadı (örn. 04-B, 16'daki 75 ve 157,5, 18-A/C/D/E, 20-C/E). Bu şıklar için "yönteme göre tutarsız" açıklaması yazıldı, uydurma bir hata mekanizması yazılmadı.
+
+## Resmî sınav sonrası anahtar (TESMER, 11.06.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-1_MAL.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/1/03/smmm_2026_1_03.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; fark yalnız iptal işaretinde:
+- **17: İPTAL** (işaretli E). Uygulamada iptal değildi; `iptal: true` yapıldı, `dogru` (E) korundu, `cevapNotu` eklendi (çözüm yok, `allow-missing.txt` gerekçesi güncellendi).
+- **20: İPTAL** (işaretli D). Uygulamada iptal değildi; `iptal: true` yapıldı, `dogru` (D) korundu, `cevapNotu` eklendi; mevcut çözüm işaretli şıkkı esas aldığı için korundu.

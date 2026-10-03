@@ -107,3 +107,9 @@ Atıflar:
 - **Sürekli Mesleki Geliştirme Eğitimi Yönetmeliği:** md. 11/1–5 — kesin.
 - **Üye Aidatları ile Birlik Paylarının Tespitine Ait Yönetmelik:** md. 9 — kesin.
 - Madde numarası verilmeden kural olarak yazılan hüküm yok. Olumsuz tespitler (ör. “7 asıl + 5 yedek diye bir yapı Kanunda yoktur”, “Oda Etik Kurulu bir oda organı değildir”, “Haksız Rekabet Kurulu bir Birlik organı değildir”) ilgili maddelerin (3568 md. 17, 21, 31, 35; TÜRMOB Yön. md. 10) tam metni okunarak yapıldı.
+
+## Resmî sınav sonrası anahtar (TESMER, 20.08.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-2_MH.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/2/07/smmm_2026_2_07.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: **fark yok.** 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; anahtarda İPTAL satırı yok.

@@ -54,3 +54,9 @@ Yok. 20 sorunun hepsinde bağımsız çözüm, kırmızı işaret ve cevap anaht
 - **13:** "Memur ücret ve gideri" soruda açıkça "üretimle ilgili olarak katlanılan" maliyetler arasında, bu yüzden GÜG sayıldı.
 - **20:** C şıkkında "borçlandığı tutarla" (tekil) yazıyor; aynen aktarıldı. Çözümde 782 Finansman Giderleri Fark Hesabı adı ve 66 grubuna (660/661) kapanış belirtildi.
 - **Tuzaklar:** Hangi hatadan üretildiği bulunamayan şıklar için uydurma bir mekanizma yazılmadı, yalnızca "doğru yöntemle bulunamaz" denildi: 12-D, 13-D, 14-C, 15-B, 15-E, 16-E, 17-E, 19-C. 18-A ve 18-D için ise o oranla bulunan eşdeğer miktarın 11.000 br'yi tutmadığı gösterildi.
+
+## Resmî sınav sonrası anahtar (TESMER, 20.08.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-2_MAL.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/2/03/smmm_2026_2_03.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: **fark yok.** 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; anahtarda İPTAL satırı yok.

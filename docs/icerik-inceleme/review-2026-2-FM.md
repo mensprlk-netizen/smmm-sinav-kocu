@@ -79,3 +79,9 @@ Yok (anahtar tablosunda "İPTAL" yok).
 - **Yazım:** Kitapçık 16'da "itibarıyla", 17 ve 20'de "itibariyle" yazıyor; 06'da "308 MENKUL KIYMETLER İHRAÇ FARKLARI" (hesap planında "Menkul Kıymet İhraç Farkları"), 02-C'de "Uzun Vadeli Kredilerin Anapara Taksit ve Faizleri" (hesap planında "Taksitleri"). Hepsi aynen aktarıldı.
 - **Tuzaklar:** Mekanizması bulunamayan tek şık için uydurma açıklama yazılmadı: 20-A ("doğru yöntemle bulunamaz"). 19-A (140.000 = değişken giderler), 19-C (100.000 = ilk maliyet), 20-D (800, hurda düşülmeden), 20-E (900, hurda eklenerek), 14-A/C (2.000 = 30 günlük faiz), 16-B/C (gider 1.300 / 1.200) aritmetikle doğrulandı.
 - **Dayanak atıfları:** Madde/paragraf numarası yalnız kesin bilinenlerde verildi: VUK md. 272 (değerini artıran giderler), md. 278 (değeri düşen mallar), md. 285 (borçların değerlemesi, reeskont); KDVK md. 35 (matrahta değişiklik); TMS 2 par. 13; TMS 40 par. 61-63. TMS 16 için paragraf numarası verilmedi.
+
+## Resmî sınav sonrası anahtar (TESMER, 20.08.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-2_FM.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/2/01/smmm_2026_2_01.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: **fark yok.** 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; anahtarda İPTAL satırı yok.

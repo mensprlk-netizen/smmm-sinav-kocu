@@ -1,4 +1,4 @@
-# Resmi cevap anahtarı bu soru için standart hesapla çelişiyor; çözüm yayımlanmadı, kullanıcının kararı bekleniyor.
+# 2026-1-MAL-17 TESMER İPTAL (sınav sonrası anahtar, 11.06.2026); işaretli E standart hesapla (150.000 / 4.850.000) çelişir, çözüm yayımlanmadı.
 2026-1-MAL-17
 # 2026-2-DEN-11 resmi anahtarda İPTAL; kök "doğrudur" der ama işaretli A, BDY md. 36/5'e göre yanlış ifadedir (beş yıl), B-E doğrudur; çözüm yayımlanmadı.
 2026-2-DEN-11

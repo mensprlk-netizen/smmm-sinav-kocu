@@ -102,3 +102,10 @@ Kesin = hüküm metni bu çalışmada mevzuat.gov.tr’den indirilen konsolide m
 - 11 `adimlar[2]`: on yıllık genel zamanaşımı cümlesi dört tazminatla (kıdem, ihbar, kötüniyet, eşit davranmama) sınırlandı.
 - 15 `tuzaklar`: anahtarlar A, C, E sırasına konuldu.
 - 07 `tuzaklar.A`: “aynı gün, yani ‘1 gün’ değil” eklendi.
+
+## Resmî sınav sonrası anahtar (TESMER, 11.06.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-1_HUK.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/1/06/smmm_2026_1_06.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; fark yalnız iptal işaretinde:
+- **03: İPTAL** (işaretli C). Uygulamada iptal değildi; `iptal: true` yapıldı, `dogru` (C) korundu, `cevapNotu` eklendi; mevcut çözüm işaretli şıkkı esas aldığı için korundu.

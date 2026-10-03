@@ -114,3 +114,9 @@ Kesin = hüküm metni bu çalışmada indirilen birincil metinde görülerek yaz
 - 17 `adimlar[1]`: BDS 210 parag. 8 özeti düzeltildi: denetçi önce yönetimle müzakere eder; ön şart kabul edilebilir bir çerçevenin <em>kullanılması</em>dır; 8(a)’daki parag. 19 istisnası (mevzuatla belirlenen çerçeve) eklendi. Parag. 19 metinde görüldü.
 - 10 `dayanak`: BDS 200 parag. A32 eklendi (E’nin ilk cümlesi bu paragrafın ifadesini izler; metinde görüldü).
 - 18 `adimlar[2]` ve `dayanak`: matematiksel risk modeli için BDS 200 parag. A39 eklendi (metinde görüldü).
+
+## Resmî sınav sonrası anahtar (TESMER, 11.06.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-1_DEN.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/1/04/smmm_2026_1_04.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: **fark yok.** 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; anahtarda İPTAL satırı yok.

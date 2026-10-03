@@ -84,3 +84,11 @@ Yok. Aşağıdaki 15 notu inceleyenin dikkatine sunulur.
 - **Sütun başlıkları:** Gelir tablosu ve üretim tablosu akış tabloları olduğu hâlde sütunlar tarih olarak ("31 Aralık 2024", "31 Mart 2026") başlıklanmış; "31 Mart 2026" sütunu üç aylık dönemdir. Aynen aktarıldı; çözümler bunu açıklar.
 - **06-07 grafikleri:** Yatay eksende "2024" iki kez yazılı; kök "2022 ve 2025 yıllarına ait" diyor (muhtemelen "2022-2025"). 07 grafiğinde 2025 stok etiketinin (11.000) yanında küçük bir çizgi işareti var. Grafiklerde ₺ işareti yok; veri tablolarına da eklenmedi. Grafiklerin kendisi metne görüntü olarak eklenmedi; tarif notu ve veri tablosu soruyu tek başına cevaplanabilir kılar.
 - **Tuzaklar:** Mekanizması bulunamayan şıklar için uydurma açıklama yazılmadı, yalnız neden yanlış olduğu söylendi: 05-A, B, D, E; 08-A; 09-A; 13-A, E; 16-C, D, E; 20-C, D. Bulunan mekanizmaların hepsi betikle hesaplandı.
+
+## Resmî sınav sonrası anahtar (TESMER, 20.08.2026)
+
+Kaynak: `tools/pdfs/resmi-anahtar/2026-2_FTA.pdf` (TESMER soru-cevap arşivi, `https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/2/02/smmm_2026_2_02.pdf`; A kitapçığı). Anahtar tablosu, sorulardaki kırmızı işaretli şıklar ve “Değerlendirme Dışı” damgaları okundu; tablo ile kırmızı işaretler 20 soruda birebir aynı. Uygulamadaki 20 soru metinle eşleştirildi: numara ve sıra aynı.
+
+Sonuç: **fark yok.** 20 harfin hepsi uygulamadaki `dogru` alanıyla aynı; iptal işaretleri de uyumlu.
+- 06: İPTAL (işaretli E); uygulamada zaten `iptal: true`, fark yok.
+- 07: İPTAL (işaretli A); uygulamada zaten `iptal: true`, fark yok.
