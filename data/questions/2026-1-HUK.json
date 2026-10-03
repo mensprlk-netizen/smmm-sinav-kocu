@@ -71,8 +71,8 @@
    "E": "<p>İbra</p>"
   },
   "dogru": "C",
-  "iptal": false,
-  "cevapNotu": null,
+  "iptal": true,
+  "cevapNotu": "TESMER’in sınav sonrası cevap anahtarında (11.06.2026) bu soru İPTAL edilmiştir; kitapçıkta “Değerlendirme Dışı” damgalıdır. İşaretli şık: C. Resmî gerekçe yayımlanmadı. Muhtemel gerekçe: öğretide zamanaşımı borcu sona erdirmez, eksik borca dönüştürür (TBK md. 161); bu görüşle B de “sona erdiren hâl değildir” cevabı olarak savunulabilir. Çözüm işaretli şıkkı (C) esas alır.",
   "orijinal": {
    "sayfa": 1,
    "kutu": [

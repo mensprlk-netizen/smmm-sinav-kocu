@@ -491,8 +491,8 @@
    "E": "<p>Firmanın yıllar itibariyle faaliyet kârı artış eğilimindedir.</p>"
   },
   "dogru": "A",
-  "iptal": false,
-  "cevapNotu": null,
+  "iptal": true,
+  "cevapNotu": "TESMER’in sınav sonrası cevap anahtarında (11.06.2026) bu soru İPTAL edilmiştir; kitapçıkta “Değerlendirme Dışı” damgalıdır. İşaretli şık: A. Resmî gerekçe yayımlanmadı. Muhtemel gerekçe: “brüt satış kârı azalma eğilimindedir” ifadesi marj (göreli) okumasıyla A’yı, tutar okumasıyla D’yi destekler; grafik de veri tablosuyla çelişen biçimde (yığılmış) çizilmiştir. Çözüm işaretli şıkkı (A) esas alır. Tutar okuması çözümdeki Not adımında açıklanır.",
   "orijinal": {
    "sayfa": 3,
    "kutu": [

@@ -463,8 +463,8 @@
    "E": "<p>350.000 ₺, 4.650.000 ₺</p>"
   },
   "dogru": "E",
-  "iptal": false,
-  "cevapNotu": null,
+  "iptal": true,
+  "cevapNotu": "TESMER’in sınav sonrası cevap anahtarında (11.06.2026) bu soru İPTAL edilmiştir; kitapçıkta “Değerlendirme Dışı” damgalıdır. İşaretli şık: E. Resmî gerekçe yayımlanmadı. Soruda adı geçen satış fiyatından geriye doğru hesaplamada yan ürünün ortak maliyet payı 250.000 − 50.000 (satış tutarının %20’si normal kâr) − 50.000 (ek maliyet) = 150.000 ₺, ana ürünün payı 5.000.000 − 150.000 = 4.850.000 ₺’dir; bu çift şıklarda yoktur. E (350.000 / 4.650.000), büyük olasılıkla kâr ve ek maliyetin düşülmesi gerekirken satış tutarına eklenmesiyle (işaret hatası) elde edilmiştir. Bu nedenle çözüm yayımlanmadı; standart yöntem “Birleşik Ürün ve Yan Ürün Maliyeti” konusunda anlatılır.",
   "orijinal": {
    "sayfa": 4,
    "kutu": [
@@ -547,8 +547,8 @@
    "E": "<p>4.000 ₺, 1.000 ₺</p>"
   },
   "dogru": "D",
-  "iptal": false,
-  "cevapNotu": null,
+  "iptal": true,
+  "cevapNotu": "TESMER’in sınav sonrası cevap anahtarında (11.06.2026) bu soru İPTAL edilmiştir; kitapçıkta “Değerlendirme Dışı” damgalıdır. İşaretli şık: D. Resmî gerekçe yayımlanmadı. Muhtemel gerekçe: kök “birim maliyetleri” ister ama mamul miktarı verilmemiştir; şıklar her mamulün ortak maliyetten aldığı toplam paydır. Ayrıca ortak maliyet (5.000 ₺) toplam net satış değerinden (800 ₺) büyüktür. Çözüm işaretli şıkkı (D) esas alır.",
   "orijinal": {
    "sayfa": 5,
    "kutu": [
