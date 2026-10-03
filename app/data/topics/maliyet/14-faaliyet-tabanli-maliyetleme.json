@@ -1,0 +1,168 @@
+{
+ "kod": "14-faaliyet-tabanli-maliyetleme",
+ "sira": 14,
+ "baslik": "Faaliyet Tabanlı Maliyetleme",
+ "amac": "Faaliyet, maliyet havuzu ve maliyet etkeni kavramlarını tanımlamak; faaliyet oranını hesaplayıp GÜG'ü mamullere yüklemek; faaliyet tabanlı maliyetlemeyi geleneksel yüklemeyle karşılaştırmak ve faaliyet hiyerarşisini bilmek.",
+ "bolumler": [
+  {
+   "baslik": "Temel kavramlar ve iki aşamalı yükleme",
+   "html": "<p><strong>Faaliyet tabanlı maliyetleme (FTM)</strong>, GÜG'ü mamullere, mamullerin tükettiği faaliyetler üzerinden yükler. Temel düşünce şudur: mamuller faaliyetleri, faaliyetler kaynakları tüketir.</p><ul><li><strong>Faaliyet:</strong> kaynak tüketen ve belirli bir amaca yönelik iş: makine ayarlama, kalite kontrol, iş emri hazırlama, malzeme elleçleme.</li><li><strong>Maliyet havuzu:</strong> bir faaliyete ait maliyetlerin toplandığı gruptur (faaliyet maliyet havuzu).</li><li><strong>Maliyet etkeni (sürücüsü):</strong> faaliyetin maliyetini doğuran ve mamullerin faaliyeti ne kadar kullandığını ölçen ölçüdür: ayar sayısı, test sayısı, iş emri sayısı, teslim sayısı.</li></ul><p>Yükleme iki aşamada yapılır: <strong>1. aşamada</strong> kaynak maliyetleri (endirekt işçilik, enerji, amortisman) kaynak etkenleriyle faaliyet havuzlarına; <strong>2. aşamada</strong> her havuzun maliyeti kendi faaliyet etkeniyle mamullere yüklenir.</p><p><strong>Faaliyet oranı = Faaliyet havuzunun bütçelenmiş maliyeti ÷ Bütçelenmiş maliyet etkeni miktarı</strong></p><p><strong>Mamule yüklenen GÜG = Σ (Faaliyet oranı × Mamulün kullandığı etken miktarı)</strong></p><p>Şema 2026-1-MAL-04'ün dört faaliyet havuzunu ve oranlarını gösterir; her havuz mamullere kendi etkeniyle yüklenir.</p>",
+   "gorsel": {
+    "tip": "flow",
+    "veri": {
+     "w": 600,
+     "h": 330,
+     "dugumler": [
+      {
+       "id": "k",
+       "etiket": "Kaynaklar (GÜG)",
+       "x": 10,
+       "y": 143,
+       "w": 130
+      },
+      {
+       "id": "f1",
+       "etiket": "Ayarlama: 900 ₺/ayar",
+       "x": 190,
+       "y": 10,
+       "w": 200
+      },
+      {
+       "id": "f2",
+       "etiket": "Kalite kontrol: 600 ₺/test",
+       "x": 190,
+       "y": 98,
+       "w": 200
+      },
+      {
+       "id": "f3",
+       "etiket": "İş emirleri: 8.250 ₺/emir",
+       "x": 190,
+       "y": 186,
+       "w": 200
+      },
+      {
+       "id": "f4",
+       "etiket": "Elleçleme: 5.200 ₺/teslim",
+       "x": 190,
+       "y": 274,
+       "w": 200
+      },
+      {
+       "id": "p",
+       "etiket": "Mamul P",
+       "x": 470,
+       "y": 70,
+       "w": 120
+      },
+      {
+       "id": "r",
+       "etiket": "Diğer mamuller",
+       "x": 470,
+       "y": 216,
+       "w": 120
+      }
+     ],
+     "oklar": [
+      {
+       "from": "k",
+       "to": "f1"
+      },
+      {
+       "from": "k",
+       "to": "f2"
+      },
+      {
+       "from": "k",
+       "to": "f3"
+      },
+      {
+       "from": "k",
+       "to": "f4"
+      },
+      {
+       "from": "f1",
+       "to": "p"
+      },
+      {
+       "from": "f2",
+       "to": "p"
+      },
+      {
+       "from": "f3",
+       "to": "p"
+      },
+      {
+       "from": "f4",
+       "to": "p"
+      },
+      {
+       "from": "f1",
+       "to": "r"
+      },
+      {
+       "from": "f2",
+       "to": "r"
+      },
+      {
+       "from": "f3",
+       "to": "r"
+      },
+      {
+       "from": "f4",
+       "to": "r"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "baslik": "Faaliyet oranları: 2026-1-MAL-04",
+   "html": "<p>Her faaliyet havuzu kendi etkenine bölünür; sorudaki toplam GÜG (16.500.000 ₺) yalnız kontrol içindir, tek bir orana çevrilmez.</p><table class=\"veri\"><tr><th>Faaliyet (etken)</th><th class=\"n\">GÜG (₺)</th><th class=\"n\">Etken</th><th class=\"n\">Oran (₺)</th></tr><tr><td>Makine ayarlama (ayar sayısı)</td><td class=\"n\">4.500.000</td><td class=\"n\">5.000</td><td class=\"n\">900</td></tr><tr><td>Kalite kontrol (test sayısı)</td><td class=\"n\">4.800.000</td><td class=\"n\">8.000</td><td class=\"n\">600</td></tr><tr><td>İş emirleri (iş emri sayısı)</td><td class=\"n\">3.300.000</td><td class=\"n\">400</td><td class=\"n\">8.250</td></tr><tr><td>Makine elleçleme (teslim sayısı)</td><td class=\"n\">3.900.000</td><td class=\"n\">750</td><td class=\"n\">5.200</td></tr></table><p>Faaliyet GÜG'ünü toplam GÜG'e bölmek (4.500.000 / 16.500.000 = 0,2727) yükleme oranı değil, faaliyetin toplam içindeki payıdır.</p>"
+  },
+  {
+   "baslik": "Geleneksel yöntemle fark ve faaliyet hiyerarşisi",
+   "html": "<p>Geleneksel yöntem GÜG'ü tek bir işletme oranıyla ya da gider yeri oranlarıyla, hacme dayalı anahtarlarla (direkt işçilik saati, makine saati, DİMM tutarı) yükler. Oysa ayarlama, iş emri, elleçleme gibi giderler üretim hacmine değil parti ve iş sayısına bağlıdır. Sonuç: geleneksel yöntem <strong>düşük hacimli, karmaşık</strong> mamullere eksik, <strong>yüksek hacimli, standart</strong> mamullere fazla GÜG yükler (çapraz sübvansiyon). FTM hacme dayalı olmayan etkenleri kullanarak bu çarpıklığı azaltır; ancak kurulması ve işletilmesi maliyetlidir.</p><p><strong>Faaliyet hiyerarşisi</strong>, faaliyetleri maliyeti doğuran düzeye göre sınıflar:</p><ul><li><strong>Birim düzeyi:</strong> her birim üretildikçe yapılır; maliyet üretim miktarıyla değişir (makine çalıştırma enerjisi, birim başına muayene).</li><li><strong>Parti düzeyi:</strong> her parti için bir kez yapılır; partideki birim sayısından bağımsızdır (makine ayarlama, iş emri, satın alma siparişi, malzeme elleçleme).</li><li><strong>Mamul (mamul destek) düzeyi:</strong> belirli bir mamul türünü sürdürmek için yapılır (mamul tasarımı, mühendislik değişikliği, ürün spesifikasyonu).</li><li><strong>Tesis (işletme destek) düzeyi:</strong> üretimin genel olarak sürdürülmesi içindir (fabrika yönetimi, bina amortismanı, güvenlik); mamullere bağlanması güçtür, keyfi bir ölçüyle dağıtılır ya da dönem gideri sayılır.</li></ul><p>2026-1-MAL-04'te makine ayarlama ve iş emirleri parti düzeyidir. Kalite kontrol, test her partide yapılıyorsa parti, her birimde yapılıyorsa birim düzeyidir.</p>"
+  }
+ ],
+ "sinavYaklasimi": [
+  "2026-1-MAL-04: oran = havuzun bütçelenmiş GÜG'ü ÷ kendi etken miktarı: 4.500.000 / 5.000 = 900 ₺/ayar; 4.800.000 / 8.000 = 600 ₺/test; 3.300.000 / 400 = 8.250 ₺/iş emri; 3.900.000 / 750 = 5.200 ₺/teslim (C).",
+  "Şık tuzakları (2026-1-MAL-04): A faaliyet GÜG'ünü toplam GÜG'e böler (0,2727 bir pay oranıdır); D bu pay oranını etken miktarıyla çarpar; E yalnız etken miktarlarını ₺ ile yazar. Bölünen her zaman havuzun tutarı, bölen kendi etkenidir.",
+  "2026-1-MAL-16 (geleneksel gider yeri katsayısı, karşılaştırma için): 28.750.000 / 500.000 kg = 57,5 ₺/kg; 39.750.000 / 300.000 DİS = 132,5 ₺/DİS (B). Mantık aynıdır (tutar ÷ anahtar); fark, FTM'de havuzların gider yeri değil faaliyet, anahtarların çoğunlukla hacme dayalı olmayan etkenler olmasıdır.",
+  "Adlandırma farkı: hiyerarşi düzeyleri kaynaklarda “birim, parti (seri), mamul (ürün destek), tesis (işletme destek)” diye geçer; bazı kitaplar müşteri düzeyini ekler. “Maliyet etkeni”, “maliyet sürücüsü” ve “faaliyet ölçüsü” aynı anlamda kullanılır. Tesis düzeyi giderlerin mamullere dağıtılıp dağıtılmayacağı kaynağa göre değişir; soru ne derse onu uygulayın."
+ ],
+ "ornekler": [
+  {
+   "soru": "<p>2026-1-MAL-04'teki işletme düşük hacimli, özel bir mamul olan P'den dönemde 1.100 br üretmiştir. P'nin kullandığı etken miktarları: 100 ayar, 250 test, 20 iş emri, 30 teslim. İşletme geleneksel yöntemde toplam GÜG'ü bütçelenmiş 330.000 DİS'e göre yüklemektedir; P birim başına 4 DİS kullanır.</p><p><strong>P'ye FTM ile yüklenen GÜG'ü ve birim GÜG'ü bulunuz; geleneksel yöntemle karşılaştırınız.</strong></p>",
+   "cozum": [
+    "<p><strong>1. Faaliyet oranları.</strong> 4.500.000 / 5.000 = 900; 4.800.000 / 8.000 = 600; 3.300.000 / 400 = 8.250; 3.900.000 / 750 = 5.200 ₺.</p>",
+    "<p><strong>2. P'ye yükleme.</strong></p><table class=\"veri\"><tr><th>Faaliyet</th><th class=\"n\">Etken</th><th class=\"n\">Oran</th><th class=\"n\">GÜG (₺)</th></tr><tr><td>Makine ayarlama (ayar)</td><td class=\"n\">100</td><td class=\"n\">900</td><td class=\"n\">90.000</td></tr><tr><td>Kalite kontrol (test)</td><td class=\"n\">250</td><td class=\"n\">600</td><td class=\"n\">150.000</td></tr><tr><td>İş emirleri (iş emri)</td><td class=\"n\">20</td><td class=\"n\">8.250</td><td class=\"n\">165.000</td></tr><tr><td>Makine elleçleme (teslim)</td><td class=\"n\">30</td><td class=\"n\">5.200</td><td class=\"n\">156.000</td></tr><tr><td><strong>Toplam</strong></td><td class=\"n\"></td><td class=\"n\"></td><td class=\"n\"><strong>561.000</strong></td></tr></table><p>100 × 900 + 250 × 600 + 20 × 8.250 + 30 × 5.200 = <strong>561.000 ₺</strong>.</p>",
+    "<p><strong>3. Birim GÜG (FTM).</strong> 561.000 / 1.100 = <strong>510 ₺/br</strong>.</p>",
+    "<p><strong>4. Geleneksel yöntem.</strong> Oran 16.500.000 / 330.000 = 50 ₺/DİS; P 1.100 × 4 = 4.400 DİS × 50 = 220.000 ₺; birim 200 ₺.</p>",
+    "<p><strong>5. Yorum.</strong> Geleneksel yöntem P'ye 561.000 − 220.000 = 341.000 ₺ (birimde 310 ₺) eksik GÜG yükler; P çok sayıda ayar ve iş emri gerektirdiği hâlde az DİS kullanır. Toplam GÜG iki yöntemde aynı olduğundan bu tutar geleneksel yöntemde diğer (yüksek hacimli) mamullere fazladan yüklenmiş olur.</p>"
+   ]
+  }
+ ],
+ "cikmisSorular": [
+  "2026-1-MAL-04",
+  "2026-1-MAL-16"
+ ],
+ "kartlar": [
+  {
+   "on": "FTM'de faaliyet, maliyet havuzu ve maliyet etkeni nedir?",
+   "arka": "Faaliyet: kaynak tüketen iş (makine ayarlama, kalite kontrol). Maliyet havuzu: bir faaliyetin maliyetlerinin toplandığı grup. Maliyet etkeni (sürücüsü): faaliyetin maliyetini doğuran ve mamullerin faaliyeti ne kadar kullandığını ölçen ölçü (ayar sayısı, test sayısı)."
+  },
+  {
+   "on": "FTM'de faaliyet oranı ve mamule yüklenen GÜG nasıl hesaplanır?",
+   "arka": "Faaliyet oranı = Havuzun bütçelenmiş maliyeti ÷ Bütçelenmiş etken miktarı (her havuz kendi etkenine bölünür). Mamule yüklenen GÜG = Σ (oran × mamulün kullandığı etken miktarı)."
+  },
+  {
+   "on": "FTM geleneksel GÜG yüklemesinden nasıl ayrılır?",
+   "arka": "Geleneksel yöntem hacme dayalı anahtar (DİS, makine saati) kullanır; düşük hacimli, karmaşık mamullere eksik, yüksek hacimli standart mamullere fazla GÜG yükler. FTM çok sayıda faaliyet havuzu ve hacme dayalı olmayan etkenler (ayar, iş emri sayısı) kullanır; daha doğru ama daha maliyetlidir."
+  },
+  {
+   "on": "Faaliyet hiyerarşisinin düzeyleri nelerdir?",
+   "arka": "Birim düzeyi (her birimde: makine enerjisi), parti düzeyi (her partide: makine ayarlama, iş emri, elleçleme), mamul destek düzeyi (mamul türü için: tasarım, mühendislik değişikliği), tesis destek düzeyi (fabrika yönetimi, bina amortismanı; mamullere bağlanması güçtür)."
+  }
+ ]
+}
