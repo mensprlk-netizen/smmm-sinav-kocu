@@ -40,7 +40,7 @@
   ],
   "dayanak": "Likidite oranları: Cari oran = Dönen varlıklar / Kısa vadeli yabancı kaynaklar (yıl sonu bilanço değerleri).",
   "tuzaklar": {
-   "A": "0,380 = Ticari alacaklar / KVYK (380.000 / 1.000.000); payda dönen varlıkların tamamı değil yalnız ticari alacaklar alınmış.",
+   "A": "0,380 = Ticari alacaklar / KVYK (380.000 / 1.000.000); pay olarak dönen varlıkların tamamı yerine yalnız ticari alacaklar alınmış.",
    "B": "0,400 likidite (asit-test) oranıdır: (900.000 − 500.000) / 1.000.000. Cari oranda stoklar düşülmez.",
    "D": "1,027 2024 yılının cari oranıdır (750.000 / 730.000); soru 2025'i soruyor.",
    "E": "1,280 2023 yılının cari oranıdır (600.000 / 468.750)."
@@ -58,7 +58,7 @@
   "sonuc": "B",
   "ozet": "Likidite (asit-test) oranı = (Dönen varlıklar − Stoklar) / KVYK = (900.000 − 500.000) / 1.000.000 = 0,400.",
   "adimlar": [
-   "<p><strong>1. Formül.</strong> Likidite oranı (asit-test oranı) = (Dönen varlıklar − Stoklar) / Kısa vadeli yabancı kaynaklar. Stoklar, paraya çevrilmeleri önce satışa ve sonra tahsilata bağlı olduğu için payda dışarıda bırakılır. Bazı kaynaklar paydan peşin ödenmiş giderleri ve diğer dönen varlıkları da düşer; bu bilançoda dönen varlıklar yalnız hazır değerler, ticari alacaklar ve stoklardan oluştuğu için bu fark sonucu etkilemez.</p>",
+   "<p><strong>1. Formül.</strong> Likidite oranı (asit-test oranı) = (Dönen varlıklar − Stoklar) / Kısa vadeli yabancı kaynaklar. Stoklar, paraya çevrilmeleri önce satışa ve sonra tahsilata bağlı olduğu için pay hesabında dışarıda bırakılır. Bazı kaynaklar paydan peşin ödenmiş giderleri ve diğer dönen varlıkları da düşer; bu bilançoda dönen varlıklar yalnız hazır değerler, ticari alacaklar ve stoklardan oluştuğu için bu fark sonucu etkilemez.</p>",
    "<p><strong>2. Hesap (2025).</strong> Pay: 900.000 − 500.000 = 400.000 ₺ (= hazır değerler 20.000 + ticari alacaklar 380.000). Oran: 400.000 / 1.000.000 = <strong>0,400</strong>.</p>",
    "<p><strong>3. Yorum ve sonuç.</strong> Geleneksel ölçüt olarak likidite oranının 1 civarında olması yeterli kabul edilir. 0,40, stoklar satılmadan kısa vadeli borçların ancak %40'ının karşılanabildiğini gösterir; 2023'teki 0,853'ten belirgin bir düşüş vardır. Cevap <strong>B</strong>.</p>"
   ],
@@ -121,7 +121,7 @@
    "A": "31,30 gün brüt satışlarla hesaplanmış: 4.600.000 / 400.000 = 11,5 → 360 / 11,5 = 31,30. Satış indirimleri alacağı azalttığı için net satışlar kullanılır.",
    "C": "36,00 gün doğru formülle çıkmaz; dönem sonu alacakla bile 360 × 380.000 / 4.500.000 = 30,40 gün bulunur.",
    "D": "38,00 gün satışların maliyeti ve dönem sonu alacakla çıkar: 360 × 380.000 / 3.600.000 = 38. İki hata var: pay net satışlar olmalı ve ortalama alacak kullanılmalı.",
-   "E": "40,00 gün payda satışların maliyeti kullanılarak bulunur: 3.600.000 / 400.000 = 9 → 40. Satışların maliyeti stok ve borç devirlerinde kullanılır, alacakta değil."
+   "E": "40,00 gün devir hızının payında net satışlar yerine satışların maliyeti kullanılarak bulunur: 3.600.000 / 400.000 = 9 → 40. Satışların maliyeti stok ve borç devirlerinde kullanılır, alacakta değil."
   },
   "kartlar": [
    {
@@ -223,7 +223,7 @@
    "<p><strong>2. Hangi rakamlar?</strong> Pay: gelir tablosundaki 2024 dönem net kârı 35.450 ₺ (vergi sonrası). Payda: 31 Aralık 2024 aktif toplamı 1.542.000 ₺. Sorudaki ortalama talimatı devir hızları içindir; kârlılık oranında yıl sonu aktif toplamı kullanılır (ortalama aktifle 35.450 / 1.464.375 = %2,42 çıkar, şıklarda yoktur).</p>",
    "<p><strong>3. Hesap.</strong> 35.450 / 1.542.000 = 0,022990 → %2,2990.</p>",
    "<p><strong>4. Yuvarlama ve sonuç.</strong> Kurala göre yuvarlansa %2,30 olurdu; kitapçık ikinci ondalıktan sonrasını atarak (keserek) %2,29 yazmıştır. Aynı hesaba dayanan şık <strong>B</strong>'dir.</p>",
-   "<p><strong>Not.</strong> Bilançodaki “Dönem Net Karı(Zararı)” satırı 2024 için 31.000 ₺, gelir tablosundaki dönem net kârı 35.450 ₺'dir; iki tablo birbiriyle tutarsızdır. Kâr rakamı gelir tablosundan alınır. Bilanço rakamıyla 31.000 / 1.542.000 = %2,01 çıkar; bu hiçbir şıkla tam örtüşmez (en yakını A, %2,00).</p>"
+   "<p><strong>Not.</strong> Bu soruda iki veri tutarsızlığı vardır. (1) Bilançodaki \"Dönem Net Karı(Zararı)\" satırı 2024 için 31.000 ₺, gelir tablosundaki dönem net kârı 35.450 ₺'dir; kâr rakamı gelir tablosundan alınır. Bilanço rakamıyla 31.000 / 1.542.000 = %2,01 çıkar; hiçbir şıkla tam örtüşmez (en yakını A, %2,00). (2) Gelir tablosu da kendi içinde tutarsızdır: Faaliyet kârı − Finansman giderleri = 180.000 − 125.000 = 55.000 ₺ olmalıyken tabloda Dönem kârı 51.000 ₺ yazılıdır. Net kâr buradan yeniden hesaplanırsa 55.000 − 15.550 = 39.450 ₺ ve 39.450 / 1.542.000 = %2,56 bulunur; bu da şıklarda yoktur. Resmi cevap tabloda basılı net kâr satırına (35.450 ₺) dayanır: sınavda basılı ara toplamları yeniden hesaplamadan kullanın.</p>"
   ],
   "dayanak": "Kârlılık oranları: Varlıkların (aktif) kârlılığı = Dönem net kârı / Toplam varlıklar (yıl sonu aktif toplamı).",
   "tuzaklar": {
@@ -378,7 +378,7 @@
   "tuzaklar": {
    "B": "%66,67 = 20.000 / 30.000; oran ters kurulmuş (2023 tutarı 2024 tutarına bölünmüş). Bu değişim yüzdesi değildir.",
    "C": "%80,00 doğru formülle çıkmaz.",
-   "D": "%100,00, 2025 tutarının 2023 tutarına oranıdır (20.000 / 20.000); yıl yanlış ve değişim değil oran hesaplanmış.",
+   "D": "%100,00 doğru formülle çıkmaz; değişim tutarı 10.000 ₺, baz 20.000 ₺, oran %50'dir.",
    "E": "%150,00 = 30.000 / 20.000 × 100; bu trend (eğilim) yüzdesidir, değişim yüzdesi 150 − 100 = %50'dir."
   },
   "kartlar": [
