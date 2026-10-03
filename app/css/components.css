@@ -52,3 +52,8 @@ table.yevmiye td.n { text-align: right; white-space: nowrap; width: 1%; }
 .visual input[type=range] { width: 100%; }
 label.field { display: block; margin-bottom: 10px; } label.field select, label.field input { width: 100%; min-height: 44px; font: inherit; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
 .q-text ul.madde, .opt ul.madde, .solution ul.madde { list-style: none; padding-left: 0; margin: 6px 0; }
+
+td.vurgu { background: color-mix(in srgb, var(--accent) 35%, var(--surface)); font-weight: 600; }
+.vt-node { margin: 6px 0; } .vt-box { display: inline-block; border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; background: var(--surface); }
+.vt-node.olumlu > .vt-box { border-color: var(--ok); } .vt-node.olumsuz > .vt-box { border-color: var(--err); }
+.vt-children { margin-left: 18px; padding-left: 12px; border-left: 2px solid var(--border); }
