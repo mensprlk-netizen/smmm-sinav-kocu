@@ -46,7 +46,7 @@ Sınır notları: 01 ve 03 BDY tanım maddeleri (md. 8, 9) olduğu için “Dene
 | 10 | ok | NFC; kalın kök, altı çizili “yanlıştır” | E (BDS 500 parag. A8) | E | evet |
 | 11 | ok | NFC; kalın kök, altı çizili “yanlıştır”; tırnak “…’’ aynen | A (BDS 200 parag. 6) | A | evet |
 | 12 | ok | NFC; kalın kök; tırnak “…’’ aynen | B (BDS 200 parag. 13(f)) | B | evet |
-| 13 | ok | NFC; kalın kök, altı çizili “yanlıştır” | E (BDY md. 28/1 unvan şartı aramaz) | E | evet |
+| 13 | ok | NFC; kalın kök, altı çizili “yanlıştır” | E (BDY md. 28/1 kıdemli denetçi veya başdenetçi unvanına sahip olmayı aramaz; tecrübenin en az 3/2 yılı fiilen denetçi, kıdemli denetçi veya başdenetçi unvanıyla geçmeli) | E | evet |
 | 14 | ok | NFC; kalın kök; şıklar tek satır | C (BDY md. 15/1: 3 yıl) | C | evet |
 | 15 | ok | NFC; kalın kök, altı çizili “yanlıştır” | D (BDY md. 26/1-b “bağımsızlığı zedeleyecek”; “görünürde tarafsızlık” yok) | D | evet |
 | 16 | ok | NFC; kalın kök, altı çizili “değildir” | D (BDY md. 29/1-i) | D | evet |
@@ -90,14 +90,27 @@ Kesin = hüküm metni bu çalışmada indirilen birincil metinde görülerek yaz
 
 - **Bağımsız Denetim Yönetmeliği** md. 4/1-l (KAYİK), 4/1-t (TDS), 4/1-u (TMS), 8/1–8/2, 9/1, 11/2, 11/3, 12, 13/1-e, 13/1-ğ, 13/1-ı, 13/6, 14/3 (a–ğ bentleri), 15/1–15/4, 21/1–21/2, 22/1, 22/3 (a–ç), 22/5, 23/1–23/3, 24/1–24/2, 26/1 (a–e), 26/2, 27/5, 28/1 (a–c), 29/1 (a–i), 29/3, 29/4 — kesin (mevzuat.gov.tr konsolide metni).
 - **KYS 1** parag. 6 (sekiz unsur), 20(a)–(c), 21 — kesin (KGK TDS_2024_Seti).
-- **BDS 200** parag. 6, 13(b), 13(c), 13(e), 13(f), 13(g), 13(h)(i)–(ii), 13(i), A30, A31, A35, A47, A48, A49 — kesin (KGK TDS_2024_Seti, KYS değişiklikleri işlenmiş metin; A-paragraf numaraları bu sürüme göredir).
+- **KYS 2** parag. 9 (kaliteyi gözden geçiren kişi denetim ekibinin üyesi değildir), 13(a)–(b) — kesin (KGK TDS_2024_Seti, “KYS_2_600_degisiklikleri”; düzeltme turu 1’de indirildi).
+- **BDS 200** parag. 6, 13(b), 13(c), 13(e), 13(f), 13(g), 13(h)(i)–(ii), 13(i), A30, A31, A32, A35, A39, A47, A48, A49 — kesin (KGK TDS_2024_Seti, KYS değişiklikleri işlenmiş metin; A-paragraf numaraları bu sürüme göredir).
 - **BDS 500** parag. 5(ç), A5, A8, A9 — kesin (KGK TDS_2021_Seti).
-- **BDS 210** parag. 6(b)(i)–(iii), 7, 8 — kesin (KGK TDS_2021_Seti; yürürlük 1/1/2018 ve sonrası dönemler).
+- **BDS 210** parag. 6(b)(i)–(iii), 7, 8, 19 — kesin (KGK TDS_2021_Seti; yürürlük 1/1/2018 ve sonrası dönemler).
 - Paragraf numarası olmadan, yalnız standart adıyla anılanlar (metin bu çalışmada indirilmedi; kural genel ve iyi bilinen niteliktedir):
   - BDS 315: denetlenen işletmenin iç kontrol sisteminin “önemli yanlışlık” risklerinin belirlenmesinde anlaşılması (05) — güven: yüksek.
   - BDS 220 (Revize): sorumlu denetçinin yürüttüğü denetimin kalitesinden sorumluluğu (09-B) — güven: yüksek.
-  - BDS 265: iç kontroldeki eksikliklerin denetçi tarafından yönetime ve üst yönetimden sorumlu olanlara bildirilmesi (20) — güven: yüksek.
+  - BDS 265: denetçinin tespit ettiği önemli eksiklikleri yazılı olarak üst yönetimden sorumlu olanlara ve yönetime, yönetimin dikkatini gerektiren diğer eksiklikleri yönetime bildirmesi (20) — güven: yüksek.
   - BDS 320: önemliliğin ayrıntılı düzenlendiği standart (11; kural BDS 200 parag. 6’dan verildi) — güven: yüksek.
   - BDS 330: müteakip prosedürlerin değerlendirilen risklere karşılık verecek şekilde tasarlanması (19-A) — güven: yüksek.
   - TTK md. 397/4 ve 399/4: yalnız BDY md. 29/1-a ve 29/4’ün atıf yaptığı hükümler olarak anıldı; içerikleri ayrıca açıklanmadı.
-- Ders kitabı modeli “Denetim riski = Yapısal risk × Kontrol riski × Tespit edememe riski” (18, 3. adım) standart hükmü olarak değil, öğretim modeli olarak verildi ve BDS 200 parag. A35’in risk değerlendirmesinin kesin ölçüm konusu olmadığı ifadesiyle birlikte sunuldu.
+- Ders kitabı modeli “Denetim riski = Yapısal risk × Kontrol riski × Tespit edememe riski” (18, 3. adım) öğretim modeli olarak verildi; BDS 200 parag. A39’un denetçinin bileşenler arası ilişkiyi matematiksel terimlerle ifade eden bir model kullanabileceği hükmü ve parag. A35’in risk değerlendirmesinin kesin ölçüm konusu olmadığı ifadesiyle birlikte sunuldu.
+
+## Düzeltme turu 1 (bağımsız inceleme sonrası)
+
+- 13 `adimlar[1]` son cümlesi ve `ozet`: “unvan şartı yoktur” genellemesi düzeltildi. Kıdemli denetçi veya başdenetçi unvanına sahip olma şartı yoktur; ancak mesleki tecrübenin en az 3 (KAYİK) / 2 (diğer) yılı fiilen denetçi, kıdemli denetçi veya başdenetçi unvanıyla denetimde geçmelidir (BDY md. 28/1-a, -b). Kartlar kontrol edildi; aynı genelleme yok.
+- 09 `tuzaklar.C`: “denetim sürecinde görev almayan” denetçinin KYS 2’deki kaliteyi gözden geçiren kişiyi çağrıştırdığı, bu kişinin denetim ekibi üyesi olmadığı (KYS 2 parag. 9) ve tek bir denetimi değerlendirdiği (parag. 13(a)-(b)), sistemin nihai sorumlusu olmadığı yazıldı. KYS 2 metni indirilerek doğrulandı.
+- 06 `tuzaklar.E`: “Gizlilik” ve “mesleki davranış”ın Bağımsız Denetçiler İçin Etik Kurallar’daki adlar olduğu (E’nin tanıdık gelme sebebi) eklendi; mevcut açıklama korundu.
+- 12 `tuzaklar.A` (“başına” → “sonuna … denetçinin yargısıdır”) ve `tuzaklar.E` (“sorgulayıcı” yerine “bağımsız ve tarafsız” yazılmış) ifadeleri düzeltildi.
+- 07 `kartlar[1].arka`: “olağan dışı” → metindeki “olağan ekonomik ilişkiler dışında borç veya alacak ilişkisi”.
+- 20 `adimlar[1]` ve `kartlar[1].arka`: BDS 265 kapsamı daraltıldı: önemli eksiklikler yazılı olarak üst yönetimden sorumlu olanlara ve yönetime; yönetimin dikkatini gerektiren diğer eksiklikler yönetime.
+- 17 `adimlar[1]`: BDS 210 parag. 8 özeti düzeltildi: denetçi önce yönetimle müzakere eder; ön şart kabul edilebilir bir çerçevenin <em>kullanılması</em>dır; 8(a)’daki parag. 19 istisnası (mevzuatla belirlenen çerçeve) eklendi. Parag. 19 metinde görüldü.
+- 10 `dayanak`: BDS 200 parag. A32 eklendi (E’nin ilk cümlesi bu paragrafın ifadesini izler; metinde görüldü).
+- 18 `adimlar[2]` ve `dayanak`: matematiksel risk modeli için BDS 200 parag. A39 eklendi (metinde görüldü).

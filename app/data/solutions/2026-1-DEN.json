@@ -152,7 +152,7 @@
    "B": "Bağımsızlık md. 21’deki etik ilkeler arasında sayılmaz (md. 22’de ayrıca düzenlenir); ayrıca “dürüstlük” düşmüş ve “mesleki yeterlik ve özen” yalnız “mesleki özen” olarak eksik verilmiş.",
    "C": "Mesleki muhakeme bir etik ilke değil, BDS 200’de tanımlanan bir denetim kavramıdır; “mesleki yeterlik ve özen” düşmüş.",
    "D": "“Mesleki yeterlik ve özen” yalnız “mesleki yeterlik” olarak eksik verilmiş; “mesleğe uygun davranış” yerine etik ilke olmayan mesleki muhakeme yazılmış.",
-   "E": "“Mesleki özen ve titizlik” ve “mesleğe olan güven” BDY md. 21’deki adlar değildir; yönetmelik “mesleki yeterlik ve özen”, “sır saklama” ve “mesleğe uygun davranış” der."
+   "E": "“Mesleki özen ve titizlik” ve “mesleğe olan güven” BDY md. 21’deki adlar değildir; yönetmelik “mesleki yeterlik ve özen”, “sır saklama” ve “mesleğe uygun davranış” der. E’nin tanıdık gelmesinin sebebi: “Gizlilik” (ve “mesleki davranış”) KGK’nın Bağımsız Denetçiler İçin Etik Kurallar’ında kullanılan adlardır; soru ise BDY md. 21’deki adları sorar."
   },
   "kartlar": [
    {
@@ -189,7 +189,7 @@
    },
    {
     "on": "BDY md. 22/3’te sayılan bağımsızlığı zedeleyen durumlar?",
-    "arka": "a) Denetlenenle menfaat, ortaklık, kilit yönetici sıfatıyla iş, olağan dışı borç veya alacak ilişkisi; b) geçmiş yıllar ücretinin geçerli neden olmadan ödenmemesi; c) ücretin sonuçlara bağlanması, kaliteye dair belirsizlik yaratması veya denetim dışı hizmetlere göre belirlenmesi; ç) bağımsızlığı zedeleyen diğer haller."
+    "arka": "a) Denetlenenle menfaat, ortaklık, kilit yönetici sıfatıyla iş, olağan ekonomik ilişkiler dışında borç veya alacak ilişkisi; b) geçmiş yıllar ücretinin geçerli neden olmadan ödenmemesi; c) ücretin sonuçlara bağlanması, kaliteye dair belirsizlik yaratması veya denetim dışı hizmetlere göre belirlenmesi; ç) bağımsızlığı zedeleyen diğer haller."
    }
   ],
   "konuBaglantisi": "Etik ilkeler ve bağımsızlık"
@@ -231,7 +231,7 @@
   "tuzaklar": {
    "A": "Standart bir kişi olarak yönetim kurulu başkanını değil, en üst yöneticiyi (icra kurulu başkanı ya da yönetici ortak) veya -uygun hâllerde- yönetim kurulunun kendisini sayar.",
    "B": "Sorumlu denetçi, yürüttüğü denetimin kalitesinden sorumludur (BDS 220 (Revize)); şirketin kalite yönetim sisteminin nihai sorumlusu değildir.",
-   "C": "KYS 1’de nihai sorumluluğun denetimde görev almayan bir sorumlu denetçiye verilmesi diye bir düzenleme yoktur.",
+   "C": "“Denetim sürecinde görev almayan” denetçi tarifi, KYS 2’deki <em>kaliteyi gözden geçiren kişi</em>yi çağrıştırır: bu kişi denetim ekibinin üyesi değildir (KYS 2 parag. 9) ve tek bir denetimde ekibin önemli muhakemelerini ve ulaştığı sonuçları tarafsız şekilde değerlendirir (parag. 13(a)-(b)). Görevi o denetimle sınırlıdır; kalite yönetim sisteminin nihai sorumlusu değildir (nihai sorumluluk KYS 1 parag. 20(a)’daki kişilere verilir).",
    "E": "KYS 1 “kalite yönetim kurulu” diye bir organ öngörmez."
   },
   "kartlar": [
@@ -256,7 +256,7 @@
    "<p><strong>3. E’nin iki hatası.</strong> Risk ile ihtiyaç duyulan kanıt miktarı <strong>aynı yönde</strong> hareket eder (risk yüksekse daha çok kanıt). Miktar, kalitenin yerini tutmaz: zayıf kanıtı çoğaltmak onu güçlendirmeyebilir. Yanlış ifade: <strong>E</strong>.</p>",
    "<p><strong>4. Bağlantı.</strong> Aynı mantık BDS 200 parag. A47’de de vardır: “önemli yanlışlık” riskleri ne kadar yüksekse kabul edilebilir tespit edememe riski o kadar düşük olur ve ihtiyaç duyulan ikna edici kanıt artar.</p>"
   ],
-  "dayanak": "BDS 500, parag. 5(ç), A5 ve A8 (denetim kanıtının yeterliliği); BDS 200, parag. A31 ve A47; Bağımsız Denetim Yönetmeliği md. 9/1.",
+  "dayanak": "BDS 500, parag. 5(ç), A5 ve A8 (denetim kanıtının yeterliliği); BDS 200, parag. A31, A32 (E’nin ilk cümlesi bu paragrafın ifadesini izler) ve A47; Bağımsız Denetim Yönetmeliği md. 9/1.",
   "tuzaklar": {
    "A": "Doğru ifadedir: BDS 500 parag. 5(ç) ve A8.",
    "B": "Doğru ifadedir: BDS 200 parag. A31 ve BDS 500 parag. A5.",
@@ -315,10 +315,10 @@
   ],
   "dayanak": "BDS 200, parag. 13(e), 13(f), 13(g) (makul güvence, mesleki muhakeme, mesleki şüphecilik tanımları) ve parag. A30.",
   "tuzaklar": {
-   "A": "Yüksek ancak mutlak olmayan güvence seviyesi, makul güvencenin tanımıdır (BDS 200 parag. 13(e)); başına “denetçinin yargısı” eklenerek muhakemeye bağlanmıştır.",
+   "A": "Yüksek ancak mutlak olmayan güvence seviyesi, makul güvencenin tanımıdır (BDS 200 parag. 13(e)); sonuna “denetçinin yargısıdır” eklenerek muhakemeye bağlanmıştır.",
    "C": "Bu, mesleki şüpheciliğin tanımıdır (parag. 13(g)): sorgulayıcı yaklaşım ve tutum.",
    "D": "Tersini söyler: mesleki muhakeme, durum ve gerçeklerle veya yeterli ve uygun kanıtla desteklenmeyen kararların gerekçesi olarak kullanılamaz (parag. A30).",
-   "E": "Mesleki şüphecilik tanımına “bağımsız ve tarafsız” ibaresi eklenmiş ve “tutum” yerine “yargı” denmiş; muhakemenin tanımı değildir."
+   "E": "Mesleki şüphecilik tanımında “sorgulayıcı” yerine “bağımsız ve tarafsız” yazılmış ve “tutum” yerine “yargı” denmiş; muhakemenin tanımı değildir."
   },
   "kartlar": [
    {
@@ -335,10 +335,10 @@
  {
   "id": "2026-1-DEN-13",
   "sonuc": "E",
-  "ozet": "BDY md. 28 sorumlu denetçi için belirli bir unvan aramaz; deneyimin “denetçi, kıdemli denetçi veya başdenetçi unvanı ile” denetimlerde geçmesi yeterlidir. Bu nedenle E yanlıştır.",
+  "ozet": "BDY md. 28 sorumlu denetçi için kıdemli denetçi veya başdenetçi unvanına sahip olmayı şart koşmaz; aranan, mesleki tecrübenin belirli bir kısmının (KAYİK’te en az 3, diğerlerinde en az 2 yıl) fiilen “denetçi, kıdemli denetçi veya başdenetçi unvanı ile” denetimlerde geçmiş olmasıdır. Bu nedenle E yanlıştır.",
   "adimlar": [
    "<p><strong>1. Kural (BDY md. 28/1).</strong> Sorumlu denetçiler, denetim raporunu denetimi üstlenenler adına imzalama yetkisini haizdir ve aşağıdaki şartları sağlayan denetçiler arasından <strong>KGK’nın onayı alınmak suretiyle</strong> görevlendirilir: (a) KAYİK denetimleri için <strong>15 yıllık</strong> mesleki tecrübe ve bunun en az <strong>3 yılında</strong> fiilen denetçi, kıdemli denetçi veya başdenetçi unvanıyla mevzuatta denetim öngörülen alanlarda denetim; (b) diğer denetimler için <strong>10 yıllık</strong> mesleki tecrübe ve bunun en az <strong>2 yılında</strong> fiilen denetçi, kıdemli denetçi veya başdenetçi unvanıyla denetim; (c) yönetim organınca veya denetim üstlenen bağımsız denetçice rapor imzalamaya yetkilendirilmiş olma.</p>",
-   "<p><strong>2. Unvanlar (BDY md. 27/5).</strong> Denetim kuruluşları denetçilere denetçi, kıdemli denetçi ve başdenetçi unvanları <em>verebilir</em>; denetçilikte altı yılını doldurmayana kıdemli denetçi, on yılını doldurmayana başdenetçi unvanı verilemez. Sorumlu denetçilik için bu unvanlardan birine sahip olma şartı yoktur.</p>",
+   "<p><strong>2. Unvanlar (BDY md. 27/5).</strong> Denetim kuruluşları denetçilere denetçi, kıdemli denetçi ve başdenetçi unvanları <em>verebilir</em>; denetçilikte altı yılını doldurmayana kıdemli denetçi, on yılını doldurmayana başdenetçi unvanı verilemez. Sorumlu denetçilik için kıdemli denetçi veya başdenetçi unvanına sahip olma şartı yoktur; aranan, mesleki tecrübenin en az 3 (KAYİK) / 2 (diğer) yılının fiilen denetçi, kıdemli denetçi veya başdenetçi unvanıyla denetimde geçirilmiş olmasıdır.</p>",
    "<p><strong>3. Sonuç.</strong> A, B, C ve D md. 28/1’in hükümleridir; E’deki “en az kıdemli denetçi veya başdenetçi olmak” şartı yönetmelikte yoktur: <strong>E</strong>.</p>"
   ],
   "dayanak": "Bağımsız Denetim Yönetmeliği md. 28 (sorumlu denetçi olabilme şartları), md. 27/5 (unvanlar).",
@@ -446,7 +446,7 @@
   "ozet": "BDS 210 parag. 7’ye göre kabulden önce önerilen kapsam sınırlaması görüş vermekten kaçınmayı gerektirecekse denetçi, mevzuatla aksi zorunlu kılınmadıkça bu sözleşmeyi bağımsız denetim sözleşmesi olarak kabul etmez.",
   "adimlar": [
    "<p><strong>1. Kural (BDS 210, parag. 7).</strong> “Yönetimin veya üst yönetimden sorumlu olanların sözleşmede denetçinin yapacağı çalışmanın kapsamını sınırlandıracak şartlar teklif etmesi ve bu sınırlandırmanın finansal tablolar hakkında görüş vermekten kaçınmasını gerektireceğine inanması hâlinde denetçi, <strong>mevzuatla aksi zorunlu kılınmadıkça</strong>, kapsamı sınırlandırılan bu sözleşmeyi bir bağımsız denetim sözleşmesi olarak <strong>kabul etmez</strong>.”</p>",
-   "<p><strong>2. Mantık.</strong> Baştan görüş verilemeyeceği bilinen bir işi “denetim” diye kabul etmek anlamsızdır. Benzer şekilde denetimin ön şartları (kabul edilebilir finansal raporlama çerçevesi ve yönetimin sorumluluklarını kabulü) mevcut değilse de denetçi, mevzuat aksini zorunlu kılmadıkça teklifi kabul etmez (BDS 210, parag. 8).</p>",
+   "<p><strong>2. Mantık.</strong> Baştan görüş verilemeyeceği bilinen bir işi “denetim” diye kabul etmek anlamsızdır. Benzer şekilde denetimin ön şartları (finansal tabloların hazırlanmasında kabul edilebilir bir finansal raporlama çerçevesinin <em>kullanılması</em> ve yönetimin sorumluluklarını kabul etmesi) mevcut değilse denetçi önce bu konuyu yönetimle <strong>müzakere eder</strong>; mevzuatta aksi zorunlu kılınmadıkça, kullanılan çerçevenin kabul edilebilir olmadığına karar verirse (parag. 19’daki, mevzuatla belirlenen çerçeveye ilişkin durum hariç) veya parag. 6(b)’deki mutabakat alınamazsa teklifi kabul etmez (BDS 210, parag. 8).</p>",
    "<p><strong>3. Sonuç.</strong> <strong>A</strong>.</p>"
   ],
   "dayanak": "BDS 210 (Bağımsız Denetim Sözleşmesinin Şartları Üzerinde Anlaşmaya Varılması), parag. 7 ve 8.",
@@ -471,9 +471,9 @@
   "adimlar": [
    "<p><strong>1. Risk tanımları (BDS 200, parag. 13).</strong> <strong>Denetim riski</strong> (13(c)): finansal tablolar önemli yanlışlık içerdiği hâlde denetçinin duruma uygun olmayan görüş vermesi riski; “önemli yanlışlık” riski ile tespit edememe riskinin bir fonksiyonudur. <strong>“Önemli yanlışlık” riski</strong> (13(h)): finansal tabloların denetim öncesinde önemli yanlışlık içermesi riski; yönetim beyanı düzeyinde iki bileşeni vardır: <strong>yapısal risk</strong> (ilgili kontrol dikkate alınmadan önce yanlışlığa açıklık) ve <strong>kontrol riski</strong> (yanlışlığın işletmenin kontrolleri tarafından zamanında önlenememesi veya tespit edilip düzeltilememesi). <strong>Tespit edememe riski</strong> (13(i)): denetçinin prosedürlerine rağmen mevcut önemli yanlışlığın tespit edilememesi riski.</p>",
    "<p><strong>2. Eşleştirme.</strong> Kök, kontrollerin yanlışlığı önleyememesi veya tespit edip düzeltememesinden söz ediyor: <strong>kontrol riski</strong>, <strong>D</strong>.</p>",
-   "<p><strong>3. Model.</strong> Ders kitaplarında ilişki Denetim riski = Yapısal risk × Kontrol riski × Tespit edememe riski diye gösterilir. BDS 200 ise denetim riskini “önemli yanlışlık” riski ile tespit edememe riskinin bir fonksiyonu olarak tanımlar ve risk değerlendirmesinin kesin ölçüm konusu değil, mesleki muhakeme konusu olduğunu belirtir (parag. A35). Yapısal ve kontrol riski işletmeye aittir; denetçi yalnız tespit edememe riskini prosedürleriyle etkileyebilir.</p>"
+   "<p><strong>3. Model.</strong> Ders kitaplarında ilişki Denetim riski = Yapısal risk × Kontrol riski × Tespit edememe riski diye gösterilir; BDS 200 parag. A39 da denetçinin, kabul edilebilir tespit edememe riski düzeyine ulaşmak için risk bileşenlerinin genel ilişkisini matematiksel terimlerle ifade eden bir model kullanabileceğini belirtir. Bununla birlikte BDS 200 denetim riskini “önemli yanlışlık” riski ile tespit edememe riskinin bir fonksiyonu olarak tanımlar ve risk değerlendirmesinin kesin ölçüm konusu değil, mesleki muhakeme konusu olduğunu belirtir (parag. A35). Yapısal ve kontrol riski işletmeye aittir; denetçi yalnız tespit edememe riskini prosedürleriyle etkileyebilir.</p>"
   ],
-  "dayanak": "BDS 200, parag. 13(c), 13(h)(i)-(ii), 13(i) (denetim riski, yapısal risk, kontrol riski, tespit edememe riski) ve parag. A35.",
+  "dayanak": "BDS 200, parag. 13(c), 13(h)(i)-(ii), 13(i) (denetim riski, yapısal risk, kontrol riski, tespit edememe riski), parag. A35 ve A39.",
   "tuzaklar": {
    "A": "Yapısal risk, kontroller dikkate alınmadan önceki yanlışlığa açıklıktır; kökte ise kontrollerin başarısızlığı anlatılıyor.",
    "B": "Denetim riski, denetçinin yanlış görüş verme riskidir; kontrol riskini de içine alan üst kavramdır.",
@@ -527,7 +527,7 @@
   "ozet": "BDS 210 parag. 6(b)’ye göre yönetim üç sorumluluğu kabul eder: finansal tabloların hazırlanması, hata veya hile kaynaklı önemli yanlışlık içermeyen tablolar için gerekli iç kontrol ve denetçiye bilgi, ek bilgi ve kişilere erişim sağlanması. Kontrol eksikliklerini yönetime raporlamak denetçinin işidir.",
   "adimlar": [
    "<p><strong>1. Yönetimin ön kabulleri (BDS 210, parag. 6(b)).</strong> (i) Gerekli hâllerde gerçeğe uygun sunum dâhil, finansal tabloların geçerli finansal raporlama çerçevesine uygun hazırlanması sorumluluğu; (ii) <strong>hata veya hile kaynaklı</strong> önemli yanlışlık içermeyen finansal tabloların hazırlanması için yönetimin gerekli gördüğü <strong>iç kontrole ilişkin sorumluluk</strong>; (iii) denetçiye: (a) muttali olduğu tüm bilgilere erişim, (b) talep edebileceği ilave bilgiler, (c) gerekli gördüğü kişilerle kısıtlamasız görüşme imkânı sağlama sorumluluğu.</p>",
-   "<p><strong>2. C’nin hatası.</strong> C, yönetimin (ii)’deki iç kontrol sorumluluğunu denetçinin bir görevine bağlamıştır. Denetimde tespit edilen iç kontrol eksikliklerinin yönetime ve üst yönetimden sorumlu olanlara bildirilmesi <strong>denetçinin</strong> sorumluluğudur (BDS 265); yönetimin ön kabul sorumluluğu değildir. Ayrıca (ii) yalnız hileyi değil, hata veya hile kaynaklı yanlışlıkları kapsar.</p>",
+   "<p><strong>2. C’nin hatası.</strong> C, yönetimin (ii)’deki iç kontrol sorumluluğunu denetçinin bir görevine bağlamıştır. Denetimde tespit edilen önemli eksiklikleri (ve yönetimin dikkatini gerektiren diğer eksiklikleri) bildirmek <strong>denetçinin</strong> sorumluluğudur: önemli eksiklikler yazılı olarak üst yönetimden sorumlu olanlara ve yönetime, yönetimin dikkatini gerektiren diğer eksiklikler yönetime bildirilir (BDS 265). Bu, yönetimin ön kabul sorumluluğu değildir. Ayrıca (ii) yalnız hileyi değil, hata veya hile kaynaklı yanlışlıkları kapsar.</p>",
    "<p><strong>3. Sonuç.</strong> <strong>C</strong>. (Bu mutabakat alınamazsa denetçi, mevzuat aksini zorunlu kılmadıkça teklifi kabul etmez: BDS 210 parag. 8.)</p>"
   ],
   "dayanak": "BDS 210, parag. 6(b) (yönetimin sorumluluklarına ilişkin mutabakat) ve parag. 8; BDS 265 (iç kontroldeki eksikliklerin bildirilmesi).",
@@ -544,7 +544,7 @@
    },
    {
     "on": "İç kontrol eksikliklerini yönetime kim bildirir?",
-    "arka": "Denetçi (BDS 265). Bu yönetimin ön kabul sorumluluğu değildir."
+    "arka": "Denetçi (BDS 265): tespit ettiği önemli eksiklikleri (ve yönetimin dikkatini gerektiren diğer eksiklikleri) bildirir; önemli eksiklikler yazılı olarak üst yönetimden sorumlu olanlara ve yönetime iletilir. Bu, yönetimin ön kabul sorumluluğu değildir."
    }
   ],
   "konuBaglantisi": "Denetim sözleşmesi ve ön şartlar"
