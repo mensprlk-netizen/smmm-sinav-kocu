@@ -1,0 +1,542 @@
+[
+ {
+  "id": "2026-2-FTA-01",
+  "sonuc": "B",
+  "ozet": "Eğilim (trend) yüzdesi = Cari yıl tutarı / Baz yıl tutarı × 100 = 113.400 / 140.000 × 100 = 81,00.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> Trend (eğilim yüzdeleri) analizinde baz yılın tutarı 100 kabul edilir; her yılın tutarı baz yıl tutarına bölünüp 100 ile çarpılır: Eğilim yüzdesi = Cari yıl tutarı / Baz yıl tutarı × 100. Sonuç bir endekstir: 100'ün üzeri baz yıla göre artışı, altı azalışı gösterir. Değişim yüzdesi değildir.</p>",
+   "<p><strong>2. Veriler.</strong> Baz yıl 2022 (soru böyle belirliyor): stoklar 140.000 ₺ = 100. 31 Aralık 2024 stokları 113.400 ₺.</p>",
+   "<p><strong>3. Hesap.</strong> 113.400 / 140.000 = 0,81 → 0,81 × 100 = <strong>81,00</strong>.</p>",
+   "<p><strong>4. Yorum ve sonuç.</strong> Stoklar 2024 sonunda baz yılın %81'i düzeyindedir, yani 2022'ye göre %19 azalmıştır. Serinin tamamı (2022 = 100): 100 / 90,00 / 81,00 / 129,60. Cevap <strong>B</strong>.</p>"
+  ],
+  "dayanak": "Eğilim yüzdeleri (trend) analizi: Eğilim yüzdesi = Cari yıl tutarı / Baz yıl tutarı × 100.",
+  "tuzaklar": {
+   "A": "−19,00 baz yıla göre değişim oranıdır (81 − 100); trend yüzdesi ise endeks değeri olan 81'dir.",
+   "C": "90,00 stokların 2023 trend yüzdesidir (126.000 / 140.000 × 100). 2024 tutarı bir önceki yıla bölünürse de (113.400 / 126.000) 90 çıkar; baz yıl 2022'dir.",
+   "D": "129,60 stokların 2025 trend yüzdesidir (181.440 / 140.000 × 100); soru 31 Aralık 2024'ü soruyor.",
+   "E": "160,00, 2025 stokunun 2024 stokuna oranıdır (181.440 / 113.400 × 100); hem yıl hem baz yanlış."
+  },
+  "kartlar": [
+   {
+    "on": "Eğilim (trend) yüzdesi = ?",
+    "arka": "Cari yıl tutarı / Baz yıl tutarı × 100. Baz yıl = 100; sonuç endekstir (81 = baz yıla göre %19 azalış)."
+   },
+   {
+    "on": "Trend yüzdesi ile değişim yüzdesi arasındaki ilişki?",
+    "arka": "Değişim yüzdesi = Trend yüzdesi − 100 (baz yıla göre). Trend 81 ise değişim −%19'dur."
+   }
+  ],
+  "konuBaglantisi": "Trend analizi"
+ },
+ {
+  "id": "2026-2-FTA-02",
+  "sonuc": "D",
+  "ozet": "Baz yıl 2023 = 100; 2025 net satışlarının trend yüzdesi = 396.060 / 322.000 × 100 = 123,00.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> Eğilim yüzdesi = Cari yıl tutarı / Baz yıl tutarı × 100. Soru baz yılı 2023 olarak belirlemiştir; tablonun ilk yılı (2022) baz alınmaz.</p>",
+   "<p><strong>2. Veriler.</strong> Net satışlar 31 Aralık 2023 (baz): 322.000 ₺; 31 Aralık 2025: 396.060 ₺.</p>",
+   "<p><strong>3. Hesap.</strong> 396.060 / 322.000 = 1,23 → 1,23 × 100 = <strong>123,00</strong>.</p>",
+   "<p><strong>4. Yorum ve sonuç.</strong> Net satışlar 2025'te 2023'e göre %23 artmıştır. 2023 bazlı seri: 2023 = 100; 2024 = 109,00 (350.980 / 322.000); 2025 = 123,00. Cevap <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Eğilim yüzdeleri (trend) analizi: Eğilim yüzdesi = Cari yıl tutarı / Baz yıl tutarı × 100; baz yıl soruda belirtilmişse o yıl kullanılır.",
+  "tuzaklar": {
+   "A": "23,00 baz yıla göre artış oranıdır (123 − 100); trend yüzdesi endeks değeri olan 123'tür.",
+   "B": "109,00, 2024 net satışlarının 2023 bazlı trend yüzdesidir (350.980 / 322.000); soru 2025'i soruyor.",
+   "C": "112,84, 2025 net satışlarının 2024'e oranıdır (396.060 / 350.980); baz yıl 2023 olmalıdır.",
+   "E": "141,45 baz yıl 2022 alınarak bulunur (396.060 / 280.000); soru baz yılı 2023 olarak vermiştir."
+  },
+  "kartlar": [
+   {
+    "on": "Trend analizinde baz yıl soruda belirtilmişse?",
+    "arka": "Tablonun ilk yılı değil, belirtilen yıl 100 alınır; diğer yılların tutarı bu yılın tutarına bölünür × 100."
+   }
+  ],
+  "konuBaglantisi": "Trend analizi"
+ },
+ {
+  "id": "2026-2-FTA-03",
+  "sonuc": "D",
+  "ozet": "Altı aylık dönem 180 gün: hedef devir hızı 180 / 36 = 5 → ortalama ticari borç 190.000 / 5 = 38.000 → (34.000 + X) / 2 = 38.000 → X = 42.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Formül.</strong> Ticari borç devir hızı = Satışların maliyeti / Ortalama ticari borç; Ortalama borç ödeme süresi = Dönemin gün sayısı / Ticari borç devir hızı. Payda ideal olarak (kredili) alışlar kullanılır; soruda alış tutarı verilmediği için yaygın uygulamada olduğu gibi satışların maliyeti kullanılır. Talimat gereği ortalama borç (dönem başı + dönem sonu) / 2 alınır.</p>",
+   "<p><strong>2. Dönemin uzunluğu.</strong> 190.000 ₺, 1 Ocak – 30 Haziran 2026 arasındaki altı aylık satışların maliyetidir (31 Aralık 2025 bakiyesi bu dönemin başlangıcıdır). Talimat “ay bazında hesaplamalarda 30 gün ve katlarını” kullanmayı istediği için dönem 6 × 30 = <strong>180 gün</strong>dür. 360 gün yalnız yıllık tutarlarla kullanılır.</p>",
+   "<p><strong>3. Hedef devir hızı ve ortalama borç.</strong> Ödeme süresi 36 gün olacaksa altı aylık devir hızı 180 / 36 = 5 olmalıdır. Ortalama ticari borç = 190.000 / 5 = <strong>38.000 ₺</strong>.</p>",
+   "<p><strong>4. Dönem sonu borç.</strong> Dönem başı borç 34.000 ₺ (31 Aralık 2025): (34.000 + X) / 2 = 38.000 → X = 76.000 − 34.000 = <strong>42.000 ₺</strong>.</p>",
+   "<p><strong>5. Sağlama ve sonuç.</strong> Ortalama borç (34.000 + 42.000) / 2 = 38.000; 190.000 / 38.000 = 5; 180 / 5 = 36 gün ✓. Yıllıklandırarak da aynı sonuç çıkar: yıllık satışların maliyeti 190.000 × 2 = 380.000; 380.000 / 38.000 = 10; 360 / 10 = 36 gün. Cevap <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Faaliyet (devir hızı) oranları: Ticari borç devir hızı = Satışların maliyeti (alışlar) / Ortalama ticari borç; Borç ödeme süresi = Dönemin gün sayısı / Devir hızı (ara dönemde ay × 30 gün).",
+  "tuzaklar": {
+   "A": "4.000, altı aylık 190.000 ₺ yıllık tutar sayılıp 360 günle çalışıldığında çıkar: ortalama borç 190.000 × 36 / 360 = 19.000 → 2 × 19.000 − 34.000 = 4.000. Dönem altı aydır; ya 180 gün kullanılmalı ya da maliyet yıllıklandırılmalıdır.",
+   "B": "19.000 hem dönem uzunluğu hatasını (A'daki gibi) içerir hem de dönem sonu değil ortalama borçtur.",
+   "C": "38.000 hedefi sağlayan <em>ortalama</em> ticari borçtur; soru 30 Haziran 2026'daki dönem sonu borç tutarını soruyor: 2 × 38.000 − 34.000 = 42.000.",
+   "E": "118.000 ortalama borcun 76.000 bulunmasından çıkar (2 × 76.000 − 34.000); 76.000 = 190.000 × 36 / 90, yani dönem 90 gün sayılmıştır. Dönem altı ay = 180 gündür."
+  },
+  "kartlar": [
+   {
+    "on": "Ara dönemde (ör. 6 ay) devir süresi nasıl hesaplanır?",
+    "arka": "Gün sayısı = ay × 30 (6 ay = 180). Süre = 180 / (Dönem tutarı / Ortalama bakiye). Ya da dönem tutarını yıllıklandırıp 360 günle hesapla; sonuç aynıdır."
+   },
+   {
+    "on": "Hedef süreden dönem sonu bakiye nasıl bulunur?",
+    "arka": "Ortalama bakiye = Dönem tutarı × Hedef süre / Dönem gün sayısı; Dönem sonu = 2 × Ortalama − Dönem başı."
+   }
+  ],
+  "konuBaglantisi": "Faaliyet oranları"
+ },
+ {
+  "id": "2026-2-FTA-04",
+  "sonuc": "D",
+  "ozet": "Pasif = 100: KVYK oranı = 100 − 60 = 40; kaldıraç = KVYK + UVYK = 40 + 10 = %50 (öz kaynak oranı 60 − 10 = 50 → 100 − 50 = 50).",
+  "adimlar": [
+   "<p><strong>1. Tanımlar (pasif toplamı = %100).</strong> Pasif toplamı = KVYK + UVYK + Öz kaynaklar. Devamlı sermaye oranı = (UVYK + Öz kaynaklar) / Pasif toplamı. UVYK oranı = UVYK / Pasif toplamı. Kaldıraç oranı = (KVYK + UVYK) / Pasif toplamı (soru da bu tanımı veriyor).</p>",
+   "<p><strong>2. Öz kaynak oranı.</strong> Devamlı sermaye %60'ın %10'u UVYK olduğuna göre öz kaynak oranı = 60 − 10 = %50.</p>",
+   "<p><strong>3. KVYK oranı.</strong> Devamlı sermaye dışında kalan kaynak kısa vadelidir: 100 − 60 = %40.</p>",
+   "<p><strong>4. Kaldıraç ve sonuç.</strong> Kaldıraç oranı = KVYK + UVYK = 40 + 10 = <strong>%50</strong>. Sağlama: Kaldıraç oranı + Öz kaynak oranı = 100 → 100 − 50 = 50 ✓. Cevap <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Mali yapı (finansal yapı) oranları: Kaldıraç oranı = Toplam yabancı kaynaklar / Pasif toplamı; Devamlı sermaye oranı = (UVYK + Öz kaynaklar) / Pasif toplamı; Kaldıraç oranı + Öz kaynak oranı = 1.",
+  "tuzaklar": {
+   "A": "Kaldıraç oranı yabancı kaynakların pasif toplamı içindeki payıdır; %100'ü aşamaz. 150 (= 60 / 40) devamlı sermayenin KVYK'ya oranına karşılık gelir, kaldıraç değildir.",
+   "B": "90 = 100 − 10; bu KVYK ile öz kaynakların toplam payıdır (40 + 50). Kaldıraç oranında öz kaynak yer almaz.",
+   "C": "60 devamlı sermaye oranıdır; içinde öz kaynak (%50) vardır ve KVYK yoktur.",
+   "E": "40 yalnız KVYK oranıdır; uzun vadeli yabancı kaynaklar (%10) da toplam yabancı kaynağa dahildir."
+  },
+  "kartlar": [
+   {
+    "on": "Kaldıraç oranı ile öz kaynak oranı arasındaki ilişki?",
+    "arka": "Kaldıraç oranı (TYK / Pasif) + Öz kaynak oranı (ÖK / Pasif) = 1 (%100)."
+   },
+   {
+    "on": "Devamlı sermaye oranı = ?",
+    "arka": "(Uzun vadeli yabancı kaynaklar + Öz kaynaklar) / Pasif toplamı. 1 − devamlı sermaye oranı = KVYK oranı."
+   }
+  ],
+  "konuBaglantisi": "Mali yapı oranları"
+ },
+ {
+  "id": "2026-2-FTA-05",
+  "sonuc": "C",
+  "ozet": "Gelir tablosu dikey analizinde baz net satışlardır: net satışlar = 510.000 / 1,02 = 500.000 ₺; faaliyet kârı = %15 × 500.000 = 75.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Baz.</strong> Gelir tablosunun dikey yüzde analizinde net satışlar = %100 alınır ve her kalem net satışların yüzdesi olarak ifade edilir. Brüt satışların yüzdesinin %102 olması da bunu doğrular: brüt satışlar net satışların 1,02 katıdır; aradaki %2 satış indirimleridir.</p>",
+   "<p><strong>2. Net satışlar.</strong> 510.000 / 1,02 = <strong>500.000 ₺</strong> (satış indirimleri 510.000 − 500.000 = 10.000 ₺ = %2).</p>",
+   "<p><strong>3. Faaliyet kârı.</strong> Faaliyet kârlılığı yüzdesi (faaliyet kârının dikey yüzdesi) %15'tir: 0,15 × 500.000 = <strong>75.000 ₺</strong>.</p>",
+   "<p><strong>4. Sonuç.</strong> Brüt satışların %15'i (510.000 × 0,15 = 76.500) alınsaydı hatalı baz kullanılmış olurdu; bu tutar şıklarda da yoktur. Cevap <strong>C</strong>.</p>"
+  ],
+  "dayanak": "Dikey yüzde (yapı) analizi: gelir tablosunda baz = net satışlar (%100); kalemin dikey yüzdesi = Kalem / Net satışlar × 100.",
+  "tuzaklar": {
+   "A": "65.000 net satışların %13'üdür (65.000 / 500.000); faaliyet kârlılığı %15 verilmiştir.",
+   "B": "73.500 net satışların %14,7'sidir; doğru bazla %15 = 75.000 çıkar.",
+   "D": "95.000 net satışların %19'udur; verilen %15 ile tutmaz.",
+   "E": "105.000 net satışların %21'idir; verilen %15 ile tutmaz."
+  },
+  "kartlar": [
+   {
+    "on": "Gelir tablosu dikey analizinde baz (%100) hangi kalemdir?",
+    "arka": "Net satışlar. Brüt satışların yüzdesi 100'ü aşar (aradaki fark satış indirimleridir)."
+   },
+   {
+    "on": "Brüt satışların dikey yüzdesi %102 ise net satışlar = ?",
+    "arka": "Brüt satışlar / 1,02."
+   }
+  ],
+  "konuBaglantisi": "Dikey analiz"
+ },
+ {
+  "id": "2026-2-FTA-06",
+  "sonuc": "E",
+  "ozet": "Bu soru cevap anahtarında İPTAL edilmiştir. Veriler hesaplandığında ticari alacaklar net satışlardan çok daha hızlı arttığı için (eğilim yüzdesi 625'e karşı 260) ortalama tahsilat süresi yaklaşık 72 günden 173 güne uzamaktadır; kitapçıkta işaretli E bu yorumla uyumludur.",
+  "adimlar": [
+   "<p><strong>1. İptal ve veri.</strong> Soru resmi cevap anahtarında İPTAL edilmiştir ve puanlamaya girmez; yine de konuyu öğretmek için çözülmüştür. Grafiğin altındaki veri tablosu esas alınır. Yatay eksende beş dönem vardır ve kitapçıkta dördüncü dönem de “2024” olarak etiketlenmiştir; aşağıda dönemler soldan sağa ardışık yıllar gibi ele alınmıştır.</p>",
+   "<p><strong>2. Formül.</strong> Alacak devir hızı = Net satışlar / (Ortalama) ticari alacaklar; Ortalama tahsilat süresi = 360 / Alacak devir hızı = Ticari alacaklar / Net satışlar × 360. Ticari alacaklar satışlardan daha hızlı artıyorsa tahsilat süresi uzar.</p>",
+   "<table class=\"veri\"><tr><th>Dönem (kitapçıktaki etiket)</th><th class=\"n\">2022</th><th class=\"n\">2023</th><th class=\"n\">2024</th><th class=\"n\">2024</th><th class=\"n\">2025</th></tr><tr><td>Net satışlar</td><td class=\"n\">10.000</td><td class=\"n\">14.000</td><td class=\"n\">19.000</td><td class=\"n\">23.000</td><td class=\"n\">26.000</td></tr><tr><td>Ticari alacaklar</td><td class=\"n\">2.000</td><td class=\"n\">7.000</td><td class=\"n\">9.000</td><td class=\"n\">11.000</td><td class=\"n\">12.500</td></tr><tr><td>Eğilim yüzdesi – net satışlar (ilk dönem = 100)</td><td class=\"n\">100</td><td class=\"n\">140</td><td class=\"n\">190</td><td class=\"n\">230</td><td class=\"n\">260</td></tr><tr><td>Eğilim yüzdesi – ticari alacaklar</td><td class=\"n\">100</td><td class=\"n\">350</td><td class=\"n\">450</td><td class=\"n\">550</td><td class=\"n\">625</td></tr><tr><td>Tahsilat süresi, dönem sonu alacakla (gün)</td><td class=\"n\">72,0</td><td class=\"n\">180,0</td><td class=\"n\">170,5</td><td class=\"n\">172,2</td><td class=\"n\">173,1</td></tr><tr><td>Tahsilat süresi, ortalama alacakla (gün)</td><td class=\"n\">–</td><td class=\"n\">115,7</td><td class=\"n\">151,6</td><td class=\"n\">156,5</td><td class=\"n\">162,7</td></tr></table>",
+   "<p><strong>3. Şıkların değerlendirmesi.</strong> A: Brüt satış kârlılığı için satışların maliyeti gerekir; grafikte yoktur, yorum yapılamaz. B: “Müşteriyi finanse etme süresi” ortalama tahsilat süresinin kendisidir; kısalmıyor, uzuyor. C: Süre değişmektedir (72 → yaklaşık 173 gün). D: Ortalama satış vadesi de tahsilat süresiyle ölçülür; kısalmıyor, uzuyor. E: Ortalama tahsilat süresi uzamaktadır; doğru yorum budur ve kitapçıkta işaretli şıktır.</p>",
+   "<p><strong>4. Neden iptal edilmiş olabilir? (resmî gerekçe yayımlanmadı)</strong> (a) En güçlü aday: grafiğin yatay ekseninde “2024” iki kez yazılmıştır (2022, 2023, 2024, 2024, 2025); dört yıla beş gözlem düşmekte, hangi değerin hangi yıla ait olduğu belirsizdir. Kök de “2022 ve 2025 yıllarına ait” demektedir. Aynı baskı hatası 7. sorunun grafiğinde de vardır ve iki soru birlikte iptal edilmiştir. (b) İkincil bir kusur: dönem sonu alacaklarla hesaplanan süre 2023'te 180 güne çıkıp sonraki dönemde 170,5 güne iner; “uzamaktadır” ifadesi yalnız genel eğilim olarak (72 → 173 gün; ortalama alacakla 115,7 → 162,7 gün) doğrudur, her yıl için kesintisiz değildir.</p>",
+   "<p><strong>5. Sonuç.</strong> Bağımsız çözüm kitapçıkta işaretli <strong>E</strong> ile uyumludur; soru sınavda değerlendirme dışıdır.</p>"
+  ],
+  "dayanak": "Faaliyet oranları ve eğilim yüzdeleri: Alacak devir hızı = Net satışlar / Ortalama ticari alacaklar; Ortalama tahsilat süresi = 360 / Alacak devir hızı. Alacakların eğilim yüzdesi satışlarınkinden hızlı artıyorsa tahsilat süresi uzar.",
+  "tuzaklar": {
+   "A": "Grafikte yalnız net satışlar ve ticari alacaklar vardır; brüt satış kârlılığı için satışların maliyeti gerekir.",
+   "B": "Müşteriyi finanse etme süresi tahsilat süresidir; alacaklar satışlardan hızlı arttığı için kısalmıyor, uzuyor.",
+   "C": "Tahsilat süresi 72 günden yaklaşık 173 güne çıkmıştır; değişmemektedir demek yanlıştır.",
+   "D": "Satış vadesi tahsilat süresiyle ölçülür; vade uzamaktadır, kısalmamaktadır."
+  },
+  "kartlar": [
+   {
+    "on": "Ticari alacakların eğilim yüzdesi net satışlarınkinden hızlı artıyorsa ne sonuç çıkar?",
+    "arka": "Alacak devir hızı düşer, ortalama tahsilat süresi (satış vadesi, müşteriyi finanse etme süresi) uzar."
+   },
+   {
+    "on": "Ortalama tahsilat süresi = ?",
+    "arka": "360 / Alacak devir hızı = Ortalama ticari alacaklar / Net satışlar × 360."
+   }
+  ],
+  "konuBaglantisi": "Trend analizi"
+ },
+ {
+  "id": "2026-2-FTA-07",
+  "sonuc": "A",
+  "ozet": "Bu soru cevap anahtarında İPTAL edilmiştir. Hesaplandığında cari oran 1,50'den 2,00'ye, likidite oranı 0,75'ten 1,31'e, net işletme sermayesi 4.000'den 16.000'e yükselmektedir; likidite gücü iyileşmektedir ve kitapçıkta işaretli A bu yorumla uyumludur.",
+  "adimlar": [
+   "<p><strong>1. İptal ve veri.</strong> Soru resmi cevap anahtarında İPTAL edilmiştir ve puanlamaya girmez; yine de konuyu öğretmek için çözülmüştür. Grafiğin veri tablosu esas alınır; yatay eksende beş dönem vardır ve dördüncü dönem de “2024” olarak etiketlenmiştir. Dönemler soldan sağa ardışık yıllar gibi ele alınmıştır.</p>",
+   "<p><strong>2. Formüller.</strong> Cari oran = Dönen varlıklar / KVYK. Likidite (asit-test) oranı = (Dönen varlıklar − Stoklar) / KVYK. Net işletme sermayesi = Dönen varlıklar − KVYK. Üçü birlikte likidite gücünü gösterir.</p>",
+   "<table class=\"veri\"><tr><th>Dönem (kitapçıktaki etiket)</th><th class=\"n\">2022</th><th class=\"n\">2023</th><th class=\"n\">2024</th><th class=\"n\">2024</th><th class=\"n\">2025</th></tr><tr><td>Dönen varlıklar</td><td class=\"n\">12.000</td><td class=\"n\">15.000</td><td class=\"n\">19.000</td><td class=\"n\">25.000</td><td class=\"n\">32.000</td></tr><tr><td>KVYK</td><td class=\"n\">8.000</td><td class=\"n\">9.500</td><td class=\"n\">10.000</td><td class=\"n\">13.000</td><td class=\"n\">16.000</td></tr><tr><td>Stoklar</td><td class=\"n\">6.000</td><td class=\"n\">7.200</td><td class=\"n\">8.300</td><td class=\"n\">9.000</td><td class=\"n\">11.000</td></tr><tr><td>Cari oran (DV / KVYK)</td><td class=\"n\">1,50</td><td class=\"n\">1,58</td><td class=\"n\">1,90</td><td class=\"n\">1,92</td><td class=\"n\">2,00</td></tr><tr><td>Likidite oranı ((DV − Stok) / KVYK)</td><td class=\"n\">0,75</td><td class=\"n\">0,82</td><td class=\"n\">1,07</td><td class=\"n\">1,23</td><td class=\"n\">1,31</td></tr><tr><td>Net işletme sermayesi (DV − KVYK)</td><td class=\"n\">4.000</td><td class=\"n\">5.500</td><td class=\"n\">9.000</td><td class=\"n\">12.000</td><td class=\"n\">16.000</td></tr><tr><td>Eğilim yüzdesi – dönen varlıklar</td><td class=\"n\">100</td><td class=\"n\">125,0</td><td class=\"n\">158,3</td><td class=\"n\">208,3</td><td class=\"n\">266,7</td></tr><tr><td>Eğilim yüzdesi – KVYK</td><td class=\"n\">100</td><td class=\"n\">118,8</td><td class=\"n\">125,0</td><td class=\"n\">162,5</td><td class=\"n\">200,0</td></tr><tr><td>Eğilim yüzdesi – stoklar</td><td class=\"n\">100</td><td class=\"n\">120,0</td><td class=\"n\">138,3</td><td class=\"n\">150,0</td><td class=\"n\">183,3</td></tr></table>",
+   "<p><strong>3. Şıkların değerlendirmesi.</strong> A: Cari oran, likidite oranı ve net işletme sermayesi her dönem artmaktadır; likidite gücü iyileşmektedir (doğru). B: Son dönemde cari oran 2,00, likidite oranı 1,31'dir; geleneksel ölçütlere (cari oran 2, likidite oranı 1) göre güncel bir likidite sorunu yoktur. C: Likidite oranı 0,75'ten 1,31'e yükselmektedir. D: Cari oran 1,50'den 2,00'ye yükselmektedir. E: Dönen varlıkların eğilim yüzdesi 266,7, stoklarınki 183,3'tür; stoklar daha <em>yavaş</em> artmaktadır (stokların dönen varlıklar içindeki payı %50'den %34,4'e düşmüştür).</p>",
+   "<p><strong>4. Neden iptal edilmiş olabilir? (resmî gerekçe yayımlanmadı)</strong> (a) En güçlü aday 6. soruyla aynı baskı hatasıdır: yatay eksende “2024” iki kez yazılmıştır; dört yıla beş gözlem düşer ve kök “2022 ve 2025 yıllarına ait” demektedir. İki soru birlikte iptal edilmiştir. (b) Ek bir tartışma noktası B şıkkıdır: ilk dönemde likidite oranı 0,75 (1'in altında), cari oran 2022-2024 arasında 2'nin altındadır; geleneksel ölçütlerle o yıllarda likidite sorunu olduğu savunulabilir. Ancak soru eğilimi sormaktadır ve son dönemde iki ölçüt de sağlanmıştır.</p>",
+   "<p><strong>5. Sonuç.</strong> Bağımsız çözüm kitapçıkta işaretli <strong>A</strong> ile uyumludur; soru sınavda değerlendirme dışıdır.</p>"
+  ],
+  "dayanak": "Likidite oranları: Cari oran = Dönen varlıklar / KVYK; Likidite (asit-test) oranı = (Dönen varlıklar − Stoklar) / KVYK; Net işletme sermayesi = Dönen varlıklar − KVYK; eğilim yüzdeleriyle karşılaştırma.",
+  "tuzaklar": {
+   "B": "Son dönemde cari oran 2,00 ve likidite oranı 1,31'dir; oranlar sürekli iyileştiği için “likidite sorunu yaşanmaktadır” yorumu eğilimle çelişir (ilk dönemdeki düşük oranlar için bkz. 4. adım).",
+   "C": "Likidite oranı 0,75 → 0,82 → 1,07 → 1,23 → 1,31; azalmıyor, artıyor.",
+   "D": "Cari oran 1,50 → 1,58 → 1,90 → 1,92 → 2,00; azalmıyor, artıyor.",
+   "E": "Stokların eğilim yüzdesi 183,3, dönen varlıklarınki 266,7'dir; stoklar dönen varlıklardan daha yavaş artmaktadır."
+  },
+  "kartlar": [
+   {
+    "on": "Dönen varlıklar KVYK'dan hızlı, stoklar dönen varlıklardan yavaş artıyorsa?",
+    "arka": "Cari oran ve likidite (asit-test) oranı yükselir, net işletme sermayesi büyür: likidite gücü iyileşir."
+   },
+   {
+    "on": "Likidite (asit-test) oranı = ?",
+    "arka": "(Dönen varlıklar − Stoklar) / KVYK. Geleneksel ölçüt 1; cari oranda 2."
+   }
+  ],
+  "konuBaglantisi": "Trend analizi"
+ },
+ {
+  "id": "2026-2-FTA-08",
+  "sonuc": "C",
+  "ozet": "Üç aylık dönem = 90 gün; ortalama DİMM stoku (42.000 + 28.000) / 2 = 35.000; devir hızı 43.750 / 35.000 = 1,25; devir süresi 90 / 1,25 = 72 gün.",
+  "adimlar": [
+   "<p><strong>1. Formül.</strong> DİMM (hammadde) stok devir hızı = Kullanılan DİMM / Ortalama DİMM stoku; Ortalama devir süresi = Dönemin gün sayısı / Devir hızı. DİMM stoğundan çıkış üretime verilen hammaddedir; tablodaki “DİMM Giderleri” satırı bu tüketimi gösterir. Satışların maliyeti ya da üretim maliyeti pay alınmaz.</p>",
+   "<p><strong>2. Dönem.</strong> 31 Mart 2026 sütunu 1 Ocak – 31 Mart 2026 üç aylık dönemin tutarlarını gösterir. Talimata göre 3 × 30 = <strong>90 gün</strong>.</p>",
+   "<p><strong>3. Ortalama stok.</strong> Dönem başı DİMM stoku = 31 Aralık 2025 dönem sonu stoku 42.000 ₺; dönem sonu 28.000 ₺. Ortalama = (42.000 + 28.000) / 2 = <strong>35.000 ₺</strong>.</p>",
+   "<p><strong>4. Devir hızı ve süresi.</strong> Üç aylık devir hızı = 43.750 / 35.000 = 1,25. Devir süresi = 90 / 1,25 = <strong>72 gün</strong>.</p>",
+   "<p><strong>5. Sağlama ve sonuç.</strong> Yıllıklandırarak: 43.750 × 4 = 175.000; 175.000 / 35.000 = 5; 360 / 5 = 72 gün ✓. Cevap <strong>C</strong>.</p>"
+  ],
+  "dayanak": "Faaliyet (devir hızı) oranları: Hammadde (DİMM) stok devir hızı = Kullanılan DİMM / Ortalama DİMM stoku; Devir süresi = Dönem gün sayısı / Devir hızı (3 ay = 90 gün).",
+  "tuzaklar": {
+   "A": "17 gün doğru formülle çıkmaz; doğru pay (kullanılan DİMM 43.750) ve ortalama stokla (35.000) üç aylık süre 72 gündür.",
+   "B": "21 gün = 90 × 35.000 / 150.000; pay olarak dönemin toplam üretim maliyeti kullanılmış. DİMM stoğunun çıkışı kullanılan hammaddedir (43.750).",
+   "D": "84 gün = 360 × 35.000 / 150.000; hem pay olarak üretim maliyeti alınmış hem de üç aylık tutar 360 günle kullanılmış.",
+   "E": "288 gün = 360 / 1,25; üç aylık devir hızı 360 güne bölünmüş. Çeyrek dönemde 90 gün kullanılmalı (ya da tüketim yıllıklandırılmalı)."
+  },
+  "kartlar": [
+   {
+    "on": "Hammadde (DİMM) stok devir hızı = ?",
+    "arka": "Kullanılan DİMM (DİMM giderleri) / Ortalama DİMM stoku."
+   },
+   {
+    "on": "Üç aylık verilerle devir süresi nasıl bulunur?",
+    "arka": "90 / (Üç aylık tutar / Ortalama stok). 360 gün kullanılacaksa tutar 4 ile çarpılıp yıllıklandırılır."
+   }
+  ],
+  "konuBaglantisi": "Faaliyet oranları"
+ },
+ {
+  "id": "2026-2-FTA-09",
+  "sonuc": "C",
+  "ozet": "Ortalama yarı mamul stoku (28.000 + 22.000) / 2 = 25.000; devir hızı = Toplam üretim maliyeti / Ortalama stok = 150.000 / 25.000 = 6; devir süresi 90 / 6 = 15,00 gün.",
+  "adimlar": [
+   "<p><strong>1. Formül.</strong> Yarı mamul stok devir hızı = Dönemin toplam üretim maliyeti / Ortalama yarı mamul stoku; Devir süresi = Dönem gün sayısı / Devir hızı. Yarı mamul stoğundan çıkan (mamule aktarılan) değer dönemin toplam üretim maliyetidir: Üretim giderleri + Dönem başı yarı mamul − Dönem sonu yarı mamul = 144.000 + 28.000 − 22.000 = 150.000 ₺.</p>",
+   "<p><strong>2. Dönem.</strong> 1 Ocak – 31 Mart 2026: 3 × 30 = 90 gün.</p>",
+   "<p><strong>3. Ortalama stok.</strong> (28.000 + 22.000) / 2 = <strong>25.000 ₺</strong>.</p>",
+   "<p><strong>4. Devir hızı ve süresi.</strong> 150.000 / 25.000 = 6 (üç ayda); 90 / 6 = <strong>15,00 gün</strong>. Yıllıklandırarak: 600.000 / 25.000 = 24; 360 / 24 = 15 gün ✓.</p>",
+   "<p><strong>5. Not ve sonuç.</strong> Pay olarak üretim giderleri toplamı (144.000) alınsaydı 90 × 25.000 / 144.000 = 15,63 gün çıkardı; bu şıklarda yoktur. Yarı mamulün “satışı” mamule aktarılan toplam üretim maliyetidir. Cevap <strong>C</strong>.</p>"
+  ],
+  "dayanak": "Faaliyet (devir hızı) oranları: Yarı mamul stok devir hızı = Dönemin toplam üretim maliyeti / Ortalama yarı mamul stoku; Devir süresi = Dönem gün sayısı / Devir hızı.",
+  "tuzaklar": {
+   "A": "10,80 doğru formülle çıkmaz; doğru pay (150.000) ve ortalama stokla (25.000) süre 15 gündür.",
+   "B": "13,20 = 90 × 22.000 / 150.000; ortalama yerine dönem sonu yarı mamul stoku kullanılmış.",
+   "D": "60,00 = 360 / 6; üç aylık devir hızı 360 güne bölünmüş. Çeyrek dönem 90 gündür.",
+   "E": "67,20 = 360 × 28.000 / 150.000; dönem başı stoku ve 360 gün kullanılmış."
+  },
+  "kartlar": [
+   {
+    "on": "Yarı mamul stok devir hızının payı nedir?",
+    "arka": "Dönemin toplam üretim maliyeti (= Üretim giderleri + DB yarı mamul − DS yarı mamul), yani yarı mamulden mamule aktarılan tutar."
+   }
+  ],
+  "konuBaglantisi": "Faaliyet oranları"
+ },
+ {
+  "id": "2026-2-FTA-10",
+  "sonuc": "E",
+  "ozet": "Mamul stok devir hızı = Satılan mamullerin maliyeti / Ortalama mamul stoku = 380.000 / [(18.000 + 20.000) / 2] = 380.000 / 19.000 = 20.",
+  "adimlar": [
+   "<p><strong>1. Formül.</strong> Mamul stok devir hızı = Satılan mamullerin maliyeti / Ortalama mamul stoku. Mamul stoğu yalnız mamul satışıyla azalır; bu yüzden pay toplam satışların maliyeti değil, satılan mamullerin maliyetidir (satılan ticari malların maliyeti ticari mal stoğuna aittir).</p>",
+   "<p><strong>2. Veriler (2025, yıllık).</strong> Dönem başı mamul stoku 18.000 ₺, dönem sonu 20.000 ₺; ortalama = (18.000 + 20.000) / 2 = <strong>19.000 ₺</strong>. Satılan mamullerin maliyeti 380.000 ₺.</p>",
+   "<p><strong>3. Hesap.</strong> 380.000 / 19.000 = <strong>20</strong> (mamul stoku yılda 20 kez yenilenmiştir).</p>",
+   "<p><strong>4. Sonuç.</strong> Soru devir <em>hızını</em> soruyor; devir süresi 360 / 20 = 18 gün olurdu (D). Cevap <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Faaliyet (devir hızı) oranları: Mamul stok devir hızı = Satılan mamullerin maliyeti / Ortalama mamul stoku; Devir süresi = 360 / Devir hızı.",
+  "tuzaklar": {
+   "A": "4,50 = 90 / 20; devir hızı gün sayısıyla karıştırılmış. Soru 2025 yılının devir hızını soruyor.",
+   "B": "8 = 152.000 / 19.000; 2026'nın ilk çeyreğine ait satılan mamul maliyeti kullanılmış (o dönemin ortalama stoku da 19.000'dir). Soru 31 Aralık 2025'i soruyor.",
+   "C": "11,25 = 90 / 8; 2026 ilk çeyreğinin mamul devir süresidir; yanlış dönem ve hız yerine süre.",
+   "D": "18, devir süresidir (360 / 20); soru devir hızını soruyor."
+  },
+  "kartlar": [
+   {
+    "on": "Mamul stok devir hızı = ?",
+    "arka": "Satılan mamullerin maliyeti / Ortalama mamul stoku. Süre = 360 / Hız."
+   },
+   {
+    "on": "Üretim işletmesinde stok türlerine göre devir hızlarının payları?",
+    "arka": "DİMM: kullanılan DİMM; Yarı mamul: toplam üretim maliyeti; Mamul: satılan mamullerin maliyeti; Ticari mal: satılan ticari malların maliyeti."
+   }
+  ],
+  "konuBaglantisi": "Faaliyet oranları"
+ },
+ {
+  "id": "2026-2-FTA-11",
+  "sonuc": "B",
+  "ozet": "Ortalama ticari mal stoku (40.000 + 20.000) / 2 = 30.000; üç aylık devir hızı 150.000 / 30.000 = 5; devir süresi 90 / 5 = 18 gün.",
+  "adimlar": [
+   "<p><strong>1. Formül.</strong> Ticari mal stok devir hızı = Satılan ticari malların maliyeti / Ortalama ticari mal stoku; Devir süresi = Dönem gün sayısı / Devir hızı.</p>",
+   "<p><strong>2. Dönem.</strong> 1 Ocak – 31 Mart 2026: 3 × 30 = 90 gün.</p>",
+   "<p><strong>3. Ortalama stok.</strong> (40.000 + 20.000) / 2 = <strong>30.000 ₺</strong>.</p>",
+   "<p><strong>4. Devir hızı ve süresi.</strong> 150.000 / 30.000 = 5 (üç ayda); 90 / 5 = <strong>18 gün</strong>. Yıllıklandırarak: 600.000 / 30.000 = 20; 360 / 20 = 18 gün ✓. Cevap <strong>B</strong>.</p>"
+  ],
+  "dayanak": "Faaliyet (devir hızı) oranları: Ticari mal stok devir hızı = Satılan ticari malların maliyeti / Ortalama ticari mal stoku; Devir süresi = Dönem gün sayısı / Devir hızı (3 ay = 90 gün).",
+  "tuzaklar": {
+   "A": "12 = 90 × 20.000 / 150.000; ortalama yerine dönem sonu stoku kullanılmış.",
+   "C": "24 = 90 × 40.000 / 150.000; ortalama yerine dönem başı stoku kullanılmış.",
+   "D": "48 = 360 × 20.000 / 150.000; dönem sonu stoku ve üç aylık tutarla 360 gün kullanılmış.",
+   "E": "72 = 360 / 5; üç aylık devir hızı 360 güne bölünmüş. Çeyrek dönem 90 gündür."
+  },
+  "kartlar": [
+   {
+    "on": "Ticari mal stok devir süresi (çeyrek dönem) = ?",
+    "arka": "90 / (Satılan ticari malların maliyeti / Ortalama ticari mal stoku)."
+   }
+  ],
+  "konuBaglantisi": "Faaliyet oranları"
+ },
+ {
+  "id": "2026-2-FTA-12",
+  "sonuc": "B",
+  "ozet": "Brüt (toplam) işletme sermayesi = Dönen varlıklar = 31 Mart 2026'da 18.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Tanım.</strong> <em>Brüt (toplam) işletme sermayesi</em> dönen varlıkların toplamıdır. <em>Net işletme sermayesi</em> = Dönen varlıklar − KVYK.</p>",
+   "<p><strong>2. Veri.</strong> 2026'nın 1. çeyrek sonu = 31 Mart 2026 bilançosu: Dönen varlıklar = 1.500 + 7.500 + 9.000 = <strong>18.000 ₺</strong>.</p>",
+   "<p><strong>3. Sonuç.</strong> Net işletme sermayesi ise 18.000 − 24.000 = −6.000 ₺ olurdu (A). Soru brüt işletme sermayesini soruyor. Cevap <strong>B</strong>.</p>"
+  ],
+  "dayanak": "İşletme sermayesi kavramları: brüt (toplam) işletme sermayesi = dönen varlıklar; net işletme sermayesi = dönen varlıklar − KVYK.",
+  "tuzaklar": {
+   "A": "−6.000 net işletme sermayesidir (18.000 − 24.000); soru brüt işletme sermayesini soruyor.",
+   "C": "22.700 ödenmiş sermayedir; işletme sermayesi kavramı değildir.",
+   "D": "23.700 öz kaynak toplamıdır; işletme sermayesi değildir.",
+   "E": "36.000 devamlı sermayedir (UVYK 12.300 + öz kaynaklar 23.700)."
+  },
+  "kartlar": [
+   {
+    "on": "Brüt ve net işletme sermayesi?",
+    "arka": "Brüt = Dönen varlıklar. Net = Dönen varlıklar − KVYK (= Devamlı sermaye − Duran varlıklar)."
+   }
+  ],
+  "konuBaglantisi": "İşletme sermayesi"
+ },
+ {
+  "id": "2026-2-FTA-13",
+  "sonuc": "C",
+  "ozet": "Cari oran = Dönen varlıklar / KVYK = 18.000 / 24.000 = 0,750 (31 Mart 2026).",
+  "adimlar": [
+   "<p><strong>1. Formül.</strong> Cari oran = Dönen varlıklar / Kısa vadeli yabancı kaynaklar. Bir tarih itibarıyla bakiye oranıdır; ortalama değer talimatı yalnız devir hızları içindir, bu yüzden dönem sonu bakiyeleri kullanılır.</p>",
+   "<p><strong>2. Veriler.</strong> 31 Mart 2026: Dönen varlıklar 18.000 ₺; KVYK 24.000 ₺.</p>",
+   "<p><strong>3. Hesap.</strong> 18.000 / 24.000 = <strong>0,750</strong>.</p>",
+   "<p><strong>4. Yorum ve sonuç.</strong> Cari oranın 1'in altında olması net işletme sermayesinin negatif (−6.000 ₺) olduğu anlamına gelir. Önceki dönemler: 31.12.2024 = 21.060 / 30.000 = 0,702; 31.12.2025 = 24.000 / 30.000 = 0,800. Cevap <strong>C</strong>.</p>"
+  ],
+  "dayanak": "Likidite oranları: Cari oran = Dönen varlıklar / Kısa vadeli yabancı kaynaklar.",
+  "tuzaklar": {
+   "A": "0,421 doğru formülle çıkmaz; 31 Mart 2026 cari oranı 18.000 / 24.000 = 0,750'dir.",
+   "B": "0,702, 31 Aralık 2024 cari oranıdır (21.060 / 30.000); yanlış tarih.",
+   "D": "0,800, 31 Aralık 2025 cari oranıdır (24.000 / 30.000); yanlış tarih.",
+   "E": "0,820 doğru formülle çıkmaz; hiçbir tarihin cari oranı değildir."
+  },
+  "kartlar": [
+   {
+    "on": "Cari oran = ? 1'in altındaysa ne anlama gelir?",
+    "arka": "Dönen varlıklar / KVYK. 1'in altındaysa net işletme sermayesi negatiftir; duran varlıkların bir kısmı kısa vadeli kaynakla finanse edilmiştir."
+   }
+  ],
+  "konuBaglantisi": "Likidite oranları"
+ },
+ {
+  "id": "2026-2-FTA-14",
+  "sonuc": "D",
+  "ozet": "Ortalama ticari alacak (8.500 + 7.500) / 2 = 8.000; üç aylık devir hızı 12.000 / 8.000 = 1,5; tahsilat süresi 90 / 1,5 = 60 gün.",
+  "adimlar": [
+   "<p><strong>1. Formül.</strong> Alacak devir hızı = Net satışlar / Ortalama ticari alacaklar; Ortalama tahsilat süresi = Dönem gün sayısı / Alacak devir hızı. Pay net satışlardır (brüt satışlar değil); talimat gereği ortalama alacak kullanılır.</p>",
+   "<p><strong>2. Dönem.</strong> 2026'nın 1. çeyreği: 3 × 30 = 90 gün. Net satışlar (1 Ocak – 31 Mart 2026) 12.000 ₺.</p>",
+   "<p><strong>3. Ortalama alacak.</strong> Dönem başı = 31 Aralık 2025 ticari alacakları 8.500 ₺; dönem sonu 7.500 ₺. Ortalama = (8.500 + 7.500) / 2 = <strong>8.000 ₺</strong>.</p>",
+   "<p><strong>4. Devir hızı ve süre.</strong> 12.000 / 8.000 = 1,5 (üç ayda); 90 / 1,5 = <strong>60 gün</strong>.</p>",
+   "<p><strong>5. Sağlama ve sonuç.</strong> Yıllıklandırarak: 12.000 × 4 = 48.000; 48.000 / 8.000 = 6; 360 / 6 = 60 gün ✓. Cevap <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Faaliyet (devir hızı) oranları: Alacak devir hızı = Net satışlar / Ortalama ticari alacaklar; Ortalama tahsilat süresi = Dönem gün sayısı / Alacak devir hızı (3 ay = 90 gün).",
+  "tuzaklar": {
+   "A": "300 = 360 × 7.500 / 9.000; dönem sonu alacak satışların maliyetine bölünmüş ve 360 gün kullanılmış. Alacaklar satış fiyatıyla izlendiği için pay net satışlardır.",
+   "B": "240 = 360 / 1,5; üç aylık devir hızı 360 güne bölünmüş. Çeyrek dönemde 90 gün kullanılmalıdır.",
+   "C": "75 = 90 × 7.500 / 9.000; dönem sonu alacak ve satışların maliyeti kullanılmış.",
+   "E": "56,25 = 90 × 7.500 / 12.000; ortalama yerine dönem sonu ticari alacak kullanılmış."
+  },
+  "kartlar": [
+   {
+    "on": "Alacak devir hızının payı nedir: satışların maliyeti mi, net satışlar mı?",
+    "arka": "Net satışlar. Alacaklar satış fiyatı üzerinden oluşur; maliyet stok ve borç devir hızlarında kullanılır."
+   }
+  ],
+  "konuBaglantisi": "Faaliyet oranları"
+ },
+ {
+  "id": "2026-2-FTA-15",
+  "sonuc": "B",
+  "ozet": "Brüt satış kârlılığı (brüt kâr marjı) = Brüt satış kârı / Net satışlar = 3.000 / 12.000 = %25,00.",
+  "adimlar": [
+   "<p><strong>1. Formül.</strong> Satışların kârlılığı oranları kârı net satışlarla karşılaştırır: brüt (brüt satış kârı / net satışlar), faaliyet (faaliyet kârı / net satışlar) ve net (net kâr / net satışlar). “Brüt satışların kârlılığı” bu ailenin brüt kademesidir: Brüt kâr marjı = Brüt satış kârı / Net satışlar.</p>",
+   "<p><strong>2. Veriler (2026 1. çeyrek).</strong> Brüt satış kârı 3.000 ₺; net satışlar 12.000 ₺.</p>",
+   "<p><strong>3. Hesap.</strong> 3.000 / 12.000 = 0,25 → <strong>%25,00</strong>.</p>",
+   "<p><strong>4. Sonuç.</strong> Cevap <strong>B</strong>.</p>",
+   "<p><strong>Not (ifade).</strong> Kökteki “brüt satışların kârlılığı” ifadesi kelimesi kelimesine okunup brüt satışlar payda yapılırsa 3.000 / 12.300 = %24,39 (A) çıkar. Kârlılık oranlarında ve gelir tablosu dikey analizinde payda her zaman net satışlardır; brüt satışlar henüz gerçekleşmemiş indirimleri de içerir. Aynı kitapçığın 18. sorusunda da brüt satışlar payda yapılınca çıkan tutar (%2,44) yanlış şık olarak konmuştur. Bu yüzden A bir tuzaktır.</p>"
+  ],
+  "dayanak": "Kârlılık oranları: Brüt kâr marjı (brüt satış kârlılığı) = Brüt satış kârı / Net satışlar × 100.",
+  "tuzaklar": {
+   "A": "24,39 = 3.000 / 12.300; payda brüt satışlar alınmış. Kârlılık oranlarında payda net satışlardır (bkz. Not).",
+   "C": "33,33 = 3.000 / 9.000; brüt kâr satışların maliyetine bölünmüş (maliyet üzerinden kâr oranı); kârlılık oranı net satışlarla hesaplanır.",
+   "D": "73,17 = 9.000 / 12.300; satışların maliyeti brüt satışlara bölünmüş; bu bir maliyet oranıdır, kârlılık değil.",
+   "E": "75,00 = 9.000 / 12.000; satışların maliyetinin dikey yüzdesidir. Brüt kâr marjı bunun tamamlayanıdır: 100 − 75 = 25."
+  },
+  "kartlar": [
+   {
+    "on": "Brüt kâr marjı (brüt satış kârlılığı) = ?",
+    "arka": "Brüt satış kârı / Net satışlar × 100 = 100 − Satışların maliyetinin dikey yüzdesi."
+   }
+  ],
+  "konuBaglantisi": "Kârlılık oranları"
+ },
+ {
+  "id": "2026-2-FTA-16",
+  "sonuc": "A",
+  "ozet": "Dönem kârının (vergi öncesi) dikey yüzdesi = Dönem kârı / Net satışlar × 100 = 1.659 / 42.000 × 100 = %3,95.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> Gelir tablosunun dikey yüzde analizinde baz net satışlardır (%100): Dikey yüzde = Kalem / Net satışlar × 100.</p>",
+   "<p><strong>2. Kalemin seçimi.</strong> “Dönem Kârı Veya Zararı” vergi öncesi kârdır (finansman giderlerinden sonra, vergi karşılığından önce): 2025'te 1.659 ₺. “Dönem Net Kârı” (1.244 ₺) ayrı bir satırdır.</p>",
+   "<p><strong>3. Hesap.</strong> 1.659 / 42.000 = 0,0395 → <strong>%3,95</strong>.</p>",
+   "<p><strong>4. Sonuç.</strong> Net kâr kullanılsaydı 1.244 / 42.000 = %2,96 çıkardı; şıklarda yoktur. Cevap <strong>A</strong>.</p>"
+  ],
+  "dayanak": "Dikey yüzde (yapı) analizi: gelir tablosu kalemlerinin net satışlara oranı (Kalem / Net satışlar × 100).",
+  "tuzaklar": {
+   "B": "4,50 = 1.890 / 42.000; finansman giderlerinin dikey yüzdesidir, dönem kârınınki değil.",
+   "C": "5,00 doğru formülle çıkmaz; 2025 dönem kârının net satışlara oranı %3,95'tir.",
+   "D": "7,90 doğru sonucun iki katıdır; doğru formülle çıkmaz.",
+   "E": "17,00 doğru formülle çıkmaz; 2025 dönem kârının net satışlara oranı %3,95'tir."
+  },
+  "kartlar": [
+   {
+    "on": "Gelir tablosunda “Dönem Kârı” ile “Dönem Net Kârı” farkı?",
+    "arka": "Dönem kârı vergi öncesi kârdır; dönem net kârı = dönem kârı − dönem kârı vergi ve diğer yasal yükümlülük karşılıkları."
+   }
+  ],
+  "konuBaglantisi": "Dikey analiz"
+ },
+ {
+  "id": "2026-2-FTA-17",
+  "sonuc": "D",
+  "ozet": "Toplam mali borçlar = KV 17.100 + UV 12.300 = 29.400 ₺; dikey yüzde = 29.400 / 60.000 × 100 = %49,00.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> Bilançonun dikey yüzde analizinde baz aktif (= pasif) toplamıdır: Dikey yüzde = Kalem / Pasif toplamı × 100.</p>",
+   "<p><strong>2. Toplam mali borçlar (31 Mart 2026).</strong> Kısa vadeli mali borçlar 17.100 ₺ + uzun vadeli mali borçlar 12.300 ₺ = <strong>29.400 ₺</strong>. “Toplam” ifadesi iki vadedeki mali borçların birlikte alınmasını ister.</p>",
+   "<p><strong>3. Hesap.</strong> 29.400 / 60.000 = 0,49 → <strong>%49,00</strong>.</p>",
+   "<p><strong>4. Sonuç.</strong> Cevap <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Dikey yüzde (yapı) analizi: bilanço kalemlerinin aktif/pasif toplamına oranı (Kalem / Pasif toplamı × 100).",
+  "tuzaklar": {
+   "A": "20,50 = 12.300 / 60.000; yalnız uzun vadeli mali borçlar alınmış.",
+   "B": "28,50 = 17.100 / 60.000; yalnız kısa vadeli mali borçlar alınmış.",
+   "C": "40,00 = 24.000 / 60.000; KVYK toplamının dikey yüzdesidir (ticari ve diğer borçları da içerir, UV mali borçları içermez).",
+   "E": "60,50 = 36.300 / 60.000; toplam yabancı kaynakların dikey yüzdesidir (ticari ve diğer borçlar dahil)."
+  },
+  "kartlar": [
+   {
+    "on": "Bilanço dikey analizinde baz?",
+    "arka": "Aktif toplamı = Pasif toplamı (%100). Kalem / Pasif toplamı × 100."
+   }
+  ],
+  "konuBaglantisi": "Dikey analiz"
+ },
+ {
+  "id": "2026-2-FTA-18",
+  "sonuc": "B",
+  "ozet": "Satış indirimlerinin dikey yüzdesi = Satış indirimleri / Net satışlar × 100 = 300 / 12.000 × 100 = %2,50.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> Gelir tablosunun dikey yüzde analizinde baz net satışlardır (%100); brüt satışlar ve satış indirimleri de net satışlara oranlanır.</p>",
+   "<p><strong>2. Veriler (2026 1. çeyrek).</strong> Satış indirimleri 300 ₺ (tabloda indirim olduğu için −300); net satışlar 12.000 ₺.</p>",
+   "<p><strong>3. Hesap.</strong> 300 / 12.000 = 0,025 → <strong>%2,50</strong> (tablodaki işaretiyle −%2,50).</p>",
+   "<p><strong>4. Sağlama ve sonuç.</strong> Brüt satışların dikey yüzdesi 12.300 / 12.000 = %102,50; 102,50 − 2,50 = 100 (net satışlar) ✓. Cevap <strong>B</strong>.</p>"
+  ],
+  "dayanak": "Dikey yüzde (yapı) analizi: gelir tablosunda baz = net satışlar; Satış indirimlerinin dikey yüzdesi = Satış indirimleri / Net satışlar × 100.",
+  "tuzaklar": {
+   "A": "2,44 = 300 / 12.300; payda brüt satışlar alınmış. Dikey analizde baz net satışlardır.",
+   "C": "3,33 = 300 / 9.000; payda satışların maliyeti alınmış.",
+   "D": "10,00 = 300 / 3.000; payda brüt satış kârı alınmış.",
+   "E": "102,50 brüt satışların dikey yüzdesidir (12.300 / 12.000); soru satış indirimlerini soruyor."
+  },
+  "kartlar": [
+   {
+    "on": "Dikey analizde brüt satışlar ile satış indirimlerinin yüzdeleri arasındaki ilişki?",
+    "arka": "Brüt satışlar % − Satış indirimleri % = 100 (net satışlar). Örn. 102,50 − 2,50 = 100."
+   }
+  ],
+  "konuBaglantisi": "Dikey analiz"
+ },
+ {
+  "id": "2026-2-FTA-19",
+  "sonuc": "A",
+  "ozet": "Değişim yüzdesi = (Cari yıl − Önceki yıl) / Önceki yıl × 100 = (4.900 − 7.000) / 7.000 × 100 = −%30,00.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> Karşılaştırmalı tablolar (yatay) analizinde her kalemin iki tarih arasındaki değişimi tutar ve yüzde olarak bulunur: Değişim yüzdesi = (Cari yıl − Önceki yıl) / Önceki yıl × 100. Önceki yıl (2024) bazdır.</p>",
+   "<p><strong>2. Veriler.</strong> Ticari borçlar 31.12.2024: 7.000 ₺; 31.12.2025: 4.900 ₺. Değişim tutarı = 4.900 − 7.000 = −2.100 ₺.</p>",
+   "<p><strong>3. Hesap.</strong> −2.100 / 7.000 = −0,30 → <strong>−%30,00</strong>.</p>",
+   "<p><strong>4. Sonuç.</strong> Ticari borçlar 2025'te %30 azalmıştır. Cevap <strong>A</strong>.</p>"
+  ],
+  "dayanak": "Karşılaştırmalı tablolar (yatay) analizi: Değişim yüzdesi = (Cari yıl tutarı − Önceki yıl tutarı) / Önceki yıl tutarı × 100.",
+  "tuzaklar": {
+   "B": "−14,29 = (6.000 − 7.000) / 7.000; 2025 yerine 31 Mart 2026 tutarı kullanılmış.",
+   "C": "10,00 = 6.000 / 60.000; ticari borçların 31 Mart 2026 dikey yüzdesidir, değişim yüzdesi değil.",
+   "D": "12,07 = 7.000 / 58.000; ticari borçların 2024 dikey yüzdesidir, değişim yüzdesi değil.",
+   "E": "70,00 = 4.900 / 7.000 × 100; 2024 bazlı eğilim (trend) yüzdesidir. Değişim yüzdesi = 70 − 100 = −30."
+  },
+  "kartlar": [
+   {
+    "on": "Karşılaştırmalı tablolar analizinde değişim yüzdesi = ?",
+    "arka": "(Cari yıl − Önceki yıl) / Önceki yıl × 100. Azalış negatif çıkar."
+   }
+  ],
+  "konuBaglantisi": "Karşılaştırmalı tablolar analizi"
+ },
+ {
+  "id": "2026-2-FTA-20",
+  "sonuc": "E",
+  "ozet": "Kısa vadeli mali borçlar 20.000 → 24.200 ₺; değişim yüzdesi = (24.200 − 20.000) / 20.000 × 100 = %21,00.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> Değişim yüzdesi = (Cari yıl − Önceki yıl) / Önceki yıl × 100 (karşılaştırmalı tablolar / yatay analiz).</p>",
+   "<p><strong>2. Kalemin seçimi.</strong> “Kısa vadeli mali borçlar” bilançoda KISA VADELİ YAB. KAY. altındaki “Mali Borçlar” satırıdır: 31.12.2024 = 20.000 ₺; 31.12.2025 = 24.200 ₺. Uzun vadeli yabancı kaynaklar altındaki mali borçlar (7.000 → 13.000) ayrı bir kalemdir.</p>",
+   "<p><strong>3. Hesap.</strong> (24.200 − 20.000) / 20.000 = 4.200 / 20.000 = 0,21 → <strong>%21,00</strong>.</p>",
+   "<p><strong>4. Sonuç.</strong> Cevap <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Karşılaştırmalı tablolar (yatay) analizi: Değişim yüzdesi = (Cari yıl tutarı − Önceki yıl tutarı) / Önceki yıl tutarı × 100.",
+  "tuzaklar": {
+   "A": "121,00 = 24.200 / 20.000 × 100; 2024 bazlı eğilim (trend) yüzdesidir. Değişim yüzdesi = 121 − 100 = 21.",
+   "B": "85,50 = 17.100 / 20.000 × 100; 31 Mart 2026 tutarının 2024'e göre eğilim yüzdesidir; hem tarih hem yöntem yanlış.",
+   "C": "79,00 doğru formülle çıkmaz; kısa vadeli mali borçlar azalmamış, %21 artmıştır.",
+   "D": "28,75 doğru formülle çıkmaz; 2024-2025 değişimi 4.200 / 20.000 = %21'dir."
+  },
+  "kartlar": [
+   {
+    "on": "Eğilim yüzdesi 121 ise değişim yüzdesi?",
+    "arka": "121 − 100 = %21 artış (iki yıllık karşılaştırmada önceki yıl baz alındığında)."
+   }
+  ],
+  "konuBaglantisi": "Karşılaştırmalı tablolar analizi"
+ }
+]

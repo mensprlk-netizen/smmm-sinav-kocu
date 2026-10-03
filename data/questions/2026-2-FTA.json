@@ -1,0 +1,562 @@
+[
+ {
+  "id": "2026-2-FTA-01",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 1,
+  "konu": "Trend analizi",
+  "ortakBilgi": "<p><strong>1-2. soruları</strong> aşağıdaki verileri kullanarak cevaplandırınız.</p><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2022</th><th class=\"n\">31 Aralık 2023</th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th></tr><tr><td>Ticari Alacaklar</td><td class=\"n\">120.000</td><td class=\"n\">147.600</td><td class=\"n\">166.050</td><td class=\"n\">124.538</td></tr><tr><td>Stoklar</td><td class=\"n\">140.000</td><td class=\"n\">126.000</td><td class=\"n\">113.400</td><td class=\"n\">181.440</td></tr><tr><td><strong>Net Satışlar</strong></td><td class=\"n\">280.000</td><td class=\"n\">322.000</td><td class=\"n\">350.980</td><td class=\"n\">396.060</td></tr></table>",
+  "metin": "<p><strong>2022 yılını baz yıl alarak yapılan trend analizine göre stokların 31 Aralık 2024 tarihinde alacağı trend yüzdesi (%) aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>-19,00</p>",
+   "B": "<p>81,00</p>",
+   "C": "<p>90,00</p>",
+   "D": "<p>129,60</p>",
+   "E": "<p>160,00</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    430,
+    514,
+    126
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-02",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 2,
+  "konu": "Trend analizi",
+  "ortakBilgi": "<p><strong>1-2. soruları</strong> aşağıdaki verileri kullanarak cevaplandırınız.</p><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2022</th><th class=\"n\">31 Aralık 2023</th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th></tr><tr><td>Ticari Alacaklar</td><td class=\"n\">120.000</td><td class=\"n\">147.600</td><td class=\"n\">166.050</td><td class=\"n\">124.538</td></tr><tr><td>Stoklar</td><td class=\"n\">140.000</td><td class=\"n\">126.000</td><td class=\"n\">113.400</td><td class=\"n\">181.440</td></tr><tr><td><strong>Net Satışlar</strong></td><td class=\"n\">280.000</td><td class=\"n\">322.000</td><td class=\"n\">350.980</td><td class=\"n\">396.060</td></tr></table>",
+  "metin": "<p><strong>2023 yılını baz yıl alarak yapılan trend analizine göre net satışların 31 Aralık 2025 tarihinde alacağı trend yüzdesi (%) aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>23,00</p>",
+   "B": "<p>109,00</p>",
+   "C": "<p>112,84</p>",
+   "D": "<p>123,00</p>",
+   "E": "<p>141,45</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    1095,
+    490,
+    126
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-03",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 3,
+  "konu": "Faaliyet oranları",
+  "ortakBilgi": null,
+  "metin": "<p>Bir ticari firmanın 31 Aralık 2025 tarihli fiili verileri ve 30 Haziran 2026 tarihine ait satışların maliyeti tutarı aşağıda verilmiştir.</p><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">30 Haziran 2026</th></tr><tr><td>Satışların Maliyeti</td><td class=\"n\">150.000</td><td class=\"n\">190.000</td></tr><tr><td>Ticari Borç</td><td class=\"n\">34.000</td><td class=\"n\"></td></tr></table><p>Firma yönetimi, ticari borç ödeme süresinin 36 gün olmasını hedeflemektedir.</p><p><strong>Bu hedefi karşılamak için 30 Haziran 2026 tarihinde ticari borç tutarının kaç ₺ olması gerekir?</strong></p><p><em>(Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.)</em></p>",
+  "secenekler": {
+   "A": "<p>4.000</p>",
+   "B": "<p>19.000</p>",
+   "C": "<p>38.000</p>",
+   "D": "<p>42.000</p>",
+   "E": "<p>118.000</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    133,
+    519,
+    402
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-04",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 4,
+  "konu": "Mali yapı oranları",
+  "ortakBilgi": null,
+  "metin": "<p>Kaldıraç oranı, toplam yabancı kaynakların pasif toplamına bölünmesine göre hesaplanmaktadır. Bir mali analizde; pasif toplamı esas alınarak hesaplanan Devamlı Sermaye oranı %60 ve Uzun Vadeli Yabancı Kaynak oranı da %10 olarak hesaplanmıştır.</p><p><strong>Bu verilere göre kaldıraç oranı yüzde (%) kaçtır?</strong></p>",
+  "secenekler": {
+   "A": "<p>150</p>",
+   "B": "<p>90</p>",
+   "C": "<p>60</p>",
+   "D": "<p>50</p>",
+   "E": "<p>40</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    987,
+    514,
+    175
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-05",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 5,
+  "konu": "Dikey analiz",
+  "ortakBilgi": null,
+  "metin": "<p>Bir firmada gelir tablosunun dikey yüzde analizine göre faaliyet kârlılığı yüzdesi %15 ve brüt satışların yüzdesi %102 olarak hesaplanmıştır.</p><p><strong>Brüt satışların 510.000 ₺ olduğu durumda faaliyet kârı aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>65.000</p>",
+   "B": "<p>73.500</p>",
+   "C": "<p>75.000</p>",
+   "D": "<p>95.000</p>",
+   "E": "<p>105.000</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    133,
+    503,
+    181
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-06",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 6,
+  "konu": "Trend analizi",
+  "ortakBilgi": null,
+  "metin": "<p>Bir ticari firmanın 2022 ve 2025 yıllarına ait net satışlar ve ticari alacaklar arasındaki trend ilişkisi aşağıdaki grafikte gösterilmiştir.</p><p><em>[Grafik: 2022–2025 dönemi için çizgi grafiği; dikey eksen 0 – 30.000. Düz çizgi NET SATIŞLAR, kesikli çizgi TİCARİ ALACAKLAR serisidir ve her noktanın yanında tutarı yazılıdır. Yatay eksende beş dönem vardır; kitapçıkta dördüncü dönem de “2024” olarak etiketlenmiştir (2022, 2023, 2024, 2024, 2025). Grafiğin altındaki veri tablosu aşağıdadır; grafiğin kendisi için orijinal sayfaya bakınız.]</em></p><table class=\"veri\"><tr><th></th><th class=\"n\">2022</th><th class=\"n\">2023</th><th class=\"n\">2024</th><th class=\"n\">2024</th><th class=\"n\">2025</th></tr><tr><td>NET SATIŞLAR</td><td class=\"n\">10.000</td><td class=\"n\">14.000</td><td class=\"n\">19.000</td><td class=\"n\">23.000</td><td class=\"n\">26.000</td></tr><tr><td>TİCARİ ALACAKLAR</td><td class=\"n\">2.000</td><td class=\"n\">7.000</td><td class=\"n\">9.000</td><td class=\"n\">11.000</td><td class=\"n\">12.500</td></tr></table><p><strong>Bu grafik verilerine göre firma için aşağıdaki yorumlardan hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Firmanın brüt satış kârlılığı azalma eğilimindedir.</p>",
+   "B": "<p>Müşteriyi finanse etme süresi kısalmaktadır.</p>",
+   "C": "<p>Ortalama tahsilat süresi değişmemektedir.</p>",
+   "D": "<p>Ortalama satış vadeleri kısalmaktadır.</p>",
+   "E": "<p>Ortalama tahsilat süreleri uzamaktadır.</p>"
+  },
+  "dogru": "E",
+  "iptal": true,
+  "cevapNotu": "Bu soru TESMER cevap anahtarında İPTAL edilmiştir (kitapçıkta soru “Değerlendirme Dışı” damgalıdır); kitapçıkta işaretli şık: E.",
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    826,
+    503,
+    503
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-07",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 7,
+  "konu": "Trend analizi",
+  "ortakBilgi": null,
+  "metin": "<p>Bir ticari firmanın 2022 ve 2025 yıllarına ait dönen varlıklar, kısa vadeli yabancı kaynaklar ve stoklar arasındaki trend ilişkisi aşağıdaki grafikte gösterilmiştir.</p><p><em>[Grafik: 2022–2025 dönemi için çizgi grafiği; dikey eksen 0 – 35.000. Düz çizgi DÖNEN VARLIKLAR, kesikli çizgi KISA VADELİ YABANCI KAYNAKLAR, noktalı çizgi STOKLAR serisidir ve her noktanın yanında tutarı yazılıdır. Yatay eksende beş dönem vardır; kitapçıkta dördüncü dönem de “2024” olarak etiketlenmiştir (2022, 2023, 2024, 2024, 2025). Grafiğin altındaki veri tablosu aşağıdadır; grafiğin kendisi için orijinal sayfaya bakınız.]</em></p><table class=\"veri\"><tr><th></th><th class=\"n\">2022</th><th class=\"n\">2023</th><th class=\"n\">2024</th><th class=\"n\">2024</th><th class=\"n\">2025</th></tr><tr><td>DÖNEN VARLIKLAR</td><td class=\"n\">12.000</td><td class=\"n\">15.000</td><td class=\"n\">19.000</td><td class=\"n\">25.000</td><td class=\"n\">32.000</td></tr><tr><td>KISA VADELİ YABANCI KAYNAKLAR</td><td class=\"n\">8.000</td><td class=\"n\">9.500</td><td class=\"n\">10.000</td><td class=\"n\">13.000</td><td class=\"n\">16.000</td></tr><tr><td>STOKLAR</td><td class=\"n\">6.000</td><td class=\"n\">7.200</td><td class=\"n\">8.300</td><td class=\"n\">9.000</td><td class=\"n\">11.000</td></tr></table><p><strong>Bu grafik verilerine göre firma için aşağıdaki yorumlardan hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Likidite gücü iyileşmektedir.</p>",
+   "B": "<p>Likidite sorunu yaşanmaktadır.</p>",
+   "C": "<p>Likidite oranı azalmaktadır.</p>",
+   "D": "<p>Cari oran azalmaktadır.</p>",
+   "E": "<p>Stoklar, dönen varlıklardan daha fazla artmaktadır.</p>"
+  },
+  "dogru": "A",
+  "iptal": true,
+  "cevapNotu": "Bu soru TESMER cevap anahtarında İPTAL edilmiştir (kitapçıkta soru “Değerlendirme Dışı” damgalıdır); kitapçıkta işaretli şık: A.",
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    648,
+    133,
+    514,
+    534
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-08",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 8,
+  "konu": "Faaliyet oranları",
+  "ortakBilgi": "<p><strong>8-11. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Dönem Sonu Direkt İlk Madde ve Malzeme (DİMM) Stoku</td><td class=\"n\">42.000</td><td class=\"n\">28.000</td></tr><tr><td>DİMM Giderleri</td><td class=\"n\">128.000</td><td class=\"n\">43.750</td></tr><tr><td>Direkt İşçilik Giderleri</td><td class=\"n\">120.000</td><td class=\"n\">63.250</td></tr><tr><td>Genel Üretim Giderleri</td><td class=\"n\">140.000</td><td class=\"n\">37.000</td></tr><tr><td>Üretim Giderleri Toplamı</td><td class=\"n\">388.000</td><td class=\"n\">144.000</td></tr><tr><td>Dönem Başı Yarı Mamul Stoku</td><td class=\"n\">22.000</td><td class=\"n\">28.000</td></tr><tr><td>Dönem Sonu Yarı Mamul Stoku</td><td class=\"n\">28.000</td><td class=\"n\">22.000</td></tr><tr><td><strong>Dönemin Toplam Üretim Maliyeti</strong></td><td class=\"n\"><strong>382.000</strong></td><td class=\"n\"><strong>150.000</strong></td></tr><tr><td>Dönem Başı Mamul Stoku</td><td class=\"n\">18.000</td><td class=\"n\">20.000</td></tr><tr><td>Dönem Sonu Mamul Stoku</td><td class=\"n\">20.000</td><td class=\"n\">18.000</td></tr><tr><td><strong>Satılan Mamullerin Maliyeti</strong></td><td class=\"n\"><strong>380.000</strong></td><td class=\"n\"><strong>152.000</strong></td></tr><tr><td>Dönem Başı Ticari Mal Stoku</td><td class=\"n\">30.000</td><td class=\"n\">40.000</td></tr><tr><td>Dönem Sonu Ticari Mal Stoku</td><td class=\"n\">40.000</td><td class=\"n\">20.000</td></tr><tr><td><strong>Satılan Ticari Malların Maliyeti</strong></td><td class=\"n\"><strong>410.000</strong></td><td class=\"n\"><strong>150.000</strong></td></tr></table>",
+  "metin": "<p><strong>31 Mart 2026 itibari ile DİMM stoklarının ortalama devir süresi kaç gündür?</strong></p>",
+  "secenekler": {
+   "A": "<p>17</p>",
+   "B": "<p>21</p>",
+   "C": "<p>72</p>",
+   "D": "<p>84</p>",
+   "E": "<p>288</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    68,
+    701,
+    509,
+    104
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-09",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 9,
+  "konu": "Faaliyet oranları",
+  "ortakBilgi": "<p><strong>8-11. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Dönem Sonu Direkt İlk Madde ve Malzeme (DİMM) Stoku</td><td class=\"n\">42.000</td><td class=\"n\">28.000</td></tr><tr><td>DİMM Giderleri</td><td class=\"n\">128.000</td><td class=\"n\">43.750</td></tr><tr><td>Direkt İşçilik Giderleri</td><td class=\"n\">120.000</td><td class=\"n\">63.250</td></tr><tr><td>Genel Üretim Giderleri</td><td class=\"n\">140.000</td><td class=\"n\">37.000</td></tr><tr><td>Üretim Giderleri Toplamı</td><td class=\"n\">388.000</td><td class=\"n\">144.000</td></tr><tr><td>Dönem Başı Yarı Mamul Stoku</td><td class=\"n\">22.000</td><td class=\"n\">28.000</td></tr><tr><td>Dönem Sonu Yarı Mamul Stoku</td><td class=\"n\">28.000</td><td class=\"n\">22.000</td></tr><tr><td><strong>Dönemin Toplam Üretim Maliyeti</strong></td><td class=\"n\"><strong>382.000</strong></td><td class=\"n\"><strong>150.000</strong></td></tr><tr><td>Dönem Başı Mamul Stoku</td><td class=\"n\">18.000</td><td class=\"n\">20.000</td></tr><tr><td>Dönem Sonu Mamul Stoku</td><td class=\"n\">20.000</td><td class=\"n\">18.000</td></tr><tr><td><strong>Satılan Mamullerin Maliyeti</strong></td><td class=\"n\"><strong>380.000</strong></td><td class=\"n\"><strong>152.000</strong></td></tr><tr><td>Dönem Başı Ticari Mal Stoku</td><td class=\"n\">30.000</td><td class=\"n\">40.000</td></tr><tr><td>Dönem Sonu Ticari Mal Stoku</td><td class=\"n\">40.000</td><td class=\"n\">20.000</td></tr><tr><td><strong>Satılan Ticari Malların Maliyeti</strong></td><td class=\"n\"><strong>410.000</strong></td><td class=\"n\"><strong>150.000</strong></td></tr></table>",
+  "metin": "<p><strong>31 Mart 2026 itibari ile yarı mamul stoklarının ortalama devir süresi kaç gündür?</strong></p>",
+  "secenekler": {
+   "A": "<p>10,80</p>",
+   "B": "<p>13,20</p>",
+   "C": "<p>15,00</p>",
+   "D": "<p>60,00</p>",
+   "E": "<p>67,20</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    68,
+    1202,
+    508,
+    104
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-10",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 10,
+  "konu": "Faaliyet oranları",
+  "ortakBilgi": "<p><strong>8-11. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Dönem Sonu Direkt İlk Madde ve Malzeme (DİMM) Stoku</td><td class=\"n\">42.000</td><td class=\"n\">28.000</td></tr><tr><td>DİMM Giderleri</td><td class=\"n\">128.000</td><td class=\"n\">43.750</td></tr><tr><td>Direkt İşçilik Giderleri</td><td class=\"n\">120.000</td><td class=\"n\">63.250</td></tr><tr><td>Genel Üretim Giderleri</td><td class=\"n\">140.000</td><td class=\"n\">37.000</td></tr><tr><td>Üretim Giderleri Toplamı</td><td class=\"n\">388.000</td><td class=\"n\">144.000</td></tr><tr><td>Dönem Başı Yarı Mamul Stoku</td><td class=\"n\">22.000</td><td class=\"n\">28.000</td></tr><tr><td>Dönem Sonu Yarı Mamul Stoku</td><td class=\"n\">28.000</td><td class=\"n\">22.000</td></tr><tr><td><strong>Dönemin Toplam Üretim Maliyeti</strong></td><td class=\"n\"><strong>382.000</strong></td><td class=\"n\"><strong>150.000</strong></td></tr><tr><td>Dönem Başı Mamul Stoku</td><td class=\"n\">18.000</td><td class=\"n\">20.000</td></tr><tr><td>Dönem Sonu Mamul Stoku</td><td class=\"n\">20.000</td><td class=\"n\">18.000</td></tr><tr><td><strong>Satılan Mamullerin Maliyeti</strong></td><td class=\"n\"><strong>380.000</strong></td><td class=\"n\"><strong>152.000</strong></td></tr><tr><td>Dönem Başı Ticari Mal Stoku</td><td class=\"n\">30.000</td><td class=\"n\">40.000</td></tr><tr><td>Dönem Sonu Ticari Mal Stoku</td><td class=\"n\">40.000</td><td class=\"n\">20.000</td></tr><tr><td><strong>Satılan Ticari Malların Maliyeti</strong></td><td class=\"n\"><strong>410.000</strong></td><td class=\"n\"><strong>150.000</strong></td></tr></table>",
+  "metin": "<p><strong>31 Aralık 2025 itibari ile mamul stoklarına ilişkin stok devir hızı kaçtır?</strong></p>",
+  "secenekler": {
+   "A": "<p>4,50</p>",
+   "B": "<p>8</p>",
+   "C": "<p>11,25</p>",
+   "D": "<p>18</p>",
+   "E": "<p>20</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    133,
+    505,
+    104
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-11",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 11,
+  "konu": "Faaliyet oranları",
+  "ortakBilgi": "<p><strong>8-11. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Dönem Sonu Direkt İlk Madde ve Malzeme (DİMM) Stoku</td><td class=\"n\">42.000</td><td class=\"n\">28.000</td></tr><tr><td>DİMM Giderleri</td><td class=\"n\">128.000</td><td class=\"n\">43.750</td></tr><tr><td>Direkt İşçilik Giderleri</td><td class=\"n\">120.000</td><td class=\"n\">63.250</td></tr><tr><td>Genel Üretim Giderleri</td><td class=\"n\">140.000</td><td class=\"n\">37.000</td></tr><tr><td>Üretim Giderleri Toplamı</td><td class=\"n\">388.000</td><td class=\"n\">144.000</td></tr><tr><td>Dönem Başı Yarı Mamul Stoku</td><td class=\"n\">22.000</td><td class=\"n\">28.000</td></tr><tr><td>Dönem Sonu Yarı Mamul Stoku</td><td class=\"n\">28.000</td><td class=\"n\">22.000</td></tr><tr><td><strong>Dönemin Toplam Üretim Maliyeti</strong></td><td class=\"n\"><strong>382.000</strong></td><td class=\"n\"><strong>150.000</strong></td></tr><tr><td>Dönem Başı Mamul Stoku</td><td class=\"n\">18.000</td><td class=\"n\">20.000</td></tr><tr><td>Dönem Sonu Mamul Stoku</td><td class=\"n\">20.000</td><td class=\"n\">18.000</td></tr><tr><td><strong>Satılan Mamullerin Maliyeti</strong></td><td class=\"n\"><strong>380.000</strong></td><td class=\"n\"><strong>152.000</strong></td></tr><tr><td>Dönem Başı Ticari Mal Stoku</td><td class=\"n\">30.000</td><td class=\"n\">40.000</td></tr><tr><td>Dönem Sonu Ticari Mal Stoku</td><td class=\"n\">40.000</td><td class=\"n\">20.000</td></tr><tr><td><strong>Satılan Ticari Malların Maliyeti</strong></td><td class=\"n\"><strong>410.000</strong></td><td class=\"n\"><strong>150.000</strong></td></tr></table>",
+  "metin": "<p><strong>31 Mart 2026 itibari ile ticari mal stoklarının ortalama devir süresi kaç gündür?</strong></p>",
+  "secenekler": {
+   "A": "<p>12</p>",
+   "B": "<p>18</p>",
+   "C": "<p>24</p>",
+   "D": "<p>48</p>",
+   "E": "<p>72</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    856,
+    502,
+    76
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-12",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 12,
+  "konu": "İşletme sermayesi",
+  "ortakBilgi": "<p><strong>12-20. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th>VARLIKLAR</th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td><strong><em>DÖNEN VARLIKLAR</em></strong></td><td class=\"n\"><strong>21.060</strong></td><td class=\"n\"><strong>24.000</strong></td><td class=\"n\"><strong>18.000</strong></td></tr><tr><td>Hazır Değerler</td><td class=\"n\">3.850</td><td class=\"n\">5.300</td><td class=\"n\">1.500</td></tr><tr><td>Ticari Alacaklar</td><td class=\"n\">6.500</td><td class=\"n\">8.500</td><td class=\"n\">7.500</td></tr><tr><td>Diğer Alacaklar</td><td class=\"n\">2.060</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td>Stoklar</td><td class=\"n\">7.150</td><td class=\"n\">10.200</td><td class=\"n\">9.000</td></tr><tr><td>Diğer Dönen Varlıklar</td><td class=\"n\">1.500</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td><strong><em>DURAN VARLIKLAR</em></strong></td><td class=\"n\"><strong>36.940</strong></td><td class=\"n\"><strong>45.000</strong></td><td class=\"n\"><strong>42.000</strong></td></tr><tr><td>Maddi Duran Varlıklar</td><td class=\"n\">35.000</td><td class=\"n\">42.000</td><td class=\"n\">38.450</td></tr><tr><td>Maddi Olmayan Duran Varlıklar</td><td class=\"n\">1.940</td><td class=\"n\">3.000</td><td class=\"n\">3.550</td></tr><tr><td><strong><em>AKTİF (VARLIKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr><tr><th>KAYNAKLAR</th><th class=\"n\"></th><th class=\"n\"></th><th class=\"n\"></th></tr><tr><td><strong><em>KISA VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>24.000</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">20.000</td><td class=\"n\">24.200</td><td class=\"n\">17.100</td></tr><tr><td>Ticari Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">4.900</td><td class=\"n\">6.000</td></tr><tr><td>Diğer Borçlar</td><td class=\"n\">3.000</td><td class=\"n\">900</td><td class=\"n\">900</td></tr><tr><td><strong><em>UZUN VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>7.000</strong></td><td class=\"n\"><strong>13.000</strong></td><td class=\"n\"><strong>12.300</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">13.000</td><td class=\"n\">12.300</td></tr><tr><td><strong><em>ÖZ KAYNAKLAR</em></strong></td><td class=\"n\"><strong>21.000</strong></td><td class=\"n\"><strong>26.000</strong></td><td class=\"n\"><strong>23.700</strong></td></tr><tr><td>Ödenmiş Sermaye</td><td class=\"n\">20.000</td><td class=\"n\">22.700</td><td class=\"n\">22.700</td></tr><tr><td>Sermaye Yedekleri</td><td class=\"n\">200</td><td class=\"n\">2.100</td><td class=\"n\">500</td></tr><tr><td>Dönem Net Karı(Zararı)</td><td class=\"n\">800</td><td class=\"n\">1.200</td><td class=\"n\">500</td></tr><tr><td><strong><em>PASİF (KAYNAKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr></table><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Brüt Satışlar</td><td class=\"n\">34.000</td><td class=\"n\">42.000</td><td class=\"n\">12.300</td></tr><tr><td>Satış İndirimleri (-)</td><td class=\"n\">0</td><td class=\"n\">0</td><td class=\"n\">-300</td></tr><tr><td><strong>Net Satışlar</strong></td><td class=\"n\"><strong>34.000</strong></td><td class=\"n\"><strong>42.000</strong></td><td class=\"n\"><strong>12.000</strong></td></tr><tr><td>Satışların Maliyeti (-)</td><td class=\"n\">-26.860</td><td class=\"n\">-32.340</td><td class=\"n\">-9.000</td></tr><tr><td><strong>Brüt Satış Kârı Veya Zararı</strong></td><td class=\"n\"><strong>7.140</strong></td><td class=\"n\"><strong>9.660</strong></td><td class=\"n\"><strong>3.000</strong></td></tr><tr><td>Faaliyet Giderleri (-)</td><td class=\"n\">-4.536</td><td class=\"n\">-6.111</td><td class=\"n\">-1.560</td></tr><tr><td><strong>Faaliyet Kârı Veya Zararı</strong></td><td class=\"n\"><strong>2.604</strong></td><td class=\"n\"><strong>3.549</strong></td><td class=\"n\"><strong>1.440</strong></td></tr><tr><td>Finansman Giderleri (-)</td><td class=\"n\">-1.411</td><td class=\"n\">-1.890</td><td class=\"n\">-720</td></tr><tr><td>Dönem Kârı Veya Zararı</td><td class=\"n\">1.193</td><td class=\"n\">1.659</td><td class=\"n\">720</td></tr><tr><td>Dön. Kârı Vergi Ve Diğ.Yas.Yük.Karş.(-)</td><td class=\"n\">-298</td><td class=\"n\">-415</td><td class=\"n\">-180</td></tr><tr><td><strong>Dönem Net Kârı veya Zararı</strong></td><td class=\"n\"><strong>895</strong></td><td class=\"n\"><strong>1.244</strong></td><td class=\"n\"><strong>540</strong></td></tr></table>",
+  "metin": "<p><strong>2026 yılının 1. çeyrek sonunda brüt işletme sermayesi kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>– 6.000</p>",
+   "B": "<p>18.000</p>",
+   "C": "<p>22.700</p>",
+   "D": "<p>23.700</p>",
+   "E": "<p>36.000</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    976,
+    514,
+    104
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-13",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 13,
+  "konu": "Likidite oranları",
+  "ortakBilgi": "<p><strong>12-20. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th>VARLIKLAR</th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td><strong><em>DÖNEN VARLIKLAR</em></strong></td><td class=\"n\"><strong>21.060</strong></td><td class=\"n\"><strong>24.000</strong></td><td class=\"n\"><strong>18.000</strong></td></tr><tr><td>Hazır Değerler</td><td class=\"n\">3.850</td><td class=\"n\">5.300</td><td class=\"n\">1.500</td></tr><tr><td>Ticari Alacaklar</td><td class=\"n\">6.500</td><td class=\"n\">8.500</td><td class=\"n\">7.500</td></tr><tr><td>Diğer Alacaklar</td><td class=\"n\">2.060</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td>Stoklar</td><td class=\"n\">7.150</td><td class=\"n\">10.200</td><td class=\"n\">9.000</td></tr><tr><td>Diğer Dönen Varlıklar</td><td class=\"n\">1.500</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td><strong><em>DURAN VARLIKLAR</em></strong></td><td class=\"n\"><strong>36.940</strong></td><td class=\"n\"><strong>45.000</strong></td><td class=\"n\"><strong>42.000</strong></td></tr><tr><td>Maddi Duran Varlıklar</td><td class=\"n\">35.000</td><td class=\"n\">42.000</td><td class=\"n\">38.450</td></tr><tr><td>Maddi Olmayan Duran Varlıklar</td><td class=\"n\">1.940</td><td class=\"n\">3.000</td><td class=\"n\">3.550</td></tr><tr><td><strong><em>AKTİF (VARLIKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr><tr><th>KAYNAKLAR</th><th class=\"n\"></th><th class=\"n\"></th><th class=\"n\"></th></tr><tr><td><strong><em>KISA VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>24.000</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">20.000</td><td class=\"n\">24.200</td><td class=\"n\">17.100</td></tr><tr><td>Ticari Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">4.900</td><td class=\"n\">6.000</td></tr><tr><td>Diğer Borçlar</td><td class=\"n\">3.000</td><td class=\"n\">900</td><td class=\"n\">900</td></tr><tr><td><strong><em>UZUN VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>7.000</strong></td><td class=\"n\"><strong>13.000</strong></td><td class=\"n\"><strong>12.300</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">13.000</td><td class=\"n\">12.300</td></tr><tr><td><strong><em>ÖZ KAYNAKLAR</em></strong></td><td class=\"n\"><strong>21.000</strong></td><td class=\"n\"><strong>26.000</strong></td><td class=\"n\"><strong>23.700</strong></td></tr><tr><td>Ödenmiş Sermaye</td><td class=\"n\">20.000</td><td class=\"n\">22.700</td><td class=\"n\">22.700</td></tr><tr><td>Sermaye Yedekleri</td><td class=\"n\">200</td><td class=\"n\">2.100</td><td class=\"n\">500</td></tr><tr><td>Dönem Net Karı(Zararı)</td><td class=\"n\">800</td><td class=\"n\">1.200</td><td class=\"n\">500</td></tr><tr><td><strong><em>PASİF (KAYNAKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr></table><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Brüt Satışlar</td><td class=\"n\">34.000</td><td class=\"n\">42.000</td><td class=\"n\">12.300</td></tr><tr><td>Satış İndirimleri (-)</td><td class=\"n\">0</td><td class=\"n\">0</td><td class=\"n\">-300</td></tr><tr><td><strong>Net Satışlar</strong></td><td class=\"n\"><strong>34.000</strong></td><td class=\"n\"><strong>42.000</strong></td><td class=\"n\"><strong>12.000</strong></td></tr><tr><td>Satışların Maliyeti (-)</td><td class=\"n\">-26.860</td><td class=\"n\">-32.340</td><td class=\"n\">-9.000</td></tr><tr><td><strong>Brüt Satış Kârı Veya Zararı</strong></td><td class=\"n\"><strong>7.140</strong></td><td class=\"n\"><strong>9.660</strong></td><td class=\"n\"><strong>3.000</strong></td></tr><tr><td>Faaliyet Giderleri (-)</td><td class=\"n\">-4.536</td><td class=\"n\">-6.111</td><td class=\"n\">-1.560</td></tr><tr><td><strong>Faaliyet Kârı Veya Zararı</strong></td><td class=\"n\"><strong>2.604</strong></td><td class=\"n\"><strong>3.549</strong></td><td class=\"n\"><strong>1.440</strong></td></tr><tr><td>Finansman Giderleri (-)</td><td class=\"n\">-1.411</td><td class=\"n\">-1.890</td><td class=\"n\">-720</td></tr><tr><td>Dönem Kârı Veya Zararı</td><td class=\"n\">1.193</td><td class=\"n\">1.659</td><td class=\"n\">720</td></tr><tr><td>Dön. Kârı Vergi Ve Diğ.Yas.Yük.Karş.(-)</td><td class=\"n\">-298</td><td class=\"n\">-415</td><td class=\"n\">-180</td></tr><tr><td><strong>Dönem Net Kârı veya Zararı</strong></td><td class=\"n\"><strong>895</strong></td><td class=\"n\"><strong>1.244</strong></td><td class=\"n\"><strong>540</strong></td></tr></table>",
+  "metin": "<p><strong>2026 yılının 1. çeyrek sonunda cari oran aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>0,421</p>",
+   "B": "<p>0,702</p>",
+   "C": "<p>0,750</p>",
+   "D": "<p>0,800</p>",
+   "E": "<p>0,820</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    1354,
+    451,
+    104
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-14",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 14,
+  "konu": "Faaliyet oranları",
+  "ortakBilgi": "<p><strong>12-20. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th>VARLIKLAR</th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td><strong><em>DÖNEN VARLIKLAR</em></strong></td><td class=\"n\"><strong>21.060</strong></td><td class=\"n\"><strong>24.000</strong></td><td class=\"n\"><strong>18.000</strong></td></tr><tr><td>Hazır Değerler</td><td class=\"n\">3.850</td><td class=\"n\">5.300</td><td class=\"n\">1.500</td></tr><tr><td>Ticari Alacaklar</td><td class=\"n\">6.500</td><td class=\"n\">8.500</td><td class=\"n\">7.500</td></tr><tr><td>Diğer Alacaklar</td><td class=\"n\">2.060</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td>Stoklar</td><td class=\"n\">7.150</td><td class=\"n\">10.200</td><td class=\"n\">9.000</td></tr><tr><td>Diğer Dönen Varlıklar</td><td class=\"n\">1.500</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td><strong><em>DURAN VARLIKLAR</em></strong></td><td class=\"n\"><strong>36.940</strong></td><td class=\"n\"><strong>45.000</strong></td><td class=\"n\"><strong>42.000</strong></td></tr><tr><td>Maddi Duran Varlıklar</td><td class=\"n\">35.000</td><td class=\"n\">42.000</td><td class=\"n\">38.450</td></tr><tr><td>Maddi Olmayan Duran Varlıklar</td><td class=\"n\">1.940</td><td class=\"n\">3.000</td><td class=\"n\">3.550</td></tr><tr><td><strong><em>AKTİF (VARLIKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr><tr><th>KAYNAKLAR</th><th class=\"n\"></th><th class=\"n\"></th><th class=\"n\"></th></tr><tr><td><strong><em>KISA VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>24.000</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">20.000</td><td class=\"n\">24.200</td><td class=\"n\">17.100</td></tr><tr><td>Ticari Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">4.900</td><td class=\"n\">6.000</td></tr><tr><td>Diğer Borçlar</td><td class=\"n\">3.000</td><td class=\"n\">900</td><td class=\"n\">900</td></tr><tr><td><strong><em>UZUN VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>7.000</strong></td><td class=\"n\"><strong>13.000</strong></td><td class=\"n\"><strong>12.300</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">13.000</td><td class=\"n\">12.300</td></tr><tr><td><strong><em>ÖZ KAYNAKLAR</em></strong></td><td class=\"n\"><strong>21.000</strong></td><td class=\"n\"><strong>26.000</strong></td><td class=\"n\"><strong>23.700</strong></td></tr><tr><td>Ödenmiş Sermaye</td><td class=\"n\">20.000</td><td class=\"n\">22.700</td><td class=\"n\">22.700</td></tr><tr><td>Sermaye Yedekleri</td><td class=\"n\">200</td><td class=\"n\">2.100</td><td class=\"n\">500</td></tr><tr><td>Dönem Net Karı(Zararı)</td><td class=\"n\">800</td><td class=\"n\">1.200</td><td class=\"n\">500</td></tr><tr><td><strong><em>PASİF (KAYNAKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr></table><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Brüt Satışlar</td><td class=\"n\">34.000</td><td class=\"n\">42.000</td><td class=\"n\">12.300</td></tr><tr><td>Satış İndirimleri (-)</td><td class=\"n\">0</td><td class=\"n\">0</td><td class=\"n\">-300</td></tr><tr><td><strong>Net Satışlar</strong></td><td class=\"n\"><strong>34.000</strong></td><td class=\"n\"><strong>42.000</strong></td><td class=\"n\"><strong>12.000</strong></td></tr><tr><td>Satışların Maliyeti (-)</td><td class=\"n\">-26.860</td><td class=\"n\">-32.340</td><td class=\"n\">-9.000</td></tr><tr><td><strong>Brüt Satış Kârı Veya Zararı</strong></td><td class=\"n\"><strong>7.140</strong></td><td class=\"n\"><strong>9.660</strong></td><td class=\"n\"><strong>3.000</strong></td></tr><tr><td>Faaliyet Giderleri (-)</td><td class=\"n\">-4.536</td><td class=\"n\">-6.111</td><td class=\"n\">-1.560</td></tr><tr><td><strong>Faaliyet Kârı Veya Zararı</strong></td><td class=\"n\"><strong>2.604</strong></td><td class=\"n\"><strong>3.549</strong></td><td class=\"n\"><strong>1.440</strong></td></tr><tr><td>Finansman Giderleri (-)</td><td class=\"n\">-1.411</td><td class=\"n\">-1.890</td><td class=\"n\">-720</td></tr><tr><td>Dönem Kârı Veya Zararı</td><td class=\"n\">1.193</td><td class=\"n\">1.659</td><td class=\"n\">720</td></tr><tr><td>Dön. Kârı Vergi Ve Diğ.Yas.Yük.Karş.(-)</td><td class=\"n\">-298</td><td class=\"n\">-415</td><td class=\"n\">-180</td></tr><tr><td><strong>Dönem Net Kârı veya Zararı</strong></td><td class=\"n\"><strong>895</strong></td><td class=\"n\"><strong>1.244</strong></td><td class=\"n\"><strong>540</strong></td></tr></table>",
+  "metin": "<p><strong>2026 yılının 1. çeyrek sonunda ortalama ticari alacak tahsilat süresi kaç gündür?</strong></p>",
+  "secenekler": {
+   "A": "<p>300,00</p>",
+   "B": "<p>240,00</p>",
+   "C": "<p>75,00</p>",
+   "D": "<p>60,00</p>",
+   "E": "<p>56,25</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    133,
+    502,
+    104
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-15",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 15,
+  "konu": "Kârlılık oranları",
+  "ortakBilgi": "<p><strong>12-20. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th>VARLIKLAR</th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td><strong><em>DÖNEN VARLIKLAR</em></strong></td><td class=\"n\"><strong>21.060</strong></td><td class=\"n\"><strong>24.000</strong></td><td class=\"n\"><strong>18.000</strong></td></tr><tr><td>Hazır Değerler</td><td class=\"n\">3.850</td><td class=\"n\">5.300</td><td class=\"n\">1.500</td></tr><tr><td>Ticari Alacaklar</td><td class=\"n\">6.500</td><td class=\"n\">8.500</td><td class=\"n\">7.500</td></tr><tr><td>Diğer Alacaklar</td><td class=\"n\">2.060</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td>Stoklar</td><td class=\"n\">7.150</td><td class=\"n\">10.200</td><td class=\"n\">9.000</td></tr><tr><td>Diğer Dönen Varlıklar</td><td class=\"n\">1.500</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td><strong><em>DURAN VARLIKLAR</em></strong></td><td class=\"n\"><strong>36.940</strong></td><td class=\"n\"><strong>45.000</strong></td><td class=\"n\"><strong>42.000</strong></td></tr><tr><td>Maddi Duran Varlıklar</td><td class=\"n\">35.000</td><td class=\"n\">42.000</td><td class=\"n\">38.450</td></tr><tr><td>Maddi Olmayan Duran Varlıklar</td><td class=\"n\">1.940</td><td class=\"n\">3.000</td><td class=\"n\">3.550</td></tr><tr><td><strong><em>AKTİF (VARLIKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr><tr><th>KAYNAKLAR</th><th class=\"n\"></th><th class=\"n\"></th><th class=\"n\"></th></tr><tr><td><strong><em>KISA VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>24.000</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">20.000</td><td class=\"n\">24.200</td><td class=\"n\">17.100</td></tr><tr><td>Ticari Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">4.900</td><td class=\"n\">6.000</td></tr><tr><td>Diğer Borçlar</td><td class=\"n\">3.000</td><td class=\"n\">900</td><td class=\"n\">900</td></tr><tr><td><strong><em>UZUN VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>7.000</strong></td><td class=\"n\"><strong>13.000</strong></td><td class=\"n\"><strong>12.300</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">13.000</td><td class=\"n\">12.300</td></tr><tr><td><strong><em>ÖZ KAYNAKLAR</em></strong></td><td class=\"n\"><strong>21.000</strong></td><td class=\"n\"><strong>26.000</strong></td><td class=\"n\"><strong>23.700</strong></td></tr><tr><td>Ödenmiş Sermaye</td><td class=\"n\">20.000</td><td class=\"n\">22.700</td><td class=\"n\">22.700</td></tr><tr><td>Sermaye Yedekleri</td><td class=\"n\">200</td><td class=\"n\">2.100</td><td class=\"n\">500</td></tr><tr><td>Dönem Net Karı(Zararı)</td><td class=\"n\">800</td><td class=\"n\">1.200</td><td class=\"n\">500</td></tr><tr><td><strong><em>PASİF (KAYNAKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr></table><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Brüt Satışlar</td><td class=\"n\">34.000</td><td class=\"n\">42.000</td><td class=\"n\">12.300</td></tr><tr><td>Satış İndirimleri (-)</td><td class=\"n\">0</td><td class=\"n\">0</td><td class=\"n\">-300</td></tr><tr><td><strong>Net Satışlar</strong></td><td class=\"n\"><strong>34.000</strong></td><td class=\"n\"><strong>42.000</strong></td><td class=\"n\"><strong>12.000</strong></td></tr><tr><td>Satışların Maliyeti (-)</td><td class=\"n\">-26.860</td><td class=\"n\">-32.340</td><td class=\"n\">-9.000</td></tr><tr><td><strong>Brüt Satış Kârı Veya Zararı</strong></td><td class=\"n\"><strong>7.140</strong></td><td class=\"n\"><strong>9.660</strong></td><td class=\"n\"><strong>3.000</strong></td></tr><tr><td>Faaliyet Giderleri (-)</td><td class=\"n\">-4.536</td><td class=\"n\">-6.111</td><td class=\"n\">-1.560</td></tr><tr><td><strong>Faaliyet Kârı Veya Zararı</strong></td><td class=\"n\"><strong>2.604</strong></td><td class=\"n\"><strong>3.549</strong></td><td class=\"n\"><strong>1.440</strong></td></tr><tr><td>Finansman Giderleri (-)</td><td class=\"n\">-1.411</td><td class=\"n\">-1.890</td><td class=\"n\">-720</td></tr><tr><td>Dönem Kârı Veya Zararı</td><td class=\"n\">1.193</td><td class=\"n\">1.659</td><td class=\"n\">720</td></tr><tr><td>Dön. Kârı Vergi Ve Diğ.Yas.Yük.Karş.(-)</td><td class=\"n\">-298</td><td class=\"n\">-415</td><td class=\"n\">-180</td></tr><tr><td><strong>Dönem Net Kârı veya Zararı</strong></td><td class=\"n\"><strong>895</strong></td><td class=\"n\"><strong>1.244</strong></td><td class=\"n\"><strong>540</strong></td></tr></table>",
+  "metin": "<p><strong>2026 yılının 1. çeyrek sonunda brüt satışların kârlılığı yüzde (%) kaçtır?</strong></p>",
+  "secenekler": {
+   "A": "<p>24,39</p>",
+   "B": "<p>25,00</p>",
+   "C": "<p>33,33</p>",
+   "D": "<p>73,17</p>",
+   "E": "<p>75,00</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    647,
+    506,
+    104
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-16",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 16,
+  "konu": "Dikey analiz",
+  "ortakBilgi": "<p><strong>12-20. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th>VARLIKLAR</th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td><strong><em>DÖNEN VARLIKLAR</em></strong></td><td class=\"n\"><strong>21.060</strong></td><td class=\"n\"><strong>24.000</strong></td><td class=\"n\"><strong>18.000</strong></td></tr><tr><td>Hazır Değerler</td><td class=\"n\">3.850</td><td class=\"n\">5.300</td><td class=\"n\">1.500</td></tr><tr><td>Ticari Alacaklar</td><td class=\"n\">6.500</td><td class=\"n\">8.500</td><td class=\"n\">7.500</td></tr><tr><td>Diğer Alacaklar</td><td class=\"n\">2.060</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td>Stoklar</td><td class=\"n\">7.150</td><td class=\"n\">10.200</td><td class=\"n\">9.000</td></tr><tr><td>Diğer Dönen Varlıklar</td><td class=\"n\">1.500</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td><strong><em>DURAN VARLIKLAR</em></strong></td><td class=\"n\"><strong>36.940</strong></td><td class=\"n\"><strong>45.000</strong></td><td class=\"n\"><strong>42.000</strong></td></tr><tr><td>Maddi Duran Varlıklar</td><td class=\"n\">35.000</td><td class=\"n\">42.000</td><td class=\"n\">38.450</td></tr><tr><td>Maddi Olmayan Duran Varlıklar</td><td class=\"n\">1.940</td><td class=\"n\">3.000</td><td class=\"n\">3.550</td></tr><tr><td><strong><em>AKTİF (VARLIKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr><tr><th>KAYNAKLAR</th><th class=\"n\"></th><th class=\"n\"></th><th class=\"n\"></th></tr><tr><td><strong><em>KISA VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>24.000</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">20.000</td><td class=\"n\">24.200</td><td class=\"n\">17.100</td></tr><tr><td>Ticari Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">4.900</td><td class=\"n\">6.000</td></tr><tr><td>Diğer Borçlar</td><td class=\"n\">3.000</td><td class=\"n\">900</td><td class=\"n\">900</td></tr><tr><td><strong><em>UZUN VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>7.000</strong></td><td class=\"n\"><strong>13.000</strong></td><td class=\"n\"><strong>12.300</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">13.000</td><td class=\"n\">12.300</td></tr><tr><td><strong><em>ÖZ KAYNAKLAR</em></strong></td><td class=\"n\"><strong>21.000</strong></td><td class=\"n\"><strong>26.000</strong></td><td class=\"n\"><strong>23.700</strong></td></tr><tr><td>Ödenmiş Sermaye</td><td class=\"n\">20.000</td><td class=\"n\">22.700</td><td class=\"n\">22.700</td></tr><tr><td>Sermaye Yedekleri</td><td class=\"n\">200</td><td class=\"n\">2.100</td><td class=\"n\">500</td></tr><tr><td>Dönem Net Karı(Zararı)</td><td class=\"n\">800</td><td class=\"n\">1.200</td><td class=\"n\">500</td></tr><tr><td><strong><em>PASİF (KAYNAKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr></table><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Brüt Satışlar</td><td class=\"n\">34.000</td><td class=\"n\">42.000</td><td class=\"n\">12.300</td></tr><tr><td>Satış İndirimleri (-)</td><td class=\"n\">0</td><td class=\"n\">0</td><td class=\"n\">-300</td></tr><tr><td><strong>Net Satışlar</strong></td><td class=\"n\"><strong>34.000</strong></td><td class=\"n\"><strong>42.000</strong></td><td class=\"n\"><strong>12.000</strong></td></tr><tr><td>Satışların Maliyeti (-)</td><td class=\"n\">-26.860</td><td class=\"n\">-32.340</td><td class=\"n\">-9.000</td></tr><tr><td><strong>Brüt Satış Kârı Veya Zararı</strong></td><td class=\"n\"><strong>7.140</strong></td><td class=\"n\"><strong>9.660</strong></td><td class=\"n\"><strong>3.000</strong></td></tr><tr><td>Faaliyet Giderleri (-)</td><td class=\"n\">-4.536</td><td class=\"n\">-6.111</td><td class=\"n\">-1.560</td></tr><tr><td><strong>Faaliyet Kârı Veya Zararı</strong></td><td class=\"n\"><strong>2.604</strong></td><td class=\"n\"><strong>3.549</strong></td><td class=\"n\"><strong>1.440</strong></td></tr><tr><td>Finansman Giderleri (-)</td><td class=\"n\">-1.411</td><td class=\"n\">-1.890</td><td class=\"n\">-720</td></tr><tr><td>Dönem Kârı Veya Zararı</td><td class=\"n\">1.193</td><td class=\"n\">1.659</td><td class=\"n\">720</td></tr><tr><td>Dön. Kârı Vergi Ve Diğ.Yas.Yük.Karş.(-)</td><td class=\"n\">-298</td><td class=\"n\">-415</td><td class=\"n\">-180</td></tr><tr><td><strong>Dönem Net Kârı veya Zararı</strong></td><td class=\"n\"><strong>895</strong></td><td class=\"n\"><strong>1.244</strong></td><td class=\"n\"><strong>540</strong></td></tr></table>",
+  "metin": "<p><strong>2025 dönemi sonunda dönem kârı veya zararının dikey yüzdesi (%) kaçtır?</strong></p>",
+  "secenekler": {
+   "A": "<p>3,95</p>",
+   "B": "<p>4,50</p>",
+   "C": "<p>5,00</p>",
+   "D": "<p>7,90</p>",
+   "E": "<p>17,00</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    1147,
+    522,
+    104
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-17",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 17,
+  "konu": "Dikey analiz",
+  "ortakBilgi": "<p><strong>12-20. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th>VARLIKLAR</th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td><strong><em>DÖNEN VARLIKLAR</em></strong></td><td class=\"n\"><strong>21.060</strong></td><td class=\"n\"><strong>24.000</strong></td><td class=\"n\"><strong>18.000</strong></td></tr><tr><td>Hazır Değerler</td><td class=\"n\">3.850</td><td class=\"n\">5.300</td><td class=\"n\">1.500</td></tr><tr><td>Ticari Alacaklar</td><td class=\"n\">6.500</td><td class=\"n\">8.500</td><td class=\"n\">7.500</td></tr><tr><td>Diğer Alacaklar</td><td class=\"n\">2.060</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td>Stoklar</td><td class=\"n\">7.150</td><td class=\"n\">10.200</td><td class=\"n\">9.000</td></tr><tr><td>Diğer Dönen Varlıklar</td><td class=\"n\">1.500</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td><strong><em>DURAN VARLIKLAR</em></strong></td><td class=\"n\"><strong>36.940</strong></td><td class=\"n\"><strong>45.000</strong></td><td class=\"n\"><strong>42.000</strong></td></tr><tr><td>Maddi Duran Varlıklar</td><td class=\"n\">35.000</td><td class=\"n\">42.000</td><td class=\"n\">38.450</td></tr><tr><td>Maddi Olmayan Duran Varlıklar</td><td class=\"n\">1.940</td><td class=\"n\">3.000</td><td class=\"n\">3.550</td></tr><tr><td><strong><em>AKTİF (VARLIKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr><tr><th>KAYNAKLAR</th><th class=\"n\"></th><th class=\"n\"></th><th class=\"n\"></th></tr><tr><td><strong><em>KISA VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>24.000</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">20.000</td><td class=\"n\">24.200</td><td class=\"n\">17.100</td></tr><tr><td>Ticari Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">4.900</td><td class=\"n\">6.000</td></tr><tr><td>Diğer Borçlar</td><td class=\"n\">3.000</td><td class=\"n\">900</td><td class=\"n\">900</td></tr><tr><td><strong><em>UZUN VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>7.000</strong></td><td class=\"n\"><strong>13.000</strong></td><td class=\"n\"><strong>12.300</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">13.000</td><td class=\"n\">12.300</td></tr><tr><td><strong><em>ÖZ KAYNAKLAR</em></strong></td><td class=\"n\"><strong>21.000</strong></td><td class=\"n\"><strong>26.000</strong></td><td class=\"n\"><strong>23.700</strong></td></tr><tr><td>Ödenmiş Sermaye</td><td class=\"n\">20.000</td><td class=\"n\">22.700</td><td class=\"n\">22.700</td></tr><tr><td>Sermaye Yedekleri</td><td class=\"n\">200</td><td class=\"n\">2.100</td><td class=\"n\">500</td></tr><tr><td>Dönem Net Karı(Zararı)</td><td class=\"n\">800</td><td class=\"n\">1.200</td><td class=\"n\">500</td></tr><tr><td><strong><em>PASİF (KAYNAKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr></table><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Brüt Satışlar</td><td class=\"n\">34.000</td><td class=\"n\">42.000</td><td class=\"n\">12.300</td></tr><tr><td>Satış İndirimleri (-)</td><td class=\"n\">0</td><td class=\"n\">0</td><td class=\"n\">-300</td></tr><tr><td><strong>Net Satışlar</strong></td><td class=\"n\"><strong>34.000</strong></td><td class=\"n\"><strong>42.000</strong></td><td class=\"n\"><strong>12.000</strong></td></tr><tr><td>Satışların Maliyeti (-)</td><td class=\"n\">-26.860</td><td class=\"n\">-32.340</td><td class=\"n\">-9.000</td></tr><tr><td><strong>Brüt Satış Kârı Veya Zararı</strong></td><td class=\"n\"><strong>7.140</strong></td><td class=\"n\"><strong>9.660</strong></td><td class=\"n\"><strong>3.000</strong></td></tr><tr><td>Faaliyet Giderleri (-)</td><td class=\"n\">-4.536</td><td class=\"n\">-6.111</td><td class=\"n\">-1.560</td></tr><tr><td><strong>Faaliyet Kârı Veya Zararı</strong></td><td class=\"n\"><strong>2.604</strong></td><td class=\"n\"><strong>3.549</strong></td><td class=\"n\"><strong>1.440</strong></td></tr><tr><td>Finansman Giderleri (-)</td><td class=\"n\">-1.411</td><td class=\"n\">-1.890</td><td class=\"n\">-720</td></tr><tr><td>Dönem Kârı Veya Zararı</td><td class=\"n\">1.193</td><td class=\"n\">1.659</td><td class=\"n\">720</td></tr><tr><td>Dön. Kârı Vergi Ve Diğ.Yas.Yük.Karş.(-)</td><td class=\"n\">-298</td><td class=\"n\">-415</td><td class=\"n\">-180</td></tr><tr><td><strong>Dönem Net Kârı veya Zararı</strong></td><td class=\"n\"><strong>895</strong></td><td class=\"n\"><strong>1.244</strong></td><td class=\"n\"><strong>540</strong></td></tr></table>",
+  "metin": "<p><strong>Dikey yüzde yöntemine göre 2026 yılının 1. çeyrek dönemi sonunda toplam mali borçların dikey yüzdesi (%) kaçtır?</strong></p>",
+  "secenekler": {
+   "A": "<p>20,50</p>",
+   "B": "<p>28,50</p>",
+   "C": "<p>40,00</p>",
+   "D": "<p>49,00</p>",
+   "E": "<p>60,50</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    57,
+    133,
+    508,
+    126
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-18",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 18,
+  "konu": "Dikey analiz",
+  "ortakBilgi": "<p><strong>12-20. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th>VARLIKLAR</th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td><strong><em>DÖNEN VARLIKLAR</em></strong></td><td class=\"n\"><strong>21.060</strong></td><td class=\"n\"><strong>24.000</strong></td><td class=\"n\"><strong>18.000</strong></td></tr><tr><td>Hazır Değerler</td><td class=\"n\">3.850</td><td class=\"n\">5.300</td><td class=\"n\">1.500</td></tr><tr><td>Ticari Alacaklar</td><td class=\"n\">6.500</td><td class=\"n\">8.500</td><td class=\"n\">7.500</td></tr><tr><td>Diğer Alacaklar</td><td class=\"n\">2.060</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td>Stoklar</td><td class=\"n\">7.150</td><td class=\"n\">10.200</td><td class=\"n\">9.000</td></tr><tr><td>Diğer Dönen Varlıklar</td><td class=\"n\">1.500</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td><strong><em>DURAN VARLIKLAR</em></strong></td><td class=\"n\"><strong>36.940</strong></td><td class=\"n\"><strong>45.000</strong></td><td class=\"n\"><strong>42.000</strong></td></tr><tr><td>Maddi Duran Varlıklar</td><td class=\"n\">35.000</td><td class=\"n\">42.000</td><td class=\"n\">38.450</td></tr><tr><td>Maddi Olmayan Duran Varlıklar</td><td class=\"n\">1.940</td><td class=\"n\">3.000</td><td class=\"n\">3.550</td></tr><tr><td><strong><em>AKTİF (VARLIKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr><tr><th>KAYNAKLAR</th><th class=\"n\"></th><th class=\"n\"></th><th class=\"n\"></th></tr><tr><td><strong><em>KISA VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>24.000</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">20.000</td><td class=\"n\">24.200</td><td class=\"n\">17.100</td></tr><tr><td>Ticari Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">4.900</td><td class=\"n\">6.000</td></tr><tr><td>Diğer Borçlar</td><td class=\"n\">3.000</td><td class=\"n\">900</td><td class=\"n\">900</td></tr><tr><td><strong><em>UZUN VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>7.000</strong></td><td class=\"n\"><strong>13.000</strong></td><td class=\"n\"><strong>12.300</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">13.000</td><td class=\"n\">12.300</td></tr><tr><td><strong><em>ÖZ KAYNAKLAR</em></strong></td><td class=\"n\"><strong>21.000</strong></td><td class=\"n\"><strong>26.000</strong></td><td class=\"n\"><strong>23.700</strong></td></tr><tr><td>Ödenmiş Sermaye</td><td class=\"n\">20.000</td><td class=\"n\">22.700</td><td class=\"n\">22.700</td></tr><tr><td>Sermaye Yedekleri</td><td class=\"n\">200</td><td class=\"n\">2.100</td><td class=\"n\">500</td></tr><tr><td>Dönem Net Karı(Zararı)</td><td class=\"n\">800</td><td class=\"n\">1.200</td><td class=\"n\">500</td></tr><tr><td><strong><em>PASİF (KAYNAKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr></table><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Brüt Satışlar</td><td class=\"n\">34.000</td><td class=\"n\">42.000</td><td class=\"n\">12.300</td></tr><tr><td>Satış İndirimleri (-)</td><td class=\"n\">0</td><td class=\"n\">0</td><td class=\"n\">-300</td></tr><tr><td><strong>Net Satışlar</strong></td><td class=\"n\"><strong>34.000</strong></td><td class=\"n\"><strong>42.000</strong></td><td class=\"n\"><strong>12.000</strong></td></tr><tr><td>Satışların Maliyeti (-)</td><td class=\"n\">-26.860</td><td class=\"n\">-32.340</td><td class=\"n\">-9.000</td></tr><tr><td><strong>Brüt Satış Kârı Veya Zararı</strong></td><td class=\"n\"><strong>7.140</strong></td><td class=\"n\"><strong>9.660</strong></td><td class=\"n\"><strong>3.000</strong></td></tr><tr><td>Faaliyet Giderleri (-)</td><td class=\"n\">-4.536</td><td class=\"n\">-6.111</td><td class=\"n\">-1.560</td></tr><tr><td><strong>Faaliyet Kârı Veya Zararı</strong></td><td class=\"n\"><strong>2.604</strong></td><td class=\"n\"><strong>3.549</strong></td><td class=\"n\"><strong>1.440</strong></td></tr><tr><td>Finansman Giderleri (-)</td><td class=\"n\">-1.411</td><td class=\"n\">-1.890</td><td class=\"n\">-720</td></tr><tr><td>Dönem Kârı Veya Zararı</td><td class=\"n\">1.193</td><td class=\"n\">1.659</td><td class=\"n\">720</td></tr><tr><td>Dön. Kârı Vergi Ve Diğ.Yas.Yük.Karş.(-)</td><td class=\"n\">-298</td><td class=\"n\">-415</td><td class=\"n\">-180</td></tr><tr><td><strong>Dönem Net Kârı veya Zararı</strong></td><td class=\"n\"><strong>895</strong></td><td class=\"n\"><strong>1.244</strong></td><td class=\"n\"><strong>540</strong></td></tr></table>",
+  "metin": "<p><strong>Dikey yüzde yöntemine göre 2026 yılının 1. çeyrek dönemi sonunda satış indirimlerinin dikey yüzdesi (%) kaçtır?</strong></p>",
+  "secenekler": {
+   "A": "<p>2,44</p>",
+   "B": "<p>2,50</p>",
+   "C": "<p>3,33</p>",
+   "D": "<p>10,00</p>",
+   "E": "<p>102,50</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    57,
+    822,
+    520,
+    126
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-19",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 19,
+  "konu": "Karşılaştırmalı tablolar analizi",
+  "ortakBilgi": "<p><strong>12-20. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th>VARLIKLAR</th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td><strong><em>DÖNEN VARLIKLAR</em></strong></td><td class=\"n\"><strong>21.060</strong></td><td class=\"n\"><strong>24.000</strong></td><td class=\"n\"><strong>18.000</strong></td></tr><tr><td>Hazır Değerler</td><td class=\"n\">3.850</td><td class=\"n\">5.300</td><td class=\"n\">1.500</td></tr><tr><td>Ticari Alacaklar</td><td class=\"n\">6.500</td><td class=\"n\">8.500</td><td class=\"n\">7.500</td></tr><tr><td>Diğer Alacaklar</td><td class=\"n\">2.060</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td>Stoklar</td><td class=\"n\">7.150</td><td class=\"n\">10.200</td><td class=\"n\">9.000</td></tr><tr><td>Diğer Dönen Varlıklar</td><td class=\"n\">1.500</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td><strong><em>DURAN VARLIKLAR</em></strong></td><td class=\"n\"><strong>36.940</strong></td><td class=\"n\"><strong>45.000</strong></td><td class=\"n\"><strong>42.000</strong></td></tr><tr><td>Maddi Duran Varlıklar</td><td class=\"n\">35.000</td><td class=\"n\">42.000</td><td class=\"n\">38.450</td></tr><tr><td>Maddi Olmayan Duran Varlıklar</td><td class=\"n\">1.940</td><td class=\"n\">3.000</td><td class=\"n\">3.550</td></tr><tr><td><strong><em>AKTİF (VARLIKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr><tr><th>KAYNAKLAR</th><th class=\"n\"></th><th class=\"n\"></th><th class=\"n\"></th></tr><tr><td><strong><em>KISA VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>24.000</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">20.000</td><td class=\"n\">24.200</td><td class=\"n\">17.100</td></tr><tr><td>Ticari Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">4.900</td><td class=\"n\">6.000</td></tr><tr><td>Diğer Borçlar</td><td class=\"n\">3.000</td><td class=\"n\">900</td><td class=\"n\">900</td></tr><tr><td><strong><em>UZUN VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>7.000</strong></td><td class=\"n\"><strong>13.000</strong></td><td class=\"n\"><strong>12.300</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">13.000</td><td class=\"n\">12.300</td></tr><tr><td><strong><em>ÖZ KAYNAKLAR</em></strong></td><td class=\"n\"><strong>21.000</strong></td><td class=\"n\"><strong>26.000</strong></td><td class=\"n\"><strong>23.700</strong></td></tr><tr><td>Ödenmiş Sermaye</td><td class=\"n\">20.000</td><td class=\"n\">22.700</td><td class=\"n\">22.700</td></tr><tr><td>Sermaye Yedekleri</td><td class=\"n\">200</td><td class=\"n\">2.100</td><td class=\"n\">500</td></tr><tr><td>Dönem Net Karı(Zararı)</td><td class=\"n\">800</td><td class=\"n\">1.200</td><td class=\"n\">500</td></tr><tr><td><strong><em>PASİF (KAYNAKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr></table><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Brüt Satışlar</td><td class=\"n\">34.000</td><td class=\"n\">42.000</td><td class=\"n\">12.300</td></tr><tr><td>Satış İndirimleri (-)</td><td class=\"n\">0</td><td class=\"n\">0</td><td class=\"n\">-300</td></tr><tr><td><strong>Net Satışlar</strong></td><td class=\"n\"><strong>34.000</strong></td><td class=\"n\"><strong>42.000</strong></td><td class=\"n\"><strong>12.000</strong></td></tr><tr><td>Satışların Maliyeti (-)</td><td class=\"n\">-26.860</td><td class=\"n\">-32.340</td><td class=\"n\">-9.000</td></tr><tr><td><strong>Brüt Satış Kârı Veya Zararı</strong></td><td class=\"n\"><strong>7.140</strong></td><td class=\"n\"><strong>9.660</strong></td><td class=\"n\"><strong>3.000</strong></td></tr><tr><td>Faaliyet Giderleri (-)</td><td class=\"n\">-4.536</td><td class=\"n\">-6.111</td><td class=\"n\">-1.560</td></tr><tr><td><strong>Faaliyet Kârı Veya Zararı</strong></td><td class=\"n\"><strong>2.604</strong></td><td class=\"n\"><strong>3.549</strong></td><td class=\"n\"><strong>1.440</strong></td></tr><tr><td>Finansman Giderleri (-)</td><td class=\"n\">-1.411</td><td class=\"n\">-1.890</td><td class=\"n\">-720</td></tr><tr><td>Dönem Kârı Veya Zararı</td><td class=\"n\">1.193</td><td class=\"n\">1.659</td><td class=\"n\">720</td></tr><tr><td>Dön. Kârı Vergi Ve Diğ.Yas.Yük.Karş.(-)</td><td class=\"n\">-298</td><td class=\"n\">-415</td><td class=\"n\">-180</td></tr><tr><td><strong>Dönem Net Kârı veya Zararı</strong></td><td class=\"n\"><strong>895</strong></td><td class=\"n\"><strong>1.244</strong></td><td class=\"n\"><strong>540</strong></td></tr></table>",
+  "metin": "<p><strong>Karşılaştırmalı tablolar analizi yöntemi kullanılarak hesaplanan ticari borçların 2024 ve 2025 yılları arasındaki değişim yüzdesi (%) kaçtır?</strong></p>",
+  "secenekler": {
+   "A": "<p>-30,00</p>",
+   "B": "<p>-14,29</p>",
+   "C": "<p>10,00</p>",
+   "D": "<p>12,07</p>",
+   "E": "<p>70,00</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    638,
+    133,
+    486,
+    126
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FTA-20",
+  "donem": "2026-2",
+  "ders": "FTA",
+  "no": 20,
+  "konu": "Karşılaştırmalı tablolar analizi",
+  "ortakBilgi": "<p><strong>12-20. soruları aşağıdaki bilgilere göre birbirinden bağımsız olarak cevaplayınız.</strong></p><p><em>Devir hızlarında ilgili formüllerde ortalama değeri kullanınız ve 360 günü kullanarak hesaplama yapınız. Ay bazında hesaplamalarda 30 gün ve katlarını kullanınız.</em></p><table class=\"veri\"><tr><th>VARLIKLAR</th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td><strong><em>DÖNEN VARLIKLAR</em></strong></td><td class=\"n\"><strong>21.060</strong></td><td class=\"n\"><strong>24.000</strong></td><td class=\"n\"><strong>18.000</strong></td></tr><tr><td>Hazır Değerler</td><td class=\"n\">3.850</td><td class=\"n\">5.300</td><td class=\"n\">1.500</td></tr><tr><td>Ticari Alacaklar</td><td class=\"n\">6.500</td><td class=\"n\">8.500</td><td class=\"n\">7.500</td></tr><tr><td>Diğer Alacaklar</td><td class=\"n\">2.060</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td>Stoklar</td><td class=\"n\">7.150</td><td class=\"n\">10.200</td><td class=\"n\">9.000</td></tr><tr><td>Diğer Dönen Varlıklar</td><td class=\"n\">1.500</td><td class=\"n\"></td><td class=\"n\"></td></tr><tr><td><strong><em>DURAN VARLIKLAR</em></strong></td><td class=\"n\"><strong>36.940</strong></td><td class=\"n\"><strong>45.000</strong></td><td class=\"n\"><strong>42.000</strong></td></tr><tr><td>Maddi Duran Varlıklar</td><td class=\"n\">35.000</td><td class=\"n\">42.000</td><td class=\"n\">38.450</td></tr><tr><td>Maddi Olmayan Duran Varlıklar</td><td class=\"n\">1.940</td><td class=\"n\">3.000</td><td class=\"n\">3.550</td></tr><tr><td><strong><em>AKTİF (VARLIKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr><tr><th>KAYNAKLAR</th><th class=\"n\"></th><th class=\"n\"></th><th class=\"n\"></th></tr><tr><td><strong><em>KISA VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>30.000</strong></td><td class=\"n\"><strong>24.000</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">20.000</td><td class=\"n\">24.200</td><td class=\"n\">17.100</td></tr><tr><td>Ticari Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">4.900</td><td class=\"n\">6.000</td></tr><tr><td>Diğer Borçlar</td><td class=\"n\">3.000</td><td class=\"n\">900</td><td class=\"n\">900</td></tr><tr><td><strong><em>UZUN VADELİ YAB. KAY.</em></strong></td><td class=\"n\"><strong>7.000</strong></td><td class=\"n\"><strong>13.000</strong></td><td class=\"n\"><strong>12.300</strong></td></tr><tr><td>Mali Borçlar</td><td class=\"n\">7.000</td><td class=\"n\">13.000</td><td class=\"n\">12.300</td></tr><tr><td><strong><em>ÖZ KAYNAKLAR</em></strong></td><td class=\"n\"><strong>21.000</strong></td><td class=\"n\"><strong>26.000</strong></td><td class=\"n\"><strong>23.700</strong></td></tr><tr><td>Ödenmiş Sermaye</td><td class=\"n\">20.000</td><td class=\"n\">22.700</td><td class=\"n\">22.700</td></tr><tr><td>Sermaye Yedekleri</td><td class=\"n\">200</td><td class=\"n\">2.100</td><td class=\"n\">500</td></tr><tr><td>Dönem Net Karı(Zararı)</td><td class=\"n\">800</td><td class=\"n\">1.200</td><td class=\"n\">500</td></tr><tr><td><strong><em>PASİF (KAYNAKLAR) TOPLAMI</em></strong></td><td class=\"n\"><strong>58.000</strong></td><td class=\"n\"><strong>69.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr></table><table class=\"veri\"><tr><th></th><th class=\"n\">31 Aralık 2024</th><th class=\"n\">31 Aralık 2025</th><th class=\"n\">31 Mart 2026</th></tr><tr><td>Brüt Satışlar</td><td class=\"n\">34.000</td><td class=\"n\">42.000</td><td class=\"n\">12.300</td></tr><tr><td>Satış İndirimleri (-)</td><td class=\"n\">0</td><td class=\"n\">0</td><td class=\"n\">-300</td></tr><tr><td><strong>Net Satışlar</strong></td><td class=\"n\"><strong>34.000</strong></td><td class=\"n\"><strong>42.000</strong></td><td class=\"n\"><strong>12.000</strong></td></tr><tr><td>Satışların Maliyeti (-)</td><td class=\"n\">-26.860</td><td class=\"n\">-32.340</td><td class=\"n\">-9.000</td></tr><tr><td><strong>Brüt Satış Kârı Veya Zararı</strong></td><td class=\"n\"><strong>7.140</strong></td><td class=\"n\"><strong>9.660</strong></td><td class=\"n\"><strong>3.000</strong></td></tr><tr><td>Faaliyet Giderleri (-)</td><td class=\"n\">-4.536</td><td class=\"n\">-6.111</td><td class=\"n\">-1.560</td></tr><tr><td><strong>Faaliyet Kârı Veya Zararı</strong></td><td class=\"n\"><strong>2.604</strong></td><td class=\"n\"><strong>3.549</strong></td><td class=\"n\"><strong>1.440</strong></td></tr><tr><td>Finansman Giderleri (-)</td><td class=\"n\">-1.411</td><td class=\"n\">-1.890</td><td class=\"n\">-720</td></tr><tr><td>Dönem Kârı Veya Zararı</td><td class=\"n\">1.193</td><td class=\"n\">1.659</td><td class=\"n\">720</td></tr><tr><td>Dön. Kârı Vergi Ve Diğ.Yas.Yük.Karş.(-)</td><td class=\"n\">-298</td><td class=\"n\">-415</td><td class=\"n\">-180</td></tr><tr><td><strong>Dönem Net Kârı veya Zararı</strong></td><td class=\"n\"><strong>895</strong></td><td class=\"n\"><strong>1.244</strong></td><td class=\"n\"><strong>540</strong></td></tr></table>",
+  "metin": "<p><strong>Karşılaştırmalı tablolar analizi yöntemi kullanılarak hesaplanan kısa vadeli mali borçların 2024 ve 2025 yılları arasındaki değişim yüzdesi (%) kaçtır?</strong></p>",
+  "secenekler": {
+   "A": "<p>121,00</p>",
+   "B": "<p>85,50</p>",
+   "C": "<p>79,00</p>",
+   "D": "<p>28,75</p>",
+   "E": "<p>21,00</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    638,
+    822,
+    488,
+    126
+   ]
+  }
+ }
+]
