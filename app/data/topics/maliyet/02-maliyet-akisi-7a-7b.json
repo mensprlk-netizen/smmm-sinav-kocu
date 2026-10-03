@@ -1,0 +1,198 @@
+{
+ "kod": "02-maliyet-akisi-7a-7b",
+ "sira": 2,
+ "baslik": "Maliyet Akışı, 7/A ve 7/B Seçenekleri",
+ "amac": "Maliyetin 150'den 620'ye akışını dört formülle hesaplamak; 7/A'da fonksiyonel gider, yansıtma ve fark hesaplarını, 7/B'de gider çeşitleri ile 798-799 hesaplarını dönem sonu kayıtlarıyla birlikte doğru kullanmak.",
+ "bolumler": [
+  {
+   "baslik": "Maliyet akışı ve dört formül",
+   "html": "<p>Üretim işletmesinde maliyet stoklardan gider hesaplarına, oradan yarı mamul ve mamul stoklarına, satışta da gelir tablosuna akar: 150 İlk Madde ve Malzeme → 710, 720, 730 (yansıtma: 711, 721, 731) → 151 Yarı Mamuller – Üretim → 152 Mamuller → 620 Satılan Mamuller Maliyeti.</p><p><strong>Kullanılan DİMM = DB DİMM stoku + Alımlar − DS DİMM stoku</strong></p><p><strong>Dönemin üretim maliyeti = DİMM + Dİ + GÜG</strong></p><p><strong>Üretilen mamul maliyeti = DB yarı mamul + Dönemin üretim maliyeti − DS yarı mamul</strong></p><p><strong>Satılan mamuller maliyeti = DB mamul + Üretilen mamul maliyeti − DS mamul</strong></p><p>Ticaret işletmesinde: <strong>STMM = DB ticari mal + Net alımlar − DS ticari mal</strong>; net alımlar = alımlar − alım iadeleri ve iskontoları + alım giderleri.</p><p>Bir dönemin dönem sonu stoku, sonraki dönemin dönem başı stokudur. Genel yönetim, pazarlama-satış-dağıtım ve finansman giderleri bu zincire girmez. Gelir tablosundaki satışların maliyeti 62 grubundan oluşur (620 Satılan Mamuller, 621 Satılan Ticari Mallar, 622 Satılan Hizmet, 623 Diğer Satışların Maliyeti); satış indirimleri (61 grubu) maliyet değildir, brüt satışlardan düşülür.</p>",
+   "gorsel": {
+    "tip": "flow",
+    "veri": {
+     "w": 600,
+     "h": 400,
+     "dugumler": [
+      {
+       "id": "150",
+       "etiket": "150 İlk Madde ve Malzeme",
+       "x": 10,
+       "y": 10,
+       "w": 170
+      },
+      {
+       "id": "710",
+       "etiket": "710 DİMM Giderleri",
+       "x": 10,
+       "y": 100,
+       "w": 170
+      },
+      {
+       "id": "720",
+       "etiket": "720 Dİ Giderleri",
+       "x": 10,
+       "y": 180,
+       "w": 170
+      },
+      {
+       "id": "730",
+       "etiket": "730 GÜG",
+       "x": 10,
+       "y": 260,
+       "w": 170
+      },
+      {
+       "id": "711",
+       "etiket": "711 DİMM Yansıtma",
+       "x": 215,
+       "y": 100,
+       "w": 165
+      },
+      {
+       "id": "721",
+       "etiket": "721 Dİ Yansıtma",
+       "x": 215,
+       "y": 180,
+       "w": 165
+      },
+      {
+       "id": "731",
+       "etiket": "731 GÜG Yansıtma",
+       "x": 215,
+       "y": 260,
+       "w": 165
+      },
+      {
+       "id": "151",
+       "etiket": "151 Yarı Mamuller",
+       "x": 415,
+       "y": 180,
+       "w": 175
+      },
+      {
+       "id": "152",
+       "etiket": "152 Mamuller",
+       "x": 415,
+       "y": 260,
+       "w": 175
+      },
+      {
+       "id": "620",
+       "etiket": "620 Sat. Mamuller Mal.",
+       "x": 415,
+       "y": 340,
+       "w": 175
+      }
+     ],
+     "oklar": [
+      {
+       "from": "150",
+       "to": "710",
+       "etiket": "üretime sevk"
+      },
+      {
+       "from": "710",
+       "to": "711"
+      },
+      {
+       "from": "720",
+       "to": "721"
+      },
+      {
+       "from": "730",
+       "to": "731"
+      },
+      {
+       "from": "711",
+       "to": "151"
+      },
+      {
+       "from": "721",
+       "to": "151"
+      },
+      {
+       "from": "731",
+       "to": "151"
+      },
+      {
+       "from": "151",
+       "to": "152",
+       "etiket": "tamamlanan"
+      },
+      {
+       "from": "152",
+       "to": "620",
+       "etiket": "satılan"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "baslik": "7/A seçeneği: fonksiyon esası, yansıtma ve fark hesapları",
+   "html": "<p>7/A'da giderler oluştukları anda fonksiyonlarına göre 7 grubundaki ana gider hesaplarına kaydedilir. Her ana hesabın bir yansıtma hesabı vardır; dönem sonunda gider, yansıtma hesabı aracılığıyla stok ya da gelir tablosu hesabına aktarılır ve ana hesapla yansıtma hesabı karşılıklı kapatılır.</p><table class=\"veri\"><tr><th>Ana gider hesabı</th><th class=\"n\">Yansıtma</th><th class=\"n\">Dönem sonunda aktarıldığı hesap</th></tr><tr><td>710 Direkt İlk Madde ve Malzeme Giderleri</td><td class=\"n\">711</td><td class=\"n\">151 Yarı Mamuller – Üretim</td></tr><tr><td>720 Direkt İşçilik Giderleri</td><td class=\"n\">721</td><td class=\"n\">151 Yarı Mamuller – Üretim</td></tr><tr><td>730 Genel Üretim Giderleri</td><td class=\"n\">731</td><td class=\"n\">151 Yarı Mamuller – Üretim</td></tr><tr><td>740 Hizmet Üretim Maliyeti</td><td class=\"n\">741</td><td class=\"n\">622 Satılan Hizmet Maliyeti</td></tr><tr><td>750 Araştırma ve Geliştirme Giderleri</td><td class=\"n\">751</td><td class=\"n\">630 Araştırma ve Geliştirme Giderleri</td></tr><tr><td>760 Pazarlama Satış ve Dağıtım Giderleri</td><td class=\"n\">761</td><td class=\"n\">631 Pazarlama Satış ve Dağıtım Giderleri</td></tr><tr><td>770 Genel Yönetim Giderleri</td><td class=\"n\">771</td><td class=\"n\">632 Genel Yönetim Giderleri</td></tr><tr><td>780 Finansman Giderleri</td><td class=\"n\">781</td><td class=\"n\">66 grubu (660, 661); maliyete yüklenen kısım ilgili maliyet hesabına</td></tr></table><p><strong>Eşzamanlı kayıt:</strong> her fonksiyonel gider hesabının altında gider yerleri, onların altında gider türleri (çeşitleri) yardımcı hesap olarak açılır; bir gider tek kayıtla hem fonksiyonuna, hem gider yerine, hem türüne göre aynı anda sınıflanır.</p><p><strong>Yansıtma hesaplarının işlevi:</strong> fiili maliyet uygulanıyorsa ana gider hesabında toplanan giderlerin <em>tümünü</em>; önceden saptanmış (standart, tahmini) maliyet uygulanıyorsa bu yöntemle saptanan tutarı ilgili hesaplara aktarır. Fiili ile saptanan arasındaki fark fark hesaplarında izlenir: 712 DİMM Fiyat Farkı, 713 DİMM Miktar Farkı, 722 Dİ Ücret Farkları, 723 Dİ Süre Farkları, 732 GÜG Bütçe Farkları, 733 GÜG Verimlilik Farkları, 734 GÜG Kapasite Farkları (742, 752, 762, 772 ve 782 de diğer fonksiyonların fark hesaplarıdır). Olumsuz fark hesabın borcuna, olumlu fark alacağına yazılır; üretim fark hesapları dönem sonunda ilgili stok ve satış maliyeti hesaplarına aktarılarak kapatılır.</p><p><strong>78 Finansman Giderleri grubu:</strong> işletmenin borçlandığı tutarlarla ilgili olarak katlanılan ve varlıkların maliyetine eklenmemiş faiz ve benzeri giderler ile 781 yansıtma ve 782 fark hesabından oluşur.</p>"
+  },
+  {
+   "baslik": "7/B seçeneği: çeşit esası, 798 ve 799",
+   "html": "<p>7/B'de giderler oluştukça çeşitlerine göre 79 grubuna borç kaydedilir: 790 İlk Madde ve Malzeme Giderleri, 791 İşçi Ücret ve Giderleri, 792 Memur Ücret ve Giderleri, 793 Dışarıdan Sağlanan Fayda ve Hizmetler, 794 Çeşitli Giderler, 795 Vergi, Resim ve Harçlar, 796 Amortisman ve Tükenme Payları, 797 Finansman Giderleri.</p><p>Maliyet dönemlerinde giderler dağıtım tablosuyla fonksiyonlarına ayrılır ve <strong>798 Gider Çeşitleri Yansıtma Hesabı</strong>'nın alacağı karşılığında aktarılır: üretim maliyetine girenler <strong>799 Üretim Maliyet Hesabı</strong>'na, faaliyet giderleri 63 grubuna (630, 631, 632), finansman giderleri 66 grubuna. Ardından 798 borçlandırılarak 790–797 kapatılır. 799 dönem sonunda üretim işletmesinde 151 ve 152'ye, hizmet işletmesinde 622'ye devredilerek kapatılır.</p><p>Fark: 7/A'da fonksiyon, gider yeri ve tür bilgisi aynı kayıtta oluşur; 7/B'de fonksiyon bilgisi dönem sonunda dağıtım tablosuyla elde edilir.</p>"
+  }
+ ],
+ "sinavYaklasimi": [
+  "SMM sorusunda zinciri kur: kullanılan DİMM → dönemin üretim maliyeti → üretilen mamul (yarı mamul düzeltmesi) → SMM (mamul düzeltmesi). Üretilen mamul formülü DB yarı mamul + DİMM + Dİ + GÜG − DS yarı mamuldür (2026-1-MAL-11, D). Faaliyet giderleri ve net satışlar çeldiricidir: 2026-1-MAL-08'de 12.000 + 20.000 − 10.000 = 22.000 ₺ (C).",
+  "Bilinmeyen kalem sorulursa formülü ters çöz: 2026-2-MAL-05'te 2.000 × 100 = 200.000 = 120.000 + Dİ + 130.000 + 20.000 − 100.000 → Dİ = 30.000 ₺ (B). İki aylık tabloda bir ayın dönem sonu stoku sonraki ayın dönem başı stokudur: 2026-2-MAL-16'da Mayıs DS mamul 40.000 + 825.000 − 845.000 = 20.000; Haziran SMM 20.000 + 910.000 − 30.000 = 900.000 ₺ (B).",
+  "2026-2-MAL-14'te üretilen mamul (1.800.000 + 100.000 − 400.000) = 1.500.000 ₺, birim 15 ₺, SMM 80.000 × 15 = 1.200.000 ₺ (A).",
+  "Ticari malda alım giderleri eklenir, alım iadeleri düşülür: 2026-1-MAL-19'da 800.000 + (3.000.000 − 200.000 + 100.000) − 1.200.000 = 2.500.000 ₺ (C).",
+  "7/A kayıt sorularında sıra: önce stok ya da gelir tablosu hesabı borç / yansıtma hesabı alacak, sonra yansıtma hesabı borç / ana gider hesabı alacak (2026-1-MAL-14: 622/741, 741/740, A). Eşzamanlı kayıt, fonksiyonel gider hesabı altında gider yeri ve gider türüne göre kayıttır (2026-1-MAL-06, C).",
+  "Yansıtma ve fark hesabı şıklarında “sadece” sözcüğü yanlış şıkkı işaret eder: yansıtma hesapları fiili maliyette giderlerin tümünü, önceden saptanmış maliyette saptanan tutarı yansıtır (2026-2-MAL-09, A); 732 hem olumlu hem olumsuz farkı izler, stok ve satış maliyeti hesaplarıyla kapanır (2026-2-MAL-10, E); 78 grubunda yansıtma ve fark hesapları da vardır, banka hesabıyla kapanmaz (2026-2-MAL-20, C).",
+  "Satışların maliyeti: resmi anahtar 620–623'ün dördünü kapsamda, yalnız satış indirimlerini dışarıda saymıştır (2026-2-MAL-08, B). MSUGT ek tablosu yalnız mamul, ticari mal ve hizmet satırlarını gösterdiği için dar okumada “Diğer Satışların Maliyeti” de dışarıda sayılabilir."
+ ],
+ "ornekler": [
+  {
+   "soru": "<p>7/A seçeneğini ve fiili maliyet sistemini uygulayan bir işletmede ay sonunda hesapların borç bakiyeleri şöyledir: 710 300.000 ₺, 720 120.000 ₺, 730 180.000 ₺, 760 50.000 ₺, 770 70.000 ₺, 780 20.000 ₺ (tamamı kısa vadeli borçlanma gideri). Dönem başı yarı mamul 30.000 ₺, dönem sonu yarı mamul 70.000 ₺; dönem başı mamul stoku yoktur. 1.000 birim mamul tamamlanmış, 800 birimi satılmıştır.</p><p><strong>Dönem sonu yansıtma, kapatma, mamul ve satış maliyeti kayıtlarını yapınız.</strong></p>",
+   "cozum": [
+    "<p><strong>1. Üretim giderlerinin yansıtılması.</strong> 300.000 + 120.000 + 180.000 = 600.000 ₺ yansıtma hesapları aracılığıyla 151'e aktarılır.</p><table class=\"yevmiye\"><tr><td>151 YARI MAMULLER – ÜRETİM</td><td class=\"n\">600.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">711 DİREKT İLK MADDE VE MALZEME YANSITMA HESABI</td><td class=\"n\"></td><td class=\"n\">300.000</td></tr><tr><td class=\"alacak\">721 DİREKT İŞÇİLİK GİDERLERİ YANSITMA HESABI</td><td class=\"n\"></td><td class=\"n\">120.000</td></tr><tr><td class=\"alacak\">731 GENEL ÜRETİM GİDERLERİ YANSITMA HESABI</td><td class=\"n\"></td><td class=\"n\">180.000</td></tr></table>",
+    "<p><strong>2. Ana gider hesaplarının kapatılması.</strong> Yansıtma hesapları ile ana hesaplar karşılıklı kapatılır.</p><table class=\"yevmiye\"><tr><td>711 DİREKT İLK MADDE VE MALZEME YANSITMA HESABI</td><td class=\"n\">300.000</td><td class=\"n\"></td></tr><tr><td>721 DİREKT İŞÇİLİK GİDERLERİ YANSITMA HESABI</td><td class=\"n\">120.000</td><td class=\"n\"></td></tr><tr><td>731 GENEL ÜRETİM GİDERLERİ YANSITMA HESABI</td><td class=\"n\">180.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">710 DİREKT İLK MADDE VE MALZEME GİDERLERİ</td><td class=\"n\"></td><td class=\"n\">300.000</td></tr><tr><td class=\"alacak\">720 DİREKT İŞÇİLİK GİDERLERİ</td><td class=\"n\"></td><td class=\"n\">120.000</td></tr><tr><td class=\"alacak\">730 GENEL ÜRETİM GİDERLERİ</td><td class=\"n\"></td><td class=\"n\">180.000</td></tr></table>",
+    "<p><strong>3. Üretilen mamul.</strong> 30.000 + 600.000 − 70.000 = <strong>560.000 ₺</strong>; birim maliyet 560.000 / 1.000 = 560 ₺. 151'de 70.000 ₺ (dönem sonu yarı mamul) kalır.</p><table class=\"yevmiye\"><tr><td>152 MAMULLER</td><td class=\"n\">560.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">151 YARI MAMULLER – ÜRETİM</td><td class=\"n\"></td><td class=\"n\">560.000</td></tr></table>",
+    "<p><strong>4. Satılan mamuller maliyeti.</strong> 800 × 560 = <strong>448.000 ₺</strong>; 152'de 200 × 560 = 112.000 ₺ kalır.</p><table class=\"yevmiye\"><tr><td>620 SATILAN MAMULLER MALİYETİ</td><td class=\"n\">448.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">152 MAMULLER</td><td class=\"n\"></td><td class=\"n\">448.000</td></tr></table>",
+    "<p><strong>5. Faaliyet ve finansman giderlerinin gelir tablosuna aktarılması.</strong></p><table class=\"yevmiye\"><tr><td>631 PAZARLAMA SATIŞ VE DAĞITIM GİDERLERİ</td><td class=\"n\">50.000</td><td class=\"n\"></td></tr><tr><td>632 GENEL YÖNETİM GİDERLERİ</td><td class=\"n\">70.000</td><td class=\"n\"></td></tr><tr><td>660 KISA VADELİ BORÇLANMA GİDERLERİ</td><td class=\"n\">20.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">761 PAZARLAMA SATIŞ VE DAĞITIM GİDERLERİ YANSITMA HESABI</td><td class=\"n\"></td><td class=\"n\">50.000</td></tr><tr><td class=\"alacak\">771 GENEL YÖNETİM GİDERLERİ YANSITMA HESABI</td><td class=\"n\"></td><td class=\"n\">70.000</td></tr><tr><td class=\"alacak\">781 FİNANSMAN GİDERLERİ YANSITMA HESABI</td><td class=\"n\"></td><td class=\"n\">20.000</td></tr></table>",
+    "<p><strong>6. Kapatma.</strong> 7 grubunda bakiye kalmaz.</p><table class=\"yevmiye\"><tr><td>761 PAZARLAMA SATIŞ VE DAĞITIM GİDERLERİ YANSITMA HESABI</td><td class=\"n\">50.000</td><td class=\"n\"></td></tr><tr><td>771 GENEL YÖNETİM GİDERLERİ YANSITMA HESABI</td><td class=\"n\">70.000</td><td class=\"n\"></td></tr><tr><td>781 FİNANSMAN GİDERLERİ YANSITMA HESABI</td><td class=\"n\">20.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">760 PAZARLAMA SATIŞ VE DAĞITIM GİDERLERİ</td><td class=\"n\"></td><td class=\"n\">50.000</td></tr><tr><td class=\"alacak\">770 GENEL YÖNETİM GİDERLERİ</td><td class=\"n\"></td><td class=\"n\">70.000</td></tr><tr><td class=\"alacak\">780 FİNANSMAN GİDERLERİ</td><td class=\"n\"></td><td class=\"n\">20.000</td></tr></table>"
+   ]
+  }
+ ],
+ "cikmisSorular": [
+  "2026-1-MAL-08",
+  "2026-1-MAL-11",
+  "2026-2-MAL-05",
+  "2026-2-MAL-14",
+  "2026-2-MAL-16",
+  "2026-1-MAL-19",
+  "2026-1-MAL-06",
+  "2026-1-MAL-14",
+  "2026-2-MAL-09",
+  "2026-2-MAL-10",
+  "2026-2-MAL-20",
+  "2026-2-MAL-08"
+ ],
+ "kartlar": [
+  {
+   "on": "Üretilen mamul maliyeti nasıl hesaplanır?",
+   "arka": "Üretilen mamul maliyeti = Dönem başı yarı mamul + (DİMM + Dİ + GÜG) − Dönem sonu yarı mamul."
+  },
+  {
+   "on": "Satılan mamuller maliyeti nasıl hesaplanır?",
+   "arka": "SMM = Dönem başı mamul + Üretilen mamul maliyeti − Dönem sonu mamul. Yönetim, pazarlama-satış-dağıtım ve finansman giderleri girmez."
+  },
+  {
+   "on": "7/A'da genel üretim giderlerinin dönem sonu kayıtları nelerdir?",
+   "arka": "Önce 151 Yarı Mamuller – Üretim borç / 731 GÜG Yansıtma alacak; sonra 731 borç / 730 alacak ile kapatma. Aynı düzen 710-711 ve 720-721 için de geçerlidir."
+  },
+  {
+   "on": "7/B'de 798 ve 799 hesaplarının işlevi nedir?",
+   "arka": "Giderler 790–797'de çeşit esasına göre toplanır. Dönem sonunda 798 Gider Çeşitleri Yansıtma Hesabı alacağı karşılığında üretim maliyetine girenler 799 Üretim Maliyet Hesabı'na, faaliyet giderleri 63, finansman giderleri 66 grubuna aktarılır; 799, 151 ve 152'ye (hizmet işletmesinde 622'ye) devredilir."
+  },
+  {
+   "on": "7/A'da eşzamanlı kayıt nedir?",
+   "arka": "Giderin fonksiyonel gider hesabına, onun altında gider yeri ve gider türü yardımcı hesaplarına tek kayıtla, aynı anda kaydedilmesidir."
+  }
+ ]
+}
