@@ -205,7 +205,7 @@
     "<p><strong>1. Yükleme oranı.</strong> Değişken 480.000 / 40.000 = 12 ₺/DİS; sabit 720.000 / 40.000 = 18 ₺/DİS; toplam (480.000 + 720.000) / 40.000 = <strong>30 ₺/DİS</strong>.</p>",
     "<p><strong>2. Yüklenen GÜG.</strong> Değişken 38.000 × 12 = 456.000 ₺; sabit 38.000 × 18 = 684.000 ₺; toplam 38.000 × 30 = <strong>1.140.000 ₺</strong>.</p>",
     "<p><strong>3. Farklar.</strong> Değişken 456.000 − 450.000 = fazla (+) 6.000; sabit 684.000 − 715.000 = eksik (−) 31.000; toplam 1.140.000 − 1.165.000 = <strong>eksik (−) 25.000 ₺</strong>. Sağlama: 6.000 + (−31.000) = −25.000.</p>",
-    "<p><strong>4. Kapatma (fark önemli).</strong> Eksik yüklenen 25.000 ₺, yüklenen GÜG oranında dağıtılır: 151 114.000 / 1.140.000 = %10 → 2.500 ₺; 152 %20 → 5.000 ₺; 620 %70 → 17.500 ₺. Eksik yükleme olduğu için bu tutarlar hesapların borcuna eklenir. Fark önemsiz sayılsaydı 25.000 ₺'nin tamamı 620'ye eklenirdi.</p>"
+    "<p><strong>4. Kapatma (fark önemli).</strong> Eksik yüklenen 25.000 ₺, yüklenen GÜG oranında dağıtılır: 151 114.000 / 1.140.000 = %10 → 2.500 ₺; 152 %20 → 5.000 ₺; 620 %70 → 17.500 ₺. Eksik yükleme olduğu için bu tutarlar hesapların borcuna eklenir. Fark önemsiz sayılsaydı 25.000 ₺'nin tamamı 620'ye eklenirdi. Oransal dağıtım klasik maliyet muhasebesi ve sınav yaklaşımıdır; TMS 2'ye göre düşük kapasite kullanımından doğan kısım (burada (38.000 − 40.000) × 18 = −36.000 ₺, yani 36.000 ₺ kapasite farkı) stoklara verilmez, dönem gideri yazılır.</p>"
    ]
   }
  ],

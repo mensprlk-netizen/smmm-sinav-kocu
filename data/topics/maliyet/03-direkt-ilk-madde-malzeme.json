@@ -10,7 +10,7 @@
   },
   {
    "baslik": "Stok değerleme yöntemleri",
-   "html": "<ul><li><strong>İlk giren ilk çıkar (FIFO):</strong> çıkışlar en eski partilerin fiyatıyla değerlenir; dönem sonu stok en yeni fiyatlarla kalır.</li><li><strong>Ağırlıklı (tartılı) ortalama:</strong> dönem sonunda (DB stok tutarı + dönem alımları) ÷ (DB miktarı + alınan miktar) ile tek bir ortalama bulunur; dönemin bütün çıkışları ve dönem sonu stok bu fiyatla değerlenir.</li><li><strong>Hareketli (yürüyen) ortalama:</strong> her girişten sonra (eldeki stok tutarı + giriş tutarı) ÷ (eldeki miktar + giriş miktarı) ile yeni ortalama hesaplanır; sonraki çıkışlar bu ortalamayla değerlenir.</li><li><strong>Son giren ilk çıkar (LIFO):</strong> VUK md. 274'ün 5024 sayılı Kanunla değişik metni LIFO'ya yer vermez; vergi uygulamasında ortalama maliyet ve ilk giren ilk çıkar yöntemleri kullanılır, LIFO kullanılmaz. TMS 2 de LIFO'ya izin vermez.</li></ul><p><strong>Hareketli ortalama = (Eldeki stok tutarı + Giriş tutarı) ÷ (Eldeki miktar + Giriş miktarı)</strong></p><p>Aşağıdaki stok kartı hareketli ortalamayı adım adım gösterir; aynı veriler örnekte FIFO ve ağırlıklı ortalamayla da çözülür.</p>",
+   "html": "<ul><li><strong>İlk giren ilk çıkar (FIFO):</strong> çıkışlar en eski partilerin fiyatıyla değerlenir; dönem sonu stok en yeni fiyatlarla kalır.</li><li><strong>Ağırlıklı (tartılı) ortalama:</strong> dönem sonunda (DB stok tutarı + dönem alımları) ÷ (DB miktarı + alınan miktar) ile tek bir ortalama bulunur; dönemin bütün çıkışları ve dönem sonu stok bu fiyatla değerlenir.</li><li><strong>Hareketli (yürüyen) ortalama:</strong> her girişten sonra (eldeki stok tutarı + giriş tutarı) ÷ (eldeki miktar + giriş miktarı) ile yeni ortalama hesaplanır; sonraki çıkışlar bu ortalamayla değerlenir.</li><li><strong>Son giren ilk çıkar (LIFO):</strong> VUK md. 274 metni hiçbir yöntemi saymaz (maliyet bedeli + emsal bedel kuralı); uygulamada ortalama maliyet ve FIFO kabul edilir, LIFO kullanılmaz (5024 sayılı Kanunla kaldırıldı; TMS 2 de yasaklar).</li></ul><p><strong>Hareketli ortalama = (Eldeki stok tutarı + Giriş tutarı) ÷ (Eldeki miktar + Giriş miktarı)</strong></p><p>Aşağıdaki stok kartı hareketli ortalamayı adım adım gösterir; aynı veriler örnekte FIFO ve ağırlıklı ortalamayla da çözülür.</p>",
    "gorsel": {
     "tip": "allocation-table",
     "veri": {
@@ -172,6 +172,10 @@
       },
       {
        "hucreler": [
+        [
+         5,
+         1
+        ],
         [
          5,
          2
