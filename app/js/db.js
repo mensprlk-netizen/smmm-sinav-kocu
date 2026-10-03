@@ -20,9 +20,9 @@ export function open(factory = globalThis.indexedDB) {
       d.createObjectStore('settings', { keyPath: 'anahtar' });
       d.createObjectStore('flags', { keyPath: 'soruId' });
     };
-    req.onsuccess = () => resolve(req.result);
+    req.onsuccess = () => { req.result.onversionchange = () => req.result.close(); resolve(req.result); }; // başka sekme sürüm yükseltirse bağlantıyı bırak
     req.onerror = () => reject(req.error);
-    req.onblocked = () => reject(new Error('IndexedDB engellendi'));
+    // onblocked bir hata değildir (başka sekme eski bağlantıyı kapatınca onsuccess gelir); reddedilmez.
   });
   return p.then(() => { dbp = p; });
 }

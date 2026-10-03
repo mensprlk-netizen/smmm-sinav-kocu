@@ -72,3 +72,14 @@ test('cevap null (boş geç): satır cevap null, kart Tekrar', async () => {
   const [a] = await db.answersFor(q.id);
   assert.equal(a.cevap, null); assert.equal(a.dogruMu, false);
 });
+
+test('tagLastAnswer: deneme satırı denemeId ile, diğerleri mod ile seçilir', async () => {
+  const { tagLastAnswer } = await import('../app/js/progress.js');
+  await db.addAnswer({ soruId: 'q1', cevap: 'A', dogruMu: false, emin: true, sure: 0, mod: 'study', tarih: 1 });
+  await db.addAnswer({ soruId: 'q1', cevap: 'B', dogruMu: false, emin: true, sure: 0, mod: 'exam', denemeId: 'd1', tarih: 2 });
+  await db.addAnswer({ soruId: 'q1', cevap: 'C', dogruMu: false, emin: true, sure: 0, mod: 'review', tarih: 3 });
+  await tagLastAnswer(db, 'q1', 'dikkat', undefined, 'study');
+  await tagLastAnswer(db, 'q1', 'bilgi', 'd1');
+  const rows = (await db.answersFor('q1')).sort((a, b) => a.tarih - b.tarih);
+  assert.deepEqual(rows.map(r => r.hataEtiketi), ['dikkat', 'bilgi', undefined]);
+});

@@ -180,8 +180,28 @@ test('silgi vuruşu destination-out kullanır ve yeniden çizim sırayı korur',
 
 test('kalem yan düğmesi (buttons 2) siler; fare sağ tuşu silmez', () => {
   const ink = createInk(); const c = canvasOf(ink);
-  draw(c, 10, { buttons: 2 }); draw(c, 10, { pointerType: 'mouse', buttons: 2 });
+  draw(c, 10, { buttons: 3 }); draw(c, 10, { pointerType: 'mouse', buttons: 2, button: 2 }); draw(c, 10, { pointerType: 'mouse', button: 0 });
   assert.deepEqual(ink.getStrokes().map(s => s.silgi), [true, false]);
+});
+
+test('havadaki kalemin yan düğmesi (buttons 2, basınç 0) vuruş başlatmaz', () => {
+  const ink = createInk(); const c = canvasOf(ink);
+  draw(c, 10, { buttons: 2, pressure: 0 });
+  assert.equal(ink.getStrokes().length, 0);
+});
+
+test('kalemden önce başlayan avuç teması vuruş bitince sıçratmaz', () => {
+  const calls = [];
+  const orig = window.scrollBy; window.scrollBy = (x, y) => calls.push([x, y]);
+  try {
+    const ink = createInk(); const c = canvasOf(ink);
+    ptr(c, 'pointerdown', { pointerType: 'touch', pointerId: 2, clientY: 100 });
+    ptr(c, 'pointerdown', { pointerId: 1 });
+    ptr(c, 'pointermove', { pointerType: 'touch', pointerId: 2, clientY: 40 });
+    ptr(c, 'pointerup', { pointerId: 1 });
+    ptr(c, 'pointermove', { pointerType: 'touch', pointerId: 2, clientY: 30 });
+    assert.deepEqual(calls, []);
+  } finally { window.scrollBy = orig; }
 });
 
 test('kalem vuruşu sürerken avuç (touch) kaydırmaz ve vuruşu bozmaz', () => {

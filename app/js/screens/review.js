@@ -86,7 +86,7 @@ export async function render(view, params, ctx) {
               holder.append(h('p', { class: 'muted' }, dogruMu ? 'Doğru. Ne kadar kolaydı?' : 'Yanlış. Çözümü oku, sonra derecelendir.'), ratingRow(card));
             }),
             onFlag: safe((b) => db.setFlag(q.id, { bayrak: b })),
-            onTag: safe((t) => tagLastAnswer(db, q.id, t)),
+            onTag: safe((t) => tagLastAnswer(db, q.id, t, undefined, 'review')),
             onCards: safe((kartlar) => addInfoCards({ db, fsrs, kaynakId: q.id, kartlar, examDate })),
             onInk: safe((s) => db.saveInk('soru:' + q.id, s)), onFeynman: safe((s) => db.saveInk('feynman:' + q.id, s)) });
           view.append(qv.el, holder);
