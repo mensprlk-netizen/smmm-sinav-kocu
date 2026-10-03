@@ -1,0 +1,562 @@
+[
+ {
+  "id": "2026-2-VER-01",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 1,
+  "konu": "Gelir vergisi: beyan ve matrah",
+  "ortakBilgi": "<p><strong>Gelir Vergisi Kanunu ile ilgili 1, 2 ve 3. soruların çözümünde yararlanılabilecek veriler aşağıdadır:</strong></p><table class=\"veri\"><tr><th>2025 Takvim Yılı Gelir Vergisi Tarifesi</th><th class=\"n\">Oran</th></tr><tr><td>158.000 ₺’ye kadar</td><td class=\"n\">%15</td></tr><tr><td>330.000 ₺’nin 158.000 ₺’si için 23.700 ₺, fazlası</td><td class=\"n\">%20</td></tr><tr><td>800.000 ₺’nin 330.000 ₺'si için 58.100 ₺ (ücret gelirlerinde 1.200.000 ₺’nin 330.000 ₺'si için 58.100 ₺), fazlası</td><td class=\"n\">%27</td></tr><tr><td>4.300.000 ₺’nin 800.000 ₺’si için 185.000 ₺ (ücret gelirlerinde 4.300.000 ₺’nin 1.200.000 ₺’si için 293.000 ₺), fazlası</td><td class=\"n\">%35</td></tr><tr><td>4.300.000 ₺’den fazlasının 4.300.000 ₺’si için 1.410.000 ₺ (ücret gelirlerinde 4.300.000 ₺’den fazlasının 4.300.000 ₺’si için 1.378.000 ₺), fazlası</td><td class=\"n\">%40</td></tr></table><ul><li><strong>2025 takvim yılı mesken (konut) kira geliri istisna tutarı: 47.000 ₺</strong></li></ul>",
+  "metin": "<p>İstanbul’da ikamet etmekte olan Bay (A)’nın 2025 takvim yılı gelirleri aşağıdaki gibidir:</p><ul><li>Tam mükellef kurum (Y) A.Ş.’deki yönetim kurulu üyeliği sebebiyle elde ettiği huzur hakkı: 3.000.000 ₺ (tamamı tevkif yoluyla vergilendirilmiş)</li><li>Bir adet gayrimenkulünü konut olarak kiraya vermesinden dolayı elde ettiği kira geliri: 360.000 ₺ (safi iradın tespitinde götürü gider yöntemi seçilmiştir)</li></ul><p><strong>193 sayılı Gelir Vergisi Kanunu’na göre Bay (A)’nın 2025 takvim yılına ilişkin gelir vergisi matrahı ile ilgili aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Sadece 306.000 ₺ safi kira geliri beyannameye dahil edilmelidir.</p>",
+   "B": "<p>Sadece 266.050 ₺ safi kira geliri beyannameye dahil edilmelidir.</p>",
+   "C": "<p>1.500.000 ₺ huzur hakkı ve 266.050 ₺ safi kira geliri beyannameye dahil edilmelidir.</p>",
+   "D": "<p>1.500.000 ₺ huzur hakkı ve 306.000 ₺ safi kira geliri beyannameye dahil edilmelidir.</p>",
+   "E": "<p>3.000.000 ₺ huzur hakkı ve 306.000 ₺ safi kira geliri beyannameye dahil edilmelidir.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    901,
+    507,
+    573
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-02",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 2,
+  "konu": "Gelir vergisi: beyan ve matrah",
+  "ortakBilgi": "<p><strong>Gelir Vergisi Kanunu ile ilgili 1, 2 ve 3. soruların çözümünde yararlanılabilecek veriler aşağıdadır:</strong></p><table class=\"veri\"><tr><th>2025 Takvim Yılı Gelir Vergisi Tarifesi</th><th class=\"n\">Oran</th></tr><tr><td>158.000 ₺’ye kadar</td><td class=\"n\">%15</td></tr><tr><td>330.000 ₺’nin 158.000 ₺’si için 23.700 ₺, fazlası</td><td class=\"n\">%20</td></tr><tr><td>800.000 ₺’nin 330.000 ₺'si için 58.100 ₺ (ücret gelirlerinde 1.200.000 ₺’nin 330.000 ₺'si için 58.100 ₺), fazlası</td><td class=\"n\">%27</td></tr><tr><td>4.300.000 ₺’nin 800.000 ₺’si için 185.000 ₺ (ücret gelirlerinde 4.300.000 ₺’nin 1.200.000 ₺’si için 293.000 ₺), fazlası</td><td class=\"n\">%35</td></tr><tr><td>4.300.000 ₺’den fazlasının 4.300.000 ₺’si için 1.410.000 ₺ (ücret gelirlerinde 4.300.000 ₺’den fazlasının 4.300.000 ₺’si için 1.378.000 ₺), fazlası</td><td class=\"n\">%40</td></tr></table><ul><li><strong>2025 takvim yılı mesken (konut) kira geliri istisna tutarı: 47.000 ₺</strong></li></ul>",
+  "metin": "<p>İzmir’de ikamet etmekte olan Bayan (G)’nin 2025 takvim yılında;</p><ul><li>Türkiye’de elde ettiği ticari kazanç toplamı 8.000.000 ₺ olup yıl içinde bu faaliyeti sebebiyle 1.500.000 ₺ geçici vergi ödemiştir.</li><li>Bulgaristan’daki faaliyetinden de ₺ karşılığı 2.000.000 ticari kazanç elde etmiş olup bu kazancı üzerinden Bulgaristan’da ₺ karşılığı 400.000 gelir vergisi ödemiştir. Bayan (G) Bulgaristan’da ödediği vergiyi Türk Konsolosluğu tarafından tasdik olunan vesikalarla tevsik etmiştir.</li></ul><p><strong>193 sayılı Gelir Vergisi Kanunu’na göre Bayan (G)’nin 2025 takvim yılına ilişkin ödenecek gelir vergisi kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1.790.000</p>",
+   "B": "<p>2.110.000</p>",
+   "C": "<p>2.190.000</p>",
+   "D": "<p>3.290.000</p>",
+   "E": "<p>3.690.000</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": "2. Sorunun doğru cevap şıkkı \"B\" şıkkı olarak yayınlanmış, \"A\" şıkkı olarak güncellenmiştir. (Kitapçıktaki not; cevap anahtarı tablosunda da bu soru için “B --> A” ve “Şık Değ.” yazılıdır.)",
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    133,
+    589,
+    521
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-03",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 3,
+  "konu": "Gelir vergisi: kazanç ve iratlar",
+  "ortakBilgi": "<p><strong>Gelir Vergisi Kanunu ile ilgili 1, 2 ve 3. soruların çözümünde yararlanılabilecek veriler aşağıdadır:</strong></p><table class=\"veri\"><tr><th>2025 Takvim Yılı Gelir Vergisi Tarifesi</th><th class=\"n\">Oran</th></tr><tr><td>158.000 ₺’ye kadar</td><td class=\"n\">%15</td></tr><tr><td>330.000 ₺’nin 158.000 ₺’si için 23.700 ₺, fazlası</td><td class=\"n\">%20</td></tr><tr><td>800.000 ₺’nin 330.000 ₺'si için 58.100 ₺ (ücret gelirlerinde 1.200.000 ₺’nin 330.000 ₺'si için 58.100 ₺), fazlası</td><td class=\"n\">%27</td></tr><tr><td>4.300.000 ₺’nin 800.000 ₺’si için 185.000 ₺ (ücret gelirlerinde 4.300.000 ₺’nin 1.200.000 ₺’si için 293.000 ₺), fazlası</td><td class=\"n\">%35</td></tr><tr><td>4.300.000 ₺’den fazlasının 4.300.000 ₺’si için 1.410.000 ₺ (ücret gelirlerinde 4.300.000 ₺’den fazlasının 4.300.000 ₺’si için 1.378.000 ₺), fazlası</td><td class=\"n\">%40</td></tr></table><ul><li><strong>2025 takvim yılı mesken (konut) kira geliri istisna tutarı: 47.000 ₺</strong></li></ul>",
+  "metin": "<p>Tam mükellef Bay (S)’nin 2025 takvim yılı gelirleri aşağıdaki gibidir:</p><ul><li>Eurobond faiz geliri: ₺ karşılığı 1.000.000 (bu gelir üzerinden %0 oranında vergi kesintisi yapılmıştır)</li><li>Almanya’daki SGK kurumundan alınan emekli maaşı: ₺ karşılığı 600.000</li><li>Türkiye’deki (Z) Bankasından alınan mevduat faizi: 800.000 ₺ (Tevkif suretiyle vergilendirilmiş)</li><li>Ticari taksi plakasını elden çıkarmasından elde edilen kazanç: 5.000.000 ₺</li></ul><p><strong>193 sayılı Gelir Vergisi Kanunu’na göre Bay (S)’nin 2025 takvim yılına ilişkin gelir vergisi matrahı (vergiye tabi geliri) kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1.000.000</p>",
+   "B": "<p>1.600.000</p>",
+   "C": "<p>1.800.000</p>",
+   "D": "<p>6.000.000</p>",
+   "E": "<p>6.600.000</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    877,
+    515,
+    437
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-04",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 4,
+  "konu": "KDV",
+  "ortakBilgi": null,
+  "metin": "<p>(XYZ) A.Ş.’nin 2025/Aralık ayı işlemleri aşağıdaki gibidir:</p><ul><li>Yasal defterlere kayıtlı mal ve hizmet alımları tutarı 500.000 ₺ olup bu alışları nedeniyle düzenlenen faturalarda gösterilen KDV tutarı 100.000 ₺’dir.</li><li>Yasal defterlere kayıtlı yurt içi mal teslimleri sebebiyle 2.000.000 ₺ tutarında fatura düzenlenmiş ve 400.000 ₺ tutarında KDV hesaplanmıştır.</li><li>(G) güvenlik şirketinden 2025/Kasım ayı içerisinde alınan özel güvenlik hizmeti ile ilgili vergi sorumlu sıfatıyla 2 No.lu KDV Beyannamesiyle süresinde beyan edilmiş ve tahakkuk eden 120.000 ₺ tutarındaki KDV 28/12/2025 tarihinde ödenmiştir.</li><li>Dönem sonunda kasada bulunan yabancı paraların değerleme işlemleri sonucunda 300.000 ₺ tutarında kur farkı geliri ortaya çıkmış ve kambiyo kârları hesabında gelir olarak dikkate alınmıştır.</li><li>Önceki dönemden devreden KDV tutarı 50.000 ₺’dir.</li></ul><p><strong>3065 sayılı Katma Değer Vergisi Kanunu’na göre (XYZ) A.Ş.’nin 2025/Aralık KDV beyannamesinde ödenecek KDV tutarı kaç ₺’dir?</strong></p><p>(KDV oranı %20 olarak alınacaktır.)</p>",
+  "secenekler": {
+   "A": "<p>130.000</p>",
+   "B": "<p>180.000</p>",
+   "C": "<p>190.000</p>",
+   "D": "<p>250.000</p>",
+   "E": "<p>310.000</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    133,
+    518,
+    694
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-05",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 5,
+  "konu": "Vergi usulü: değerleme",
+  "ortakBilgi": null,
+  "metin": "<p>213 sayılı Vergi Usul Kanunu’na göre emsal bedel; “gerçek bedeli olmayan veya bilinmeyen veyahut doğru olarak tespit edilemeyen bir malın, değerleme gününde satılması halinde emsaline nazaran haiz olacağı değerdir.”</p><p><strong>Buna göre 213 sayılı Vergi Usul Kanunu’na göre aşağıdakilerden hangisine göre emsal bedel <u>belirlenmez</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Ortalama fiyat esası</p>",
+   "B": "<p>Kaza mercilerinin re’sen biçtikleri değerler</p>",
+   "C": "<p>Takdir esası</p>",
+   "D": "<p>Maliyet bedeli esası</p>",
+   "E": "<p>Karşılaştırılabilir fiyat yöntemi</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    1084,
+    514,
+    308
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-06",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 6,
+  "konu": "Kurumlar vergisi",
+  "ortakBilgi": null,
+  "metin": "<p><strong>5520 sayılı Kurumlar Vergisi Kanunu’na göre tasfiyenin sona erdiği döneme ilişkin tasfiye beyannamesi tasfiyenin sonuçlandığı tarihten itibaren kaç gün içinde kurumun bağlı olduğu vergi dairesine verilmelidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>15</p>",
+   "B": "<p>30</p>",
+   "C": "<p>60</p>",
+   "D": "<p>90</p>",
+   "E": "<p>120</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    648,
+    133,
+    517,
+    120
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-07",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 7,
+  "konu": "Vergi usulü: cezalar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>213 sayılı Vergi Usul Kanunu’na göre vergi ziyaı cezasının kesilmesinde zamanaşımı süresi aşağıdakilerden hangisinde doğru olarak verilmiştir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Cezanın bağlı olduğu vergi alacağının doğduğu takvim yılını takip eden yılın birinci gününden başlayarak 2 yıl</p>",
+   "B": "<p>Cezanın bağlı olduğu vergi alacağının doğduğu tarihi takip eden günden başlayarak 10 tam yıl</p>",
+   "C": "<p>Cezanın bağlı olduğu vergi alacağının doğduğu takvim yılını takip eden yılın birinci gününden başlayarak 5 yıl</p>",
+   "D": "<p>Cezanın bağlı olduğu vergi alacağının doğduğu tarihi takip eden günden başlayarak 5 tam yıl</p>",
+   "E": "<p>Cezanın bağlı olduğu vergi alacağının doğduğu tarihi takip eden günden başlayarak 2 tam yıl</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    648,
+    482,
+    503,
+    317
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-08",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 8,
+  "konu": "Vergi icra: AATUHK",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6183 sayılı Amme Alacaklarının Tahsil Usulü Hakkında Kanun’a göre ödeme süresi içinde ödenmeyen bir amme alacağının takibi için düzenlenerek muhatabına tebliğ edilmiş olan ödeme emrine karşı kaç gün içinde dava açılabilir?</strong></p>",
+  "secenekler": {
+   "A": "<p>7</p>",
+   "B": "<p>10</p>",
+   "C": "<p>15</p>",
+   "D": "<p>30</p>",
+   "E": "<p>60</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    648,
+    1029,
+    509,
+    141
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-09",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 9,
+  "konu": "Vergi icra: AATUHK",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi 6183 sayılı Amme Alacaklarının Tahsil Usulü Hakkında Kanun’a göre tahsil zamanaşımını kesen hallerden biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Mal bildirimi</p>",
+   "B": "<p>Haciz tatbikı</p>",
+   "C": "<p>Amme alacağının teminata bağlanması</p>",
+   "D": "<p>Borçlunun yabancı memlekette bulunması</p>",
+   "E": "<p>Ödeme emri tebliği</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    648,
+    1372,
+    473,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-10",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 10,
+  "konu": "Kurumlar vergisi",
+  "ortakBilgi": null,
+  "metin": "<p>Tam mükellef kurum olan (T) A.Ş.’nin 2025 hesap dönemine ilişkin ticari bilanço kârı 140.000.000 ₺, kanunen kabul edilmeyen gideri 10.000.000 ₺’dir. Mükellef kurum, aynı hesap döneminde 5520 sayılı Kurumlar Vergisi Kanunu’nun 5/1-h hükmü kapsamında 120.000.000 ₺ tutarında yurt dışı inşaat, onarım, montaj ve teknik hizmetler kazanç istisnasından yararlanmıştır.</p><p><strong>5520 sayılı Kurumlar Vergisi Kanunu’na göre (T) A.Ş.’nin 2025 hesap dönemine ilişkin yurt içi asgari kurumlar vergisi kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>3.000.000</p>",
+   "B": "<p>7.500.000</p>",
+   "C": "<p>14.000.000</p>",
+   "D": "<p>15.000.000</p>",
+   "E": "<p>37.500.000</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    133,
+    523,
+    317
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-11",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 11,
+  "konu": "Kurumlar vergisi",
+  "ortakBilgi": null,
+  "metin": "<p>Tam mükellef kurum olan (Z) A.Ş.’nin 2025 hesap dönemi başındaki öz sermayesi 2.000.000 ₺ olup ilgili hesap döneminde yaptığı borçlanmalar aşağıdaki gibidir:</p><ul><li>Ortak (E)’den alınan 3.000.000 ₺ borç,</li><li>Ana faaliyet konusuna göre faaliyette bulunan Ortak (K) Bankasından alınan 4.000.000 ₺ kredi,</li><li>Ortak (L)’nin sahip olduğu bir arsayı teminat göstermek suretiyle Bay (F)’den alınan 1.000.000 ₺ borç,</li><li>Mükellef kurumun iştiraki (G) A.Ş.’nin, (N) Bankasından temin ederek aynı şartlarla mükellef kurum (Z) A.Ş.’ye kullandırdığı 2.000.000 ₺ kredi.</li></ul><p><strong>Bu bilgiler çerçevesinde 5520 sayılı Kurumlar Vergisi Kanunu’na göre aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Örtülü sermayenin tespitinde mükellef kurumun Ortak (E)’den temin ettiği borçlanma %50 oranında dikkate alınır.</p>",
+   "B": "<p>(Z) A.Ş.’nin ortaklarından yaptığı borçlanma tutarı toplamı, dönem başı öz sermayenin üç katını aştığından örtülü sermaye oluşmuştur.</p>",
+   "C": "<p>Örtülü sermayenin tespitinde, iştirak (G) A.Ş.’nin mükellef kuruma aktardığı kredi dikkate alınmaz.</p>",
+   "D": "<p>Örtülü sermayenin tespitinde Bay (F)’den alınan borç %50 oranında dikkate alınır.</p>",
+   "E": "<p>Örtülü sermayenin tespitinde Ortak (K) Bankasından alınan kredi dikkate alınmaz.</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    763,
+    528,
+    687
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-12",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 12,
+  "konu": "Kurumlar vergisi",
+  "ortakBilgi": null,
+  "metin": "<p>Enerji sektöründe faaliyet gösteren (M) A.Ş.’nin 2025 hesap dönemi sonunda öz kaynakları toplamı 2.000.000 ₺, kısa vadeli yabancı kaynakları toplamı 1.000.000 ₺ ve uzun vadeli yabancı kaynakları toplamı 3.000.000 ₺’dir. Döneme ilişkin toplam finansman gideri 500.000 ₺’dir.</p><p><strong>5520 sayılı Kurumlar Vergisi Kanunu’na göre (M) A.Ş’nin dikkate alması gereken kanunen kabul edilmeyen gider tutarı kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>25.000</p>",
+   "B": "<p>50.000</p>",
+   "C": "<p>75.000</p>",
+   "D": "<p>250.000</p>",
+   "E": "<p>500.000</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    133,
+    528,
+    246
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-13",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 13,
+  "konu": "Kurumlar vergisi",
+  "ortakBilgi": null,
+  "metin": "<p>Merkezi Almanya’da bulunan (DEF) GmbH, Türkiye’deki şubesinde ticari faaliyet yürütmektedir. Şirketin kanuni ve iş merkezi Almanya’dadır.</p><p><strong>5520 sayılı Kurumlar Vergisi Kanunu’na göre (DEF) GmbH’nin Türkiye'deki vergilendirme durumu ile ilgili aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Tam mükelleftir, hem Türkiye’de hem Almanya’da elde ettiği kazançların tamamı üzerinden vergilendirilir.</p>",
+   "B": "<p>Dar mükelleftir, sadece Türkiye'de elde ettiği kazançlar üzerinden vergilendirilir.</p>",
+   "C": "<p>Dar mükelleftir, Türkiye’de elde ettiği kazançların yarısı istisnadır.</p>",
+   "D": "<p>Türkiye’de kurumlar vergisinden muaftır.</p>",
+   "E": "<p>Kurumlar vergisi beyannamesi vermez, sadece tevkif suretiyle vergilendirilir.</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    636,
+    527,
+    373
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-14",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 14,
+  "konu": "Gelir vergisi: beyan ve matrah",
+  "ortakBilgi": null,
+  "metin": "<p><strong>193 sayılı Gelir Vergisi Kanunu’na göre geçici vergi ile ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Geçici vergi ilgili hesap döneminin üçer aylık dönem kazançları üzerinden hesaplanır.</p>",
+   "B": "<p>Sadece ticari kazanç sahipleri ile serbest meslek erbabı geçici vergi beyannamesi vermekle mükelleftir.</p>",
+   "C": "<p>Birden fazla takvim yılına sirayet eden inşaat ve onarma işleri kapsamına giren kazançlar geçici vergi matrahına dâhil edilmez.</p>",
+   "D": "<p>Geçici vergi, Kanun’da yer alan tarifeye göre artan oranlı olarak hesaplanır.</p>",
+   "E": "<p>Re'sen veya ikmalen geçici vergi tarh edilebilmesi için geçmiş dönemlere ait geçici verginin %10'u aşan tutarda eksik beyan edildiğinin tespiti gerekir.</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    1211,
+    530,
+    339
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-15",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 15,
+  "konu": "KDV",
+  "ortakBilgi": null,
+  "metin": "<p>Otomobil yedek parça imalatçısı (VYZ) A.Ş., 2026/Ocak döneminde yurtiçi teslim yapan toptancı bir firmaya 1.000.000 ₺, ihracatçı bir firmaya da ihraç kaydıyla 9.000.000 ₺ tutarında otomobil yedek parçası teslim etmiştir. (VYZ) A.Ş.’nin bu döneme ait toplam KDV indirimi 1.500.000 ₺’dir.</p><p><strong>3065 sayılı Katma Değer Vergisi Kanunu’na göre, (VYZ) A.Ş.’nin 2026/Ocak dönemi beyannamesinde sırasıyla tecil edilebilir KDV ve tecil edilecek KDV tutarları kaç ₺’dir?</strong></p><p>(KDV oranı %20 olarak alınacaktır.)</p>",
+  "secenekler": {
+   "A": "<p>1.300.000 / 500.000</p>",
+   "B": "<p>1.500.000 / 200.000</p>",
+   "C": "<p>1.500.000 / 500.000</p>",
+   "D": "<p>1.800.000 / 200.000</p>",
+   "E": "<p>1.800.000 / 500.000</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    133,
+    520,
+    407
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-16",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 16,
+  "konu": "Diğer vergiler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>197 sayılı Motorlu Taşıtlar Vergisi Kanunu’na göre aşağıdaki motorlu taşıtlardan hangisi vergiden istisna <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Engellilik oranı %90 ve daha fazla olan malûl ve engellilerin adlarına kayıt ve tescil edilen taşıtlar</p>",
+   "B": "<p>Karşılıklı olmak şartıyla fahri konsoloslar adına kayıt ve tescil edilen taşıtlar</p>",
+   "C": "<p>Türkiye Kızılay Derneği adına kayıt ve tescil edilen taşıtlar</p>",
+   "D": "<p>Köy tüzel kişilikleri adına kayıt ve tescil edilen taşıtlar</p>",
+   "E": "<p>Yatırım izleme ve koordinasyon başkanlıkları adına kayıt ve tescil edilen taşıtlar</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    714,
+    529,
+    295
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-17",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 17,
+  "konu": "ÖTV",
+  "ortakBilgi": null,
+  "metin": "<p><strong>4760 sayılı Özel Tüketim Vergisi Kanunu’na göre aşağıdakilerden hangisi Kanun’a ekli (II) sayılı listedeki mallardan kayıt ve tescile tâbi olanların ilk iktisabı <u>sayılmaz</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Distribütör (P) A.Ş. tarafından ithal edilen motosikletin motorlu araç ticareti yapan (T) Bayisi tarafından satmak amacıyla alınması</p>",
+   "B": "<p>(F) Otomotiv A.Ş.’nin ithal ettiği bir binek otomobili kullanmak üzere aktifine alması</p>",
+   "C": "<p>Bayan (L)’nin Almanya’dan aldığı 2. el binek otomobili Türkiye’de adına kayıt ve tescil ettirmesi</p>",
+   "D": "<p>Bay (K)’nın icra dairesinin düzenlediği müzayededen daha önce Türkiye’de trafik siciline kayıt ve tescil edilmemiş bir sıfır binek otomobili satın alarak adına kayıt ve tescil ettirmesi</p>",
+   "E": "<p>Bay (S)’nin yetkili (Y) bayisinden sıfır motosiklet satın alarak adına kayıt ve tescil ettirmesi</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    1211,
+    525,
+    403
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-18",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 18,
+  "konu": "Vergi usulü: cezalar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>213 sayılı Vergi Usul Kanunu’na göre izaha davet edilen mükelleflerce yapılan izahın yeterli bulunmaması hâlinde, Kanun’da yer alan şartlara uygun olarak beyanların tamamlanması ve ziyaa uğrayan verginin Kanun’da belirtilen oranda izah zammıyla ödenmesi halinde vergi ziyaı cezası, ziyaa uğratılan verginin % kaçı oranında kesilir?</strong></p>",
+  "secenekler": {
+   "A": "<p>10</p>",
+   "B": "<p>20</p>",
+   "C": "<p>30</p>",
+   "D": "<p>50</p>",
+   "E": "<p>80</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    133,
+    530,
+    184
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-19",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 19,
+  "konu": "KDV",
+  "ortakBilgi": null,
+  "metin": "<p><strong>3065 sayılı Katma Değer Vergisi Kanunu’na göre Türkiye’deki bir firmanın aşağıda yaptığı hizmetlerden hangisi katma değer vergisinin konusuna girer?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yurt dışındaki bir firmanın mallarının, yine yurt dışındaki bir başka firmaya pazarlanmasına yönelik olarak yurt dışında verdiği satış komisyonculuğu hizmeti</p>",
+   "B": "<p>Yurt dışında yaptığı inşaat, onarım ve montaj işleri</p>",
+   "C": "<p>Yurt dışında düzenlenen bir fuara Türkiye'den katılan firmalara yurt dışında verdiği stant kurulumu ve montaj hizmeti</p>",
+   "D": "<p>Türkiye'deki başka bir firmanın personeline, yabancı firmalarla tanıştırma, bilgilendirme ve eğitim şeklinde yurt dışında verdiği danışmanlık hizmeti</p>",
+   "E": "<p>Yurt dışındaki firmalara ait ürünlerin Türkiye'de satışı için bu firmalara verdiği pazarlama ve aracılık hizmetleri</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    602,
+    531,
+    360
+   ]
+  }
+ },
+ {
+  "id": "2026-2-VER-20",
+  "donem": "2026-2",
+  "ders": "VER",
+  "no": 20,
+  "konu": "Diğer vergiler",
+  "ortakBilgi": null,
+  "metin": "<p>Samsun’da ikamet etmekte olan Bay (S), Samsun’da bir arsada 2025 yılı Mayıs ayında konut inşaatını tamamlamış ve aynı yıl Temmuz ayında yapı kullanma izin belgesini almıştır. Bay (S) söz konusu konutu 2025 yılının Kasım ayında kiraya vermiştir.</p><p><strong>1319 sayılı Emlak Vergisi Kanunu’na göre Bay (S)’nin bina vergisi mükellefiyeti ne zaman başlar?</strong></p>",
+  "secenekler": {
+   "A": "<p>Konut inşaatına başlandığı tarihten itibaren</p>",
+   "B": "<p>İnşaatın tamamlanma tarihinden itibaren</p>",
+   "C": "<p>Yapı kullanma izin belgesi alındığı tarihten itibaren</p>",
+   "D": "<p>Konutun kiraya verildiği tarihten itibaren</p>",
+   "E": "<p>2026 takvim yılı başından itibaren</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    1248,
+    521,
+    308
+   ]
+  }
+ }
+]
