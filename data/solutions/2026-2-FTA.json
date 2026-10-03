@@ -58,7 +58,7 @@
   "sonuc": "D",
   "ozet": "Altı aylık dönem 180 gün: hedef devir hızı 180 / 36 = 5 → ortalama ticari borç 190.000 / 5 = 38.000 → (34.000 + X) / 2 = 38.000 → X = 42.000 ₺.",
   "adimlar": [
-   "<p><strong>1. Formül.</strong> Ticari borç devir hızı = Satışların maliyeti / Ortalama ticari borç; Ortalama borç ödeme süresi = Dönemin gün sayısı / Ticari borç devir hızı. Payda ideal olarak (kredili) alışlar kullanılır; soruda alış tutarı verilmediği için yaygın uygulamada olduğu gibi satışların maliyeti kullanılır. Talimat gereği ortalama borç (dönem başı + dönem sonu) / 2 alınır.</p>",
+   "<p><strong>1. Formül.</strong> Ticari borç devir hızı = Satışların maliyeti / Ortalama ticari borç; Ortalama borç ödeme süresi = Dönemin gün sayısı / Ticari borç devir hızı. Pay olarak ideal olarak (kredili) alışlar kullanılır; soruda alış tutarı verilmediği için yaygın uygulamada olduğu gibi satışların maliyeti kullanılır. Talimat gereği ortalama borç (dönem başı + dönem sonu) / 2 alınır.</p>",
    "<p><strong>2. Dönemin uzunluğu.</strong> 190.000 ₺, 1 Ocak – 30 Haziran 2026 arasındaki altı aylık satışların maliyetidir (31 Aralık 2025 bakiyesi bu dönemin başlangıcıdır). Talimat “ay bazında hesaplamalarda 30 gün ve katlarını” kullanmayı istediği için dönem 6 × 30 = <strong>180 gün</strong>dür. 360 gün yalnız yıllık tutarlarla kullanılır.</p>",
    "<p><strong>3. Hedef devir hızı ve ortalama borç.</strong> Ödeme süresi 36 gün olacaksa altı aylık devir hızı 180 / 36 = 5 olmalıdır. Ortalama ticari borç = 190.000 / 5 = <strong>38.000 ₺</strong>.</p>",
    "<p><strong>4. Dönem sonu borç.</strong> Dönem başı borç 34.000 ₺ (31 Aralık 2025): (34.000 + X) / 2 = 38.000 → X = 76.000 − 34.000 = <strong>42.000 ₺</strong>.</p>",
@@ -89,7 +89,7 @@
   "ozet": "Pasif = 100: KVYK oranı = 100 − 60 = 40; kaldıraç = KVYK + UVYK = 40 + 10 = %50 (öz kaynak oranı 60 − 10 = 50 → 100 − 50 = 50).",
   "adimlar": [
    "<p><strong>1. Tanımlar (pasif toplamı = %100).</strong> Pasif toplamı = KVYK + UVYK + Öz kaynaklar. Devamlı sermaye oranı = (UVYK + Öz kaynaklar) / Pasif toplamı. UVYK oranı = UVYK / Pasif toplamı. Kaldıraç oranı = (KVYK + UVYK) / Pasif toplamı (soru da bu tanımı veriyor).</p>",
-   "<p><strong>2. Öz kaynak oranı.</strong> Devamlı sermaye %60'ın %10'u UVYK olduğuna göre öz kaynak oranı = 60 − 10 = %50.</p>",
+   "<p><strong>2. Öz kaynak oranı.</strong> Pasif toplamının %60'ı devamlı sermayedir ve bunun 10 puanı (pasifin %10'u) UVYK olduğuna göre öz kaynak oranı = 60 − 10 = %50.</p>",
    "<p><strong>3. KVYK oranı.</strong> Devamlı sermaye dışında kalan kaynak kısa vadelidir: 100 − 60 = %40.</p>",
    "<p><strong>4. Kaldıraç ve sonuç.</strong> Kaldıraç oranı = KVYK + UVYK = 40 + 10 = <strong>%50</strong>. Sağlama: Kaldıraç oranı + Öz kaynak oranı = 100 → 100 − 50 = 50 ✓. Cevap <strong>D</strong>.</p>"
   ],
@@ -397,12 +397,12 @@
    "<p><strong>2. Veriler (2026 1. çeyrek).</strong> Brüt satış kârı 3.000 ₺; net satışlar 12.000 ₺.</p>",
    "<p><strong>3. Hesap.</strong> 3.000 / 12.000 = 0,25 → <strong>%25,00</strong>.</p>",
    "<p><strong>4. Sonuç.</strong> Cevap <strong>B</strong>.</p>",
-   "<p><strong>Not (ifade).</strong> Kökteki “brüt satışların kârlılığı” ifadesi kelimesi kelimesine okunup brüt satışlar payda yapılırsa 3.000 / 12.300 = %24,39 (A) çıkar. Kârlılık oranlarında ve gelir tablosu dikey analizinde payda her zaman net satışlardır; brüt satışlar henüz gerçekleşmemiş indirimleri de içerir. Aynı kitapçığın 18. sorusunda da brüt satışlar payda yapılınca çıkan tutar (%2,44) yanlış şık olarak konmuştur. Bu yüzden A bir tuzaktır.</p>"
+   "<p><strong>Not (ifade).</strong> Kökteki “brüt satışların kârlılığı” ifadesi kelimesi kelimesine okunup brüt satışlar payda yapılırsa 3.000 / 12.300 = %24,39 (A) çıkar. Satışların kârlılığı oranlarında (brüt, faaliyet, net kâr marjı) ve gelir tablosu dikey analizinde payda net satışlardır; brüt satışlar, satış indirimleri (iade, iskonto vb.) düşülmeden önceki tutardır; işletmenin elde ettiği satış geliri net satışlardır. Aynı kitapçığın 18. sorusunda da brüt satışlar payda yapılınca çıkan tutar (%2,44) yanlış şık olarak konmuştur. Bu yüzden A bir tuzaktır.</p>"
   ],
   "dayanak": "Kârlılık oranları: Brüt kâr marjı (brüt satış kârlılığı) = Brüt satış kârı / Net satışlar × 100.",
   "tuzaklar": {
-   "A": "24,39 = 3.000 / 12.300; payda brüt satışlar alınmış. Kârlılık oranlarında payda net satışlardır (bkz. Not).",
-   "C": "33,33 = 3.000 / 9.000; brüt kâr satışların maliyetine bölünmüş (maliyet üzerinden kâr oranı); kârlılık oranı net satışlarla hesaplanır.",
+   "A": "24,39 = 3.000 / 12.300; payda brüt satışlar alınmış. Satışların kârlılığı (kâr marjı) oranlarında payda net satışlardır (bkz. Not).",
+   "C": "33,33 = 3.000 / 9.000; brüt kâr satışların maliyetine bölünmüş (maliyet üzerinden kâr oranı). Satışların kârlılığı (kâr marjı) oranlarında payda net satışlardır.",
    "D": "73,17 = 9.000 / 12.300; satışların maliyeti brüt satışlara bölünmüş; bu bir maliyet oranıdır, kârlılık değil.",
    "E": "75,00 = 9.000 / 12.000; satışların maliyetinin dikey yüzdesidir. Brüt kâr marjı bunun tamamlayanıdır: 100 − 75 = 25."
   },
