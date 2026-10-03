@@ -95,12 +95,29 @@ test('bilinmeyen kod ve boş konu listesi', async () => {
   assert.ok(view.textContent.includes('Konu içeriği henüz eklenmedi.'));
 });
 
-test('destroy() çizim alanlarını yok eder', async () => {
+test('destroy() bekleyen çizimi hemen kaydeder (ink destroy edildi)', async () => {
   await topics.render(view, { kod: KOD }, ctx); await settle();
-  const canvasWrap = view.querySelector('.ink-wrap');
-  assert.ok(canvasWrap);
+  const canvas = view.querySelector('.ink-wrap canvas');
+  const ev = (type, x) => canvas.dispatchEvent(new PointerEvent(type, { pointerId: 1, pointerType: 'mouse', clientX: x, clientY: x, bubbles: true, cancelable: true }));
+  ev('pointerdown', 1); ev('pointermove', 5); ev('pointerup', 5);
+  const key = `konu:${KOD}:ornek:0`;
+  assert.deepEqual(await db.getInk(key), []); // debounce henüz dolmadı
   topics.destroy();
-  topics.destroy(); // idempotent
+  await settle(); // 300 ms debounce süresinden çok önce
+  assert.equal((await db.getInk(key)).length, 1);
+});
+
+test('render, ink getirilirken destroy edilirse hiçbir şey eklenmez', async () => {
+  let release, pendingCalls = 0;
+  const gate = new Promise(r => { release = r; });
+  const deferred = { ...db, getInk: async (k) => { pendingCalls++; await gate; return db.getInk(k); } };
+  const p = topics.render(view, { kod: KOD }, { ...ctx, db: deferred });
+  for (let i = 0; i < 50 && !pendingCalls; i++) await new Promise(r => setTimeout(r, 0));
+  assert.equal(pendingCalls, 1);
+  topics.destroy();
+  release(); await p; await settle();
+  assert.equal(view.children.length, 0);
+  assert.equal(view.querySelectorAll('.ink-wrap, canvas').length, 0);
 });
 
 test('render bitmeden destroy: sonradan ekleme ve ink yok', async () => {
