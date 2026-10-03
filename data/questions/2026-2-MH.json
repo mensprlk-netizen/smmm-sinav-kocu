@@ -1,0 +1,562 @@
+[
+ {
+  "id": "2026-2-MH-01",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 1,
+  "konu": "Ücret ve sözleşme",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci, Serbest Muhasebeci Mali Müşavir ve Yeminli Mali Müşavir Ücretlerinin Esasları Hakkında Yönetmelik’e göre aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yabancı firmalarla sözleşmelerin Türk Lirası cinsinden düzenlenmesi şarttır.</p>",
+   "B": "<p>Ücret sözleşmesinin yazılı şekilde yapılması şarttır.</p>",
+   "C": "<p>Ücret sözleşmesinin belli bir meblağı kapsaması şarttır.</p>",
+   "D": "<p>Ücret sözleşmesine, yapılan hizmet karşılığı meslek mensubuna ortaklık payı verileceğine dair hüküm konulamaz.</p>",
+   "E": "<p>Ücret sözleşmesinin sözlü yapıldığının belirlenmesi durumunda, meslek mensubu hakkında disiplin cezası uygulanır.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    233,
+    517,
+    317
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-02",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 2,
+  "konu": "Ruhsat ve çalışma esasları",
+  "ortakBilgi": null,
+  "metin": "<p>Serbest Muhasebeci Mali Müşavir ve Yeminli Mali Müşavirlerin Çalışma Usul ve Esasları Hakkında Yönetmelik’e göre her meslek mensubu meslekî faaliyetine başlamadan önce bağlı olduğu odanın bilgisi dahilinde iş yeri açmak zorundadır.</p><p><strong>İşyeri açılış ve kapanışları <u>en geç</u> kaç gün içerisinde ilgili Odaya bildirilir?</strong></p>",
+  "secenekler": {
+   "A": "<p>7</p>",
+   "B": "<p>15</p>",
+   "C": "<p>21</p>",
+   "D": "<p>30</p>",
+   "E": "<p>45</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    668,
+    514,
+    197
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-03",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 3,
+  "konu": "Ruhsat ve çalışma esasları",
+  "ortakBilgi": null,
+  "metin": "<p>Serbest Muhasebeci Mali Müşavir ve Yeminli Mali Müşavirlerin Çalışma Usul ve Esasları Hakkında Yönetmelik’e göre; stajını tamamlayarak mesleği yapmaya hak kazanan meslek mensupları meslek ruhsatlarını aldıkları tarihten itibaren _____ geçmedikçe, yanında staj yaptıkları meslek mensuplarının rızası olmadan onların müşterilerine hizmet veremezler.</p><p><strong>Bu ifadedeki boşluğu doğru bir şekilde dolduracak seçenek aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>3 ay</p>",
+   "B": "<p>6 ay</p>",
+   "C": "<p>1 yıl</p>",
+   "D": "<p>2 yıl</p>",
+   "E": "<p>3 yıl</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    983,
+    510,
+    240
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-04",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 4,
+  "konu": "Ücret ve sözleşme",
+  "ortakBilgi": null,
+  "metin": "<p>Serbest Muhasebeci Mali Müşavir ve Yeminli Mali Müşavirlerin Çalışma Usul ve Esasları Hakkında Yönetmelik’e göre; meslek mensubu ile müşterisi arasındaki sözleşmenin feshi halinde, müşteriden alınmış olan defter ve belgeler _____ içinde sahiplerine geri verilir.</p><p><strong>Bu ifadedeki boşluğu doğru bir şekilde dolduracak seçenek aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>15 gün</p>",
+   "B": "<p>1 ay</p>",
+   "C": "<p>45 gün</p>",
+   "D": "<p>2 ay</p>",
+   "E": "<p>3 ay</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    1341,
+    511,
+    225
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-05",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 5,
+  "konu": "Odalar ve organları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavirler Odaları Yönetmeliği’ne göre Oda Genel Kurulu ne zaman toplanır?</strong></p>",
+  "secenekler": {
+   "A": "<p>İki yılda bir mayıs ayı içinde</p>",
+   "B": "<p>İki yılda bir eylül ayı içinde</p>",
+   "C": "<p>Üç yılda bir nisan ayı içinde</p>",
+   "D": "<p>Üç yılda bir mayıs ayı içinde</p>",
+   "E": "<p>Üç yılda bir eylül ayı içinde</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    133,
+    460,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-06",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 6,
+  "konu": "TÜRMOB ve organları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Türkiye Serbest Muhasebeci Mali Müşavirler ve Yeminli Mali Müşavirler Odaları Birliği Yönetmeliği’ne göre aşağıdakilerden hangisi Birliğin organlarından biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Denetleme Kurulu</p>",
+   "B": "<p>Haksız Rekabet Kurulu</p>",
+   "C": "<p>Disiplin Kurulu</p>",
+   "D": "<p>Genel Kurul</p>",
+   "E": "<p>Yönetim Kurulu</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    541,
+    518,
+    231
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-07",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 7,
+  "konu": "Staj ve sınav",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavirlik Staj Yönetmeliği’ne göre stajdan sayılan hallerle ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>TÜRMOB tarafından akredite edilen yabancı dil eğitim programlarında geçen sürelerin bir yılı stajdan sayılır.</p>",
+   "B": "<p>Yönetmelik’te sayılan alanlarda tezli yüksek lisans mezunlarının bu eğitimde geçen sürelerinin bir yılı stajdan sayılır.</p>",
+   "C": "<p>Yönetmelik’te sayılan alanlarda tezsiz yüksek lisans mezunlarının bu eğitimde geçen sürelerinin altı ayı stajdan sayılır.</p>",
+   "D": "<p>Yönetmelik’te sayılan alanlarda uzaktan eğitim yöntemi ile yüksek lisans mezunlarının bu eğitimde geçen sürelerinin altı ayı stajdan sayılır.</p>",
+   "E": "<p>Yönetmelik’te sayılan alanlarda doktora mezunlarının 18 ayı stajdan sayılır.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    946,
+    507,
+    382
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-08",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 8,
+  "konu": "Haksız rekabet ve reklam",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Mesleklerine İlişkin Haksız Rekabet ve Reklam Yasağı Yönetmeliği’ne göre aşağıdakilerden hangisi “Meslek mensupları arasında ve iş sahipleriyle ilişkilerde haksız rekabet” başlığı altında özellikle haksız rekabet teşkil eden hallerden birisi olarak <u>sayılmamıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Muhasebe ve denetim standartlarına uymamak</p>",
+   "B": "<p>İş sahiplerine ait veya iş sahiplerinden elde edilen bilgileri kullanmak suretiyle ekonomik çıkar sağlamak</p>",
+   "C": "<p>Meslek ruhsatının kiralanması veya çeşitli menfaatler sağlayarak meslek mensubu olmayan kişilere faaliyette bulunma imkanı sağlamak</p>",
+   "D": "<p>Üçüncü şahısları yanıltacak şekilde gerçeğe aykırı belge düzenlemek ve onaylamak</p>",
+   "E": "<p>Bağımlı çalışan meslek mensupları bakımından aynı anda birden çok işletmede mesleki sorumluluk üstlenmek</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    133,
+    519,
+    425
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-09",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 9,
+  "konu": "Haksız rekabet ve reklam",
+  "ortakBilgi": null,
+  "metin": "<p>Bir meslek mensubu;</p><ul class=\"madde\"><li>I. Nesnel ve mesleğine ilişkin olduğu sürece işi ve şahsı hakkında açıklama yapabilir.</li><li>II. Seminerler ve eğitim programları organize edebilir. Ancak, bu faaliyetleri basın ve yayın yoluyla üçüncü kişilere duyuramaz.</li><li>III. Mesleki konularda hazırlayacağı kitap, makale ve benzeri bilimsel çalışmalarda mesleki ve akademik unvanlarını kullanamaz.</li></ul><p><strong>Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Mesleklerine İlişkin Haksız Rekabet ve Reklam Yasağı Yönetmeliği’nde belirtilen Reklam Kuralları kapsamında yukarıdakilerden hangileri <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yalnız I</p>",
+   "B": "<p>Yalnız II</p>",
+   "C": "<p>Yalnız III</p>",
+   "D": "<p>I ve II</p>",
+   "E": "<p>II ve III</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    682,
+    527,
+    388
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-10",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 10,
+  "konu": "Etik ilkeler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi Serbest Muhasebeci Mali Müşavirler ve Yeminli Mali Müşavirlerin Mesleki Faaliyetlerinde Uyacakları Etik İlkeler Hakkında Yönetmelik’in Ek-1’inde temel etik ilkelerine yönelik oluşabilecek tehditler olarak sayılan tehditlerden <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Kurumsal itibar tehdidi</p>",
+   "B": "<p>Kişisel çıkar tehdidi</p>",
+   "C": "<p>Yeniden değerlendirme tehdidi</p>",
+   "D": "<p>Yıldırma amaçlı tehdit</p>",
+   "E": "<p>Yakınlık tehdidi</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    57,
+    1241,
+    495,
+    274
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-11",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 11,
+  "konu": "Etik ilkeler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavirler ve Yeminli Mali Müşavirlerin Mesleki Faaliyetlerinde Uyacakları Etik İlkeler Hakkında Yönetmelik’in Ek-1’inde sayılan Tarafsızlık temel ilkesi aşağıdakilerden hangisinde doğru tanımlanmıştır?</strong></p>",
+  "secenekler": {
+   "A": "<p>Meslek mensubunun tüm meslekî ve iş ilişkilerinde doğru sözlü ve dürüst davranmasıdır.</p>",
+   "B": "<p>Meslek mensubunun meslekî faaliyetlerini yerine getirirken teknik ve meslekî standartlara uygun olarak, özen ve gayret içinde davranmasıdır.</p>",
+   "C": "<p>Meslek mensubunun mevcut yasa ve yönetmeliklere uyması ve mesleğin itibarını zedeleyecek her türlü davranıştan kaçınmasıdır.</p>",
+   "D": "<p>Meslek mensubunun meslekî ilişkileri sonucunda elde ettiği bilgileri açıklamasını gerektirecek bir hak veya görevi olmadıkça üçüncü kişi veya gruplara açıklamaması ve bu bilgilerin meslek mensubunun veya üçüncü kişilerin çıkarları için kullanılmamasıdır.</p>",
+   "E": "<p>Yanlı veya önyargılı davranarak; üçüncü kişilerin haksız ve uygunsuz biçimde yaptıkları baskıların meslek mensubunun meslekî kararlarını etkilememesi veya engellememesidir.</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    133,
+    524,
+    511
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-12",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 12,
+  "konu": "Disiplin cezaları ve usulü",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Kanunu Disiplin Yönetmeliği’nde sayılan “geçici olarak mesleki faaliyetten alıkoyma” cezasına göre mesleki sıfatı saklı kalmak koşuluyla mesleki faaliyetten alıkonulma süresi aşağıdakilerden hangisinde doğru olarak verilmiştir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Bir aydan az, üç aydan fazla olamaz.</p>",
+   "B": "<p>Bir aydan az, altı aydan fazla olamaz.</p>",
+   "C": "<p>Üç aydan az, altı aydan fazla olamaz.</p>",
+   "D": "<p>Altı aydan az, bir yıldan fazla olamaz.</p>",
+   "E": "<p>Bir yıldan az, üç yıldan fazla olamaz.</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    846,
+    510,
+    274
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-13",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 13,
+  "konu": "Disiplin cezaları ve usulü",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Kanunu Disiplin Yönetmeliği’ne göre; meslek mensuplarınca, asgari ücret tarifesinde yer alan ücretlerin altında iş kabul edilmesi durumunda meslek mensubuna hangi ceza uygulanır?</strong></p>",
+  "secenekler": {
+   "A": "<p>Kınama</p>",
+   "B": "<p>Uyarma</p>",
+   "C": "<p>Geçici olarak mesleki faaliyetten alıkoyma</p>",
+   "D": "<p>Yeminli sıfatını kaldırma</p>",
+   "E": "<p>Meslekten çıkarma</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    1321,
+    530,
+    253
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-14",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 14,
+  "konu": "Meslek mensubu olma şartları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>3568 sayılı Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Kanunu’na göre aşağıdakilerden hangisi meslek mensubu olabilmenin “özel şartları”ndan biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>En az üç yıl staj yapmış olmak</p>",
+   "B": "<p>Kanun’da sayılan dallarda eğitim veren fakülte ve yüksekokullardan en az lisans seviyesinde mezun olmak</p>",
+   "C": "<p>Medeni hakları kullanma ehliyetine sahip bulunmak</p>",
+   "D": "<p>Serbest muhasebeci mali müşavirlik sınavını kazanmış olmak</p>",
+   "E": "<p>Serbest muhasebeci mali müşavirlik ruhsatını almış olmak</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    133,
+    529,
+    295
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-15",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 15,
+  "konu": "Staj ve sınav",
+  "ortakBilgi": null,
+  "metin": "<p>Her konudan 100 üzerinden en az (i)_____ almak şartıyla, sınavın tüm konularının not ortalamasının en az (ii)_____ olması gerekir. Tezkiye (staj) not ortalaması ayrı bir ders gibi ortalamaya dahil (iii)_____.</p><p><strong>Yeminli Mali Müşavirlik ve Serbest Muhasebeci Mali Müşavirlik Sınav Yönetmeliği’ne göre Serbest Muhasebeci Mali Müşavirlik sınavında başarılı olmanın koşulunu gösteren bu ifadelerde boşlukları doğru olarak tamamlayan seçenek aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>(i) 50; (ii) 50; (iii) edilir.</p>",
+   "B": "<p>(i) 50; (ii) 60; (iii) edilir.</p>",
+   "C": "<p>(i) 60; (ii) 60; (iii) edilir.</p>",
+   "D": "<p>(i) 50; (ii) 60; (iii) edilmez.</p>",
+   "E": "<p>(i) 50; (ii) 50; (iii) edilmez.</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    658,
+    522,
+    373
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-16",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 16,
+  "konu": "Sürekli mesleki geliştirme",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Türkiye Serbest Muhasebeci Mali Müşavirler ve Yeminli Mali Müşavirler Odaları Birliği Sürekli Mesleki Geliştirme Eğitimi Yönetmeliği kapsamındaki bir meslek mensubunun sürekli mesleki geliştirme eğitimi yükümlülüğü aşağıdakilerden hangisinde doğru olarak verilmiştir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yılda en az 15 kredi ve her üç yılda en az 30 kredi</p>",
+   "B": "<p>Yılda en az 15 kredi ve her üç yılda en az 45 kredi</p>",
+   "C": "<p>Yılda en az 30 kredi ve her üç yılda en az 60 kredi</p>",
+   "D": "<p>Yılda en az 30 kredi ve her üç yılda en az 90 kredi</p>",
+   "E": "<p>Yılda en az 30 kredi ve her üç yılda en az 120 kredi</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    1270,
+    528,
+    274
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-17",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 17,
+  "konu": "TÜRMOB ve organları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>3568 sayılı Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Kanunu’na göre Birlik Yönetim Kurulu kaç üyeden oluşur?</strong></p>",
+  "secenekler": {
+   "A": "<p>9 asıl, 9 yedek</p>",
+   "B": "<p>9 asıl, 7 yedek</p>",
+   "C": "<p>7 asıl, 7 yedek</p>",
+   "D": "<p>7 asıl, 5 yedek</p>",
+   "E": "<p>5 asıl, 5 yedek</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    133,
+    521,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-18",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 18,
+  "konu": "Disiplin cezaları ve usulü",
+  "ortakBilgi": null,
+  "metin": "<ul class=\"madde\"><li>I. Kınama</li><li>II. Geçici olarak mesleki faaliyetten alıkoyma</li><li>III. Yeminli sıfatını kaldırma</li><li>IV. Meslekten çıkarma</li></ul><p><strong>Meslek mensuplarına verilen yukarıdaki disiplin cezalarından hangileri Hazine ve Maliye Bakanlığı ile diğer ilgili kurum ve kuruluşlara duyurulur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yalnız II</p>",
+   "B": "<p>Yalnız III</p>",
+   "C": "<p>I ve II</p>",
+   "D": "<p>III ve IV</p>",
+   "E": "<p>II, III ve IV</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    664,
+    522,
+    476,
+    225
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-19",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 19,
+  "konu": "Odalar ve organları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>3568 sayılı Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Kanunu’na göre ilçelerde oda kurulabilmesi için o ilçedeki <u>en az</u> kaç meslek mensubunun yazılı başvurusu aranır?</strong></p>",
+  "secenekler": {
+   "A": "<p>50</p>",
+   "B": "<p>75</p>",
+   "C": "<p>100</p>",
+   "D": "<p>125</p>",
+   "E": "<p>250</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    921,
+    509,
+    120
+   ]
+  }
+ },
+ {
+  "id": "2026-2-MH-20",
+  "donem": "2026-2",
+  "ders": "MH",
+  "no": 20,
+  "konu": "Odalar ve organları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>3568 sayılı Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Kanunu’na göre bir serbest muhasebeci mali müşavir odasına yazılacak adayların giriş ücretlerini ve odaya yazılı üyelerin yıllık aidatlarını tespit etmek aşağıdakilerden hangisinin görevidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Oda Yönetim Kurulu</p>",
+   "B": "<p>Oda Etik Kurulu</p>",
+   "C": "<p>Oda Disiplin Kurulu</p>",
+   "D": "<p>Oda Denetleme Kurulu</p>",
+   "E": "<p>Oda Genel Kurulu</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    1242,
+    526,
+    252
+   ]
+  }
+ }
+]
