@@ -108,7 +108,7 @@
          4
         ]
        ],
-       "aciklama": "Birim maliyet: A 13.000 / 800 = 16,25 ₺/kg; B 6.500 / 500 = 13 ₺/kg. Her iki mamulde maliyet / fiyat = 0,8125; satış değeri yöntemi brüt kâr oranlarını eşitler (%18,75)."
+       "aciklama": "Birim maliyet: A 13.000 / 800 = 16,25 ₺/kg; B 6.500 / 500 = 13 ₺/kg. Her iki mamulde maliyet / fiyat = 0,8125; satış değeri yöntemi (ayrılma sonrası ek işlem yoksa) brüt kâr oranlarını eşitler (%18,75)."
       }
      ]
     }
@@ -123,7 +123,7 @@
   "Satış değeri mi, net satış değeri mi: soru “satış değeri” diyorsa miktar × fiyat kullanılır (2026-1-MAL-05: 16.000 ve 8.000 ₺ → A 13.000, B 6.500 ₺, E; 2026-2-MAL-15: oran 180.000 / 60.000 = 3, Z'nin kg başına payı 70 × 3 = 210 ₺, D). “Net satış değeri” diyorsa ek maliyet düşülür (2026-1-MAL-20: 620 − 20 = 600 ve 230 − 30 = 200 → A 3.750, C 1.250 ₺, D). Ek maliyet düşülmeden dağıtmak satış değeri yöntemidir, NSD değildir.",
   "2026-1-MAL-20 kökünde “birim maliyet” denmesine karşın miktar verilmediğinden şıklar her mamulün ortak maliyet payıdır; ek maliyet paya eklenmez. Ders kitaplarındaki “net gerçekleşebilir değer” ile kitapçıktaki “net satış değeri” aynı yöntemdir.",
   "Katsayılı bölme: 2026-1-MAL-18'de 1.000 × 5 + 2.000 × 4 + 3.000 × 1 = 16.000 katsayılı birim; 1.600.000 / 16.000 = 100 ₺; A 500.000, B 800.000, C 300.000 ₺ (B).",
-  "2026-1-MAL-17 (yan ürün, satış fiyatından geriye doğru hesaplama): standart hesap yan ürüne 250.000 − 250.000 × %20 − 50.000 = 150.000 ₺, ana ürüne 5.000.000 − 150.000 = 4.850.000 ₺ verir ve bu sonuç hiçbir şıkta yoktur. 2026/1 resmi anahtarı (E: 350.000 ₺; 4.650.000 ₺) standart hesapla çelişir; soru TESMER itiraz sonucu kontrol edilene kadar çözümsüz bırakıldı. A şıkkındaki 200.000 ₺ yan ürünün ek maliyet dahil maliyetidir, ama ana ürüne 4.850.000 ₺ kalmalıdır. Sınavda yöntemi standart biçimiyle uygulayın."
+  "2026-1-MAL-17 (yan ürün, satış fiyatından geriye doğru hesaplama): standart hesap yan ürüne 250.000 − 250.000 × %20 − 50.000 = 150.000 ₺, ana ürüne 5.000.000 − 150.000 = 4.850.000 ₺ verir. 2026/1 17. sorunun resmî anahtarı (E: 350.000 ₺; 4.650.000 ₺) bu standart hesapla (150.000 / 4.850.000) çelişir; bu soru için çözüm yayımlanmadı. Standart yöntemi öğrenin, bu soruya takılmayın."
  ],
  "ornekler": [
   {

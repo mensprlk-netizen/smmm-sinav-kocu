@@ -58,7 +58,7 @@
   },
   {
    "on": "Başabaş noktası miktar ve tutar olarak nasıl bulunur?",
-   "arka": "Başabaş miktarı = Sabit maliyetler ÷ Birim katkı payı (küsuratlı ise yukarı yuvarlanır). Başabaş tutarı = Sabit maliyetler ÷ Katkı payı oranı."
+   "arka": "Başabaş miktarı = Sabit maliyetler ÷ Birim katkı payı (birim sorulduğunda ve şıklarda küsuratlı değer yoksa yukarı yuvarlanır). Başabaş tutarı = Sabit maliyetler ÷ Katkı payı oranı."
   },
   {
    "on": "Hedef kâr için gerekli satış miktarı nasıl hesaplanır?",
