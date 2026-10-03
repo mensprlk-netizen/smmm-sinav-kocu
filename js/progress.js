@@ -46,9 +46,9 @@ export async function scheduleForReview({ db, fsrs, question, now = Date.now(), 
   return next;
 }
 
-// Tags the newest answer row of a question (optionally only rows of one exam) with a mistake reason.
-export async function tagLastAnswer(db, soruId, etiket, denemeId) {
-  const list = (await db.answersFor(soruId)).filter(a => denemeId === undefined || a.denemeId === denemeId);
+// Tags the newest answer row of a question with a mistake reason: rows of one exam (denemeId) or, outside exams, rows of one mode (mod).
+export async function tagLastAnswer(db, soruId, etiket, denemeId, mod) {
+  const list = (await db.answersFor(soruId)).filter(a => denemeId !== undefined ? a.denemeId === denemeId : (a.denemeId === undefined && (mod === undefined || a.mod === mod)));
   const a = list.sort((x, y) => y.tarih - x.tarih)[0];
   if (a) { a.hataEtiketi = etiket; await db.put('answers', a); }
 }

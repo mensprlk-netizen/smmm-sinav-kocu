@@ -48,7 +48,7 @@ export function finish(session, questionsById, now = Date.now()) {
   for (const d of Object.values(dersler)) {
     d.puan = dersPuani(d); d.gecti = d.puan >= 50;
     toplam += hamPuan(d); // ortalama ham (kırpılmamış) ders puanlarından hesaplanır
- toplamDogru += d.dogru; toplamYanlis += d.yanlis; toplamBos += d.bos;
+    toplamDogru += d.dogru; toplamYanlis += d.yanlis; toplamBos += d.bos;
   }
   const n = Object.keys(dersler).length;
   const ortalama = n ? kirp(toplam / n) : 0;

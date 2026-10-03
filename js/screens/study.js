@@ -105,7 +105,7 @@ async function showList(view, ctx, ids, idx, filtre, persist) {
         question: q, solution: sol, mode: 'study', index: i, total: ids.length, flagged: !!flag?.bayrak, inkStrokes, feynmanStrokes,
         onAnswer: safe(({ cevap, dogruMu, emin }) => recordAnswer({ db, fsrs, question: q, cevap, dogruMu, emin, sure: Date.now() - startedAt, mod: 'study', examDate })),
         onFlag: safe((b) => db.setFlag(q.id, { bayrak: b })),
-        onTag: safe((t) => tagLastAnswer(db, q.id, t)),
+        onTag: safe((t) => tagLastAnswer(db, q.id, t, undefined, 'study')),
         onCards: safe((kartlar) => addInfoCards({ db, fsrs, kaynakId: q.id, kartlar, examDate })),
         onInk: safe((s) => db.saveInk('soru:' + q.id, s)),
         onFeynman: safe((s) => db.saveInk('feynman:' + q.id, s)),

@@ -67,6 +67,10 @@ export function createInk({ strokes = [], onChange, height = 320 } = {}) {
     if (e.pointerType === 'touch') { if (cur) { e.preventDefault(); return; } touchId = e.pointerId; touchY = e.clientY; return; }
     if (e.pointerType !== 'pen' && e.pointerType !== 'mouse') return;
     if (cur) return;
+    if (e.pointerType === 'mouse' && e.button !== 0) return; // fare sağ/orta tuşu çizmez
+    // Kalem havadayken yan düğmeye basılması da pointerdown üretir; temas (bit 0 / silgi ucu bit 5) ya da basınç yoksa vuruş başlamaz.
+    if (e.pointerType === 'pen' && (e.buttons & 2) && !(e.buttons & 33) && !(e.pressure > 0)) return;
+    touchId = null; // önceden başlamış avuç teması vuruş bitince sıçrama yapmasın
     e.preventDefault(); canvas.setPointerCapture?.(e.pointerId);
     pid = e.pointerId;
     cur = { p: [pos(e)], renk: color, kalinlik: base, silgi: isEraser(e) };
