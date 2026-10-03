@@ -16,7 +16,7 @@ Muhasebe Denetimi için tanımlanan set (11 etiket). 2026-2-DEN dosyası tam ola
 
 | Etiket | Kapsam | 2026-1 soruları |
 |---|---|---|
-| Denetim kavramı ve unsurları | BDY md. 5–10: denetimin amacı, konusu, tarafları, kıstası, kanıtı, raporu (tanım düzeyinde) | 01, 03 |
+| Denetim kavramı ve unsurları | BDY md. 4–10: denetimin amacı, konusu, tarafları, kıstası, kanıtı, raporu (tanım düzeyinde) | 01, 03 |
 | Yetkilendirme ve denetçilik şartları | BDY md. 11–18: denetim yapmaya yetkililer, yetki belgeleri, kuruluş ve denetçi yetkilendirmesi, kendi adına denetim üstlenme, uygulamalı mesleki eğitim, sınav, sicil | 02, 04, 14 |
 | Etik ilkeler ve bağımsızlık | BDY md. 21–24 (etik ilkeler, bağımsızlık, reklam yasağı, haksız rekabet), Bağımsız Denetçiler İçin Etik Kurallar | 06, 07, 08 |
 | Denetim faaliyeti ve kısıtlamalar | BDY md. 19–20, 25–28, 32–37: sürekli eğitim, üstlenilemeyecek denetimler ve rotasyon, denetim ekipleri, sorumlu denetçi, ücret, bildirim ve şeffaflık yükümlülükleri | 13, 15 |

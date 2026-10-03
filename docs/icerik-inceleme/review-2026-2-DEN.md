@@ -6,7 +6,7 @@ Yöntem: Her soru sayfa görüntüsünden yeniden yazıldı; kökler ve şıklar
 
 Kural kontrolü: Bütün hükümler birincil metinden kelime kelime doğrulandı (ayrıntı en altta):
 - Bağımsız Denetim Yönetmeliği (BDY): mevzuat.gov.tr konsolide metni (2026-1-DEN çalışmasında indirilen `bdy_mev.pdf`; RG 26/12/2012-28509, son değişiklik RG 15/6/2024-32577 ve Danıştay 13. D. 6/4/2026 tarihli iptal notu dahil). md. 36/5 (beş yıl) KGK sitesindeki eski güncel metinde de aynıdır.
-- KGK’nın yayımladığı Türkçe TDS metinleri, “TDS 2025 Seti” dosyaları (kgk.gov.tr `Portalv2Uploads/files/Duyurular/v2/TDS/TDS_2025_Seti/`; KGK sitesinde “TDS 2026 Seti” sayfası da aynı dosyaları gösterir): Bağımsız Denetçiler İçin Etik Kurallar (11.08.2025), KYS 2, BDS 200, BDS 210, BDS 240, BDS 265, BDS 580. Paragraf numaraları bu metne göredir. (Not: 2026-1-DEN dosyası BDS 200’ü 2024 setinden aldı; “kesin ölçüm” cümlesi 2025 metninde A35’tedir.)
+- KGK’nın yayımladığı Türkçe TDS metinleri, “TDS 2025 Seti” dosyaları (kgk.gov.tr `Portalv2Uploads/files/Duyurular/v2/TDS/TDS_2025_Seti/`; KGK sitesinde “TDS 2026 Seti” sayfası da aynı dosyaları gösterir): Bağımsız Denetçiler İçin Etik Kurallar (11.08.2025), KYS 2, BDS 200, BDS 210, BDS 240, BDS 265, BDS 580. Paragraf numaraları bu metne göredir. (Not: 2026-1-DEN dosyası BDS 200’ü 2024 setinden aldı; bağımsız incelemeye göre parag. 5, 6, 12, 17, A35–A37 ve A39 2024 ve 2025 metinlerinde aynı numara ve içeriktedir.)
 
 Genel: Satır sonları birleştirildi; heceleme bölünmesi yoktu. Tamamı kalın basılan kökler `<strong>` ile, giriş paragrafı düz basılan kökler (03, 05, 07, 13, 14, 20) ayrı `<p>` + kalın soru cümlesi olarak yazıldı; 10’da kalın giriş, düz alıntı ve kalın soru cümlesi üç ayrı `<p>`. Altı çizili “yanlıştır” (02, 03, 04, 08, 12, 17, 19), “değildir” (16) ve “en uygun” (14) `<u>` ile işaretlendi. 06, 09, 11 ve 18’deki “doğrudur”, 20’deki “en iyi” kitapçıkta altı çizili değildir; öyle bırakıldı. 18’in dört öncülü `<ul class="madde">` listesidir. Kitapçıktaki tırnak biçimleri (01 “…”; 10 “…’’), yazımlar (plânlama, dâhil/dahil, arzeden, nispî, kağıdı) aynen korundu.
 
@@ -28,7 +28,7 @@ Genel: Satır sonları birleştirildi; heceleme bölünmesi yoktu. Tamamı kalı
 | İç kontrol ve hile | 19, 20 |
 | Denetçi raporu ve görüş | 10 |
 
-Sınır notları: 01 (kilit yönetici, BDY md. 4/1-m) bir BDY tanım maddesi olduğundan “Denetim kavramı ve unsurları”na kondu; bu etiketin kapsamı fiilen md. 4 tanımlarını da içerecek şekilde kullanıldı (yeni etiket açılmadı). 07 (denetim raporu tanımı, md. 10) kapsam tablosunda md. 5–10 aralığında olduğu için “Denetim kavramı ve unsurları”ndadır; 10 ise görüş türlerini (md. 30) sorduğu için “Denetçi raporu ve görüş”tedir. 08 (sicil, md. 17) etiket kapsamındaki “sicil” nedeniyle “Yetkilendirme”dedir. 09 (denetim ekipleri, md. 27) ve 11 (şeffaflık raporu, md. 36) faaliyet ve şeffaflık yükümlülükleri olduğu için “Denetim faaliyeti ve kısıtlamalar”dadır. 18 (yazılı beyanlar, BDS 580) etiket kapsamındaki “yazılı beyanlar” nedeniyle “Denetim kanıtı”ndadır. 20 (iç kontrol eksikliği, BDS 265) ve 19 (BDS 240) “İç kontrol ve hile”dedir.
+Sınır notları: 01 (kilit yönetici, BDY md. 4/1-m) bir BDY tanım maddesi olduğundan “Denetim kavramı ve unsurları”na kondu; bu etiketin belgelenen kapsamı (review-2026-1-DEN.md) md. 4–10 olarak güncellendi (yeni etiket açılmadı). 07 (denetim raporu tanımı, md. 10) kapsam tablosunda md. 4–10 aralığında olduğu için “Denetim kavramı ve unsurları”ndadır; 10 ise görüş türlerini (md. 30) sorduğu için “Denetçi raporu ve görüş”tedir. 08 (sicil, md. 17) etiket kapsamındaki “sicil” nedeniyle “Yetkilendirme”dedir. 09 (denetim ekipleri, md. 27) ve 11 (şeffaflık raporu, md. 36) faaliyet ve şeffaflık yükümlülükleri olduğu için “Denetim faaliyeti ve kısıtlamalar”dadır. 18 (yazılı beyanlar, BDS 580) etiket kapsamındaki “yazılı beyanlar” nedeniyle “Denetim kanıtı”ndadır. 20 (iç kontrol eksikliği, BDS 265) ve 19 (BDS 240) “İç kontrol ve hile”dedir.
 
 ## Soru bazında tablo
 
@@ -101,11 +101,20 @@ Kesin = hüküm metni bu çalışmada indirilen (veya 2026-1-DEN çalışmasınd
 - **Bağımsız Denetim Yönetmeliği** md. 4/1-m, 4/1-t, 4/1-u, 4/1-y, 5/1–5/4, 8/1–8/2, 10/1, 11/2, 13/1-ğ, 13/1-i, 14/1-d, 14/3 (a–ğ), 15/1–15/4, 17/1–17/4, 21/1, 22/3-a, 26/3, 27/1, 27/3–27/6, 28/1, 29/1, 30/2 (a–ç), 35/3, 36/1, 36/2, 36/4, 36/5 — kesin (mevzuat.gov.tr konsolide metni).
 - **Bağımsız Denetçiler İçin Etik Kurallar** (KGK, 11.08.2025 metni) parag. 100.1, 100.6 U3, 100.7 U1, 110.1 U1, 111.1 U1–U2; “Bağımsızlık Standartları”nın ayrı düzenlendiği (A100.8’deki atıf) — kesin.
 - **KYS 2** (TDS 2025 Seti) parag. 8, 9, 13 — kesin.
-- **BDS 200** (TDS 2025 Seti) parag. 5, 6, 12, 13 (makul güvence, denetim riski, kontrol riski, önemli yanlışlık riski bileşenleri, üst yönetimden sorumlu olanlar tanımları), 17, A35, A36, A37 — kesin.
+- **BDS 200** (TDS 2025 Seti) parag. 4, 5, 6, 12, 13 (“ön kabul”, makul güvence, denetim riski, kontrol riski, önemli yanlışlık riski bileşenleri, üst yönetimden sorumlu olanlar tanımları), 17, A35, A36, A37 — kesin.
 - **BDS 210** (TDS 2025 Seti) parag. 6(b)(i)–(iii), A26 — kesin.
 - **BDS 240** (TDS 2025 Seti; 1/1/2018 ve sonrası dönemler için yürürlükteki metin) parag. 5, 6, 7, 8, 32 — kesin.
-- **BDS 265** (TDS 2025 Seti) parag. 6, 9, 10 — kesin.
+- **BDS 265** (TDS 2025 Seti) parag. 6, 9, 10, A20 — kesin.
 - **BDS 580** (TDS 2025 Seti) parag. 3, 4, 7 — kesin.
 - Paragraf numarası olmadan, yalnız standart adıyla anılanlar:
   - BDS 230 (Bağımsız Denetimin Belgelendirilmesi) ve BDS 300 (Finansal Tabloların Bağımsız Denetiminin Planlanması): 07’de çalışma kâğıtları ile denetim planı/programının hangi standardın konusu olduğunu söylemek için; adlar KGK TDS seti listesinde görüldü, içerikten hüküm aktarılmadı — güven: yüksek.
   - “Denetim programı” ve “denetim planı”nın iç planlama belgeleri olduğu (07-A, 07-C): ders kitabı düzeyinde genel bilgi — güven: yüksek.
+
+## Düzeltme turu 1 (bağımsız inceleme sonrası)
+
+- 20 `adimlar[1]` ve `kartlar[1].arka` (önemli): BDS 265 parag. 10 eksiksiz yazıldı: uygun yönetim kademesine, o kademeye doğrudan bildirilmesi uygun olmayanlar dışında önemli eksiklikler zamanında ve yazılı olarak; yönetimin dikkatini gerektiren ve diğer taraflarca yönetime bildirilmemiş diğer eksiklikler zamanında bildirilir. İstisnaya örnek olarak parag. A20 (yönetimin dürüstlüğü veya yeterliği konusunda soru işareti) eklendi; `dayanak`a A20 eklendi. Metin indirilen BDS 265’te görüldü.
+- 09 `adimlar[0]` ve `kartlar[0]`: md. 27/1’in “Denetime tabi işletmelerin özellikleri itibarıyla, Kurum tarafından farklı asgari denetçi ve yedek denetçi sayıları belirlenebilir.” cümlesi eklendi.
+- 04 `adimlar[1]`: sorumlu denetçilerin “Kurumun onayı alınmak suretiyle” görevlendirildiği (md. 28/1) eklendi. `adimlar[2]`: “bir şart kümesi değil” ifadesi kaldırıldı; md. 14/3-b’nin md. 28/1 şartlarını aradığı, kıdemli denetçinin md. 27/5’te düzenlenen ve bu bentte aranmayan bir unvan olduğu yazıldı.
+- 12 `adimlar[2]`: kanıt toplamama kuralına dayanan son çıkarım cümlesi silindi.
+- 16 `dayanak`: BDS 200 parag. 13 (“ön kabul” tanımı) ve parag. 4 eklendi; ikisi de indirilen 2025 metninde görüldü.
+- Bu dosyadaki BDS 200 sürüm notu düzeltildi (A39 ve parag. 5, 6, 12, 17, A35–A37 2024 ve 2025 sürümlerinde aynıdır); `review-2026-1-DEN.md`’de “Denetim kavramı ve unsurları” kapsamı “md. 5–10” → “md. 4–10” yapıldı (yalnız bu ifade).
