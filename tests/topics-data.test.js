@@ -72,6 +72,20 @@ KONULAR.forEach((kod, i) => {
     for (const v of visuals) {
       assert.ok(!v.textContent.includes('Görsel gösterilemiyor.'), 'görsel yedek metne düşmemeli');
       assert.ok(v.children.length > 0, '.visual boş olmamalı');
+      assert.equal(v.querySelectorAll('script').length, 0, '.visual içinde script olmamalı');
+    }
+    for (const b of t.bolumler.filter(x => x.gorsel)) {
+      const { tip, veri } = b.gorsel;
+      if (tip === 'allocation-table') {
+        for (const a of veri.adimlar) for (const [r, c] of a.hucreler) {
+          assert.ok(r >= 0 && r < veri.satirlar.length, `hucreler satırı sınır dışı: ${r}`);
+          assert.ok(c >= 0 && c < veri.satirlar[r].length, `hucreler sütunu sınır dışı: [${r}, ${c}]`);
+        }
+      }
+      if (tip === 'flow') {
+        const ids = new Set(veri.dugumler.map(d => d.id));
+        for (const o of veri.oklar) assert.ok(ids.has(o.from) && ids.has(o.to), `ok düğümü yok: ${o.from} → ${o.to}`);
+      }
     }
 
     const n = t.ornekler.length;
