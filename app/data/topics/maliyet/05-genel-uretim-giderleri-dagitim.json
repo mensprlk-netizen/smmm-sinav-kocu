@@ -1,0 +1,242 @@
+{
+ "kod": "05-genel-uretim-giderleri-dagitim",
+ "sira": 5,
+ "baslik": "Genel Üretim Giderleri ve Dağıtımı",
+ "amac": "GÜG kapsamını belirlemek; gider yerleri arasında üç aşamalı dağıtımı (doğrudan, kademeli, matematiksel) yapmak; yükleme oranını hesaplamak, eksik ya da fazla yüklemeyi bulup kapatmak.",
+ "bolumler": [
+  {
+   "baslik": "GÜG kapsamı",
+   "html": "<p>Genel üretim giderleri (730), üretimle ilgili olup belirli bir mamule doğrudan ve ekonomik biçimde izlenemeyen giderlerdir: endirekt malzeme (sarf, işletme, bakım malzemesi), endirekt işçilik, fabrika enerjisi (elektrik, su, doğalgaz), fabrika bina ve makinelerinin amortismanı, bakım-onarım, sigorta, kira, dışarıdan sağlanan üretim hizmetleri.</p><p><strong>GÜG = Üretim giderleri toplamı − DİMM − Dİ</strong></p><p>Eleme kuralı: DİMM ve direkt işçilik GÜG değildir; genel yönetim, pazarlama-satış-dağıtım ve finansman giderleri de üretim maliyeti değil dönem gideridir.</p>"
+  },
+  {
+   "baslik": "Gider yerleri",
+   "html": "<p>MSUGT'ye göre gider yeri, üretim ve hizmetlerin yapıldığı ve maliyetlerin oluştuğu örgütün bir birimi ya da birim içindeki bir yerdir. Üretimle ilgili başlıca türleri:</p><ul><li><strong>Esas üretim gider yerleri:</strong> işletmenin ana konusu olan mamulün üretildiği bölümler (kesim, montaj).</li><li><strong>Yardımcı üretim gider yerleri:</strong> esas üretimin ve diğer birimlerin ihtiyaç duyduğu madde ve hizmetleri üreten bölümler (enerji santrali, kalıphane).</li><li><strong>Yardımcı hizmet gider yerleri:</strong> esas ve yardımcı üretim yerlerine çeşitli hizmetler veren yerler (ambar, iç taşıma, yemekhane).</li><li><strong>Üretim yerleri yönetimi gider yerleri:</strong> üretimin yönetildiği yerler (fabrika müdürlüğü).</li></ul><p>Bunların yanında yatırım, araştırma-geliştirme, pazarlama-satış-dağıtım, genel yönetim ve finansman gider yerleri vardır; bunların giderleri mamule yüklenmez, ilgili hesaplara aktarılır.</p>"
+  },
+  {
+   "baslik": "Birinci ve ikinci dağıtım",
+   "html": "<p><strong>1. dağıtım:</strong> gider türleri gider yerlerine dağıtılır. Bir gider yerine doğrudan ait olan gider (o bölümün endirekt işçiliği) doğrudan yazılır; ortak giderler bir anahtarla bölüştürülür (kira → m², enerji → kWh, amortisman → makine değeri).</p><p><strong>2. dağıtım:</strong> yardımcı gider yerlerinin toplamları, hizmet verdikleri esas üretim gider yerlerine dağıtılır:</p><ul><li><strong>Doğrudan dağıtım:</strong> yardımcı yerlerin birbirine verdiği hizmetler yok sayılır; giderler yalnız esas üretim yerlerine dağıtılır.</li><li><strong>Kademeli (basamaklı) dağıtım:</strong> yardımcı yerler sırayla dağıtılır; sırası gelenin gideri, henüz dağıtılmamış yardımcı yerlere ve esas yerlere paylaştırılır; dağıtımı biten yere geri dağıtım yapılmaz. Sıra genellikle en çok yere hizmet veren ya da gideri en büyük olan yardımcı yerden başlar; kaynaklar ölçütte ayrışır, soru sıra veriyorsa ona uyulur.</li><li><strong>Matematiksel (karşılıklı) dağıtım:</strong> yardımcı yerlerin birbirine verdiği hizmetler denklem sistemiyle tam olarak hesaba katılır: her yardımcı yer için “toplam = kendi I. dağıtım toplamı + diğer yardımcı yerden aldığı pay” denklemi kurulur ve denklemler birlikte çözülür.</li></ul><p>2. dağıtımdan sonra GÜG'ün tamamı esas üretim gider yerlerinde toplanır; toplam tutar değişmez. Aşağıdaki tablo kademeli dağıtımı adım adım gösterir.</p>",
+   "gorsel": {
+    "tip": "allocation-table",
+    "veri": {
+     "basliklar": [
+      "",
+      "Kesim (esas)",
+      "Montaj (esas)",
+      "Bakım (yardımcı)",
+      "Enerji (yardımcı)",
+      "Toplam"
+     ],
+     "satirlar": [
+      [
+       "I. dağıtım toplamı",
+       "400.000",
+       "300.000",
+       "120.000",
+       "80.000",
+       "900.000"
+      ],
+      [
+       "Bakım dağıtımı (%50 / %30 / %20)",
+       "60.000",
+       "36.000",
+       "(120.000)",
+       "24.000",
+       "0"
+      ],
+      [
+       "Enerji dağıtımı (%60 / %40)",
+       "62.400",
+       "41.600",
+       "–",
+       "(104.000)",
+       "0"
+      ],
+      [
+       "II. dağıtım toplamı",
+       "522.400",
+       "377.600",
+       "0",
+       "0",
+       "900.000"
+      ],
+      [
+       "Yükleme anahtarı",
+       "8.000 MS",
+       "9.440 DİS",
+       "",
+       "",
+       ""
+      ],
+      [
+       "Yükleme oranı",
+       "65,3 ₺/MS",
+       "40 ₺/DİS",
+       "",
+       "",
+       ""
+      ]
+     ],
+     "adimlar": [
+      {
+       "hucreler": [
+        [
+         0,
+         1
+        ],
+        [
+         0,
+         2
+        ],
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         4
+        ],
+        [
+         0,
+         5
+        ]
+       ],
+       "aciklama": "1. dağıtım sonucu: gider türleri gider yerlerine dağıtılmış; toplam GÜG 900.000 ₺."
+      },
+      {
+       "hucreler": [
+        [
+         1,
+         1
+        ],
+        [
+         1,
+         2
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         1,
+         4
+        ]
+       ],
+       "aciklama": "Önce en çok yere hizmet veren Bakım dağıtılır: Kesim 120.000 × %50 = 60.000, Montaj × %30 = 36.000, Enerji × %20 = 24.000."
+      },
+      {
+       "hucreler": [
+        [
+         2,
+         1
+        ],
+        [
+         2,
+         2
+        ],
+        [
+         2,
+         4
+        ]
+       ],
+       "aciklama": "Enerji'nin yeni toplamı 80.000 + 24.000 = 104.000 ₺; yalnız esas yerlere dağıtılır (Bakım'ın dağıtımı bittiği için ona pay verilmez): Kesim %60 = 62.400, Montaj %40 = 41.600."
+      },
+      {
+       "hucreler": [
+        [
+         3,
+         1
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         5
+        ]
+       ],
+       "aciklama": "II. dağıtım toplamı: Kesim 400.000 + 60.000 + 62.400 = 522.400; Montaj 300.000 + 36.000 + 41.600 = 377.600. Toplam 900.000 ₺ değişmedi."
+      },
+      {
+       "hucreler": [
+        [
+         4,
+         1
+        ],
+        [
+         4,
+         2
+        ],
+        [
+         5,
+         1
+        ],
+        [
+         5,
+         2
+        ]
+       ],
+       "aciklama": "3. dağıtım için oran: Kesim 522.400 / 8.000 MS = 65,3 ₺/MS; Montaj 377.600 / 9.440 DİS = 40 ₺/DİS."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "baslik": "Üçüncü dağıtım: yükleme oranı ve kapasite",
+   "html": "<p>3. dağıtımda esas üretim gider yerlerinin GÜG'ü mamullere yüklenir. Her gider yeri, GÜG'ünü en iyi açıklayan kendi anahtarını kullanır (direkt işçilik saati, makine saati, DİMM miktarı vb.).</p><p><strong>Önceden belirlenmiş yükleme oranı = Bütçelenmiş GÜG ÷ Bütçelenmiş faaliyet hacmi</strong></p><p><strong>Yüklenen GÜG = Yükleme oranı × Fiili faaliyet hacmi</strong></p><p>Fiili maliyet sisteminde oran dönem sonunda, gider yerinin II. dağıtım toplamı dönemin fiili anahtar miktarına bölünerek bulunur (fiili yükleme katsayısı).</p><p>Bütçelenmiş hacim bir kapasite düzeyine göre seçilir. <strong>Teorik (ideal) kapasite:</strong> hiç kesinti olmadan ulaşılabilecek en yüksek hacim. <strong>Pratik (uygulanabilir) kapasite:</strong> teorik kapasiteden bakım, tatil, kaçınılmaz arıza gibi kesintiler düşülerek bulunur. <strong>Normal kapasite:</strong> birkaç yıllık ortalama talep dikkate alınarak uzun dönemde beklenen ortalama kullanım. <strong>Beklenen (bütçe) kapasite:</strong> gelecek dönem için öngörülen kullanım. Sabit GÜG'de seçilen hacim küçüldükçe oran büyür.</p>"
+  },
+  {
+   "baslik": "Eksik ve fazla yükleme",
+   "html": "<p><strong>Yükleme farkı = Yüklenen GÜG − Gerçekleşen (fiili) GÜG</strong></p><p>Fark pozitifse fazla yükleme (+, olumlu), negatifse eksik yükleme (−, olumsuz) vardır. Değişken ve sabit GÜG için ayrı ayrı hesaplanabilir; toplam fark, kalem farklarının cebirsel toplamıdır.</p><p>Kapatma: fark önemsizse tamamı dönemin satılan mamuller maliyetine (620) aktarılır; eksik yükleme SMM'yi artırır, fazla yükleme azaltır. Fark önemliyse 151, 152 ve 620 arasında, bu hesaplardaki yüklenmiş GÜG oranında dağıtılır. 7/A'da önceden saptanmış maliyet uygulanırken fark 732 Bütçe, 733 Verimlilik ve 734 Kapasite Farkları hesaplarında izlenir ve dönem sonunda ilgili stok ve satış maliyeti hesaplarına aktarılır.</p><p>TMS 2 notu: sabit GÜG normal kapasiteye göre yüklenir; düşük üretim nedeniyle mamullere yüklenemeyen sabit GÜG stoklara eklenmez, oluştuğu dönemde gider yazılır.</p>"
+  }
+ ],
+ "sinavYaklasimi": [
+  "Eksik/fazla yüklemede işaret: yüklenen − gerçekleşen; pozitifse fazla (+), negatifse eksik (−). 2026-1-MAL-02'de değişken 567.368 − 532.218 = +35.150, sabit 611.840 − 613.916 = −2.076, toplam +33.074 (B). Kitapçıkta “Eksik (+)” gibi tutarsız işaretli şıklar bulunabilir; tutarı ve sözcüğü birlikte kontrol edin.",
+  "Yükleme katsayısı her gider yerinin kendi anahtarına bölünür: 2026-1-MAL-16'da 28.750.000 / 500.000 kg = 57,5 ₺/kg ve 39.750.000 / 300.000 DİS = 132,5 ₺/DİS (B). Bu soruda bütçe değil, II. dağıtım toplamı ve dönemin anahtar miktarı kullanılır (fiili katsayı).",
+  "GÜG listesi sorularında DİMM ya da direkt işçilik içeren şıkkı ele (2026-1-MAL-12, D; 2026-2-MAL-01, C). Birim GÜG: 2026-2-MAL-07'de 100.000 + 50.000 + 200.000 + 50.000 + 150.000 = 550.000 ₺; 550.000 / 10.000 = 55 ₺ (B).",
+  "Gider yeri tanımını “sadece üretim”, “sadece hizmet” gibi daraltan şıklar yanlıştır; tanım üretim ve hizmetleri birlikte kapsar (2026-2-MAL-11, D).",
+  "Kademeli dağıtımın sırası, kapasite seçimi ve eksik/fazla yüklemenin kapatılması 2026 kitapçıklarında sorulmadı; burada ana akım yaklaşım anlatıldı. Soru “önemsiz” diyorsa farkın tamamı 620'ye, “oransal” diyorsa 151, 152 ve 620'ye dağıtılır."
+ ],
+ "ornekler": [
+  {
+   "soru": "<p>Bir işletme GÜG'ü direkt işçilik saatine (DİS) göre yüklemektedir. Yıllık bütçe: değişken GÜG 480.000 ₺, sabit GÜG 720.000 ₺, faaliyet hacmi 40.000 DİS. Yıl içinde 38.000 DİS çalışılmış; gerçekleşen değişken GÜG 450.000 ₺, sabit GÜG 715.000 ₺'dir. Yüklenen GÜG yıl sonunda 151'de 114.000 ₺, 152'de 228.000 ₺, 620'de 798.000 ₺'dir.</p><p><strong>Yükleme oranını, yüklenen GÜG'ü, değişken, sabit ve toplam GÜG'deki eksik ya da fazla yüklemeyi bulunuz; fark önemli sayılırsa hesaplara dağıtınız.</strong></p>",
+   "cozum": [
+    "<p><strong>1. Yükleme oranı.</strong> Değişken 480.000 / 40.000 = 12 ₺/DİS; sabit 720.000 / 40.000 = 18 ₺/DİS; toplam (480.000 + 720.000) / 40.000 = <strong>30 ₺/DİS</strong>.</p>",
+    "<p><strong>2. Yüklenen GÜG.</strong> Değişken 38.000 × 12 = 456.000 ₺; sabit 38.000 × 18 = 684.000 ₺; toplam 38.000 × 30 = <strong>1.140.000 ₺</strong>.</p>",
+    "<p><strong>3. Farklar.</strong> Değişken 456.000 − 450.000 = fazla (+) 6.000; sabit 684.000 − 715.000 = eksik (−) 31.000; toplam 1.140.000 − 1.165.000 = <strong>eksik (−) 25.000 ₺</strong>. Sağlama: 6.000 + (−31.000) = −25.000.</p>",
+    "<p><strong>4. Kapatma (fark önemli).</strong> Eksik yüklenen 25.000 ₺, yüklenen GÜG oranında dağıtılır: 151 114.000 / 1.140.000 = %10 → 2.500 ₺; 152 %20 → 5.000 ₺; 620 %70 → 17.500 ₺. Eksik yükleme olduğu için bu tutarlar hesapların borcuna eklenir. Fark önemsiz sayılsaydı 25.000 ₺'nin tamamı 620'ye eklenirdi.</p>"
+   ]
+  }
+ ],
+ "cikmisSorular": [
+  "2026-1-MAL-02",
+  "2026-1-MAL-16",
+  "2026-1-MAL-12",
+  "2026-2-MAL-01",
+  "2026-2-MAL-07",
+  "2026-2-MAL-11"
+ ],
+ "kartlar": [
+  {
+   "on": "Genel üretim giderleri nelerdir, hangi kalemler GÜG değildir?",
+   "arka": "GÜG, üretimle ilgili olup mamule doğrudan izlenemeyen giderlerdir: endirekt malzeme, endirekt işçilik, fabrika enerjisi, amortisman, bakım-onarım, sigorta, kira. DİMM, direkt işçilik ve yönetim, pazarlama, finansman giderleri GÜG değildir."
+  },
+  {
+   "on": "GÜG dağıtımının üç aşaması nedir?",
+   "arka": "1. dağıtım: gider türleri gider yerlerine. 2. dağıtım: yardımcı gider yerleri esas üretim gider yerlerine (doğrudan, kademeli, matematiksel). 3. dağıtım: esas üretim gider yerlerinden mamullere yükleme oranıyla."
+  },
+  {
+   "on": "Önceden belirlenmiş GÜG yükleme oranı nasıl hesaplanır?",
+   "arka": "Yükleme oranı = Bütçelenmiş GÜG ÷ Bütçelenmiş faaliyet hacmi (DİS, makine saati vb.). Yüklenen GÜG = Yükleme oranı × Fiili faaliyet hacmi."
+  },
+  {
+   "on": "Eksik ve fazla GÜG yüklemesi nasıl belirlenir ve kapatılır?",
+   "arka": "Fark = Yüklenen GÜG − Gerçekleşen GÜG. Pozitifse fazla, negatifse eksik yüklemedir. Önemsizse tamamı 620'ye; önemliyse 151, 152 ve 620 arasında yüklenen GÜG oranında dağıtılır."
+  },
+  {
+   "on": "Doğrudan, kademeli ve matematiksel dağıtım yöntemlerinin farkı nedir?",
+   "arka": "Doğrudan: yardımcı yerler arası hizmetler yok sayılır. Kademeli: yardımcı yerler sırayla dağıtılır, dağıtımı biten yere geri dağıtım yapılmaz. Matematiksel: yardımcı yerler arası karşılıklı hizmetler denklem sistemiyle tam hesaba katılır."
+  }
+ ]
+}
