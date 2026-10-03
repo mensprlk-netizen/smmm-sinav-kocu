@@ -1,0 +1,237 @@
+{
+ "kod": "11-maliyet-yontemleri",
+ "sira": 11,
+ "baslik": "Kapsamına Göre Maliyet Yöntemleri",
+ "amac": "Tam, normal, değişken ve asal maliyet yöntemlerinde mamul maliyetine giren unsurları ayırt etmek; aynı veriyle birim maliyeti, stok değerini ve dönem kârını hesaplamak; üretim satıştan farklıyken kâr farkını sabit GÜG ile açıklamak.",
+ "bolumler": [
+  {
+   "baslik": "Dört yöntem: mamul maliyetine neler girer?",
+   "html": "<p>Maliyet yöntemleri, üretim maliyetlerinin hangilerinin mamul maliyetine (stoka) yükleneceğine, hangilerinin oluştuğu dönemde gider yazılacağına göre ayrılır. DİMM ve direkt işçilik her yöntemde mamul maliyetidir; fark GÜG'ün, özellikle sabit GÜG'ün işleminden doğar.</p><ul><li><strong>Tam maliyet yöntemi:</strong> DİMM, direkt işçilik, değişken GÜG ve sabit GÜG'ün tamamı mamul maliyetine yüklenir.</li><li><strong>Normal maliyet yöntemi:</strong> DİMM, direkt işçilik, değişken GÜG ve sabit GÜG'ün kapasite kullanım oranına düşen kısmı yüklenir; kullanılmayan kapasitenin sabit GÜG'ü dönem gideridir.</li><li><strong>Değişken (direkt) maliyet yöntemi:</strong> yalnız değişken üretim maliyetleri (DİMM, direkt işçilik, değişken GÜG) yüklenir; sabit GÜG'ün tamamı dönem gideridir.</li><li><strong>Asal maliyet yöntemi:</strong> yalnız ilk (asal) maliyet, yani DİMM ve direkt işçilik yüklenir; GÜG'ün tamamı dönem gideridir.</li></ul><p><strong>Normal maliyette yüklenen sabit GÜG = Fiili üretim × (Sabit GÜG ÷ Normal kapasite)</strong></p><p><strong>Kapasite farkı (boş kapasite maliyeti) = Sabit GÜG − Yüklenen sabit GÜG</strong></p><p>Fiili üretim normal kapasiteyi aşarsa sabit GÜG'ün tamamı yüklenir, fazlası yüklenmez (TMS 2: stoklar maliyetinin üzerinde değerlenmez). Pazarlama-satış ve genel yönetim giderleri (değişken olanlar dahil) hiçbir yöntemde mamul maliyetine girmez. Tablo aynı veriyle dört yöntemin birim maliyetini adım adım karşılaştırır: 8.000 br üretim, normal kapasite 10.000 br, DİMM 40 ₺/br, Dİ 25 ₺/br, değişken GÜG 15 ₺/br, sabit GÜG 200.000 ₺.</p>",
+   "gorsel": {
+    "tip": "allocation-table",
+    "veri": {
+     "basliklar": [
+      "",
+      "Asal",
+      "Değişken",
+      "Normal",
+      "Tam"
+     ],
+     "satirlar": [
+      [
+       "DİMM + Dİ",
+       "65",
+       "65",
+       "65",
+       "65"
+      ],
+      [
+       "Değişken GÜG",
+       "—",
+       "15",
+       "15",
+       "15"
+      ],
+      [
+       "Sabit GÜG",
+       "—",
+       "—",
+       "20",
+       "25"
+      ],
+      [
+       "Birim maliyet",
+       "65",
+       "80",
+       "100",
+       "105"
+      ],
+      [
+       "Dönem gideri GÜG",
+       "320.000",
+       "200.000",
+       "40.000",
+       "0"
+      ]
+     ],
+     "adimlar": [
+      {
+       "hucreler": [
+        [
+         0,
+         1
+        ],
+        [
+         0,
+         2
+        ],
+        [
+         0,
+         3
+        ],
+        [
+         0,
+         4
+        ]
+       ],
+       "aciklama": "DİMM ve direkt işçilik dört yöntemde de mamul maliyetidir: 40 + 25 = 65 ₺/br (ilk maliyet)."
+      },
+      {
+       "hucreler": [
+        [
+         3,
+         1
+        ],
+        [
+         4,
+         1
+        ]
+       ],
+       "aciklama": "Asal maliyet yöntemi mamule yalnız 65 ₺ yükler; GÜG'ün tamamı (8.000 × 15 + 200.000 = 320.000 ₺) dönem gideridir."
+      },
+      {
+       "hucreler": [
+        [
+         1,
+         2
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         4,
+         2
+        ]
+       ],
+       "aciklama": "Değişken maliyet yöntemi değişken GÜG'ü ekler: 65 + 15 = 80 ₺/br; sabit GÜG (200.000 ₺) tümüyle dönem gideridir."
+      },
+      {
+       "hucreler": [
+        [
+         2,
+         3
+        ],
+        [
+         3,
+         3
+        ],
+        [
+         4,
+         3
+        ]
+       ],
+       "aciklama": "Normal maliyet yöntemi sabit GÜG'ü normal kapasiteye göre yükler: 200.000 / 10.000 = 20 ₺/br; birim 100 ₺. Yüklenen 8.000 × 20 = 160.000 ₺; kullanılmayan kapasitenin payı 200.000 − 160.000 = 40.000 ₺ dönem gideridir."
+      },
+      {
+       "hucreler": [
+        [
+         2,
+         4
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         4,
+         4
+        ]
+       ],
+       "aciklama": "Tam maliyet yöntemi sabit GÜG'ün tamamını fiili üretime böler: 200.000 / 8.000 = 25 ₺/br; birim 105 ₺; dönem gideri olarak kalan GÜG yoktur."
+      },
+      {
+       "hucreler": [
+        [
+         3,
+         1
+        ],
+        [
+         3,
+         2
+        ],
+        [
+         3,
+         3
+        ],
+        [
+         3,
+         4
+        ],
+        [
+         4,
+         1
+        ],
+        [
+         4,
+         2
+        ],
+        [
+         4,
+         3
+        ],
+        [
+         4,
+         4
+        ]
+       ],
+       "aciklama": "Sağlama: her sütunda 8.000 × birim maliyet + dönem gideri GÜG = 840.000 ₺ (dönemin üretim maliyeti). Yöntemler toplamı değil, toplamın stok ile dönem gideri arasındaki bölünüşünü değiştirir."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "baslik": "Stok değeri ve dönem kârı",
+   "html": "<p>Üretilen miktarın tamamı satılırsa her yöntemde dönemin bütün üretim maliyeti gider olur ve kâr aynı çıkar. Üretim ile satış farklıysa sabit GÜG'ün bir kısmı tam maliyette stokta kalır (ertelenir), değişken maliyette ise hemen gider yazılır.</p><p><strong>Tam maliyet kârı − Değişken maliyet kârı = DS stoktaki sabit GÜG − DB stoktaki sabit GÜG</strong></p><p><strong>Birim sabit GÜG değişmiyorsa: Kâr farkı = (Üretim − Satış) × Birim sabit GÜG</strong></p><ul><li>Üretim &gt; satış (stok artıyor): tam maliyet kârı değişken maliyet kârından büyüktür.</li><li>Üretim &lt; satış (stok azalıyor): tam maliyet kârı küçüktür; önceki dönemde stokta ertelenen sabit GÜG bu dönem gider olur.</li><li>Üretim = satış: kârlar eşittir.</li></ul><p>Örnek: ertesi dönem 8.000 br satılıp 6.000 br üretilirse stok 2.000 br azalır; birim sabit GÜG 25 ₺ kalırsa tam maliyet kârı (6.000 − 8.000) × 25 = −50.000, yani 50.000 ₺ daha düşük çıkar. Başında ve sonunda stok bulunmayan bir dönemler dizisinin toplamında iki yöntemin kârı eşittir.</p><p>Gelir tablosu biçimi de farklıdır: tam maliyette satışlardan SMM düşülerek brüt kâr bulunur; değişken maliyette satışlardan bütün değişken maliyetler (değişken pazarlama dahil) düşülerek <strong>katkı payı</strong> bulunur, sonra sabit giderler düşülür.</p>"
+  },
+  {
+   "baslik": "Yöntemlerin kullanım alanı",
+   "html": "<p>Dış raporlama, sabit GÜG'ü de stok maliyetine katan yaklaşıma dayanır. TMS 2'ye göre sabit GÜG normal kapasiteye göre yüklenir; düşük üretim nedeniyle yüklenemeyen kısım oluştuğu dönemde gider yazılır. Bu, Türk sınıflamasındaki normal maliyet yönteminin mantığıdır. Değişken ve asal maliyet yöntemleri dış raporlamada kabul edilmez; işletme içi raporlama, maliyet-hacim-kâr analizi, fiyatlama ve kısa dönemli kararlar (Konu 10 ve 13) için kullanılır.</p><ul><li>Değişken maliyet yönteminin yararı: kâr satışlara bağlıdır, stok artırarak kâr yükseltilemez; katkı payı doğrudan görülür.</li><li>Sakıncası: sabit GÜG stok değerine girmez; uzun dönem fiyatlamasında sabit maliyetler gözden kaçabilir.</li><li>Tam maliyetin sakıncası: üretimi satışın üzerine çıkarmak sabit GÜG'ü stoka erteleyerek dönem kârını yükseltir.</li></ul>"
+  }
+ ],
+ "sinavYaklasimi": [
+  "2026 kitapçıklarında maliyet yöntemlerini doğrudan soran bir soru çıkmadı; aşağıdaki sorular bu konuya en yakın olanlardır ve burada öğretilen ayrımla çözülür.",
+  "2026-2-MAL-07: tam maliyette mamule giren birim GÜG (100.000 + 50.000 + 200.000 + 50.000 + 150.000) / 10.000 = 550.000 / 10.000 = 55 ₺ (B). Şıklardaki 150 ₺ birim asal (ilk) maliyet (1.500.000 / 10.000), yani asal maliyet yönteminde birim maliyet; 205 ₺ tam maliyet yönteminde birim maliyettir. 2026-1-MAL-01: ilk (asal) maliyet 107.750 + 31.000 = 138.750 ₺, dönüşüm maliyeti 31.000 + 48.000 = 79.000 ₺ (C); asal maliyet yöntemi mamule yalnız 138.750 ₺ yükler.",
+  "2026-2-MAL-14 (tam maliyet, üretim ≠ satış): üretilen mamul maliyeti 1.000.000 + 300.000 + 500.000 + 100.000 − 400.000 = 1.500.000 ₺, birim 15 ₺; SMM 80.000 × 15 = 1.200.000 ₺ (A); tam maliyette DS mamul stoku 20.000 × 15 = 300.000 ₺ olur ve GÜG'ün (sabit kısmı dahil) payını taşır. 2026-1-MAL-02: değişken GÜG 567.368 − 532.218 = fazla (+) 35.150, sabit GÜG 611.840 − 613.916 = eksik (−) 2.076, toplam fazla (+) 33.074 ₺ (B). Normal maliyet yönteminde sabit GÜG eksik yüklemesinin kullanılmayan kapasiteden doğan kısmı dönem gideridir; bu soruda kapasite bilgisi olmadığı için o ayrım yapılamaz. 2026-1-MAL-07 (E): değişken maliyet yöntemi de MHK analizi de giderlerin değişken ve sabit diye ayrılabildiği varsayımına dayanır.",
+  "Kaynak farkı (normal maliyet): Türk ders kitaplarında “normal maliyet yöntemi” burada anlatılan kapsam yöntemidir ve kapasite farkı dönem gideri yazılır (TMS 2 ile aynı). Klasik eksik/fazla yükleme yaklaşımında (Konu 5) önemli fark 151, 152 ve 620'ye oransal dağıtılır. İngilizce kaynaklardaki “normal costing” ise fiili DİMM ve Dİ ile önceden belirlenmiş oranla yüklenen GÜG demektir; adı aynı, kapsamı farklıdır. Soru “kullanılmayan kapasite” diyorsa farkı dönem gideri yapın.",
+  "Ad karışıklığı: “ilk maliyet” ile “asal maliyet” aynı kavramdır (DİMM + Dİ). “Direkt maliyet yöntemi” ise değişken maliyet yönteminin diğer adıdır (değişken GÜG'ü de içerir); asal maliyet yöntemiyle karıştırmayın."
+ ],
+ "ornekler": [
+  {
+   "soru": "<p>Görseldeki işletme dönemde 8.000 br üretip 6.000 br'yi 150 ₺'den satmıştır; dönem başı stok yoktur. Değişken pazarlama gideri 5 ₺/br, sabit pazarlama ve yönetim giderleri 100.000 ₺'dir.</p><p><strong>Dört yönteme göre faaliyet kârını ve dönem sonu mamul stokunu bulunuz; tam ve değişken maliyet kârı arasındaki farkı açıklayınız.</strong></p>",
+   "cozum": [
+    "<p><strong>1. Birim maliyetler.</strong> Tam 80 + 200.000 / 8.000 = 105 ₺; normal 80 + 200.000 / 10.000 = 100 ₺; değişken 65 + 15 = 80 ₺; asal 40 + 25 = 65 ₺. Stok artışı 8.000 − 6.000 = 2.000 br.</p>",
+    "<p><strong>2. Tam maliyet.</strong> SMM 6.000 × 105 = 630.000 ₺; brüt kâr 900.000 − 630.000 = 270.000 ₺; faaliyet kârı 270.000 − 30.000 − 100.000 = <strong>140.000 ₺</strong>.</p>",
+    "<p><strong>3. Değişken maliyet.</strong> Katkı payı 900.000 − 480.000 − 30.000 = 390.000 ₺; faaliyet kârı 390.000 − 200.000 − 100.000 = <strong>90.000 ₺</strong>.</p>",
+    "<p><strong>4. Normal ve asal maliyet.</strong> Normal: kapasite farkı (10.000 − 8.000) × 20 = 40.000 ₺ dönem gideri; kâr 900.000 − 600.000 − 40.000 − 130.000 = <strong>130.000 ₺</strong>. Asal: GÜG'ün tamamı 120.000 + 200.000 = 320.000 ₺ gider; kâr 900.000 − 390.000 − 320.000 − 130.000 = <strong>60.000 ₺</strong>.</p><table class=\"veri\"><tr><th></th><th class=\"n\">Tam</th><th class=\"n\">Normal</th><th class=\"n\">Değişken</th><th class=\"n\">Asal</th></tr><tr><td>Satışlar</td><td class=\"n\">900.000</td><td class=\"n\">900.000</td><td class=\"n\">900.000</td><td class=\"n\">900.000</td></tr><tr><td>SMM (6.000 × birim)</td><td class=\"n\">630.000</td><td class=\"n\">600.000</td><td class=\"n\">480.000</td><td class=\"n\">390.000</td></tr><tr><td>Dönem gideri GÜG</td><td class=\"n\">0</td><td class=\"n\">40.000</td><td class=\"n\">200.000</td><td class=\"n\">320.000</td></tr><tr><td>Pazarlama ve yönetim giderleri</td><td class=\"n\">130.000</td><td class=\"n\">130.000</td><td class=\"n\">130.000</td><td class=\"n\">130.000</td></tr><tr><td><strong>Faaliyet kârı</strong></td><td class=\"n\"><strong>140.000</strong></td><td class=\"n\"><strong>130.000</strong></td><td class=\"n\"><strong>90.000</strong></td><td class=\"n\"><strong>60.000</strong></td></tr><tr><td>DS mamul stoku (2.000 br)</td><td class=\"n\">210.000</td><td class=\"n\">200.000</td><td class=\"n\">160.000</td><td class=\"n\">130.000</td></tr></table>",
+    "<p><strong>5. Fark.</strong> Tam − değişken = 140.000 − 90.000 = <strong>50.000 ₺</strong> = 2.000 br × 25 ₺ birim sabit GÜG = 210.000 − 160.000 (stok değerleri farkı). Normal − değişken = 2.000 × 20 = 40.000 ₺. Üretim satıştan büyük olduğundan kâr sırası tam &gt; normal &gt; değişken &gt; asal.</p>"
+   ]
+  }
+ ],
+ "cikmisSorular": [
+  "2026-2-MAL-07",
+  "2026-1-MAL-01",
+  "2026-2-MAL-14",
+  "2026-1-MAL-02",
+  "2026-1-MAL-07"
+ ],
+ "kartlar": [
+  {
+   "on": "Tam, normal, değişken ve asal maliyet yöntemlerinde mamul maliyetine hangi unsurlar girer?",
+   "arka": "Tam: DİMM + Dİ + değişken GÜG + sabit GÜG'ün tamamı. Normal: DİMM + Dİ + değişken GÜG + sabit GÜG'ün kapasite kullanım oranına düşen kısmı. Değişken (direkt): DİMM + Dİ + değişken GÜG. Asal: yalnız DİMM + Dİ. Mamule girmeyen GÜG dönem gideridir."
+  },
+  {
+   "on": "Normal maliyet yönteminde sabit GÜG nasıl yüklenir, kapasite farkı nedir?",
+   "arka": "Yüklenen sabit GÜG = Fiili üretim × (Sabit GÜG ÷ Normal kapasite). Kapasite farkı = Sabit GÜG − Yüklenen sabit GÜG; kullanılmayan kapasitenin maliyetidir ve dönem gideri yazılır (TMS 2 ile aynı mantık)."
+  },
+  {
+   "on": "Tam maliyet ile değişken maliyet yöntemine göre kâr farkı nasıl hesaplanır?",
+   "arka": "Fark = DS stoktaki sabit GÜG − DB stoktaki sabit GÜG = (Üretim − Satış) × Birim sabit GÜG (birim sabit GÜG değişmiyorsa). Üretim satıştan büyükse tam maliyet kârı büyük, küçükse küçük, eşitse kârlar eşittir."
+  },
+  {
+   "on": "Değişken maliyet yöntemi nerede kullanılır? “Direkt maliyet” ile “asal maliyet” aynı mı?",
+   "arka": "Dış raporlamada (TMS 2 ve vergi) kabul edilmez; iç raporlama, MHK analizi ve kısa dönemli kararlar için kullanılır. Direkt maliyet yöntemi değişken maliyet yönteminin diğer adıdır; asal (ilk) maliyet yöntemi yalnız DİMM ve Dİ'yi yükler."
+  }
+ ]
+}
