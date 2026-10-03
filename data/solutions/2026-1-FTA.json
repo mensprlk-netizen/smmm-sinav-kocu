@@ -95,7 +95,7 @@
   "tuzaklar": {
    "A": "32 gün net satışlarla hesaplanmış: 4.500.000 / 400.000 = 11,25 → 360 / 11,25 = 32. Stok maliyetle izlendiği için pay satışların maliyetidir.",
    "B": "35 gün, 2023 ve 2025 stoklarının ortalamasıyla (200.000 + 500.000) / 2 = 350.000 çıkar (3.600.000 / 350.000 → 35 gün). 2025'in dönem başı stoku 2023 değil 2024 sonu stokudur (300.000).",
-   "C": "38 gün doğru formülle çıkmaz; ortalama yerine dönem sonu stok kullanılsa bile 50 gün bulunur.",
+   "C": "38 gün, pay olarak satışların maliyeti yerine 2025 alışları kullanılınca çıkar: alışlar = 3.600.000 + 500.000 − 300.000 = 3.800.000; 360 × 400.000 / 3.800.000 = 37,89 ≈ 38. Stok devir hızında pay satışların maliyetidir.",
    "E": "50 gün dönem sonu stokla hesaplanmış: 3.600.000 / 500.000 = 7,2 → 360 / 7,2 = 50. Soru ortalama değeri kullanmayı istiyor."
   },
   "kartlar": [
@@ -168,7 +168,7 @@
   "adimlar": [
    "<p><strong>1. Formül.</strong> Satışların brüt kârlılığı (brüt kâr marjı) = Brüt satış kârı / Net satışlar × 100. Net satış hasılatının yüzde kaçının satışların maliyetini karşıladıktan sonra kâr olarak kaldığını gösterir.</p>",
    "<p><strong>2. Hesap (2025).</strong> 900.000 / 4.500.000 = 0,20 → <strong>%20,00</strong>.</p>",
-   "<p><strong>3. Hangi kâr?</strong> “Satışların kârlılığı” başlığı altında brüt kâr marjı, faaliyet kâr marjı (faaliyet kârı / net satışlar) ve net kâr marjı (net kâr / net satışlar) bulunur. 2025'te faaliyet kâr marjı 45.000 / 4.500.000 = %1,00, net kâr marjı 45.120 / 4.500.000 = %1,00, vergi öncesi kâr marjı 60.160 / 4.500.000 = %1,34'tür; bunların hiçbiri şıklarda yoktur. Şıklarla örtüşen tek ölçü brüt kâr marjıdır; soru bunu kastetmektedir.</p>",
+   "<p><strong>3. Hangi kâr?</strong> “Satışların kârlılığı” başlığı altında brüt kâr marjı, faaliyet kâr marjı (faaliyet kârı / net satışlar) ve net kâr marjı (net kâr / net satışlar) bulunur. 2025'te faaliyet kâr marjı 45.000 / 4.500.000 = %1,00, net kâr marjı 45.120 / 4.500.000 = %1,00, vergi öncesi kâr marjı 60.160 / 4.500.000 = %1,34'tür; bunların hiçbiri şıklarda yoktur. (Gelir tablosunun alt satırları kendi içinde tutarsızdır, bkz. 09 Not; hangi rakamla hesaplanırsa hesaplansın bu ölçüler şıklarda yoktur.) Şıklarla örtüşen tek ölçü brüt kâr marjıdır; soru bunu kastetmektedir.</p>",
    "<p><strong>4. Sonuç.</strong> Cevap <strong>C</strong>. Yorum: 2023'te %20, 2024'te %30,56 olan brüt kâr marjı 2025'te yeniden %20'ye düşmüştür.</p>"
   ],
   "dayanak": "Kârlılık oranları: Satışların brüt kârlılığı (brüt kâr marjı) = Brüt satış kârı / Net satışlar.",
@@ -222,7 +222,7 @@
    "<p><strong>1. Formül.</strong> Varlıkların (aktif) kârlılığı = Dönem net kârı / Toplam varlıklar (aktif toplamı) × 100. İşletmenin kullandığı varlıkların her 100 ₺'sinin kaç ₺ net kâr getirdiğini gösterir.</p>",
    "<p><strong>2. Hangi rakamlar?</strong> Pay: gelir tablosundaki 2024 dönem net kârı 35.450 ₺ (vergi sonrası). Payda: 31 Aralık 2024 aktif toplamı 1.542.000 ₺. Sorudaki ortalama talimatı devir hızları içindir; kârlılık oranında yıl sonu aktif toplamı kullanılır (ortalama aktifle 35.450 / 1.464.375 = %2,42 çıkar, şıklarda yoktur).</p>",
    "<p><strong>3. Hesap.</strong> 35.450 / 1.542.000 = 0,022990 → %2,2990.</p>",
-   "<p><strong>4. Yuvarlama ve sonuç.</strong> Kurala göre yuvarlansa %2,30 olurdu; kitapçık ikinci ondalıktan sonrasını atarak (keserek) %2,29 yazmıştır. Aynı hesaba dayanan şık <strong>B</strong>'dir.</p>",
+   "<p><strong>4. Yuvarlama ve sonuç.</strong> Kurala göre yuvarlansa %2,30 olurdu; kitapçık bu şıkta keserek %2,29 yazmıştır. Kitapçık tutarlı değildir (10-B'de 98,4252'yi yuvarlayarak %98,43 yazar); hesaplanan değere en yakın şıkkı seçin. Aynı hesaba dayanan şık <strong>B</strong>'dir.</p>",
    "<p><strong>Not.</strong> Bu soruda iki veri tutarsızlığı vardır. (1) Bilançodaki \"Dönem Net Karı(Zararı)\" satırı 2024 için 31.000 ₺, gelir tablosundaki dönem net kârı 35.450 ₺'dir; kâr rakamı gelir tablosundan alınır. Bilanço rakamıyla 31.000 / 1.542.000 = %2,01 çıkar; hiçbir şıkla tam örtüşmez (en yakını A, %2,00). (2) Gelir tablosu da kendi içinde tutarsızdır: Faaliyet kârı − Finansman giderleri = 180.000 − 125.000 = 55.000 ₺ olmalıyken tabloda Dönem kârı 51.000 ₺ yazılıdır. Net kâr buradan yeniden hesaplanırsa 55.000 − 15.550 = 39.450 ₺ ve 39.450 / 1.542.000 = %2,56 bulunur; bu da şıklarda yoktur. Resmi cevap tabloda basılı net kâr satırına (35.450 ₺) dayanır: sınavda basılı ara toplamları yeniden hesaplamadan kullanın.</p>"
   ],
   "dayanak": "Kârlılık oranları: Varlıkların (aktif) kârlılığı = Dönem net kârı / Toplam varlıklar (yıl sonu aktif toplamı).",
@@ -511,7 +511,7 @@
    "B": "Finansal durum tablosu, varlık, yükümlülük ve öz kaynakların belirli bir tarihteki durumunu gösteren tablodur; bir dönemdeki değişimi tanımlamaz.",
    "C": "Nakit akışları, nakit ve nakit benzerlerine giriş ve çıkışlardır (TMS 7); öz kaynaktaki değişim değildir.",
    "D": "Varlıklar, geçmiş olaylar sonucunda işletmenin kontrolünde bulunan mevcut ekonomik kaynaklardır; bir dönemdeki değişimi değil, belirli bir tarihteki kaynakları ifade eder.",
-   "E": "Yükümlülükler, geçmiş olaylardan kaynaklanan ve ekonomik kaynak çıkışı gerektiren mevcut yükümlülüklerdir; öz kaynak değişimiyle ilgisi yoktur."
+   "E": "Yükümlülükler, geçmiş olaylardan kaynaklanan ve ekonomik kaynak çıkışı gerektiren mevcut yükümlülüklerdir; belirli bir tarihteki mükellefiyetleri ifade eder, bir dönemdeki öz kaynak değişimini tanımlamaz."
   },
   "kartlar": [
    {

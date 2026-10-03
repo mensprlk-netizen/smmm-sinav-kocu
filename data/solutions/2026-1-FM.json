@@ -37,7 +37,7 @@
    "<p><strong>1. İşlemin özü.</strong> Senet yenilemede borçlu, vadesi gelen senedi ödemez; alacaklı eski senedi geri verip daha ileri vadeli yeni bir senet alır. Yeni senet tutarının eskisinden fazla olan kısmı, vadenin uzatılması karşılığında alınan faizdir (vade farkı). Nakit hareketi yoktur.</p>",
    "<p><strong>2. Hesaplar.</strong> Yeni senet: 121 Alacak Senetleri <em>borç</em> 3.200 ₺. Eski senet: 121 Alacak Senetleri <em>alacak</em> 3.000 ₺. Fark: 3.200 − 3.000 = <strong>200 ₺</strong> → 642 Faiz Gelirleri <em>alacak</em>.</p>",
    "<p><strong>3. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>121 ALACAK SENETLERİ (yeni senet)</td><td class=\"n\">3.200</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">121 ALACAK SENETLERİ (eski senet)</td><td class=\"n\"></td><td class=\"n\">3.000</td></tr><tr><td class=\"alacak\">642 FAİZ GELİRLERİ</td><td class=\"n\"></td><td class=\"n\">200</td></tr></table>",
-   "<p><strong>4. Sonuç.</strong> Faiz Gelirleri hesabına 200 ₺ alacak kaydı yapılır: <strong>C</strong>. (Soru KDV vermediği için 200 ₺’nin tamamı faiz geliri alındı.)</p>"
+   "<p><strong>4. Sonuç.</strong> Faiz Gelirleri hesabına 200 ₺ alacak kaydı yapılır: <strong>C</strong>. (Soru KDV vermediği için 200 ₺’nin tamamı faiz geliri alındı; uygulamada vade farkı KDV matrahına girer, KDVK md. 24/c.)</p>"
   ],
   "dayanak": "Tekdüzen Hesap Planı: 121 Alacak Senetleri (senet alındığında borç, kapandığında alacak); senet yenilemede vade farkı alacaklı için 642 Faiz Gelirleri, borçlu için 780 Finansman Giderleri.",
   "tuzaklar": {
@@ -83,7 +83,7 @@
    },
    {
     "on": "Fon mahsubunda amortisman kaydı?",
-    "arka": "Gider hesabı (amortisman − fon) borç + 549 Özel Fonlar (fon) borç / 257 Birikmiş Amortismanlar (tam amortisman) alacak."
+    "arka": "Gider hesabı (amortisman − fon) borç + 549 Özel Fonlar (fon) borç / 257 Birikmiş Amortismanlar (tam amortisman) alacak. Mahsup, o yılın amortismanıyla sınırlıdır; aşan fon sonraki yılların amortismanına mahsup edilir."
    }
   ],
   "konuBaglantisi": "Maddi duran varlıklar"
@@ -157,11 +157,11 @@
    "<p><strong>3. İşlem masrafı ve banka.</strong> Bankanın kestiği 1.000 ₺ borçlanmayla ilgili bir masraftır: 780 Finansman Giderleri. Hesaba yatan tutar 93.600 − 1.000 = <strong>92.600 ₺</strong>.</p>",
    "<p><strong>4. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>102 BANKALAR</td><td class=\"n\">92.600</td><td class=\"n\"></td></tr><tr><td>780 FİNANSMAN GİDERLERİ</td><td class=\"n\">1.000</td><td class=\"n\"></td></tr><tr><td>308 MENKUL KIYMET İHRAÇ FARKLARI</td><td class=\"n\">6.400</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">305 ÇIKARILMIŞ BONOLAR VE SENETLER</td><td class=\"n\"></td><td class=\"n\">100.000</td></tr></table>",
    "<p><strong>5. Sağlama ve sonuç.</strong> 92.600 + 1.000 + 6.400 = 100.000. Cevap <strong>B</strong>. 308’deki 6.400 ₺ vade boyunca (dönem sonlarında) 780 Finansman Giderleri’ne aktarılır.</p>",
-   "<p><strong>Not.</strong> TFRS 9’a göre raporlama yapan bir işletmede borçlanmaya doğrudan atfedilebilen işlem maliyetleri borcun ilk ölçümünden düşülür ve etkin faiz yöntemiyle vadeye yayılır. Soru TFRS’ye atıf yapmadığı ve Tekdüzen Hesap Planı işleyişini sorduğu için masraf doğrudan 780’e yazılır; resmi cevap bu uygulamaya dayanır.</p>"
+   "<p><strong>Not.</strong> TFRS 9’a göre raporlama yapan bir işletmede borçlanmaya doğrudan atfedilebilen işlem maliyetleri borcun ilk ölçümünden düşülür ve etkin faiz yöntemiyle vadeye yayılır. Bu okumayla işlem maliyeti ihraç farkına eklenir ve kayıt A şıkkındaki gibi olur (102 92.600 + 308 7.400 / 305 100.000). Soru Tekdüzen hesap kodlarıyla ve TFRS’ye atıf yapmadan sorulduğu için masraf doğrudan 780’e yazılır ve resmi cevap B’dir.</p>"
   ],
   "dayanak": "Tekdüzen Hesap Planı: 305 Çıkarılmış Bonolar ve Senetler (kısa vadeli), 405 Çıkarılmış Tahviller (uzun vadeli), 308 Menkul Kıymet İhraç Farkları (−) (nominal değer ile satış bedeli arasındaki fark), 780 Finansman Giderleri.",
   "tuzaklar": {
-   "A": "Banka masrafı (1.000 ₺) ihraç farkına eklenmiş: 6.400 + 1.000 = 7.400. Tekdüzen işleyişinde 308 yalnız nominal değer ile satış bedeli arasındaki farkı izler; masraf 780’e yazılır.",
+   "A": "Banka masrafı (1.000 ₺) ihraç farkına eklenmiş: 6.400 + 1.000 = 7.400. Tekdüzen işleyişinde 308 yalnız nominal değer ile satış bedeli arasındaki farkı izler; masraf 780’e yazılır. Bu kayıt, işlem maliyetini borcun ilk ölçümünden düşen TFRS 9 görüşüne denk gelir (bkz. Not).",
    "C": "6 ay vadeli senet kısa vadelidir; 405 Çıkarılmış Tahviller uzun vadeli borçlar içindir. Ayrıca masraf ihraç farkına eklenmiştir.",
    "D": "İhraç farkı (6.400) ile masraf (1.000) birlikte hemen gider yazılmış: 7.400. İhraç farkı vadeye yayılarak giderleşir; satış anında 308’e yazılır.",
    "E": "Borçlanmayla ilgili masraf genel yönetim gideri değil finansman gideridir (780)."
@@ -185,7 +185,7 @@
   "adimlar": [
    "<p><strong>1. Durum.</strong> 128 Şüpheli Ticari Alacaklar hesabında 12.000 ₺ alacak, 129 Şüpheli Ticari Alacaklar Karşılığı hesabında 7.000 ₺ karşılık vardır (karşılık ayrılırken 654 Karşılık Giderleri’ne gider yazılmıştı). Alacağın tahsil edilemeyeceği kesinleşmiştir (değersiz alacak).</p>",
    "<p><strong>2. Alacağın kapatılması.</strong> 128 hesabı 12.000 ₺ alacaklanarak kapatılır. Karşılığı ayrılmış 7.000 ₺’lik kısım 129’un borçlandırılmasıyla karşılanır; bu kısım için yeniden gider yazılmaz.</p>",
-   "<p><strong>3. Karşılık ayrılmamış kısım.</strong> 12.000 − 7.000 = <strong>5.000 ₺</strong> daha önce giderleştirilmemiş bir kayıptır. Tekdüzen uygulamasında değersiz hale gelen alacağın bu kısmı 689 Diğer Olağandışı Gider ve Zararlar hesabına borç yazılır.</p>",
+   "<p><strong>3. Karşılık ayrılmamış kısım.</strong> 12.000 − 7.000 = <strong>5.000 ₺</strong> daha önce giderleştirilmemiş bir kayıptır. Tekdüzen uygulamasında değersiz hale gelen alacağın bu kısmı 689 Diğer Olağandışı Gider ve Zararlar hesabına borç yazılır. Bazı kaynaklar karşılık ayrılmamış kısmı önce 654 Karşılık Giderleri / 129 ile karşılığa alıp ardından 128’i kapatır; bu gösterim şıklarda yoktur.</p>",
    "<p><strong>4. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>129 ŞÜPHELİ TİCARİ ALACAKLAR KARŞILIĞI</td><td class=\"n\">7.000</td><td class=\"n\"></td></tr><tr><td>689 DİĞER OLAĞANDIŞI GİDER VE ZARARLAR</td><td class=\"n\">5.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">128 ŞÜPHELİ TİCARİ ALACAKLAR</td><td class=\"n\"></td><td class=\"n\">12.000</td></tr></table>",
    "<p><strong>5. Sonuç.</strong> Cevap <strong>A</strong>.</p>"
   ],
@@ -193,7 +193,7 @@
   "tuzaklar": {
    "B": "Tahsil edilemeyen ticari alacak bir borçlanma maliyeti değildir; 780 Finansman Giderleri kullanılmaz.",
    "C": "Taraflar ters: alacak kapatılacağı için 128 alacaklanır, karşılık kullanıldığı için 129 borçlanır. Kayıp da cari dönemde kesinleştiği için 681 Önceki Dönem Gider ve Zararları değildir.",
-   "D": "Hesap sınıfı farklı: 659 olağan faaliyetlerin diğer gider ve zararları içindir; değersiz hale gelen alacağın karşılık ayrılmamış kısmı Tekdüzen uygulamasında olağandışı zarar olarak 689’a yazılır.",
+   "D": "659, 65 Diğer Faaliyetlerden Olağan Gider ve Zararlar grubunda, olağan nitelikteki diğer gider ve zararlar içindir; değersiz hale gelen alacağın karşılık ayrılmamış kısmı Tekdüzen uygulamasında 689’a yazılır.",
    "E": "Ek karşılık bile ayrılacak olsa kayıt 654 Karşılık Giderleri borç / 129 alacak olurdu; ayrıca alacak tahsil edilemeyeceği kesinleştiği için karşılık ayrılmaz, 128 kapatılır."
   },
   "kartlar": [
@@ -508,7 +508,7 @@
   ],
   "dayanak": "TMS 16 Maddi Duran Varlıklar, yeniden değerleme modeli (değer artışı diğer kapsamlı gelir yoluyla özkaynakta birikir); Tekdüzen Hesap Planı: 254 Taşıtlar, 257 Birikmiş Amortismanlar, 522 M.D.V. Yeniden Değerleme Artışları.",
   "tuzaklar": {
-   "A": "Taşıtlar hesabına yapılacak borç kaydı 50.000 − 25.000 = 25.000 ₺’dir; 20.000 ₺ doğru yöntemle bulunamaz.",
+   "A": "20.000 ₺, yeniden değerleme sonrası net defter değeridir (50.000 − 30.000); Taşıtlar hesabına giren artış 50.000 − 25.000 = 25.000 ₺’dir.",
    "B": "50.000 ₺ yeniden değerlenmiş toplam tutardır; kayda yalnız artış (25.000) girer.",
    "C": "30.000 ₺ birikmiş amortismanın yeni toplamıdır; kayda yalnız artış (10.000) girer.",
    "E": "20.000 ₺ birikmiş amortismanın mevcut kayıtlı tutarıdır; kayda giren artış 10.000 ₺’dir."

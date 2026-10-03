@@ -228,19 +228,19 @@
  {
   "id": "2026-2-FM-09",
   "sonuc": "A",
-  "ozet": "Yangındaki değer kaybı karşılık yoluyla (654 / 158) gidere yansıtılmıştır; satışta 600, 391, 621 ve 153 ile 158 / 644 kayıtları kullanılır. 689 Diğer Olağandışı Gider ve Zararlar hiçbir kayıtta yer almaz.",
+  "ozet": "Yangındaki değer kaybı karşılık yoluyla (654 / 158) gidere yansıtılmıştır; satışta 600, 391, 621 ve 153 ile 158 / 644 kayıtları (tartışmalı; bkz. Not) kullanılır. 689 Diğer Olağandışı Gider ve Zararlar hiçbir kayıtta yer almaz.",
   "adimlar": [
    "<p><strong>1. Karşılık ayrılması.</strong></p><table class=\"yevmiye\"><tr><td>654 KARŞILIK GİDERLERİ</td><td class=\"n\">9.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">158 STOK DEĞER DÜŞÜKLÜĞÜ KARŞILIĞI (−)</td><td class=\"n\"></td><td class=\"n\">9.000</td></tr></table>",
    "<p><strong>2. Satış (KDV %20 varsayımıyla; KDV oranı sonucu etkilemez).</strong></p><table class=\"yevmiye\"><tr><td>100 KASA / 102 BANKALAR / 120 ALICILAR</td><td class=\"n\">1.800</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">600 YURT İÇİ SATIŞLAR</td><td class=\"n\"></td><td class=\"n\">1.500</td></tr><tr><td class=\"alacak\">391 HESAPLANAN KDV</td><td class=\"n\"></td><td class=\"n\">300</td></tr></table>",
    "<p><strong>3. Satılan malın maliyeti.</strong></p><table class=\"yevmiye\"><tr><td>621 SATILAN TİCARİ MALLAR MALİYETİ</td><td class=\"n\">10.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">153 TİCARİ MALLAR</td><td class=\"n\"></td><td class=\"n\">10.000</td></tr></table>",
-   "<p><strong>4. Karşılığın kapatılması (mal satıldı, karşılığın konusu kalmadı).</strong></p><table class=\"yevmiye\"><tr><td>158 STOK DEĞER DÜŞÜKLÜĞÜ KARŞILIĞI (−)</td><td class=\"n\">9.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">644 KONUSU KALMAYAN KARŞILIKLAR</td><td class=\"n\"></td><td class=\"n\">9.000</td></tr></table>",
+   "<p><strong>4. Karşılığın kapatılması (mal satıldı, karşılığın konusu kalmadı; tartışmalı, bkz. Not).</strong></p><table class=\"yevmiye\"><tr><td>158 STOK DEĞER DÜŞÜKLÜĞÜ KARŞILIĞI (−)</td><td class=\"n\">9.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">644 KONUSU KALMAYAN KARŞILIKLAR</td><td class=\"n\"></td><td class=\"n\">9.000</td></tr></table>",
    "<p><strong>5. Hangi hesap yok?</strong> Kullanılan hesaplar: 654 Karşılık Giderleri (D), 158 Stok Değer Düşüklüğü Karşılığı (C), 644 Konusu Kalmayan Karşılıklar (B), 153 Ticari Mallar (E). Yangın olağandışı bir olay olsa da değer kaybı karşılık ayrılarak 654 üzerinden gidere yansıtıldığı için <strong>689 Diğer Olağandışı Gider ve Zararlar</strong> kullanılmaz: <strong>A</strong>.</p>",
    "<p><strong>6. Sağlama.</strong> Net etki: satış 1.500 − maliyet 10.000 − karşılık gideri 9.000 + konusu kalmayan karşılık 9.000 = −8.500 ₺. Malın 10.000 ₺’ye alınıp 1.500 ₺’ye satılmasının zararı da 8.500 ₺’dir.</p>",
    "<p><strong>Not (tartışmalı).</strong> Resmi cevap A, satılan stoğun karşılığının 158 / 644 ile kapatıldığını varsayar. MSUGT 644'ü önceki dönemlerde ayrılan karşılıklar için tanımlar. Burada karşılık aynı dönemde ayrılıp aynı dönemde konusuz kaldığı için 654'ün ters kaydı (158 / 654) ya da maliyetle netleştirme (158 9.000 + 621 1.000 / 153 10.000) da savunulabilir. O okumada Konusu Kalmayan Karşılıklar (B) da kullanılmaz ve soru iki doğru cevaplı olur. 689 her iki okumada da kullanılmadığından anahtar A'dır; sınavda A işaretlenir.</p>"
   ],
   "dayanak": "Tekdüzen Hesap Planı: 158 Stok Değer Düşüklüğü Karşılığı (−) (ayrılırken 654 Karşılık Giderleri karşılığında alacak; stok satılınca konusu kalmayan karşılık 644'e (önceki dönem karşılıkları) aktarılır), 621 Satılan Ticari Mallar Maliyeti, 153 Ticari Mallar. VUK md. 278 (yangın, deprem, su basması gibi afetlerle değeri düşen mallar).",
   "tuzaklar": {
-   "B": "Kullanılır: mal satıldığında karşılığın konusu kalmaz, 158 borçlandırılarak 644 Konusu Kalmayan Karşılıklar alacaklandırılır.",
+   "B": "Kullanılır: mal satıldığında karşılığın konusu kalmaz, 158 borçlandırılarak 644 Konusu Kalmayan Karşılıklar alacaklandırılır (alternatif okumada kullanılmaz; bkz. Not).",
    "C": "Kullanılır: ayrılan 9.000 ₺ karşılık 158 Stok Değer Düşüklüğü Karşılığı’na alacak yazılır.",
    "D": "Kullanılır: karşılığın gider tarafı 654 Karşılık Giderleri’dir.",
    "E": "Kullanılır: satılan mal 621 / 153 kaydıyla stoktan çıkarılır (sürekli envanterde satışta, aralıklı envanterde dönem sonunda)."
@@ -328,7 +328,7 @@
   "kartlar": [
    {
     "on": "Ortaklık payı oranına göre Tekdüzen hesapları?",
-    "arka": "%10’dan az: 240 Bağlı Menkul Kıymetler. %10–%50: 242 İştirakler. %50’den fazla: 245 Bağlı Ortaklıklar."
+    "arka": "%10’dan az: 240 Bağlı Menkul Kıymetler. %10–%50: 242 İştirakler. %50’den fazla: 245 Bağlı Ortaklıklar (klasik Tekdüzen planı)."
    }
   ],
   "konuBaglantisi": "Mali duran varlıklar"
@@ -363,7 +363,7 @@
   "sonuc": "E",
   "ozet": "1 Kasım–31 Aralık arası 60 günlük faiz 100.000 × %24 × 60/360 = 4.000 ₺’dir; henüz ödenmediği için 780 Finansman Giderleri borç / 381 Gider Tahakkukları alacak 4.000 ₺ kaydedilir.",
   "adimlar": [
-   "<p><strong>1. Bu yıla düşen süre.</strong> Kredi 1 Kasım’da alındı; yıl sonu 31 Aralık. 360 günlük yıl esasıyla (her ay 30 gün) Kasım ve Aralık = <strong>60 gün</strong>. Kalan 30 gün gelecek yıla aittir.</p>",
+   "<p><strong>1. Bu yıla düşen süre.</strong> Kredi 1 Kasım’da alındı; yıl sonu 31 Aralık. 1 Kasım–31 Aralık arası <strong>60 gün</strong> geçer (vade 30 Ocak; kalan 30 gün gelecek yıla aittir); 360 yalnız faiz formülündeki yıllık paydadır.</p>",
    "<p><strong>2. Bu yılın faizi.</strong> 100.000 × %24 × 60/360 = <strong>4.000 ₺</strong>. (Toplam faiz 100.000 × %24 × 90/360 = 6.000 ₺; 2.000 ₺’si gelecek yılın.)</p>",
    "<p><strong>3. Hesaplar.</strong> Faiz vade sonunda ödenecek; bu yıla ait olduğu halde ödenmemiş gider tahakkuk ettirilir: 780 Finansman Giderleri borç, 381 Gider Tahakkukları alacak.</p>",
    "<p><strong>4. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>780 FİNANSMAN GİDERLERİ</td><td class=\"n\">4.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">381 GİDER TAHAKKUKLARI</td><td class=\"n\"></td><td class=\"n\">4.000</td></tr></table>",
@@ -419,7 +419,7 @@
   "sonuc": "A",
   "ozet": "Kasım sonunda tahmini 600 ₺ elektrik 760 / 373 ile kaydedilmişti. Fatura gelince 373 kapatılır (600), fazla çıkan 100 ₺ 760’a, KDV 140 ₺ 191’e borç; bankadan çıkan 840 ₺ 102’ye alacak yazılır.",
   "adimlar": [
-   "<p><strong>1. 30 Kasım kaydı (soruda verilen, ara dönem karşılığı).</strong></p><table class=\"yevmiye\"><tr><td>760 PAZARLAMA, SATIŞ VE DAĞITIM GİDERLERİ</td><td class=\"n\">600</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">373 MALİYET GİDERLERİ KARŞILIĞI</td><td class=\"n\"></td><td class=\"n\">600</td></tr></table>",
+   "<p><strong>1. 30 Kasım kaydı (soruda belirtilen, ara dönem karşılığı).</strong></p><table class=\"yevmiye\"><tr><td>760 PAZARLAMA, SATIŞ VE DAĞITIM GİDERLERİ</td><td class=\"n\">600</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">373 MALİYET GİDERLERİ KARŞILIĞI</td><td class=\"n\"></td><td class=\"n\">600</td></tr></table>",
    "<p><strong>2. Neden 760?</strong> Elektrik satış mağazasına aittir; satış faaliyetinin gideri olarak 760 Pazarlama, Satış ve Dağıtım Giderleri’ne yazılır (genel yönetim değil).</p>",
    "<p><strong>3. Fatura tutarları.</strong> Fatura 700 ₺, KDV 700 × %20 = <strong>140 ₺</strong>, ödenen 840 ₺. Karşılık ayrılan 600 ₺ kapanır; tahminin aştığı kısım 700 − 600 = <strong>100 ₺</strong> ek gider olarak 760’a yazılır.</p>",
    "<p><strong>4. Fatura ve ödeme kaydı.</strong></p><table class=\"yevmiye\"><tr><td>760 PAZARLAMA, SATIŞ VE DAĞITIM GİDERLERİ</td><td class=\"n\">100</td><td class=\"n\"></td></tr><tr><td>373 MALİYET GİDERLERİ KARŞILIĞI</td><td class=\"n\">600</td><td class=\"n\"></td></tr><tr><td>191 İNDİRİLECEK KDV</td><td class=\"n\">140</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">102 BANKALAR</td><td class=\"n\"></td><td class=\"n\">840</td></tr></table>",
@@ -472,26 +472,26 @@
  {
   "id": "2026-2-FM-18",
   "sonuc": "E",
-  "ozet": "Sahibi tarafından kullanılan (TMS 16, maliyet modeli) arsa gerçeğe uygun değerle ölçülen yatırım amaçlı gayrimenkule aktarılırken defter değeri (30.000) ile gerçeğe uygun değer (40.000) arasındaki 10.000 ₺ artış, TMS 16’daki yeniden değerleme gibi özkaynakta (yeniden değerleme artışı) gösterilir.",
+  "ozet": "Fabrika yapımı için alındığından henüz kullanılmasa da sahibi tarafından kullanılan gayrimenkul sayılan (TMS 40 par. 9(c); TMS 16, maliyet modeli) arsa gerçeğe uygun değerle ölçülen yatırım amaçlı gayrimenkule aktarılırken defter değeri (30.000) ile gerçeğe uygun değer (40.000) arasındaki 10.000 ₺ artış, TMS 16’daki yeniden değerleme gibi özkaynakta (yeniden değerleme artışı) gösterilir.",
   "adimlar": [
    "<p><strong>1. Başlangıç.</strong> Arsa fabrika binası yapmak, yani işletmenin kendi faaliyetinde kullanmak için alınmıştır: TMS 16 kapsamında maddi duran varlıktır (250 Arazi ve Arsalar), maliyet modeliyle 30.000 ₺. Arsa amortismana tabi değildir; defter değeri 30.000 ₺’dir.</p>",
    "<p><strong>2. Kullanım amacı değişikliği.</strong> 2025’te arsa yatırım amaçlı elde tutulmaya başlanmıştır; TMS 40 kapsamına geçer ve gerçeğe uygun değerle (40.000 ₺) ölçülen yatırım amaçlı gayrimenkul olarak sınıflandırılır.</p>",
    "<p><strong>3. Farkın yeri.</strong> TMS 40’a göre sahibi tarafından kullanılan bir gayrimenkul gerçeğe uygun değerle ölçülecek yatırım amaçlı gayrimenkule dönüştüğünde, değişiklik tarihindeki defter değeri ile gerçeğe uygun değer arasındaki fark TMS 16’daki <em>yeniden değerleme</em> gibi işlem görür (TMS 40 par. 61-62). Artış, daha önce kâr veya zarara yazılmış bir değer düşüklüğünü geri çevirmiyorsa, diğer kapsamlı gelirde muhasebeleştirilir ve özkaynakta yeniden değerleme artışı olarak birikir: 40.000 − 30.000 = <strong>10.000 ₺</strong>.</p>",
    "<p><strong>4. Kayıt (kitapçıktaki hesap kodlarıyla).</strong></p><table class=\"yevmiye\"><tr><td>245 GERÇEĞE UYGUN DEĞERLE ÖLÇÜLEN YATIRIM AMAÇLI GAYRİMENKULLER</td><td class=\"n\">40.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">250 ARAZİ VE ARSALAR</td><td class=\"n\"></td><td class=\"n\">30.000</td></tr><tr><td class=\"alacak\">551 MADDİ DURAN VARLIKLAR YENİDEN DEĞERLEME ARTIŞLARI</td><td class=\"n\"></td><td class=\"n\">10.000</td></tr></table>",
    "<p><strong>5. Sonuç.</strong> Cevap <strong>E</strong>. Bu tarihten sonra gerçeğe uygun değerde oluşan değişimler ise kâr veya zarara (kitapçıktaki 647 hesabına) yazılır.</p>",
-   "<p><strong>Not.</strong> Kökte “binanın sınıf değişikliği” yazıyor; soru bir <em>arsa</em> hakkındadır, “binanın” ifadesi baskı hatasıdır. Ayrıca kitapçık TMS uygulamasına özgü bir kodlama kullanıyor: 245 Gerçeğe Uygun Değerle Ölçülen Yatırım Amaçlı Gayrimenkuller, 647 Yatırım Amaçlı Gayrimenkullerden Elde Edilen Gelir ve Kazançlar, 551 Maddi Duran Varlıklar Yeniden Değerleme Artışları. 1 Sıra No.lu tebliğ ekindeki klasik hesap planında 245 Bağlı Ortaklıklar, 647 Reeskont Faiz Gelirleri, maddi duran varlık yeniden değerleme artışları 522 kodludur. Cevap hesap <em>adları</em> üzerinden verilir.</p>"
+   "<p><strong>Not.</strong> Kökte “binanın sınıf değişikliği” yazıyor; soru bir <em>arsa</em> hakkındadır, “binanın” ifadesi baskı hatasıdır. Ayrıca kitapçık klasik planda bulunmayan ya da başka anlama gelen kodlar kullanıyor: 245 Gerçeğe Uygun Değerle Ölçülen Yatırım Amaçlı Gayrimenkuller, 647 Yatırım Amaçlı Gayrimenkullerden Elde Edilen Gelir ve Kazançlar, 551 Maddi Duran Varlıklar Yeniden Değerleme Artışları. 1 Sıra No.lu tebliğ ekindeki klasik hesap planında 245 Bağlı Ortaklıklar (bkz. 12. soru), 647 Reeskont Faiz Gelirleri, maddi duran varlık yeniden değerleme artışları 522 kodludur; 551 (19. sorudaki 624 gibi) klasik planda yoktur. Sınavda seçenek hesap <em>adına</em> göre seçilir; kendi kaydınızda klasik planı kullanıyorsanız yeniden değerleme artışı 522’dir.</p>"
   ],
   "dayanak": "TMS 40 Yatırım Amaçlı Gayrimenkuller, par. 61-62 (sahibi tarafından kullanılan gayrimenkulden gerçeğe uygun değerle ölçülen yatırım amaçlı gayrimenkule transferde fark TMS 16’daki yeniden değerleme gibi işlem görür; artış diğer kapsamlı gelirde, özkaynakta) ve par. 63 (stoktan transferde fark kâr veya zarara). TMS 16 Maddi Duran Varlıklar, yeniden değerleme artışı.",
   "tuzaklar": {
    "A": "Arsa 250’de bırakılıp değeri artırılmış ve fark gelir yazılmıştır. Sınıf değişikliği yapılmamış; ayrıca sahibi tarafından kullanılan gayrimenkulden transferdeki artış kâr veya zarara değil özkaynağa gider.",
    "B": "Sınıf değişikliği doğru, ama 10.000 ₺ artış gelir (647) yazılmıştır. Farkın kâr veya zarara yazılması stoktan yatırım amaçlı gayrimenkule transferin (TMS 40 par. 63) ve transferden <em>sonraki</em> değer değişimlerinin kuralıdır; sahibi tarafından kullanılan gayrimenkulden transferde artış yeniden değerleme gibi özkaynağa yazılır.",
-   "C": "Taraflar ve tutar anlamsızdır: yatırım amaçlı gayrimenkul 40.000 ₺ ile borçlandırılmalı, arsa 30.000 ₺ ile kapatılmalıdır.",
+   "C": "Yönü ters çevrilmiş: artış 245’ten düşülüp arsaya eklenmiş; sınıf değişikliği yapılmamış, arsa 250’de kalmış.",
    "D": "Arsa (250) kapatılmamış, böylece aynı gayrimenkul iki kez varlık olarak gösterilmiş ve 40.000 ₺’nin tamamı gelir yazılmıştır."
   },
   "kartlar": [
    {
     "on": "TMS 40: sahibi tarafından kullanılan gayrimenkul gerçeğe uygun değerle ölçülen yatırım amaçlı gayrimenkule aktarılırken fark nereye yazılır?",
-    "arka": "TMS 16’daki yeniden değerleme gibi: artış diğer kapsamlı gelir / özkaynakta yeniden değerleme artışı (önceki değer düşüklüğünü geri çeviren kısım hariç); azalış kâr veya zarara."
+    "arka": "TMS 16’daki yeniden değerleme gibi: artış diğer kapsamlı gelir / özkaynakta yeniden değerleme artışı (önceki değer düşüklüğünü geri çeviren kısım hariç); azalış kâr veya zarara (önceki yeniden değerleme artışı varsa önce ondan)."
    },
    {
     "on": "TMS 40: stoktan gerçeğe uygun değerle ölçülen yatırım amaçlı gayrimenkule transferde fark?",

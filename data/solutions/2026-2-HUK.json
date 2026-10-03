@@ -47,7 +47,7 @@
   "kartlar": [
    {
     "on": "İş Kanunu’na göre haftalık çalışma süresi nedir ve günlere nasıl dağıtılır?",
-    "arka": "Genel bakımdan haftada en çok 45 saat; aksi kararlaştırılmamışsa haftanın çalışılan günlerine eşit bölünür. Anlaşmayla günde 11 saati aşmamak koşuluyla farklı dağıtılabilir; bu durumda 2 aylık (TİS ile 4 aya kadar) denkleştirme süresinde haftalık ortalama 45 saati aşamaz (İş K. 63)."
+    "arka": "Genel bakımdan haftada en çok 45 saat; aksi kararlaştırılmamışsa haftanın çalışılan günlerine eşit bölünür. Anlaşmayla günde 11 saati aşmamak koşuluyla farklı dağıtılabilir; bu durumda 2 aylık (TİS ile 4 aya kadar) denkleştirme süresinde haftalık ortalama normal haftalık çalışma süresini (en çok 45 saat) aşamaz (İş K. 63)."
    }
   ],
   "konuBaglantisi": "İş hukuku"
@@ -218,7 +218,7 @@
   ],
   "dayanak": "TTK md. 1526/1–3 (güvenli elektronik imza), md. 1525/1 (elektronik ortamda düzenlenebilen beyan ve belgeler), md. 831–832 (makbuz senedi ve varant).",
   "tuzaklar": {
-   "A": "Tahsilat makbuzu md. 1526/1’in yasak listesinde değildir; md. 1526/3 uyarınca tacirin işlemlerinin dayanağı olan belgeler elektronik ortamda düzenlenebilir. Listedeki “makbuz senedi” umumi mağaza senedidir, tahsilat makbuzu değildir.",
+   "A": "Tahsilat makbuzu md. 1526/1’in yasak listesinde değildir; listedeki “makbuz senedi” umumi mağaza senedidir, tahsilat makbuzu değildir. Ayrıca tacirlerin işlemlerine ilişkin belgeler de md. 1526/3 çerçevesinde elektronik ortamda düzenlenebilir.",
    "B": "Fatura md. 1525/1’de elektronik ortamda düzenlenebilen belgeler arasında açıkça sayılır.",
    "C": "Sigorta poliçesinin imzası elektronik araçla da atılabilir (md. 1526/2).",
    "D": "Tediye makbuzu da yasak listesinde değildir; tahsilat makbuzu için söylenenler burada da geçerlidir."
@@ -230,7 +230,7 @@
    },
    {
     "on": "Sigorta poliçesi ve fatura elektronik ortamda düzenlenebilir mi?",
-    "arka": "Evet. Fatura elektronik ortamda düzenlenebilir (TTK 1525/1); sigorta poliçesi, konişmento ve taşıma senedinin imzası elektronik araçla da atılabilir (TTK 1526/2)."
+    "arka": "Evet. Fatura, tarafların açıkça anlaşmaları ve md. 18/3 saklı kalmak şartıyla elektronik ortamda düzenlenebilir (TTK 1525/1); sigorta poliçesi, konişmento ve taşıma senedinin imzası elektronik araçla da atılabilir (TTK 1526/2)."
    }
   ],
   "konuBaglantisi": "Kıymetli evrak"
@@ -308,7 +308,7 @@
    },
    {
     "on": "TTK 55’te sayılan haksız rekabet hâllerinin ana başlıkları nelerdir?",
-    "arka": "(a) Dürüstlük kuralına aykırı reklamlar ve satış yöntemleri, (b) sözleşmeyi ihlale veya sona erdirmeye yöneltmek, (c) başkalarının iş ürünlerinden yetkisiz yararlanma, (d) üretim ve iş sırlarını hukuka aykırı ifşa, (e) iş şartlarına uymamak, (f) dürüstlük kuralına aykırı işlem şartları kullanmak."
+    "arka": "(a) Dürüstlük kuralına aykırı reklamlar ve satış yöntemleri ile diğer hukuka aykırı davranışlar, (b) sözleşmeyi ihlale veya sona erdirmeye yöneltmek, (c) başkalarının iş ürünlerinden yetkisiz yararlanma, (d) üretim ve iş sırlarını hukuka aykırı ifşa, (e) iş şartlarına uymamak, (f) dürüstlük kuralına aykırı işlem şartları kullanmak."
    }
   ],
   "konuBaglantisi": "Ticari işletme ve tacir"

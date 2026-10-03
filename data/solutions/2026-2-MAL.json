@@ -191,19 +191,19 @@
    "<p><strong>1. Satışların maliyeti kapsamı.</strong> Gelir tablosunun 'C. Satışların Maliyeti (−)' bölümü ve 62 grubu dört kalemden oluşur: 620 Satılan Mamuller Maliyeti, 621 Satılan Ticari Mallar Maliyeti, 622 Satılan Hizmet Maliyeti, 623 Diğer Satışların Maliyeti. Satışların maliyeti tablosu gelir tablosunun bu bölümünü ayrıntılandıran ek tablodur. Resmi anahtar I-IV'ün hepsini bu kapsamda saymaktadır.</p>",
    "<p><strong>2. Satış indirimleri.</strong> Satıştan iadeler, satış iskontoları ve diğer indirimler 61 Satış İndirimleri grubunda izlenir. Gelir tablosunda ayrı bir başlık ('B. Satış İndirimleri (−)') olarak brüt satışlardan düşülür ve net satışlara ulaşılır. Bir maliyet kalemi değildir, satışların maliyeti tablosunda yer almaz.</p>",
    "<p><strong>Not.</strong> MSUGT'deki tablo örneği satır satır yalnız satılan mamul, satılan ticari mal ve satılan hizmet maliyetini gösterir ve toplamı bu üçünün toplamı olarak tanımlar; 'Diğer Satışların Maliyeti' ayrı satır değildir. Tablo bu dar biçimde okunursa IV de yer almaz sayılabilir (D). Anahtar ise gelir tablosundaki dört kalemli bölümü esas almıştır; kesin olarak dışarıda kalan kalem satış indirimleridir.</p>",
-   "<p><strong>3. Sonuç.</strong> Yer almayan yalnızca V'tir. Cevap <strong>B</strong>.</p>"
+   "<p><strong>3. Sonuç.</strong> Anahtarın esas aldığı kapsamda yer almayan yalnızca V'tir. Cevap <strong>B</strong>.</p>"
   ],
   "dayanak": "MSUGT (1 Sıra No.lu): gelir tablosu 'B. Satış İndirimleri' (610-612) ve 'C. Satışların Maliyeti' (620-623) bölümleri; ek mali tablo 'Satışların Maliyeti Tablosu' (Ek Tablo 5).",
   "tuzaklar": {
    "A": "Diğer satışların maliyeti (623) gelir tablosundaki Satışların Maliyeti bölümünün (62 grubu) parçasıdır; asıl yer almayan satıştan indirimlerdir.",
    "C": "Satılan hizmet maliyeti (622) ve diğer satışların maliyeti (623) gelir tablosundaki Satışların Maliyeti bölümünün (62 grubu) parçasıdır.",
    "D": "IV ve V'yi seçmek, tablonun MSUGT örneğindeki üç satırlık (I+II+III) biçimine dayanır; ancak anahtar, 623'ü de içeren gelir tablosu 'Satışların Maliyeti' bölümünü esas almıştır. Yalnız V kesin olarak dışarıdadır.",
-   "E": "Satılan hizmet maliyeti (622) her iki okumada da satışların maliyetindedir; III'ün dışarıda sayılması yanlıştır."
+   "E": "Satılan hizmet maliyeti her iki okumada da satışların maliyeti tablosunda yer alır (tablo örneğinde ayrı bir satırdır, gelir tablosunda 622); III'ün dışarıda sayılması yanlıştır."
   },
   "kartlar": [
    {
     "on": "62 Satışların Maliyeti grubunun hesapları?",
-    "arka": "620 Satılan Mamuller Maliyeti, 621 Satılan Ticari Mallar Maliyeti, 622 Satılan Hizmet Maliyeti, 623 Diğer Satışların Maliyeti. (MSUGT'deki Satışların Maliyeti Tablosu örneği ise toplamı I+II+III olarak üç satırla verir.)"
+    "arka": "620 Satılan Mamuller Maliyeti, 621 Satılan Ticari Mallar Maliyeti, 622 Satılan Hizmet Maliyeti, 623 Diğer Satışların Maliyeti. (MSUGT'deki Satışların Maliyeti Tablosu örneği ise toplamı yalnız üç satırla verir: satılan mamul, satılan ticari mal ve satılan hizmet maliyeti; 'Diğer Satışların Maliyeti' ayrı satır değildir.)"
    },
    {
     "on": "Satış indirimleri gelir tablosunda nerede?",
@@ -510,7 +510,7 @@
   "adimlar": [
    "<p><strong>1. Grubun kapsamı.</strong> 7/A'da 78 Finansman Giderleri grubu, işletmenin borçlandığı tutarlarla ilgili olarak katlanılan ve varlıkların maliyetine eklenmemiş bulunan faiz ve benzeri giderler (faiz, komisyon, kur farkı gibi) ile yansıtma ve fark hesaplarından oluşur.</p>",
    "<p><strong>2. Hesaplar.</strong> 780 Finansman Giderleri (giderlerin toplandığı ana hesap), 781 Finansman Giderleri Yansıtma Hesabı ve önceden saptanmış maliyet kullanılıyorsa 782 Finansman Giderleri Fark Hesabı.</p>",
-   "<p><strong>3. Kapanış.</strong> Dönem sonunda finansman giderleri 781 aracılığıyla gelir tablosundaki 66 Finansman Giderleri grubuna (660 Kısa Vadeli Borçlanma Giderleri, 661 Uzun Vadeli Borçlanma Giderleri) aktarılır (üretim maliyetine yüklenen kısım varsa ilgili maliyet hesaplarına); 780 ile 781 karşılıklı kapatılır. Banka hesaplarına aktarma söz konusu değildir.</p>",
+   "<p><strong>3. Kapanış.</strong> Dönem sonunda finansman giderleri 781 aracılığıyla gelir tablosundaki 66 Finansman Giderleri grubuna (660 Kısa Vadeli Borçlanma Giderleri, 661 Uzun Vadeli Borçlanma Giderleri) aktarılır (üretim maliyetine yüklenen kısım varsa ilgili maliyet hesaplarına; bu kısım önce 78'de gider olarak toplanıp oradan maliyete yansıtılır, tanımdaki 'varlıkların maliyetine eklenmemiş' ifadesi ise 78'e uğramadan doğrudan ilgili varlığın maliyetine aktifleştirilen borçlanma maliyetlerini dışarıda bırakır); 780 ile 781 karşılıklı kapatılır. Banka hesaplarına aktarma söz konusu değildir.</p>",
    "<p><strong>4. Sonuç.</strong> Tanımı eksiksiz veren C'dir. Cevap <strong>C</strong>.</p>"
   ],
   "dayanak": "Tekdüzen Muhasebe Sistemi Uygulama Genel Tebliği, 7/A seçeneği: 78 Finansman Giderleri grubu (780, 781, 782).",

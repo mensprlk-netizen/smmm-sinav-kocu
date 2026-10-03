@@ -31,7 +31,7 @@
  {
   "id": "2026-2-DEN-02",
   "sonuc": "C",
-  "ozet": "BDY md. 5/2’ye göre denetim makul veya sınırlı güvence sağlar; sınırlı güvence mevzuatta veya sözleşmede açıkça belirtilmemişse denetim makul güvence verecek şekilde yapılır. C, “makul” yerine “tam” güvence dediği için yanlıştır.",
+  "ozet": "BDY md. 5/2’ye göre denetim makul veya sınırlı güvence sağlar; sınırlı güvence mevzuatta veya sözleşmede açıkça belirtilmemişse denetim makul güvence verecek şekilde yapılır; C, “makul” yerine “tam” güvence dediği için yanlıştır.",
   "adimlar": [
    "<p><strong>1. Kural (BDY md. 5).</strong> (1) Denetim, denetime tabi konuların belirlenmiş bir kıstasa uyumlu olup olmadığı hususunda kullanıcılara TDS çerçevesinde güvence sağlayacak bir görüş oluşturmak amacıyla yapılır. (2) Denetim, kullanıcılara <strong>makul veya sınırlı güvence</strong> sağlar. Sınırlı güvence sağlayacağı ilgili mevzuatında veya denetim sözleşmesinde açıkça belirtilmemiş ise denetim <strong>makul güvence</strong> verecek şekilde gerçekleştirilir. Makul ve sınırlı güvence seviyesinin gerektirdiği kapsam TDS çerçevesinde belirlenir. (3) Denetim; etik ilkelere bağlı kalarak ve mesleki şüphecilik içinde TDS çerçevesinde yeterli ve uygun kanıt toplanmasını, buna dayalı görüş oluşturulmasını ve görüşün raporlanmasını kapsar. (4) Unsurlar: konu, taraflar, kıstas, kanıt ve denetim raporu.</p>",
    "<p><strong>2. C’nin hatası.</strong> Şık iki yerde “makul” yerine “<strong>tam</strong>” güvence demiştir. Denetim tam (mutlak) güvence vermez: makul güvence yüksek ama mutlak olmayan bir güvence seviyesidir; çünkü denetimin yapısal kısıtlamaları nedeniyle kanıtların çoğu kesin değil ikna edicidir (BDS 200, parag. 5).</p>",
@@ -59,7 +59,7 @@
  {
   "id": "2026-2-DEN-03",
   "sonuc": "D",
-  "ozet": "BDY md. 8’e göre finansal tabloların kıstası TMS, yıllık faaliyet raporu ile riskin erken saptanması ve yönetimi sisteminin kıstası Türk Ticaret Kanunu ve ilgili mevzuatın kıstas hükümleridir. D, bunları Türkiye Denetim Standartları ve Sermaye Piyasası Kanunu ile değiştirdiği için yanlıştır.",
+  "ozet": "BDY md. 8’e göre finansal tabloların kıstası TMS, yıllık faaliyet raporu ile riskin erken saptanması ve yönetimi sisteminin kıstası Türk Ticaret Kanunu ve ilgili mevzuatın kıstas hükümleridir; D, bunları Türkiye Denetim Standartları ve Sermaye Piyasası Kanunu ile değiştirdiği için yanlıştır.",
   "adimlar": [
    "<p><strong>1. Kural (BDY md. 8).</strong> (1) Denetimde, denetim konusunun uyumunun değerlendirildiği önceden belirlenmiş kıstaslar esas alınır. Finansal tablolar açısından <strong>TMS</strong>; yıllık faaliyet raporları, riskin erken saptanması ve yönetimine ilişkin sistem açısından <strong>Türk Ticaret Kanunu</strong>nun ve ilgili mevzuatın denetim kıstasına ilişkin hükümleri; diğer mevzuattan kaynaklanan denetim konuları açısından ise denetim kıstasıyla ilgili düzenlemeler veya bunların atıf yaptığı kurallar kıstası oluşturur. (2) Diğer mevzuat denetim öngörüp kıstası belirtmemişse kıstası <strong>KGK</strong> belirler; isteğe bağlı denetimlerde bu belirlemeyi denetimi talep edenler yapar.</p>",
    "<p><strong>2. D’deki iki hata.</strong> (a) Finansal tabloların kıstası Türkiye Denetim Standartları değil <strong>TMS</strong>’dir. TDS denetimin <em>nasıl yürütüleceğini</em> düzenleyen standartlardır (md. 4/1-t); denetim konusunun <em>neye göre</em> değerlendirileceğini, yani kıstası belirlemez. (b) Faaliyet raporu ile riskin erken saptanması ve yönetimi sistemi için kıstas Sermaye Piyasası Kanunu değil <strong>Türk Ticaret Kanunu</strong> ve ilgili mevzuattır.</p>",
@@ -140,7 +140,7 @@
  {
   "id": "2026-2-DEN-06",
   "sonuc": "B",
-  "ozet": "B şıkkı BDY md. 15/3’ün ilk iki cümlesidir: mesleki tecrübe bağımsız denetimde fiilen geçirilen süredir; 3568 sayılı Kanun kapsamındaki mesleki faaliyetlerde veya staj ve stajdan sayılan hizmetlerde geçen süreler de hesaba katılır. Diğer şıklar sürelerde veya kavramlarda metinden ayrılır.",
+  "ozet": "B şıkkı BDY md. 15/3’ün ilk iki cümlesidir (mesleki tecrübe bağımsız denetimde fiilen geçirilen süredir; 3568 sayılı Kanun kapsamındaki mesleki faaliyetlerde veya staj ve stajdan sayılan hizmetlerde geçen süreler de hesaba katılır), diğer şıklar sürelerde veya kavramlarda metinden ayrılır.",
   "adimlar": [
    "<p><strong>1. Mesleki tecrübe (BDY md. 15/3).</strong> Mesleki tecrübe bağımsız denetimde fiilen geçirilen süredir; ancak 3568 sayılı Kanun kapsamındaki mesleki faaliyetlerde veya aynı Kanun uyarınca staj ve stajdan sayılan hizmetlerde bulunulan süreler de hesaba katılır. Hesapta bu faaliyetlere başlama tarihi esas alınır ve kamu kurum ve kuruluşlarında geçirilen süreler hariç, <strong>bir yıldan fazla</strong> ara verilmesi hâlinde ara verilen fazla süreler dikkate alınmaz. Dört yılı aşmamak ve aynı tarihlere denk gelen süreler mükerrer sayılmamak şartıyla md. 14/1-a’daki alanlardaki lisans ve lisansüstü eğitim süreleri eklenir.</p>",
    "<p><strong>2. Eğitim dönemi (BDY md. 15/4).</strong> Uygulamalı mesleki eğitim alanlar bu dönemde <strong>denetçi yardımcısı</strong>dır ve denetçilerin refakatinde denetim çalışmalarına katılır. Refakatinde denetçi yardımcısı çalıştıranlar, teorik bilgilerin uygulamaya geçirilmesi amacıyla denetçi yardımcılarının gerekli mesleki yeterliliği kazanmaları için her türlü tedbiri alır. Denetçi, denetçi yardımcılarını denetimlerde görevlendirmek, denetlenen işletme ile olan görüşmelerde <strong>bulundurmak</strong>, onların çalışmalarına <strong>nezaret etmek</strong> ve hazırladıkları çalışma kâğıtlarını <strong>incelemek</strong> gibi konularda yetkili ve yükümlüdür.</p>",
@@ -384,7 +384,7 @@
  {
   "id": "2026-2-DEN-16",
   "sonuc": "E",
-  "ozet": "BDS 210 parag. 6(b)’ye göre yönetimin ön kabul sorumlulukları finansal tabloların hazırlanması, gerekli gördüğü iç kontrol ve denetçiye bilgi, ek bilgi ve kişilere erişim sağlanmasıdır. İç denetçilerin denetime katılımı ön kabul değildir; uygun hâllerde sözleşmede düzenlenebilecek bir husustur (parag. A26).",
+  "ozet": "BDS 210 parag. 6(b)’ye göre yönetimin ön kabul sorumlulukları finansal tabloların hazırlanması, gerekli gördüğü iç kontrol ve denetçiye bilgi, ek bilgi ve kişilere erişim sağlanmasıdır; iç denetçilerin denetime katılımı ise ön kabul değil, uygun hâllerde sözleşmede düzenlenebilecek bir husustur (parag. A26).",
   "adimlar": [
    "<p><strong>1. Yönetimin ön kabulleri (BDS 210, parag. 6(b)).</strong> Denetçi, yönetimin şu sorumlulukları anladığına ve üstlendiğine dair mutabakatını alır: (i) gerekli hâllerde gerçeğe uygun sunum dâhil, finansal tabloların geçerli finansal raporlama çerçevesine uygun hazırlanması; (ii) hata veya hile kaynaklı önemli yanlışlık içermeyen finansal tabloların hazırlanması için gerekli gördüğü <strong>iç kontrol</strong>; (iii) denetçiye (a) muttali olduğu tüm bilgilere <strong>erişim</strong>, (b) talep edebileceği <strong>ilave bilgiler</strong>, (c) gerekli gördüğü kişilerle kısıtlama olmaksızın <strong>görüşme</strong> imkânı sağlama.</p>",
    "<p><strong>2. E neden ön kabul değil?</strong> İşletmenin diğer çalışanlarının ve <strong>iç denetçilerinin denetime katılımına</strong> ilişkin kararlaştırılan hususlara, <em>uygun hâllerde</em> denetim sözleşmesinde yer verilebilir (BDS 210, parag. A26). Bu, sözleşmeye konabilecek isteğe bağlı bir husustur; denetimin ön şartı olarak yönetimden alınan mutabakat değildir.</p>",
@@ -444,7 +444,7 @@
  {
   "id": "2026-2-DEN-18",
   "sonuc": "E",
-  "ozet": "Dört öncül de BDS 580 Yazılı Beyanlar’dan alınmıştır: I tanım (parag. 7), II yazılı beyanın kanıt niteliği (parag. 3), III ve IV yazılı beyanın sınırları (parag. 4). Hepsi doğrudur.",
+  "ozet": "Dört öncül de BDS 580 Yazılı Beyanlar’dan alınmış ve doğrudur: I tanım (parag. 7), II yazılı beyanın kanıt niteliği (parag. 3), III ve IV yazılı beyanın sınırları (parag. 4).",
   "adimlar": [
    "<p><strong>1. Öncül I (BDS 580, parag. 7).</strong> Yazılı beyan, belirli konuları teyit etmek veya diğer kanıtları desteklemek için yönetimin denetçiye sunduğu yazılı bildirimdir; finansal tabloları, tablolardaki yönetim beyanlarını veya bunları destekleyen defter ve kayıtları <strong>kapsamaz</strong>. Doğru.</p>",
    "<p><strong>2. Öncül II (parag. 3).</strong> Yazılı beyanlar, denetçinin talep ettiği gerekli bilgilerdir; sorgulamalara verilen yanıtlar gibi <strong>denetim kanıtı niteliğindedir</strong>. Doğru.</p>",
@@ -473,7 +473,7 @@
  {
   "id": "2026-2-DEN-19",
   "sonuc": "A",
-  "ozet": "BDS 240 parag. 8’e göre denetçi, kontrollerin yönetimce ihlali ihtimalini ve hataların ortaya çıkarılmasında etkin olan prosedürlerin hileyi ortaya çıkarmada etkin olmayabileceğini göz önünde bulundurarak tüm denetim boyunca mesleki şüpheciliğini sürdürür. A iki noktada metni değiştirmiştir.",
+  "ozet": "BDS 240 parag. 8’e göre denetçi, kontrollerin yönetimce ihlali ihtimalini ve hataların ortaya çıkarılmasında etkin olan prosedürlerin hileyi ortaya çıkarmada etkin olmayabileceğini göz önünde bulundurarak tüm denetim boyunca mesleki şüpheciliğini sürdürür; A metni iki noktada değiştirmiştir.",
   "adimlar": [
    "<p><strong>1. Kural (BDS 240, parag. 8).</strong> “Makul güvence elde ederken denetçi, yönetim tarafından kontrollerin ihlal edilmesi ihtimalini ve hataların ortaya çıkarılmasında etkin olan denetim prosedürlerinin hilenin ortaya çıkarılmasında <strong>etkin olmayabileceğini</strong> göz önünde bulundurarak, tüm denetim boyunca <strong>mesleki şüpheciliğini</strong> sürdürmekle sorumludur.”</p>",
    "<p><strong>2. A’daki iki hata.</strong> (a) “Etkili olacağını” denmiştir; standart, hata için etkin prosedürlerin hileyi ortaya çıkarmada <em>etkin olmayabileceğini</em> söyler. (b) Sürdürülen “mesleki yetkinlik” değil <strong>mesleki şüphecilik</strong>tir. Gerekçe: hile, saklanmak üzere dikkatlice tasarlanmış planlar ve muvazaalı işlemler içerebilir (parag. 6) ve yönetim kontrolleri ihlal edebilecek konumdadır (parag. 7).</p>",

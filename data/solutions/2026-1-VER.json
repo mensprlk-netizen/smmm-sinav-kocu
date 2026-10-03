@@ -69,7 +69,7 @@
    "<p><strong>2. Bireysel emeklilik katkı payı.</strong> Mükellefin kendi ödediği BES katkı payı, 6327 sayılı Kanun’la (2013’ten itibaren) GVK md. 89/1-1 kapsamından çıkarılmıştır; karşılığında devlet katkısı verilir. 80.000 ₺ <strong>indirilmez</strong>. (Hayat ve şahıs sigorta primleri ise 89/1-1 sınırları içinde indirilebilir.)</p>",
    "<p><strong>3. Eğitim harcaması (GVK md. 89/1-2).</strong> Şartlar: mükellefin kendisi, eşi ve küçük çocukları için yapılmış olması ✓; Türkiye’de yapılması ✓ (Ankara); gelir veya kurumlar vergisi mükelleflerinden alınan belgeyle tevsik ✓ (fatura); beyan edilen gelirin %10’unu aşmaması. Sınır: 1.900.000 × %10 = <strong>190.000 ₺</strong>. Harcama 300.000 ₺ olduğundan 190.000 ₺ indirilir.</p>",
    "<p><strong>4. Matrah.</strong> 1.900.000 − 190.000 = <strong>1.710.000 ₺</strong>: <strong>D</strong>.</p>",
-   "<p><strong>Not.</strong> %10 sınırı Bağ-Kur primi düşülmeden 2.000.000 ₺ üzerinden alınsaydı 2.000.000 − 100.000 − 200.000 = 1.700.000 ₺ çıkardı; bu tutar şıklarda yoktur. Resmi cevap, sınırın Bağ-Kur primi indirildikten sonraki beyan edilen gelir üzerinden hesaplandığı uygulamaya dayanır.</p>"
+   "<p><strong>Not.</strong> 5510 sayılı Kanun md. 88’e göre Kuruma fiilen ödenmeyen primler gider yazılamaz; fiilen ödenen Bağ-Kur primi gider sayılarak gelirden düşülür. Böylece beyan edilen gelir 1.900.000 ₺ olur ve GVK md. 89/1-2’deki %10 sınırı bu tutara uygulanır. %10 sınırı Bağ-Kur primi düşülmeden 2.000.000 ₺ üzerinden alınsaydı 2.000.000 − 100.000 − 200.000 = 1.700.000 ₺ çıkardı; bu tutar şıklarda yoktur.</p>"
   ],
   "dayanak": "GVK md. 89/1-2 (eğitim ve sağlık harcamaları; beyan edilen gelirin %10’u), GVK md. 89/1-1 (şahıs sigorta primleri; 6327 sayılı Kanun’la BES katkı payları kapsam dışı). 5510 sayılı Kanun md. 88 (Kuruma fiilen ödenmeyen primler gelir ve kurumlar vergisi uygulamasında gider yazılamaz; fiilen ödenen Bağ-Kur primi ödendiği yılda kazançtan/gelirden düşülür — İdare uygulaması).",
   "tuzaklar": {
@@ -300,7 +300,7 @@
    "<p><strong>5. Ödenecek KDV.</strong> 50.600 − 14.000 = <strong>36.600 ₺</strong>: <strong>E</strong>.</p>",
    "<p><strong>Not.</strong> Vade farkı burada KDV hariç tutar olarak ele alınmıştır (6.000 × %10). 6.000 ₺ KDV dahil sayılsaydı içindeki KDV 6.000 × 10/110 ≈ 545 ₺ olurdu ve sonuç hiçbir şıkla uyuşmazdı.</p>"
   ],
-  "dayanak": "KDVK md. 24/c (vade farkı matraha dahil), md. 29 (indirim ve sonraki döneme devir), md. 30/c (zayi olan mallara ait KDV indirilemez; önceden indirilmişse düzeltilir).",
+  "dayanak": "KDVK md. 24/c (vade farkı matraha dahil), md. 29 (indirim ve sonraki döneme devir), md. 30/c (zayi olan mallara ait KDV indirilemez); önceden indirilmiş KDV’nin zayi olduğu dönemde düzeltilmesi: KDV Genel Uygulama Tebliği. Bağlam: VUK md. 278/A (bozulma, çürüme veya son kullanma tarihinin geçmesi gibi nedenlerle imha edilmesi gereken emtianın değerlemesi).",
   "tuzaklar": {
    "A": "34.000 ₺ = 50.000 − (10.000 + 5.000 + 1.000). Vade farkı KDV’si unutulmuş ve imha edilen ilacın KDV’si ayrıca indirilmiş; zayi malın KDV’si indirilemez, düzeltilir.",
    "B": "34.600 ₺ = 50.600 − 16.000. İmha edilen ilacın 1.000 ₺ KDV’si indirime eklenmiş; doğrusu daha önce indirilen bu tutarın indirimden çıkarılmasıdır.",
@@ -354,11 +354,11 @@
   "adimlar": [
    "<p><strong>1. Kural (KVK md. 32/B).</strong> Sermayeye eklenen öz sermaye kalemleri, eklendiği tarihten itibaren <strong>beş tam yıl</strong> geçtikten sonra azaltıma konu edilirse sermaye unsurları, toplam sermaye içindeki oranlarına göre tespit edilir (md. 32/B-1). Beş tam yıl tamamlanmadan azaltım yapılırsa azaltımın <strong>sırasıyla</strong> şu unsurlardan yapıldığı kabul edilir (md. 32/B-2): (a) başka hesaba nakledilmesi veya işletmeden çekilmesi kurumlar vergisine ve kâr dağıtımı stopajına tabi olan kalemler; (b) yalnız kâr dağıtımı stopajına tabi kalemler; (c) vergilendirilmeyecek nakdi ve ayni sermaye.</p>",
    "<p><strong>2. Süre.</strong> Sermaye artırımı 10.01.2024’te tescil edildi; azaltım 07.05.2025’te. Beş tam yıl dolmadığı için sıralama kuralı uygulanır.</p>",
-   "<p><strong>3. Unsurların sınıfı.</strong> Enflasyon düzeltmesi olumlu farkları başka hesaba nakledilir veya işletmeden çekilirse vergilendirilir (VUK mük. md. 298/A); bunlar (a) sınıfındadır (KV + stopaj). Geçmiş yıl kârları zaten kurumlar vergisine tabi tutulmuştur; dağıtımda yalnız stopaj doğar, yani (b) sınıfındadır. 1.200.000 ₺ nakdi sermaye (c) sınıfındadır.</p>",
+   "<p><strong>3. Unsurların sınıfı.</strong> Enflasyon düzeltmesi olumlu farkları başka hesaba nakledilir veya işletmeden çekilirse vergilendirilir (VUK mük. md. 298/A-5); bunlar (a) sınıfındadır (KV + stopaj). Geçmiş yıl kârları zaten kurumlar vergisine tabi tutulmuştur; dağıtımda yalnız stopaj doğar, yani (b) sınıfındadır. 1.200.000 ₺ nakdi sermaye (c) sınıfındadır.</p>",
    "<p><strong>4. Dağılım.</strong> Azaltılan 1.000.000 ₺: önce (a) enflasyon düzeltmesi olumlu farkı <strong>800.000 ₺</strong>; kalan 200.000 ₺ (b) geçmiş yıl kârlarından. Nakdi sermayeye sıra gelmez: <strong>D</strong>.</p>",
    "<p><strong>5. Vergileme.</strong> 800.000 ₺ için kurumlar vergisi ve kesinti, 200.000 ₺ için yalnız kâr dağıtımı kesintisi söz konusudur (md. 32/B-4).</p>"
   ],
-  "dayanak": "KVK md. 32/B (sermaye azaltımında vergileme; 7420 sayılı Kanun’la eklendi), VUK mükerrer md. 298/A (öz sermaye kalemlerine ait enflasyon farklarının başka hesaba nakli veya işletmeden çekilmesi halinde vergilendirilmesi).",
+  "dayanak": "KVK md. 32/B (sermaye azaltımında vergileme; 7420 sayılı Kanun’la eklendi), VUK mükerrer md. 298/A-5 (öz sermaye kalemlerine ait enflasyon farklarının başka hesaba nakli veya işletmeden çekilmesi halinde vergilendirilmesi).",
   "tuzaklar": {
    "A": "Kurumun serbest seçim hakkı yoktur; kanun azaltılan unsurları sıralama veya oranlama yoluyla kendisi belirler.",
    "B": "Oranlama yöntemi yalnız beş tam yıl geçtikten sonraki azaltımlarda uygulanır (md. 32/B-1); burada süre dolmamıştır.",
@@ -500,7 +500,7 @@
    "<p><strong>1. I.</strong> VUK md. 371/3: hiç verilmemiş beyannameler haber verme dilekçesinin verildiği tarihten başlayarak <strong>15 gün</strong> içinde verilmelidir. 30 gün yanlıştır.</p>",
    "<p><strong>2. II.</strong> VUK md. 370/a: kendisine izaha davet yazısı tebliğ edilen mükellefler, davet konusu tespitle sınırlı olarak md. 371’deki pişmanlık hükümlerinden yararlanamaz. <strong>Doğru.</strong></p>",
    "<p><strong>3. III.</strong> VUK md. 371: şartlar sağlanırsa (ihbar ve inceleme yokluğu, 15 gün içinde beyan ve pişmanlık zammıyla ödeme) vergi ziyaı cezası kesilmez. <strong>Doğru.</strong></p>",
-   "<p><strong>4. IV.</strong> Pişmanlık yalnız vergi ziyaı cezasını ortadan kaldırır. Beyannamenin süresinde verilmemesi ayrıca usulsüzlüktür ve bu ceza kesilir. Yanlış.</p>",
+   "<p><strong>4. IV.</strong> Pişmanlık yalnız vergi ziyaı cezasını ortadan kaldırır. VUK md. 352/I-1: beyannamenin süresinde verilmemesi birinci derece usulsüzlüktür; pişmanlık bunu kaldırmaz ve bu ceza kesilir. Yanlış.</p>",
    "<p><strong>5. Sonuç.</strong> II ve III: <strong>C</strong>.</p>"
   ],
   "dayanak": "VUK md. 370 (izaha davet), VUK md. 371 (pişmanlık ve ıslah; 15 günlük süreler).",
