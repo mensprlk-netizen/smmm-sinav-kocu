@@ -119,3 +119,17 @@ def test_check_rejects_wrong_version_or_list_or_missing(app):
     assert m.check(app) is False
     p.unlink()
     assert m.check(app) is False
+
+
+def test_version_ignores_line_endings(app):
+    """Windows checkout'larında CRLF'li metin dosyaları sürümü değiştirmemeli; --check farklı makinelerde tutarlı kalır."""
+    v1, _ = m.build(app, write=False)
+    (app / "index.html").write_bytes(b"<html>\r\n")
+    v_crlf, _ = m.build(app, write=False)
+    (app / "index.html").write_bytes(b"<html>\n")
+    v_lf, _ = m.build(app, write=False)
+    assert v_crlf == v_lf
+    (app / "sw.js").write_bytes(b"sw\r\n")
+    v_sw_crlf, _ = m.build(app, write=False)
+    (app / "sw.js").write_bytes(b"sw\n")
+    assert m.build(app, write=False)[0] == v_sw_crlf
