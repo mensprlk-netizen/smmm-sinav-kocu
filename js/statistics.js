@@ -37,7 +37,8 @@ export function dersOrtSure(questions, answers) {
 
 export function hataDagilimi(answers) {
   const d = { bilgi: 0, dikkat: 0, sure: 0, okuma: 0, etiketsiz: 0 };
-  for (const a of answers) if (!a.dogruMu) { if (a.hataEtiketi && a.hataEtiketi in d) d[a.hataEtiketi]++; else d.etiketsiz++; }
+  // Yalnızca çalışma satırları (deneme/tekrar satırları etiketlenemez, "Etiketsiz"i şişirir); açıkça etiketlenmiş her satır sayılır.
+  for (const a of answers) if (!a.dogruMu && (a.mod === 'study' || a.hataEtiketi)) { if (a.hataEtiketi && a.hataEtiketi in d) d[a.hataEtiketi]++; else d.etiketsiz++; }
   return d;
 }
 

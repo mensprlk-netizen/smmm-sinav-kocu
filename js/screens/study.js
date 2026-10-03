@@ -2,7 +2,7 @@
 import { h, toast, safe, kayitHatasi } from '../ui.js';
 import { createQuestionView } from './question-view.js';
 import * as fsrs from '../fsrs.js';
-import { recordAnswer, addInfoCards, lastAnswerMap, examDateMs } from '../progress.js';
+import { recordAnswer, addInfoCards, tagLastAnswer, lastAnswerMap, examDateMs } from '../progress.js';
 import { DERSLER, DONEMLER } from '../data.js';
 
 let qv = null;
@@ -82,6 +82,9 @@ async function showList(view, ctx, ids, idx, filtre, persist) {
     } catch { kayitHatasi(); } finally { if (my === seq) busy = false; }
   }
 
+  // A single deep-linked question has no list to finish: go back and leave study:state alone.
+  function leave() { if (globalThis.history?.length > 1) history.back(); else ctx.navigate('#/'); }
+
   async function show(i) {
     if (busy) return;
     busy = true;
@@ -102,12 +105,12 @@ async function showList(view, ctx, ids, idx, filtre, persist) {
         question: q, solution: sol, mode: 'study', index: i, total: ids.length, flagged: !!flag?.bayrak, inkStrokes, feynmanStrokes,
         onAnswer: safe(({ cevap, dogruMu, emin }) => recordAnswer({ db, fsrs, question: q, cevap, dogruMu, emin, sure: Date.now() - startedAt, mod: 'study', examDate })),
         onFlag: safe((b) => db.setFlag(q.id, { bayrak: b })),
-        onTag: safe(async (t) => { const list = await db.answersFor(q.id); const a = list.sort((x, y) => y.tarih - x.tarih)[0]; if (a) { a.hataEtiketi = t; await db.put('answers', a); } }),
+        onTag: safe((t) => tagLastAnswer(db, q.id, t)),
         onCards: safe((kartlar) => addInfoCards({ db, fsrs, kaynakId: q.id, kartlar, examDate })),
         onInk: safe((s) => db.saveInk('soru:' + q.id, s)),
         onFeynman: safe((s) => db.saveInk('feynman:' + q.id, s)),
         onPrev: i > 0 ? () => show(i - 1) : null,
-        onNext: i < ids.length - 1 ? () => show(i + 1) : finish,
+        onNext: i < ids.length - 1 ? () => show(i + 1) : persist ? finish : leave,
       });
       view.append(qv.el);
     } catch { kayitHatasi(); } finally { if (my === seq) busy = false; }

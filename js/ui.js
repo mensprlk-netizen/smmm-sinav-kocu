@@ -31,12 +31,20 @@ export function safe(fn) {
   };
 }
 
-export function sheet({ title, content, full = false }) {
+const openSheets = new Set();
+// Closes every open sheet through its own close path (so onClose hooks, e.g. a pending confirm, run).
+export function closeAllSheets() {
+  for (const c of [...openSheets]) c();
+  document.querySelectorAll('.sheet, .sheet-backdrop').forEach(n => n.remove());
+}
+
+export function sheet({ title, content, full = false, onClose }) {
   const backdrop = h('div', { class: 'sheet-backdrop' });
   const box = h('div', { class: 'sheet' + (full ? ' sheet-full' : ''), role: 'dialog', 'aria-label': title },
     h('div', { class: 'sheet-head' }, h('strong', {}, title), h('button', { class: 'btn-icon', 'aria-label': 'Kapat', onClick: close }, '✕')),
     h('div', { class: 'sheet-body' }, content));
-  function close() { backdrop.remove(); box.remove(); }
+  function close() { if (!openSheets.delete(close)) return; backdrop.remove(); box.remove(); onClose?.(); }
+  openSheets.add(close);
   backdrop.addEventListener('click', close);
   document.body.append(backdrop, box);
   requestAnimationFrame(() => box.classList.add('open'));
@@ -46,11 +54,11 @@ export function sheet({ title, content, full = false }) {
 export function confirm(msg, { ok = 'Evet', cancel = 'Vazgeç' } = {}) {
   return new Promise((resolve) => {
     const s = sheet({
-      title: 'Onay',
+      title: 'Onay', onClose: () => resolve(false),
       content: h('div', {}, h('p', {}, msg),
         h('div', { class: 'row' },
-          h('button', { class: 'btn', onClick: () => { s.close(); resolve(false); } }, cancel),
-          h('button', { class: 'btn btn-primary', onClick: () => { s.close(); resolve(true); } }, ok)))
+          h('button', { class: 'btn', onClick: () => s.close() }, cancel),
+          h('button', { class: 'btn btn-primary', onClick: () => { resolve(true); s.close(); } }, ok)))
     });
   });
 }

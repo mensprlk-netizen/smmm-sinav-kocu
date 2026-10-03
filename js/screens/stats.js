@@ -58,7 +58,7 @@ export async function render(view, params, ctx) {
     defterList.innerHTML = '';
     if (!list.length) defterList.append(bos('Kayıt yok.'));
     for (const { question: q, answer: a } of list.slice(0, LIMIT_SATIR)) {
-      defterList.append(satir(`${dersAdi(q.ders)} ${q.donem} · Soru ${q.no}`, `${a.cevap} ✗ · ${ETIKET[a.hataEtiketi] ?? '—'}`, { href: '#/study/q/' + q.id, muted: true }));
+      defterList.append(satir(`${dersAdi(q.ders)} ${q.donem} · Soru ${q.no}`, `${a.cevap ?? 'Boş'} ✗ · ${ETIKET[a.hataEtiketi] ?? '—'}`, { href: '#/study/q/' + q.id, muted: true }));
     }
     kurBtn.disabled = !list.length;
   }

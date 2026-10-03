@@ -8,13 +8,13 @@ const TAGS = [['bilgi', 'Bilgi eksiği'], ['dikkat', 'Dikkatsizlik'], ['sure', '
 export function createQuestionView(o) {
   const q = o.question, mode = o.mode;
   let selected = o.selected ?? null, locked = mode !== 'exam' && selected !== null, emin = o.emin !== false;
-  let flagged = !!o.flagged;
+  let flagged = !!o.flagged, skipped = false;
   let solveInk = null, feynmanInk = null;
 
   const head = h('div', { class: 'q-head' },
     h('span', {}, `${dersAdi(q.ders)} · ${q.donem} · Soru ${q.no}`),
     h('span', {}, `${(o.index ?? 0) + 1} / ${o.total ?? 1}`),
-    h('button', { class: 'btn-icon', 'aria-label': 'Bayrak', 'data-role': 'flag', onClick: () => { flagged = !flagged; flagBtn.textContent = flagged ? '⚑' : '⚐'; o.onFlag?.(flagged); } }, flagged ? '⚑' : '⚐'));
+    o.onFlag ? h('button', { class: 'btn-icon', 'aria-label': 'Bayrak', 'data-role': 'flag', onClick: () => { flagged = !flagged; flagBtn.textContent = flagged ? '⚑' : '⚐'; o.onFlag(flagged); } }, flagged ? '⚑' : '⚐') : null);
   const flagBtn = head.querySelector('[data-role="flag"]');
 
   const body = h('div', { class: 'q-text' },
@@ -31,15 +31,18 @@ export function createQuestionView(o) {
 
   const eminBtn = mode === 'exam' || q.iptal ? null : h('button', { class: 'chip' + (emin ? '' : ' on'), 'data-role': 'emin', onClick: () => { if (locked) return; emin = !emin; eminBtn.classList.toggle('on', !emin); } }, 'Emin değilim');
 
+  const bosBtn = mode === 'study' && !q.iptal ? h('button', { class: 'chip', 'data-role': 'bos', onClick: skip }, 'Boş geç') : null;
+  const feyBtn = mode === 'review' && o.onFeynman ? h('button', { class: 'btn btn-small', 'data-role': 'feynman', onClick: openFeynman }, 'Kendi cümlenle anlat') : null;
   const solWrap = h('div');
   const foot = h('div', { class: 'q-foot' },
     h('button', { class: 'btn', onClick: () => o.onPrev?.(), disabled: !o.onPrev }, '‹ Önceki'),
-    h('button', { class: 'btn', 'data-role': 'ink', onClick: openInk }, '✎ Çöz'),
+    o.onInk ? h('button', { class: 'btn', 'data-role': 'ink', onClick: openInk }, '✎ Çöz') : null,
     h('button', { class: 'btn btn-primary', onClick: () => o.onNext?.(), disabled: !o.onNext }, 'Sonraki ›'));
 
-  const el = h('div', { class: 'question' }, head, body, opts, eminBtn ? h('div', { class: 'row', style: 'margin-bottom:10px' }, eminBtn) : null, solWrap, foot);
+  const el = h('div', { class: 'question' }, head, body, opts, eminBtn ? h('div', { class: 'row', style: 'margin-bottom:10px' }, eminBtn, bosBtn) : null, feyBtn ? h('div', { class: 'row', style: 'margin-bottom:10px' }, feyBtn) : null, solWrap, foot);
 
   function paint() {
+    if (bosBtn) { if (locked) bosBtn.setAttribute('disabled', ''); else bosBtn.removeAttribute('disabled'); }
     if (eminBtn) { if (locked) eminBtn.setAttribute('disabled', ''); else eminBtn.removeAttribute('disabled'); }
     for (const [L, b] of Object.entries(optEls)) {
       b.classList.toggle('selected', mode === 'exam' && selected === L);
@@ -55,20 +58,26 @@ export function createQuestionView(o) {
     showSolution();
     o.onAnswer?.({ cevap: L, dogruMu: L === q.dogru, emin });
   }
+  function skip() {
+    if (locked || q.iptal) return;
+    skipped = true; locked = true; paint();
+    showSolution();
+    o.onAnswer?.({ cevap: null, dogruMu: false, emin: false });
+  }
   function showSolution() {
     const s = o.solution; solWrap.innerHTML = '';
-    const wrong = selected !== null && selected !== q.dogru;
+    const wrong = (selected !== null || skipped) && selected !== q.dogru;
     const panel = h('div', { class: 'solution' },
       q.cevapNotu ? h('p', { class: 'badge' }, q.cevapNotu) : null,
-      h('p', {}, h('strong', {}, `Doğru cevap: ${q.dogru}`), s ? ' — ' + s.ozet : ''),
+      h('p', {}, h('strong', {}, q.iptal ? `İlk anahtar: ${q.dogru} (iptal)` : `Doğru cevap: ${q.dogru}`), s ? ' — ' + s.ozet : ''),
       s ? h('div', {}, ...s.adimlar.map(a => h('div', { class: 'step', html: a }))) : h('p', { class: 'muted' }, 'Bu soru için çözüm henüz eklenmedi.'),
       s?.dayanak ? h('p', { class: 'muted' }, 'Dayanak: ' + s.dayanak) : null,
       s && Object.keys(s.tuzaklar || {}).length ? h('div', {}, h('h2', {}, 'Tuzak şıklar'), h('ul', {}, ...Object.entries(s.tuzaklar).map(([L, t]) => h('li', {}, h('strong', {}, L + ') '), h('span', { html: t }))))) : null,
-      wrong ? h('div', {}, h('h2', {}, 'Neden yanlış yaptım?'), h('div', { class: 'row' }, ...TAGS.map(([k, label]) => h('button', { class: 'chip', 'data-tag': k, onClick: (e) => { panel.querySelectorAll('[data-tag]').forEach(c => c.classList.remove('on')); e.currentTarget.classList.add('on'); o.onTag?.(k); } }, label)))) : null,
+      wrong && o.onTag ? h('div', {}, h('h2', {}, 'Neden yanlış yaptım?'), h('div', { class: 'row' }, ...TAGS.map(([k, label]) => h('button', { class: 'chip', 'data-tag': k, onClick: (e) => { panel.querySelectorAll('[data-tag]').forEach(c => c.classList.remove('on')); e.currentTarget.classList.add('on'); o.onTag(k); } }, label)))) : null,
       h('div', { class: 'row', style: 'margin-top:10px' },
-        s?.kartlar?.length ? h('button', { class: 'btn btn-small', 'data-role': 'cards', onClick: (e) => { const btn = e.currentTarget; if (btn.disabled) return; btn.disabled = true; btn.textContent = 'Kartlar eklendi'; o.onCards?.(s.kartlar); toast('Kartlar tekrar kuyruğuna eklendi.'); } }, `Kartları ekle (${s.kartlar.length})`) : null,
+        s?.kartlar?.length && o.onCards ? h('button', { class: 'btn btn-small', 'data-role': 'cards', onClick: (e) => { const btn = e.currentTarget; if (btn.disabled) return; btn.disabled = true; btn.textContent = 'Kartlar eklendi'; o.onCards(s.kartlar); toast('Kartlar tekrar kuyruğuna eklendi.'); } }, `Kartları ekle (${s.kartlar.length})`) : null,
         h('button', { class: 'btn btn-small', 'data-role': 'original', onClick: showOriginal }, 'Orijinali göster'),
-        h('button', { class: 'btn btn-small', 'data-role': 'feynman', onClick: openFeynman }, 'Kendi cümlenle anlat')));
+        mode !== 'review' && o.onFeynman ? h('button', { class: 'btn btn-small', 'data-role': 'feynman', onClick: openFeynman }, 'Kendi cümlenle anlat') : null));
     solWrap.append(panel);
   }
   function showOriginal() {
