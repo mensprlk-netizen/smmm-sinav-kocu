@@ -1,0 +1,587 @@
+[
+ {
+  "id": "2026-1-FM-01",
+  "sonuc": "A",
+  "ozet": "Satıcıya ait taşıma giderini satıcı adına ödeyen alıcı, ödediği KDV dahil 4.800 ₺ kadar satıcıya olan borcunu azaltır: 320 Satıcılar borç, 100 Kasa alacak.",
+  "adimlar": [
+   "<p><strong>1. Gider kime ait?</strong> “Satıcı adına” ödeme yapıldığına göre taşıma gideri satıcıya aittir (taşıma faturası satıcı adına düzenlenmiştir). İşletme bu tutarı satıcının yerine ödemiştir; ödeme işletmenin kendi gideri ya da mal maliyeti değildir.</p>",
+   "<p><strong>2. Ödenen tutar.</strong> 4.000 + 4.000 × %20 = 4.000 + 800 = <strong>4.800 ₺</strong>. KDV satıcı adına düzenlenen faturada yer aldığı için işletme bunu 191 İndirilecek KDV olarak indiremez; KDV dahil toplam tutar satıcı adına ödenmiştir.</p>",
+   "<p><strong>3. Karşı hesap.</strong> Mallar kredili alındığı için işletmenin satıcıya borcu (320 Satıcılar, alacak bakiyeli) vardır. Satıcı adına yapılan ödeme bu borçtan düşülür: 320 Satıcılar <em>borçlandırılır</em>. Ödeme nakit olduğundan 100 Kasa alacaklandırılır.</p>",
+   "<p><strong>4. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>320 SATICILAR</td><td class=\"n\">4.800</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">100 KASA</td><td class=\"n\"></td><td class=\"n\">4.800</td></tr></table>",
+   "<p><strong>5. Karşılaştırma.</strong> Taşıma gideri alıcıya ait olsaydı (alıcı kendi adına ödeseydi), 153 Ticari Mallar 4.000 ve 191 İndirilecek KDV 800 borç, 100 Kasa 4.800 alacak yazılırdı. Bu soruda gider satıcıya ait olduğu için doğru şık <strong>A</strong>.</p>"
+  ],
+  "dayanak": "Tekdüzen Hesap Planı: 320 Satıcılar hesabı satıcılara olan borçları izler; borcu azaltan ödemeler hesabın borcuna yazılır. Alış giderleri ancak alıcıya ait olduklarında 153 Ticari Mallar maliyetine eklenir.",
+  "tuzaklar": {
+   "B": "KDV’yi 191’e ayırmak, faturanın işletme adına düzenlendiğini varsayar. Fatura satıcı adına olduğu için KDV dahil 4.800 ₺’nin tamamı satıcıya olan borçtan düşülür.",
+   "C": "Gideri işletmenin kendi alış maliyeti sayıp satıcıya borç yazmıştır; oysa gider satıcıya aittir ve ödeme nakit yapılmıştır (Kasa azalır, satıcı borcu artmaz, azalır).",
+   "D": "Taşıma gideri satıcıya ait olduğundan mal maliyetine (153) eklenmez; alıcıya ait olsaydı bile KDV maliyete değil 191’e yazılırdı.",
+   "E": "Satıcıya ait bir gider işletmenin genel yönetim gideri olamaz; mal alışına ilişkin taşıma, alıcıya aitse 770’e değil 153’e yazılır."
+  },
+  "kartlar": [
+   {
+    "on": "Alıcı, satıcıya ait taşıma giderini satıcı adına nakit öderse kayıt?",
+    "arka": "320 Satıcılar (borç) / 100 Kasa (alacak), KDV dahil toplam tutarla: ödeme satıcıya olan borçtan düşülür."
+   },
+   {
+    "on": "Alıcıya ait alış taşıma gideri nereye yazılır?",
+    "arka": "153 Ticari Mallar (maliyete eklenir), KDV’si 191 İndirilecek KDV."
+   }
+  ],
+  "konuBaglantisi": "Stoklar"
+ },
+ {
+  "id": "2026-1-FM-02",
+  "sonuc": "C",
+  "ozet": "Eski senet (3.000 ₺) kapatılır, yeni senet (3.200 ₺) alınır; aradaki 200 ₺ vadenin uzatılmasının karşılığı olan faizdir ve 642 Faiz Gelirleri hesabına alacak yazılır.",
+  "adimlar": [
+   "<p><strong>1. İşlemin özü.</strong> Senet yenilemede borçlu, vadesi gelen senedi ödemez; alacaklı eski senedi geri verip daha ileri vadeli yeni bir senet alır. Yeni senet tutarının eskisinden fazla olan kısmı, vadenin uzatılması karşılığında alınan faizdir (vade farkı). Nakit hareketi yoktur.</p>",
+   "<p><strong>2. Hesaplar.</strong> Yeni senet: 121 Alacak Senetleri <em>borç</em> 3.200 ₺. Eski senet: 121 Alacak Senetleri <em>alacak</em> 3.000 ₺. Fark: 3.200 − 3.000 = <strong>200 ₺</strong> → 642 Faiz Gelirleri <em>alacak</em>.</p>",
+   "<p><strong>3. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>121 ALACAK SENETLERİ (yeni senet)</td><td class=\"n\">3.200</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">121 ALACAK SENETLERİ (eski senet)</td><td class=\"n\"></td><td class=\"n\">3.000</td></tr><tr><td class=\"alacak\">642 FAİZ GELİRLERİ</td><td class=\"n\"></td><td class=\"n\">200</td></tr></table>",
+   "<p><strong>4. Sonuç.</strong> Faiz Gelirleri hesabına 200 ₺ alacak kaydı yapılır: <strong>C</strong>. (Soru KDV vermediği için 200 ₺’nin tamamı faiz geliri alındı.)</p>"
+  ],
+  "dayanak": "Tekdüzen Hesap Planı: 121 Alacak Senetleri (senet alındığında borç, kapandığında alacak); senet yenilemede vade farkı alacaklı için 642 Faiz Gelirleri, borçlu için 780 Finansman Giderleri.",
+  "tuzaklar": {
+   "A": "Senet yenilemede tahsilat yoktur; Bankalar hesabı hareket görmez.",
+   "B": "Finansman Giderleri, senedi yenileyen <em>borçlunun</em> kaydıdır. Soruda işletme senet alacaklısıdır, 200 ₺ onun için gelirdir.",
+   "D": "Eski 3.000 ₺’lik senet kapatıldığı için Alacak Senetleri hesabının alacağına yazılır; borca yazılan yeni senet 3.200 ₺’dir.",
+   "E": "Taraflar ters: 3.200 ₺’lik yeni senet alındığı için Alacak Senetleri hesabının borcuna yazılır."
+  },
+  "kartlar": [
+   {
+    "on": "Alacak senedi daha yüksek tutarlı yeni senetle yenilenirse kayıt?",
+    "arka": "121 Alacak Senetleri (yeni senet) borç / 121 Alacak Senetleri (eski senet) alacak / 642 Faiz Gelirleri (fark) alacak."
+   },
+   {
+    "on": "Senet yenilemede borçlu taraf farkı hangi hesaba yazar?",
+    "arka": "780 Finansman Giderleri (borç); eski senet 321 Borç Senetleri borç, yeni senet 321 alacak."
+   }
+  ],
+  "konuBaglantisi": "Alacaklar ve senetler"
+ },
+ {
+  "id": "2026-1-FM-03",
+  "sonuc": "D",
+  "ozet": "Yıllık amortisman 50.000 / 5 = 10.000 ₺; yenileme amacıyla 549 Özel Fonlar’a alınan 7.000 ₺ satış kârı yeni kamyonetin amortismanına mahsup edilir, kalan 3.000 ₺ pazarlama gideri olur.",
+  "adimlar": [
+   "<p><strong>1. Yenileme fonu.</strong> Amortismana tabi bir varlık yenilenmek amacıyla satıldığında satış kârı o dönem kâra alınmayıp pasifte bir fon hesabında tutulabilir (VUK md. 328, yenileme fonu). Tekdüzen Hesap Planı’nda bu fon <strong>549 Özel Fonlar</strong> hesabının alacağında izlenir. Fon, yeni alınan varlığın amortismanına mahsup edilerek kapatılır.</p>",
+   "<p><strong>2. Amortisman.</strong> Eşit tutarlar (normal) yöntemi: 50.000 / 5 yıl = <strong>10.000 ₺</strong> (oran %20). 257 Birikmiş Amortismanlar 10.000 ₺ alacaklanır.</p>",
+   "<p><strong>3. Mahsup.</strong> Amortismanın 7.000 ₺’lik kısmı fondan karşılanır: 549 Özel Fonlar 7.000 ₺ borçlanır. Kalan 10.000 − 7.000 = <strong>3.000 ₺</strong> gider yazılır. Kamyonet pazarlama faaliyetlerinde kullanıldığı için gider 760 Pazarlama, Satış ve Dağıtım Giderleri’dir.</p>",
+   "<p><strong>4. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>760 PAZARLAMA, SATIŞ VE DAĞITIM GİDERLERİ</td><td class=\"n\">3.000</td><td class=\"n\"></td></tr><tr><td>549 ÖZEL FONLAR</td><td class=\"n\">7.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">257 BİRİKMİŞ AMORTİSMANLAR</td><td class=\"n\"></td><td class=\"n\">10.000</td></tr></table>",
+   "<p><strong>5. Sonuç.</strong> Borç 3.000 + 7.000 = alacak 10.000. Cevap <strong>D</strong>.</p>"
+  ],
+  "dayanak": "VUK md. 328 (yenileme fonu): fon, yeni iktisap edilen iktisadi kıymetin amortismanına mahsup edilir. Tekdüzen Hesap Planı: 549 Özel Fonlar, 257 Birikmiş Amortismanlar; amortisman gideri varlığın kullanıldığı faaliyetin gider hesabına (pazarlama → 760) yazılır.",
+  "tuzaklar": {
+   "A": "Amortisman tutarı 7.000 değil 10.000 ₺’dir; 7.000 fon tutarıdır. Ayrıca fonun mahsubu (549 borç) yapılmamıştır.",
+   "B": "Tutarlar doğru, ancak kamyonet pazarlamada kullanıldığı için gider 770 Genel Yönetim Giderleri’ne değil 760’a yazılır.",
+   "C": "Amortismanın tamamı gider yazılmış, 549’daki yenileme fonu yeni varlığın amortismanına mahsup edilmemiştir.",
+   "E": "Yalnız fon mahsubu yapılmış; amortisman 10.000 ₺ olduğundan 257’ye 10.000 ₺ alacak ve kalan 3.000 ₺ gider kaydı eksiktir."
+  },
+  "kartlar": [
+   {
+    "on": "Yenileme fonu hangi hesapta izlenir, nasıl kapanır?",
+    "arka": "549 Özel Fonlar (alacak). Yeni varlığın amortismanı ayrılırken 549 borçlanarak amortismana mahsup edilir (VUK md. 328)."
+   },
+   {
+    "on": "Fon mahsubunda amortisman kaydı?",
+    "arka": "Gider hesabı (amortisman − fon) borç + 549 Özel Fonlar (fon) borç / 257 Birikmiş Amortismanlar (tam amortisman) alacak."
+   }
+  ],
+  "konuBaglantisi": "Maddi duran varlıklar"
+ },
+ {
+  "id": "2026-1-FM-04",
+  "sonuc": "A",
+  "ozet": "%20 pay iştirak niteliğindedir; dağıtılmasına karar verilen ama henüz tahsil edilmeyen 13.000 ₺ kâr payı 132 İştiraklerden Alacaklar borç, 640 İştiraklerden Temettü Gelirleri alacak yazılır.",
+  "adimlar": [
+   "<p><strong>1. Ortaklığın niteliği.</strong> Tekdüzen Hesap Planı’nda bir şirketteki pay genel kural olarak %10 ile %50 arasındaysa <em>iştirak</em> (242 İştirakler), %50’den fazlaysa <em>bağlı ortaklık</em> (245 Bağlı Ortaklıklar) sayılır. %20 pay iştiraktir.</p>",
+   "<p><strong>2. Kâr payının doğuşu.</strong> Ortak olunan şirket kâr dağıtım kararı aldığında işletmenin kâr payı alacağı doğar; para henüz tahsil edilmemiştir. Alacak 132 İştiraklerden Alacaklar, gelir 640 İştiraklerden Temettü Gelirleri hesabına yazılır.</p>",
+   "<p><strong>3. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>132 İŞTİRAKLERDEN ALACAKLAR</td><td class=\"n\">13.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">640 İŞTİRAKLERDEN TEMETTÜ GELİRLERİ</td><td class=\"n\"></td><td class=\"n\">13.000</td></tr></table>",
+   "<p><strong>4. Sonuç.</strong> Tahsil edildiğinde 102 Bankalar borç / 132 alacak yazılır. Cevap <strong>A</strong>.</p>"
+  ],
+  "dayanak": "Tekdüzen Hesap Planı: 242 İştirakler (%10-%50 pay), 132 İştiraklerden Alacaklar, 640 İştiraklerden Temettü Gelirleri; bağlı ortaklık için 133 ve 641.",
+  "tuzaklar": {
+   "B": "Kâr payı ticari alacak değildir ve olağandışı gelir de değildir; iştirakten temettü gelirinin kendi hesapları (132 / 640) vardır.",
+   "C": "Soruda yalnız kâr dağıtım kararı alınmıştır, tahsilat yoktur; bu yüzden Bankalar değil alacak hesabı borçlanır.",
+   "D": "İştirakten doğan alacak ve gelir için özel hesaplar bulunduğundan 136 ve 649 kullanılmaz.",
+   "E": "133 / 641 bağlı ortaklık (%50’den fazla pay) içindir; %20 pay iştiraktir."
+  },
+  "kartlar": [
+   {
+    "on": "İştirakin kâr dağıtım kararı alındığında (tahsil edilmeden) kayıt?",
+    "arka": "132 İştiraklerden Alacaklar (borç) / 640 İştiraklerden Temettü Gelirleri (alacak)."
+   },
+   {
+    "on": "İştirak ile bağlı ortaklık ayrımı?",
+    "arka": "İştirak: genel kural olarak %10-%50 pay (242; 132/640). Bağlı ortaklık: %50’den fazla pay (245; 133/641)."
+   }
+  ],
+  "konuBaglantisi": "Mali duran varlıklar"
+ },
+ {
+  "id": "2026-1-FM-05",
+  "sonuc": "B",
+  "ozet": "Net kayıtlı değer 60.000 − 12.500 = 47.500 ₺, satış bedeli 50.000 ₺; aradaki 2.500 ₺ artık gerek kalmayan karşılıktır ve 644 Konusu Kalmayan Karşılıklar hesabının alacağına yazılır.",
+  "adimlar": [
+   "<p><strong>1. Kayıtlı değerler.</strong> Hisse senetleri alış (maliyet) değeriyle 110 Hisse Senetleri hesabında 60.000 ₺ borç kalanı verir. Daha önce ayrılan değer düşüklüğü karşılığı 112 Menkul Kıymetler Değer Düşüklüğü Karşılığı hesabında 12.500 ₺ alacak kalanıdır (karşılık ayrılırken gider olarak 654 Karşılık Giderleri’ne yazılmıştı). Net değer 60.000 − 12.500 = <strong>47.500 ₺</strong>. Nominal değer (35.000 ₺) kayıtlarda kullanılmaz.</p>",
+   "<p><strong>2. Satışın sonucu.</strong> Satış bedeli 50.000 ₺ maliyetin (60.000) altında olduğundan menkul kıymet satış kârı yoktur. Ancak bedel net değeri 50.000 − 47.500 = <strong>2.500 ₺</strong> aşmıştır: daha önce gider yazılan 12.500 ₺’lik karşılığın 2.500 ₺’lik kısmına gerek kalmamıştır. Bu tutar 644 Konusu Kalmayan Karşılıklar hesabına gelir yazılır. Karşılığın kalan 10.000 ₺’si gerçekleşen zarardır ve önceden gider yazıldığı için yeniden zarar kaydedilmez.</p>",
+   "<p><strong>3. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>102 BANKALAR</td><td class=\"n\">50.000</td><td class=\"n\"></td></tr><tr><td>112 MENKUL KIYMETLER DEĞER DÜŞÜKLÜĞÜ KARŞILIĞI</td><td class=\"n\">12.500</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">110 HİSSE SENETLERİ</td><td class=\"n\"></td><td class=\"n\">60.000</td></tr><tr><td class=\"alacak\">644 KONUSU KALMAYAN KARŞILIKLAR</td><td class=\"n\"></td><td class=\"n\">2.500</td></tr></table>",
+   "<p><strong>4. Sağlama ve sonuç.</strong> Borç 50.000 + 12.500 = 62.500 = alacak 60.000 + 2.500. Cevap <strong>B</strong>.</p>",
+   "<p><strong>Not.</strong> Bazı kaynaklar önce karşılığın tamamını (12.500 ₺) 644’e aktarıp satışta maliyete göre oluşan 10.000 ₺ zararı 655 Menkul Kıymet Satış Zararları’na yazar. Net sonuç aynıdır (12.500 − 10.000 = 2.500 ₺ gelir), ancak bu gösterim şıklarda yer almaz; soru net gösterimi esas almıştır.</p>"
+  ],
+  "dayanak": "Tekdüzen Hesap Planı: 110 Hisse Senetleri (maliyet bedeli), 112 Menkul Kıymetler Değer Düşüklüğü Karşılığı, 644 Konusu Kalmayan Karşılıklar (önceki dönemlerde ayrılıp gerek kalmayan karşılıklar), 645 / 655 Menkul Kıymet Satış Kârları / Zararları.",
+  "tuzaklar": {
+   "A": "Tutar doğru ama hesap yanlış: satış bedeli (50.000) maliyetin (60.000) altında olduğundan satış kârı yoktur; 2.500 ₺ gerek kalmayan karşılıktır.",
+   "C": "Karşılık daha önce gider yazılmıştır; satışta yeni gider kaydı yapılmaz, 112 hesabı borçlanarak kapatılır.",
+   "D": "15.000 = 50.000 − 35.000; nominal değer kayıtlarda kullanılmadığı için satış sonucu nominal değere göre hesaplanmaz.",
+   "E": "25.000 = 60.000 − 35.000 (alış − nominal); nominal değer ilgisizdir. Maliyete göre zarar 10.000 ₺ olup daha önce ayrılan karşılıkla zaten giderleşmiştir."
+  },
+  "kartlar": [
+   {
+    "on": "Karşılık ayrılmış menkul kıymet, net değerin üstünde ama maliyetin altında satılırsa?",
+    "arka": "102 (bedel) + 112 (karşılık) borç / 110 (maliyet) alacak / 644 Konusu Kalmayan Karşılıklar (bedel − net değer) alacak."
+   },
+   {
+    "on": "Menkul kıymet satış sonucu hangi değere göre hesaplanır?",
+    "arka": "Kayıtlı (maliyet) değere göre; nominal değer kullanılmaz."
+   }
+  ],
+  "konuBaglantisi": "Menkul kıymetler"
+ },
+ {
+  "id": "2026-1-FM-06",
+  "sonuc": "B",
+  "ozet": "6 ay vadeli borçlanma senedi kısa vadelidir (305); nominal 100.000 ile satış bedeli 93.600 arasındaki 6.400 ₺ 308 Menkul Kıymet İhraç Farkları’na, 1.000 ₺ banka masrafı 780 Finansman Giderleri’ne, kalan 92.600 ₺ 102 Bankalar’a borç yazılır.",
+  "adimlar": [
+   "<p><strong>1. Hesap seçimi.</strong> Vadesi 6 ay olan, işletmenin ihraç ettiği borçlanma senedi kısa vadeli yabancı kaynaktır: 305 Çıkarılmış Bonolar ve Senetler hesabına nominal değerle (100.000 ₺) alacak yazılır. 405 Çıkarılmış Tahviller uzun vadeli (1 yıldan uzun) tahviller içindir.</p>",
+   "<p><strong>2. İhraç farkı.</strong> Senet nominal değerin altında satılmıştır: 100.000 − 93.600 = <strong>6.400 ₺</strong>. Bu fark vade boyunca giderleşecek faiz niteliğindedir; satış anında 308 Menkul Kıymet İhraç Farkları (−) hesabının borcuna yazılır.</p>",
+   "<p><strong>3. İşlem masrafı ve banka.</strong> Bankanın kestiği 1.000 ₺ borçlanmayla ilgili bir masraftır: 780 Finansman Giderleri. Hesaba yatan tutar 93.600 − 1.000 = <strong>92.600 ₺</strong>.</p>",
+   "<p><strong>4. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>102 BANKALAR</td><td class=\"n\">92.600</td><td class=\"n\"></td></tr><tr><td>780 FİNANSMAN GİDERLERİ</td><td class=\"n\">1.000</td><td class=\"n\"></td></tr><tr><td>308 MENKUL KIYMET İHRAÇ FARKLARI</td><td class=\"n\">6.400</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">305 ÇIKARILMIŞ BONOLAR VE SENETLER</td><td class=\"n\"></td><td class=\"n\">100.000</td></tr></table>",
+   "<p><strong>5. Sağlama ve sonuç.</strong> 92.600 + 1.000 + 6.400 = 100.000. Cevap <strong>B</strong>. 308’deki 6.400 ₺ vade boyunca (dönem sonlarında) 780 Finansman Giderleri’ne aktarılır.</p>",
+   "<p><strong>Not.</strong> TFRS 9’a göre raporlama yapan bir işletmede borçlanmaya doğrudan atfedilebilen işlem maliyetleri borcun ilk ölçümünden düşülür ve etkin faiz yöntemiyle vadeye yayılır. Soru TFRS’ye atıf yapmadığı ve Tekdüzen Hesap Planı işleyişini sorduğu için masraf doğrudan 780’e yazılır; resmi cevap bu uygulamaya dayanır.</p>"
+  ],
+  "dayanak": "Tekdüzen Hesap Planı: 305 Çıkarılmış Bonolar ve Senetler (kısa vadeli), 405 Çıkarılmış Tahviller (uzun vadeli), 308 Menkul Kıymet İhraç Farkları (−) (nominal değer ile satış bedeli arasındaki fark), 780 Finansman Giderleri.",
+  "tuzaklar": {
+   "A": "Banka masrafı (1.000 ₺) ihraç farkına eklenmiş: 6.400 + 1.000 = 7.400. Tekdüzen işleyişinde 308 yalnız nominal değer ile satış bedeli arasındaki farkı izler; masraf 780’e yazılır.",
+   "C": "6 ay vadeli senet kısa vadelidir; 405 Çıkarılmış Tahviller uzun vadeli borçlar içindir. Ayrıca masraf ihraç farkına eklenmiştir.",
+   "D": "İhraç farkı (6.400) ile masraf (1.000) birlikte hemen gider yazılmış: 7.400. İhraç farkı vadeye yayılarak giderleşir; satış anında 308’e yazılır.",
+   "E": "Borçlanmayla ilgili masraf genel yönetim gideri değil finansman gideridir (780)."
+  },
+  "kartlar": [
+   {
+    "on": "İskontolu (nominalin altında) bono ihracı kaydı?",
+    "arka": "102 Bankalar (tahsil edilen) + 308 Menkul Kıymet İhraç Farkları (nominal − satış bedeli) borç / 305 Çıkarılmış Bonolar ve Senetler (nominal) alacak."
+   },
+   {
+    "on": "305 ile 405 farkı?",
+    "arka": "305 Çıkarılmış Bonolar ve Senetler kısa vadeli (1 yıla kadar); 405 Çıkarılmış Tahviller uzun vadeli borçlanma senetleri."
+   }
+  ],
+  "konuBaglantisi": "Yabancı kaynaklar"
+ },
+ {
+  "id": "2026-1-FM-07",
+  "sonuc": "A",
+  "ozet": "Tahsil edilemeyeceği kesinleşen 12.000 ₺’lik şüpheli alacak 128’den çıkarılır: 7.000 ₺’si ayrılmış karşılıkla (129) kapatılır, karşılık ayrılmamış 5.000 ₺ 689 Diğer Olağandışı Gider ve Zararlar’a yazılır.",
+  "adimlar": [
+   "<p><strong>1. Durum.</strong> 128 Şüpheli Ticari Alacaklar hesabında 12.000 ₺ alacak, 129 Şüpheli Ticari Alacaklar Karşılığı hesabında 7.000 ₺ karşılık vardır (karşılık ayrılırken 654 Karşılık Giderleri’ne gider yazılmıştı). Alacağın tahsil edilemeyeceği kesinleşmiştir (değersiz alacak).</p>",
+   "<p><strong>2. Alacağın kapatılması.</strong> 128 hesabı 12.000 ₺ alacaklanarak kapatılır. Karşılığı ayrılmış 7.000 ₺’lik kısım 129’un borçlandırılmasıyla karşılanır; bu kısım için yeniden gider yazılmaz.</p>",
+   "<p><strong>3. Karşılık ayrılmamış kısım.</strong> 12.000 − 7.000 = <strong>5.000 ₺</strong> daha önce giderleştirilmemiş bir kayıptır. Tekdüzen uygulamasında değersiz hale gelen alacağın bu kısmı 689 Diğer Olağandışı Gider ve Zararlar hesabına borç yazılır.</p>",
+   "<p><strong>4. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>129 ŞÜPHELİ TİCARİ ALACAKLAR KARŞILIĞI</td><td class=\"n\">7.000</td><td class=\"n\"></td></tr><tr><td>689 DİĞER OLAĞANDIŞI GİDER VE ZARARLAR</td><td class=\"n\">5.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">128 ŞÜPHELİ TİCARİ ALACAKLAR</td><td class=\"n\"></td><td class=\"n\">12.000</td></tr></table>",
+   "<p><strong>5. Sonuç.</strong> Cevap <strong>A</strong>.</p>"
+  ],
+  "dayanak": "Tekdüzen Hesap Planı: 128 Şüpheli Ticari Alacaklar, 129 Şüpheli Ticari Alacaklar Karşılığı (−), 689 Diğer Olağandışı Gider ve Zararlar; şüpheli alacak karşılığı VUK md. 323, değersiz alacaklar VUK md. 322.",
+  "tuzaklar": {
+   "B": "Tahsil edilemeyen ticari alacak bir borçlanma maliyeti değildir; 780 Finansman Giderleri kullanılmaz.",
+   "C": "Taraflar ters: alacak kapatılacağı için 128 alacaklanır, karşılık kullanıldığı için 129 borçlanır. Kayıp da cari dönemde kesinleştiği için 681 Önceki Dönem Gider ve Zararları değildir.",
+   "D": "Hesap sınıfı farklı: 659 olağan faaliyetlerin diğer gider ve zararları içindir; değersiz hale gelen alacağın karşılık ayrılmamış kısmı Tekdüzen uygulamasında olağandışı zarar olarak 689’a yazılır.",
+   "E": "Ek karşılık bile ayrılacak olsa kayıt 654 Karşılık Giderleri borç / 129 alacak olurdu; ayrıca alacak tahsil edilemeyeceği kesinleştiği için karşılık ayrılmaz, 128 kapatılır."
+  },
+  "kartlar": [
+   {
+    "on": "Karşılık ayrılmış şüpheli alacak değersiz hale gelirse kayıt?",
+    "arka": "129 Şüpheli Ticari Alacaklar Karşılığı (karşılık tutarı) + 689 Diğer Olağandışı Gider ve Zararlar (karşılıksız kısım) borç / 128 Şüpheli Ticari Alacaklar (tamamı) alacak."
+   },
+   {
+    "on": "Şüpheli alacağa karşılık ayrılırken kayıt?",
+    "arka": "654 Karşılık Giderleri (borç) / 129 Şüpheli Ticari Alacaklar Karşılığı (alacak)."
+   }
+  ],
+  "konuBaglantisi": "Alacaklar ve senetler"
+ },
+ {
+  "id": "2026-1-FM-08",
+  "sonuc": "D",
+  "ozet": "Ay sonunda 191 İndirilecek KDV ile 391 Hesaplanan KDV mahsup edilir; tahsil edilen (hesaplanan) KDV ödenenden (indirilecek) fazlaysa fark devlete ödenecek vergidir ve 360 Ödenecek Vergi ve Fonlar hesabına alacak yazılır.",
+  "adimlar": [
+   "<p><strong>1. Hesaplar.</strong> Alışlarda ödenen KDV 191 İndirilecek KDV (borç), satışlarda tahsil edilen KDV 391 Hesaplanan KDV (alacak) hesabında toplanır.</p>",
+   "<p><strong>2. Ay sonu mahsubu.</strong> 391 borçlandırılarak, 191 alacaklandırılarak kapatılır. Hesaplanan KDV indirilecek KDV’den büyükse aradaki fark vergi dairesine ödenecek borçtur ve <strong>360 Ödenecek Vergi ve Fonlar</strong> hesabına alacak yazılır.</p>",
+   "<p><strong>3. Kayıt (genel biçim).</strong></p><table class=\"yevmiye\"><tr><td>391 HESAPLANAN KDV</td><td class=\"n\">tahsil edilen</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">191 İNDİRİLECEK KDV</td><td class=\"n\"></td><td class=\"n\">ödenen</td></tr><tr><td class=\"alacak\">360 ÖDENECEK VERGİ VE FONLAR</td><td class=\"n\"></td><td class=\"n\">fark</td></tr></table>",
+   "<p><strong>4. Ters durum.</strong> İndirilecek KDV hesaplanandan büyük olsaydı fark sonraki aya devreden KDV olarak 190 Devreden KDV hesabına borç yazılırdı. Bu soruda ödenen KDV daha az olduğu için cevap <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Tekdüzen Hesap Planı: 191 İndirilecek KDV, 391 Hesaplanan KDV, 360 Ödenecek Vergi ve Fonlar, 190 Devreden KDV; KDV’de indirim mekanizması (hesaplanan KDV − indirilecek KDV = ödenecek KDV).",
+  "tuzaklar": {
+   "A": "391 Hesaplanan KDV mahsup kaydında kapatılan hesaptır (borçlanır); fark bu hesapta kalmaz.",
+   "B": "190 Devreden KDV, indirilecek KDV’nin hesaplanan KDV’den <em>büyük</em> olduğu ters durumda kullanılır.",
+   "C": "191 İndirilecek KDV mahsup kaydında alacaklanarak kapatılır; fark bu hesapta izlenmez.",
+   "E": "193 Peşin Ödenen Vergiler ve Fonlar, peşin ödenip mahsup edilecek vergiler (geçici vergi, tevkif edilen vergiler gibi) içindir; ödenecek KDV borcu değildir."
+  },
+  "kartlar": [
+   {
+    "on": "Hesaplanan KDV > İndirilecek KDV ise ay sonu kaydı?",
+    "arka": "391 Hesaplanan KDV (borç) / 191 İndirilecek KDV (alacak) / 360 Ödenecek Vergi ve Fonlar (fark, alacak)."
+   },
+   {
+    "on": "İndirilecek KDV > Hesaplanan KDV ise fark nereye?",
+    "arka": "190 Devreden KDV (borç); sonraki ay indirim konusu yapılır."
+   }
+  ],
+  "konuBaglantisi": "KDV işlemleri"
+ },
+ {
+  "id": "2026-1-FM-09",
+  "sonuc": "D",
+  "ozet": "80.000 adet × 5 ₺ = 400.000 ₺ tahsil edilir; nominal değer (80.000 ₺) 501 Ödenmemiş Sermaye’yi kapatır, nominalin üstündeki 320.000 ₺ 520 Hisse Senetleri İhraç Primleri’ne alacak yazılır.",
+  "adimlar": [
+   "<p><strong>1. Artırım kararı (önceki kayıt).</strong> Sermaye artırımı kararı muhasebeleştirildiğinde 501 Ödenmemiş Sermaye (−) borç / 500 Sermaye alacak 80.000 ₺ yazılmıştır. 501, ortakların taahhüt edip henüz ödemediği sermayeyi gösterir.</p>",
+   "<p><strong>2. Satış tutarı.</strong> Hisse adedi: 80.000 / 1 = 80.000 adet. Tahsilat: 80.000 × 5 = <strong>400.000 ₺</strong> (102 Bankalar borç).</p>",
+   "<p><strong>3. Dağılım.</strong> Nominal değer kadar kısım (80.000 ₺) ödenmemiş sermayeyi kapatır: 501 alacak. Nominalin üstünde alınan 400.000 − 80.000 = <strong>320.000 ₺</strong> hisse senedi ihraç primidir; gelir değil, ortaklardan gelen sermaye niteliğinde özkaynaktır: 520 Hisse Senetleri İhraç Primleri alacak.</p>",
+   "<p><strong>4. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>102 BANKALAR</td><td class=\"n\">400.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">501 ÖDENMEMİŞ SERMAYE</td><td class=\"n\"></td><td class=\"n\">80.000</td></tr><tr><td class=\"alacak\">520 HİSSE SENETLERİ İHRAÇ PRİMLERİ</td><td class=\"n\"></td><td class=\"n\">320.000</td></tr></table>",
+   "<p><strong>5. Sonuç.</strong> Cevap <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Tekdüzen Hesap Planı: 500 Sermaye, 501 Ödenmemiş Sermaye (−), 520 Hisse Senetleri İhraç Primleri (52 Sermaye Yedekleri); 110 Hisse Senetleri yalnız başka şirketlerden alınan hisseler içindir.",
+  "tuzaklar": {
+   "A": "İhraç primi gelir değildir; 645 Menkul Kıymet Satış Kârları, işletmenin elindeki menkul kıymetleri kârla sattığında kullanılır.",
+   "B": "İşletme kendi ihraç ettiği hisseleri satmaktadır; 110 Hisse Senetleri başka şirketlerden alınan hisseleri izler. Nominal kısım 501’i kapatmalıdır.",
+   "C": "Hem 110 (yatırım amaçlı alınan hisseler) hem 645 (satış kârı) yanlış: ne nominal kısım ne prim bu hesaplarda izlenir.",
+   "E": "Nominal kısım doğru (501), ancak prim kısmı 110 Hisse Senetleri’ne yazılmış; prim 520 İhraç Primleri’nde izlenir."
+  },
+  "kartlar": [
+   {
+    "on": "Primli hisse ihracında (artırım kararı önceden kaydedilmiş) satış kaydı?",
+    "arka": "102 Bankalar (tahsilat) borç / 501 Ödenmemiş Sermaye (nominal) alacak / 520 Hisse Senetleri İhraç Primleri (nominal üstü) alacak."
+   },
+   {
+    "on": "Hisse senedi ihraç primi gelir midir?",
+    "arka": "Hayır; özkaynaktır (520, sermaye yedekleri). Gelir tablosuna girmez."
+   }
+  ],
+  "konuBaglantisi": "Özkaynaklar"
+ },
+ {
+  "id": "2026-1-FM-10",
+  "sonuc": "E",
+  "ozet": "Ambalaj için alınıp alacağa eklenen depozito bir borçtur (120 / 326); ambalaj hasarsız iade edilince depozito borcu kapatılır ve alacaktan düşülür: 326 Alınan Depozito ve Teminatlar borç, 120 Alıcılar alacak.",
+  "adimlar": [
+   "<p><strong>1. Depozitonun alınması (önceki kayıt).</strong> Dayanıklı ambalaj satılmamış, geri verilmek üzere müşteriye bırakılmıştır. Karşılığında alınan 15.000 ₺ depozito, ambalaj iade edildiğinde geri verilecek bir borçtur. Tutar alacağa eklendiği için kayıt 120 Alıcılar borç / 326 Alınan Depozito ve Teminatlar alacak 15.000 ₺ biçimindeydi.</p>",
+   "<p><strong>2. Ambalajın iadesi.</strong> Ambalaj hasarsız geri gelince işletmenin depozitoyu iade borcu doğar ve bu borç müşteriden olan alacaktan düşülerek ödenir: 326 borçlanarak kapanır, 120 Alıcılar alacaklanarak azalır.</p>",
+   "<p><strong>3. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>326 ALINAN DEPOZİTO VE TEMİNATLAR</td><td class=\"n\">15.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">120 ALICILAR</td><td class=\"n\"></td><td class=\"n\">15.000</td></tr></table>",
+   "<p><strong>4. Sonuç.</strong> Ambalaj işletmenin stoklarından hiç çıkmadığı ve satılmadığı için satış iadesi ya da stok kaydı yoktur. Cevap <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Tekdüzen Hesap Planı: 326 Alınan Depozito ve Teminatlar (geri verilmek üzere alınan depozito ve teminatlar), 120 Alıcılar.",
+  "tuzaklar": {
+   "A": "Ambalaj satılmadığı için satış iadesi (610) yoktur; ambalaj stoktan da çıkmadığı için 157 hareket görmez.",
+   "B": "Depozito satış hasılatı olarak kaydedilmemişti; iade edilen şey satılan mal değil depozito borcudur, 610 kullanılmaz.",
+   "C": "Bu, depozito <em>alındığında</em> yapılan kayıttır; iadede taraflar tersine döner.",
+   "D": "Ortada fiyat indirimi yoktur; depozito iadesi 611 Satış İskontoları ile ilgisizdir."
+  },
+  "kartlar": [
+   {
+    "on": "Ambalaj için alınan ve alacağa eklenen depozito kaydı?",
+    "arka": "Alınırken: 120 Alıcılar (borç) / 326 Alınan Depozito ve Teminatlar (alacak). Ambalaj iade edilince: 326 (borç) / 120 (alacak)."
+   }
+  ],
+  "konuBaglantisi": "Yabancı kaynaklar"
+ },
+ {
+  "id": "2026-1-FM-11",
+  "sonuc": "C",
+  "ozet": "Vadesi gelecek dönemde dolacak mevduatın bilanço gününe kadar işleyen faizi tahsil edilmemiş bir gelirdir: 181 Gelir Tahakkukları borç, 642 Faiz Gelirleri alacak.",
+  "adimlar": [
+   "<p><strong>1. Dönemsellik.</strong> Faiz, mevduatın açıldığı günden bilanço gününe kadar bu dönemde kazanılmıştır; ancak vade 14 gün sonra dolacağı için henüz hesaba geçmemiş ve tahsil edilmemiştir. Dönemsellik kavramı gereği gelir bu döneme yazılır.</p>",
+   "<p><strong>2. Hesaplar.</strong> Bu dönem kazanılıp gelecek dönemde tahsil edilecek gelir, bilançoda <strong>181 Gelir Tahakkukları</strong> (dönen varlık) hesabında alacak olarak gösterilir; karşılığında 642 Faiz Gelirleri alacaklanır.</p>",
+   "<p><strong>3. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>181 GELİR TAHAKKUKLARI</td><td class=\"n\">işleyen faiz</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">642 FAİZ GELİRLERİ</td><td class=\"n\"></td><td class=\"n\">işleyen faiz</td></tr></table>",
+   "<p><strong>4. Sonuç.</strong> Borçlandırılacak hesap Gelir Tahakkukları’dır: <strong>C</strong>. Vade dolduğunda 102 Bankalar borç / 181 Gelir Tahakkukları (ve yeni dönemin faizi için 642) alacak yazılır.</p>"
+  ],
+  "dayanak": "Dönemsellik kavramı; Tekdüzen Hesap Planı: 181 Gelir Tahakkukları (dönemde kazanılıp sonraki dönemde tahsil edilecek gelirler), 642 Faiz Gelirleri, 380 Gelecek Aylara Ait Gelirler.",
+  "tuzaklar": {
+   "A": "Vade dolmadığı için faiz henüz hesaba geçmemiştir; Bankalar hesabı bu kayıtta hareket görmez.",
+   "B": "İşletme faiz ödemiyor, faiz kazanıyor; finansman gideri söz konusu değildir.",
+   "D": "Faiz Gelirleri bu kayıtta borçlanmaz, alacaklanır (gelir artışı).",
+   "E": "380 Gelecek Aylara Ait Gelirler, peşin tahsil edilip gelecek dönemi ilgilendiren gelirler içindir; burada durum tersidir (kazanılmış ama tahsil edilmemiş)."
+  },
+  "kartlar": [
+   {
+    "on": "Dönem içinde kazanılan ama gelecek dönemde tahsil edilecek faiz kaydı?",
+    "arka": "181 Gelir Tahakkukları (borç) / 642 Faiz Gelirleri (alacak)."
+   },
+   {
+    "on": "181 Gelir Tahakkukları ile 380 Gelecek Aylara Ait Gelirler farkı?",
+    "arka": "181: kazanıldı, henüz tahsil edilmedi (varlık). 380: tahsil edildi, henüz kazanılmadı (borç)."
+   }
+  ],
+  "konuBaglantisi": "Dönem sonu işlemleri"
+ },
+ {
+  "id": "2026-1-FM-12",
+  "sonuc": "C",
+  "ozet": "İlk giren ilk çıkar yönteminde her satış en eski partiden karşılanır: 6.000 + 14.000 + 22.000 = 42.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Yöntem.</strong> İlk Giren İlk Çıkar (FIFO) yönteminde satılan mallar, stokta bulunan en eski partinin birim maliyetinden başlayarak maliyetlenir; bir parti bitince sıradaki partiye geçilir.</p>",
+   "<p><strong>2. 5 Mart satışı (300 br).</strong> Dönem başı stoktan: 300 × 20 = 6.000 ₺. Kalan: 200 br × 20 ₺.</p>",
+   "<p><strong>3. 15 Mart satışı (600 br).</strong> 10 Mart alışından sonra stok: 200 × 20 ve 800 × 25. Önce 200 × 20 = 4.000, sonra 400 × 25 = 10.000 → 14.000 ₺. Kalan: 400 br × 25 ₺.</p>",
+   "<p><strong>4. 25 Mart satışı (800 br).</strong> 20 Mart alışından sonra stok: 400 × 25 ve 1.000 × 30. Önce 400 × 25 = 10.000, sonra 400 × 30 = 12.000 → 22.000 ₺. Kalan: 600 br × 30 ₺ = 18.000 ₺.</p>",
+   "<p><strong>5. Toplam.</strong></p><table class=\"veri\"><tr><th>Satış</th><th class=\"n\">Çıkan partiler</th><th class=\"n\">Maliyet</th></tr><tr><td>5 Mart (300 br)</td><td class=\"n\">300 × 20</td><td class=\"n\">6.000 ₺</td></tr><tr><td>15 Mart (600 br)</td><td class=\"n\">200 × 20 + 400 × 25</td><td class=\"n\">14.000 ₺</td></tr><tr><td>25 Mart (800 br)</td><td class=\"n\">400 × 25 + 400 × 30</td><td class=\"n\">22.000 ₺</td></tr><tr><td><strong>Toplam (1.700 br)</strong></td><td class=\"n\"></td><td class=\"n\"><strong>42.000 ₺</strong></td></tr></table>",
+   "<p><strong>6. Sağlama.</strong> Satışa hazır mallar 10.000 + 20.000 + 30.000 = 60.000 ₺; dönem sonu stok 600 × 30 = 18.000 ₺; satılan malların maliyeti 60.000 − 18.000 = <strong>42.000 ₺</strong>. Cevap <strong>C</strong>.</p>"
+  ],
+  "dayanak": "Stok maliyetinin belirlenmesi: İlk Giren İlk Çıkar (FIFO) yöntemi; SMM = dönem başı stok + alışlar − dönem sonu stok.",
+  "tuzaklar": {
+   "A": "18.000 ₺ dönem sonu stokunun (600 × 30) maliyetidir, satılan malların maliyeti değil.",
+   "B": "34.000 = 1.700 × 20; satılan 1.700 birimin tamamı en eski birim maliyetle değerlenmiş, sonraki partilerin maliyetleri dikkate alınmamıştır.",
+   "D": "42.500 = 1.700 × 25; 25 ₺, üç birim maliyetin (20, 25, 30) basit ortalamasıdır. Bu ne FIFO ne de miktarla ağırlıklandırılmış ortalamadır.",
+   "E": "60.000 ₺ satışa hazır malların toplam maliyetidir; dönem sonu stok düşülmemiştir."
+  },
+  "kartlar": [
+   {
+    "on": "FIFO’da satılan malların maliyeti nasıl bulunur?",
+    "arka": "Her satış, stoktaki en eski partinin birim maliyetinden başlanarak karşılanır; dönem sonu stok en son alınan partilerden oluşur."
+   },
+   {
+    "on": "SMM sağlama formülü?",
+    "arka": "Satılan malların maliyeti = Dönem başı stok + Dönem içi alışlar − Dönem sonu stok."
+   }
+  ],
+  "konuBaglantisi": "Stoklar"
+ },
+ {
+  "id": "2026-1-FM-13",
+  "sonuc": "E",
+  "ozet": "İleri tarihli çek, ekonomik özü itibarıyla vadeli bir senettir; özün önceliği kavramı gereği bilanço gününde 101 Alınan Çekler’den çıkarılıp 121 Alacak Senetleri hesabının borcuna aktarılır.",
+  "adimlar": [
+   "<p><strong>1. Çekin niteliği.</strong> Çek normalde görüldüğünde ödenen bir ödeme aracıdır ve 101 Alınan Çekler hesabında (hazır değer) izlenir. İleri tarihli çek ise ancak üzerindeki tarih geldiğinde tahsil edilebilir; işlevi vadeli bir senede eşittir.</p>",
+   "<p><strong>2. İlgili kavram.</strong> Özün önceliği kavramı: işlemler biçimlerine göre değil, özlerine göre muhasebeleştirilir. Biçimi çek ama özü vadeli alacak olan belge, bilançoda hazır değer gibi değil alacak senedi gibi gösterilmelidir.</p>",
+   "<p><strong>3. Kayıt.</strong> Bilanço gününde vadesi gelmemiş çek tutarı Alınan Çekler’den Alacak Senetleri’ne aktarılır:</p>",
+   "<table class=\"yevmiye\"><tr><td>121 ALACAK SENETLERİ</td><td class=\"n\">çek tutarı</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">101 ALINAN ÇEKLER</td><td class=\"n\"></td><td class=\"n\">çek tutarı</td></tr></table>",
+   "<p><strong>4. Sonuç.</strong> Çek tutarı Alacak Senetleri hesabının borç tarafına kaydedilir: <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Muhasebenin temel kavramlarından özün önceliği kavramı; Tekdüzen Hesap Planı: 101 Alınan Çekler, 121 Alacak Senetleri.",
+  "tuzaklar": {
+   "A": "103 Verilen Çekler ve Ödeme Emirleri işletmenin <em>kendi düzenleyip verdiği</em> çekler içindir; müşteriden alınan çek bu hesaba girmez.",
+   "B": "Aynı nedenle yanlış: işletme çek vermemiş, çek almıştır; 103 kullanılmaz.",
+   "C": "Taraf ters: çek tutarı Alacak Senetleri’ne aktarıldığı için bu hesap borçlanır; alacaklanan hesap 101 Alınan Çekler’dir.",
+   "D": "Satış bedeli çekle karşılandığı için müşteri hesabı kapanmıştır; çeki yeniden Alıcılar’a almak gerekmez, doğru sınıflandırma alacak senedidir."
+  },
+  "kartlar": [
+   {
+    "on": "İleri tarihli alınan çek bilanço gününde nasıl gösterilir?",
+    "arka": "Özün önceliği gereği alacak senedi olarak: 121 Alacak Senetleri (borç) / 101 Alınan Çekler (alacak)."
+   },
+   {
+    "on": "Özün önceliği kavramı nedir?",
+    "arka": "İşlemlerin muhasebeleştirilmesinde ve raporlanmasında biçimden çok ekonomik özün esas alınmasıdır."
+   }
+  ],
+  "konuBaglantisi": "Alacaklar ve senetler"
+ },
+ {
+  "id": "2026-1-FM-14",
+  "sonuc": "A",
+  "ozet": "Kasa sayımında çıkan 1.000 ₺ açığın nedeni (kaydedilmemiş satıcı ödemesi) bilindiği için doğrudan düzeltme yapılır: 320 Satıcılar 1.000 ₺ borç, 100 Kasa 1.000 ₺ alacak.",
+  "adimlar": [
+   "<p><strong>1. Fark.</strong> Kasa hesabının borç kalanı 13.000 ₺, sayılan tutar 12.000 ₺: kasada 13.000 − 12.000 = <strong>1.000 ₺</strong> eksik var.</p>",
+   "<p><strong>2. Nedeni belli mi?</strong> Evet: satıcılara yapılan bir ödeme kaydedilmemiş. Nedeni bilinen kasa açığında geçici bir hesap kullanılmaz; unutulan işlemin kaydı yapılır. Nedeni bilinmeyen açık olsaydı 197 Sayım ve Tesellüm Noksanları kullanılırdı.</p>",
+   "<p><strong>3. Unutulan kayıt.</strong> Satıcıya ödeme borcu azaltır (320 Satıcılar borç) ve kasadan para çıkışıdır (100 Kasa alacak).</p>",
+   "<table class=\"yevmiye\"><tr><td>320 SATICILAR</td><td class=\"n\">1.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">100 KASA</td><td class=\"n\"></td><td class=\"n\">1.000</td></tr></table>",
+   "<p><strong>4. Sonuç.</strong> Kayıttan sonra Kasa hesabı 12.000 ₺ kalan verir ve sayımla uyuşur. Cevap <strong>A</strong>.</p>"
+  ],
+  "dayanak": "Tekdüzen Hesap Planı: 100 Kasa, 320 Satıcılar; 197 Sayım ve Tesellüm Noksanları yalnız nedeni henüz belirlenemeyen eksiklikler için kullanılır.",
+  "tuzaklar": {
+   "B": "Kasada para eksik çıktığı için Kasa hesabı azaltılmalıdır, yani alacaklanır; borç kaydı kasayı artırır.",
+   "C": "397 Sayım ve Tesellüm Fazlaları kasa fazlası için kullanılır (alacak tarafına); burada açık vardır.",
+   "D": "197 Sayım ve Tesellüm Noksanları neden bilinmediğinde kullanılır; üstelik açık bu hesabın borcuna yazılır, alacağına değil.",
+   "E": "Nedeni bilinmeyen açık için doğru olacak kayıttır (197 borç / 100 alacak); burada neden bilindiği için doğrudan 320 Satıcılar borçlanır."
+  },
+  "kartlar": [
+   {
+    "on": "Nedeni bilinen kasa açığı nasıl kaydedilir?",
+    "arka": "Geçici hesap kullanılmaz; unutulan işlem kaydedilir (örn. satıcıya ödeme: 320 Satıcılar borç / 100 Kasa alacak)."
+   },
+   {
+    "on": "Nedeni bilinmeyen kasa açığı?",
+    "arka": "197 Sayım ve Tesellüm Noksanları (borç) / 100 Kasa (alacak); neden anlaşılınca 197 ilgili hesaba kapatılır."
+   }
+  ],
+  "konuBaglantisi": "Hazır değerler"
+ },
+ {
+  "id": "2026-1-FM-15",
+  "sonuc": "E",
+  "ozet": "Satın alınan hisse senetleri nominal değerle değil ödenen bedelle (maliyet) kaydedilir: 2.000 × 5 = 10.000 ₺; 110 Hisse Senetleri borç, 102 Bankalar alacak.",
+  "adimlar": [
+   "<p><strong>1. Değerleme ölçüsü.</strong> Menkul kıymetler alındıklarında maliyet bedeliyle (ödenen tutar) kaydedilir. Nominal değer (3 ₺) yalnız ihraç eden şirketin sermayesiyle ilgilidir; alıcının kayıtlarında kullanılmaz.</p>",
+   "<p><strong>2. Tutar.</strong> 2.000 adet × 5 ₺ = <strong>10.000 ₺</strong>.</p>",
+   "<p><strong>3. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>110 HİSSE SENETLERİ</td><td class=\"n\">10.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">102 BANKALAR</td><td class=\"n\"></td><td class=\"n\">10.000</td></tr></table>",
+   "<p><strong>4. Sonuç.</strong> Hisse Senetleri hesabına 10.000 ₺ borç kaydı yapılır: <strong>E</strong>.</p>"
+  ],
+  "dayanak": "VUK değerleme ölçüsü olarak maliyet bedeli (alış bedeli); Tekdüzen Hesap Planı: 110 Hisse Senetleri.",
+  "tuzaklar": {
+   "A": "308 Menkul Kıymet İhraç Farkları, menkul kıymeti <em>ihraç eden</em> işletmenin hesabıdır; 4.000 = 2.000 × (5 − 3) fark alıcı için kayda girmez.",
+   "B": "6.000 = 2.000 × 3 nominal toplamdır; hisseler ödenen bedelle (10.000) kaydedilir.",
+   "C": "Bankadan çıkan tutar ödenen bedeldir: 10.000 ₺; 6.000 nominal toplamdır.",
+   "D": "Sermaye hesabı hisseyi ihraç eden şirkette kullanılır; hisse alan işletmenin sermayesi değişmez."
+  },
+  "kartlar": [
+   {
+    "on": "Başka şirketin hisse senedi satın alınınca hangi değerle kaydedilir?",
+    "arka": "Maliyet (ödenen bedel) ile; nominal değer önemsizdir: 110 Hisse Senetleri (borç) / 102 Bankalar (alacak)."
+   }
+  ],
+  "konuBaglantisi": "Menkul kıymetler"
+ },
+ {
+  "id": "2026-1-FM-16",
+  "sonuc": "C",
+  "ozet": "Sürekli envanterde sayımda bulunan 2.000 ₺’lik eksiklik normal fireden kaynaklandığı için satılan malın maliyetine eklenir: 621 Satılan Ticari Mallar Maliyeti borç, 153 Ticari Mallar alacak.",
+  "adimlar": [
+   "<p><strong>1. Fark.</strong> Kayıtlı stok 38.000 ₺, sayılan stok 36.000 ₺: <strong>2.000 ₺</strong> eksik.</p>",
+   "<p><strong>2. Nedeni.</strong> Fark normal firedir. Normal fire, malın niteliği gereği kaçınılmaz olan kayıptır ve ticari mal maliyetinin bir parçası sayılır. Sürekli envanter yönteminde mal çıkışları 621 Satılan Ticari Mallar Maliyeti’ne yazıldığı için normal fire de bu hesaba borç yazılır. (Neden bilinmeseydi önce 197 Sayım ve Tesellüm Noksanları kullanılırdı.)</p>",
+   "<p><strong>3. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>621 SATILAN TİCARİ MALLAR MALİYETİ</td><td class=\"n\">2.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">153 TİCARİ MALLAR</td><td class=\"n\"></td><td class=\"n\">2.000</td></tr></table>",
+   "<p><strong>4. Sonuç.</strong> Ticari Mallar hesabı 36.000 ₺ kalan verir ve sayımla uyuşur. Cevap <strong>C</strong>.</p>"
+  ],
+  "dayanak": "Sürekli (aralıksız) envanter yöntemi; Tekdüzen Hesap Planı: 153 Ticari Mallar, 621 Satılan Ticari Mallar Maliyeti; normal fire maliyete, olağan dışı kayıplar 689’a.",
+  "tuzaklar": {
+   "A": "Stok eksik çıktığı için Ticari Mallar hesabı azaltılmalı, yani alacaklanmalıdır.",
+   "B": "Taraf ters: normal fire maliyeti artırır, 621 borçlanır.",
+   "D": "689 Diğer Olağandışı Gider ve Zararlar, olağan dışı (normal olmayan) kayıplar içindir; normal fire maliyetin parçasıdır.",
+   "E": "Neden belli olduğu için 197 kullanılmaz; ayrıca bu hesap eksiklik tespitinde alacağa değil borca çalışır."
+  },
+  "kartlar": [
+   {
+    "on": "Sürekli envanterde normal fire kaydı?",
+    "arka": "621 Satılan Ticari Mallar Maliyeti (borç) / 153 Ticari Mallar (alacak)."
+   },
+   {
+    "on": "Normal fire ile olağan dışı kayıp ayrımı?",
+    "arka": "Normal fire kaçınılmazdır, maliyete (621) girer; olağan dışı kayıp 689 Diğer Olağandışı Gider ve Zararlar’a yazılır."
+   }
+  ],
+  "konuBaglantisi": "Stoklar"
+ },
+ {
+  "id": "2026-1-FM-17",
+  "sonuc": "B",
+  "ozet": "80.000 ₺’lik peşin kiranın 60.000 ₺’si bu döneme aittir ve 760’a gider yazılır; izleyen döneme ait 20.000 ₺ 180 Gelecek Aylara Ait Giderler’de kalır.",
+  "adimlar": [
+   "<p><strong>1. Dönemsellik.</strong> 180 Gelecek Aylara Ait Giderler, peşin ödenmiş ama henüz giderleşmemiş tutarları izler. Dönem sonunda bu döneme ait kısım gider hesabına aktarılır, izleyen döneme ait kısım hesapta kalır.</p>",
+   "<p><strong>2. Ayırım.</strong> İzleyen döneme ait: 20.000 ₺ (hesapta kalır). Bu döneme ait: 80.000 − 20.000 = <strong>60.000 ₺</strong>. Kira satış mağazasına ait olduğu için gider 760 Pazarlama, Satış ve Dağıtım Giderleri’dir.</p>",
+   "<p><strong>3. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>760 PAZARLAMA, SATIŞ VE DAĞITIM GİDERLERİ</td><td class=\"n\">60.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">180 GELECEK AYLARA AİT GİDERLER</td><td class=\"n\"></td><td class=\"n\">60.000</td></tr></table>",
+   "<p><strong>4. Sonuç.</strong> Kayıttan sonra 180 hesabı 80.000 − 60.000 = 20.000 ₺ kalan verir. Cevap <strong>B</strong>.</p>"
+  ],
+  "dayanak": "Dönemsellik kavramı; Tekdüzen Hesap Planı: 180 Gelecek Aylara Ait Giderler (gelecek 12 aya ait peşin ödenmiş giderler), 280 Gelecek Yıllara Ait Giderler (12 aydan sonrası), 760 Pazarlama, Satış ve Dağıtım Giderleri.",
+  "tuzaklar": {
+   "A": "Satış mağazası kirası pazarlama gideridir (760), genel yönetim gideri değil; giderleşecek tutar da 20.000 değil 60.000 ₺’dir.",
+   "C": "Tamamı gider yazılmış: izleyen döneme ait 20.000 ₺ bu dönemin gideri olamaz; bu dönemin kira gideri 60.000 ₺’dir.",
+   "D": "İzleyen döneme ait kısım 12 ay içinde giderleşecek olduğundan 280 değil 180’de kalır; tutar da 60.000 değil 20.000 ₺’dir.",
+   "E": "Tutarlar ters: 60.000 ₺ bu dönemin gideridir; hesapta kalması gereken izleyen döneme ait 20.000 ₺’dir."
+  },
+  "kartlar": [
+   {
+    "on": "Peşin ödenmiş giderin dönem sonu ayırımı?",
+    "arka": "Bu döneme ait kısım: gider hesabı (borç) / 180 Gelecek Aylara Ait Giderler (alacak). İzleyen döneme ait kısım 180’de kalır."
+   },
+   {
+    "on": "180 ile 280 farkı?",
+    "arka": "180: gelecek 12 ay içinde giderleşecek peşin ödemeler (dönen varlık). 280: 12 aydan sonraki dönemlere ait olanlar (duran varlık)."
+   }
+  ],
+  "konuBaglantisi": "Dönem sonu işlemleri"
+ },
+ {
+  "id": "2026-1-FM-18",
+  "sonuc": "D",
+  "ozet": "Taşıtlar 25.000 → 50.000 (+25.000 borç), birikmiş amortisman 20.000 → 30.000 (+10.000 alacak); net defter değeri artışı 15.000 ₺ 522 M.D.V. Yeniden Değerleme Artışları hesabına alacak yazılır.",
+  "adimlar": [
+   "<p><strong>1. Model.</strong> TMS 16’ya göre yeniden değerleme modelinde varlık, yeniden değerlenmiş tutarından birikmiş amortisman düşülerek izlenir. Defter değerindeki artış (daha önce kâr veya zarara yazılmış bir azalışın iptali değilse) diğer kapsamlı gelire alınır ve özkaynakta yeniden değerleme artışı olarak birikir.</p>",
+   "<p><strong>2. Hesapların değişimi.</strong> Taşıtlar: 50.000 − 25.000 = <strong>25.000 ₺</strong> artış → 254 Taşıtlar borç. Birikmiş Amortismanlar: 30.000 − 20.000 = <strong>10.000 ₺</strong> artış → 257 alacak.</p>",
+   "<p><strong>3. Net artış.</strong> Defter değeri önce 25.000 − 20.000 = 5.000 ₺, sonra 50.000 − 30.000 = 20.000 ₺; artış 20.000 − 5.000 = <strong>15.000 ₺</strong> (= 25.000 − 10.000).</p>",
+   "<p><strong>4. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>254 TAŞITLAR</td><td class=\"n\">25.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">257 BİRİKMİŞ AMORTİSMANLAR</td><td class=\"n\"></td><td class=\"n\">10.000</td></tr><tr><td class=\"alacak\">522 M.D.V. YENİDEN DEĞERLEME ARTIŞLARI</td><td class=\"n\"></td><td class=\"n\">15.000</td></tr></table>",
+   "<p><strong>5. Sonuç.</strong> Maddi Duran Varlıklar Yeniden Değerleme Artışları hesabına 15.000 ₺ alacak kaydı yapılır: <strong>D</strong>.</p>"
+  ],
+  "dayanak": "TMS 16 Maddi Duran Varlıklar, yeniden değerleme modeli (değer artışı diğer kapsamlı gelir yoluyla özkaynakta birikir); Tekdüzen Hesap Planı: 254 Taşıtlar, 257 Birikmiş Amortismanlar, 522 M.D.V. Yeniden Değerleme Artışları.",
+  "tuzaklar": {
+   "A": "Taşıtlar hesabına yapılacak borç kaydı 50.000 − 25.000 = 25.000 ₺’dir; 20.000 ₺ doğru yöntemle bulunamaz.",
+   "B": "50.000 ₺ yeniden değerlenmiş toplam tutardır; kayda yalnız artış (25.000) girer.",
+   "C": "30.000 ₺ birikmiş amortismanın yeni toplamıdır; kayda yalnız artış (10.000) girer.",
+   "E": "20.000 ₺ birikmiş amortismanın mevcut kayıtlı tutarıdır; kayda giren artış 10.000 ₺’dir."
+  },
+  "kartlar": [
+   {
+    "on": "Yeniden değerlemede brüt tutar ve birikmiş amortisman birlikte artırılırsa kayıt?",
+    "arka": "Varlık hesabı (brüt artış) borç / 257 Birikmiş Amortismanlar (amortisman artışı) alacak / 522 M.D.V. Yeniden Değerleme Artışları (net artış) alacak."
+   },
+   {
+    "on": "TMS 16’ya göre yeniden değerleme artışı nereye yazılır?",
+    "arka": "Diğer kapsamlı gelire; özkaynakta yeniden değerleme artışı olarak birikir (önceki bir azalışın iptali kadar kısmı kâr veya zarara)."
+   }
+  ],
+  "konuBaglantisi": "Maddi duran varlıklar"
+ },
+ {
+  "id": "2026-1-FM-19",
+  "sonuc": "B",
+  "ozet": "Net gerçekleştirilebilir değer 35.000 − 6.000 = 29.000 ₺, maliyetin (30.000 ₺) altında; TMS 2’ye göre stok 29.000 ₺’ye indirilir ve 1.000 ₺ değer düşüklüğü karşılığı ayrılır.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> TMS 2’ye göre stoklar, maliyet ile net gerçekleştirilebilir değerden (NGD) düşük olanıyla ölçülür. NGD = tahmini satış fiyatı − tahmini tamamlama maliyetleri − satışı gerçekleştirmek için gereken tahmini maliyetler.</p>",
+   "<p><strong>2. NGD.</strong> 35.000 − 6.000 = <strong>29.000 ₺</strong>.</p>",
+   "<p><strong>3. Karşılaştırma.</strong> Maliyet 30.000 ₺ > NGD 29.000 ₺ → değer düşüklüğü 30.000 − 29.000 = <strong>1.000 ₺</strong>.</p>",
+   "<p><strong>4. Kayıt.</strong></p><table class=\"yevmiye\"><tr><td>654 KARŞILIK GİDERLERİ</td><td class=\"n\">1.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">158 STOK DEĞER DÜŞÜKLÜĞÜ KARŞILIĞI</td><td class=\"n\"></td><td class=\"n\">1.000</td></tr></table>",
+   "<p><strong>5. Sonuç.</strong> Değer düşüklüğü vardır ve karşılık ayrılmalıdır: <strong>B</strong>.</p>"
+  ],
+  "dayanak": "TMS 2 Stoklar: stoklar maliyet ile net gerçekleştirilebilir değerden düşük olanıyla ölçülür; Tekdüzen Hesap Planı: 158 Stok Değer Düşüklüğü Karşılığı (−), 654 Karşılık Giderleri.",
+  "tuzaklar": {
+   "A": "Satış fiyatı (35.000) maliyetle karşılaştırılmış, satış giderleri düşülmemiş. Karşılaştırma NGD (29.000) ile yapılır.",
+   "C": "Tutar doğru, ancak TMS 2 değer düşüklüğünün o dönemde gider yazılmasını gerektirir; karşılık (158) ayrılır.",
+   "D": "5.000 = 35.000 − 30.000, satış fiyatı ile maliyet arasındaki farktır (beklenen brüt kâr), değer düşüklüğü değildir.",
+   "E": "11.000 ₺ doğru yöntemle bulunamaz; değer düşüklüğü maliyet − NGD = 1.000 ₺’dir."
+  },
+  "kartlar": [
+   {
+    "on": "Net gerçekleştirilebilir değer (TMS 2) formülü?",
+    "arka": "Tahmini satış fiyatı − tahmini tamamlama maliyetleri − tahmini satış maliyetleri."
+   },
+   {
+    "on": "Stok değer düşüklüğü kaydı?",
+    "arka": "Maliyet > NGD ise fark: 654 Karşılık Giderleri (borç) / 158 Stok Değer Düşüklüğü Karşılığı (alacak)."
+   }
+  ],
+  "konuBaglantisi": "Stoklar"
+ },
+ {
+  "id": "2026-1-FM-20",
+  "sonuc": "A",
+  "ozet": "Maddi olmayan duran varlıklar standardına (TMS 38) göre araştırma giderleri oluştuğunda gider yazılır; geliştirme giderleri ise standarttaki koşullar sağlandığında aktifleştirilir.",
+  "adimlar": [
+   "<p><strong>1. Standart.</strong> Konu TMS 38 Maddi Olmayan Duran Varlıklar’da düzenlenir. Kitapçıktaki “TMS 36” bir baskı hatasıdır: TMS 36 Varlıklarda Değer Düşüklüğü standardıdır; “Maddi Olmayan Duran Varlıklar” adı TMS 38’e aittir.</p>",
+   "<p><strong>2. Araştırma aşaması.</strong> Araştırmadan (ya da iç projenin araştırma aşamasından) doğan maddi olmayan duran varlık muhasebeleştirilmez; araştırma harcamaları oluştukları anda gider yazılır (TMS 38, paragraf 54).</p>",
+   "<p><strong>3. Geliştirme aşaması.</strong> Geliştirme harcamaları, işletme teknik uygulanabilirlik, tamamlama niyeti, kullanma ya da satma kabiliyeti, gelecekte ekonomik fayda sağlama biçimi, yeterli kaynak ve harcamanın güvenilir ölçümü koşullarını gösterebildiğinde maddi olmayan duran varlık olarak aktifleştirilir (TMS 38, paragraf 57). Tekdüzen Hesap Planı’nda aktifleştirilen tutar 263 Araştırma ve Geliştirme Giderleri hesabında izlenir.</p>",
+   "<p><strong>4. Sonuç.</strong> Şıklar içinde doğru olan “Geliştirme giderleri aktifleştirilir.” ifadesidir: <strong>A</strong>. Aktifleştirmenin koşula bağlı olduğu unutulmamalıdır; koşullar sağlanmazsa geliştirme harcaması da gider yazılır.</p>"
+  ],
+  "dayanak": "TMS 38 Maddi Olmayan Duran Varlıklar, paragraf 54 (araştırma harcamaları gider) ve paragraf 57 (geliştirme harcamalarının aktifleştirilme koşulları). Kitapçıktaki “TMS 36” atfı baskı hatasıdır.",
+  "tuzaklar": {
+   "B": "Araştırma harcamaları hiçbir koşulda aktifleştirilmez; oluştukları anda gider yazılır.",
+   "C": "Araştırma giderleri yalnız kâr veya zarar tablosunda gider olarak yer alır; aktifleştirilen geliştirme maliyeti finansal durum tablosunda maddi olmayan duran varlık, itfası ise gider olarak görünür. “Aynı isimle her iki tabloda” raporlama yoktur.",
+   "D": "Koşulları sağlayan geliştirme harcamaları aktifleştirildiği için finansal durum tablosunda da yer alır.",
+   "E": "Tersi doğrudur: araştırma giderleri kâr veya zararda, koşulları sağlayan geliştirme giderleri finansal durum tablosunda raporlanır."
+  },
+  "kartlar": [
+   {
+    "on": "TMS 38’e göre araştırma ve geliştirme harcamaları?",
+    "arka": "Araştırma: her zaman gider. Geliştirme: TMS 38 paragraf 57’deki koşullar sağlanırsa aktifleştirilir (maddi olmayan duran varlık), sağlanmazsa gider."
+   },
+   {
+    "on": "TMS 36 ve TMS 38 hangi standartlardır?",
+    "arka": "TMS 36 Varlıklarda Değer Düşüklüğü; TMS 38 Maddi Olmayan Duran Varlıklar."
+   }
+  ],
+  "konuBaglantisi": "Maddi olmayan duran varlıklar"
+ }
+]
