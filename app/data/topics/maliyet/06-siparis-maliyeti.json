@@ -1,0 +1,139 @@
+{
+ "kod": "06-siparis-maliyeti",
+ "sira": 6,
+ "baslik": "Sipariş Maliyet Sistemi",
+ "amac": "Sipariş maliyet kartında DİMM, direkt işçilik ve yüklenen GÜG'ü toplayarak sipariş ve birim maliyetini bulmak; tamamlanan siparişleri 152'ye devretmek, bitmeyenleri dönem sonu yarı mamul olarak göstermek.",
+ "bolumler": [
+  {
+   "baslik": "Sipariş maliyet sistemi ve maliyet kartı",
+   "html": "<p>Sipariş maliyet sistemi, müşterinin isteğine göre birbirinden farklı mamullerin tek tek ya da partiler hâlinde üretildiği işletmelerde kullanılır (matbaa, mobilya, makine imalatı, inşaat, gemi yapımı). Maliyet hesaplama birimi siparişin kendisidir: her siparişe bir numara verilir ve bir <strong>sipariş maliyet kartı</strong> açılır. Kart, siparişin DİMM, direkt işçilik ve yüklenen GÜG tutarlarını üretim süresince toplar; sipariş tamamlanınca kapanır ve maliyet dönem sonunu beklemeden bulunur.</p><p><strong>Sipariş maliyeti = DİMM + Direkt işçilik + Yüklenen GÜG</strong></p><p><strong>Birim maliyet = Sipariş maliyeti ÷ Siparişteki mamul miktarı</strong></p><p>Kartlar 151 ve 152 hesaplarının yardımcı kaydıdır: bitmemiş siparişlerin kartları toplamı 151 Yarı Mamuller – Üretim bakiyesine, tamamlanıp henüz teslim edilmemiş siparişlerinki 152 Mamuller bakiyesine eşittir.</p>"
+  },
+  {
+   "baslik": "Üç unsurun karta yüklenmesi",
+   "html": "<ul><li><strong>DİMM:</strong> ambardan çıkışta malzeme istek (çıkış) fişine sipariş numarası yazılır; tutar doğrudan o siparişin kartına geçer. Belirli siparişe yazılamayan yardımcı malzeme endirekt malzemedir ve GÜG'e (730) gider.</li><li><strong>Direkt işçilik:</strong> işçilik zaman fişi (iş kartı) her işçinin hangi siparişte kaç saat çalıştığını gösterir; saat × ücret ilgili karta yazılır. Siparişe yazılamayan süreler GÜG'dür.</li><li><strong>GÜG:</strong> siparişe doğrudan izlenemez, yükleme oranıyla yüklenir. Fiili GÜG ancak dönem sonunda kesinleştiği için, sipariş bittiğinde maliyetini bulabilmek amacıyla önceden belirlenmiş (bütçe) oran kullanılır.</li></ul><p><strong>GÜG yükleme oranı = Bütçelenmiş GÜG ÷ Bütçelenmiş anahtar (DİS, makine saati, DİMM tutarı)</strong></p><p><strong>Siparişe yüklenen GÜG = Yükleme oranı × Siparişin fiili anahtar miktarı</strong></p><p>Fiili GÜG ile yüklenen GÜG arasındaki eksik ya da fazla yükleme Konu 5'teki gibi kapatılır. Soru dönemin fiili GÜG'ünü siparişlere dağıtmanızı istiyorsa oran, fiili GÜG ÷ siparişlerin toplam anahtar miktarıdır.</p>",
+   "gorsel": {
+    "tip": "flow",
+    "veri": {
+     "w": 600,
+     "h": 280,
+     "dugumler": [
+      {
+       "id": "dimm",
+       "etiket": "DİMM: malzeme istek fişi",
+       "x": 10,
+       "y": 20,
+       "w": 190
+      },
+      {
+       "id": "di",
+       "etiket": "Dİ: işçilik zaman fişi",
+       "x": 10,
+       "y": 118,
+       "w": 190
+      },
+      {
+       "id": "gug",
+       "etiket": "GÜG: oran × anahtar",
+       "x": 10,
+       "y": 216,
+       "w": 190
+      },
+      {
+       "id": "kart",
+       "etiket": "Sipariş maliyet kartı",
+       "x": 235,
+       "y": 118,
+       "w": 150
+      },
+      {
+       "id": "152",
+       "etiket": "Tamamlanan → 152",
+       "x": 420,
+       "y": 20,
+       "w": 170
+      },
+      {
+       "id": "620",
+       "etiket": "Teslim → 620",
+       "x": 420,
+       "y": 118,
+       "w": 170
+      },
+      {
+       "id": "151",
+       "etiket": "Bitmeyen: 151'de kalır",
+       "x": 420,
+       "y": 216,
+       "w": 170
+      }
+     ],
+     "oklar": [
+      {
+       "from": "dimm",
+       "to": "kart"
+      },
+      {
+       "from": "di",
+       "to": "kart"
+      },
+      {
+       "from": "gug",
+       "to": "kart"
+      },
+      {
+       "from": "kart",
+       "to": "152"
+      },
+      {
+       "from": "152",
+       "to": "620"
+      },
+      {
+       "from": "kart",
+       "to": "151"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "baslik": "Tamamlanan ve bitmeyen siparişler",
+   "html": "<p>Tamamlanan siparişin kartındaki toplam maliyet 151'den 152 Mamuller'e devredilir (152 borç, 151 alacak); müşteriye teslim edilince 620 Satılan Mamuller Maliyeti'ne aktarılır (620 borç, 152 alacak). Dönem sonunda bitmemiş siparişlerin maliyeti 151'de <strong>dönem sonu yarı mamul</strong> olarak kalır; sonraki dönemde aynı kart üzerinden işlenmeye devam eder.</p><p><strong>Mamul maliyeti = Dönemde tamamlanan siparişlerin kart toplamları</strong></p><table class=\"veri\"><tr><th>Özellik</th><th class=\"n\">Sipariş maliyeti</th><th class=\"n\">Safha maliyeti</th></tr><tr><td>Üretim</td><td class=\"n\">Müşteri isteğine göre farklı mamuller</td><td class=\"n\">Sürekli, seri, tek tip mamul</td></tr><tr><td>Maliyet birimi</td><td class=\"n\">Sipariş (parti)</td><td class=\"n\">Safha ve dönem</td></tr><tr><td>Maliyet belgesi</td><td class=\"n\">Sipariş maliyet kartı</td><td class=\"n\">Safha maliyet raporu</td></tr><tr><td>Birim maliyet</td><td class=\"n\">Sipariş maliyeti ÷ sipariş miktarı</td><td class=\"n\">Safha maliyeti ÷ eşdeğer birim</td></tr><tr><td>Maliyetin bulunduğu an</td><td class=\"n\">Sipariş tamamlanınca</td><td class=\"n\">Dönem sonunda</td></tr></table>"
+  }
+ ],
+ "sinavYaklasimi": [
+  "2026-2-MAL-12: GÜG, DİMM tutarına göre yükleniyor. Oran 800.000 / (100.000 + 300.000) = 2 ₺ (DİMM'nin her 1 ₺'si için); X'e 300.000 × 2 = 600.000 ₺; X'in maliyeti 300.000 + 400.000 + 600.000 = 1.300.000 ₺ (E). Bu soruda önceden belirlenmiş oran değil, dönemin GÜG'ü siparişlere dağıtılır.",
+  "Şık tuzakları: yalnız yüklenen GÜG (600.000), ilk maliyet (700.000) ya da direkt işçiliği unutan toplam (900.000). Sipariş maliyeti her zaman üç unsurun toplamıdır.",
+  "Anahtar ne verilmişse oran o anahtarın toplamına bölünür: anahtar ₺ ise oran “1 ₺ başına”, saat ise “₺/saat” olur.",
+  "Dönem sonunda bitmemiş sipariş 152'ye geçmez, 151'de yarı mamul olarak kalır; “mamul maliyeti” sorusunda yalnız tamamlanan siparişler toplanır."
+ ],
+ "ornekler": [
+  {
+   "soru": "<p>Bir mobilya atölyesi sipariş maliyet sistemini uygulamakta ve GÜG'ü direkt işçilik saatine (DİS) göre yüklemektedir. Yıllık bütçe: GÜG 720.000 ₺, 24.000 DİS. Direkt işçilik saat ücreti 100 ₺'dir. Mart ayında dönem başı yarı mamul yoktur ve iki sipariş üzerinde çalışılmıştır:</p><table class=\"veri\"><tr><th>Sipariş</th><th class=\"n\">DİMM (₺)</th><th class=\"n\">DİS</th><th class=\"n\">Durum</th></tr><tr><td>A-101 (500 masa)</td><td class=\"n\">150.000</td><td class=\"n\">1.200</td><td class=\"n\">Tamamlandı</td></tr><tr><td>B-102 (200 dolap)</td><td class=\"n\">90.000</td><td class=\"n\">600</td><td class=\"n\">Devam ediyor</td></tr></table><p>Mart ayında gerçekleşen GÜG 57.000 ₺'dir.</p><p><strong>Sipariş maliyet kartlarını düzenleyiniz; A-101'in birim maliyetini, dönemin mamul maliyetini, dönem sonu yarı mamulü ve GÜG yükleme farkını bulunuz.</strong></p>",
+   "cozum": [
+    "<p><strong>1. Yükleme oranı.</strong> 720.000 / 24.000 = <strong>30 ₺/DİS</strong>.</p>",
+    "<p><strong>2. Sipariş maliyet kartları.</strong></p><table class=\"veri\"><tr><th>Unsur</th><th class=\"n\">A-101</th><th class=\"n\">B-102</th><th class=\"n\">Toplam</th></tr><tr><td>DİMM</td><td class=\"n\">150.000</td><td class=\"n\">90.000</td><td class=\"n\">240.000</td></tr><tr><td>Direkt işçilik</td><td class=\"n\">1.200 × 100 = 120.000</td><td class=\"n\">600 × 100 = 60.000</td><td class=\"n\">180.000</td></tr><tr><td>Yüklenen GÜG</td><td class=\"n\">1.200 × 30 = 36.000</td><td class=\"n\">600 × 30 = 18.000</td><td class=\"n\">54.000</td></tr><tr><td><strong>Sipariş maliyeti</strong></td><td class=\"n\"><strong>306.000</strong></td><td class=\"n\"><strong>168.000</strong></td><td class=\"n\"><strong>474.000</strong></td></tr></table>",
+    "<p><strong>3. Birim maliyet ve mamul maliyeti.</strong> A-101: 306.000 / 500 = <strong>612 ₺/masa</strong>. Dönemin mamul maliyeti yalnız tamamlanan A-101'dir: <strong>306.000 ₺</strong>.</p><table class=\"yevmiye\"><tr><td>152 MAMULLER</td><td class=\"n\">306.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">151 YARI MAMULLER – ÜRETİM</td><td class=\"n\"></td><td class=\"n\">306.000</td></tr></table>",
+    "<p><strong>4. Dönem sonu yarı mamul.</strong> B-102'nin kartı: <strong>168.000 ₺</strong>, 151'de kalır. Sağlama: 151'e yüklenen 474.000 − devredilen 306.000 = 168.000 ₺.</p>",
+    "<p><strong>5. Yükleme farkı.</strong> Yüklenen 54.000 − gerçekleşen 57.000 = <strong>eksik (−) 3.000 ₺</strong>; önemsizse 620'ye, önemliyse 151, 152 ve 620'ye yüklenen GÜG oranında dağıtılır (Konu 5).</p>"
+   ]
+  }
+ ],
+ "cikmisSorular": [
+  "2026-2-MAL-12"
+ ],
+ "kartlar": [
+  {
+   "on": "Sipariş maliyet sistemi hangi işletmelerde kullanılır ve maliyet nerede toplanır?",
+   "arka": "Müşteri isteğine göre farklı mamullerin tek tek ya da partiler hâlinde üretildiği işletmelerde (matbaa, mobilya, inşaat). Her sipariş için açılan sipariş maliyet kartında DİMM, direkt işçilik ve yüklenen GÜG toplanır; birim maliyet = sipariş maliyeti ÷ sipariş miktarı."
+  },
+  {
+   "on": "Sipariş maliyet sisteminde GÜG siparişe nasıl yüklenir?",
+   "arka": "Yükleme oranıyla: Oran = Bütçelenmiş GÜG ÷ Bütçelenmiş anahtar (DİS, makine saati, DİMM tutarı). Siparişin payı = Oran × Siparişin anahtar miktarı. Soru dönemin fiili GÜG'ünü dağıttırıyorsa oran = Fiili GÜG ÷ Toplam anahtar."
+  },
+  {
+   "on": "Dönem sonunda tamamlanan ve bitmemiş siparişlerin maliyeti hangi hesaplarda yer alır?",
+   "arka": "Tamamlananlar 151'den 152 Mamuller'e devredilir (teslim edilince 620'ye). Bitmemiş siparişler 151 Yarı Mamuller – Üretim hesabında dönem sonu yarı mamul olarak kalır."
+  }
+ ]
+}
