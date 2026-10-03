@@ -65,13 +65,13 @@
   "sonuc": "D",
   "ozet": "Bağ-Kur primi düşülür (1.900.000 ₺); BES katkı payı indirilmez; eğitim harcaması beyan edilen gelirin %10’u (190.000 ₺) ile sınırlıdır. Matrah = 1.900.000 − 190.000 = 1.710.000 ₺.",
   "adimlar": [
-   "<p><strong>1. Bağ-Kur primi.</strong> Mükellefin kendisi için fiilen ödediği Bağ-Kur (5510 sayılı Kanun md. 4/1-b sigortalılığı) primi, ödendiği yılın gelirinden indirilir: 2.000.000 − 100.000 = <strong>1.900.000 ₺</strong> beyan edilen gelir.</p>",
+   "<p><strong>1. Bağ-Kur primi.</strong> Mükellefin kendisi için fiilen ödediği Bağ-Kur (5510 sayılı Kanun md. 4/1-b sigortalılığı) primi, ödendiği yılın gelirinden indirilir: 2.000.000 − 100.000 = <strong>1.900.000 ₺</strong> beyan edilen gelir (Hazinece karşılanan 5 puanlık kısım düşülemez, 5510 md. 81/1-j).</p>",
    "<p><strong>2. Bireysel emeklilik katkı payı.</strong> Mükellefin kendi ödediği BES katkı payı, 6327 sayılı Kanun’la (2013’ten itibaren) GVK md. 89/1-1 kapsamından çıkarılmıştır; karşılığında devlet katkısı verilir. 80.000 ₺ <strong>indirilmez</strong>. (Hayat ve şahıs sigorta primleri ise 89/1-1 sınırları içinde indirilebilir.)</p>",
    "<p><strong>3. Eğitim harcaması (GVK md. 89/1-2).</strong> Şartlar: mükellefin kendisi, eşi ve küçük çocukları için yapılmış olması ✓; Türkiye’de yapılması ✓ (Ankara); gelir veya kurumlar vergisi mükelleflerinden alınan belgeyle tevsik ✓ (fatura); beyan edilen gelirin %10’unu aşmaması. Sınır: 1.900.000 × %10 = <strong>190.000 ₺</strong>. Harcama 300.000 ₺ olduğundan 190.000 ₺ indirilir.</p>",
    "<p><strong>4. Matrah.</strong> 1.900.000 − 190.000 = <strong>1.710.000 ₺</strong>: <strong>D</strong>.</p>",
    "<p><strong>Not.</strong> %10 sınırı Bağ-Kur primi düşülmeden 2.000.000 ₺ üzerinden alınsaydı 2.000.000 − 100.000 − 200.000 = 1.700.000 ₺ çıkardı; bu tutar şıklarda yoktur. Resmi cevap, sınırın Bağ-Kur primi indirildikten sonraki beyan edilen gelir üzerinden hesaplandığı uygulamaya dayanır.</p>"
   ],
-  "dayanak": "GVK md. 89/1-2 (eğitim ve sağlık harcamaları; beyan edilen gelirin %10’u), GVK md. 89/1-1 (şahıs sigorta primleri; 6327 sayılı Kanun’la BES katkı payları kapsam dışı). Bağ-Kur primlerinin indirimi: kural madde numarası verilmeden belirtildi (fiilen ödenen primler, ödendiği yılın gelirinden).",
+  "dayanak": "GVK md. 89/1-2 (eğitim ve sağlık harcamaları; beyan edilen gelirin %10’u), GVK md. 89/1-1 (şahıs sigorta primleri; 6327 sayılı Kanun’la BES katkı payları kapsam dışı). 5510 sayılı Kanun md. 88 (Kuruma fiilen ödenmeyen primler gelir ve kurumlar vergisi uygulamasında gider yazılamaz; fiilen ödenen Bağ-Kur primi ödendiği yılda kazançtan/gelirden düşülür — İdare uygulaması).",
   "tuzaklar": {
    "A": "1.520.000 ₺ = 2.000.000 − 100.000 − 80.000 − 300.000. BES katkı payı indirilmiş ve eğitim harcaması %10 sınırı uygulanmadan tamamen düşülmüş.",
    "B": "1.600.000 ₺ = 2.000.000 − 100.000 − 300.000. Eğitim harcamasının tamamı düşülmüş; indirim beyan edilen gelirin %10’u ile sınırlıdır.",
@@ -152,10 +152,10 @@
   "adimlar": [
    "<p><strong>1. Kural.</strong> AATUHK md. 15’e göre hakkında ihtiyati haciz uygulananlar, haczin tatbikinden, gıyapta yapılan hacizlerde haczin tebliği tarihinden itibaren <strong>15 gün</strong> içinde ihtiyati haciz sebebine itiraz edebilir.</p>",
    "<p><strong>2. Değişiklik.</strong> Bu süre 7 gün iken 7061 sayılı Kanun’la 15 güne çıkarılmış ve değişiklik 1.1.2018’de yürürlüğe girmiştir.</p>",
-   "<p><strong>3. Merci.</strong> Kanun metni hâlâ “vergi itiraz komisyonu” ifadesini kullanır. Bu komisyonların görevini bugün vergi mahkemeleri yürüttüğü için itiraz, soruda yazıldığı gibi ilgili vergi mahkemesinde dava açılarak yapılır.</p>",
+   "<p><strong>3. Merci.</strong> Kanun metni hâlâ “vergi itiraz komisyonu” ifadesini kullanır. Bu komisyonların görevini bugün vergi mahkemeleri yürüttüğü için itiraz, soruda yazıldığı gibi ilgili vergi mahkemesinde dava açılarak yapılır (2576 sayılı Kanun md. 13: kanunlardaki 'itiraz komisyonu' deyimi 'vergi mahkemesi', 'itiraz' deyimi 'vergi mahkemesinde dava açılması' anlamını taşır; md. 6/b).</p>",
    "<p><strong>4. Sonuç.</strong> Her iki boşluk da 15 gün: <strong>B</strong>.</p>"
   ],
-  "dayanak": "6183 sayılı AATUHK md. 15 (ihtiyati hacze itiraz; 7061 sayılı Kanun’la süre 7 günden 15 güne çıkarıldı). İYUK md. 7 (genel dava açma süresi: vergi mahkemelerinde 30 gün).",
+  "dayanak": "6183 sayılı AATUHK md. 15 (ihtiyati hacze itiraz; 7061 sayılı Kanun’la süre 7 günden 15 güne çıkarıldı). İYUK md. 7 (genel dava açma süresi: vergi mahkemelerinde 30 gün). 2576 sayılı Kanun md. 6/b, md. 13.",
   "tuzaklar": {
    "A": "7 gün, 1.1.2018 öncesindeki süredir; 7061 sayılı Kanun’la 15 güne çıkarılmıştır.",
    "C": "Kanun tatbik ve gıyapta tebliğ için farklı süre öngörmez; ikisi de 15 gündür.",
@@ -325,10 +325,10 @@
   "ozet": "Kurumlar vergisi mükellefleri sermaye şirketleri, kooperatifler, iktisadi kamu kuruluşları, dernek ve vakıf iktisadi işletmeleri ile iş ortaklıklarıdır (KVK md. 1-2). Kollektif şirket bir şahıs şirketidir; kazancı ortaklar düzeyinde gelir vergisine tabidir.",
   "adimlar": [
    "<p><strong>1. Kural (KVK md. 1 ve 2).</strong> Kurumlar vergisine tabi olanlar: sermaye şirketleri (anonim, limited ve sermayesi paylara bölünmüş komandit şirketler; SPK’nın düzenleme ve denetimine tabi fonlar ile benzer yabancı fonlar da sermaye şirketi sayılır), kooperatifler, iktisadi kamu kuruluşları, dernek veya vakıflara ait iktisadi işletmeler ve iş ortaklıkları.</p>",
-   "<p><strong>2. Kollektif şirket.</strong> Kollektif şirket (adi komandit şirket gibi) bir şahıs şirketidir ve bu listede yoktur. Şirket kazancı ortaklara paylarına göre bölünür; ortaklar kendi paylarına düşen kazanç için gelir vergisi (ticari kazanç) mükellefidir. Cevap <strong>B</strong>.</p>",
+   "<p><strong>2. Kollektif şirket.</strong> Kollektif şirket (adi komandit şirket gibi) bir şahıs şirketidir ve bu listede yoktur. Şirket kazancı ortaklara paylarına göre bölünür; ortaklar kendi paylarına düşen kazanç için gelir vergisi (ticari kazanç) mükellefidir (GVK md. 37). Cevap <strong>B</strong>.</p>",
    "<p><strong>3. Diğer şıklar.</strong> A: İktisadi kamu kuruluşları (md. 1/c, md. 2/3). C: SPK’nın düzenleme ve denetimine tabi yatırım fonları sermaye şirketi sayılır (md. 2/1); bunlar mükelleftir, kazançları ayrıca istisna kapsamındadır. D: Kooperatifler (md. 1/b, md. 2/2). E: Sermayesi paylara bölünmüş komandit şirketler sermaye şirketidir (md. 2/1).</p>"
   ],
-  "dayanak": "KVK md. 1 (kurumlar vergisi mükellefleri), md. 2 (sermaye şirketi, kooperatif, iktisadi kamu kuruluşu, dernek-vakıf iktisadi işletmesi ve iş ortaklığı tanımları).",
+  "dayanak": "KVK md. 1 (kurumlar vergisi mükellefleri), md. 2 (sermaye şirketi, kooperatif, iktisadi kamu kuruluşu, dernek-vakıf iktisadi işletmesi ve iş ortaklığı tanımları). GVK md. 37 (kollektif ortakların ve komandite ortakların kâr payları şahsi ticari kazançtır).",
   "tuzaklar": {
    "A": "Mükelleftir: iktisadi kamu kuruluşları KVK md. 1’de sayılır.",
    "C": "Mükelleftir: SPK’nın düzenleme ve denetimine tabi fonlar KVK md. 2/1 gereği sermaye şirketi sayılır.",
@@ -342,7 +342,7 @@
    },
    {
     "on": "Kollektif şirket ve adi komandit şirketin kazancı nasıl vergilenir?",
-    "arka": "Şahıs şirketidir; KV mükellefi değildir. Ortaklar paylarına düşen kazanç üzerinden gelir vergisi (ticari kazanç) öder."
+    "arka": "Şahıs şirketidir; KV mükellefi değildir. Kollektif şirket ortaklarının ve adi komandit şirketin komandite ortaklarının kârdan aldıkları paylar şahsi ticari kazançtır (GVK md. 37); komanditerlerin kâr payları menkul sermaye iradıdır (GVK md. 75/2-2)."
    }
   ],
   "konuBaglantisi": "Kurumlar vergisi"
@@ -413,7 +413,7 @@
   "adimlar": [
    "<p><strong>1. Gider kısıtlaması (GVK md. 40/5).</strong> Faaliyeti binek otomobil kiralama veya işletme olmayanlar, binek otomobillere ilişkin giderlerin en fazla <strong>%70</strong>’ini indirebilir; kalan %30 KKEG’dir. Bu hüküm KVK md. 6 yoluyla kurum kazancında da uygulanır. Mobilya şirketi bu istisnaya girmez.</p>",
    "<p><strong>2. Kısıtlamaya tabi giderler.</strong> Akaryakıt 500.000 + sigorta 50.000 + bakım onarım 30.000 = 580.000 ₺. KKEG: 580.000 × %30 = <strong>174.000 ₺</strong>.</p>",
-   "<p><strong>3. Motorlu Taşıtlar Vergisi.</strong> MTVK md. 14’e göre (I) sayılı tarifedeki taşıtlardan (binek otomobiller dahil) alınan vergi gelir ve kurumlar vergisi matrahının tespitinde gider olarak kabul edilmez (taşıt kiralama işletmelerinin kiraya verdikleri taşıtlar hariç). 20.000 ₺’nin <strong>tamamı</strong> KKEG’dir.</p>",
+   "<p><strong>3. Motorlu Taşıtlar Vergisi.</strong> MTVK md. 14’e göre (I) ve (I/A) sayılı tarifelerdeki taşıtlardan (binek otomobiller dahil) alınan vergi gelir ve kurumlar vergisi matrahının tespitinde gider olarak kabul edilmez (taşıt kiralama işletmelerinin kiraya verdikleri taşıtlar hariç). 20.000 ₺’nin <strong>tamamı</strong> KKEG’dir.</p>",
    "<p><strong>4. Toplam.</strong> 174.000 + 20.000 = <strong>194.000 ₺</strong>: <strong>E</strong>.</p>"
   ],
   "dayanak": "GVK md. 40/5 (binek otomobil giderlerinin en fazla %70’i indirilebilir; KVK md. 6 yoluyla kurumlarda da geçerli), 197 sayılı MTVK md. 14 (binek otomobil MTV’si gider yazılamaz).",
@@ -430,7 +430,7 @@
    },
    {
     "on": "Binek otomobil MTV’si gider yazılabilir mi?",
-    "arka": "Hayır, tamamı KKEG’dir (MTVK md. 14; (I) sayılı tarifedeki taşıtlar; taşıt kiralama işletmelerinin kiraya verdikleri hariç)."
+    "arka": "Hayır, tamamı KKEG’dir (MTVK md. 14; (I) ve (I/A) sayılı tarifelerdeki taşıtlar (binek otomobiller dahil); taşıt kiralama işletmelerinin kiraya verdikleri hariç)."
    }
   ],
   "konuBaglantisi": "Kurumlar vergisi"
