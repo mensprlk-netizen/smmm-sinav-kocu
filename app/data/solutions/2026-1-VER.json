@@ -1,0 +1,580 @@
+[
+ {
+  "id": "2026-1-VER-01",
+  "sonuc": "D",
+  "ozet": "Senaryo kazancı (4.500.000 ₺) tarifenin 4. gelir dilimi tutarını (4.300.000 ₺) aştığı için GVK 18 istisnası tamamen kaybedilir; kâr payının yarısı (350.000 ₺) istisnadır. Matrah = 4.500.000 + 350.000 = 4.850.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Telif istisnası kuralı.</strong> GVK md. 18’e göre müelliflerin senaryo gibi eserlerini satmak, devretmek veya kiralamak suretiyle elde ettikleri hasılat gelir vergisinden müstesnadır. Eserin 5846 sayılı Kanun’a göre Kültür ve Turizm Bakanlığı’nca tescil edilmiş olması, onun istisna kapsamındaki bir eser olduğunu gösterir. Ancak 7194 sayılı Kanun’la maddeye eklenen fıkraya göre <em>bu madde kapsamındaki kazançları toplamı 103. maddedeki tarifenin dördüncü gelir diliminde yer alan tutarı aşanlar bu istisnadan faydalanamaz</em>. Sınır aşılınca istisna kısmen değil, tamamen kaybedilir.</p>",
+   "<p><strong>2. Sınır kontrolü.</strong> Kitapçıktaki 2025 tarifesinde dördüncü gelir diliminin tutarı <strong>4.300.000 ₺</strong>’dir. 4.500.000 ₺ &gt; 4.300.000 ₺ olduğundan istisna uygulanmaz; 4.500.000 ₺’nin tamamı serbest meslek kazancı olarak beyan edilir. Ödemeler üzerinden yapılan tevkifat matrahı azaltmaz; beyanname üzerinden hesaplanan vergiden mahsup edilir.</p>",
+   "<p><strong>3. Kâr payı.</strong> Tam mükellef kurumlardan elde edilen kâr paylarının yarısı gelir vergisinden müstesnadır (GVK md. 22/3): 700.000 × 1/2 = 350.000 ₺ istisna, <strong>350.000 ₺</strong> vergiye tabi. Tevkifata tabi kâr payı ancak vergiye tabi gelir toplamı ikinci gelir dilimi tutarını (330.000 ₺) aşmıyorsa beyan dışı kalabilir (GVK md. 86/1-c). Burada vergiye tabi gelir toplamı (4.500.000 + 350.000) bu sınırı açıkça aştığından kâr payı beyannameye girer.</p>",
+   "<p><strong>4. Matrah.</strong> 4.500.000 + 350.000 = <strong>4.850.000 ₺</strong>: <strong>D</strong>.</p>",
+   "<p><strong>Not.</strong> Tarife bu soruda vergi hesaplamak için değil, sınırları okumak için verilmiştir (4. dilim 4.300.000 ₺, 2. dilim 330.000 ₺). Kâr payından kesilen verginin tamamı, istisna edilen yarıya isabet eden kısım dahil, beyanname üzerinden hesaplanan vergiden mahsup edilir (GVK md. 22/3).</p>"
+  ],
+  "dayanak": "GVK md. 18 (telif kazançları istisnası; 7194 sayılı Kanun’la eklenen 4. gelir dilimi sınırı), GVK md. 22/3 (kâr paylarının yarısının istisnası), GVK md. 86/1-c (tevkifatlı gelirlerde beyan sınırı), GVK md. 103 (tarife).",
+  "tuzaklar": {
+   "A": "350.000 ₺, senaryo kazancına istisna uygulanmış gibi yalnız kâr payının vergiye tabi yarısının alınmasıdır. 4.500.000 ₺ > 4.300.000 ₺ olduğundan istisna kaybedilmiştir.",
+   "B": "700.000 ₺ hem senaryo istisnasının uygulandığını varsayar hem de kâr payının yarısının istisna olduğunu unutur.",
+   "C": "4.500.000 ₺ yalnız senaryo kazancıdır; kâr payının vergiye tabi yarısı (350.000 ₺) beyan dışı bırakılmış.",
+   "E": "5.200.000 ₺, kâr payının tamamının (700.000 ₺) eklenmesidir; GVK 22/3 uyarınca yarısı istisnadır."
+  },
+  "kartlar": [
+   {
+    "on": "GVK 18 telif istisnasının tutar sınırı nedir?",
+    "arka": "Bu kapsamdaki kazançlar toplamı GVK 103 tarifesinin 4. gelir dilimi tutarını (2025: 4.300.000 ₺) aşarsa istisna tamamen kaybedilir; kazancın tamamı beyan edilir, yapılan tevkifat mahsup edilir."
+   },
+   {
+    "on": "Tam mükellef kurumdan alınan kâr payında istisna ve beyan?",
+    "arka": "Yarısı istisnadır (GVK 22/3). Tevkifatlı kâr payı, vergiye tabi gelir toplamı 2. gelir dilimi tutarını (2025: 330.000 ₺) aşarsa beyan edilir (GVK 86/1-c); kesilen verginin tamamı mahsup edilir."
+   }
+  ],
+  "konuBaglantisi": "Gelir vergisi: kazanç ve iratlar"
+ },
+ {
+  "id": "2026-1-VER-02",
+  "sonuc": "C",
+  "ozet": "Ücretler GVK 86/1-b şartlarını sağladığı için beyan edilmez (ikinci işveren 300.000 ≤ 330.000; toplam ücret 4.200.000 ≤ 4.300.000). Tevkifatlı işyeri kira geliri (420.000 ₺) 330.000 ₺’lik sınırı aştığı için tek başına beyan edilir.",
+  "adimlar": [
+   "<p><strong>1. Sınırlar (kitapçıktaki 2025 tarifesi).</strong> İkinci gelir dilimi tutarı <strong>330.000 ₺</strong>; dördüncü gelir diliminin ücret gelirleri için tutarı <strong>4.300.000 ₺</strong>.</p>",
+   "<p><strong>2. Ücret kuralı (GVK md. 86/1-b).</strong> Birden fazla işverenden ücret alan ve ücretlerinin tamamı tevkif suretiyle vergilendirilmiş mükellef; birinciden sonraki işverenlerden aldığı ücretlerin toplamı 2. dilim tutarını, birinci işveren dahil tüm ücretlerinin toplamı da 4. dilimin ücret tutarını aşmıyorsa ücretlerini beyan etmez. Madde başı: başka gelirler için beyanname verilse bile bu gelirler beyannameye dahil edilmez.</p>",
+   "<p><strong>3. Ücret testi.</strong> İkinci işveren: 300.000 ≤ 330.000 ✓. Toplam: 3.900.000 + 300.000 = 4.200.000 ≤ 4.300.000 ✓. Ücretler beyan edilmez; kesilen vergiler nihai vergidir.</p>",
+   "<p><strong>4. Kira kuralı (GVK md. 86/1-c).</strong> Tevkifata tabi tutulmuş gayrimenkul sermaye iradı, vergiye tabi gelir toplamı [(a) ve (b) bentlerindekiler hariç] 2. dilim tutarını aşmıyorsa beyan edilmez. (b) bendi kapsamındaki ücretler bu toplama katılmaz. Kira geliri brüt 420.000 ₺ &gt; 330.000 ₺ olduğundan <strong>beyan edilir</strong>. (Götürü gider düşüldükten sonraki 357.000 ₺ de sınırı aşar.)</p>",
+   "<p><strong>5. Beyan.</strong> Safi kira = 420.000 × (1 − %15 götürü gider) = <strong>357.000 ₺</strong> (GVK md. 74). Kira üzerinden kesilen vergi beyanname üzerinden hesaplanan vergiden mahsup edilir. Beyannameye yalnız safi kira geliri girer; ücretlerde kesilen vergi nihaidir: <strong>C</strong>.</p>",
+   "<p><strong>Not.</strong> İkinci işverenden alınan ücret 330.000 ₺’yi ya da toplam ücret 4.300.000 ₺’yi aşsaydı, iki işverenden alınan ücretlerin tamamı beyana girerdi ve D doğru olurdu.</p>"
+  ],
+  "dayanak": "GVK md. 86/1-b (birden fazla işverenden alınan ücretlerde beyan sınırı), GVK md. 86/1-c (tevkifatlı menkul ve gayrimenkul sermaye iratlarında beyan sınırı), GVK md. 74 (götürü gider %15), GVK md. 103 (tarife dilimleri).",
+  "tuzaklar": {
+   "A": "Birinci işverenden alınan ücret ayrıca beyan edilmez; 86/1-b şartları sağlandığı için iki işverenden alınan ücretler de beyan dışıdır.",
+   "B": "İkinci işverenden alınan 300.000 ₺, 330.000 ₺’lik sınırın altında olduğu için beyan gerektirmez.",
+   "D": "Ücretler ancak 86/1-b sınırlarından biri aşılırsa beyana girer; burada iki sınır da aşılmamıştır.",
+   "E": "Tevkifatlı işyeri kira geliri 330.000 ₺’yi aştığı için beyan edilmek zorundadır; tevkifat yalnız ücretler için nihai vergidir."
+  },
+  "kartlar": [
+   {
+    "on": "Birden fazla işverenden ücret: beyan dışı kalma şartları?",
+    "arka": "Tamamı tevkifatlı olmalı; ikinci ve sonraki işverenlerden alınanların toplamı ≤ 2. dilim tutarı (2025: 330.000 ₺) ve tüm ücretlerin toplamı ≤ 4. dilimin ücret tutarı (2025: 4.300.000 ₺) olmalı (GVK 86/1-b)."
+   },
+   {
+    "on": "Tevkifatlı işyeri kira geliri ne zaman beyan edilir?",
+    "arka": "86/1-a ve b dışındaki vergiye tabi gelir toplamı 2. dilim tutarını (2025: 330.000 ₺) aşarsa (GVK 86/1-c). Beyan dışı kalan ücretler bu toplama katılmaz."
+   }
+  ],
+  "konuBaglantisi": "Gelir vergisi: beyan ve matrah"
+ },
+ {
+  "id": "2026-1-VER-03",
+  "sonuc": "D",
+  "ozet": "Bağ-Kur primi düşülür (1.900.000 ₺); BES katkı payı indirilmez; eğitim harcaması beyan edilen gelirin %10’u (190.000 ₺) ile sınırlıdır. Matrah = 1.900.000 − 190.000 = 1.710.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Bağ-Kur primi.</strong> Mükellefin kendisi için fiilen ödediği Bağ-Kur (5510 sayılı Kanun md. 4/1-b sigortalılığı) primi, ödendiği yılın gelirinden indirilir: 2.000.000 − 100.000 = <strong>1.900.000 ₺</strong> beyan edilen gelir.</p>",
+   "<p><strong>2. Bireysel emeklilik katkı payı.</strong> Mükellefin kendi ödediği BES katkı payı, 6327 sayılı Kanun’la (2013’ten itibaren) GVK md. 89/1-1 kapsamından çıkarılmıştır; karşılığında devlet katkısı verilir. 80.000 ₺ <strong>indirilmez</strong>. (Hayat ve şahıs sigorta primleri ise 89/1-1 sınırları içinde indirilebilir.)</p>",
+   "<p><strong>3. Eğitim harcaması (GVK md. 89/1-2).</strong> Şartlar: mükellefin kendisi, eşi ve küçük çocukları için yapılmış olması ✓; Türkiye’de yapılması ✓ (Ankara); gelir veya kurumlar vergisi mükelleflerinden alınan belgeyle tevsik ✓ (fatura); beyan edilen gelirin %10’unu aşmaması. Sınır: 1.900.000 × %10 = <strong>190.000 ₺</strong>. Harcama 300.000 ₺ olduğundan 190.000 ₺ indirilir.</p>",
+   "<p><strong>4. Matrah.</strong> 1.900.000 − 190.000 = <strong>1.710.000 ₺</strong>: <strong>D</strong>.</p>",
+   "<p><strong>Not.</strong> %10 sınırı Bağ-Kur primi düşülmeden 2.000.000 ₺ üzerinden alınsaydı 2.000.000 − 100.000 − 200.000 = 1.700.000 ₺ çıkardı; bu tutar şıklarda yoktur. Resmi cevap, sınırın Bağ-Kur primi indirildikten sonraki beyan edilen gelir üzerinden hesaplandığı uygulamaya dayanır.</p>"
+  ],
+  "dayanak": "GVK md. 89/1-2 (eğitim ve sağlık harcamaları; beyan edilen gelirin %10’u), GVK md. 89/1-1 (şahıs sigorta primleri; 6327 sayılı Kanun’la BES katkı payları kapsam dışı). Bağ-Kur primlerinin indirimi: kural madde numarası verilmeden belirtildi (fiilen ödenen primler, ödendiği yılın gelirinden).",
+  "tuzaklar": {
+   "A": "1.520.000 ₺ = 2.000.000 − 100.000 − 80.000 − 300.000. BES katkı payı indirilmiş ve eğitim harcaması %10 sınırı uygulanmadan tamamen düşülmüş.",
+   "B": "1.600.000 ₺ = 2.000.000 − 100.000 − 300.000. Eğitim harcamasının tamamı düşülmüş; indirim beyan edilen gelirin %10’u ile sınırlıdır.",
+   "C": "1.638.000 ₺ = (2.000.000 − 100.000 − 80.000) × 0,90. BES katkı payı indirilmiş; mükellefin kendi ödediği BES katkı payı matrahtan indirilemez.",
+   "E": "1.805.000 ₺ = 1.900.000 − 95.000. Eğitim harcaması sınırı %5 alınmış; bu eski orandır, 5281 sayılı Kanun’la %10’a çıkarılmıştır."
+  },
+  "kartlar": [
+   {
+    "on": "Eğitim ve sağlık harcaması indiriminin sınırı ve şartları?",
+    "arka": "Beyan edilen gelirin %10’u; mükellef, eşi ve küçük çocukları için; Türkiye’de yapılmış; gelir veya kurumlar vergisi mükelleflerinden alınan belgeyle tevsik edilmiş (GVK 89/1-2)."
+   },
+   {
+    "on": "Mükellefin kendi ödediği BES katkı payı gelir vergisi matrahından indirilir mi?",
+    "arka": "Hayır. 2013’ten beri (6327 sayılı Kanun) indirilmez; yerine devlet katkısı verilir."
+   }
+  ],
+  "konuBaglantisi": "Gelir vergisi: beyan ve matrah"
+ },
+ {
+  "id": "2026-1-VER-04",
+  "sonuc": "E",
+  "ozet": "Vergiye uyumlu mükellef indiriminde kanun, süresinde verilmiş bir beyanname için sonradan verilen düzeltme ve pişmanlık beyannamelerinin şartı ihlal etmediğini açıkça söyler; bu yüzden E bir şart değildir.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> GVK mükerrer md. 121’e göre ticari, zirai veya mesleki kazanç sahibi gelir vergisi mükellefleri ile kurumlar vergisi mükellefleri (finans, bankacılık, sigorta ve emeklilik sektörü hariç), şartları taşırlarsa yıllık beyannamede hesaplanan verginin %5’ini ödenecek vergiden indirir.</p>",
+   "<p><strong>2. Şartlar.</strong> (1) İndirimin hesaplanacağı beyannamenin ait olduğu yıl ile önceki son iki yıla ait vergi beyannamelerinin kanuni süresinde verilmiş olması (D); (2) bu süre içinde kesinleşmiş ikmalen, re’sen veya idarece tarhiyat bulunmaması; (3) beyannamenin verildiği tarih itibarıyla bu beyannameler üzerine tahakkuk eden vergilerin ödenmiş olması (A) ve vergi aslı 1.000 ₺’nin üzerinde vadesi geçmiş borç bulunmaması (B); ayrıca cari yıl ile önceki dört takvim yılında VUK md. 359’daki fiillerin işlenmemiş olması (C).</p>",
+   "<p><strong>3. E neden şart değil?</strong> Kanun (1) numaralı bentte parantez içinde açıkça şunu söyler: kanuni süresinde verilen bir beyannameye ilişkin olarak kanuni süresinden sonra düzeltme amacıyla veya pişmanlıkla verilen beyannameler bu şartın ihlali sayılmaz. Yani düzeltme ya da pişmanlık beyannamesi verilmemiş olması aranmaz: <strong>E</strong>.</p>"
+  ],
+  "dayanak": "GVK mükerrer md. 121 (vergiye uyumlu mükelleflere vergi indirimi).",
+  "tuzaklar": {
+   "A": "Şarttır: indirimin hesaplanacağı beyannamenin verildiği tarih itibarıyla, cari ve önceki iki yılın beyannameleri üzerine tahakkuk eden vergiler ödenmiş olmalıdır.",
+   "B": "Şarttır: vergi aslı (cezalar ve fer’i alacaklar dahil) 1.000 ₺’nin üzerinde vadesi geçmiş borç bulunmamalıdır.",
+   "C": "Şarttır: cari yıl ile önceki dört takvim yılında VUK 359’daki kaçakçılık fiillerini işlediği tespit edilenler indirimden yararlanamaz.",
+   "D": "Şarttır: cari yıl ile önceki iki yılın beyannameleri kanuni süresinde verilmiş olmalıdır."
+  },
+  "kartlar": [
+   {
+    "on": "Vergiye uyumlu mükellef indirimi: oran ve temel şartlar?",
+    "arka": "Hesaplanan verginin %5’i (yıllık tutar sınırı var). Cari ve önceki 2 yılın beyannameleri süresinde verilmiş ve tahakkuk eden vergileri ödenmiş; 1.000 ₺ üzeri vadesi geçmiş borç yok; kesinleşmiş ikmalen/re’sen/idarece tarhiyat yok; cari ve önceki 4 yılda VUK 359 fiili yok (GVK mük. 121)."
+   },
+   {
+    "on": "Süresinde verilmiş beyanname için sonradan verilen düzeltme veya pişmanlık beyannamesi vergiye uyumlu mükellef indirimine engel midir?",
+    "arka": "Hayır; kanun bunun şartın ihlali sayılmayacağını açıkça belirtir (GVK mük. 121)."
+   }
+  ],
+  "konuBaglantisi": "Gelir vergisi: beyan ve matrah"
+ },
+ {
+  "id": "2026-1-VER-05",
+  "sonuc": "A",
+  "ozet": "Teşebbüsün muvazaalı olduğuna dair delil elde edilmesi 6183 md. 13’teki ihtiyati haciz halleri arasında değil, md. 17’deki ihtiyati tahakkuk halleri arasındadır.",
+  "adimlar": [
+   "<p><strong>1. İhtiyati haciz halleri (AATUHK md. 13).</strong> (1) 9. madde gereğince teminat istenmesini gerektiren haller; (2) borçlunun belli ikametgahının olmaması (B); (3) borçlunun kaçmış olması veya kaçması, mallarını kaçırması ve hileli yollara sapması ihtimali (D); (4) istenen teminat veya kefilin gösterilmemesi ya da şahsi kefalet teklifinin veya kefilin kabul edilmemesi (E); (5) mal bildirimine çağrılan borçlunun bildirimde bulunmaması veya noksan bildirimde bulunması (C); (6) para cezasını gerektiren fiil nedeniyle amme davası açılmış olması; (7) 27, 29 ve 30. maddelerin (tasarrufun iptali) uygulanmasını gerektiren haller.</p>",
+   "<p><strong>2. Muvazaalı teşebbüs.</strong> “Teşebbüsün muvazaalı olduğu ve hakikatte başkasına aidiyeti hakkında deliller elde edilmişse” ifadesi md. 17/3’te <em>ihtiyati tahakkuk</em> sebebi olarak sayılır. Bu halde ihtiyati tahakkuk yapılır; ihtiyati haciz ise md. 18 uyarınca bunun sonucu olarak, muvazaalı teşebbüsten faydalananların malları hakkında uygulanır. Md. 13’ün listesinde yer almadığı için cevap <strong>A</strong>.</p>"
+  ],
+  "dayanak": "6183 sayılı AATUHK md. 13 (ihtiyati haciz halleri), md. 17 (ihtiyati tahakkuk halleri), md. 18 (ihtiyati tahakkukun neticeleri).",
+  "tuzaklar": {
+   "B": "Md. 13/2’de sayılan ihtiyati haciz halidir.",
+   "C": "Md. 13/5’te sayılan ihtiyati haciz halidir.",
+   "D": "Md. 13/3’te sayılan ihtiyati haciz halidir.",
+   "E": "Md. 13/4’te sayılan ihtiyati haciz halidir."
+  },
+  "kartlar": [
+   {
+    "on": "“Teşebbüsün muvazaalı olduğuna dair deliller elde edilmesi” 6183’te hangi tedbirin sebebidir?",
+    "arka": "İhtiyati tahakkuk (md. 17/3). Ardından md. 18’e göre muvazaalı teşebbüsten faydalananların mallarına ihtiyati haciz uygulanır."
+   },
+   {
+    "on": "6183 md. 13’e göre başlıca ihtiyati haciz halleri?",
+    "arka": "Teminat istenmesini gerektiren haller; belli ikametgah yokluğu; kaçma veya mal kaçırma ihtimali; teminat veya kefil gösterilmemesi; mal bildiriminde bulunmama veya noksan bildirim; para cezası gerektiren fiil için amme davası; tasarrufun iptali halleri."
+   }
+  ],
+  "konuBaglantisi": "Vergi icra: AATUHK"
+ },
+ {
+  "id": "2026-1-VER-06",
+  "sonuc": "B",
+  "ozet": "İhtiyati haciz sebeplerine karşı süre, haczin tatbikinden itibaren 15 gün, gıyapta yapılan hacizlerde tebliğden itibaren 15 gündür (6183 md. 15; 7061 sayılı Kanun’la 2018’den itibaren 7 günden 15 güne çıkarıldı).",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> AATUHK md. 15’e göre hakkında ihtiyati haciz uygulananlar, haczin tatbikinden, gıyapta yapılan hacizlerde haczin tebliği tarihinden itibaren <strong>15 gün</strong> içinde ihtiyati haciz sebebine itiraz edebilir.</p>",
+   "<p><strong>2. Değişiklik.</strong> Bu süre 7 gün iken 7061 sayılı Kanun’la 15 güne çıkarılmış ve değişiklik 1.1.2018’de yürürlüğe girmiştir.</p>",
+   "<p><strong>3. Merci.</strong> Kanun metni hâlâ “vergi itiraz komisyonu” ifadesini kullanır. Bu komisyonların görevini bugün vergi mahkemeleri yürüttüğü için itiraz, soruda yazıldığı gibi ilgili vergi mahkemesinde dava açılarak yapılır.</p>",
+   "<p><strong>4. Sonuç.</strong> Her iki boşluk da 15 gün: <strong>B</strong>.</p>"
+  ],
+  "dayanak": "6183 sayılı AATUHK md. 15 (ihtiyati hacze itiraz; 7061 sayılı Kanun’la süre 7 günden 15 güne çıkarıldı). İYUK md. 7 (genel dava açma süresi: vergi mahkemelerinde 30 gün).",
+  "tuzaklar": {
+   "A": "7 gün, 1.1.2018 öncesindeki süredir; 7061 sayılı Kanun’la 15 güne çıkarılmıştır.",
+   "C": "Kanun tatbik ve gıyapta tebliğ için farklı süre öngörmez; ikisi de 15 gündür.",
+   "D": "Süreler farklı değildir ve 30 gün değildir; ikisi de 15 gündür.",
+   "E": "30 gün, İYUK md. 7’deki vergi mahkemelerinde genel dava açma süresidir. İhtiyati haciz için 6183 md. 15’te özel süre (15 gün) vardır."
+  },
+  "kartlar": [
+   {
+    "on": "6183’e göre ihtiyati haciz sebebine karşı itiraz/dava süresi?",
+    "arka": "Haczin tatbikinden, gıyapta yapılan hacizlerde tebliğden itibaren 15 gün (md. 15; 2018’den önce 7 gündü)."
+   },
+   {
+    "on": "Ödeme emrine karşı dava süresi (6183)?",
+    "arka": "Ödeme emrinin tebliğinden itibaren 15 gün içinde vergi mahkemesinde (md. 58)."
+   }
+  ],
+  "konuBaglantisi": "Vergi icra: AATUHK"
+ },
+ {
+  "id": "2026-1-VER-07",
+  "sonuc": "A",
+  "ozet": "Birden fazla nüsha düzenlenen kâğıtlardan maktu vergiye tabi olanların her nüshası ayrı ayrı vergilenir; nispi vergiye tabi olanlarda ise yalnız bir nüsha vergiye tabidir (DVK md. 5). A bu yüzden yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Nüsha kuralı (DVK md. 5).</strong> 6728 sayılı Kanun’la (2016) değişik birinci cümleye göre bir nüshadan fazla düzenlenen kâğıtlardan <em>maktu</em> vergiye tabi olanların her bir nüshası ayrı ayrı aynı miktarda, <em>nispi</em> vergiye tabi olanların ise <strong>sadece bir nüshası</strong> damga vergisine tabidir. A, nispi vergide her nüshanın vergilendiğini söylediği için yanlıştır.</p>",
+   "<p><strong>2. Diğer şıklar.</strong> B: vergiye tabi kâğıtların hükümlerinin yenilenmesine, uzatılmasına, değiştirilmesine, devrine veya bozulmasına ilişkin mektup ve şerhler de vergiye tabidir (md. 2). C: resmi dairelerle kişiler arasındaki işlemlere ait kâğıtların vergisini kişiler öder (md. 3). D ve E: bir kâğıtta birbirinden tamamen ayrı akit ve işlemlerin her birinden ayrı vergi alınır; birbirine bağlı ve bir asıldan doğma işlemlerde en yüksek vergiyi gerektiren işlem üzerinden vergi alınır (md. 6).</p>",
+   "<p><strong>3. Sonuç.</strong> Yanlış olan ifade: <strong>A</strong>.</p>"
+  ],
+  "dayanak": "488 sayılı Damga Vergisi Kanunu md. 2 (şümul), md. 3 (mükellef), md. 5 (nüshalar), md. 6 (bir kâğıtta birden fazla akit ve işlem).",
+  "tuzaklar": {
+   "B": "Doğrudur: hükümlerin uzatılmasına ilişkin şerhler md. 2 uyarınca vergiye tabidir.",
+   "C": "Doğrudur: md. 3’e göre resmi dairelerle kişiler arasındaki kâğıtların vergisini kişiler öder.",
+   "D": "Doğrudur: md. 6’ya göre birbirinden tamamen ayrı akit ve işlemlerin her birinden ayrı vergi alınır.",
+   "E": "Doğrudur: md. 6’ya göre birbirine bağlı, bir asıldan doğma işlemlerde en yüksek vergiyi gerektiren işlem esas alınır."
+  },
+  "kartlar": [
+   {
+    "on": "Damga vergisinde birden fazla nüsha nasıl vergilenir?",
+    "arka": "Maktu vergiye tabi kâğıtlarda her nüsha ayrı ayrı; nispi vergiye tabi kâğıtlarda yalnız bir nüsha (DVK md. 5). Poliçe ve emre yazılı senetlerde yalnız tedavüle çıkarılan nüshalar."
+   },
+   {
+    "on": "Bir kâğıtta birden fazla akit ve işlem varsa damga vergisi?",
+    "arka": "Birbirinden tamamen ayrıysa her birinden ayrı; birbirine bağlı ve bir asıldan doğmaysa en yüksek vergiyi gerektiren işlem üzerinden (DVK md. 6)."
+   }
+  ],
+  "konuBaglantisi": "Diğer vergiler"
+ },
+ {
+  "id": "2026-1-VER-08",
+  "sonuc": "C",
+  "ozet": "Spor-Toto ve Millî Piyango dahil şans oyunları KDV’nin konusuna girer (KDVK md. 1/3-b) ve katılma bedeli özel matrahtır (md. 23/a); istisna değildir. Diğer dört işlem md. 17/4’teki istisnalardır.",
+  "adimlar": [
+   "<p><strong>1. Şans oyunları vergiye tabidir.</strong> KDVK md. 1/3-b’ye göre her türlü şans ve talih oyunlarının tertiplenmesi ve oynanması KDV’nin konusuna girer. Md. 23/a da Spor-Toto oyununda ve Millî Piyango dahil her türlü piyangoda oyuna ve piyangoya katılma bedelini <em>özel matrah</em> olarak düzenler. Yani bu bedeller vergilendirilir; istisna değildir.</p>",
+   "<p><strong>2. Diğer şıklar istisnadır (KDVK md. 17/4).</strong> A: Banka ve sigorta muameleleri vergisi kapsamına giren işlemler (17/4-e). B: Kazançları basit usulde tespit edilen mükelleflerin teslim ve hizmetleri (17/4-a). D: Külçe altın ve külçe gümüş teslimleri (17/4-g). E: İktisadi işletmelere dahil olmayan gayrimenkullerin kiralanması (17/4-d).</p>",
+   "<p><strong>3. Sonuç.</strong> İstisna olmayan: <strong>C</strong>.</p>"
+  ],
+  "dayanak": "KDVK md. 1/3-b (şans ve talih oyunları), md. 23/a (özel matrah: katılma bedeli), md. 17/4-a, d, e, g (diğer istisnalar).",
+  "tuzaklar": {
+   "A": "İstisnadır: BSMV kapsamındaki işlemler KDVK 17/4-e ile KDV’den istisnadır (çifte vergilemeyi önlemek için).",
+   "B": "İstisnadır: kazançları basit usulde tespit edilenlerin teslim ve hizmetleri 17/4-a ile istisnadır.",
+   "D": "İstisnadır: külçe altın ve külçe gümüş teslimleri 17/4-g ile istisnadır.",
+   "E": "İstisnadır: iktisadi işletmeye dahil olmayan gayrimenkul kiralaması 17/4-d ile istisnadır."
+  },
+  "kartlar": [
+   {
+    "on": "Şans oyunları ve piyango katılma bedelleri KDV karşısında?",
+    "arka": "Konuya girer (KDVK 1/3-b); katılma bedeli özel matrahtır (md. 23/a). İstisna değildir."
+   },
+   {
+    "on": "KDVK 17/4’teki sık sorulan istisnalar?",
+    "arka": "Basit usul ve muaf esnaf teslimleri (a); iktisadi işletmeye dahil olmayan gayrimenkul kiralaması (d); BSMV kapsamındaki işlemler (e); külçe altın ve gümüş teslimleri (g)."
+   }
+  ],
+  "konuBaglantisi": "KDV"
+ },
+ {
+  "id": "2026-1-VER-09",
+  "sonuc": "C",
+  "ozet": "İhraç kaydıyla teslim edilen mallar, ihracatçıya teslim tarihini takip eden ay başından itibaren altı ay değil üç ay içinde ihraç edilmelidir (KDVK md. 11/1-c).",
+  "adimlar": [
+   "<p><strong>1. Kural (KDVK md. 11/1-c).</strong> İhraç edilmek şartıyla imalatçılar tarafından ihracatçılara teslim edilen mallara ait KDV ihracatçılarca ödenmez (A). İmalatçının ilgili dönem beyannamesinde beyan ettiği bu vergi, vergi dairesince tarh ve tahakkuk ettirilerek tecil olunur (B).</p>",
+   "<p><strong>2. Süre.</strong> Malların ihracatçıya teslim tarihini takip eden ay başından itibaren <strong>3 ay</strong> içinde ihraç edilmesi halinde tecil edilen vergi terkin olunur. C “altı ay” dediği için yanlıştır.</p>",
+   "<p><strong>3. Mücbir sebep.</strong> Mallar VUK’taki mücbir sebeplerle ihraç edilemezse tecil edilen vergi, tecil tarihinden itibaren 6183 md. 48’e göre geçerli tecil faiziyle tahsil edilir (D). İhracat mücbir sebep veya beklenmedik durumlar nedeniyle üç ayda gerçekleştirilemezse, en geç üç aylık sürenin dolduğu tarihten itibaren 15 gün içinde başvuran ihracatçılara üç aya kadar ek süre verilebilir (E). Şartlar mücbir sebep olmaksızın gerçekleşmezse vergi, tahakkuk tarihinden itibaren gecikme zammıyla tahsil edilir.</p>",
+   "<p><strong>4. Sonuç.</strong> Yanlış olan: <strong>C</strong>.</p>"
+  ],
+  "dayanak": "KDVK md. 11/1-c (ihraç kaydıyla teslimlerde tecil-terkin; üç aylık ihraç süresi, mücbir sebepte tecil faizi ve üç aya kadar ek süre).",
+  "tuzaklar": {
+   "A": "Doğrudur: md. 11/1-c’nin ilk cümlesidir.",
+   "B": "Doğrudur: vergi imalatçının beyannamesinde beyan edilir, tarh ve tahakkuk ettirilerek tecil edilir.",
+   "D": "Doğrudur: mücbir sebepte gecikme zammı değil, tecil tarihinden itibaren tecil faizi uygulanır.",
+   "E": "Doğrudur: süre dolduktan itibaren 15 gün içinde başvuruya üç aya kadar ek süre verilebilir."
+  },
+  "kartlar": [
+   {
+    "on": "İhraç kaydıyla teslimde ihraç süresi?",
+    "arka": "Teslimi takip eden ay başından itibaren 3 ay; mücbir sebep veya beklenmedik durumda, süre dolduktan itibaren 15 gün içinde başvuruyla 3 aya kadar ek süre (KDVK 11/1-c)."
+   },
+   {
+    "on": "İhraç kaydıyla teslim edilen mal ihraç edilemezse tecil edilen KDV?",
+    "arka": "Mücbir sebep varsa tecil tarihinden itibaren tecil faiziyle; yoksa tahakkuk tarihinden itibaren gecikme zammıyla tahsil edilir."
+   }
+  ],
+  "konuBaglantisi": "KDV"
+ },
+ {
+  "id": "2026-1-VER-10",
+  "sonuc": "A",
+  "ozet": "Çin’de kullanılan iş makinelerinin kiralanması hizmeti Türkiye’de yapılmamakta ve hizmetten Türkiye’de faydalanılmamaktadır; KDVK md. 6/b’deki bağ kurulamadığı için işlem KDV’nin konusuna girmez.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> KDVK md. 1’e göre vergiye tabi olan, <em>Türkiye’de yapılan</em> işlemlerdir. Md. 6/b: hizmetlerde “Türkiye’de yapılma”, hizmetin Türkiye’de yapılmasını <em>veya</em> hizmetten Türkiye’de faydalanılmasını ifade eder.</p>",
+   "<p><strong>2. A şıkkı.</strong> İş makineleri Çin’de inşa edilecek fabrikada kullanılmak üzere Çin’deki firmaya kiralanmaktadır. Kiralama hizmeti, kiralanan makinelerin kullanıldığı Çin’de ifa edilir ve hizmetten Çin’de faydalanılır. İki bağlantı noktası da yurt dışında olduğundan işlem KDV’nin <strong>konusuna girmez</strong>. (Bu, istisnadan farklıdır: istisna, konuya giren bir işlemin vergiden muaf tutulmasıdır.)</p>",
+   "<p><strong>3. Diğer şıklar konuya girer.</strong> B: Profesyonel sanatçıların yer aldığı konserler (md. 1/3-c); sanatçının yurt dışında ikamet etmesi sonucu değiştirmez, konser Türkiye’de yapılmaktadır. C: Her türlü mal ithalatı (md. 1/2). D: Müzayede mahallerinde yapılan satışlar (md. 1/3-d). E: Arsa karşılığı inşaatta müteahhidin arsa sahibine konut teslimi teslim sayılır (md. 2/5) ve ticari faaliyet çerçevesinde yapılır (md. 1/1).</p>",
+   "<p><strong>4. Sonuç.</strong> <strong>A</strong>.</p>"
+  ],
+  "dayanak": "KDVK md. 1 (verginin konusu; 1/1 ticari faaliyet, 1/2 ithalat, 1/3-c konser, 1/3-d müzayede), md. 2/5 (arsa karşılığı inşaatta teslim), md. 6/b (hizmetin Türkiye’de yapılması veya Türkiye’de faydalanılması).",
+  "tuzaklar": {
+   "B": "Konuya girer: profesyonel sanatçıların yer aldığı konserler md. 1/3-c’de sayılır; mükellefin yurt dışında ikamet etmesi vergilendirmeye engel değildir (md. 1).",
+   "C": "Konuya girer: her türlü mal ve hizmet ithalatı md. 1/2 ile vergiye tabidir.",
+   "D": "Konuya girer: müzayede mahallerinde yapılan satışlar md. 1/3-d’de sayılır.",
+   "E": "Konuya girer: md. 2/5’e göre müteahhidin arsa sahibine konut vermesi teslim sayılır ve ticari faaliyet çerçevesindedir."
+  },
+  "kartlar": [
+   {
+    "on": "KDV’de hizmetin “Türkiye’de yapılması” ne demektir?",
+    "arka": "Hizmetin Türkiye’de yapılması veya hizmetten Türkiye’de faydalanılması (KDVK md. 6/b). İkisi de yurt dışındaysa işlem konu dışıdır."
+   },
+   {
+    "on": "KDVK md. 1/3’te (diğer faaliyetler) sayılan bazı işlemler?",
+    "arka": "Şans ve talih oyunları (b); profesyonel sanatçı ve sporcuların gösteri ve konserleri (c); müzayede mahallerinde ve gümrük depolarında satışlar (d); GVK 70’teki mal ve hakların kiralanması (f)."
+   }
+  ],
+  "konuBaglantisi": "KDV"
+ },
+ {
+  "id": "2026-1-VER-11",
+  "sonuc": "E",
+  "ozet": "Hesaplanan KDV = 50.000 + 600 (vade farkı) = 50.600 ₺; indirilecek KDV = 10.000 − 1.000 (imha edilen ilacın düzeltilen KDV’si) + 5.000 devreden = 14.000 ₺; ödenecek KDV = 36.600 ₺.",
+  "adimlar": [
+   "<p><strong>1. Vade farkı.</strong> Vade farkı, kur farkı, fiyat farkı gibi gelirler matraha dahildir (KDVK md. 24/c) ve ilgili teslimin oranıyla vergilenir. Vade farkı Aralık’ta hesaplandığı için Aralık beyanına girer: 6.000 × %10 = <strong>600 ₺</strong>.</p>",
+   "<p><strong>2. Hesaplanan KDV.</strong> 50.000 + 600 = <strong>50.600 ₺</strong>.</p>",
+   "<p><strong>3. İmha edilen ilaç.</strong> Deprem, sel ve mücbir sebep ilan edilen yerlerdeki yangın hariç, zayi olan mallara ait KDV indirilemez (KDVK md. 30/c). Kullanım süresi dolup imha edilen ilaç zayi olmuştur. Bu ilaçların alışında yüklenilen 1.000 ₺ KDV daha önce indirildiği için, imhanın yapıldığı dönemde indirim hesaplarından çıkarılarak düzeltilir.</p>",
+   "<p><strong>4. İndirilecek KDV.</strong> Bu dönem alış KDV’si 10.000 − düzeltme 1.000 = 9.000 ₺; önceki dönemden devreden 5.000 ₺ (md. 29) eklenir: 9.000 + 5.000 = <strong>14.000 ₺</strong>.</p>",
+   "<p><strong>5. Ödenecek KDV.</strong> 50.600 − 14.000 = <strong>36.600 ₺</strong>: <strong>E</strong>.</p>",
+   "<p><strong>Not.</strong> Vade farkı burada KDV hariç tutar olarak ele alınmıştır (6.000 × %10). 6.000 ₺ KDV dahil sayılsaydı içindeki KDV 6.000 × 10/110 ≈ 545 ₺ olurdu ve sonuç hiçbir şıkla uyuşmazdı.</p>"
+  ],
+  "dayanak": "KDVK md. 24/c (vade farkı matraha dahil), md. 29 (indirim ve sonraki döneme devir), md. 30/c (zayi olan mallara ait KDV indirilemez; önceden indirilmişse düzeltilir).",
+  "tuzaklar": {
+   "A": "34.000 ₺ = 50.000 − (10.000 + 5.000 + 1.000). Vade farkı KDV’si unutulmuş ve imha edilen ilacın KDV’si ayrıca indirilmiş; zayi malın KDV’si indirilemez, düzeltilir.",
+   "B": "34.600 ₺ = 50.600 − 16.000. İmha edilen ilacın 1.000 ₺ KDV’si indirime eklenmiş; doğrusu daha önce indirilen bu tutarın indirimden çıkarılmasıdır.",
+   "C": "35.600 ₺ = 50.600 − 15.000. İmha edilen ilaç için KDV düzeltmesi yapılmamış.",
+   "D": "36.000 ₺ = 50.000 − 14.000. Vade farkı üzerinden hesaplanması gereken 600 ₺ KDV unutulmuş."
+  },
+  "kartlar": [
+   {
+    "on": "Zayi olan (örneğin imha edilen) malın KDV’si?",
+    "arka": "İndirilemez; önceden indirilmişse zayi dönemde düzeltilir (KDVK 30/c). İstisna: deprem, sel ve mücbir sebep ilan edilen yerlerdeki yangın."
+   },
+   {
+    "on": "Vade farkı KDV karşısında?",
+    "arka": "Matraha dahildir (KDVK 24/c); asıl teslimin oranıyla, hesaplandığı/faturalandığı dönemde vergilenir."
+   }
+  ],
+  "konuBaglantisi": "KDV"
+ },
+ {
+  "id": "2026-1-VER-12",
+  "sonuc": "B",
+  "ozet": "Kurumlar vergisi mükellefleri sermaye şirketleri, kooperatifler, iktisadi kamu kuruluşları, dernek ve vakıf iktisadi işletmeleri ile iş ortaklıklarıdır (KVK md. 1-2). Kollektif şirket bir şahıs şirketidir; kazancı ortaklar düzeyinde gelir vergisine tabidir.",
+  "adimlar": [
+   "<p><strong>1. Kural (KVK md. 1 ve 2).</strong> Kurumlar vergisine tabi olanlar: sermaye şirketleri (anonim, limited ve sermayesi paylara bölünmüş komandit şirketler; SPK’nın düzenleme ve denetimine tabi fonlar ile benzer yabancı fonlar da sermaye şirketi sayılır), kooperatifler, iktisadi kamu kuruluşları, dernek veya vakıflara ait iktisadi işletmeler ve iş ortaklıkları.</p>",
+   "<p><strong>2. Kollektif şirket.</strong> Kollektif şirket (adi komandit şirket gibi) bir şahıs şirketidir ve bu listede yoktur. Şirket kazancı ortaklara paylarına göre bölünür; ortaklar kendi paylarına düşen kazanç için gelir vergisi (ticari kazanç) mükellefidir. Cevap <strong>B</strong>.</p>",
+   "<p><strong>3. Diğer şıklar.</strong> A: İktisadi kamu kuruluşları (md. 1/c, md. 2/3). C: SPK’nın düzenleme ve denetimine tabi yatırım fonları sermaye şirketi sayılır (md. 2/1); bunlar mükelleftir, kazançları ayrıca istisna kapsamındadır. D: Kooperatifler (md. 1/b, md. 2/2). E: Sermayesi paylara bölünmüş komandit şirketler sermaye şirketidir (md. 2/1).</p>"
+  ],
+  "dayanak": "KVK md. 1 (kurumlar vergisi mükellefleri), md. 2 (sermaye şirketi, kooperatif, iktisadi kamu kuruluşu, dernek-vakıf iktisadi işletmesi ve iş ortaklığı tanımları).",
+  "tuzaklar": {
+   "A": "Mükelleftir: iktisadi kamu kuruluşları KVK md. 1’de sayılır.",
+   "C": "Mükelleftir: SPK’nın düzenleme ve denetimine tabi fonlar KVK md. 2/1 gereği sermaye şirketi sayılır.",
+   "D": "Mükelleftir: kooperatifler KVK md. 1’de sayılır.",
+   "E": "Mükelleftir: sermayesi paylara bölünmüş komandit şirket bir sermaye şirketidir (KVK md. 2/1)."
+  },
+  "kartlar": [
+   {
+    "on": "Kurumlar vergisi mükellefleri (KVK md. 1)?",
+    "arka": "Sermaye şirketleri (AŞ, Ltd., sermayesi paylara bölünmüş komandit; SPK fonları da sermaye şirketi sayılır), kooperatifler, iktisadi kamu kuruluşları, dernek-vakıf iktisadi işletmeleri, iş ortaklıkları."
+   },
+   {
+    "on": "Kollektif şirket ve adi komandit şirketin kazancı nasıl vergilenir?",
+    "arka": "Şahıs şirketidir; KV mükellefi değildir. Ortaklar paylarına düşen kazanç üzerinden gelir vergisi (ticari kazanç) öder."
+   }
+  ],
+  "konuBaglantisi": "Kurumlar vergisi"
+ },
+ {
+  "id": "2026-1-VER-13",
+  "sonuc": "D",
+  "ozet": "Sermayeye eklenen öz sermaye kalemleri beş tam yıl dolmadan azaltıma konu edildiği için azaltım sırasıyla önce KV ve stopaja tabi unsurdan (800.000 ₺ enflasyon düzeltmesi olumlu farkı), sonra yalnız stopaja tabi unsurdan (200.000 ₺ geçmiş yıl kârı) yapılmış sayılır (KVK md. 32/B).",
+  "adimlar": [
+   "<p><strong>1. Kural (KVK md. 32/B).</strong> Sermayeye eklenen öz sermaye kalemleri, eklendiği tarihten itibaren <strong>beş tam yıl</strong> geçtikten sonra azaltıma konu edilirse sermaye unsurları, toplam sermaye içindeki oranlarına göre tespit edilir (md. 32/B-1). Beş tam yıl tamamlanmadan azaltım yapılırsa azaltımın <strong>sırasıyla</strong> şu unsurlardan yapıldığı kabul edilir (md. 32/B-2): (a) başka hesaba nakledilmesi veya işletmeden çekilmesi kurumlar vergisine ve kâr dağıtımı stopajına tabi olan kalemler; (b) yalnız kâr dağıtımı stopajına tabi kalemler; (c) vergilendirilmeyecek nakdi ve ayni sermaye.</p>",
+   "<p><strong>2. Süre.</strong> Sermaye artırımı 10.01.2024’te tescil edildi; azaltım 07.05.2025’te. Beş tam yıl dolmadığı için sıralama kuralı uygulanır.</p>",
+   "<p><strong>3. Unsurların sınıfı.</strong> Enflasyon düzeltmesi olumlu farkları başka hesaba nakledilir veya işletmeden çekilirse vergilendirilir (VUK mük. md. 298/A); bunlar (a) sınıfındadır (KV + stopaj). Geçmiş yıl kârları zaten kurumlar vergisine tabi tutulmuştur; dağıtımda yalnız stopaj doğar, yani (b) sınıfındadır. 1.200.000 ₺ nakdi sermaye (c) sınıfındadır.</p>",
+   "<p><strong>4. Dağılım.</strong> Azaltılan 1.000.000 ₺: önce (a) enflasyon düzeltmesi olumlu farkı <strong>800.000 ₺</strong>; kalan 200.000 ₺ (b) geçmiş yıl kârlarından. Nakdi sermayeye sıra gelmez: <strong>D</strong>.</p>",
+   "<p><strong>5. Vergileme.</strong> 800.000 ₺ için kurumlar vergisi ve kesinti, 200.000 ₺ için yalnız kâr dağıtımı kesintisi söz konusudur (md. 32/B-4).</p>"
+  ],
+  "dayanak": "KVK md. 32/B (sermaye azaltımında vergileme; 7420 sayılı Kanun’la eklendi), VUK mükerrer md. 298/A (öz sermaye kalemlerine ait enflasyon farklarının başka hesaba nakli veya işletmeden çekilmesi halinde vergilendirilmesi).",
+  "tuzaklar": {
+   "A": "Kurumun serbest seçim hakkı yoktur; kanun azaltılan unsurları sıralama veya oranlama yoluyla kendisi belirler.",
+   "B": "Oranlama yöntemi yalnız beş tam yıl geçtikten sonraki azaltımlarda uygulanır (md. 32/B-1); burada süre dolmamıştır.",
+   "C": "Nakdi sermaye sıralamada en sondadır (c bendi); vergiye tabi unsurlar bitmeden nakdi sermayeden azaltım yapılmış sayılmaz.",
+   "E": "Sıra yanlıştır: önce KV ve stopaja tabi enflasyon farkları (800.000 ₺), sonra yalnız stopaja tabi geçmiş yıl kârları gelir."
+  },
+  "kartlar": [
+   {
+    "on": "KVK 32/B: beş tam yıl dolmadan sermaye azaltımında sıra?",
+    "arka": "(a) KV + stopaja tabi kalemler (ör. enflasyon düzeltmesi olumlu farkları) → (b) yalnız stopaja tabi kalemler (ör. geçmiş yıl kârları) → (c) nakdi/ayni sermaye."
+   },
+   {
+    "on": "KVK 32/B: beş tam yıl geçtikten sonra sermaye azaltımı?",
+    "arka": "Nakdi/ayni sermaye ile sermayeye eklenen diğer unsurların toplam sermayeye oranı esas alınır (oranlama)."
+   }
+  ],
+  "konuBaglantisi": "Kurumlar vergisi"
+ },
+ {
+  "id": "2026-1-VER-14",
+  "sonuc": "A",
+  "ozet": "Matrah = 5.000.000 + 500.000 KKEG − 1.000.000 iştirak kazancı istisnası − 300.000 geçmiş yıl zararı = 4.200.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. KKEG eklenir.</strong> Ticari bilanço kazancının tespitinde gider yazılan kanunen kabul edilmeyen giderler matraha eklenir: 5.000.000 + 500.000 = 5.500.000 ₺.</p>",
+   "<p><strong>2. İştirak kazancı istisnası.</strong> Tam mükellef başka bir kurumun sermayesine katılımdan elde edilen kazançlar kurumlar vergisinden istisnadır (KVK md. 5/1-a): 5.500.000 − 1.000.000 = 4.500.000 ₺.</p>",
+   "<p><strong>3. Geçmiş yıl zararı.</strong> Beş yıldan fazla nakledilmemek şartıyla geçmiş yıl zararları indirilir (KVK md. 9/1-a). 2020 zararı 2021–2025 yıllarında indirilebilir; 2025 son yıldır. 4.500.000 − 300.000 = 4.200.000 ₺.</p>",
+   "<p><strong>4. Sonuç.</strong> Kurumlar vergisi matrahı <strong>4.200.000 ₺</strong>: <strong>A</strong>.</p>"
+  ],
+  "dayanak": "KVK md. 6 (safi kurum kazancı; GVK ticari kazanç hükümleri), KVK md. 5/1-a (iştirak kazançları istisnası), KVK md. 9/1-a (beş yıl içinde zarar mahsubu), KVK md. 11 (kabul edilmeyen indirimler).",
+  "tuzaklar": {
+   "B": "4.500.000 ₺’de geçmiş yıl zararı düşülmemiş; 2020 zararı 2025’te hâlâ mahsup edilebilir (beşinci yıl).",
+   "C": "5.200.000 ₺’de iştirak kazancı istisnası (1.000.000 ₺) düşülmemiş.",
+   "D": "5.500.000 ₺ yalnız KKEG eklenmiş tutardır; istisna ve zarar düşülmemiş.",
+   "E": "6.200.000 ₺’de iştirak kazancı düşülecekken eklenmiş."
+  },
+  "kartlar": [
+   {
+    "on": "Kurumlar vergisi matrahı hesap sırası?",
+    "arka": "Ticari bilanço kârı + KKEG − istisnalar (ör. iştirak kazancı, KVK 5/1-a) − geçmiş yıl zararları (KVK 9) − diğer indirimler."
+   },
+   {
+    "on": "Kurumlar vergisinde geçmiş yıl zararı kaç yıl taşınır?",
+    "arka": "Beş yıl (KVK 9/1-a). Örnek: 2020 zararı en son 2025 kazancından indirilir."
+   }
+  ],
+  "konuBaglantisi": "Kurumlar vergisi"
+ },
+ {
+  "id": "2026-1-VER-15",
+  "sonuc": "E",
+  "ozet": "Binek otomobil giderlerinin (akaryakıt, sigorta, bakım-onarım = 580.000 ₺) %30’u (174.000 ₺) KKEG’dir; binek otomobilin MTV’si (20.000 ₺) ise tamamen KKEG’dir. Toplam 194.000 ₺.",
+  "adimlar": [
+   "<p><strong>1. Gider kısıtlaması (GVK md. 40/5).</strong> Faaliyeti binek otomobil kiralama veya işletme olmayanlar, binek otomobillere ilişkin giderlerin en fazla <strong>%70</strong>’ini indirebilir; kalan %30 KKEG’dir. Bu hüküm KVK md. 6 yoluyla kurum kazancında da uygulanır. Mobilya şirketi bu istisnaya girmez.</p>",
+   "<p><strong>2. Kısıtlamaya tabi giderler.</strong> Akaryakıt 500.000 + sigorta 50.000 + bakım onarım 30.000 = 580.000 ₺. KKEG: 580.000 × %30 = <strong>174.000 ₺</strong>.</p>",
+   "<p><strong>3. Motorlu Taşıtlar Vergisi.</strong> MTVK md. 14’e göre (I) sayılı tarifedeki taşıtlardan (binek otomobiller dahil) alınan vergi gelir ve kurumlar vergisi matrahının tespitinde gider olarak kabul edilmez (taşıt kiralama işletmelerinin kiraya verdikleri taşıtlar hariç). 20.000 ₺’nin <strong>tamamı</strong> KKEG’dir.</p>",
+   "<p><strong>4. Toplam.</strong> 174.000 + 20.000 = <strong>194.000 ₺</strong>: <strong>E</strong>.</p>"
+  ],
+  "dayanak": "GVK md. 40/5 (binek otomobil giderlerinin en fazla %70’i indirilebilir; KVK md. 6 yoluyla kurumlarda da geçerli), 197 sayılı MTVK md. 14 (binek otomobil MTV’si gider yazılamaz).",
+  "tuzaklar": {
+   "A": "60.000 ₺ = 600.000 × %10. Kısıtlama oranı %30’dur ve MTV ayrıca tamamen KKEG’dir.",
+   "B": "78.000 ₺ = 580.000 × %10 + 20.000. MTV doğru ele alınmış ama kısıtlama oranı %30 yerine %10 alınmış.",
+   "C": "174.000 ₺ yalnız %30 kısıtlamadır; binek otomobilin MTV’sinin tamamen KKEG olduğu (MTVK md. 14) unutulmuş.",
+   "D": "180.000 ₺ = 600.000 × %30. MTV de %30 kısıtlamaya tabi sanılmış; oysa MTV’nin tamamı gider yazılamaz."
+  },
+  "kartlar": [
+   {
+    "on": "Binek otomobil giderlerinde gider kısıtlaması?",
+    "arka": "Giderlerin en fazla %70’i indirilir, %30’u KKEG (GVK 40/5). Binek otomobil kiralama/işletme faaliyetinde bu amaçla kullanılanlar hariç."
+   },
+   {
+    "on": "Binek otomobil MTV’si gider yazılabilir mi?",
+    "arka": "Hayır, tamamı KKEG’dir (MTVK md. 14; (I) sayılı tarifedeki taşıtlar; taşıt kiralama işletmelerinin kiraya verdikleri hariç)."
+   }
+  ],
+  "konuBaglantisi": "Kurumlar vergisi"
+ },
+ {
+  "id": "2026-1-VER-16",
+  "sonuc": "B",
+  "ozet": "ÖTV’de yurt içinden serbest bölgelere yapılan teslimler ihracat sayılmaz (ÖTVK md. 5/1-b; 7491 sayılı Kanun’la eklendi). KDV’den farklı olarak serbest bölgeye teslim ÖTV ihracat istisnasından yararlanamaz.",
+  "adimlar": [
+   "<p><strong>1. Kural (ÖTVK md. 5/1).</strong> Listelerdeki malların ihracat teslimi şu şartlarla istisnadır: (a) teslim yurt dışındaki bir müşteriye yapılmalıdır; yurt dışındaki müşteri, ikametgâhı, işyeri, kanuni ve iş merkezleri yurt dışında olan alıcılar ile yurt içindeki bir işletmenin yurt dışında faaliyet gösteren şubeleridir (A, C); (b) mal Türkiye Cumhuriyeti Gümrük Bölgesinden çıkmış olmalıdır.</p>",
+   "<p><strong>2. Serbest bölge.</strong> Md. 5/1-b’nin son cümlesine göre malın ihraç edilmeden önce yurt dışındaki alıcı adına hareket edenlere veya bizzat alıcıya işlenmek ya da değerlendirilmek üzere yurt içinde teslimi <em>ile yurt içinden serbest bölgelere yapılan teslimler</em> ihracat sayılmaz. Serbest bölgeye teslim ifadesi 7491 sayılı Kanun’la (27.12.2023) eklenmiştir. B, serbest bölgedeki alıcılara teslimi istisna saydığı için yanlıştır.</p>",
+   "<p><strong>3. Gümrüksüz satış mağazaları.</strong> (III) ve (IV) sayılı listelerdeki malların Gümrük Kanunu md. 95/1’e göre faaliyet gösteren gümrüksüz satış mağazalarına veya depolarına teslimi istisnadır (md. 5/2) (E).</p>",
+   "<p><strong>4. Sonuç.</strong> Yanlış olan: <strong>B</strong>.</p>",
+   "<p><strong>Not.</strong> KDV’de durum farklıdır: KDVK md. 12/1’e göre serbest bölgedeki alıcıya yapılan ve malın serbest bölgeye vardığı teslim ihracat teslimidir. B’deki ifade KDV için doğru olurdu; ÖTV için değil.</p>"
+  ],
+  "dayanak": "ÖTVK md. 5/1-a, 5/1-b (ihracat istisnası şartları; serbest bölgeye teslimler 7491 sayılı Kanun’la ihracat sayılmaz), md. 5/2 (gümrüksüz satış mağazalarına teslim). Karşılaştırma: KDVK md. 12/1.",
+  "tuzaklar": {
+   "A": "Doğrudur: yurt dışındaki alıcıya teslim ve malın gümrük bölgesinden çıkması md. 5/1’in iki şartıdır.",
+   "C": "Doğrudur: yurt içindeki işletmenin yurt dışındaki şubesi “yurt dışındaki müşteri” sayılır (md. 5/1-a).",
+   "D": "Doğrudur: ihraçtan önce yurt içinde işlenmek veya değerlendirilmek üzere teslim ihracat sayılmaz (md. 5/1-b).",
+   "E": "Doğrudur: (III) ve (IV) sayılı listedeki malların gümrüksüz satış mağazalarına teslimi md. 5/2 ile istisnadır."
+  },
+  "kartlar": [
+   {
+    "on": "Serbest bölgeye teslim: KDV ve ÖTV’de ihracat sayılır mı?",
+    "arka": "KDV’de evet (KDVK 12/1). ÖTV’de hayır: yurt içinden serbest bölgelere yapılan teslimler ihracat sayılmaz (ÖTVK 5/1-b, 7491 sayılı Kanun)."
+   },
+   {
+    "on": "ÖTV ihracat istisnasının şartları?",
+    "arka": "Teslim yurt dışındaki müşteriye (yurt dışı alıcı veya yurt içi işletmenin yurt dışı şubesi) yapılmalı ve mal Türkiye Cumhuriyeti Gümrük Bölgesinden çıkmalı (ÖTVK 5/1)."
+   }
+  ],
+  "konuBaglantisi": "ÖTV"
+ },
+ {
+  "id": "2026-1-VER-17",
+  "sonuc": "E",
+  "ozet": "Verilmesi gereken faturanın verilmemesi kaçakçılık suçu değil, VUK md. 353/1’deki özel usulsüzlüktür. Diğer dört fiil VUK md. 359’da sayılır.",
+  "adimlar": [
+   "<p><strong>1. Kaçakçılık suçları (VUK md. 359).</strong> 359/a-1: defter ve kayıtlarda hesap ve muhasebe hilesi (C). 359/a-2: defter, kayıt ve belgeleri tahrif etmek veya gizlemek ya da muhteviyatı itibarıyla yanıltıcı belge düzenlemek veya kullanmak (D); varlığı noter tasdik kayıtları veya sair suretlerle sabit olduğu halde incelemede defter ve belgelerin ibraz edilmemesi gizleme sayılır (B). 359/b: belgelerin asıl veya suretlerini tamamen veya kısmen sahte düzenlemek veya kullanmak (A).</p>",
+   "<p><strong>2. Fatura vermemek.</strong> Elektronik belge olarak düzenlenmesi gerekenler dahil, verilmesi gereken faturanın verilmemesi VUK md. 353/1’e göre <strong>özel usulsüzlük</strong>tür; her belge için belgeye yazılması gereken tutarın %10’u, alt sınırdan az olmamak üzere ceza kesilir. Hapis cezası gerektiren bir kaçakçılık fiili değildir: <strong>E</strong>.</p>"
+  ],
+  "dayanak": "VUK md. 359 (kaçakçılık suçları), VUK md. 353/1 (fatura ve benzeri belgelerin verilmemesi ve alınmaması: özel usulsüzlük).",
+  "tuzaklar": {
+   "A": "Kaçakçılık suçudur: belgelerin sahte düzenlenmesi VUK 359/b.",
+   "B": "Kaçakçılık suçudur: varlığı sabit defter ve belgelerin incelemede ibraz edilmemesi 359/a uyarınca gizleme sayılır.",
+   "C": "Kaçakçılık suçudur: hesap ve muhasebe hilesi VUK 359/a-1.",
+   "D": "Kaçakçılık suçudur: muhteviyatı itibarıyla yanıltıcı belge düzenlemek VUK 359/a-2."
+  },
+  "kartlar": [
+   {
+    "on": "Fatura vermemek hangi yaptırıma bağlıdır?",
+    "arka": "Özel usulsüzlük (VUK 353/1): her belge için tutarın %10’u, ilk tespitte ve sonraki tespitlerde öngörülen alt sınırlardan az olmamak üzere. Kaçakçılık suçu değildir."
+   },
+   {
+    "on": "VUK 359’daki başlıca kaçakçılık fiilleri?",
+    "arka": "a-1: hesap ve muhasebe hilesi; a-2: tahrif, gizleme (ibraz etmeme dahil), muhteviyatı itibarıyla yanıltıcı belge; b: defter-belge yok etme, sahte belge düzenleme veya kullanma."
+   }
+  ],
+  "konuBaglantisi": "Vergi usulü: cezalar"
+ },
+ {
+  "id": "2026-1-VER-18",
+  "sonuc": "C",
+  "ozet": "II (izaha davet edilen, davet konusu tespitle sınırlı olarak pişmanlıktan yararlanamaz) ve III (pişmanlıkta vergi ziyaı cezası kesilmez) doğrudur. I’deki süre 15 gündür; IV yanlıştır, pişmanlık usulsüzlük cezasını kaldırmaz.",
+  "adimlar": [
+   "<p><strong>1. I.</strong> VUK md. 371/3: hiç verilmemiş beyannameler haber verme dilekçesinin verildiği tarihten başlayarak <strong>15 gün</strong> içinde verilmelidir. 30 gün yanlıştır.</p>",
+   "<p><strong>2. II.</strong> VUK md. 370/a: kendisine izaha davet yazısı tebliğ edilen mükellefler, davet konusu tespitle sınırlı olarak md. 371’deki pişmanlık hükümlerinden yararlanamaz. <strong>Doğru.</strong></p>",
+   "<p><strong>3. III.</strong> VUK md. 371: şartlar sağlanırsa (ihbar ve inceleme yokluğu, 15 gün içinde beyan ve pişmanlık zammıyla ödeme) vergi ziyaı cezası kesilmez. <strong>Doğru.</strong></p>",
+   "<p><strong>4. IV.</strong> Pişmanlık yalnız vergi ziyaı cezasını ortadan kaldırır. Beyannamenin süresinde verilmemesi ayrıca usulsüzlüktür ve bu ceza kesilir. Yanlış.</p>",
+   "<p><strong>5. Sonuç.</strong> II ve III: <strong>C</strong>.</p>"
+  ],
+  "dayanak": "VUK md. 370 (izaha davet), VUK md. 371 (pişmanlık ve ıslah; 15 günlük süreler).",
+  "tuzaklar": {
+   "A": "I yanlıştır: hiç verilmemiş beyannamenin verilme süresi 15 gündür, 30 gün değil.",
+   "B": "I yanlıştır (15 gün); III tek başına doğrudur ama I’le birlikte bu şık geçersizdir.",
+   "D": "IV yanlıştır: pişmanlık usulsüzlük cezasını kaldırmaz; yalnız vergi ziyaı cezası kesilmez.",
+   "E": "IV yanlıştır: süresinde verilmeyen beyanname için usulsüzlük cezası pişmanlıkla verilse de kesilir."
+  },
+  "kartlar": [
+   {
+    "on": "Pişmanlıkta süreler ve sonuç?",
+    "arka": "Haber verme dilekçesinden itibaren 15 gün içinde: verilmemiş beyanname verilir veya eksik beyan düzeltilir ve vergi pişmanlık zammıyla ödenir. Sonuç: vergi ziyaı cezası kesilmez; usulsüzlük cezası kesilir (VUK 371)."
+   },
+   {
+    "on": "İzaha davet edilen mükellef pişmanlıktan yararlanabilir mi?",
+    "arka": "Davet konusu tespitle sınırlı olarak yararlanamaz (VUK 370/a). İzah yeterli bulunmazsa, değerlendirme yazısının tebliğinden itibaren 30 gün içinde beyan ve zamlı ödeme yapılırsa vergi ziyaı cezası %20 oranında kesilir."
+   }
+  ],
+  "konuBaglantisi": "Vergi usulü: cezalar"
+ },
+ {
+  "id": "2026-1-VER-19",
+  "sonuc": "A",
+  "ozet": "Hisse senetleri borsa rayici ile değil alış bedeli ile değerlenir (VUK md. 279). Diğer eşleştirmeler doğrudur.",
+  "adimlar": [
+   "<p><strong>1. Menkul kıymetler (VUK md. 279).</strong> Hisse senetleri ile portföyünün en az %51’i Türkiye’de kurulmuş şirketlerin hisse senetlerinden oluşan yatırım fonu katılma belgeleri <strong>alış bedeliyle</strong> değerlenir; bunlar dışındaki menkul kıymetler borsa rayici ile değerlenir. A’daki “borsa rayici” yanlıştır.</p>",
+   "<p><strong>2. Diğer eşleştirmeler.</strong> B: Kasa mevcutları itibari değerle değerlenir (md. 284). C: Mamuller maliyet bedeliyle değerlenir (md. 274-275). D: Afet, bozulma, kırılma gibi nedenlerle değeri önemli ölçüde düşen emtia emsal bedeliyle değerlenir (md. 278). E: Alınan sipariş avansları bir borçtur; borçlar mukayyet değerle değerlenir (md. 285).</p>",
+   "<p><strong>3. Sonuç.</strong> Yanlış eşleştirme: <strong>A</strong>.</p>"
+  ],
+  "dayanak": "VUK md. 274-275 (emtia ve mamuller: maliyet bedeli), md. 278 (değeri düşen mallar: emsal bedeli), md. 279 (menkul kıymetler: hisse senetleri alış bedeli), md. 284 (kasa mevcudu: itibari değer), md. 285 (borçlar: mukayyet değer).",
+  "tuzaklar": {
+   "B": "Doğrudur: kasa mevcutları itibari kıymetle değerlenir (md. 284); yabancı paralar için md. 280 uygulanır.",
+   "C": "Doğrudur: mamuller maliyet bedeliyle değerlenir (md. 274-275).",
+   "D": "Doğrudur: değeri önemli ölçüde düşen emtia emsal bedeliyle değerlenir (md. 278).",
+   "E": "Doğrudur: alınan sipariş avansı borçtur; borçlar mukayyet değerle değerlenir (md. 285)."
+  },
+  "kartlar": [
+   {
+    "on": "VUK’a göre hisse senetleri hangi ölçüyle değerlenir?",
+    "arka": "Alış bedeliyle (md. 279). Hisse senetleri ve %51’i yerli hisse olan fon katılma belgeleri dışındaki menkul kıymetler borsa rayiciyle."
+   },
+   {
+    "on": "Kasa (TL), alacaklar, borçlar ve değeri düşen mallarda değerleme ölçüsü?",
+    "arka": "Kasa: itibari değer (284); alacaklar ve borçlar: mukayyet değer (281, 285); değeri düşen mallar: emsal bedeli (278)."
+   }
+  ],
+  "konuBaglantisi": "Vergi usulü: değerleme"
+ },
+ {
+  "id": "2026-1-VER-20",
+  "sonuc": "D",
+  "ozet": "Ölüm yabancı ülkede olmuş ve mirasçılar Türkiye’deyse beyanname ölüm tarihini takip eden altı ay içinde verilir (VİVK md. 9/1-b).",
+  "adimlar": [
+   "<p><strong>1. Kural (VİVK md. 9/1).</strong> (a) Ölüm Türkiye’de olmuşsa: mükellefler Türkiye’de ise 4 ay, yabancı bir ülkede ise 6 ay. (b) Ölüm yabancı bir ülkede olmuşsa: mükellefler Türkiye’de ise <strong>6 ay</strong>; murisin bulunduğu ülkede ise 4 ay; başka bir yabancı ülkede ise 8 ay. (c) Gaiplikte, kararın ölüm siciline kaydından itibaren 1 ay.</p>",
+   "<p><strong>2. Uygulama.</strong> (S) Almanya’da vefat etti (ölüm yabancı ülkede); mirasçılar Türkiye’de bulunuyor ve ikamet ediyor. Murisin Türk vatandaşı olması ve mirasın Türkiye’deki gayrimenkul olması süreyi değiştirmez.</p>",
+   "<p><strong>3. Sonuç.</strong> Ölüm tarihini takip eden <strong>6 ay</strong> içinde: <strong>D</strong>.</p>"
+  ],
+  "dayanak": "7338 sayılı Veraset ve İntikal Vergisi Kanunu md. 9 (beyanname verme süreleri).",
+  "tuzaklar": {
+   "A": "1 ay, gaiplik halinde ve veraset dışındaki (ivazsız) intikallerde geçerli süredir.",
+   "C": "4 ay, ölüm ve mirasçıların aynı ülkede bulunduğu hallerin süresidir (ikisi de Türkiye’de ya da mirasçılar murisin bulunduğu yabancı ülkede).",
+   "E": "8 ay, ölüm yabancı ülkede olup mirasçıların başka bir yabancı ülkede bulunduğu hal içindir."
+  },
+  "kartlar": [
+   {
+    "on": "Veraset ve intikal vergisi beyanname süreleri (ölüm halinde)?",
+    "arka": "Ölüm Türkiye’de: mirasçı Türkiye’de 4 ay, yurt dışında 6 ay. Ölüm yurt dışında: mirasçı Türkiye’de 6 ay, murisle aynı ülkede 4 ay, başka yabancı ülkede 8 ay (VİVK md. 9)."
+   },
+   {
+    "on": "Gaiplik ve ivazsız intikallerde VİV beyanname süresi?",
+    "arka": "1 ay (gaiplikte kararın ölüm siciline kaydından; diğer intikallerde malın hukuken iktisabından itibaren)."
+   }
+  ],
+  "konuBaglantisi": "Diğer vergiler"
+ }
+]

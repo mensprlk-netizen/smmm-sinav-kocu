@@ -1,0 +1,562 @@
+[
+ {
+  "id": "2026-1-VER-01",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 1,
+  "konu": "Gelir vergisi: kazanç ve iratlar",
+  "ortakBilgi": "<p><strong>1. ve 2. soruların çözümünde aşağıda yer alan gelir vergisi tarifesinden yararlanılması gerekmektedir.</strong></p><table class=\"veri\"><tr><th>2025 Takvim Yılı Gelir Vergisi Tarifesi</th><th class=\"n\">Oran</th></tr><tr><td>158.000 ₺’ye kadar</td><td class=\"n\">15%</td></tr><tr><td>330.000 ₺’nin 158.000 ₺’si için 23.700 ₺, fazlası</td><td class=\"n\">20%</td></tr><tr><td>800.000 ₺’nin 330.000 ₺’si için 58.100 ₺ (ücret gelirlerinde 1.200.000 ₺’nin 330.000 ₺’si için 58.100 ₺), fazlası</td><td class=\"n\">27%</td></tr><tr><td>4.300.000 ₺’nin 800.000 ₺’si için 185.000 ₺ (ücret gelirlerinde 4.300.000 ₺’nin 1.200.000 ₺’si için 293.000 ₺), fazlası</td><td class=\"n\">35%</td></tr><tr><td>4.300.000 ₺’den fazlasının 4.300.000 ₺’si için 1.410.000 ₺ (ücret gelirlerinde 4.300.000 ₺’den fazlasının 4.300.000 ₺’si için 1.378.000 ₺), fazlası</td><td class=\"n\">40%</td></tr></table>",
+  "metin": "<p>Tam mükellef olan Bayan (G), 2025 takvim yılında, bir sinema filminin senaryo yazarlığı karşılığında 4.500.000 ₺ kazanç elde etmiştir. Yazılan senaryo 5846 sayılı Fikir ve Sanat Eserleri Kanunu hükümlerine göre Kültür ve Turizm Bakanlığı tarafından eser olarak kayıt ve tescil edilmiştir. Bayan (G)’ye senaryo yazarlığı karşılığı yapılan ödemeler üzerinden Gelir Vergisi tevkifatı yapılmıştır. Bayan (G) 2025 takvim yılında ayrıca, tam mükellef bir anonim şirketten brüt 700.000 ₺ tutarında kâr payı (temettü) elde etmiştir. Tam mükellef anonim şirketten elde edilen kâr payından Gelir Vergisi tevkifatı yapılmıştır.</p><p><strong>193 sayılı Gelir Vergisi Kanunu’na göre, Bayan (G)’nin 2025 takvim yılı Gelir Vergisi matrahı (vergiye tabi geliri) kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>350.000</p>",
+   "B": "<p>700.000</p>",
+   "C": "<p>4.500.000</p>",
+   "D": "<p>4.850.000</p>",
+   "E": "<p>5.200.000</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    230,
+    520,
+    928
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-02",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 2,
+  "konu": "Gelir vergisi: beyan ve matrah",
+  "ortakBilgi": "<p><strong>1. ve 2. soruların çözümünde aşağıda yer alan gelir vergisi tarifesinden yararlanılması gerekmektedir.</strong></p><table class=\"veri\"><tr><th>2025 Takvim Yılı Gelir Vergisi Tarifesi</th><th class=\"n\">Oran</th></tr><tr><td>158.000 ₺’ye kadar</td><td class=\"n\">15%</td></tr><tr><td>330.000 ₺’nin 158.000 ₺’si için 23.700 ₺, fazlası</td><td class=\"n\">20%</td></tr><tr><td>800.000 ₺’nin 330.000 ₺’si için 58.100 ₺ (ücret gelirlerinde 1.200.000 ₺’nin 330.000 ₺’si için 58.100 ₺), fazlası</td><td class=\"n\">27%</td></tr><tr><td>4.300.000 ₺’nin 800.000 ₺’si için 185.000 ₺ (ücret gelirlerinde 4.300.000 ₺’nin 1.200.000 ₺’si için 293.000 ₺), fazlası</td><td class=\"n\">35%</td></tr><tr><td>4.300.000 ₺’den fazlasının 4.300.000 ₺’si için 1.410.000 ₺ (ücret gelirlerinde 4.300.000 ₺’den fazlasının 4.300.000 ₺’si için 1.378.000 ₺), fazlası</td><td class=\"n\">40%</td></tr></table>",
+  "metin": "<p>Tam mükellef Bay (D)’nin tamamı üzerinden tevkifat yapılmış olan 2025 takvim yılı gelirleri aşağıdaki gibidir:</p><table class=\"veri\"><tr><th></th><th class=\"n\">₺</th></tr><tr><td>Birinci İşverenden Alınan Safi Ücret Geliri</td><td class=\"n\">3.900.000</td></tr><tr><td>İkinci İşverenden Alınan Safi Ücret Geliri</td><td class=\"n\">300.000</td></tr><tr><td>İş Yeri Kira Geliri (Brüt)</td><td class=\"n\">420.000</td></tr></table><p>Mükellef Bay (D) işyeri kira gelirinde safi iradın tespitinde götürü gider yöntemini seçmiştir.</p><p><strong>193 sayılı Gelir Vergisi Kanunu’na göre, Bay (D)’nin 2025 takvim yılı Gelir Vergisi beyanı ile ilgili olarak aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Birinci işverenden alınan safi ücret geliri ile iş yeri safi kira geliri beyannameye dahil edilecektir.</p>",
+   "B": "<p>İkinci işverenden alınan safi ücret geliri ile iş yeri safi kira geliri beyannameye dahil edilecektir.</p>",
+   "C": "<p>Sadece iş yeri safi kira geliri beyannameye dahil edilecek olup, ücret gelirleri için tevkif suretiyle kesilen vergiler nihai vergi olacaktır.</p>",
+   "D": "<p>Birinci ve ikinci işverenlerden alınan safi ücret gelirleri ile safi kira geliri beyannameye dahil edilecektir.</p>",
+   "E": "<p>Ücret gelirleri ve kira geliri için beyanname verilmeyecek olup, tevkif suretiyle kesilen vergiler nihai vergi olacaktır.</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    133,
+    520,
+    601
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-03",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 3,
+  "konu": "Gelir vergisi: beyan ve matrah",
+  "ortakBilgi": null,
+  "metin": "<p>Tam mükellef ve 1. sınıf tüccar olan Bay (Z), gıda sektöründe faaliyet göstermekte olup, 2025 takvim yılında; ticari faaliyetinden 2.000.000 ₺ ticari kazanç elde etmiştir. Mükellef Bay (Z) 2025 takvim yılında 100.000 ₺ bağ-kur primi ve 80.000 ₺ bireysel emeklilik katkı payı ödemiştir. Ayrıca mükellef küçük çocuğu için Ankara’da özel bir eğitim kurumuna fatura karşılığı 300.000 ₺ ödeme yapmıştır.</p><p><strong>193 sayılı Gelir Vergisi Kanunu’na göre, Bay (Z)’nin olması gereken 2025 takvim yılı Gelir Vergisi matrahı (vergiye tabi geliri) kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1.520.000</p>",
+   "B": "<p>1.600.000</p>",
+   "C": "<p>1.638.000</p>",
+   "D": "<p>1.710.000</p>",
+   "E": "<p>1.805.000</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    1075,
+    518,
+    289
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-04",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 4,
+  "konu": "Gelir vergisi: beyan ve matrah",
+  "ortakBilgi": null,
+  "metin": "<p><strong>193 sayılı Gelir Vergisi Kanunu’na göre, aşağıdakilerden hangisi vergiye uyumlu mükelleflerin vergi indiriminden yararlanabilmesi için aranan şartlardan <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>İndirimin hesaplanacağı beyannamenin verildiği tarih itibarıyla bu beyannamenin ait olduğu yıl ile bu yıldan önceki son iki yıla ait vergi beyannamelerinde tahakkuk eden vergilerin ödenmiş olması</p>",
+   "B": "<p>Vergi indiriminin hesaplanacağı beyannamenin verildiği tarih itibarıyla vergi aslı (vergi cezaları ile fer’i alacaklar dâhil) 1.000 Türk Lirasının üzerinde vadesi geçmiş borcunun bulunmaması</p>",
+   "C": "<p>Vergi indiriminin hesaplanacağı beyannamenin ait olduğu yıl ile önceki dört takvim yılında Vergi Usul Kanunu’nun 359 uncu maddesinde sayılan fiillerin (kaçakçılık suçları) işlenmemiş olması</p>",
+   "D": "<p>İndirimin hesaplanacağı beyannamenin ait olduğu yıl ile bu yıldan önceki son iki yıla ait vergi beyannamelerinin kanuni süresi içerisinde verilmiş olması</p>",
+   "E": "<p>Kanuni süresi içerisinde verilen bir beyannameye ilişkin olarak, kanuni süresinden sonra düzeltme amacıyla düzeltme beyannamesi veya pişmanlıkla beyanname verilmemiş olması</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    133,
+    512,
+    533
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-05",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 5,
+  "konu": "Vergi icra: AATUHK",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6183 sayılı Amme Alacaklarının Tahsil Usulü Hakkında Kanun’a göre, aşağıdakilerden hangisi ihtiyati haciz uygulanmasını gerektiren hallerden biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Teşebbüsün muvazaalı olduğu ve hakikatte başkasına aidiyeti hakkında deliller elde edilmişse</p>",
+   "B": "<p>Borçlunun belli ikametgahının olmaması</p>",
+   "C": "<p>Mal bildirimine çağrılan borçlunun belli müddet içinde mal bildiriminde bulunmamış veya noksan bildirimde bulunmuş olması</p>",
+   "D": "<p>Borçlu kaçmışsa veya kaçması, mallarını kaçırması ve hileli yollara sapması ihtimalleri varsa</p>",
+   "E": "<p>Borçludan teminat gösterilmesi istendiği halde belli müddette teminat veya kefil göstermemiş yahut şahsi kefalet teklifi veya gösterdiği kefil kabul edilmemişse</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    824,
+    509,
+    339
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-06",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 6,
+  "konu": "Vergi icra: AATUHK",
+  "ortakBilgi": null,
+  "metin": "<p>6183 sayılı Amme Alacaklarının Tahsil Usulü Hakkında Kanun’a göre, ihtiyati haciz sebeplerine karşı dava; haczin tatbik edildiği tarihten itibaren ---- gün içinde, gıyapta yapılan hacizlerde ise haczin tebliğ edildiği tarihten itibaren ---- gün içinde ilgili vergi mahkemesinde açılmalıdır.</p><p><strong>Bu cümledeki boşlukları sırasıyla doğru olarak tamamlayan seçenek aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>7 / 7</p>",
+   "B": "<p>15 / 15</p>",
+   "C": "<p>15 / 30</p>",
+   "D": "<p>30 / 15</p>",
+   "E": "<p>30 / 30</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    1371,
+    514,
+    225
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-07",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 7,
+  "konu": "Diğer vergiler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>488 sayılı Damga Vergisi Kanunu’na göre aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Bir nüshadan fazla olarak düzenlenen kâğıtlardan nispi vergiye tabi olanların her bir nüshası ayrı ayrı Damga Vergisine tabidir.</p>",
+   "B": "<p>Vergiye tabi kağıtların hükümlerinin uzatılmasına ilişkin şerhler Damga Vergisine tabidir.</p>",
+   "C": "<p>Resmi dairelerle kişiler arasındaki işlemlere ait kağıtların Damga Vergisini kişiler öder.</p>",
+   "D": "<p>Bir kağıtta birbirinden tamamen ayrı birden fazla akit ve işlem bulunduğu takdirde bunların her birinden ayrı ayrı vergi alınır.</p>",
+   "E": "<p>Bir kağıtta toplanan akit ve işlemler birbirine bağlı ve bir asıldan doğma oldukları takdirde, en yüksek vergi alınmasını gerektiren akit veya işlem üzerinden vergi alınır.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    648,
+    133,
+    519,
+    382
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-08",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 8,
+  "konu": "KDV",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi 3065 sayılı Katma Değer Vergisi Kanunu’na göre, Katma Değer Vergisinden istisna <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Banka ve Sigorta Muameleleri Vergisi kapsamına giren işlemler</p>",
+   "B": "<p>Gelir Vergisi Kanunu’na göre kazançları basit usulde tespit edilen mükellefler tarafından yapılan teslim ve hizmetler</p>",
+   "C": "<p>Spor-Toto oyununda ve Millî Piyango dahil her türlü piyangoda, oyuna ve piyangoya katılma bedelleri</p>",
+   "D": "<p>Külçe altın ve külçe gümüş teslimleri</p>",
+   "E": "<p>İktisadi işletmelere dahil olmayan gayrimenkullerin kiralanması işlemleri</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    648,
+    966,
+    506,
+    317
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-09",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 9,
+  "konu": "KDV",
+  "ortakBilgi": null,
+  "metin": "<p><strong>3065 sayılı Katma Değer Vergisi Kanunu’na göre, ihraç kaydıyla teslimlerde tecil terkin uygulamasına ilişkin aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>İhraç edilmek şartıyla imalatçılar tarafından kendilerine teslim edilen mallara ait KDV, ihracatçılar tarafından ödenmez.</p>",
+   "B": "<p>İmalatçılar tarafından ihraç kaydıyla teslimin yapıldığı dönemde, teslime ilişkin beyan edilen KDV, vergi dairesince tarh ve tahakkuk ettirildikten sonra tecil edilir.</p>",
+   "C": "<p>Malların, ihracatçıya teslim tarihini takip eden ay başından itibaren altı ay içinde ihraç edilmesi halinde, tecil edilen vergi terkin olunur.</p>",
+   "D": "<p>İhraç kaydıyla teslim edilen mallar, 213 sayılı Vergi Usul Kanunu’nda belirtilen mücbir sebepler nedeniyle ihraç edilemez ise, tecil edilen vergi tecil edildiği tarihten itibaren 6183 sayılı Amme Alacaklarının Tahsil Usulü Hakkında Kanun’a göre ilgili dönemler için geçerli tecil faizi ile birlikte tahsil edilir.</p>",
+   "E": "<p>İhracatın 213 sayılı Vergi Usul Kanunu’nda belirtilen mücbir sebep nedeniyle gerçekleştirilememesi halinde, sürenin dolduğu tarihten itibaren on beş gün içinde başvuran ihracatçılara üç aya kadar ek süre verilebilir.</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    68,
+    133,
+    514,
+    511
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-10",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 10,
+  "konu": "KDV",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi 3065 sayılı Katma Değer Vergisi Kanunu’na göre Katma Değer Vergisinin konusuna <u>girmez</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Tam mükellef (T) Ltd. Şti’nin, Çin’de yerleşik (X) firmasına Çin’de inşa edilecek bir fabrikanın inşasında kullanılmak üzere kendi mülkiyetinde bulunan iş makinelerini kiralaması</p>",
+   "B": "<p>Yurt dışında ikamet eden dünyaca ünlü pop şarkıcısı Bayan (J)’nin İstanbul’da konser vermesi</p>",
+   "C": "<p>Kanuni merkezi Türkiye’de bulunan (H) A.Ş.’nin yurtdışından otomobil yedek parçaları ithal etmesi</p>",
+   "D": "<p>Eskişehir’deki (B) müzayede mahallinde karma sanat eserlerinin satılması</p>",
+   "E": "<p>Ankara’da ikamet eden müteahhit (A)’nın Ankara’da arsa karşılığı yaptığı inşaat işinde, arsa sahibine arsa karşılığı konut teslim etmesi</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    985,
+    508,
+    382
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-11",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 11,
+  "konu": "KDV",
+  "ortakBilgi": null,
+  "metin": "<p>(Z) İlaç A.Ş.’nin Aralık 2025 vergilendirme dönemindeki işlemleri şu şekildedir:</p><table class=\"veri\"><tr><td>Yasal defterlerine kayıtlı mal ve hizmet alımları tutarı 100.000 ₺ olup, bu alışları nedeniyle düzenlenen faturalarda gösterilen KDV ise 10.000 ₺’dir.</td></tr><tr><td>Yasal defterlerine kayıtlı yurt içi mal teslimleri sebebiyle 500.000 ₺ tutarında fatura düzenlenmiş ve 50.000 ₺ tutarında KDV hesaplanmıştır.</td></tr><tr><td>Stoklarda bulunan ve kullanım süresi dolan 10.000 ₺ değerindeki ilaç, takdir komisyonu huzurunda bu dönemde imha edilmiş ve yasal defterlerde gider hesaplarına alınmıştır. İmha edilen ilaçlara ilişkin yüklenilen KDV tutarı 1.000 ₺’dir.</td></tr><tr><td>Şubat ayında yaptığı ilaç satışına ilişkin ödemenin Aralık ayında gecikmeli tahsil edilmesi sebebiyle 6.000 ₺ vade farkı hesaplanmıştır.</td></tr><tr><td>Önceki dönemden devreden KDV tutarı 5.000 ₺’dir.</td></tr></table><p><strong>3065 sayılı Katma Değer Vergisi Kanunu’na göre, (Z) İlaç A.Ş.’nin Aralık 2025 vergilendirme dönemine ilişkin olarak ödenecek KDV tutarı kaç ₺’dir?</strong></p><p>(İlaç teslimlerinde KDV oranı %10’dur.)</p>",
+  "secenekler": {
+   "A": "<p>34.000</p>",
+   "B": "<p>34.600</p>",
+   "C": "<p>35.600</p>",
+   "D": "<p>36.000</p>",
+   "E": "<p>36.600</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    133,
+    527,
+    608
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-12",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 12,
+  "konu": "Kurumlar vergisi",
+  "ortakBilgi": null,
+  "metin": "<p><strong>5520 sayılı Kurumlar Vergisi Kanunu’na göre, aşağıdakilerden hangisi Kurumlar Vergisi mükellefi <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>İktisadî Kamu Kuruluşları</p>",
+   "B": "<p>Türk Ticaret Kanunu’na göre kurulmuş olan Kollektif Şirketler</p>",
+   "C": "<p>Sermaye Piyasası Kurulu’nun düzenleme ve denetimine tabi Yatırım Fonları</p>",
+   "D": "<p>Kooperatifler Kanunu’na göre kurulmuş olan Kooperatifler</p>",
+   "E": "<p>Türk Ticaret Kanunu’na göre kurulmuş olan Sermayesi Paylara Bölünmüş Komandit Şirketler</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    970,
+    526,
+    296
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-13",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 13,
+  "konu": "Kurumlar vergisi",
+  "ortakBilgi": null,
+  "metin": "<p>(XYZ) A.Ş., 500.000 ₺ nakdi sermaye ile 10.02.2022 tarihinde kurulmuştur. Şirket genel kurulunun 29.12.2023 tarihinde aldığı kararla şirketin sermayesinin 3.000.000 ₺’ye çıkarılması ve bu tutarın 1.200.000 ₺’sinin şirket ortaklarınca nakden işletmeye konulması, 800.000 ₺’sinin enflasyon düzeltmesi olumlu farklarından, 500.000 ₺’sinin ise geçmiş yıl kârlarından karşılanması kararı alınmıştır. Bu karar, 10.01.2024 tarihinde tescil edilmiştir. (XYZ) A.Ş. tarafından 07.05.2025 tarihinde tescil edilen kararla şirket sermayesinin 1.000.000 ₺ azaltılması kararı alınmıştır.</p><p><strong>5520 sayılı Kurumlar Vergisi Kanunu’na göre, (XYZ) A.Ş.’nin 07.05.2025 tarihinde yaptığı sermaye azaltımı ile ilgili olarak aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>(XYZ) A.Ş. sermaye azaltımında hangi sermaye unsurundan azaltım yaptığını belirlemede serbest seçim hakkına sahip olduğundan vergileme de bu belirlemeye göre yapılacaktır.</p>",
+   "B": "<p>Şirkete konulan nakdi sermaye ile sermayeye eklenen diğer unsurların toplam sermayeye oranlanması suretiyle azaltıma konu edilen sermaye unsurları tespit edilecek ve buna göre vergileme yapılacaktır.</p>",
+   "C": "<p>Sermaye azaltımının tamamının şirkete konulan nakdi sermayeden yapıldığı kabul edilecek ve vergileme yapılmayacaktır.</p>",
+   "D": "<p>Azaltılan sermayenin 800.000 ₺’sinin enflasyon düzeltmesi olumlu farklarından, 200.000 ₺’sinin geçmiş yıl kârlarından karşılandığı kabul edilecek ve buna göre vergileme yapılacaktır.</p>",
+   "E": "<p>Azaltılan sermayenin 500.000 ₺’sinin geçmiş yıl kârlarından, 500.000 ₺’sinin ise enflasyon düzeltmesi olumlu farklarından karşılandığı kabul edilecek ve buna göre vergileme yapılacaktır.</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    133,
+    531,
+    739
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-14",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 14,
+  "konu": "Kurumlar vergisi",
+  "ortakBilgi": null,
+  "metin": "<p>Tam mükellef kurum (VYZ) A.Ş.’nin 2025 hesap döneminde ticari bilanço kazancı 5.000.000 ₺’dir. Ticari bilanço kazancının 1.000.000 ₺ tutarındaki kısmı, hisselerini elinde bulundurması sebebiyle tam mükellef (X) A.Ş.’den elde ettiği iştirak kazancından oluşmaktadır. (VYZ) A.Ş., ticari bilanço kazancının tespitinde dikkate aldığı giderlerin 500.000 ₺’sinin kanunen kabul edilmeyen gider olduğunu tespit etmiştir. (VYZ) A.Ş.’nin ayrıca 2020 yılından devreden 300.000 ₺ geçmiş yıl zararı bulunmaktadır.</p><p><strong>5520 sayılı Kurumlar Vergisi Kanunu’na göre, (VYZ) A.Ş.’nin 2025 hesap dönemi Kurumlar Vergisi matrahı kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>4.200.000</p>",
+   "B": "<p>4.500.000</p>",
+   "C": "<p>5.200.000</p>",
+   "D": "<p>5.500.000</p>",
+   "E": "<p>6.200.000</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    1065,
+    530,
+    354
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-15",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 15,
+  "konu": "Kurumlar vergisi",
+  "ortakBilgi": null,
+  "metin": "<p>Mobilya sektöründe faaliyet gösteren tam mükellef (ABC) A.Ş.’nin 2025 hesap döneminde faaliyetinde kullandığı aktifine kayıtlı binek otomobiller için yaptığı ve yasal defterlerinde gider hesaplarında takip ettiği harcamalar aşağıdaki gibi olup söz konusu giderlerin tümü bu yıl için yapılmıştır:</p><ul><li>500.000 ₺ Akaryakıt Gideri</li><li>50.000 ₺ Sigorta Gideri</li><li>30.000 ₺ Bakım Onarım Gideri</li><li>20.000 ₺ Motorlu Taşıtlar Vergisi</li></ul><p><strong>Buna göre, (ABC) A.Ş.’nin 2025 hesap dönemi kurum kazancının tespitine ilişkin olarak, Vergi Kanunları gereğince kanunen kabul edilmeyen gider olarak dikkate alınacak binek otomobil gideri kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>60.000</p>",
+   "B": "<p>78.000</p>",
+   "C": "<p>174.000</p>",
+   "D": "<p>180.000</p>",
+   "E": "<p>194.000</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    133,
+    509,
+    393
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-16",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 16,
+  "konu": "ÖTV",
+  "ortakBilgi": null,
+  "metin": "<p><strong>4760 sayılı Özel Tüketim Vergisi Kanunu’na göre, bu Kanuna ekli listelerdeki malların ihracat teslimleri ile ilgili olarak aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Teslimin; ikametgâhı, işyeri, kanuni ve iş merkezleri yurt dışında olan alıcılara yapılması ve teslim konusu malın, Türkiye Cumhuriyeti Gümrük Bölgesinden çıkmış olması şartlarının birlikte gerçekleşmesi halinde, Kanuna ekli (I), (II), (III) ve (IV) sayılı listelerdeki malların teslimi Özel Tüketim Vergisinden istisnadır.</p>",
+   "B": "<p>Teslimin, serbest bölgelerdeki alıcılara yapılması ve teslim konusu malın bir serbest bölgeye vasıl olması şartlarının birlikte gerçekleşmesi halinde, kanuna ekli (I), (II), (III) ve (IV) sayılı listelerdeki malların teslimi Özel Tüketim Vergisinden istisnadır.</p>",
+   "C": "<p>Teslimin, yurt içinde bulunan bir işletmenin yurt dışında faaliyet gösteren şubelerine yapılması ve teslim konusu malın, Türkiye Cumhuriyeti Gümrük Bölgesinden çıkmış olması şartlarının birlikte gerçekleşmesi halinde, Kanuna ekli (I), (II), (III) ve (IV) sayılı listelerdeki malların teslimi Özel Tüketim Vergisinden istisnadır.</p>",
+   "D": "<p>Kanuna ekli (I), (II), (III) ve (IV) sayılı listelerdeki malların ihraç edilmeden önce yurt dışındaki alıcı adına hareket edenlere veya bizzat alıcıya işlenmek ya da herhangi bir şekilde değerlendirilmek üzere yurt içinde teslimi ihracat teslimi sayılmadığından Özel Tüketim Vergisinden istisna değildir.</p>",
+   "E": "<p>Kanuna ekli (III) ve (IV) sayılı listelerdeki malların, 4458 sayılı Gümrük Kanunu’nun 95 inci maddesinin (1) numaralı fıkrasına göre faaliyette bulunan gümrüksüz satış mağazalarında satılmak üzere bu mağazalara veya bunların depolarına teslimi Özel Tüketim Vergisinden istisnadır.</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    839,
+    530,
+    727
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-17",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 17,
+  "konu": "Vergi usulü: cezalar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>213 sayılı Vergi Usul Kanunu’na göre, aşağıdakilerden hangisi kaçakçılık suçunu oluşturan fiillerden (eylemlerden) <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Belgelerin asıl veya suretlerini tamamen veya kısmen sahte olarak düzenlemek</p>",
+   "B": "<p>Varlığı noter tasdik kayıtları veya sair suretlerle sabit olduğu halde, inceleme sırasında vergi incelemesine yetkili kimselere, vergi kanunlarına göre tutulan veya düzenlenen ve saklanma ve ibraz mecburiyeti bulunan defter ve belgeleri ibraz etmemek</p>",
+   "C": "<p>Vergi kanunlarına göre tutulan veya düzenlenen ve saklanma ve ibraz mecburiyeti bulunan defter ve kayıtlarda hesap ve muhasebe hilesi yapmak</p>",
+   "D": "<p>Muhteviyatı itibariyle yanıltıcı belge düzenlemek</p>",
+   "E": "<p>Elektronik belge olarak düzenlenmesi gerekenler de dahil olmak üzere verilmesi icap eden faturaları alıcılara vermemek</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    57,
+    133,
+    523,
+    404
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-18",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 18,
+  "konu": "Vergi usulü: cezalar",
+  "ortakBilgi": null,
+  "metin": "<ul class=\"madde\"><li>I. Hiç verilmemiş olan vergi beyannamelerinin mükellefin haber verme dilekçesinin verildiği tarihten başlayarak 30 (otuz) gün içinde verilmesi gerekir.</li><li>II. Kendisine izaha davet yazısı tebliğ edilen mükellefler, davet konusu tespitle sınırlı olarak pişmanlık ve ıslah hükümlerinden yararlanamaz.</li><li>III. Pişmanlık ve ıslah şartlarını sağlayan mükelleflere vergi ziyaı cezası kesilmez.</li><li>IV. Pişmanlıkla beyanname verilmesi sebebiyle mükelleflere usulsüzlük ve özel usulsüzlük cezası kesilmez.</li></ul><p><strong>213 sayılı Vergi Usul Kanunu’na göre, pişmanlık ve ıslah uygulaması ile ilgili yukarıdakilerden hangileri doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>I ve II</p>",
+   "B": "<p>I ve III</p>",
+   "C": "<p>II ve III</p>",
+   "D": "<p>II ve IV</p>",
+   "E": "<p>III ve IV</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    84,
+    883,
+    504,
+    354
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-19",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 19,
+  "konu": "Vergi usulü: değerleme",
+  "ortakBilgi": null,
+  "metin": "<p>213 sayılı Vergi Usul Kanunu’na göre; “Değerleme, vergi matrahlarının hesaplanmasıyla ilgili iktisadi kıymetlerin takdir ve tespitidir.”</p><p><strong>Aşağıdakilerden hangisinde 213 sayılı Vergi Usul Kanunu’na göre iktisadi kıymetin değerleme ölçüsü <u>yanlış</u> verilmiştir?</strong></p><p><strong>İktisadi Kıymet – Değerleme Ölçüsü</strong></p>",
+  "secenekler": {
+   "A": "<p>Hisse Senedi – Borsa Rayici</p>",
+   "B": "<p>Kasa Mevcudu (₺) – İtibari Değer</p>",
+   "C": "<p>Mamuller – Maliyet Bedeli</p>",
+   "D": "<p>Kıymeti Düşen Mallar – Emsal Bedel</p>",
+   "E": "<p>Alınan Sipariş Avansları (₺) – Mukayyet Değer</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    638,
+    133,
+    505,
+    314
+   ]
+  }
+ },
+ {
+  "id": "2026-1-VER-20",
+  "donem": "2026-1",
+  "ders": "VER",
+  "no": 20,
+  "konu": "Diğer vergiler",
+  "ortakBilgi": null,
+  "metin": "<p>Almanya’da ikamet eden Türk vatandaşı (S), 2026 yılının Ocak ayında Almanya’da vefat etmiştir. Murisin Türkiye’de bulunan gayrimenkulleri, Türkiye’de bulunan ve ikamet eden mirasçılarına kalmıştır.</p><p><strong>7338 sayılı Veraset ve İntikal Vergisi Kanunu’na göre, mirasçılar Veraset ve İntikal Vergisi Beyannamesi’ni ölüm tarihini takip eden kaç ay içinde vermelidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1</p>",
+   "B": "<p>3</p>",
+   "C": "<p>4</p>",
+   "D": "<p>6</p>",
+   "E": "<p>8</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    638,
+    844,
+    519,
+    197
+   ]
+  }
+ }
+]
