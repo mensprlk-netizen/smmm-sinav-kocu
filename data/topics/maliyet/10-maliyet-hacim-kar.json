@@ -1,0 +1,76 @@
+{
+ "kod": "10-maliyet-hacim-kar",
+ "sira": 10,
+ "baslik": "Maliyet-Hacim-Kâr Analizi",
+ "amac": "Katkı payı ve katkı payı oranıyla başabaş noktasını, hedef kâr için gerekli satışı, güvenlik marjını ve faaliyet kaldıracı derecesini hesaplamak; çok mamulde ağırlıklı ortalama katkı payını kullanmak; MHK varsayımlarını bilmek.",
+ "bolumler": [
+  {
+   "baslik": "Katkı payı ve başabaş noktası",
+   "html": "<p>Maliyet-hacim-kâr (MHK) analizi satış hacmi, maliyet ve kâr arasındaki ilişkiyi inceler; bunun için giderler değişken ve sabit olarak ayrılır. <strong>Katkı payı</strong>, satış gelirinin değişken maliyetleri karşıladıktan sonra sabit maliyetleri karşılamaya ve kâra kalan kısmıdır.</p><p><strong>Birim katkı payı = Satış fiyatı − Birim değişken maliyet</strong></p><p><strong>Katkı payı oranı = Birim katkı payı ÷ Satış fiyatı</strong></p><p><strong>Faaliyet kârı = Satış miktarı × Birim katkı payı − Sabit maliyetler</strong></p><p><strong>Başabaş noktasında</strong> toplam gelir toplam maliyete eşittir, kâr sıfırdır; toplam katkı payı sabit maliyetleri tam karşılar.</p><p><strong>Başabaş miktarı = Sabit maliyetler ÷ Birim katkı payı</strong></p><p><strong>Başabaş tutarı = Sabit maliyetler ÷ Katkı payı oranı = Başabaş miktarı × Satış fiyatı</strong></p><p>Grafik fiyat 50 ₺, birim değişken maliyet 30 ₺ ve sabit maliyet 10.000 ₺ ile açılır: başabaş 500 birim, 25.000 ₺. Kaydırıcılarla fiyat artınca ya da sabit maliyet azalınca başabaş miktarının düştüğünü izleyin.</p>",
+   "gorsel": {
+    "tip": "cvp-interactive",
+    "veri": {
+     "fiyat": 50,
+     "bdm": 30,
+     "sabit": 10000,
+     "maxMiktar": 1000
+    }
+   }
+  },
+  {
+   "baslik": "Hedef kâr, güvenlik marjı ve faaliyet kaldıracı",
+   "html": "<p><strong>Hedef kâr için satış miktarı = (Sabit maliyetler + Hedef kâr) ÷ Birim katkı payı</strong></p><p><strong>Vergi sonrası hedef için: (Sabit maliyetler + Hedef net kâr ÷ (1 − Vergi oranı)) ÷ Birim katkı payı</strong></p><p><strong>Güvenlik marjı = Mevcut (bütçelenen) satış − Başabaş satışı</strong></p><p><strong>Güvenlik marjı oranı = Güvenlik marjı ÷ Mevcut satış</strong></p><p>Güvenlik marjı, işletme zarara düşmeden satışların ne kadar azalabileceğini miktar ya da tutar olarak gösterir.</p><p><strong>Faaliyet kaldıracı derecesi = Toplam katkı payı ÷ Faaliyet kârı = 1 ÷ Güvenlik marjı oranı</strong></p><p>Faaliyet kaldıracı derecesi (FKD), satışlardaki yüzde değişimin kârı kaç katı değiştireceğini gösterir: FKD 2 ise satışlar %10 artınca kâr %20 artar, %10 azalınca %20 azalır. Sabit maliyeti yüksek işletmede kaldıraç ve risk yüksektir; satış başabaşa yaklaştıkça FKD büyür.</p>"
+  },
+  {
+   "baslik": "Çok mamullü işletmede başabaş",
+   "html": "<p>Birden çok mamulde başabaş, satış karmasının sabit kaldığı varsayımıyla ağırlıklı ortalama katkı payıyla bulunur.</p><p><strong>Ağırlıklı ortalama katkı payı = Σ (Mamulün birim katkı payı × Satış karmasındaki payı)</strong></p><p><strong>Toplam başabaş miktarı = Sabit maliyetler ÷ Ağırlıklı ortalama katkı payı</strong></p><p>Örnek: X (fiyat 40, BDM 25, katkı payı 15 ₺) ve Y (fiyat 60, BDM 30, katkı payı 30 ₺) 2 : 1 oranında satılıyor; sabit maliyet 60.000 ₺. Ağırlıklı katkı payı (2 × 15 + 1 × 30) / 3 = 20 ₺; başabaş 60.000 / 20 = 3.000 birim, yani X 2.000, Y 1.000 birim. Sağlama: 2.000 × 15 + 1.000 × 30 = 60.000 ₺. Karma satış tutarı olarak verilmişse ağırlıklı katkı payı oranıyla başabaş tutarı bulunur.</p>"
+  },
+  {
+   "baslik": "MHK analizinin varsayımları",
+   "html": "<ul><li>Satış fiyatı ilgili faaliyet aralığında sabittir.</li><li>Giderler değişken ve sabit olarak ayrılabilir; birim değişken maliyet ve toplam sabit maliyet ilgili aralıkta sabittir (gelir ve maliyet fonksiyonları doğrusaldır).</li><li>Maliyetleri ve geliri etkileyen tek faktör üretim ve satış hacmidir.</li><li>Üretimin teknik verimliliği ve üretim yöntemi değişmez.</li><li>Çok mamullü işletmede satış karması sabittir.</li><li>Üretilen miktar satılan miktara eşittir; stok değişmez.</li></ul><p>Varsayımlar ilgili aralık için geçerlidir; aralığın dışında sabit maliyetler basamak yapar ve doğrusallık bozulur.</p>"
+  }
+ ],
+ "sinavYaklasimi": [
+  "2026-1-MAL-07: “Giderler, değişken ve sabit olarak ayrılmaz” MHK varsayımı değil, varsayımın tersidir (E); katkı payı ve başabaş hesabı bu ayrıma dayanır. Satış fiyatının sabitliği, maliyet fonksiyonlarının belirli olması, sabit teknik verimlilik ve hacmin tek faktör olması varsayımdır.",
+  "Yuvarlama: başabaş ya da hedef kâr miktarı küsuratlı çıkarsa birim cinsinden cevap yukarı yuvarlanır, çünkü daha az satışla hedefe ulaşılamaz (10.010 / 20 = 500,5 → en az 501 birim). Tutar sorusunda formülle bulunan tutar verilir (10.010 / 0,40 = 25.025 ₺). 2026 kitapçıklarında sayısal MHK sorusu çıkmadı; bu ana akım yaklaşımdır, şıklarda küsuratlı değer varsa onu seçin.",
+  "Sık tuzaklar: başabaş tutarını sabit ÷ birim katkı payıyla bulmak (bu miktarı verir), güvenlik marjını başabaş yerine maliyetle hesaplamak, FKD'yi kâr ÷ katkı payı olarak ters yazmak.",
+  "Vergi verilen sorularda hedef net kâr önce (1 − vergi oranı) ile bölünerek vergi öncesi kâra çevrilir, sonra sabit maliyete eklenir."
+ ],
+ "ornekler": [
+  {
+   "soru": "<p>Tek mamul üreten bir işletmede satış fiyatı 50 ₺, birim değişken maliyet 30 ₺, yıllık sabit maliyet 10.000 ₺; bütçelenen satış 1.000 birimdir.</p><p><strong>Başabaş noktasını (miktar ve tutar), 6.000 ₺ kâr için gerekli satışı, bütçelenen satıştaki kârı, güvenlik marjını ve oranını, faaliyet kaldıracı derecesini bulunuz; satışlar %10 artarsa kâr ne olur?</strong></p>",
+   "cozum": [
+    "<p><strong>1. Katkı payı.</strong> 50 − 30 = <strong>20 ₺</strong>; oran 20 / 50 = <strong>%40</strong>.</p>",
+    "<p><strong>2. Başabaş.</strong> 10.000 / 20 = <strong>500 birim</strong>; 10.000 / 0,40 = <strong>25.000 ₺</strong> (= 500 × 50).</p>",
+    "<p><strong>3. Hedef kâr.</strong> (10.000 + 6.000) / 20 = <strong>800 birim</strong>; 40.000 ₺ satış.</p>",
+    "<p><strong>4. Bütçelenen satışta.</strong> Kâr 1.000 × 20 − 10.000 = <strong>10.000 ₺</strong>. Güvenlik marjı 1.000 − 500 = <strong>500 birim (25.000 ₺)</strong>; oranı 500 / 1.000 = <strong>%50</strong>. FKD 20.000 / 10.000 = <strong>2</strong> (= 1 / 0,50).</p>",
+    "<p><strong>5. Satış %10 artarsa.</strong> 1.100 × 20 − 10.000 = <strong>12.000 ₺</strong>; kâr %20 arttı = FKD 2 × %10.</p>"
+   ]
+  }
+ ],
+ "cikmisSorular": [
+  "2026-1-MAL-07"
+ ],
+ "kartlar": [
+  {
+   "on": "Birim katkı payı ve katkı payı oranı nasıl hesaplanır?",
+   "arka": "Birim katkı payı = Satış fiyatı − Birim değişken maliyet. Katkı payı oranı = Birim katkı payı ÷ Satış fiyatı. Katkı payı önce sabit maliyetleri karşılar, kalanı kârdır."
+  },
+  {
+   "on": "Başabaş noktası miktar ve tutar olarak nasıl bulunur?",
+   "arka": "Başabaş miktarı = Sabit maliyetler ÷ Birim katkı payı (küsuratlı ise yukarı yuvarlanır). Başabaş tutarı = Sabit maliyetler ÷ Katkı payı oranı."
+  },
+  {
+   "on": "Hedef kâr için gerekli satış miktarı nasıl hesaplanır?",
+   "arka": "(Sabit maliyetler + Hedef kâr) ÷ Birim katkı payı. Vergi sonrası hedefte hedef net kâr önce (1 − vergi oranı) ile bölünür."
+  },
+  {
+   "on": "Güvenlik marjı ve faaliyet kaldıracı derecesi nedir?",
+   "arka": "Güvenlik marjı = Mevcut satış − Başabaş satışı; oranı = Güvenlik marjı ÷ Mevcut satış. FKD = Toplam katkı payı ÷ Faaliyet kârı = 1 ÷ Güvenlik marjı oranı; kârdaki % değişim = FKD × satıştaki % değişim."
+  },
+  {
+   "on": "MHK analizinin temel varsayımları nelerdir?",
+   "arka": "Satış fiyatı sabit; giderler değişken ve sabit olarak ayrılabilir, fonksiyonlar ilgili aralıkta doğrusal; tek faktör hacim; teknik verimlilik sabit; satış karması sabit; üretim = satış."
+  }
+ ]
+}
