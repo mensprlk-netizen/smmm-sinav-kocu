@@ -1,0 +1,528 @@
+[
+ {
+  "id": "2026-2-HUK-01",
+  "sonuc": "A",
+  "ozet": "İş K. md. 27’ye göre işveren yeni iş arama iznini vermez veya eksik kullandırırsa o süreye ilişkin ücret işçiye ödenir; A bunun tersini söylediği için yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> İş K. md. 27/1: Bildirim süreleri içinde işveren, işçiye yeni bir iş bulması için gerekli olan iş arama iznini <strong>iş saatleri içinde ve ücret kesintisi yapmadan</strong> vermeye mecburdur. İş arama izninin süresi <strong>günde iki saatten az olamaz</strong>; işçi isterse izin saatlerini <strong>birleştirerek toplu kullanabilir</strong>. Toplu kullanmak isteyen işçi bunu işten ayrılacağı günden önceki günlere rastlatmak ve işverene bildirmek zorundadır.</p>",
+   "<p><strong>2. Yaptırımlar.</strong> md. 27/2: İşveren yeni iş arama iznini vermez veya eksik kullandırırsa o süreye ilişkin ücret işçiye <strong>ödenir</strong>. md. 27/3: İşveren izin sırasında işçiyi çalıştırırsa, işçinin izin kullanarak çalışma karşılığı olmaksızın alacağı ücrete ilaveten, çalıştırdığı sürenin ücretini <strong>yüzde yüz zamlı</strong> öder.</p>",
+   "<p><strong>3. Uygulama.</strong> B ve C md. 27/1’in, D md. 27/1’in ikinci cümlesinin, E md. 27/3’ün aynısıdır. A ise md. 27/2’nin tersini söyler (“ödenir” yerine “ödenmez”). Yanlış ifade <strong>A</strong>’dır.</p>"
+  ],
+  "dayanak": "İş K. md. 27 (yeni iş arama izni).",
+  "tuzaklar": {
+   "B": "Doğru ifade: iş arama izni iş saatleri içinde ve ücret kesintisi yapılmadan verilir (md. 27/1).",
+   "C": "Doğru ifade: kanun günde iki saati alt sınır olarak koyar (“iki saatten az olamaz”, md. 27/1).",
+   "D": "Doğru ifade: işçi isterse izin saatlerini birleştirip toplu kullanabilir; bunu işten ayrılacağı günden önceki günlere rastlatmalı ve işverene bildirmelidir (md. 27/1).",
+   "E": "Doğru ifade: izin sırasında çalıştırılan sürenin ücreti, izin ücretine ek olarak yüzde yüz zamlı ödenir (md. 27/3)."
+  },
+  "kartlar": [
+   {
+    "on": "İş Kanunu’na göre yeni iş arama izni ne zaman, ne kadar ve nasıl kullanılır?",
+    "arka": "Bildirim süreleri içinde, iş saatleri içinde ve ücret kesintisi yapılmadan; günde en az 2 saat. İşçi isterse saatleri birleştirip toplu kullanabilir; bunu işten ayrılacağı günden önceki günlere rastlatmalı ve işverene bildirmelidir (İş K. 27)."
+   },
+   {
+    "on": "İşveren iş arama iznini vermezse veya izin sırasında işçiyi çalıştırırsa ne olur?",
+    "arka": "Vermez veya eksik kullandırırsa o süreye ilişkin ücret işçiye ödenir. İzin sırasında çalıştırırsa izin ücretine ek olarak çalıştırdığı sürenin ücretini yüzde yüz zamlı öder (İş K. 27)."
+   }
+  ],
+  "konuBaglantisi": "İş hukuku"
+ },
+ {
+  "id": "2026-2-HUK-02",
+  "sonuc": "C",
+  "ozet": "İş K. md. 63’e göre haftalık çalışma süresi en çok 45 saattir; haftanın beş günü 5 × 8 = 40 saat çalışan işçi altıncı gün en fazla 45 − 40 = 5 saat çalıştırılabilir: C.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> İş K. md. 63/1: Genel bakımdan çalışma süresi <strong>haftada en çok kırk beş saattir</strong>. Aksi kararlaştırılmamışsa bu süre, işyerlerinde haftanın çalışılan günlerine eşit ölçüde bölünerek uygulanır.</p>",
+   "<p><strong>2. Hesap.</strong> Beş günde çalışılan süre: 5 × 8 = 40 saat. Haftalık üst sınırdan kalan: 45 − 40 = <strong>5 saat</strong>. Altıncı gün en fazla 5 saat çalıştırılabilir: <strong>C</strong>.</p>",
+   "<p><strong>3. Eşit dağılımla karşılaştırma.</strong> Taraflar bir dağılım kararlaştırmasaydı 45 saat altı güne eşit bölünür, günde 45 / 6 = 7,5 saat çalışılırdı. Bu soruda beş gün için 8 saat kararlaştırıldığından altıncı güne kalan süre 5 saattir.</p>",
+   "<p><strong>4. “Genel kural olarak” ifadesi.</strong> md. 63/2’ye göre tarafların anlaşmasıyla haftalık normal çalışma süresi, günde on bir saati aşmamak koşuluyla günlere farklı dağıtılabilir; iki aylık süre içinde haftalık ortalama normal haftalık süreyi aşamaz (denkleştirme süresi toplu iş sözleşmesiyle dört aya kadar artırılabilir). md. 41/1’e göre de haftalık kırk beş saati aşan çalışmalar fazla çalışmadır. Soru bu istisnaları değil, haftalık 45 saatlik genel sınırı sorar.</p>"
+  ],
+  "dayanak": "İş K. md. 63/1–2 (çalışma süresi, denkleştirme); md. 41/1 (fazla çalışma).",
+  "tuzaklar": {
+   "A": "1 saat kanuni bir sınır değildir; haftalık 45 saatten kalan süre 5 saattir. Daha az çalıştırmak mümkündür ama soru üst sınırı soruyor.",
+   "B": "2 saat de kanuni bir sınır değildir; 45 − 40 = 5 saattir.",
+   "D": "40 + 6 = 46 saat olur; haftalık 45 saat sınırı 1 saat aşılır, aşan süre fazla çalışmadır (md. 41/1).",
+   "E": "Altıncı günü de diğer günler gibi 8 saat saymak haftalık süreyi 48 saate çıkarır; 3 saat fazla çalışma olur."
+  },
+  "kartlar": [
+   {
+    "on": "İş Kanunu’na göre haftalık çalışma süresi nedir ve günlere nasıl dağıtılır?",
+    "arka": "Genel bakımdan haftada en çok 45 saat; aksi kararlaştırılmamışsa haftanın çalışılan günlerine eşit bölünür. Anlaşmayla günde 11 saati aşmamak koşuluyla farklı dağıtılabilir; bu durumda 2 aylık (TİS ile 4 aya kadar) denkleştirme süresinde haftalık ortalama 45 saati aşamaz (İş K. 63)."
+   }
+  ],
+  "konuBaglantisi": "İş hukuku"
+ },
+ {
+  "id": "2026-2-HUK-03",
+  "sonuc": "B",
+  "ozet": "Bu soru cevap anahtarında İPTAL edilmiştir. İş K. md. 64/2 “Tatil günlerinde telafi çalışması yaptırılamaz.” dediği için işaretli B yanlış ifadedir; ancak C de Cumhurbaşkanının yetkisini yanlış aktardığından soruda iki yanlış ifade vardır.",
+  "adimlar": [
+   "<p><strong>1. İptal.</strong> Soru resmî cevap anahtarında İPTAL edilmiştir ve puanlamaya girmez; anahtarda ve kitapçıkta işaretli şık B’dir. Telafi çalışması sınavda sık sorulduğu için konu aşağıda çözülmüştür.</p>",
+   "<p><strong>2. Kural.</strong> İş K. md. 64/1: Zorunlu nedenlerle işin durması, ulusal bayram ve genel tatillerden önce veya sonra işyerinin tatil edilmesi veya benzer nedenlerle işyerinde normal çalışma sürelerinin önemli ölçüde altında çalışılması veya tamamen tatil edilmesi ya da işçinin talebi ile kendisine izin verilmesi hâllerinde, işveren <strong>dört ay içinde</strong> çalışılmayan süreler için telafi çalışması yaptırabilir. <strong>Cumhurbaşkanı bu süreyi iki katına kadar artırmaya yetkilidir.</strong> Bu çalışmalar fazla çalışma veya fazla sürelerle çalışma sayılmaz. md. 64/2: Telafi çalışmaları, günlük en çok çalışma süresini aşmamak koşulu ile günde üç saatten fazla olamaz. <strong>Tatil günlerinde telafi çalışması yaptırılamaz.</strong></p>",
+   "<p><strong>3. Şıklar.</strong> A: md. 64/2’nin aynısı, doğru. B: md. 64/2’nin tersi (“yaptırılamaz” yerine “yaptırılabilir”), <strong>yanlış</strong>. C: Kanundaki “bu süre”, hemen önceki cümledeki <em>dört aylık</em> telafi süresidir; Cumhurbaşkanı telafi çalışmasının yaptırılabileceği bu dönemi sekiz aya kadar uzatabilir. C ise yetkiyi “çalışılmayan süreyi” (telafi edilecek saatleri) artırmak diye anlatır; kanunda böyle bir yetki yoktur, bu ifade de <strong>yanlıştır</strong>. D: md. 64/1, doğru (dört aylık süre 7226 sayılı Kanun’la iki aydan dörde çıkarılmıştır). E: md. 64/1’in son cümlesi, doğru.</p>",
+   "<p><strong>4. Neden iptal edilmiş olabilir? (resmî gerekçe yayımlanmadı)</strong> Kök tek bir yanlış ifade arar. B kanunun açık tersidir ve anahtarda işaretli şıktır; C de “bu süre”nin neyi ifade ettiği bakımından kanunu yanlış aktarır. İki yanlış ifade bulunduğu için soru tek cevaplı değildir.</p>"
+  ],
+  "dayanak": "İş K. md. 64 (telafi çalışması; 1. fıkra 7226 sayılı Kanun’la değişik).",
+  "tuzaklar": {
+   "A": "Doğru ifade: telafi çalışması günlük en çok çalışma süresini aşamaz ve günde üç saatten fazla olamaz (md. 64/2).",
+   "C": "Bu ifade de kanuna uymaz: Cumhurbaşkanının iki katına kadar artırabildiği süre, telafi çalışmasının yaptırılabileceği dört aylık süredir, “çalışılmayan süre” değildir (md. 64/1). Sorunun iptal edilmesinin muhtemel nedeni budur.",
+   "D": "Doğru ifade: işçinin talebiyle izin verilmesi md. 64/1’de sayılan hâllerdendir; telafi dört ay içinde yaptırılabilir.",
+   "E": "Doğru ifade: telafi çalışmaları fazla çalışma veya fazla sürelerle çalışma sayılmaz (md. 64/1)."
+  },
+  "kartlar": [
+   {
+    "on": "Telafi çalışması hangi hâllerde ve ne kadar süre içinde yaptırılabilir?",
+    "arka": "Zorunlu nedenlerle işin durması, ulusal bayram ve genel tatillerden önce veya sonra işyerinin tatil edilmesi, benzer nedenlerle normal sürenin önemli ölçüde altında çalışılması veya tamamen tatil ya da işçinin talebiyle izin verilmesi hâllerinde; işveren dört ay içinde yaptırabilir. Cumhurbaşkanı bu dört aylık süreyi iki katına kadar artırabilir (İş K. 64)."
+   },
+   {
+    "on": "Telafi çalışmasının sınırları nelerdir?",
+    "arka": "Günlük en çok çalışma süresini aşmamak koşuluyla günde en çok 3 saat; tatil günlerinde yaptırılamaz; fazla çalışma veya fazla sürelerle çalışma sayılmaz (İş K. 64)."
+   }
+  ],
+  "konuBaglantisi": "İş hukuku"
+ },
+ {
+  "id": "2026-2-HUK-04",
+  "sonuc": "E",
+  "ozet": "İş Kanunu’nun öngördüğü yönetmelikler kural olarak Çalışma ve Sosyal Güvenlik Bakanlığınca hazırlanır: E.",
+  "adimlar": [
+   "<p><strong>1. Kanunun dili.</strong> İş Kanunu yönetmelik gerektiren konularda yetkiyi Çalışma ve Sosyal Güvenlik Bakanlığına verir. Örnekler: md. 60 (yıllık ücretli izinlerin kullanımı) “Çalışma ve Sosyal Güvenlik Bakanlığı tarafından hazırlanacak bir yönetmelikle gösterilir”; md. 63/3 (çalışma sürelerinin uygulama şekilleri) “Çalışma ve Sosyal Güvenlik Bakanlığı tarafından hazırlanacak bir yönetmelikle düzenlenir”; md. 76 (denkleştirme ve işçi postaları) “Çalışma ve Sosyal Güvenlik Bakanlığınca hazırlanacak yönetmeliklerle düzenlenir”.</p>",
+   "<p><strong>2. Uygulama.</strong> Bazı yönetmeliklerde başka bakanlıkların görüşü alınır veya yönetmelik onlarla birlikte hazırlanır, ancak kanunun genel olarak yetkilendirdiği kurum Çalışma ve Sosyal Güvenlik Bakanlığıdır: <strong>E</strong>.</p>"
+  ],
+  "dayanak": "İş K. md. 60, 63/3, 76 (Çalışma ve Sosyal Güvenlik Bakanlığınca hazırlanacak yönetmelikler).",
+  "tuzaklar": {
+   "A": "Sendikalar işçi veya işveren örgütleridir; toplu iş sözleşmesine taraf olurlar ama İş Kanunu onlara yönetmelik çıkarma yetkisi vermez.",
+   "B": "Hazine ve Maliye Bakanlığı maliye ve vergi alanının bakanlığıdır; İş Kanunu yönetmelik yetkisini bu bakanlığa vermez.",
+   "C": "Üniversiteler eğitim-öğretim kurumlarıdır; İş Kanunu’nun uygulanmasına ilişkin düzenleyici yetkileri yoktur.",
+   "D": "Adalet Bakanlığı İş Kanunu’nun yönetmeliklerini çıkarmakla görevli değildir."
+  },
+  "kartlar": [
+   {
+    "on": "İş Kanunu’na dayalı yönetmelikleri hangi kurum hazırlar?",
+    "arka": "Kural olarak Çalışma ve Sosyal Güvenlik Bakanlığı; örneğin yıllık izin (İş K. 60), çalışma sürelerinin uygulanması (63) ve denkleştirme/işçi postaları (76) yönetmelikleri."
+   }
+  ],
+  "konuBaglantisi": "İş hukuku"
+ },
+ {
+  "id": "2026-2-HUK-05",
+  "sonuc": "D",
+  "ozet": "TBK md. 147 beş yıllık zamanaşımına tabi alacakları tek tek sayar; banka kredileri ve kredi kartı borçları bu listede yoktur, md. 146’daki on yıllık genel süreye tabidir: D.",
+  "adimlar": [
+   "<p><strong>1. Genel kural.</strong> TBK md. 146: Kanunda aksine bir hüküm bulunmadıkça, her alacak <strong>on yıllık</strong> zamanaşımına tabidir.</p>",
+   "<p><strong>2. Beş yıllık süreye tabi alacaklar (md. 147).</strong> (1) Kira bedelleri, anapara faizleri ve ücret gibi diğer dönemsel edimler; (2) otel, motel, pansiyon ve tatil köyü gibi yerlerdeki konaklama bedelleri ile lokanta ve benzeri yerlerdeki yeme içme bedelleri; (3) küçük sanat işlerinden ve küçük çapta perakende satışlardan doğan alacaklar; (4) ortaklık sözleşmesinden doğan, ortaklar arasındaki veya ortaklarla ortaklık arasındaki alacaklar ile ortaklığın müdürleri, temsilcileri, denetçileri ile ortaklık veya ortaklar arasındaki alacaklar; (5) vekâlet, komisyon ve acentalık sözleşmelerinden, ticari simsarlık ücreti alacağı dışında simsarlık sözleşmesinden doğan alacaklar; (6) yüklenicinin yükümlülüklerini ağır kusuruyla hiç ya da gereği gibi ifa etmemesi dışında, eser sözleşmesinden doğan alacaklar.</p>",
+   "<p><strong>3. Eşleştirme.</strong> A = md. 147/6, B = md. 147/2, C = md. 147/3, E = md. 147/1. “Banka kredileri ve kredi kartı borçları” md. 147’de sayılmaz; bu nedenle md. 146’daki on yıllık genel süreye girer: <strong>D</strong>.</p>",
+   "<p><strong>Not.</strong> md. 147/1’deki “anapara faizleri” dönemsel faiz edimlerini anlatır; kredi ya da kart borcunun anaparası bu kapsamda değildir. md. 148’e göre bu ayırımdaki zamanaşımı süreleri sözleşmeyle değiştirilemez.</p>"
+  ],
+  "dayanak": "TBK md. 146 (on yıllık zamanaşımı), md. 147 (beş yıllık zamanaşımı), md. 148 (sürelerin kesinliği).",
+  "tuzaklar": {
+   "A": "md. 147/6’da sayılır. Dikkat: yüklenicinin ağır kusuruyla hiç veya gereği gibi ifa etmemesi hâli bu beş yıllık sürenin dışında bırakılmıştır.",
+   "B": "md. 147/2’de sayılır (konaklama ve yeme içme bedelleri).",
+   "C": "md. 147/3’te sayılır (küçük sanat işleri ve küçük çapta perakende satışlar).",
+   "E": "md. 147/1’de sayılır (kira bedelleri, anapara faizleri, ücret gibi dönemsel edimler)."
+  },
+  "kartlar": [
+   {
+    "on": "TBK’ya göre beş yıllık zamanaşımına tabi alacaklar hangileridir?",
+    "arka": "Kira, anapara faizi, ücret gibi dönemsel edimler; otel-lokanta konaklama ve yeme içme bedelleri; küçük sanat işleri ve küçük çapta perakende satış alacakları; ortaklık ilişkisinden doğan alacaklar; vekâlet, komisyon, acentalık ve (ticari simsarlık ücreti hariç) simsarlık alacakları; yüklenicinin ağır kusuru dışındaki eser sözleşmesi alacakları (TBK 147). Diğerleri kural olarak 10 yıl (TBK 146)."
+   }
+  ],
+  "konuBaglantisi": "Borçlar: genel hükümler"
+ },
+ {
+  "id": "2026-2-HUK-06",
+  "sonuc": "A",
+  "ozet": "TBK md. 31/1’deki beş hâl esaslı yanılmadır; md. 31/2’ye göre basit hesap yanlışlıkları sözleşmenin geçerliliğini etkilemez, yalnız düzeltilir: A.",
+  "adimlar": [
+   "<p><strong>1. Yanılmanın sonucu.</strong> TBK md. 30: Sözleşme kurulurken <strong>esaslı yanılmaya</strong> düşen taraf, sözleşme ile bağlı olmaz.</p>",
+   "<p><strong>2. Açıklamada yanılma (md. 31/1).</strong> Özellikle şu hâller esaslıdır: (1) yanılan, kurulmasını istediği sözleşmeden başka bir sözleşme için iradesini açıklamışsa; (2) istediğinden başka bir konu için iradesini açıklamışsa; (3) sözleşme yapma iradesini, gerçekte sözleşme yapmak istediği kişiden başkasına açıklamışsa; (4) belirli nitelikleri olan bir kişiyi dikkate almasına karşın başka bir kişi için iradesini açıklamışsa; (5) gerçekte üstlenmek istediğinden önemli ölçüde fazla bir edim veya istediğinden önemli ölçüde az bir karşı edim için iradesini açıklamışsa.</p>",
+   "<p><strong>3. Basit hesap yanlışlığı (md. 31/2).</strong> <strong>Basit hesap yanlışlıkları sözleşmenin geçerliliğini etkilemez; bunların düzeltilmesi ile yetinilir.</strong></p>",
+   "<p><strong>4. Eşleştirme.</strong> B = 31/1-1, C = 31/1-2, D = 31/1-3, E = 31/1-4; hepsi esaslı yanılmadır. A ise md. 31/2’deki basit hesap yanlışlığıdır ve esaslı yanılma sayılmaz: <strong>A</strong>.</p>",
+   "<p><strong>Not.</strong> md. 32’ye göre saikte yanılma kural olarak esaslı değildir. Esaslı yanılmaya düşen taraf, yanılmayı öğrendiği andan başlayarak bir yıl içinde sözleşmeyle bağlı olmadığını bildirmez veya verdiğini geri istemezse sözleşmeyi onamış sayılır (md. 39).</p>"
+  ],
+  "dayanak": "TBK md. 30 (yanılmanın hükmü), md. 31 (açıklamada yanılma), md. 32 (saikte yanılma), md. 39 (bir yıllık süre).",
+  "tuzaklar": {
+   "B": "Sözleşmenin türünde yanılma: md. 31/1-1’de esaslı yanılma olarak sayılır.",
+   "C": "Konuda yanılma: md. 31/1-2’de esaslı yanılma olarak sayılır.",
+   "D": "Karşı tarafın kimliğinde yanılma: md. 31/1-3’te esaslı yanılma olarak sayılır.",
+   "E": "Belirli nitelikleri olan kişide yanılma: md. 31/1-4’te esaslı yanılma olarak sayılır."
+  },
+  "kartlar": [
+   {
+    "on": "TBK 31’e göre açıklamada yanılmanın esaslı sayıldığı hâller nelerdir?",
+    "arka": "Sözleşmenin türünde, konusunda, karşı tarafın kimliğinde, belirli nitelikleri olan kişide yanılma ve önemli ölçüde fazla edim ya da önemli ölçüde az karşı edim için irade açıklama. Liste “özellikle” ifadesiyle başlar, sınırlı değildir."
+   },
+   {
+    "on": "Basit hesap yanlışlığı sözleşmeyi nasıl etkiler?",
+    "arka": "Sözleşmenin geçerliliğini etkilemez; yalnız yanlışlık düzeltilir (TBK 31/2). Esaslı yanılma sayılmaz."
+   }
+  ],
+  "konuBaglantisi": "Borçlar: genel hükümler"
+ },
+ {
+  "id": "2026-2-HUK-07",
+  "sonuc": "B",
+  "ozet": "TBK md. 162/1: birden çok borçludan her biri, alacaklıya karşı borcun tamamından sorumlu olmayı kabul ettiğini bildirirse müteselsil borçluluk doğar: B.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> TBK md. 162/1, kökteki cümlenin kaynağıdır: “Birden çok borçludan her biri, alacaklıya karşı borcun tamamından sorumlu olmayı kabul ettiğini bildirirse, <strong>müteselsil borçluluk</strong> doğar.” md. 162/2: Böyle bir bildirim yoksa, müteselsil borçluluk ancak kanunda öngörülen hâllerde doğar.</p>",
+   "<p><strong>2. Sonucu.</strong> md. 163: Alacaklı borcun tamamının veya bir kısmının ifasını dilerse borçluların hepsinden, dilerse yalnız birinden isteyebilir; borçluların sorumluluğu borcun tamamı ödeninceye kadar devam eder. Cevap <strong>B</strong>’dir.</p>",
+   "<p><strong>3. Benzer kavramlardan farkı.</strong> Bölünemeyen borçta da birden çok borçlunun her biri borcun tamamını ifa etmekle yükümlüdür (md. 85/2); ancak bu sonuç edimin bölünemez niteliğinden doğar, borçluların bildiriminden değil. Seçimlik borç (md. 87) borçlu sayısıyla ilgili değildir; birden çok edimden birinin seçilerek ifa edildiği borçtur. Edimin bölünebilir olması ise birden çok borçluyu kendiliğinden borcun tamamından sorumlu kılmaz; bunun için md. 162’deki bildirim veya bir kanun hükmü gerekir.</p>"
+  ],
+  "dayanak": "TBK md. 162 (müteselsil borçluluğun doğuşu), md. 163 (borçluların sorumluluğu), md. 85 (bölünemeyen borç), md. 87 (seçimlik borç).",
+  "tuzaklar": {
+   "A": "Bölünemeyen borçta her borçlu borcun tamamını ifa etmekle yükümlüdür (md. 85/2), ama bu edimin niteliğinden doğar; kökteki “sorumlu olmayı kabul ettiğini bildirme” md. 162’nin, yani teselsülün tanımıdır.",
+   "C": "Seçimlik borç, birden çok edimden birinin seçilerek ifa edildiği borçtur (md. 87); borçlu sayısı ve sorumluluğun kapsamıyla ilgisi yoktur.",
+   "D": "TBK’da “müşterek borç” adıyla düzenlenmiş bir borç türü yoktur; kökteki tanım md. 162/1’deki müteselsil borçluluğun tanımıdır.",
+   "E": "Edimin bölünebilir olması tek başına her borçluyu borcun tamamından sorumlu kılmaz; teselsül ancak bildirimle veya kanunun öngördüğü hâllerde doğar (md. 162/2)."
+  },
+  "kartlar": [
+   {
+    "on": "Müteselsil borçluluk nasıl doğar ve alacaklıya ne hak verir?",
+    "arka": "Birden çok borçludan her biri borcun tamamından sorumlu olmayı kabul ettiğini bildirirse veya kanun öngörürse doğar (TBK 162). Alacaklı borcun tamamını veya bir kısmını dilediği borçludan isteyebilir; sorumluluk borcun tamamı ödeninceye kadar sürer (TBK 163)."
+   }
+  ],
+  "konuBaglantisi": "Borçlar: genel hükümler"
+ },
+ {
+  "id": "2026-2-HUK-08",
+  "sonuc": "D",
+  "ozet": "TBK md. 146: Kanunda aksine bir hüküm bulunmadıkça her alacak on yıllık zamanaşımına tabidir: D.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> TBK md. 146: “Kanunda aksine bir hüküm bulunmadıkça, her alacak <strong>on yıllık</strong> zamanaşımına tabidir.” Cevap <strong>D</strong>’dir.</p>",
+   "<p><strong>2. İstisnalar ve ilgili kurallar.</strong> md. 147’de sayılan alacaklar beş yıllık zamanaşımına tabidir (kira, faiz, ücret gibi dönemsel edimler; konaklama ve yeme içme bedelleri vb.). Haksız fiilden doğan tazminat istemi, zararı ve tazminat yükümlüsünü öğrenmeden başlayarak iki yılda ve her hâlde fiilden başlayarak on yılda zamanaşımına uğrar (md. 72/1). Bu ayırımdaki süreler sözleşmeyle değiştirilemez (md. 148); zamanaşımı alacağın muaccel olmasıyla işlemeye başlar (md. 149).</p>"
+  ],
+  "dayanak": "TBK md. 146 (genel zamanaşımı), md. 147, 148, 149; md. 72/1 (haksız fiil).",
+  "tuzaklar": {
+   "A": "2 yıl, haksız fiilde zarar ve tazminat yükümlüsünün öğrenilmesinden başlayan süredir (md. 72/1); genel süre değildir.",
+   "B": "3 yıl TBK’nın genel zamanaşımı süresi değildir.",
+   "C": "5 yıl, md. 147’de tek tek sayılan alacaklara özgü süredir; genel kural on yıldır.",
+   "E": "TBK’da 20 yıllık genel bir zamanaşımı süresi yoktur."
+  },
+  "kartlar": [
+   {
+    "on": "TBK’da genel zamanaşımı süresi nedir?",
+    "arka": "Kanunda aksine hüküm yoksa her alacak 10 yıl (TBK 146). md. 147’de sayılanlar 5 yıl. Süreler sözleşmeyle değiştirilemez (148); zamanaşımı alacağın muaccel olmasıyla başlar (149)."
+   }
+  ],
+  "konuBaglantisi": "Borçlar: genel hükümler"
+ },
+ {
+  "id": "2026-2-HUK-09",
+  "sonuc": "E",
+  "ozet": "TTK md. 1526/1: poliçe, bono, çek, makbuz senedi, varant ve kambiyo senetlerine benzeyen senetler güvenli elektronik imza ile düzenlenemez; kambiyo senedi bu nedenle elektronik imzayla düzenlenemez: E.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> TTK md. 1526/1: “Poliçe, bono, çek, makbuz senedi, varant ve kambiyo senetlerine benzeyen senetler güvenli elektronik imza ile düzenlenemez. Bu senetlere ilişkin kabul, aval ve ciro gibi senet üzerinde gerçekleştirilen işlemler güvenli elektronik imza ile yapılamaz.” Poliçe, bono ve çek kambiyo senetleridir: <strong>E</strong>.</p>",
+   "<p><strong>2. Elektronik ortamda düzenlenebilen belgeler.</strong> md. 1525/1: Tarafların açıkça anlaşmaları ve md. 18/3 saklı kalmak şartıyla ihbar, ihtar, itiraz gibi beyanlar ile <strong>fatura</strong>, teyit mektubu, iştirak taahhütnamesi ve toplantı çağrıları elektronik ortamda düzenlenebilir. md. 1526/2: Konişmento, taşıma senedi ve <strong>sigorta poliçesinin</strong> imzası elle, faksimile, zımba, ıstampa, sembol şeklinde mekanik veya elektronik herhangi bir araçla da atılabilir. md. 1526/3: Tacirlere ilişkin olarak bu Kanunun zorunlu tuttuğu bütün işlemler elektronik ortamda güvenli elektronik imza ile de yapılabilir; bu işlemlerin dayanağı olan belgeler de elektronik ortamda düzenlenebilir. Tahsilat ve tediye makbuzları md. 1526/1’deki yasak listesinde yer almaz.</p>",
+   "<p><strong>3. Dikkat: “makbuz senedi” ile “tahsilat/tediye makbuzu” farklıdır.</strong> md. 1526/1’deki <em>makbuz senedi</em>, umumi mağazaların saklamak üzere kabul ettiği mal ve hububat karşılığında verdiği, ciro ile devredilebilen kıymetli evraktır (TTK md. 831/2, 832/1). Muhasebedeki tahsilat ve tediye makbuzları bu senet değildir.</p>",
+   "<p><strong>Not.</strong> Kök “elektronik imza” der; kanunun kullandığı terim “güvenli elektronik imza”dır.</p>"
+  ],
+  "dayanak": "TTK md. 1526/1–3 (güvenli elektronik imza), md. 1525/1 (elektronik ortamda düzenlenebilen beyan ve belgeler), md. 831–832 (makbuz senedi ve varant).",
+  "tuzaklar": {
+   "A": "Tahsilat makbuzu md. 1526/1’in yasak listesinde değildir; md. 1526/3 uyarınca tacirin işlemlerinin dayanağı olan belgeler elektronik ortamda düzenlenebilir. Listedeki “makbuz senedi” umumi mağaza senedidir, tahsilat makbuzu değildir.",
+   "B": "Fatura md. 1525/1’de elektronik ortamda düzenlenebilen belgeler arasında açıkça sayılır.",
+   "C": "Sigorta poliçesinin imzası elektronik araçla da atılabilir (md. 1526/2).",
+   "D": "Tediye makbuzu da yasak listesinde değildir; tahsilat makbuzu için söylenenler burada da geçerlidir."
+  },
+  "kartlar": [
+   {
+    "on": "TTK’ya göre güvenli elektronik imza ile düzenlenemeyen senetler hangileridir?",
+    "arka": "Poliçe, bono, çek, makbuz senedi, varant ve kambiyo senetlerine benzeyen senetler. Bunlar üzerindeki kabul, aval, ciro gibi işlemler de güvenli elektronik imzayla yapılamaz (TTK 1526/1)."
+   },
+   {
+    "on": "Sigorta poliçesi ve fatura elektronik ortamda düzenlenebilir mi?",
+    "arka": "Evet. Fatura elektronik ortamda düzenlenebilir (TTK 1525/1); sigorta poliçesi, konişmento ve taşıma senedinin imzası elektronik araçla da atılabilir (TTK 1526/2)."
+   }
+  ],
+  "konuBaglantisi": "Kıymetli evrak"
+ },
+ {
+  "id": "2026-2-HUK-10",
+  "sonuc": "A",
+  "ozet": "TTK md. 647: kıymetli evrakın devri için her hâlde senet üzerindeki zilyetliğin devri şarttır; emre yazılı senetlerde ayrıca ciro gerekir. Emre yazılı senet ciro ve zilyetliğin teslimiyle devredilir: A.",
+  "adimlar": [
+   "<p><strong>1. Genel şekil.</strong> TTK md. 647/1: Mülkiyet veya sınırlı bir ayni hak kurulması amacıyla kıymetli evrakın devri için <strong>her hâlde senet üzerindeki zilyetliğin devri şarttır</strong>. md. 647/2: Bundan başka <strong>emre yazılı senetlerde ciroya</strong>, nama yazılı senetlerde yazılı bir devir beyanına da gerek vardır.</p>",
+   "<p><strong>2. Ciro.</strong> md. 648/2: “Devir için ciro ve senedin zilyetliğinin geçirilmesi yeterlidir.” md. 649: Ciro edilmesi ve zilyetliğin geçirilmesiyle cirantanın hakları ciro edilene devrolunur.</p>",
+   "<table class=\"veri\"><tr><th>Senet türü</th><th>Devir için gerekenler</th></tr><tr><td>Hamile yazılı</td><td>Zilyetliğin devri (md. 647/1)</td></tr><tr><td>Emre yazılı</td><td>Ciro + zilyetliğin devri (md. 647/2, 648/2)</td></tr><tr><td>Nama yazılı</td><td>Yazılı devir beyanı + zilyetliğin devri (md. 647/2)</td></tr></table>",
+   "<p><strong>3. Uygulama.</strong> Emre yazılı senet için iki şart birlikte aranır: ciro ve zilyetliğin teslimi. Cevap <strong>A</strong>’dır.</p>"
+  ],
+  "dayanak": "TTK md. 647 (kıymetli evrakın devri), md. 648 (ciro, şekil), md. 649 (cironun hükümleri).",
+  "tuzaklar": {
+   "B": "Zilyetliğin teslimi tek başına hamile yazılı senetlerin devri için yeterlidir; emre yazılı senette ayrıca ciro gerekir (md. 647/2).",
+   "C": "Kıymetli evrakın devri her hâlde zilyetliğin devrini gerektirir (md. 647/1); sözlü beyan hiçbir senet türü için yeterli değildir.",
+   "D": "Ciro tek başına yetmez; senedin zilyetliği de geçirilmelidir (md. 647/1, 648/2).",
+   "E": "Nama yazılı senetlerde bile devir beyanının yazılı olması gerekir (md. 647/2); emre yazılı senette ise beyan değil ciro aranır."
+  },
+  "kartlar": [
+   {
+    "on": "Kıymetli evrak türlerine göre devir şartları nelerdir?",
+    "arka": "Hamile yazılı: zilyetliğin devri. Emre yazılı: ciro + zilyetliğin devri. Nama yazılı: yazılı devir beyanı + zilyetliğin devri. Zilyetliğin devri her hâlde şarttır (TTK 647, 648)."
+   }
+  ],
+  "konuBaglantisi": "Kıymetli evrak"
+ },
+ {
+  "id": "2026-2-HUK-11",
+  "sonuc": "C",
+  "ozet": "TTK md. 855’e göre taşıma hukukunda kural bir yıllık zamanaşımıdır; ancak eşya taşıyıcının kastı veya pervasızca davranışıyla geç teslim edilmişse taşıyıcının sorumluluğu üç yılda zamanaşımına uğrar (md. 855/5): C.",
+  "adimlar": [
+   "<p><strong>1. Genel kural.</strong> TTK md. 855/1: Dördüncü Kitap hükümlerine tabi taşımalarda, yolcunun bir kaza sonucu ölmesi veya bedensel bütünlüğü zedeleyen bir zarara uğraması hâlinde istem hakları <strong>on yılda</strong>; diğer zararlarda ise <strong>bir yılda</strong> zamanaşımına uğrar. md. 855/2: Süre eşya taşımasında eşyanın gönderilene teslimiyle başlar.</p>",
+   "<p><strong>2. Ağırlaştırılmış kusur istisnası.</strong> md. 855/5: Taşıyıcının kastından veya pervasızca bir davranışıyla ve böyle bir zararın meydana gelmesi ihtimalinin bilinciyle işlenmiş bir fiilinden veya ihmalinden dolayı (a) eşya zıyaa, hasara uğramış veya <strong>geç teslim edilmişse</strong>, (b) yolcu geç ulaşmışsa, taşıyıcının sorumluluğu <strong>üç yılda</strong> zamanaşımına uğrar.</p>",
+   "<p><strong>3. Uygulama.</strong> Tacir N’nin eşyası taşıyıcı L’nin kastı veya pervasızca davranışıyla geç teslim edilmiştir; md. 855/5-a uygulanır: <strong>3 yıl</strong>, <strong>C</strong>.</p>",
+   "<p><strong>Not.</strong> Kanun pervasızlık için ayrıca “böyle bir zararın meydana gelmesi ihtimalinin bilinciyle” davranılmasını arar; kök bu unsuru yazmaz ama soru açıkça bu hükmü hedefler. Kastın veya pervasızlığın bulunmadığı olağan bir geç teslimde süre bir yıldır.</p>"
+  ],
+  "dayanak": "TTK md. 855/1, 855/2 ve 855/5 (taşıma işlerinde zamanaşımı).",
+  "tuzaklar": {
+   "A": "1 yıl, kast veya pervasızlık bulunmayan “diğer zararlar” için genel süredir (md. 855/1); soruda taşıyıcının kastı veya pervasızlığı vardır.",
+   "B": "md. 855’te 2 yıllık bir süre yoktur.",
+   "D": "md. 855’te 5 yıllık bir süre yoktur.",
+   "E": "10 yıl, yolcunun kaza sonucu ölmesi veya bedensel zarara uğraması hâlindeki süredir (md. 855/1); eşyanın geç teslimine uygulanmaz."
+  },
+  "kartlar": [
+   {
+    "on": "TTK’da taşıyıcıya karşı istemler kaç yılda zamanaşımına uğrar?",
+    "arka": "Yolcunun kaza sonucu ölümü veya bedensel zararı: 10 yıl; diğer zararlar: 1 yıl. Taşıyıcının kastı veya zararın ihtimali bilinciyle pervasızca davranışıyla eşyanın zıyaı, hasarı, geç teslimi ya da yolcunun geç ulaşması: 3 yıl (TTK 855). Süre eşya taşımasında gönderilene teslimden başlar."
+   }
+  ],
+  "konuBaglantisi": "Taşıma ve sigorta hukuku"
+ },
+ {
+  "id": "2026-2-HUK-12",
+  "sonuc": "B",
+  "ozet": "TTK md. 55/1-a-10’a göre haksız rekabet, taksitle satım ilanlarında unvanı açıkça belirtmemektir; B ise unvanı açıkça belirtmeyi, yani kanunun beklediği davranışı anlatır: B.",
+  "adimlar": [
+   "<p><strong>1. Genel ilke.</strong> TTK md. 54/2: Rakipler arasında veya tedarik edenlerle müşteriler arasındaki ilişkileri etkileyen aldatıcı veya dürüstlük kuralına diğer şekillerdeki aykırı davranışlar ile ticari uygulamalar haksız ve hukuka aykırıdır. md. 55/1 başlıca hâlleri sayar.</p>",
+   "<p><strong>2. Eşleştirme.</strong> A: md. 55/1-a-7 (“müşteriyi ek edimlerle sunumun gerçek değeri hakkında yanıltmak”). C: md. 55/1-a-4 (karıştırılmaya yol açan önlemler). D: md. 55/1-a-3 (paye, diploma veya ödül almadığı hâlde bunlara sahipmişçesine hareket ederek müstesna yeteneğe malik bulunduğu zannını uyandırmaya çalışmak). E: md. 55/1-c-1 (kendisine emanet edilmiş teklif, hesap veya plan gibi bir iş ürününden yetkisiz yararlanmak). Dördü de haksız rekabettir.</p>",
+   "<p><strong>3. B şıkkı.</strong> md. 55/1-a-10: “Taksitle satım sözleşmelerine veya buna benzer hukuki işlemlere ilişkin kamuya yapılan ilanlarda unvanını açıkça <strong>belirtmemek</strong>, peşin veya toplam satış fiyatını veya taksitle satımdan kaynaklanan ek maliyeti Türk Lirası ve yıllık oranlar üzerinden belirtmemek”. B ise unvanı açıkça <em>belirtmeyi</em> anlatır; bu, dürüstlük kuralına aykırı değil, kanunun aradığı davranıştır: <strong>B</strong>.</p>"
+  ],
+  "dayanak": "TTK md. 54 (amaç ve ilke), md. 55/1 (dürüstlük kuralına aykırı davranışlar ve ticari uygulamalar): a-3, a-4, a-7, a-10, c-1.",
+  "tuzaklar": {
+   "A": "md. 55/1-a-7’deki haksız rekabet hâlidir (kanun “sunumun gerçek değeri” der).",
+   "C": "md. 55/1-a-4’teki haksız rekabet hâlidir (karıştırılmaya yol açan önlemler).",
+   "D": "md. 55/1-a-3’teki haksız rekabet hâlidir (alınmamış paye, diploma veya ödüle sahipmiş gibi davranmak).",
+   "E": "md. 55/1-c-1’deki haksız rekabet hâlidir (emanet edilen iş ürününden yetkisiz yararlanma)."
+  },
+  "kartlar": [
+   {
+    "on": "Taksitle satım ilanlarında hangi davranış haksız rekabettir?",
+    "arka": "Unvanı açıkça belirtmemek; peşin veya toplam satış fiyatını ya da taksitle satımdan kaynaklanan ek maliyeti Türk Lirası ve yıllık oranlar üzerinden belirtmemek (TTK 55/1-a-10)."
+   },
+   {
+    "on": "TTK 55’te sayılan haksız rekabet hâllerinin ana başlıkları nelerdir?",
+    "arka": "(a) Dürüstlük kuralına aykırı reklamlar ve satış yöntemleri, (b) sözleşmeyi ihlale veya sona erdirmeye yöneltmek, (c) başkalarının iş ürünlerinden yetkisiz yararlanma, (d) üretim ve iş sırlarını hukuka aykırı ifşa, (e) iş şartlarına uymamak, (f) dürüstlük kuralına aykırı işlem şartları kullanmak."
+   }
+  ],
+  "konuBaglantisi": "Ticari işletme ve tacir"
+ },
+ {
+  "id": "2026-2-HUK-13",
+  "sonuc": "D",
+  "ozet": "5510 md. 3/1-12: ücret, 4/1-a ve 4/1-c kapsamında sigortalı sayılanlara saatlik, günlük, haftalık, aylık veya yıllık olarak para ile ödenen ve süreklilik niteliği taşıyan brüt tutardır: D.",
+  "adimlar": [
+   "<p><strong>1. Tanım.</strong> 5510 md. 3/1-12: “Ücret: 4 üncü maddenin birinci fıkrasının (a) ve (c) bendi kapsamında sigortalı sayılanlara <strong>saatlik, günlük, haftalık, aylık veya yıllık</strong> olarak <strong>para ile</strong> ödenen ve <strong>süreklilik niteliği taşıyan brüt</strong> tutarı”.</p>",
+   "<p><strong>2. Tanımın üç unsuru.</strong> (i) Beş ödeme dönemi de sayılır (saatlik, günlük, haftalık, aylık, yıllık); (ii) para ile ödenmeli ve süreklilik niteliği taşımalıdır; (iii) <strong>brüt</strong> tutardır, net değil. Üç unsuru birlikte taşıyan tek şık <strong>D</strong>’dir.</p>",
+   "<p><strong>Not.</strong> Aynı maddede asgari ücret de brüt tanımlanır: 4857 sayılı İş Kanunu gereğince 16 yaşından büyük işçiler için belirlenen bir aylık <strong>brüt</strong> ücret (md. 3/1-13).</p>"
+  ],
+  "dayanak": "5510 sayılı Kanun md. 3/1-12 (ücret), md. 3/1-13 (asgari ücret).",
+  "tuzaklar": {
+   "A": "Aylık ve yıllık dönemler eksik; ayrıca tanım net değil brüt tutardır.",
+   "B": "“Süreklilik niteliği taşıyan” unsuru eksik; ayrıca net değil brüt tutardır.",
+   "C": "Saatlik, günlük ve haftalık dönemler eksik; ayrıca net değil brüt tutardır.",
+   "E": "Yıllık dönem eksik ve kanunun aradığı süreklilik unsurunun tersi (“süreklilik niteliği taşımayan”) yazılmış."
+  },
+  "kartlar": [
+   {
+    "on": "5510’a göre ücretin tanımı nedir?",
+    "arka": "4/1-a ve 4/1-c kapsamında sigortalı sayılanlara saatlik, günlük, haftalık, aylık veya yıllık olarak para ile ödenen ve süreklilik niteliği taşıyan brüt tutar (5510 md. 3/1-12)."
+   }
+  ],
+  "konuBaglantisi": "Sosyal güvenlik"
+ },
+ {
+  "id": "2026-2-HUK-14",
+  "sonuc": "E",
+  "ozet": "5510 md. 4/2-a’ya göre işçi sendikaları ve konfederasyonları ile sendika şubelerinin başkanlıklarına ve yönetim kurullarına seçilenler hakkında 4/1-a hükümleri uygulanır; diğer dört şık md. 6/1’de “sigortalı sayılmayanlar” arasındadır: E.",
+  "adimlar": [
+   "<p><strong>1. 4/a hükümlerinin uygulandığı kişiler.</strong> 5510 md. 4/2: Birinci fıkranın (a) bendi gereği sigortalı sayılanlara ilişkin hükümler; (a) <strong>işçi sendikaları ve konfederasyonları ile sendika şubelerinin başkanlıkları ve yönetim kurullarına seçilenler</strong>, (b) sanatçılar, düşünürler ve yazarlar, (c) mütekabiliyet dışındaki yabancı uyruklu hizmet akdiyle çalışanlar, (d) 4081 sayılı Kanun’a göre çalıştırılanlar, (e) 1593 sayılı Kanun’da belirtilen umumî kadınlar, (f) MEB kurslarında usta öğreticiler, ders ücreti karşılığı görevlendirilenler ve 657 sayılı Kanun’un 4/C bendi kapsamında çalıştırılanlar, (g) İŞKUR toplum yararına çalışma programlarından yararlananlar hakkında da uygulanır.</p>",
+   "<p><strong>2. Sigortalı sayılmayanlar.</strong> md. 6/1 sayar ve “4 üncü ve 5 inci maddelere göre sigortalı sayılmaz” diye biter: (a) işverenin işyerinde ücretsiz çalışan eşi; (d) askerlik hizmetini er ve erbaş olarak yapanlar ile yedek subay ve yedek astsubay okulu öğrencileri; (g) sağlık hizmet sunucuları tarafından işe alıştırılmakta olan veya rehabilite edilen hasta veya malûller; (m) Gençlik ve Spor Bakanlığı, Spor Genel Müdürlüğü, Türkiye Futbol Federasyonu ve bağımsız spor federasyonlarınca yapılan gençlik ve spor faaliyetleri ile bunlarla ilgili kamp, eğitim ve hazırlık çalışmalarında süreklilik arz etmeyecek şekilde görevlendirilenler.</p>",
+   "<p><strong>3. Eşleştirme.</strong> A = md. 6/1-m, B = md. 6/1-d, C = md. 6/1-a, D = md. 6/1-g: sigortalı sayılmaz. E = md. 4/2-a: sigortalı sayılır, <strong>E</strong>.</p>"
+  ],
+  "dayanak": "5510 sayılı Kanun md. 4/2-a (4/a hükümlerinin uygulandığı kişiler), md. 6/1-a, d, g, m (sigortalı sayılmayanlar).",
+  "tuzaklar": {
+   "A": "md. 6/1-m: spor faaliyetlerinde ve bunlarla ilgili kamp, eğitim ve hazırlık çalışmalarında süreklilik arz etmeyecek şekilde görevlendirilenler sigortalı sayılmaz.",
+   "B": "md. 6/1-d: yedek subay ve yedek astsubay okulu öğrencileri sigortalı sayılmaz.",
+   "C": "md. 6/1-a: işverenin işyerinde ücretsiz çalışan eşi sigortalı sayılmaz.",
+   "D": "md. 6/1-g: sağlık hizmet sunucularınca işe alıştırılan veya rehabilite edilen hasta veya malûller sigortalı sayılmaz."
+  },
+  "kartlar": [
+   {
+    "on": "5510 md. 6’ya göre sigortalı sayılmayanlardan bazıları kimlerdir?",
+    "arka": "İşyerinde ücretsiz çalışan işveren eşi; er-erbaşlar ile yedek subay ve yedek astsubay okulu öğrencileri; sağlık hizmet sunucularınca işe alıştırılan veya rehabilite edilen hasta ve malûller; spor faaliyetlerinde süreklilik arz etmeyecek şekilde görevlendirilenler."
+   },
+   {
+    "on": "Sendika yöneticileri 5510’a göre hangi kapsamda sigortalıdır?",
+    "arka": "İşçi sendikaları ve konfederasyonları ile sendika şubelerinin başkanlıkları ve yönetim kurullarına seçilenler hakkında 4/1-a hükümleri uygulanır (5510 md. 4/2-a)."
+   }
+  ],
+  "konuBaglantisi": "Sosyal güvenlik"
+ },
+ {
+  "id": "2026-2-HUK-15",
+  "sonuc": "A",
+  "ozet": "Gelir vergisinden muaf olup esnaf ve sanatkâr siciline kayıtlı olanlar 5510 md. 4/1-b-2’ye göre 4/b (bağımsız çalışan) sigortalısıdır; diğer dört grup hakkında md. 4/2’ye göre 4/a hükümleri uygulanır: A.",
+  "adimlar": [
+   "<p><strong>1. Üç sigortalı grubu.</strong> 5510 md. 4/1: (a) hizmet akdiyle bir veya birden fazla işveren tarafından çalıştırılanlar; (b) köy ve mahalle muhtarları ile hizmet akdine bağlı olmaksızın kendi adına ve hesabına bağımsız çalışanlar; (c) kamu idarelerinde kadro veya sözleşmeyle çalışanlar.</p>",
+   "<p><strong>2. A şıkkı 4/b’dir.</strong> md. 4/1-b-2: Bağımsız çalışanlardan “<strong>gelir vergisinden muaf olup, esnaf ve sanatkâr siciline kayıtlı olanlar</strong>”. Bu kişiler 4/a değil 4/b sigortalısıdır: <strong>A</strong>.</p>",
+   "<p><strong>3. Diğerleri 4/a hükümlerine tabidir.</strong> md. 4/2’ye göre 4/1-a hükümleri şu kişiler hakkında da uygulanır: (b) film, tiyatro, sahne, gösteri, ses ve saz sanatçıları ile müzik, resim, heykel, dekoratif ve benzeri güzel sanat kollarında çalışanlar, düşünürler ve yazarlar (B); (c) mütekabiliyet esasına dayalı sosyal güvenlik sözleşmesi yapılmış ülke uyruğunda olanlar hariç, hizmet akdiyle çalışan yabancılar (C); (d) 4081 sayılı Çiftçi Mallarının Korunması Hakkında Kanun’a göre çalıştırılanlar (D); (g) İŞKUR’un toplum yararına çalışma programlarından yararlananlar (E).</p>",
+   "<p><strong>Not.</strong> md. 6/1-k’ye göre gelir vergisinden muaf esnaftan, aylık faaliyet gelirinden masraflar düşüldükten sonra kalan tutarın prime esas günlük kazanç alt sınırının otuz katından az olduğunu belgeleyenler sigortalı sayılmaz.</p>"
+  ],
+  "dayanak": "5510 sayılı Kanun md. 4/1-b-2 (gelir vergisinden muaf esnaf), md. 4/2-b, c, d, g (4/a hükümlerinin uygulandığı kişiler), md. 6/1-k.",
+  "tuzaklar": {
+   "B": "Sanatçılar, düşünürler ve yazarlar hakkında 4/a hükümleri uygulanır (md. 4/2-b).",
+   "C": "Mütekabiliyet dışındaki yabancı uyruklu hizmet akdiyle çalışanlar 4/a kapsamındadır (md. 4/2-c).",
+   "D": "4081 sayılı Kanun’a göre çalıştırılanlar (çiftçi mallarını koruma bekçileri) 4/a kapsamındadır (md. 4/2-d).",
+   "E": "Toplum yararına çalışma programlarından yararlananlar 4/a kapsamındadır; prim ödeme yükümlüsü İŞKUR’dur ama İŞKUR işyeri ve işveren sayılmaz (md. 4/2-g)."
+  },
+  "kartlar": [
+   {
+    "on": "5510 md. 4/2’ye göre hakkında 4/a hükümleri uygulanan gruplar hangileridir?",
+    "arka": "Sendika ve konfederasyon başkan ve yönetim kurulu üyeleri; sanatçılar, düşünürler ve yazarlar; mütekabiliyet dışındaki yabancı uyruklu işçiler; 4081 sayılı Kanun’a göre çalıştırılanlar; umumî kadınlar; MEB usta öğreticileri, ders ücretliler ve 4/C’liler; İŞKUR toplum yararına çalışma programı katılımcıları."
+   },
+   {
+    "on": "Gelir vergisinden muaf esnaf 5510’da hangi kapsamdadır?",
+    "arka": "Esnaf ve sanatkâr siciline kayıtlıysa 4/1-b-2 kapsamında bağımsız çalışan (4/b) sigortalıdır. Aylık faaliyet gelirinden masraflar düşüldükten sonra kalan tutarın prime esas günlük kazanç alt sınırının otuz katından az olduğunu belgeleyen sigortalı sayılmaz (md. 6/1-k)."
+   }
+  ],
+  "konuBaglantisi": "Sosyal güvenlik"
+ },
+ {
+  "id": "2026-2-HUK-16",
+  "sonuc": "C",
+  "ozet": "5510 md. 3/1-4 ve 3/1-5: kısa vadeli sigorta kolları iş kazası ve meslek hastalığı, hastalık ve analık; uzun vadeli kollar malûllük, yaşlılık ve ölüm sigortasıdır. İşsizlik sigortası bunlardan biri değildir: C.",
+  "adimlar": [
+   "<p><strong>1. Tanımlar.</strong> 5510 md. 3/1-3: Sosyal sigortalar, kısa ve uzun vadeli sigorta kollarıdır. md. 3/1-4: <strong>Kısa vadeli</strong> sigorta kolları: iş kazası ve meslek hastalığı, hastalık ve analık sigortası. md. 3/1-5: <strong>Uzun vadeli</strong> sigorta kolları: malûllük, yaşlılık ve ölüm sigortası.</p>",
+   "<p><strong>2. Eşleştirme.</strong> A (yaşlılık) ve D (ölüm) uzun vadeli; B (analık) ve E (iş kazası ve meslek hastalığı) kısa vadeli sigorta koludur. İşsizlik sigortası iki listede de yoktur: <strong>C</strong>.</p>",
+   "<p><strong>3. İşsizlik sigortası nerede?</strong> İşsizlik sigortası 4447 sayılı İşsizlik Sigortası Kanunu’nda düzenlenir; 5510 md. 3’te sayılan kısa veya uzun vadeli sigorta kollarından biri değildir. Genel sağlık sigortası da ayrı tanımlanır (md. 3/1-8).</p>"
+  ],
+  "dayanak": "5510 sayılı Kanun md. 3/1-3, 3/1-4, 3/1-5 (sigorta kolları), md. 3/1-8 (genel sağlık sigortası); 4447 sayılı İşsizlik Sigortası Kanunu.",
+  "tuzaklar": {
+   "A": "Yaşlılık sigortası uzun vadeli sigorta koludur (md. 3/1-5).",
+   "B": "Analık sigortası kısa vadeli sigorta koludur (md. 3/1-4).",
+   "D": "Ölüm sigortası uzun vadeli sigorta koludur (md. 3/1-5).",
+   "E": "İş kazası ve meslek hastalığı sigortası kısa vadeli sigorta koludur (md. 3/1-4)."
+  },
+  "kartlar": [
+   {
+    "on": "5510’a göre kısa ve uzun vadeli sigorta kolları hangileridir?",
+    "arka": "Kısa vadeli: iş kazası ve meslek hastalığı, hastalık, analık. Uzun vadeli: malûllük, yaşlılık, ölüm (5510 md. 3). İşsizlik sigortası 4447 sayılı Kanun’dadır, bu kollardan biri değildir."
+   }
+  ],
+  "konuBaglantisi": "Sosyal güvenlik"
+ },
+ {
+  "id": "2026-2-HUK-17",
+  "sonuc": "A",
+  "ozet": "İYUK md. 7/1: özel kanunlarında ayrı süre gösterilmeyen hâllerde dava açma süresi Danıştay’da ve idare mahkemelerinde 60, vergi mahkemelerinde 30 gündür: A.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> İYUK md. 7/1: “Dava açma süresi, özel kanunlarında ayrı süre gösterilmeyen hallerde <strong>Danıştayda ve idare mahkemelerinde altmış</strong> ve <strong>vergi mahkemelerinde otuz</strong> gündür.” Cevap <strong>A</strong>’dır.</p>",
+   "<p><strong>2. Sürenin başlangıcı.</strong> md. 7/2: İdari uyuşmazlıklarda yazılı bildirimin yapıldığı; vergi uyuşmazlıklarında tahakkuku tahsile bağlı vergilerde tahsilatın, tebliğ yapılan hâllerde tebliğin, tevkif yoluyla alınan vergilerde istihkak sahiplerine ödemenin, tescile bağlı vergilerde tescilin yapıldığı tarihi izleyen günden başlar.</p>",
+   "<p><strong>3. İstinaf dava açma yeri değildir.</strong> İstinaf bir kanun yoludur: idare ve vergi mahkemesi kararlarına karşı bölge idare mahkemesine kararın tebliğinden itibaren otuz gün içinde başvurulur (md. 45/1). Temyiz süresi de otuz gündür (md. 46/1). Bu süreler dava açma süresi değildir.</p>",
+   "<p><strong>4. Özel süreler.</strong> İvedi yargılama usulünde dava açma süresi 30 gün (md. 20/A/2-a), MEB ve ÖSYM sınavlarına karşı 10 gündür (md. 20/B/1-a).</p>"
+  ],
+  "dayanak": "İYUK md. 7/1–2 (dava açma süresi), md. 45/1 (istinaf), md. 46/1 (temyiz), md. 20/A/2-a, 20/B/1-a (özel süreler).",
+  "tuzaklar": {
+   "B": "Vergi mahkemelerinde süre 60 değil 30 gündür (md. 7/1).",
+   "C": "Süreler yarıya indirilmiş: Danıştay ve idare mahkemelerinde 60, vergi mahkemelerinde 30 gündür; 15 günlük genel bir süre yoktur.",
+   "D": "İstinaf dava açılan bir yer değil, kanun yoludur (30 gün, md. 45/1). Danıştay ve idare mahkemelerinde dava açma süresi 60 gündür.",
+   "E": "İstinaf dava açma yeri değildir; ayrıca vergi mahkemesinde 30, idare mahkemesinde 60 gün olan süreler ters yazılmıştır."
+  },
+  "kartlar": [
+   {
+    "on": "İYUK’a göre genel dava açma süreleri nedir?",
+    "arka": "Özel kanunda ayrı süre yoksa Danıştay ve idare mahkemelerinde 60 gün, vergi mahkemelerinde 30 gün (İYUK 7/1). Süre yazılı bildirimi (vergi uyuşmazlıklarında tebliğ, tahsilat, ödeme veya tescili) izleyen günden başlar."
+   }
+  ],
+  "konuBaglantisi": "İdari yargı"
+ },
+ {
+  "id": "2026-2-HUK-18",
+  "sonuc": "E",
+  "ozet": "İYUK md. 6/5: dava açıldıktan sonra posta ücreti tebligatı engelleyecek şekilde azalır ve tebligata rağmen tamamlanmazsa dosya işlemden kaldırılır; bu kararın tebliğinden itibaren üç ay içinde yenilenmezse dava açılmamış sayılır: E.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> İYUK md. 6/5: Dava açıldıktan sonra posta ücretinde tebliğ işlemlerinin yapılmasını engelleyecek şekilde azalma olması hâlinde, <strong>otuz gün içinde</strong> posta ücretinin tamamlanması ilgiliye tebliğ olunur. Tebligata rağmen gereği yerine getirilmezse bildirim aynı şekilde <strong>bir daha</strong> tekrarlanır. Posta ücreti süresi içinde tamamlanmazsa <strong>dosyanın işlemden kaldırılmasına</strong> karar verilir. Bu kararın tebliği tarihinden başlayarak <strong>üç ay</strong> içinde noksan tamamlanarak yeniden işleme konulması istenmezse <strong>davanın açılmamış sayılmasına</strong> karar verilir ve davacıya tebliğ olunur.</p>",
+   "<p><strong>2. Uygulama.</strong> Mükellef A tebligata rağmen posta ücretini yatırmamıştır. Kanunun öngördüğü sonuç dosyanın işlemden kaldırılması ve süresinde yenilenmezse davanın açılmamış sayılmasıdır: <strong>E</strong>.</p>",
+   "<p><strong>Not (şıkkın kısaltması).</strong> E iki aşamayı tek cümlede birleştirir. Kanuna göre önce bildirim bir kez daha tekrarlanır; dava açılmamış sayılma kararı da kendiliğinden değil, işlemden kaldırma kararının tebliğinden itibaren üç ay içinde yenileme istenmezse verilir. Diğer şıklardaki sonuçlar md. 6/5’te hiç yer almadığından cevap E’dir.</p>",
+   "<p><strong>3. md. 6/4 ile farkı.</strong> Dava hiç harç veya posta ücreti verilmeden ya da eksik harç veya posta ücretiyle açılmışsa (md. 6/4) otuz günlük bildirim bir kez tekrarlanır ve süresinde tamamlanmazsa <strong>doğrudan</strong> davanın açılmamış sayılmasına karar verilir; işlemden kaldırma aşaması yoktur. md. 6/5 ise davanın açılmasından <em>sonra</em> posta ücretinin azalmasını düzenler. Her iki fıkradaki tebligat re’sen genel bütçeden yapılır (md. 6/6).</p>"
+  ],
+  "dayanak": "İYUK md. 6/4, 6/5, 6/6 (harç ve posta ücretinin eksikliği).",
+  "tuzaklar": {
+   "A": "md. 6/5 davanın ertelenmesi diye bir sonuç öngörmez; ücret tamamlanmazsa dosya işlemden kaldırılır.",
+   "B": "Esastan ret, uyuşmazlığın esası incelenerek verilen karardır; posta ücretinin eksikliği usule ilişkin bir sorundur ve kanundaki sonucu işlemden kaldırmadır.",
+   "C": "Yürütmenin durdurulması, dava konusu idari işlemin uygulanmasını durduran bir ara karardır; posta ücretiyle ilgisi yoktur.",
+   "D": "Kanunda 6 aylık bir süre yoktur: tamamlama için 30 gün (bildirim bir kez tekrarlanır), işlemden kaldırmadan sonra yenileme için 3 ay öngörülür."
+  },
+  "kartlar": [
+   {
+    "on": "İYUK’a göre dava açıldıktan sonra posta ücreti azalır ve tamamlanmazsa ne olur?",
+    "arka": "30 gün içinde tamamlanması tebliğ edilir, yapılmazsa bildirim bir kez tekrarlanır; yine tamamlanmazsa dosya işlemden kaldırılır. Bu kararın tebliğinden itibaren 3 ay içinde noksan tamamlanıp yenileme istenmezse dava açılmamış sayılır (İYUK 6/5)."
+   },
+   {
+    "on": "Dava harç veya posta ücreti eksik açılırsa İYUK’a göre ne olur?",
+    "arka": "30 gün içinde tamamlanması tebliğ edilir, yapılmazsa bildirim bir kez tekrarlanır; süresinde verilmez veya tamamlanmazsa doğrudan davanın açılmamış sayılmasına karar verilir (İYUK 6/4)."
+   }
+  ],
+  "konuBaglantisi": "İdari yargı"
+ },
+ {
+  "id": "2026-2-HUK-19",
+  "sonuc": "D",
+  "ozet": "İYUK md. 28/1: idare, esasa ve yürütmenin durdurulmasına ilişkin kararların icaplarına göre gecikmeksizin işlem tesis etmeye veya eylemde bulunmaya mecburdur; bu süre kararın idareye tebliğinden başlayarak otuz günü geçemez: D.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> İYUK md. 28/1: Danıştay, bölge idare mahkemeleri, idare ve vergi mahkemelerinin esasa ve yürütmenin durdurulmasına ilişkin kararlarının icaplarına göre idare, gecikmeksizin <strong>işlem tesis etmeye veya eylemde bulunmaya</strong> mecburdur. Bu süre hiçbir şekilde kararın idareye tebliğinden başlayarak <strong>otuz günü</strong> geçemez.</p>",
+   "<p><strong>2. Eleme.</strong> Doğru şıkta iki unsur birlikte bulunmalıdır: “işlem tesis etmeye <em>veya eylemde bulunmaya</em>” ve “otuz gün”. A, B ve E eylemde bulunma yükümlülüğünü yazmaz ve süreyi yanlış verir (60, 7, 90 gün); C iki yükümlülüğü yazar ama süreyi 10 gün verir. Her iki unsuru doğru veren <strong>D</strong>’dir.</p>",
+   "<p><strong>3. Kararın uygulanmaması.</strong> Kararlara göre işlem tesis edilmeyen veya eylemde bulunulmayan hâllerde idare aleyhine Danıştay’da ve ilgili idari mahkemede maddi ve manevi tazminat davası açılabilir (md. 28/3). Kararlar süresinde kamu görevlilerince yerine getirilmezse tazminat davası ancak ilgili idare aleyhine açılabilir (md. 28/4).</p>",
+   "<p><strong>Not.</strong> 2/7/2026 tarihli 7588 sayılı Kanun md. 28/1’e bir cümle eklemiştir: Millî Savunma Bakanlığı, Jandarma, Sahil Güvenlik, Emniyet ve MİT personeli gibi belirli gruplarda, terör örgütleriyle iltisak gibi gerekçelere dayanan bazı davalarda verilen ve göreve iade sonucunu doğuran kararlar uyarınca tesis edilecek işlemler, nihai kararların kesinleşmesinden sonra yerine getirilir. Otuz günlük genel kuralı ve bu sorunun cevabını değiştirmez.</p>"
+  ],
+  "dayanak": "İYUK md. 28/1 (7588 sayılı Kanun’la eklenen cümle dahil), md. 28/3–4 (kararların sonuçları).",
+  "tuzaklar": {
+   "A": "Eylemde bulunma yükümlülüğü eksik; süre 60 değil 30 gündür.",
+   "B": "Eylemde bulunma yükümlülüğü eksik; süre 7 değil 30 gündür.",
+   "C": "Yükümlülükler doğru yazılmış ama süre 10 değil 30 gündür.",
+   "E": "Eylemde bulunma yükümlülüğü eksik; süre 90 değil 30 gündür."
+  },
+  "kartlar": [
+   {
+    "on": "İdare, idari yargı kararlarını ne kadar sürede uygulamak zorundadır?",
+    "arka": "Esasa ve yürütmenin durdurulmasına ilişkin kararların gereğine göre gecikmeksizin işlem tesis etmek veya eylemde bulunmak zorundadır; süre kararın idareye tebliğinden başlayarak hiçbir şekilde 30 günü geçemez (İYUK 28/1). Uygulanmazsa idare aleyhine maddi ve manevi tazminat davası açılabilir (28/3)."
+   }
+  ],
+  "konuBaglantisi": "İdari yargı"
+ },
+ {
+  "id": "2026-2-HUK-20",
+  "sonuc": "C",
+  "ozet": "İYUK md. 20/B/1-a: MEB ve ÖSYM tarafından yapılan merkezî ve ortak sınavlar, bunlara ilişkin iş ve işlemler ile sınav sonuçlarına karşı dava açma süresi on gündür: C.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> İYUK md. 20/B/1: Millî Eğitim Bakanlığı ile Ölçme, Seçme ve Yerleştirme Merkezi tarafından yapılan merkezî ve ortak sınavlar, bu sınavlara ilişkin iş ve işlemler ile sınav sonuçları hakkında açılan davalarda (a) <strong>dava açma süresi on gündür</strong>. Cevap <strong>C</strong>’dir.</p>",
+   "<p><strong>2. Aynı maddedeki diğer süreler.</strong> Yedi gün içinde ilk inceleme yapılır ve dilekçe tebliğe çıkarılır (c); savunma süresi üç gündür, bir defaya mahsus en fazla üç gün uzatılabilir (ç); dava dosyanın tekemmülünden itibaren en geç on beş gün içinde karara bağlanır (e); nihai kararlara karşı tebliğden itibaren beş gün içinde temyize başvurulabilir (f); temyiz dilekçelerine cevap süresi beş gündür (ğ); temyiz istemi en geç on beş gün içinde karara bağlanır (ı).</p>",
+   "<p><strong>3. Karşılaştırma.</strong> Genel dava açma süresi Danıştay ve idare mahkemelerinde 60, vergi mahkemelerinde 30 gündür (md. 7/1); ivedi yargılama usulünde 30 gündür (md. 20/A/2-a). Sınav davalarındaki 10 gün, İYUK’ta düzenlenen dava açma süreleri (60, 30, 30 ve 10 gün) içinde en kısasıdır. Ayrıca bu davalarda verilen yürütmenin durdurulması ve iptal kararları, sınava katılan kişilerin lehine sonuç doğuracak şekilde uygulanır (md. 20/B/2).</p>"
+  ],
+  "dayanak": "İYUK md. 20/B (merkezî ve ortak sınavlara ilişkin yargılama usulü); md. 7/1, 20/A/2-a (karşılaştırma).",
+  "tuzaklar": {
+   "A": "5 gün, bu davalarda verilen nihai kararlara karşı temyiz süresidir (md. 20/B/1-f); dava açma süresi değildir.",
+   "B": "7 gün, ilk incelemenin yapılma süresidir (md. 20/B/1-c).",
+   "D": "15 gün, davanın dosyanın tekemmülünden itibaren karara bağlanma süresidir (md. 20/B/1-e).",
+   "E": "30 gün, ivedi yargılama usulündeki (md. 20/A/2-a) ve vergi mahkemelerindeki genel dava açma süresidir (md. 7/1)."
+  },
+  "kartlar": [
+   {
+    "on": "MEB ve ÖSYM sınavlarına karşı dava açma süresi kaç gündür?",
+    "arka": "10 gün (İYUK 20/B/1-a). Temyiz süresi 5 gün; ilk inceleme 7 gün; karar 15 gün içinde verilir."
+   },
+   {
+    "on": "İYUK’ta ivedi yargılama usulünde dava açma süresi kaç gündür?",
+    "arka": "30 gün (İYUK 20/A/2-a). Genel süreler: Danıştay ve idare mahkemesinde 60, vergi mahkemesinde 30 gün (İYUK 7/1)."
+   }
+  ],
+  "konuBaglantisi": "İdari yargı"
+ }
+]

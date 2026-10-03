@@ -1,0 +1,562 @@
+[
+ {
+  "id": "2026-2-HUK-01",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 1,
+  "konu": "İş hukuku",
+  "ortakBilgi": null,
+  "metin": "<p><strong>4857 sayılı İş Kanunu’na göre, yeni iş arama izniyle ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>İşveren yeni iş arama iznini vermez veya eksik kullandırırsa o süreye ilişkin ücret işçiye ödenmez.</p>",
+   "B": "<p>İşveren iş saatleri içinde ve ücret kesintisi yapmadan izin vermeye mecburdur.</p>",
+   "C": "<p>İş arama izninin süresi, günde iki saatten az olamaz.</p>",
+   "D": "<p>İşçi isterse iş arama izin saatlerini birleştirerek toplu kullanabilir.</p>",
+   "E": "<p>İşveren, iş arama izni esnasında işçiyi çalıştırır ise işçinin izin kullanarak bir çalışma karşılığı olmaksızın alacağı ücrete ilaveten, çalıştırdığı sürenin ücretini yüzde yüz zamlı öder.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    217,
+    520,
+    317
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-02",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 2,
+  "konu": "İş hukuku",
+  "ortakBilgi": null,
+  "metin": "<p><strong>4857 sayılı İş Kanunu’nun çalışma süresini düzenleyen 63. maddesine göre, haftada 6 gün çalışılan bir işyerinde haftanın beş günü 8 saat çalışması kararlaştırılan bir işçi altıncı gün genel kural olarak <u>en fazla</u> kaç saat çalıştırılabilir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1</p>",
+   "B": "<p>2</p>",
+   "C": "<p>5</p>",
+   "D": "<p>6</p>",
+   "E": "<p>8</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    708,
+    513,
+    141
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-03",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 3,
+  "konu": "İş hukuku",
+  "ortakBilgi": null,
+  "metin": "<p><strong>4857 sayılı İş Kanunu’na göre, telafi çalışmasıyla ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Günlük en çok çalışma süresini aşmamak koşuluyla yerine getirilir. Günde üç saatten fazla olamaz.</p>",
+   "B": "<p>Tatil günlerinde telafi çalışması yaptırılabilir.</p>",
+   "C": "<p>Cumhurbaşkanı çalışılmayan süreyi iki katına kadar artırmaya yetkilidir.</p>",
+   "D": "<p>İşçinin talebi ile kendisine izin verilmesi halinde işveren dört ay içinde çalışılmayan süreler için telafi çalışması yaptırabilir.</p>",
+   "E": "<p>Bu tip çalışmalar fazla çalışma sayılmaz.</p>"
+  },
+  "dogru": "B",
+  "iptal": true,
+  "cevapNotu": "Bu soru cevap anahtarında İPTAL edilmiştir (kitapçıkta soru “Değerlendirme Dışı” damgalıdır); anahtardaki ve kitapçıkta işaretli şık: B. Muhtemel gerekçe (resmî gerekçe yayımlanmadı): kök “yanlıştır” diye sorar; B (“Tatil günlerinde telafi çalışması yaptırılabilir.”) İş Kanunu md. 64/2’ye göre yanlıştır, çünkü kanun “Tatil günlerinde telafi çalışması yaptırılamaz.” der. Ancak C de kanunu yanlış aktarır: md. 64/1’e göre Cumhurbaşkanı “çalışılmayan süreyi” değil, telafi çalışmasının yaptırılabileceği dört aylık süreyi iki katına kadar artırmaya yetkilidir. Böylece soruda iki yanlış ifade (B ve C) bulunmaktadır.",
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    986,
+    506,
+    274
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-04",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 4,
+  "konu": "İş hukuku",
+  "ortakBilgi": null,
+  "metin": "<p><strong>4857 sayılı İş Kanunu ile ilgili yönetmelikleri çıkarmakla yetkili kurum aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Sendikalar</p>",
+   "B": "<p>Hazine ve Maliye Bakanlığı</p>",
+   "C": "<p>Üniversiteler</p>",
+   "D": "<p>Adalet Bakanlığı</p>",
+   "E": "<p>Çalışma ve Sosyal Güvenlik Bakanlığı</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    1406,
+    518,
+    188
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-05",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 5,
+  "konu": "Borçlar: genel hükümler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6098 sayılı Türk Borçlar Kanunu’na göre, aşağıdakilerden hangisi Kanun’da aksine bir hüküm bulunmadıkça, 5 yıllık zamanaşımına tabi alacaklardan <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yüklenicinin yükümlülüklerini ağır kusuruyla hiç ya da gereği gibi ifa etmemesi dışında, eser sözleşmesinden doğan alacaklar</p>",
+   "B": "<p>Otel, motel, pansiyon ve tatil köyü gibi yerlerdeki konaklama bedelleri ile lokanta ve benzeri yerlerdeki yeme içme bedelleri</p>",
+   "C": "<p>Küçük sanat işlerinden ve küçük çapta perakende satışlardan doğan alacaklar</p>",
+   "D": "<p>Banka kredileri ve kredi kartı borçları</p>",
+   "E": "<p>Kira bedelleri, anapara faizleri ve ücret gibi diğer dönemsel edimler</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    133,
+    510,
+    360
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-06",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 6,
+  "konu": "Borçlar: genel hükümler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi 6098 sayılı Türk Borçlar Kanunu’nda “açıklamada yanılma”yı düzenleyen madde 31’e göre esaslı yanılma <u>sayılmaz</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yanılan, basit hesap yanlışları yapmışsa</p>",
+   "B": "<p>Yanılan, kurulmasını istediği sözleşmeden başka bir sözleşme için iradesini açıklamışsa</p>",
+   "C": "<p>Yanılan, istediğinden başka bir konu için iradesini açıklamışsa</p>",
+   "D": "<p>Yanılan, sözleşme yapma iradesini, gerçekte sözleşme yapmak istediği kişiden başkasına açıklamışsa</p>",
+   "E": "<p>Yanılan, sözleşmeyi yaparken belirli nitelikleri olan bir kişiyi dikkate almasına karşın başka bir kişi için iradesini açıklamışsa</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    596,
+    514,
+    317
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-07",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 7,
+  "konu": "Borçlar: genel hükümler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6098 sayılı Türk Borçlar Kanunu’na göre, “Birden çok borçludan her biri, alacaklıya karşı borcun tamamından sorumlu olmayı kabul ettiğini bildirirse” aşağıdaki hangi borç ilişkisi doğar?</strong></p>",
+  "secenekler": {
+   "A": "<p>Bölünemeyen borç</p>",
+   "B": "<p>Müteselsil borç</p>",
+   "C": "<p>Seçimlik borç</p>",
+   "D": "<p>Müşterek borç</p>",
+   "E": "<p>Bölünebilir borç</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    1060,
+    518,
+    231
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-08",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 8,
+  "konu": "Borçlar: genel hükümler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6098 sayılı Türk Borçlar Kanunu’na göre, Kanun’da aksine bir hüküm bulunmadıkça, her alacak kaç yıllık genel zamanaşımına tabidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>2</p>",
+   "B": "<p>3</p>",
+   "C": "<p>5</p>",
+   "D": "<p>10</p>",
+   "E": "<p>20</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    1465,
+    497,
+    98
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-09",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 9,
+  "konu": "Kıymetli evrak",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6102 sayılı Türk Ticaret Kanunu’na göre, aşağıdaki evraktan hangisini elektronik imza ile düzenleme imkanı <u>yoktur</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Tahsilat makbuzu</p>",
+   "B": "<p>Fatura</p>",
+   "C": "<p>Sigorta poliçesi</p>",
+   "D": "<p>Tediye makbuzu</p>",
+   "E": "<p>Kambiyo senedi</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    133,
+    476,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-10",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 10,
+  "konu": "Kıymetli evrak",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6102 sayılı Türk Ticaret Kanunu’na göre, emre yazılı kıymetli evrakın devri her halükârda aşağıdaki hangi durumda gerçekleşmiş olur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Ciro ve zilyetliğin teslimi</p>",
+   "B": "<p>Zilyetliğin teslimi</p>",
+   "C": "<p>Sözlü devir beyanı</p>",
+   "D": "<p>Cirosu</p>",
+   "E": "<p>Sözlü devir beyanı ve zilyetliğin teslimi</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    57,
+    460,
+    501,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-11",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 11,
+  "konu": "Taşıma ve sigorta hukuku",
+  "ortakBilgi": null,
+  "metin": "<p>Tacir N’nin eşyası, taşıyıcı L’nin kastı veya pervasızca bir davranışıyla geç teslim edilmiştir.</p><p><strong>6102 sayılı Türk Ticaret Kanunu’na göre, taşıma işindeki geç teslim nedeniyle Tacir N’nin uğradığı zarara ilişkin taşıyıcı L’nin sorumluluğu kaç yılda zamanaşımına uğrar?</strong></p>",
+  "secenekler": {
+   "A": "<p>1</p>",
+   "B": "<p>2</p>",
+   "C": "<p>3</p>",
+   "D": "<p>5</p>",
+   "E": "<p>10</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    57,
+    816,
+    511,
+    175
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-12",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 12,
+  "konu": "Ticari işletme ve tacir",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi 6102 sayılı Türk Ticaret Kanunu’na göre, dürüstlük kuralına aykırı davranış ile ticari uygulamalardan biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Müşteriyi ek edimlerle ürünün gerçek değeri hakkında yanıltmak</p>",
+   "B": "<p>Taksitle satım sözleşmelerine ilişkin kamuya yapılan ilanlarda unvanını açıkça belirtmek</p>",
+   "C": "<p>Başkasının malları, iş ürünleri, faaliyetleri veya işleri ile karıştırılmaya yol açan önlemler almak</p>",
+   "D": "<p>Paye, diploma veya ödül almadığı hâlde bunlara sahipmişçesine göstermek</p>",
+   "E": "<p>Kendisine emanet edilmiş teklif, hesap veya plan gibi bir iş ürününden yetkisiz yararlanmak</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    57,
+    1162,
+    525,
+    317
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-13",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 13,
+  "konu": "Sosyal güvenlik",
+  "ortakBilgi": null,
+  "metin": "<p><strong>5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu dördüncü maddenin birinci fıkrasının (a) ve (c) bendinde sigortalı sayılanlara göre madde 3/12 bendi kapsamında, ücretin tanımı aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Sigortalı sayılanlara saatlik, günlük veya haftalık olarak para ile ödenen ve süreklilik niteliği taşıyan net tutarı ifade eder.</p>",
+   "B": "<p>Sigortalı sayılanlara saatlik, günlük, haftalık, aylık veya yıllık olarak para ile ödenen net tutarı ifade eder.</p>",
+   "C": "<p>Sigortalı sayılanlara aylık veya yıllık olarak para ile ödenen ve süreklilik niteliği taşıyan net tutarı ifade eder.</p>",
+   "D": "<p>Sigortalı sayılanlara saatlik, günlük, haftalık, aylık veya yıllık olarak para ile ödenen ve süreklilik niteliği taşıyan brüt tutarı ifade eder.</p>",
+   "E": "<p>Sigortalı sayılanlara saatlik, günlük, haftalık veya aylık olarak para ile ödenen ve süreklilik niteliği taşımayan brüt tutarı ifade eder.</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    133,
+    524,
+    425
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-14",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 14,
+  "konu": "Sosyal güvenlik",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi 5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu’nun kısa ve uzun vadeli sigorta kolları hükümlerinin uygulanmasında aynı kanunun 4. ve 5. maddelerine göre sigortalı sayılır?</strong></p>",
+  "secenekler": {
+   "A": "<p>Spor faaliyetleri ile bu faaliyetlerle ilgili kamp, eğitim ve hazırlık çalışmalarında süreklilik arz etmeyecek şekilde görevlendirilenler</p>",
+   "B": "<p>Yedek subay ve yedek astsubay okulu öğrencileri</p>",
+   "C": "<p>İşverenin işyerinde ücretsiz çalışan eşi</p>",
+   "D": "<p>Sağlık hizmet sunucuları tarafından işe alıştırılmakta olan veya rehabilite edilen, hasta veya malûller</p>",
+   "E": "<p>İşçi sendikaları ve konfederasyonları ile sendika şubelerinin başkanlıkları ve yönetim kurullarına seçilenler</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    704,
+    516,
+    360
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-15",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 15,
+  "konu": "Sosyal güvenlik",
+  "ortakBilgi": null,
+  "metin": "<p><strong>5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu’na göre, aşağıdakilerden hangisi 4/a sigortalısı kapsamında <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Gelir vergisinden muaf olup esnaf ve sanatkâr siciline kayıtlı olanlar</p>",
+   "B": "<p>Bir veya birden fazla işveren tarafından çalıştırılan; sanatçılar ile müzik, resim, heykel, dekoratif ve benzeri diğer uğraşları içine alan bütün güzel sanat kollarında çalışanlar ile düşünürler ve yazarlar</p>",
+   "C": "<p>Mütekabiliyet esasına dayalı olarak uluslararası sosyal güvenlik sözleşmesi yapılmış ülke uyruğunda olanlar hariç olmak üzere, yabancı uyruklu kişilerden hizmet akdi ile çalışanlar</p>",
+   "D": "<p>4081 sayılı Çiftçi Mallarının Korunması Hakkında Kanun’a göre çalıştırılanlar</p>",
+   "E": "<p>Türkiye İş Kurumu tarafından düzenlenen toplum yararına çalışma programlarından yararlananlar</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    1210,
+    527,
+    403
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-16",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 16,
+  "konu": "Sosyal güvenlik",
+  "ortakBilgi": null,
+  "metin": "<p><strong>5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu madde 3’e göre aşağıdakilerden hangisi kısa ve uzun vadeli sigorta kollarından biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yaşlılık sigortası</p>",
+   "B": "<p>Analık sigortası</p>",
+   "C": "<p>İşsizlik sigortası</p>",
+   "D": "<p>Ölüm sigortası</p>",
+   "E": "<p>İş kazası ve meslek hastalığı sigortası</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    133,
+    518,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-17",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 17,
+  "konu": "İdari yargı",
+  "ortakBilgi": null,
+  "metin": "<p><strong>2577 sayılı İdari Yargılama Usulü Kanunu’na göre, idari yargıda dava açma süresi ile ilgili aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Danıştay’da ve idare mahkemelerinde 60 gün, vergi mahkemelerinde 30 gün</p>",
+   "B": "<p>Danıştay, idare mahkemeleri ve vergi mahkemelerinde 60 gün</p>",
+   "C": "<p>Danıştay ve idare mahkemelerinde 30 gün, vergi mahkemelerinde 15 gün</p>",
+   "D": "<p>Danıştay, istinaf ve idare mahkemeleri ile vergi mahkemelerinde 30 gün</p>",
+   "E": "<p>Danıştay, istinaf ve vergi mahkemelerinde 60 gün, idare mahkemelerinde 30 gün</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    572,
+    525,
+    317
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-18",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 18,
+  "konu": "İdari yargı",
+  "ortakBilgi": null,
+  "metin": "<p>2577 sayılı İdari Yargılama Usulü Kanunu’na göre, vergi mahkemesine dava açan Mükellef A’nın posta ücretinde tebligatı engelleyecek şekilde azalma olmuştur. Mükellef A’ya posta ücretinin tamamlanması hususunda tebligat yapıldığı halde ücret yatırılmamıştır.</p><p><strong>Bu durumda mahkemece aşağıdaki kararlardan hangisi verilir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Dava bir sonraki celseye ertelenir.</p>",
+   "B": "<p>Davanın esastan reddine karar verilir.</p>",
+   "C": "<p>Yürütmenin durdurulmasına karar verilir.</p>",
+   "D": "<p>Tebligat ücretinin yatırılması için 6 ay süre verilir.</p>",
+   "E": "<p>Dosya işlemden kaldırılır, dava açılmamış sayılır.</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    1146,
+    528,
+    308
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-19",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 19,
+  "konu": "İdari yargı",
+  "ortakBilgi": null,
+  "metin": "<p><strong>2577 sayılı İdari Yargılama Usulü Kanunu’na göre; Danıştay, bölge idare mahkemeleri, idare ve vergi mahkemelerinin esasa ve yürütmenin durdurulmasına ilişkin kararlarının sonuçları ile ilgili aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>İdare, gecikmeksizin işlem tesis etmeye mecburdur. Bu süre hiçbir şekilde kararın idareye tebliğinden başlayarak altmış günü geçemez.</p>",
+   "B": "<p>İdare, gecikmeksizin işlem tesis etmeye mecburdur. Bu süre hiçbir şekilde kararın idareye tebliğinden başlayarak yedi günü geçemez.</p>",
+   "C": "<p>İdare, gecikmeksizin işlem tesis etmeye veya eylemde bulunmaya mecburdur. Bu süre hiçbir şekilde kararın idareye tebliğinden başlayarak on günü geçemez.</p>",
+   "D": "<p>İdare, gecikmeksizin işlem tesis etmeye veya eylemde bulunmaya mecburdur. Bu süre hiçbir şekilde kararın idareye tebliğinden başlayarak otuz günü geçemez.</p>",
+   "E": "<p>İdare, gecikmeksizin işlem tesis etmeye mecburdur. Bu süre hiçbir şekilde kararın idareye tebliğinden başlayarak doksan günü geçemez.</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    133,
+    518,
+    468
+   ]
+  }
+ },
+ {
+  "id": "2026-2-HUK-20",
+  "donem": "2026-2",
+  "ders": "HUK",
+  "no": 20,
+  "konu": "İdari yargı",
+  "ortakBilgi": null,
+  "metin": "<p><strong>2577 sayılı İdari Yargılama Usulü Kanunu’na göre, Millî Eğitim Bakanlığı ile Ölçme, Seçme ve Yerleştirme Merkezi tarafından yapılan merkezî ve ortak sınavlar, bu sınavlara ilişkin iş ve işlemler ile sınav sonuçlarına karşı dava açma süresi kaç gündür?</strong></p>",
+  "secenekler": {
+   "A": "<p>5</p>",
+   "B": "<p>7</p>",
+   "C": "<p>10</p>",
+   "D": "<p>15</p>",
+   "E": "<p>30</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    914,
+    522,
+    141
+   ]
+  }
+ }
+]
