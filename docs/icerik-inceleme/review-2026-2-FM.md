@@ -53,9 +53,13 @@ Notlar: 04 (borç senedi reeskontu) raporlama tarihindeki değerleme işlemi old
 
 Yok. 20 sorunun hepsinde bağımsız çözüm, kırmızı işaret ve cevap anahtarı tablosu aynı şıkkı veriyor. `tools/allow-missing.txt` değiştirilmedi.
 
-## Tartışmalı soru
+## Tartışmalı soru: 2026-2-FM-09
 
-Yok. Aşağıdaki 01, 09 ve 14 notları resmi cevabı değiştiren ikinci bir okuma değildir; çözümlerde birer **Not** adımıyla açıklandı.
+- **Okuma 1 (resmi anahtar, A "Diğer Olağandışı Gider ve Zararlar"):** Karşılık 654 / 158 ile ayrılır; mal satılınca 621 / 153 maliyet kaydı yapılır ve karşılık 158 / 644 Konusu Kalmayan Karşılıklar ile kapatılır. Kullanılan hesaplar 654, 158, 644, 153; kullanılmayan yalnız 689 → A.
+- **Okuma 2 (aynı dönem iptali):** MSUGT 644'ü önceki dönemlerde ayrılan karşılıklar için tanımlar. Burada karşılık aynı dönemde ayrılıp aynı dönemde konusuz kaldığı için 654'ün ters kaydı (158 / 654) ya da maliyetle netleştirme (158 9.000 + 621 1.000 / 153 10.000) da savunulabilir. Bu okumada 644 de kullanılmaz; hem A hem B "kullanılmaz" olur ve soru iki doğru cevaplı hale gelir.
+- **Karar:** 689 her iki okumada da kullanılmadığı için resmi cevap A geçerlidir; anahtar çelişkisi sayılmadı, çözüm yayımlandı, `tools/allow-missing.txt` değişmedi. Çözümde "Not (tartışmalı)" adımı iki okumayı ve B'nin de savunulabilir olduğunu açıkça söyler; kart ve dayanak 644'ün önceki dönem karşılıkları için olduğunu belirtir.
+
+Diğer sorularda tartışma yok. Aşağıdaki 01, 10 ve 14 notları resmi cevabı değiştiren ikinci bir okuma değildir; çözümlerde birer **Not** adımıyla açıklandı.
 
 ## İptal edilen soru
 
@@ -67,7 +71,8 @@ Yok (anahtar tablosunda "İPTAL" yok).
 - **18 ve 19 (hesap kodları):** Kitapçık TMS uygulamasına özgü bir kodlama kullanıyor: 245 Gerçeğe Uygun Değerle Ölçülen Yatırım Amaçlı Gayrimenkuller, 647 Yatırım Amaçlı Gayrimenkullerden Elde Edilen Gelir ve Kazançlar, 551 Maddi Duran Varlıklar Yeniden Değerleme Artışları, 624 Dağıtılmayan Sabit Genel Üretim Giderleri. 1 Sıra No.lu MSUGT ekindeki klasik hesap planında 245 Bağlı Ortaklıklar, 647 Reeskont Faiz Gelirleri, maddi duran varlık yeniden değerleme artışları 522'dir; 551 ve 624 kodları yoktur. Kodlar aynen aktarıldı; çözümler hesap adları üzerinden yürür. 18'in Not adımı bunu açıklar. 12'nin çözümünde Bağlı Ortaklıklar için klasik kod (245) kullanıldı ve "klasik hesap planında" diye belirtildi.
 - **18 (TMS 40 kullanım değişikliği):** TMS 40, transfer için kullanım amacındaki değişikliğin kanıtlanmasını ister; yönetimin niyet değişikliği tek başına yeterli kanıt sayılmaz. Soru transferi verili kabul ettiği için çözüm bu noktaya girmez.
 - **01:** "Dış cephe yalıtımı ve yenilemesi" değer artırıcı harcama olarak ele alındı (resmi cevap A). Harcama yalnız boya-badana gibi olağan bakım olsaydı 770 Genel Yönetim Giderleri (C) olurdu; çözümde Not adımı var. Sorunun "satın aldığı" vurgusu tuzağın 264 Özel Maliyetler olduğunu gösteriyor.
-- **09:** Resmi cevap, karşılık ayrılan stok satıldığında 158'in 644 Konusu Kalmayan Karşılıklar'a kapatıldığı Tekdüzen işleyişine dayanır. Karşılığın maliyetle netleştirildiği ya da aynı dönemde 654'e alacak yazılarak iptal edildiği uygulamalarda 644 de kullanılmamış olur ve soru iki cevaplı hale gelir; 689 ise her durumda kullanılmaz, yani resmi cevap her iki okumada da doğrudur. Çözümde Not adımı var. Satış KDV'si için %20 varsayıldı (oran verilmemiş; cevabı etkilemez).
+- **09:** Tartışmalı; iki okuma için yukarıdaki "Tartışmalı soru" bölümüne bakınız. Satış KDV'si için %20 varsayıldı (oran verilmemiş; cevabı etkilemez).
+- **19:** E şıkkındaki "624 Dağıtılmayan Sabit Genel Üretim Giderleri" klasik Tekdüzen planında yoktur (62 grubu 620–623); bu, çözümde Not adımıyla değil `tuzaklar.E` içinde açıklanır.
 - **10:** Sorudaki kayıt net gösterimdir (karşılık doğrudan satış kaydında kapanıyor). Karşılığın 644'e kapatıldığı brüt gösterim çözümde Not olarak anlatıldı; 2026-1-FM-05 ile aynı yaklaşım.
 - **14:** 1 Kasım–31 Aralık 360 günlük yıl esasıyla 60 gün alındı (30 günlük aylar); bu, şıklardaki 4.000 ₺ ile tutarlı. Kredi faiz tahakkukunun 300 Banka Kredileri'ne alacak yazıldığı uygulama şıklarda yok; çözümde Not adımı var.
 - **15:** Erken ödeme iskontosu, mal aynı dönemde alındığı için 153'ten düşüldü; KDV düzeltmesi alıcı tarafında 191'e alacak (KDVK md. 35).

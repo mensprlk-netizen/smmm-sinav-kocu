@@ -236,9 +236,9 @@
    "<p><strong>4. Karşılığın kapatılması (mal satıldı, karşılığın konusu kalmadı).</strong></p><table class=\"yevmiye\"><tr><td>158 STOK DEĞER DÜŞÜKLÜĞÜ KARŞILIĞI (−)</td><td class=\"n\">9.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">644 KONUSU KALMAYAN KARŞILIKLAR</td><td class=\"n\"></td><td class=\"n\">9.000</td></tr></table>",
    "<p><strong>5. Hangi hesap yok?</strong> Kullanılan hesaplar: 654 Karşılık Giderleri (D), 158 Stok Değer Düşüklüğü Karşılığı (C), 644 Konusu Kalmayan Karşılıklar (B), 153 Ticari Mallar (E). Yangın olağandışı bir olay olsa da değer kaybı karşılık ayrılarak 654 üzerinden gidere yansıtıldığı için <strong>689 Diğer Olağandışı Gider ve Zararlar</strong> kullanılmaz: <strong>A</strong>.</p>",
    "<p><strong>6. Sağlama.</strong> Net etki: satış 1.500 − maliyet 10.000 − karşılık gideri 9.000 + konusu kalmayan karşılık 9.000 = −8.500 ₺. Malın 10.000 ₺’ye alınıp 1.500 ₺’ye satılmasının zararı da 8.500 ₺’dir.</p>",
-   "<p><strong>Not.</strong> Bazı uygulamalarda satılan malın karşılığı doğrudan maliyetle netleştirilir (158 9.000 + 621 1.000 / 153 10.000) ya da karşılığın ayrıldığı dönemde iptal edilen tutar 654’e alacak yazılır. Bu yollarla 644 de kullanılmamış olur. Soru, karşılık ayrılan stok satıldığında 158’in 644 Konusu Kalmayan Karşılıklar’a kapatıldığı Tekdüzen işleyişini esas alır. Hangi yol izlenirse izlensin 689 kullanılmaz; cevap A’dır.</p>"
+   "<p><strong>Not (tartışmalı).</strong> Resmi cevap A, satılan stoğun karşılığının 158 / 644 ile kapatıldığını varsayar. MSUGT 644'ü önceki dönemlerde ayrılan karşılıklar için tanımlar. Burada karşılık aynı dönemde ayrılıp aynı dönemde konusuz kaldığı için 654'ün ters kaydı (158 / 654) ya da maliyetle netleştirme (158 9.000 + 621 1.000 / 153 10.000) da savunulabilir. O okumada Konusu Kalmayan Karşılıklar (B) da kullanılmaz ve soru iki doğru cevaplı olur. 689 her iki okumada da kullanılmadığından anahtar A'dır; sınavda A işaretlenir.</p>"
   ],
-  "dayanak": "Tekdüzen Hesap Planı: 158 Stok Değer Düşüklüğü Karşılığı (−) (ayrılırken 654 Karşılık Giderleri karşılığında alacak; stok satılınca 644 Konusu Kalmayan Karşılıklar karşılığında borç), 621 Satılan Ticari Mallar Maliyeti, 153 Ticari Mallar. VUK md. 278 (yangın, deprem, su basması gibi afetlerle değeri düşen mallar).",
+  "dayanak": "Tekdüzen Hesap Planı: 158 Stok Değer Düşüklüğü Karşılığı (−) (ayrılırken 654 Karşılık Giderleri karşılığında alacak; stok satılınca konusu kalmayan karşılık 644'e (önceki dönem karşılıkları) aktarılır), 621 Satılan Ticari Mallar Maliyeti, 153 Ticari Mallar. VUK md. 278 (yangın, deprem, su basması gibi afetlerle değeri düşen mallar).",
   "tuzaklar": {
    "B": "Kullanılır: mal satıldığında karşılığın konusu kalmaz, 158 borçlandırılarak 644 Konusu Kalmayan Karşılıklar alacaklandırılır.",
    "C": "Kullanılır: ayrılan 9.000 ₺ karşılık 158 Stok Değer Düşüklüğü Karşılığı’na alacak yazılır.",
@@ -248,7 +248,7 @@
   "kartlar": [
    {
     "on": "Değeri düşen stok için karşılık ve stok satıldığında karşılığın kapatılması?",
-    "arka": "Ayrılırken: 654 Karşılık Giderleri / 158 Stok Değer Düşüklüğü Karşılığı. Satılınca: 158 / 644 Konusu Kalmayan Karşılıklar (621 / 153 maliyet kaydı ayrıca yapılır)."
+    "arka": "Satılınca: 158 / 644 (karşılık önceki dönemde ayrılmışsa; aynı dönemde ayrılmışsa uygulamada 158 / 654 ters kaydı da görülür)."
    }
   ],
   "konuBaglantisi": "Stoklar"
@@ -516,7 +516,7 @@
    "A": "140.000 = 20.000 + 80.000 + 40.000: yalnız değişken giderler alınmış (değişken maliyetleme). TMS 2 sabit GÜG’ün normal kapasiteye düşen kısmını maliyete katar.",
    "B": "200.000 tüm giderlerin toplamıdır (tam maliyet, fiili üretime göre). Kapasite altında çalışıldığı için 12.000 ₺ sabit GÜG mamul maliyetine yüklenemez.",
    "C": "100.000 = 20.000 + 80.000: yalnız direkt ilk madde ve direkt işçilik (ilk maliyet) alınmış; genel üretim giderleri unutulmuş.",
-   "E": "Mamul hesabı 200.000 ₺ ile kapatılmış: dağıtılmayan 12.000 ₺ önce stoğa (152) alınmış varsayılıyor. TMS 2’ye göre bu tutar stok maliyetine hiç girmez; 152’de yalnız 188.000 ₺ vardır."
+   "E": "Mamul hesabı 200.000 ₺ ile kapatılmış: dağıtılmayan 12.000 ₺ önce stoğa (152) alınmış varsayılıyor. TMS 2’ye göre bu tutar stok maliyetine hiç girmez; 152’de yalnız 188.000 ₺ vardır. Ayrıca 624 kodu klasik Tekdüzen planında yoktur (62 grubu 620–623); kitapçık bu kodu kendi kodlamasıyla kullanıyor. Dağıtılmayan sabit GÜG zaten 152'ye hiç girmediği için 620 / 152 kaydında yer almaz."
   },
   "kartlar": [
    {
