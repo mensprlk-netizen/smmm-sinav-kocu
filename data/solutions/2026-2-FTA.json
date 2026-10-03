@@ -125,7 +125,7 @@
   "dayanak": "Dikey yüzde (yapı) analizi: gelir tablosunda baz = net satışlar (%100); kalemin dikey yüzdesi = Kalem / Net satışlar × 100.",
   "tuzaklar": {
    "A": "65.000 net satışların %13'üdür (65.000 / 500.000); faaliyet kârlılığı %15 verilmiştir. Bilinen bir hata mekanizmasından çıkmaz.",
-   "B": "73.500 net satışların %14,7'sidir; doğru bazla %15 = 75.000 çıkar. Bilinen bir hata mekanizmasından çıkmaz.",
+   "B": "73.500 net satışların %14,7'sidir; doğru bazla %15 = 75.000 çıkar. 73.500 = %15 × 490.000: satış indirimleri net satıştan bir kez daha düşülmüş.",
    "D": "95.000 net satışların %19'udur; verilen %15 ile tutmaz. Bilinen bir hata mekanizmasından çıkmaz.",
    "E": "105.000 net satışların %21'idir; verilen %15 ile tutmaz. Bilinen bir hata mekanizmasından çıkmaz."
   },
