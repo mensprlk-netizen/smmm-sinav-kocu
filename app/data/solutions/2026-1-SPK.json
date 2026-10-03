@@ -1,0 +1,575 @@
+[
+ {
+  "id": "2026-1-SPK-01",
+  "sonuc": "B",
+  "ozet": "SPKn md. 8/4: izahnamedeki ek ve değişikliklerin yayımlanmasından önce talepte bulunmuş yatırımcılar, yayımdan itibaren iki iş günü içinde taleplerini geri alabilir: B.",
+  "adimlar": [
+   "<p><strong>1. Değişikliğin bildirimi (md. 8/1–3).</strong> Satışa başlamadan önce veya satış süresi içinde yatırımcıların yatırım kararını etkileyebilecek bir değişiklik ya da yeni husus ortaya çıkarsa ihraççı veya halka arz eden durumu <strong>derhâl Kurula bildirir</strong>. Bu durumda satış süreci durdurulabilir. Değiştirilecek veya eklenecek hususlar bildirim tarihinden itibaren <strong>yedi iş günü</strong> içinde Kurulca onaylanır ve izahname gibi yayımlanır.</p>",
+   "<p><strong>2. Yatırımcının geri alma hakkı (md. 8/4).</strong> Değişiklik veya yeni hususların yayımlanmasından <em>önce</em> sermaye piyasası aracı almak için talepte bulunmuş yatırımcılar, izahnamedeki ek ve değişikliklerin yayımlanmasından itibaren <strong>iki iş günü</strong> içinde taleplerini geri alma hakkına sahiptir.</p>",
+   "<p><strong>3. Sonuç.</strong> Talep eski bilgiye dayanarak verildiği için yatırımcıya yeni bilgiyle kararını gözden geçirmesi için kısa bir süre tanınır. Bu süre 2 iş günüdür: <strong>B</strong>.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 8 (izahnamedeki değişiklikler ve yeni hususların izahnameye eklenmesi): 8/1 Kurula derhâl bildirim, 8/2 satışın durdurulabilmesi, 8/3 yedi iş günü içinde onay, 8/4 iki iş günü içinde talebi geri alma.",
+  "tuzaklar": {
+   "A": "1 iş günü md. 8’de geçmez; geri alma süresi 2 iş günüdür.",
+   "C": "3 iş günü md. 8’de geçmez; geri alma süresi 2 iş günüdür.",
+   "D": "7 iş günü, değişikliklerin bildirim tarihinden itibaren Kurulca onaylanma süresidir (md. 8/3); yatırımcının talebini geri alma süresi değildir.",
+   "E": "10 iş günü md. 8’de geçmez; geri alma süresi 2 iş günüdür."
+  },
+  "kartlar": [
+   {
+    "on": "İzahnamede ek ve değişiklik yayımlanınca, daha önce talepte bulunmuş yatırımcının hakkı nedir?",
+    "arka": "Ek ve değişikliklerin yayımlanmasından itibaren iki iş günü içinde talebini geri alabilir (SPKn md. 8/4)."
+   },
+   {
+    "on": "İzahnamedeki değişiklikler Kurulca hangi sürede onaylanır?",
+    "arka": "Bildirim tarihinden itibaren yedi iş günü içinde onaylanır ve izahname gibi yayımlanır; bu arada satış süreci durdurulabilir (SPKn md. 8/2–3)."
+   }
+  ],
+  "konuBaglantisi": "İhraç, izahname ve halka arz"
+ },
+ {
+  "id": "2026-1-SPK-02",
+  "sonuc": "D",
+  "ozet": "SPKn md. 21/3: halka açık ortaklıklar ve kolektif yatırım kuruluşları, ilişkili taraf işlemlerinin emsallere uygunluğunu tevsik eden bilgi ve belgeleri en az sekiz yıl saklamak zorundadır: D.",
+  "adimlar": [
+   "<p><strong>1. Örtülü kazanç aktarımı yasağı (md. 21/1–2).</strong> Halka açık ortaklıklar ve kolektif yatırım kuruluşları ile bunların iştirak ve bağlı ortaklıklarının, yönetim, denetim veya sermaye bakımından ilişkili oldukları kişilerle emsallerine, piyasa teamüllerine, ticari hayatın basiret ve dürüstlük ilkelerine aykırı fiyat, ücret, bedel veya şartlarla işlem yaparak kârlarını veya malvarlıklarını azaltmaları (ya da artmasını engellemeleri) yasaktır. Yapılması beklenen kârlı faaliyeti yapmayarak ilişkili kişiyi zenginleştirmek de örtülü kazanç aktarımı sayılır.</p>",
+   "<p><strong>2. Belgeleme ve saklama (md. 21/3).</strong> Bu kuruluşlar ilişkili taraf işlemlerinin emsallere, piyasa teamüllerine, basiret ve dürüstlük ilkelerine uygun şartlarda yapıldığını <strong>belgelemek</strong> ve bunu tevsik edici bilgi ve belgeleri <strong>en az sekiz yıl</strong> saklamak zorundadır: <strong>D</strong>.</p>",
+   "<p><strong>3. Sonuçları.</strong> Kurul kazanç aktarımını tespit ederse ortaklık, aktarılan tutarın kanuni faiziyle birlikte iadesini ilişkili taraftan ister; ilişkili taraf da Kurulca belirlenen sürede iade etmek zorundadır (md. 21/4). Aynı fiil güveni kötüye kullanma suçunun nitelikli hâli olarak da düzenlenmiştir (md. 110/1-c). Sekiz yıllık saklama yükümlülüğü, bu inceleme ve kovuşturmalar için delilin korunmasını amaçlar.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 21 (örtülü kazanç aktarımı yasağı), özellikle 21/3 (en az sekiz yıl saklama) ve 21/4 (iade); md. 110/1-c (güveni kötüye kullanma suçunun nitelikli hâli).",
+  "tuzaklar": {
+   "A": "2 yıl md. 21’de geçmez; Kanunun öngördüğü süre en az sekiz yıldır.",
+   "B": "5 yıl, vergi mevzuatında (Vergi Usul Kanunu) defter ve belgeler için öngörülen genel saklama süresidir; SPKn md. 21/3 ilişkili taraf işlemlerinin belgeleri için ayrıca en az sekiz yıl öngörür.",
+   "C": "7 yıl md. 21’de geçmez; süre en az sekiz yıldır.",
+   "E": "10 yıl, ticari defter ve belgeler için Türk Ticaret Kanunu’ndaki genel saklama süresidir; SPKn md. 21/3’teki özel süre en az sekiz yıldır."
+  },
+  "kartlar": [
+   {
+    "on": "SPKn’ye göre ilişkili taraf işlemlerinin emsale uygunluğunu tevsik eden belgeler ne kadar süre saklanır?",
+    "arka": "En az sekiz yıl. Yükümlüler halka açık ortaklıklar ve kolektif yatırım kuruluşlarıdır (SPKn md. 21/3)."
+   },
+   {
+    "on": "Örtülü kazanç aktarımı nedir ve tespit edilirse ne olur?",
+    "arka": "Halka açık ortaklık veya kolektif yatırım kuruluşunun ilişkili kişilerle emsale aykırı fiyat, ücret, bedel veya şartlarla işlem yaparak kârını ya da malvarlığını azaltmasıdır. Kurul tespit ederse aktarılan tutar kanuni faiziyle iade ettirilir (md. 21/4); fiil ayrıca güveni kötüye kullanma suçunun nitelikli hâlidir (md. 110/1-c)."
+   }
+  ],
+  "konuBaglantisi": "Halka açık ortaklıklar"
+ },
+ {
+  "id": "2026-1-SPK-03",
+  "sonuc": "D",
+  "ozet": "II-23.3 md. 15/1’e göre yatırım ortaklığı niteliklerinin değiştirilmesi (c), kolaylaştırılmış usulde birleşme ve bölünme (ç), tasfiye kapsamındaki işlemler (e) ve bağlı ortaklık paylarının halka arzı (j) ayrılma hakkı doğurmaz. I ve III yanlış, II ve IV doğru: D.",
+  "adimlar": [
+   "<p><strong>1. Çerçeve.</strong> Halka açık ortaklığın önemli nitelikteki işlemine ilişkin genel kurulda olumsuz oy verip muhalefetini tutanağa geçirten pay sahibi, paylarını ortaklığa satarak ayrılma hakkına sahiptir (SPKn md. 24/1). Ayrılma hakkının <strong>doğmadığı</strong> hâlleri Kurul belirler (md. 24/3–4); bu hâller Önemli Nitelikteki İşlemler ve Ayrılma Hakkı Tebliği (II-23.3) md. 15/1’de (a)–(j) bentlerinde sayılmıştır.</p>",
+   "<p><strong>2. I.</strong> Md. 15/1-c: yatırım ortaklıklarının yatırım ortaklığı niteliklerinin değiştirilmesi, yitirilmesi ve bu kapsamda yapılan imtiyaz değişiklikleri işlemlerinde ayrılma hakkının <strong>doğmadığı</strong> kabul edilir. İfade “doğmaktadır” diyor: <strong>yanlış</strong>.</p>",
+   "<p><strong>3. II.</strong> Md. 15/1-j: ortaklığın bağlı ortaklık paylarının halka arz yoluyla satılması ayrılma hakkı doğurmaz: <strong>doğru</strong>.</p>",
+   "<p><strong>4. III.</strong> Md. 15/1-ç: Birleşme ve Bölünme Tebliği (II-23.2) uyarınca kolaylaştırılmış usulde birleşme ve bölünme işlemleri (ve oranların korunması yoluyla yeni kurulan şirketlere tam bölünme) ayrılma hakkı doğurmaz. İfade “doğmaktadır” diyor: <strong>yanlış</strong>.</p>",
+   "<p><strong>5. IV.</strong> Md. 15/1-e: iflas ya da başka bir sona erme hâli sonucu tasfiyeye giren ortaklıkların İİK, TTK ve ilgili mevzuat çerçevesinde tasfiye kapsamında yaptığı işlemler ayrılma hakkı doğurmaz: <strong>doğru</strong>.</p>",
+   "<p><strong>6. Sonuç.</strong> Doğru ifadeler II ve IV: <strong>D</strong>. Soru, tebliğdeki “doğmadığı kabul edilir” listesinden iki bendi olumsuzdan olumluya çevirerek yanlış ifade üretmiştir. Ayrılma hakkının doğmadığı hâllerde, başka bir düzenleme gerektirmedikçe yönetim kurulu kararı yeterlidir; bu karar ve gerekçesi kamuya açıklanır (md. 15/2–3).</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 23–24 (önemli nitelikteki işlemler, ayrılma hakkı); Önemli Nitelikteki İşlemler ve Ayrılma Hakkı Tebliği (II-23.3) md. 15/1-c, ç, e, j ve 15/2–3.",
+  "tuzaklar": {
+   "A": "I yanlıştır: md. 15/1-c’ye göre yatırım ortaklığı niteliklerinin değiştirilmesi veya yitirilmesi ayrılma hakkı doğurmaz.",
+   "B": "I ve III’ün ikisi de yanlıştır; her ikisi de tebliğde ayrılma hakkının doğmadığı hâller arasında sayılır (md. 15/1-c ve ç). Bu şık listeyi ters okuyan adayı yakalar.",
+   "C": "II doğru ama III yanlıştır: kolaylaştırılmış usulde birleşme ve bölünme ayrılma hakkı doğurmaz (md. 15/1-ç).",
+   "E": "IV doğru ama III yanlıştır (md. 15/1-ç)."
+  },
+  "kartlar": [
+   {
+    "on": "II-23.3’e göre ayrılma hakkının doğmadığı başlıca işlemler nelerdir?",
+    "arka": "Mevzuat gereği zorunlu işlemler; yönetim kontrolü bir kamu kurumunda olan ortaklıkların işlemleri; yatırım ortaklığı niteliklerinin değiştirilmesi veya yitirilmesi; kolaylaştırılmış usulde birleşme ve bölünme; İİK kararı veya kamu alacağının tahsili için yapılan işlemler; iflas veya tasfiye kapsamındaki işlemler; bağlı ortaklık paylarının halka arz yoluyla satışı (md. 15/1)."
+   },
+   {
+    "on": "Halka açık ortaklıkta ayrılma hakkını kim kullanabilir?",
+    "arka": "Önemli nitelikteki işleme ilişkin genel kurula katılıp olumsuz oy veren ve muhalefetini tutanağa geçirten pay sahibi; toplantıya haksız olarak alınmamışsa veya çağrı ya da gündem usulsüzse muhalefet şartı aranmaz (SPKn md. 24/1–2)."
+   }
+  ],
+  "konuBaglantisi": "Halka açık ortaklıklar"
+ },
+ {
+  "id": "2026-1-SPK-04",
+  "sonuc": "C",
+  "ozet": "SPKn md. 31/B-5: temerrüt hâlinde teminat yöneticisi teminata konu varlıkları, adli veya idari merciden izin ya da onay almak dahil hiçbir ön şart olmaksızın satıp bedelini yatırımcılara paylaştırabilir; Kurul izni aranmaz: C.",
+  "adimlar": [
+   "<p><strong>1. Kural (md. 31/B).</strong> Kurulca belirlenen sermaye piyasası araçları, bu araçlardan doğan yükümlülükler için Kurulun uygun göreceği varlıklarla teminat altına alınabilir. Varlıkların mülkiyeti teminaten, genel saklama yetkisine sahip yatırım kuruluşu niteliğindeki <strong>teminat yöneticisine</strong> devredilir veya onun lehine sınırlı ayni hak kurulur (31/B-1). Teminat yöneticisi ihraçtan önce ihraççıyla yazılı olarak yapılan teminat yönetim sözleşmesiyle yetkilendirilir (31/B-2).</p>",
+   "<p><strong>2. C şıkkı.</strong> Md. 31/B-5’e göre temerrüt hâlinde ya da kanun veya sözleşmede öngörülen sebeplerle teminattan alacağın karşılanması gerektiğinde; herhangi bir ihbar veya ihtar, süre verme, <strong>adli veya idari merciden izin ya da onay alma</strong>, açık artırma gibi bir ön şart olmaksızın teminat yöneticisi varlıkları satıp bedellerini yatırımcılar arasında paylaştırabilir. Şıktaki “Kuruldan izin alması gerekmektedir” ifadesi bu hükme aykırıdır: <strong>C</strong> yanlıştır.</p>",
+   "<p><strong>3. Diğer şıklar Kanunun aynısıdır.</strong> A: md. 31/B-6. B: md. 31/B-1. D: md. 31/B-4. E: md. 31/B-8.</p>",
+   "<p><strong>4. Amaç.</strong> Teminatlı ihraçta yatırımcıyı korumak için teminatın hızlı paraya çevrilmesi istenir. Bu yüzden teminat varlıkları teminat yöneticisinin malvarlığından ayrı tutulur ve onun borçları için kamu alacağı da dahil haczedilemez, rehnedilemez, iflas masasına girmez (31/B-6).</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 31/B (20/2/2020 tarihli ve 7222 sayılı Kanunla eklendi): 31/B-1, 2, 4, 5, 6, 8.",
+  "tuzaklar": {
+   "A": "Doğru ifadedir: teminat konusu varlıklar teminat yöneticisinin malvarlığından ayrıdır ve ayrı izlenir (md. 31/B-6).",
+   "B": "Doğru ifadedir: mülkiyet genel saklama yetkisine sahip yatırım kuruluşu niteliğindeki teminat yöneticisine devredilir veya lehine sınırlı ayni hak kurulur (md. 31/B-1).",
+   "D": "Doğru ifadedir: ticaret unvanı, atandığı ihraç ve yetkileri ihraççının merkezinin bulunduğu yerin ticaret siciline tescil ve TTSG’de ilan olunur (md. 31/B-4).",
+   "E": "Doğru ifadedir: teminat yöneticisinin sorumluluğunu hafifleten veya kaldıran anlaşmalar, hüküm veya ifadeler geçersizdir (md. 31/B-8)."
+  },
+  "kartlar": [
+   {
+    "on": "Temerrüt hâlinde teminat yöneticisi teminatı paraya çevirmek için izin alır mı?",
+    "arka": "Hayır. İhbar, ihtar, süre verme, adli veya idari merciden izin ya da onay, açık artırma gibi hiçbir ön şart olmaksızın varlıkları satıp bedelini yatırımcılar arasında paylaştırabilir (SPKn md. 31/B-5)."
+   },
+   {
+    "on": "Teminat yöneticisi kimdir, teminat varlıkları nasıl korunur?",
+    "arka": "Genel saklama yetkisine sahip yatırım kuruluşu niteliğindeki kuruluştur; varlıkların mülkiyeti ona teminaten devredilir veya lehine sınırlı ayni hak kurulur. Varlıklar onun malvarlığından ayrıdır; onun borçları için kamu alacağı da dahil haczedilemez, rehnedilemez, iflas masasına girmez (md. 31/B-1, 6)."
+   }
+  ],
+  "konuBaglantisi": "Temel kavramlar ve araçlar"
+ },
+ {
+  "id": "2026-1-SPK-05",
+  "sonuc": "E",
+  "ozet": "SPKn md. 32/6: kamuyu aydınlatma belgelerinden doğan tazminat talebi, zararın meydana geldiği tarihten itibaren altı ay içinde zamanaşımına uğrar; “üç ay” diyen E yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Sorumlular (md. 32/1–2).</strong> İzahname, pay alım teklifi bilgi formu, özel durum açıklaması, birleşme ve bölünme duyuru metni, finansal raporlar gibi kamuyu aydınlatma belgelerini imzalayanlar (veya adına imzalanan tüzel kişiler) yanlış, yanıltıcı veya eksik bilgilerden doğan zarardan <strong>müteselsilen</strong> sorumludur. Bağımsız denetim, derecelendirme ve değerleme kuruluşları gibi bu belgelere rapor hazırlayanlar da sorumludur (C).</p>",
+   "<p><strong>2. Kurtuluş kanıtı (md. 32/3).</strong> Bilgilerin yanlış, yanıltıcı veya eksik olduğunu bilmediğini ve bunun kast veya ağır ihmalinden kaynaklanmadığını ispat eden sorumlu olmaz (B).</p>",
+   "<p><strong>3. Talebin reddi (md. 32/5).</strong> Tazminat talebi şu hâllerde reddedilir: (a) alım veya satım belgeye dayanmıyorsa; (b) bilgilerin yanlış, yanıltıcı veya eksik olduğu <strong>bilinmesine rağmen</strong> işlem yapılmışsa (D); (c) düzeltme, yatırım kararından önce ilan edilmişse; (ç) bilgiler doğru olsaydı da yatırımcı zarara uğrayacak idiyse (A).</p>",
+   "<p><strong>4. Zamanaşımı (md. 32/6).</strong> Tazminat talebi, md. 32/4’teki zararın meydana geldiği tarihten itibaren <strong>altı ay</strong> içinde zamanaşımına uğrar. E şıkkı “üç ay” diyor: <strong>E</strong> yanlıştır.</p>",
+   "<p><strong>Not.</strong> Sorumluluğu hafifleten veya kaldıran anlaşmalar, hüküm veya ifadeler geçersizdir (md. 32/7). Md. 32/4, belgedeki yanlışlıktan sonra alınıp gerçek bilgi ortaya çıkınca satılan araçlarda illiyet bağının kurulmuş sayılacağını düzenler.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 32 (kamuyu aydınlatma belgelerinden doğan sorumluluk): 32/1–3, 32/5-b ve ç, 32/6 (altı ay zamanaşımı), 32/7.",
+  "tuzaklar": {
+   "A": "Doğru ifadedir: bilgiler doğru olsaydı da zarar doğacak idiyse illiyet yoktur ve talep reddedilir (md. 32/5-ç).",
+   "B": "Doğru ifadedir: bilgi sahibi olmadığını ve bunun kast veya ağır ihmalden kaynaklanmadığını ispatlayan sorumlu olmaz (md. 32/3).",
+   "C": "Doğru ifadedir: bağımsız denetim, derecelendirme ve değerleme kuruluşları gibi rapor hazırlayanlar da sorumludur (md. 32/2).",
+   "D": "Doğru ifadedir: yanlışlığı bilerek işlem yapan yatırımcının tazminat talebi reddedilir (md. 32/5-b)."
+  },
+  "kartlar": [
+   {
+    "on": "Kamuyu aydınlatma belgelerinden doğan tazminat talebinin zamanaşımı nedir?",
+    "arka": "Zararın meydana geldiği tarihten itibaren altı ay (SPKn md. 32/6)."
+   },
+   {
+    "on": "Kamuyu aydınlatma belgelerinden doğan tazminat talebi hangi hâllerde reddedilir?",
+    "arka": "İşlem belgeye dayanmıyorsa; yanlışlık bilinerek işlem yapılmışsa; düzeltme yatırım kararından önce ilan edilmişse; bilgiler doğru olsaydı da zarar doğacak idiyse (SPKn md. 32/5)."
+   }
+  ],
+  "konuBaglantisi": "Kamuyu aydınlatma ve sorumluluk"
+ },
+ {
+  "id": "2026-1-SPK-06",
+  "sonuc": "B",
+  "ozet": "SPKn md. 35/B-3-b: kripto varlık hizmet sağlayıcısının yönetim kurulu üyeleri, ortaklarda aranan şartları “mali güç şartı hariç” taşımak zorundadır; mali güç yönetim kurulu üyesinde aranmaz: B.",
+  "adimlar": [
+   "<p><strong>1. Ortaklarda aranan şartlar (md. 35/B-3-a).</strong> (1) Müflis olmamak, konkordato ilan etmemiş olmak, <strong>uzlaşma suretiyle yeniden yapılandırma başvurusu tasdik edilmemiş</strong> olmak, hakkında iflasın ertelenmesi kararı verilmemiş olmak; (2) tasfiyeye tabi bankerler ile <strong>iradi tasfiye haricinde faaliyet izni iptal edilmiş</strong> faktoring, finansal kiralama, finansman, tasarruf finansman, <strong>varlık yönetim</strong>, sigorta, reasürans, emeklilik şirketleri, ödeme sistemi işleticileri, ödeme hizmeti sağlayıcıları ile para ve sermaye piyasalarında faaliyet gösteren kurumlarda doğrudan veya dolaylı <strong>%10 veya daha fazla</strong> paya sahip olmamak ya da kontrolü elinde bulundurmamak; (3) sayılan suçlardan (aralarında <strong>vergi kaçakçılığı suçları veya bu suçlara iştirak</strong>) hükümlü olmamak, kasten işlenen bir suçtan beş yıl veya daha fazla hapis cezası almamış olmak, SPKn’de yazılı suçlardan kesinleşmiş mahkûmiyeti bulunmamak; (4) md. 101/1-a uyarınca işlem yasaklı olmamak; (5) <strong>gerekli mali güç</strong> ve işin gerektirdiği dürüstlük ve itibara sahip olmak; (6) ortaklık yapısının şeffaf ve açık olması.</p>",
+   "<p><strong>2. Yönetim kurulu üyeleri (md. 35/B-3-b).</strong> Yönetim kurulu üyeleri ve yönetim kurulu üyesi olmaksızın temsile yetkili kişiler, (a) bendinde ortaklar için öngörülen şartları <strong>mali güç şartı hariç</strong> taşımak zorundadır.</p>",
+   "<p><strong>3. Uygulama.</strong> A ve D (1) numaralı alt bentte, E (2)’de, C (3)’te yer alır ve yönetim kurulu üyelerinde de aranır. B ise (5)’teki mali güç şartıdır ve yönetim kurulu üyeleri için açıkça istisna edilmiştir: <strong>B</strong>.</p>",
+   "<p><strong>Dikkat.</strong> İstisna yalnız “mali güç” içindir. Aynı alt bentteki “işin gerektirdiği dürüstlük ve itibara sahip bulunma” şartı yönetim kurulu üyelerinde de aranır. Bu hükümler 26/6/2024 tarihli ve 7518 sayılı Kanunla eklenmiştir.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 35/B-3-a (1)–(6) ve 35/B-3-b (26/6/2024 tarihli ve 7518 sayılı Kanunla eklendi).",
+  "tuzaklar": {
+   "A": "Müflis olmamak md. 35/B-3-a(1)’dedir ve yönetim kurulu üyelerinde de aranır.",
+   "C": "Vergi kaçakçılığı suçlarından veya bu suçlara iştirakten hükümlü bulunmamak md. 35/B-3-a(3)’tedir ve yönetim kurulu üyelerinde de aranır.",
+   "D": "Uzlaşma suretiyle yeniden yapılandırma başvurusunun tasdik edilmemiş olması md. 35/B-3-a(1)’dedir ve yönetim kurulu üyelerinde de aranır.",
+   "E": "İradi tasfiye dışında faaliyet izni iptal edilmiş varlık yönetim şirketinde %10 veya daha fazla paya sahip olmamak md. 35/B-3-a(2)’dedir ve yönetim kurulu üyelerinde de aranır."
+  },
+  "kartlar": [
+   {
+    "on": "Kripto varlık hizmet sağlayıcısının yönetim kurulu üyelerinde, ortaklar için aranan şartlardan hangisi aranmaz?",
+    "arka": "Yalnız “gerekli mali güç” şartı. Diğer şartlar (müflis olmamak, konkordato veya uzlaşmalı yeniden yapılandırma tasdiki olmamak, faaliyet izni iptal edilmiş kuruluşlarda %10 veya daha fazla pay sahibi olmamak, sayılan suçlardan hükümlü olmamak, işlem yasaklı olmamak, dürüstlük ve itibar) aranır (SPKn md. 35/B-3-a ve b)."
+   },
+   {
+    "on": "Kripto varlık hizmet sağlayıcısının kuruluşu ve pay devri kimin iznine tabidir?",
+    "arka": "Kuruluş, faaliyete başlama ve pay devirleri Kurul iznine tabidir; bilgi sistemleri ve teknolojik altyapı için TÜBİTAK’ın belirlediği kriterlere uygunluk aranır (SPKn md. 35/B-1 ve 2)."
+   }
+  ],
+  "konuBaglantisi": "Kripto varlıklar ve kitle fonlaması"
+ },
+ {
+  "id": "2026-1-SPK-07",
+  "sonuc": "C",
+  "ozet": "SPKn md. 20: toplam kâr payı avansı önceki yıl dönem kârının yarısını aşamaz (I yanlış, %25 değil); mahsup kuralı (II) ve yönetim kurulu üyelerinin sorumluluğu (III) doğru; iptal davasını alacaklılar değil pay sahipleri ve yönetim kurulu üyeleri açar (IV yanlış): C.",
+  "adimlar": [
+   "<p><strong>1. I.</strong> Md. 20/1: bir hesap döneminde verilecek toplam kâr payı avansı bir önceki yıla ait dönem kârının <strong>yarısını</strong> aşamaz. %25 yanlıştır: <strong>yanlış</strong>.</p>",
+   "<p><strong>2. II.</strong> Md. 20/1, ikinci cümle: önceki dönemde ödenen kâr payı avansları mahsup edilmeden ilave kâr payı avansı verilmesine ve kâr payı dağıtılmasına karar verilemez: <strong>doğru</strong>.</p>",
+   "<p><strong>3. III.</strong> Md. 20/2: kusurlarına ve durumun gereklerine göre zararlar şahsen kendilerine yükletilebildiği ölçüde <strong>yönetim kurulu üyeleri</strong> ve hazırladıkları raporlarla sınırlı olarak bağımsız denetimi yapanlar; ara dönem finansal tablolarının gerçeği dürüst biçimde yansıtmaması veya mevzuata ve muhasebe ilke ve kurallarına uygun düzenlenmemesi nedeniyle avansın doğru olmamasından doğan zararlardan <strong>ortaklığa, pay sahiplerine, ortaklık alacaklılarına</strong> ve ayrıca doğrudan doğruya avansın kararlaştırıldığı veya ödendiği dönemde pay edinenlere karşı sorumludur. İfade yalnız yönetim kurulu üyelerini ve ilk üç alacaklı grubunu sayar; eksik sayım ifadeyi yanlış yapmaz: <strong>doğru</strong>.</p>",
+   "<p><strong>4. IV.</strong> Md. 20/2, son cümle: hukuki sorumluluk doğuran hâllerde kararın ilanından itibaren otuz gün içinde md. 18/6’ya göre iptal davasını <strong>pay sahipleri ve yönetim kurulu üyeleri</strong> açabilir. Ortaklık alacaklılarına dava hakkı tanınmamıştır: <strong>yanlış</strong>.</p>",
+   "<p><strong>5. Sonuç.</strong> Doğrular II ve III: <strong>C</strong>.</p>",
+   "<p><strong>Ek bilgi.</strong> Kâr Payı Tebliği (II-19.1) md. 10/2 sınırı somutlaştırır: bir hesap döneminde verilecek toplam avans, bir önceki yılın net dönem kârının yarısı ile ilgili ara dönem tablolarındaki net dönem kârı hariç dağıtılabilir diğer kaynaklardan düşük olanı aşamaz. Avans yalnız payları borsada işlem gören ortaklıklarca, nakden ve esas sözleşmede hüküm ile genel kurulun yönetim kuruluna verdiği yetkiyle dağıtılabilir (md. 9/1–2).</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 20/1–2 (kâr payı avansı), md. 18/6 (iptal davası); Kâr Payı Tebliği (II-19.1) md. 9/1–2, 10/2 ve 10/4.",
+  "tuzaklar": {
+   "A": "I yanlıştır: sınır önceki yıl dönem kârının %25’i değil yarısıdır (md. 20/1).",
+   "B": "II doğrudur ama tek doğru değildir; III de md. 20/2’nin ifadesidir.",
+   "D": "IV yanlıştır: iptal davasını ortaklık alacaklıları değil, pay sahipleri ve yönetim kurulu üyeleri açabilir (md. 20/2).",
+   "E": "I yanlıştır (yarısı yerine %25)."
+  },
+  "kartlar": [
+   {
+    "on": "SPKn’ye göre kâr payı avansının üst sınırı nedir?",
+    "arka": "Bir hesap döneminde verilecek toplam avans, bir önceki yıla ait dönem kârının yarısını aşamaz; önceki avanslar mahsup edilmeden yeni avans veya kâr payı kararı verilemez (md. 20/1)."
+   },
+   {
+    "on": "Kâr payı avansı kararına karşı iptal davasını kim, hangi sürede açabilir?",
+    "arka": "Pay sahipleri ve yönetim kurulu üyeleri, kararın ilanından itibaren otuz gün içinde (SPKn md. 20/2, md. 18/6’ya atıfla)."
+   }
+  ],
+  "konuBaglantisi": "Halka açık ortaklıklar"
+ },
+ {
+  "id": "2026-1-SPK-08",
+  "sonuc": "A",
+  "ozet": "SPKn md. 49/4: yatırım ortaklıkları, esas sözleşmede hüküm bulunmak kaydıyla ve Kurulun onayını almak şartıyla portföy yönetim şirketinden hizmet alabilir; “onay gerekmez” diyen A yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Kuruluş izni şartları (md. 49/1).</strong> a) Kayıtlı sermayeli anonim ortaklık olarak kurulmak; b) başlangıç sermayesinin Kurulca belirlenen tutardan az olmaması; c) <strong>payların nakit karşılığı çıkarılması ve bedellerin kuruluşta tam ve nakden ödenmesi</strong> (D); ç) unvanda “Yatırım Ortaklığı” ibaresi; d) esas sözleşmenin mevzuata uygunluğu; e) <strong>portföy saklama hizmetini yürütecek, Kurulca yetkilendirilmiş bir kuruluşun belirlenmiş olması</strong> (B); f) Kurulca belirlenecek diğer şartlar.</p>",
+   "<p><strong>2. Hizmet alımı (md. 49/4).</strong> Yatırım ortaklıkları, esas sözleşmelerinde hüküm bulunmak kaydıyla <strong>ve Kurulun onayını almak şartıyla</strong> bir portföy yönetim şirketinden hizmet alabilir. İki şart birliktedir; A şıkkı ikinci şartı kaldırıyor: <strong>A</strong> yanlıştır.</p>",
+   "<p><strong>3. Diğer şıklar.</strong> C: kuruluş şartları yatırım ortaklığına dönüşümde de aranır (md. 49/3). E: GYO’ların kuruluş ve sermaye artırımlarında Kurulca uygun görülen varlıklar ayni sermaye olarak konulabilir (md. 49/5); bu, D’deki nakit şartının GYO’lar için öngörülen istisnasıdır.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 49/1 (a–f), 49/3, 49/4, 49/5; md. 48/3 (esas sözleşme değişikliğinde Kurulun uygun görüşü).",
+  "tuzaklar": {
+   "B": "Doğru ifadedir: portföy saklama hizmetini yürütecek yetkili bir kuruluşun belirlenmiş olması kuruluş şartıdır (md. 49/1-e).",
+   "C": "Doğru ifadedir: kuruluş şartları yatırım ortaklığına dönüşümde de aranır (md. 49/3).",
+   "D": "Doğru ifadedir: payların nakit karşılığı çıkarılması ve bedellerin kuruluşta tam ve nakden ödenmesi kuruluş şartıdır (md. 49/1-c).",
+   "E": "Doğru ifadedir: GYO’larda Kurulca uygun görülen varlıklar ayni sermaye olarak konulabilir (md. 49/5)."
+  },
+  "kartlar": [
+   {
+    "on": "Yatırım ortaklıklarının kuruluş izni şartları nelerdir?",
+    "arka": "Kayıtlı sermayeli AO olmak; başlangıç sermayesinin Kurulca belirlenen tutardan az olmaması; payların nakit karşılığı çıkarılıp kuruluşta tam ve nakden ödenmesi; unvanda “Yatırım Ortaklığı” ibaresi; mevzuata uygun esas sözleşme; yetkili bir portföy saklayıcısının belirlenmesi; Kurulun diğer şartları (SPKn md. 49/1)."
+   },
+   {
+    "on": "Yatırım ortaklığı portföy yönetim şirketinden hizmet alabilir mi?",
+    "arka": "Evet; esas sözleşmede hüküm bulunması ve Kurulun onayı şartıyla (SPKn md. 49/4)."
+   }
+  ],
+  "konuBaglantisi": "Yatırım ortaklıkları"
+ },
+ {
+  "id": "2026-1-SPK-09",
+  "sonuc": "B",
+  "ozet": "III-37.1 md. 8/1-a: emir iletimine aracılık ve yatırım danışmanlığından birini veya tamamını yürüten aracı kurum “dar yetkili”dir; en iyi gayret aracılığı ve sınırlı saklama kısmi, aracılık yüklenimi geniş yetkilidir: B.",
+  "adimlar": [
+   "<p><strong>1. Gruplandırma (III-37.1 md. 8/1).</strong> a) <strong>Dar yetkili</strong>: emir iletimine aracılık ve yatırım danışmanlığı faaliyetlerinden herhangi birini veya tamamını yürütenler. b) <strong>Kısmi yetkili</strong>: işlem aracılığı, en iyi gayret aracılığı faaliyeti, sınırlı saklama hizmeti ve portföy yöneticiliği faaliyetinden herhangi birini veya tamamını yürütenler. c) <strong>Geniş yetkili</strong>: portföy aracılığı faaliyeti, genel saklama hizmeti ve aracılık yüklenimi faaliyetinden herhangi birini veya tamamını yürütenler.</p>",
+   "<p><strong>2. Uygulama.</strong> I (emir iletimine aracılık) ve II (yatırım danışmanlığı) dar yetkili kapsamındadır. III (en iyi gayret aracılığı) ve IV (sınırlı saklama) kısmi yetki, V (aracılık yüklenimi) geniş yetki gerektirir: <strong>B</strong>.</p>",
+   "<p><strong>Not.</strong> Yatırım Kuruluşlarının Kuruluş ve Faaliyet Esasları Hakkında Tebliğ (III-39.1) md. 4/1-d, e, ğ dar, geniş ve kısmi yetkili aracı kurum tanımlarını aynı listeye atıfla verir; sermaye ve diğer kuruluş şartları bu gruplara göre farklılaşır.</p>"
+  ],
+  "dayanak": "Yatırım Hizmetleri ve Faaliyetleri ile Yan Hizmetlere İlişkin Esaslar Hakkında Tebliğ (III-37.1) md. 8/1-a, b, c; Yatırım Kuruluşlarının Kuruluş ve Faaliyet Esasları Hakkında Tebliğ (III-39.1) md. 4/1-d, e, ğ.",
+  "tuzaklar": {
+   "A": "Aracılık yüklenimi (V) geniş yetkili aracı kurumların faaliyetidir (md. 8/1-c).",
+   "C": "En iyi gayret aracılığı (III) ve sınırlı saklama (IV) kısmi yetkili aracı kurumların faaliyetleridir (md. 8/1-b).",
+   "D": "Sınırlı saklama (IV) kısmi, aracılık yüklenimi (V) geniş yetki gerektirir.",
+   "E": "I ve II doğru ama en iyi gayret aracılığı (III) kısmi yetki gerektirir."
+  },
+  "kartlar": [
+   {
+    "on": "Aracı kurumlar yetkilerine göre nasıl gruplanır?",
+    "arka": "Dar yetkili: emir iletimine aracılık, yatırım danışmanlığı. Kısmi yetkili: işlem aracılığı, en iyi gayret aracılığı, sınırlı saklama, portföy yöneticiliği. Geniş yetkili: portföy aracılığı, genel saklama, aracılık yüklenimi (III-37.1 md. 8/1)."
+   },
+   {
+    "on": "Halka arza aracılığın iki türü hangi yetki grubuna girer?",
+    "arka": "Yüklenimsiz (en iyi gayret) aracılık kısmi yetkili, aracılık yüklenimi geniş yetkili aracı kurumun faaliyetidir (III-37.1 md. 8/1-b, c)."
+   }
+  ],
+  "konuBaglantisi": "Yatırım kuruluşları"
+ },
+ {
+  "id": "2026-1-SPK-10",
+  "sonuc": "D",
+  "ozet": "SPKn md. 52/5: yatırım fonu portföyündeki taşınmazlar, taşınmaza dayalı haklar ve senetler tapu kütüğüne portföy yönetim şirketi adına değil fon adına tescil edilir: D.",
+  "adimlar": [
+   "<p><strong>1. Yatırım fonunun niteliği (md. 52/1).</strong> Yatırım fonu, katılma payı karşılığı toplanan para ve varlıklarla, tasarruf sahipleri hesabına, <strong>inançlı mülkiyet</strong> esaslarına göre portföy işletmek amacıyla portföy yönetim şirketlerince fon iç tüzüğüyle kurulan, <strong>tüzel kişiliği bulunmayan</strong> malvarlığıdır.</p>",
+   "<p><strong>2. Sicil işlemleri (md. 52/5).</strong> Fon; tapu ve diğer resmî sicillerdeki her türlü sicil işlemleri ile ortağı olacağı limited ve anonim şirketlerin ticaret sicili işlemleriyle sınırlı olarak <strong>tüzel kişiliği haiz addolunur</strong>. Bu nedenle portföydeki taşınmazlar, taşınmaza dayalı haklar ve senetler tapu kütüğüne <strong>fon adına</strong> tescil edilir. D şıkkı “portföy yönetim şirketi adına” diyor: <strong>D</strong> yanlıştır.</p>",
+   "<p><strong>3. Diğer şıklar Kanunun aynısıdır.</strong> A: md. 52/3 ikinci cümle. B: md. 52/5 üçüncü cümle (portföy yönetim şirketi ile portföy saklayıcısını temsil eden birer yetkilinin müşterek imzası). C: md. 52/2. E: md. 52/3 birinci cümle.</p>",
+   "<p><strong>Not.</strong> Md. 52/5 20/2/2020 tarihli ve 7222 sayılı Kanunla değişmiştir. Fon adına tescil, fon varlıklarının portföy yönetim şirketinin malvarlığından ayrılığını (md. 53/1) sicilde de görünür kılar.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 52/1, 52/2, 52/3, 52/5 (7222 sayılı Kanunla değişik); md. 53/1.",
+  "tuzaklar": {
+   "A": "Doğru ifadedir: portföy yönetim şirketi fon varlıkları üzerinde kendi adına ve fon hesabına tasarrufa yetkilidir (md. 52/3).",
+   "B": "Doğru ifadedir: fon adına sicil işlemleri portföy yönetim şirketi ve portföy saklayıcısını temsil eden birer yetkilinin müşterek imzasıyla yapılır (md. 52/5).",
+   "C": "Doğru ifadedir: kuruluş izni için kurucunun yetkili bir portföy saklayıcısıyla anlaşması ve iç tüzüğün Kurulca onayı gerekir (md. 52/2).",
+   "E": "Doğru ifadedir: portföy yönetim şirketi fonu katılma payı sahiplerinin haklarını koruyacak şekilde temsil eder, yönetir veya yönetimini denetler (md. 52/3)."
+  },
+  "kartlar": [
+   {
+    "on": "Yatırım fonu portföyündeki taşınmazlar kimin adına tescil edilir?",
+    "arka": "Fon adına. Fon, sicil işlemleriyle sınırlı olarak tüzel kişiliği haiz sayılır; işlemler portföy yönetim şirketi ve portföy saklayıcısını temsil eden birer yetkilinin müşterek imzasıyla yapılır (SPKn md. 52/5)."
+   },
+   {
+    "on": "Yatırım fonunun kuruluş izni şartları nelerdir?",
+    "arka": "Kurucunun Kurulca yetkilendirilmiş bir portföy saklayıcısıyla anlaşması ve fon iç tüzüğünün Kurulca onaylanması; Kurul eksiksiz başvurudan itibaren iki ay içinde karar verir (SPKn md. 52/2)."
+   }
+  ],
+  "konuBaglantisi": "Yatırım fonları ve portföy yönetimi"
+ },
+ {
+  "id": "2026-1-SPK-11",
+  "sonuc": "E",
+  "ozet": "SPKn md. 116/1: Kanunda tanımlanan veya atıfta bulunulan suçlardan dolayı yargılamaya HSK’nın ihtisas mahkemesi olarak görevlendireceği asliye ceza mahkemeleri yetkilidir: E.",
+  "adimlar": [
+   "<p><strong>1. Kural (md. 116/1).</strong> Bu Kanunda tanımlanan veya atıfta bulunulan suçlardan dolayı yargılama yapmaya Hâkimler ve Savcılar Kurulunun (HSK) ihtisas mahkemesi olarak görevlendireceği <strong>asliye ceza mahkemeleri</strong> yetkilidir: <strong>E</strong>.</p>",
+   "<p><strong>2. Soruşturma şartı (md. 115).</strong> Bu suçlardan soruşturma yapılması, Kurulun Cumhuriyet başsavcılığına yazılı başvurusuna bağlıdır ve bu başvuru muhakeme şartıdır. Kamu davası açılırsa Kurul katılan sıfatını kazanır; kovuşturmaya yer olmadığı kararına itiraz edebilir.</p>",
+   "<p><strong>3. Neden ağır ceza değil?</strong> Bilgi suistimali ve piyasa dolandırıcılığı gibi suçlarda üç yıldan beş yıla kadar hapis öngörülse de görev, ceza miktarına göre değil md. 116’daki özel hükümle belirlenmiştir: ihtisas mahkemesi olarak görevlendirilen asliye ceza mahkemesi.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 116/1 (görev ve yetki), md. 115/1–4 (yazılı başvuru ve özel soruşturma usulleri), md. 105/4 (idari para cezalarına karşı idari yargı).",
+  "tuzaklar": {
+   "A": "Danıştay idari yargı merciidir. Kurulun verdiği idari para cezalarına karşı idari yargı yoluna gidilir (md. 105/4); suçların yargılanması ise ceza mahkemesine aittir.",
+   "B": "Suçların cezası yüksek olsa da Kanun görevi özel olarak düzenlemiştir: HSK’nın ihtisas mahkemesi olarak görevlendirdiği asliye ceza mahkemeleri (md. 116/1).",
+   "C": "Ticaret mahkemeleri hukuk davalarına bakar; örneğin kayıtlı sermaye sisteminde yönetim kurulu kararlarına karşı iptal davası ortaklık merkezindeki ticaret mahkemesinde açılır (md. 18/6). Ceza yargılaması yapmaz.",
+   "D": "Asliye hukuk mahkemeleri hukuk davalarına bakar; sermaye piyasası suçlarında görevli değildir."
+  },
+  "kartlar": [
+   {
+    "on": "Sermaye piyasası suçlarında görevli mahkeme hangisidir?",
+    "arka": "HSK’nın ihtisas mahkemesi olarak görevlendirdiği asliye ceza mahkemeleri (SPKn md. 116/1)."
+   },
+   {
+    "on": "Sermaye piyasası suçlarında soruşturma nasıl başlar?",
+    "arka": "Kurulun Cumhuriyet başsavcılığına yazılı başvurusuyla; başvuru muhakeme şartıdır, dava açılırsa Kurul katılan olur (SPKn md. 115/1–2)."
+   }
+  ],
+  "konuBaglantisi": "Sermaye piyasası suçları"
+ },
+ {
+  "id": "2026-1-SPK-12",
+  "sonuc": "C",
+  "ozet": "SPKn md. 53/2: fon mal varlığı, fon hesabına olması ve fon iç tüzüğünde hüküm bulunması şartıyla kredi alma, türev araç ve açığa satış işlemleri için teminat gösterilebilir; “hüküm bulunsa dahi gösterilemez” diyen C yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Ayrılık ilkesi (md. 53/1).</strong> Fonun mal varlığı, portföy yönetim şirketinin ve portföy saklayıcısının mal varlığından ayrıdır.</p>",
+   "<p><strong>2. Teminat yasağı ve istisnası (md. 53/2, birinci cümle).</strong> Fon mal varlığı, <strong>fon hesabına olması ve fon iç tüzüğünde hüküm bulunması şartıyla</strong> kredi almak, türev araç işlemleri, açığa satış işlemleri veya fon adına taraf olunan benzer işlemler <strong>haricinde</strong> teminat gösterilemez ve rehnedilemez. Yani bu işlemler için, şartlar varsa, teminat gösterilebilir. C şıkkı istisnayı yasağa çeviriyor: <strong>C</strong> yanlıştır.</p>",
+   "<p><strong>3. Koruma hükümleri (md. 53/2 ikinci cümle, 53/3–4).</strong> Fon mal varlığı, portföy yönetim şirketinin ve saklayıcının yönetimi veya denetimi kamu kurumlarına devredilse dahi başka amaçla tasarruf edilemez (E); kamu alacakları için dahi haczedilemez, ihtiyati tedbir konulamaz, iflas masasına girmez (A). Tasfiyede yalnız katılma payı sahiplerine ödeme yapılır (B). Portföy yönetim şirketinin üçüncü kişilere borçları ile fonun aynı kişilerden alacakları takas (mahsup) edilemez (D).</p>",
+   "<p><strong>Not.</strong> Yatırım Fonlarına İlişkin Esaslar Tebliği (III-52.1) md. 5/4 aynı istisnayı “içtüzükte ve izahnamede hüküm bulunması” şartıyla tekrarlar.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 53/1–4 (fon mal varlığının ayrılığı); Yatırım Fonlarına İlişkin Esaslar Tebliği (III-52.1) md. 5/4–5.",
+  "tuzaklar": {
+   "A": "Doğru ifadedir: fon mal varlığı kamu alacakları için dahi haczedilemez, ihtiyati tedbir konulamaz, iflas masasına dahil edilemez (md. 53/2).",
+   "B": "Doğru ifadedir: tasfiyede yalnız katılma payı sahiplerine ödeme yapılabilir (md. 53/3).",
+   "D": "Doğru ifadedir: portföy yönetim şirketinin üçüncü kişilere borçları ile fonun aynı kişilerden alacakları mahsup edilemez (md. 53/4).",
+   "E": "Doğru ifadedir: yönetim veya denetim kamu kurumlarına devredilse dahi fon mal varlığı başka amaçla tasarruf edilemez (md. 53/2)."
+  },
+  "kartlar": [
+   {
+    "on": "Fon mal varlığı hangi işlemler için teminat gösterilebilir?",
+    "arka": "Fon hesabına olması ve fon iç tüzüğünde hüküm bulunması şartıyla kredi alma, türev araç, açığa satış ve fon adına taraf olunan benzer işlemler için; bunlar dışında teminat gösterilemez ve rehnedilemez (SPKn md. 53/2)."
+   },
+   {
+    "on": "Fon mal varlığının ayrılığı hangi korumaları içerir?",
+    "arka": "Portföy yönetim şirketi ve saklayıcının malvarlığından ayrıdır; kamu alacağı için dahi haczedilemez, ihtiyati tedbir konulamaz, iflas masasına girmez; tasfiyede yalnız katılma payı sahiplerine ödeme yapılır; yönetim şirketinin borçlarıyla mahsup edilemez (SPKn md. 53)."
+   }
+  ],
+  "konuBaglantisi": "Yatırım fonları ve portföy yönetimi"
+ },
+ {
+  "id": "2026-1-SPK-13",
+  "sonuc": "A",
+  "ozet": "SPKn md. 56/1 portföy saklama hizmetinin kapsamını (a)–(f) bentlerinde uygunluk ve kontrol işleri olarak sayar; fon portföyü için yatırım kararı vermek portföy yönetiminin işidir: A.",
+  "adimlar": [
+   "<p><strong>1. Portföy saklama hizmetinin kapsamı (md. 56/1).</strong> Kolektif yatırım kuruluşlarının varlıkları ayrı bir saklama hesabında saklanmak üzere saklayıcıya teslim edilir. Hizmet şunların sağlanmasını içerir: a) katılma paylarının ihraç ve itfasının mevzuat ve iç tüzüğe uygunluğu (B); b) değişken sermayeli yatırım ortaklığı paylarının ihraç ve itfasının uygunluğu; c) birim pay değerinin değerleme esaslarına göre hesaplanması; ç) mevzuata aykırı olmayan talimatların yerine getirilmesi; d) varlıklarla ilgili işlemlerden doğan bedelin uygun sürede aktarılması (C); e) gelirlerin mevzuat ve iç tüzüğe veya esas sözleşmeye uygun kullanılması (D); f) varlık alım satımları, portföy yapısı ve işlemlerin uygunluğu (E).</p>",
+   "<p><strong>2. Yatırım kararı kimindir?</strong> Portföy yönetim şirketi fonu temsil eder ve <strong>yönetir</strong> (md. 52/3); ana faaliyet konusu yatırım fonlarının kurulması ve yönetimidir (md. 55/1). Hangi araçlara yatırım yapılacağına karar vermek portföy yönetiminin özüdür; saklayıcı ise bu kararların uygunluğunu denetleyen bağımsız taraftır. Saklayıcı ile portföy yönetim şirketi aynı tüzel kişi olamaz (md. 56/6): <strong>A</strong>.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 56/1 (a)–(f) ve 56/6 (portföy saklama hizmeti); md. 52/3 ve 55/1 (portföy yönetim şirketi).",
+  "tuzaklar": {
+   "B": "Portföy saklama hizmetinin kapsamındadır: katılma paylarının ihraç ve itfasının mevzuat ve iç tüzüğe uygunluğu (md. 56/1-a).",
+   "C": "Kapsamdadır: edimlere ilişkin bedelin uygun sürede aktarılması (md. 56/1-d).",
+   "D": "Kapsamdadır: gelirlerin mevzuat ile iç tüzük veya esas sözleşmeye uygun kullanılması (md. 56/1-e).",
+   "E": "Kapsamdadır: varlık alım satımları, portföy yapısı ve işlemlerin uygunluğu (md. 56/1-f). Saklayıcı yatırım kararını vermez, kararın uygunluğunu gözetir."
+  },
+  "kartlar": [
+   {
+    "on": "Portföy saklama hizmeti neleri kapsar?",
+    "arka": "İhraç ve itfanın uygunluğu, birim pay değerinin doğru hesaplanması, mevzuata uygun talimatların yerine getirilmesi, bedelin uygun sürede aktarılması, gelirlerin uygun kullanılması, alım satım ve portföy yapısının uygunluğu (SPKn md. 56/1)."
+   },
+   {
+    "on": "Portföy saklayıcısı ile portföy yönetim şirketi aynı kuruluş olabilir mi?",
+    "arka": "Hayır; aynı tüzel kişi olamazlar ve birbirlerinden bağımsız, yalnız katılma payı sahiplerinin menfaatine hareket ederler (SPKn md. 56/6)."
+   }
+  ],
+  "konuBaglantisi": "Yatırım fonları ve portföy yönetimi"
+ },
+ {
+  "id": "2026-1-SPK-14",
+  "sonuc": "B",
+  "ozet": "SPKn md. 82/1: Kurul, yatırım kuruluşunun yükümlülüklerini yerine getiremediğini tespit ederse yatırımcıları tazmin kararı alır; karar durumun tespitinden itibaren üç ay içinde alınır: B.",
+  "adimlar": [
+   "<p><strong>1. Kural (md. 82/1).</strong> Kurul, yatırım kuruluşlarının sermaye piyasası faaliyetinden kaynaklanan nakit ödeme veya sermaye piyasası aracı teslim yükümlülüklerini yerine getiremediğini veya kısa sürede yerine getiremeyeceğini tespit ederse yatırımcıları tazmin kararı alır. Bu karar durumun tespitinden itibaren <strong>üç ay</strong> içinde alınır: <strong>B</strong>. Kurulun tedbir yetkileri saklıdır. Bankalar hakkında karar için BDDK’nın görüşü alınır (82/2).</p>",
+   "<p><strong>2. Tazmin sürecindeki öteki süreler (md. 85).</strong> Yatırımcının tazmin talebinde bulunma hakkı, tazmin kararının ilanından itibaren <strong>bir yıl</strong> sonra zamanaşımına uğrar (85/1). YTM, hak sahiplerini ve tutarları belirledikten sonra <strong>üç ay</strong> içinde ödeme yapar; zorunlu hâllerde Kurul onayıyla en fazla üç ay daha uzatılabilir (85/2).</p>",
+   "<p><strong>Not.</strong> Yatırımcı başına azami tazmin tutarı Kanunda yüz bin TL’dir ve her yıl yeniden değerleme oranında artırılır (md. 84/5); SPK’nın 2026 yılı için ilan ettiği tutar 2.065.145 TL’dir (SPK Bülteni 2025/68).</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 82/1–2 (yatırımcıların tazmini), md. 84/5 (azami tazmin tutarı), md. 85/1–2 (tazmin süreci); SPK Bülteni 2025/68 (2026 yılı yeniden değerlenmiş tutarlar).",
+  "tuzaklar": {
+   "A": "1 ay md. 82’de geçmez; tazmin kararı süresi üç aydır.",
+   "C": "6 ay, YTM’nin ödeme süresinin uzatma dahil ulaşabileceği en uzun süredir (üç ay + en fazla üç ay, md. 85/2); Kurulun tazmin kararı süresi değildir.",
+   "D": "9 ay md. 82’de geçmez; süre üç aydır.",
+   "E": "12 ay (bir yıl), tazmin kararının ilanından itibaren yatırımcının tazmin talebinin zamanaşımı süresidir (md. 85/1); Kurulun karar süresi değildir."
+  },
+  "kartlar": [
+   {
+    "on": "Kurul yatırımcıları tazmin kararını hangi sürede alır?",
+    "arka": "Yatırım kuruluşunun yükümlülüklerini yerine getiremediğinin tespitinden itibaren üç ay içinde (SPKn md. 82/1)."
+   },
+   {
+    "on": "Tazmin sürecindeki süreler nelerdir?",
+    "arka": "Kurulun tazmin kararı: tespitten itibaren 3 ay. Yatırımcının tazmin talebi: kararın ilanından itibaren 1 yıl içinde, sonra zamanaşımı. YTM’nin ödemesi: hak sahipleri belirlendikten sonra 3 ay, zorunlu hâlde 3 ay daha (SPKn md. 82/1, 85/1–2)."
+   }
+  ],
+  "konuBaglantisi": "Borsalar ve piyasa kurumları"
+ },
+ {
+  "id": "2026-1-SPK-15",
+  "sonuc": "E",
+  "ozet": "III-52.1 md. 6/1-b: portföyünün tamamı vadesine en fazla 184 gün kalmış likit araçlardan oluşan ve günlük ağırlıklı ortalama vadesi en fazla 45 gün olan fonları kapsayan şemsiye fon “para piyasası şemsiye fonu”dur: E.",
+  "adimlar": [
+   "<p><strong>1. Kural (III-52.1 md. 6/1-b).</strong> Portföyünün tamamı devamlı olarak, vadesine en fazla <strong>184 gün</strong> kalmış likiditesi yüksek para ve sermaye piyasası araçlarından oluşan ve portföyünün günlük olarak hesaplanan ağırlıklı ortalama vadesi en fazla <strong>45 gün</strong> olan fonları kapsayan şemsiye fonlar “PARA PİYASASI ŞEMSİYE FONU” olarak adlandırılır: <strong>E</strong>.</p>",
+   "<p><strong>2. Diğer şemsiye fon türleri (md. 6/1).</strong> a) Fon toplam değerinin en az %80’i devamlı olarak borçlanma araçlarına (borçlanma araçları), ihraççı paylarına (hisse senedi), kıymetli madenlere (kıymetli madenler) veya diğer fonların ve borsa yatırım fonlarının katılma paylarına (<strong>fon sepeti</strong>) yatırılan fonlar; c) faize dayalı olmayan araçlardan oluşan katılım fonları; ç) portföy sınırlamaları itibarıyla bu türlerin hiçbirine girmeyen fonlar (<strong>değişken</strong>); d) katılma payları yalnız nitelikli yatırımcılara satılan fonlar (<strong>serbest</strong>); e) başlangıç yatırımının veya belirli bir getirinin garantör garantisiyle ödenmesinin taahhüt edildiği fonlar (<strong>garantili</strong>) ile en iyi gayret esasına dayananlar (koruma amaçlı).</p>"
+  ],
+  "dayanak": "Yatırım Fonlarına İlişkin Esaslar Tebliği (III-52.1) md. 6/1-a(4), b, ç, d, e(1).",
+  "tuzaklar": {
+   "A": "Garantili şemsiye fon, yatırımcıya belirli bir ödemenin garantör garantisiyle taahhüt edildiği fonları kapsar (md. 6/1-e-1); vade kısıtıyla tanımlanmaz.",
+   "B": "Değişken şemsiye fon, portföy sınırlamaları itibarıyla diğer türlerden hiçbirine girmeyen fonları kapsar (md. 6/1-ç).",
+   "C": "Serbest şemsiye fon, yatırımcı türüyle tanımlanır: katılma payları yalnız nitelikli yatırımcılara satılır (md. 6/1-d).",
+   "D": "Fon sepeti şemsiye fonu, fon toplam değerinin en az %80’i diğer fonların ve borsa yatırım fonlarının katılma paylarına yatırılan fonları kapsar (md. 6/1-a-4)."
+  },
+  "kartlar": [
+   {
+    "on": "Para piyasası şemsiye fonunun ölçütleri nelerdir?",
+    "arka": "Portföyün tamamı devamlı olarak vadesine en fazla 184 gün kalmış likit para ve sermaye piyasası araçlarından oluşur; günlük hesaplanan ağırlıklı ortalama vade en fazla 45 gündür (III-52.1 md. 6/1-b)."
+   },
+   {
+    "on": "Serbest, değişken ve fon sepeti şemsiye fonları neyle ayrılır?",
+    "arka": "Serbest: katılma payları yalnız nitelikli yatırımcılara satılır. Değişken: hiçbir türün portföy sınırlamasına girmez. Fon sepeti: değerin en az %80’i diğer fonların ve BYF’lerin katılma paylarındadır (III-52.1 md. 6/1)."
+   }
+  ],
+  "konuBaglantisi": "Yatırım fonları ve portföy yönetimi"
+ },
+ {
+  "id": "2026-1-SPK-16",
+  "sonuc": "A",
+  "ozet": "I, piyasa bozucu eylemin SPKn md. 104/1’deki tanımıdır (doğru). II’deki fiil bilgi suistimali değil piyasa dolandırıcılığıdır (md. 107/2); III’teki fiil piyasa dolandırıcılığı değil güveni kötüye kullanmanın nitelikli hâlidir (md. 110/1-b): A.",
+  "adimlar": [
+   "<p><strong>1. I: piyasa bozucu eylemler (md. 104/1).</strong> Makul bir ekonomik veya finansal gerekçeyle açıklanamayan, borsa ve teşkilatlanmış diğer piyasaların güven, açıklık ve istikrar içinde çalışmasını bozacak nitelikteki eylem ve işlemler, <strong>bir suç oluşturmadığı takdirde</strong> piyasa bozucu eylem sayılır. Yaptırımı idari para cezasıdır: Kanunda 20.000–500.000 TL, menfaat sağlanmışsa menfaatin iki katından az olmamak üzere; tutarlar her yıl yeniden değerlenir (2026 için 445.243,49–11.141.376,25 TL, SPK Bülteni 2025/68). İfade <strong>doğru</strong>.</p>",
+   "<p><strong>2. II: bilgi bazlı piyasa dolandırıcılığı (md. 107/2).</strong> Fiyatları, değerleri veya yatırımcı kararlarını etkilemek amacıyla yalan, yanlış veya yanıltıcı bilgi vermek, söylenti çıkarmak, haber vermek, yorum yapmak veya rapor hazırlamak ya da bunları yaymak ve bu suretle menfaat sağlamak <strong>piyasa dolandırıcılığı</strong> suçudur. Bilgi suistimali (md. 106) ise henüz kamuya duyurulmamış (içsel) bilgiye dayanarak emir verme, emri değiştirme veya iptal etme ve böylece menfaat sağlamadır. İfade fiili yanlış suça bağlıyor: <strong>yanlış</strong>.</p>",
+   "<p><strong>3. III: güveni kötüye kullanma (md. 110/1-b).</strong> Yönetim, denetim veya sermaye bakımından ilişkili bir teşebbüs veya kişiyle emsallerine göre bariz şekilde farklı fiyat, ücret ve bedel uygulamak, örtülü işlemlerde bulunarak halka açık ortaklıkların kârını veya malvarlığını azaltmak, <strong>güveni kötüye kullanma suçunun nitelikli hâlidir</strong>; piyasa dolandırıcılığı değildir: <strong>yanlış</strong>.</p>",
+   "<p><strong>4. Sonuç.</strong> Yalnız I doğru: <strong>A</strong>.</p>",
+   "<p><strong>Not.</strong> Md. 110/1-b’deki “gibi” ibaresi Anayasa Mahkemesi kararıyla iptal edilmiştir; III’teki metin bu iptalden sonraki hâliyle aynıdır.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 104/1 (piyasa bozucu eylemler), md. 106/1 (bilgi suistimali), md. 107/1–2 (piyasa dolandırıcılığı), md. 110/1-b (güveni kötüye kullanma); SPK Bülteni 2025/68 (2026 yılı yeniden değerlenmiş tutarlar).",
+  "tuzaklar": {
+   "B": "II yanlıştır: yanıltıcı bilgi, söylenti veya yorum yayarak menfaat sağlamak piyasa dolandırıcılığıdır (md. 107/2); bilgi suistimali içsel bilgiye dayalı işlemdir (md. 106).",
+   "C": "I doğru, II yanlıştır (md. 107/2, bilgi bazlı piyasa dolandırıcılığı).",
+   "D": "I doğru, III yanlıştır: örtülü işlemlerle halka açık ortaklığın kârını azaltmak güveni kötüye kullanmanın nitelikli hâlidir (md. 110/1-b).",
+   "E": "II ve III’ün ikisi de fiili yanlış suça bağlar (md. 107/2 ve 110/1-b)."
+  },
+  "kartlar": [
+   {
+    "on": "Bilgi suistimali ile bilgi bazlı piyasa dolandırıcılığı nasıl ayrılır?",
+    "arka": "Bilgi suistimali: henüz kamuya duyurulmamış bilgiye dayanarak emir verip menfaat sağlamak (md. 106). Bilgi bazlı piyasa dolandırıcılığı: yalan, yanlış veya yanıltıcı bilgi, söylenti, haber, yorum veya rapor yayarak menfaat sağlamak (md. 107/2)."
+   },
+   {
+    "on": "Piyasa bozucu eylemin yaptırımı nedir?",
+    "arka": "Suç oluşturmayan, makul gerekçesi olmayan ve piyasanın güvenli işleyişini bozan eylemler için Kurulca idari para cezası; Kanundaki alt ve üst sınırlar her yıl yeniden değerlenir, menfaat varsa ceza menfaatin iki katından az olamaz (SPKn md. 104/1)."
+   }
+  ],
+  "konuBaglantisi": "Sermaye piyasası suçları"
+ },
+ {
+  "id": "2026-1-SPK-17",
+  "sonuc": "E",
+  "ozet": "SPKn md. 101/1, piyasa bozucu eylemler, bilgi suistimali ve piyasa dolandırıcılığı incelemelerinde Kurulun alabileceği tedbirleri sayar; adli para cezasına hükmetmek Kurulun değil ceza mahkemesinin yetkisidir: E.",
+  "adimlar": [
+   "<p><strong>1. Kural (md. 101/1).</strong> Kurul, 104, 106 ve 107. maddelerdeki fiilleri işlediğine dair makul şüphe bulunan kişiler ve ilgili sermaye piyasası araçları hakkında şu tedbirler dahil piyasanın etkin ve sağlıklı işleyişi için gerekli her türlü tedbiri alabilir: a) <strong>borsalarda geçici veya sürekli işlem yasağı</strong> (B); b) takas yöntemlerinin değiştirilmesi; c) <strong>kredili alım, açığa satış, ödünç alma ve verme sınırlamaları</strong> (D); ç) <strong>teminat yükümlülüğü getirilmesi veya değiştirilmesi</strong> (A); d) farklı pazar veya işlem esasları; e) piyasa verilerinin dağıtım kapsamının sınırlanması; f) <strong>işlem veya pozisyon limiti</strong> (C).</p>",
+   "<p><strong>2. Adli para cezası.</strong> Adli para cezası, bilgi suistimali (md. 106) ve piyasa dolandırıcılığı (md. 107) suçlarının yaptırımıdır ve ancak ceza yargılaması sonunda mahkemece hükmedilir. Görevli mahkeme asliye ceza mahkemesidir (md. 116/1). Kurulun bu suçlardaki rolü Cumhuriyet başsavcılığına yazılı başvuruda bulunmaktır (md. 115/1). Kurulun verebildiği ceza idari para cezasıdır (md. 103, 104): <strong>E</strong>.</p>",
+   "<p><strong>Not.</strong> 26/6/2024 tarihli ve 7518 sayılı Kanunla madde başlığına “piyasa bozucu eylemler” ve fıkraya md. 104 atfı eklendi; md. 101/3 ile internet yayınlarında içeriğin çıkarılması ve erişimin engellenmesi yetkisi de tanındı.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 101/1 (a)–(f) ve 101/3 (7518 sayılı Kanunla değişik ve ek), md. 103–104 (idari para cezaları), md. 106–107 (suçlar ve adli para cezası), md. 115/1, md. 116/1.",
+  "tuzaklar": {
+   "A": "Md. 101/1-ç’de sayılan bir tedbirdir: teminat yükümlülüğü getirilmesi veya yükümlülüğün değiştirilmesi.",
+   "B": "Md. 101/1-a’da sayılan bir tedbirdir: borsalarda geçici veya sürekli işlem yasağı.",
+   "C": "Md. 101/1-f’de sayılan bir tedbirdir: işlem veya pozisyon limiti.",
+   "D": "Md. 101/1-c’de sayılan bir tedbirdir: kredili alım, açığa satış, ödünç alma ve verme sınırlamaları."
+  },
+  "kartlar": [
+   {
+    "on": "Kurulun bilgi suistimali, piyasa dolandırıcılığı ve piyasa bozucu eylem incelemelerinde alabileceği tedbirler nelerdir?",
+    "arka": "Borsalarda geçici veya sürekli işlem yasağı; takas yönteminin değiştirilmesi; kredili alım, açığa satış ve ödünç işlemlerine sınırlama; teminat yükümlülüğü; farklı pazar veya işlem esasları; piyasa verisi dağıtımının sınırlanması; işlem veya pozisyon limiti dahil gerekli her türlü tedbir (SPKn md. 101/1)."
+   },
+   {
+    "on": "Adli para cezası ile idari para cezasını kim verir?",
+    "arka": "İdari para cezasını Kurul verir (md. 103–104). Adli para cezası suçların cezasıdır; asliye ceza mahkemesi hükmeder (md. 106–107, 116/1)."
+   }
+  ],
+  "konuBaglantisi": "Denetim, tedbirler ve idari yaptırımlar"
+ },
+ {
+  "id": "2026-1-SPK-18",
+  "sonuc": "C",
+  "ozet": "II-5.1 md. 6/1-a: yatırımcı başına her halka arz için en az iki yüz elli bin TL (yeniden değerlemeyle 2026 için 9.500.000 TL) değerinde araç alan yatırımcılara yönelik halka arzda izahname muafiyeti vardır; “yüz bin TL” diyen C yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. İki ayrı liste (II-5.1 md. 6).</strong> Md. 6/1: ihraççı veya halka arz edenin izahname hazırlama yükümlülüğünden <strong>muaf</strong> olduğu hâller. Md. 6/2: izahname <strong>hazırlanmayan</strong> hâller.</p>",
+   "<p><strong>2. C şıkkı (md. 6/1-a).</strong> Tebliğ metni “her halka arz için ayrı ayrı olmak üzere yatırımcı başına en az <strong>iki yüz elli bin TL</strong> değerinde sermaye piyasası aracı alan yatırımcılara yönelik yapılan halka arzlarda” muafiyet tanır. Bu tutar SPK’nın yeniden değerlemeye tabi tutarları arasındadır; 2026 yılı için <strong>9.500.000 TL</strong> olarak belirlenmiştir (SPK Bülteni 2025/68). Şıktaki “yüz bin TL” ne tebliğ metnine ne de 2026 tutarına uyar: <strong>C</strong> yanlıştır.</p>",
+   "<p><strong>3. Diğer şıklar tebliğin aynısıdır.</strong> A: md. 6/2-c (sermayeyi değiştirmeyen kupür, tertip, pay birleştirme veya bölünme). B: md. 6/2-ç (birleşme, devir, bölünme, ayni sermaye veya pay değişimi nedeniyle araç çıkarılması; duyuru metni şartıyla). D: md. 6/2-d (kâr payının pay olarak dağıtımı dahil bedelsiz pay). E: md. 6/1-c (nitelikli yatırımcıya satılmak üzere ihraç edilen araçların borsada nitelikli yatırımcılar arasında işlem görmesi).</p>",
+   "<p><strong>Dikkat.</strong> Muafiyetle veya izahname gerektirmeyen bir yolla çıkarılan araçlar sonradan halka arz edilerek yeniden satışa sunulursa izahname hazırlanması zorunludur (md. 6/4; birim nominal değeri yüksek araçlara ilişkin 6/1-b hariç).</p>"
+  ],
+  "dayanak": "İzahname ve İhraç Belgesi Tebliği (II-5.1) md. 6/1-a, c; 6/2-c, ç, d; 6/4. SPK Bülteni 2025/68 (Kurul Karar Organı’nın 30/12/2025 tarih ve 68/2461 sayılı kararı; 2026 yılı yeniden değerlenmiş tutarlar).",
+  "tuzaklar": {
+   "A": "Doğru ifadedir: sermayeyi değiştirmeyecek şekilde kupür, tertip, pay birleştirme veya bölünmeye konu paylarda izahname hazırlanmaz (md. 6/2-c).",
+   "B": "Doğru ifadedir: Kurulun birleşme ve bölünme düzenlemeleri çerçevesinde, duyuru metni ilanı şartıyla izahname hazırlanmaz (md. 6/2-ç).",
+   "D": "Doğru ifadedir: kâr payının pay olarak dağıtımı dahil bedelsiz pay çıkarılmasında izahname hazırlanmaz (md. 6/2-d).",
+   "E": "Doğru ifadedir: nitelikli yatırımcıya satılmak üzere ihraç edilen araçların borsada nitelikli yatırımcılar arasında işlem görmesinde muafiyet vardır (md. 6/1-c)."
+  },
+  "kartlar": [
+   {
+    "on": "Yatırımcı başına tutar ölçütüyle izahname muafiyeti hangi tutardadır?",
+    "arka": "Tebliğ metninde her halka arz için yatırımcı başına en az 250.000 TL; tutar her yıl yeniden değerlenir, 2026 için 9.500.000 TL (II-5.1 md. 6/1-a; SPK Bülteni 2025/68)."
+   },
+   {
+    "on": "Hangi durumlarda izahname hazırlanmaz?",
+    "arka": "Yalnız nitelikli yatırımcılara satış; tahsisli satış; sermayeyi değiştirmeyen kupür, tertip, birleştirme veya bölünme; birleşme, bölünme, ayni sermaye veya pay değişimi (duyuru metniyle); kâr payının pay olarak dağıtımı dahil bedelsiz pay; pay alım teklifinde bedelin araçla ödenmesi; dönüştürme veya hak kullanımıyla pay ihracı (II-5.1 md. 6/2)."
+   }
+  ],
+  "konuBaglantisi": "İhraç, izahname ve halka arz"
+ },
+ {
+  "id": "2026-1-SPK-19",
+  "sonuc": "A",
+  "ozet": "SPKn md. 61/1: her türlü varlık veya hakkın finansmanı için varlık kiralama şirketlerince ihraç edilen ve sahiplerine bu varlık veya haklardan elde edilen gelirlerde payları oranında hak sağlayan araç kira sertifikasıdır: A.",
+  "adimlar": [
+   "<p><strong>1. Tanım (md. 61/1).</strong> Kira sertifikaları; her türlü varlık veya hakkın finansmanını sağlamak amacıyla <strong>varlık kiralama şirketleri</strong> tarafından ihraç edilen ve sahiplerinin bu varlık veya haklardan elde edilen gelirlerden payları oranında hak sahibi olmalarını sağlayan, nitelikleri Kurulca belirlenen sermaye piyasası araçlarıdır: <strong>A</strong>.</p>",
+   "<p><strong>2. İhraççı.</strong> Varlık kiralama şirketleri münhasıran kira sertifikası ihraç etmek üzere kurulan anonim ortaklıklardır (md. 61/2). Sertifikalar itfa edilinceye kadar portföydeki varlıklar teminat amacı dışında tasarruf edilemez, kamu alacağı için dahi haczedilemez, iflas masasına girmez (md. 61/3).</p>",
+   "<p><strong>3. Ayırt edici unsur.</strong> Soru kökündeki “varlık kiralama şirketleri tarafından ihraç edilen” ifadesi tek başına cevabı belirler; diğer araçların ihraççısı veya niteliği farklıdır.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 61/1–3 (kira sertifikası ve varlık kiralama şirketleri); karşılaştırma için md. 3/1-i ve z, md. 57/1, md. 61/A/1.",
+  "tuzaklar": {
+   "B": "Gayrimenkul sertifikası, ihraççıların inşa edilecek veya edilmekte olan gayrimenkul projelerinin finansmanı için ihraç ettiği, projenin belirli bağımsız bölümlerini veya alan birimini temsil eden araçtır (md. 61/A/1).",
+   "C": "Kitle fonlaması bir sermaye piyasası aracı değil, bir proje veya girişim şirketi için kitle fonlama platformları aracılığıyla halktan para toplanmasıdır (md. 3/1-z).",
+   "D": "İpotekli sermaye piyasası aracı; ipotek teminatlı ve ipoteğe dayalı menkul kıymetler ile konut finansmanı alacaklarına dayalı veya bunların teminatı altında çıkarılan araçlardır (md. 3/1-i).",
+   "E": "Konut finansmanı bir araç değil, konut edinme amacıyla tüketiciye kredi kullandırılması veya konutun finansal kiralama yoluyla kiralanması gibi bir finansman faaliyetidir (md. 57/1)."
+  },
+  "kartlar": [
+   {
+    "on": "Kira sertifikası nedir, kim ihraç eder?",
+    "arka": "Her türlü varlık veya hakkın finansmanı için varlık kiralama şirketlerince ihraç edilen ve sahiplerine bu varlık veya haklardan elde edilen gelirlerde payları oranında hak sağlayan sermaye piyasası aracıdır (SPKn md. 61/1)."
+   },
+   {
+    "on": "Varlık kiralama şirketinin faaliyet alanı nedir?",
+    "arka": "Münhasıran kira sertifikası ihraç etmek üzere kurulan anonim ortaklıktır; esas sözleşmesindeki faaliyetler dışında ticari faaliyette bulunamaz (SPKn md. 61/2–3)."
+   }
+  ],
+  "konuBaglantisi": "Temel kavramlar ve araçlar"
+ },
+ {
+  "id": "2026-1-SPK-20",
+  "sonuc": "E",
+  "ozet": "SPKn md. 87/1: Kurul, sistemik riskin gözetimi ve finansal istikrar için işlem bilgilerinin doğrudan kendisine veya yetkilendireceği bir veri depolama kuruluşuna bildirilmesini isteyebilir: E.",
+  "adimlar": [
+   "<p><strong>1. Kural (md. 87/1).</strong> Sistemik riskin gözetimi ve finansal istikrarın korunması amacıyla Kurul, sermaye piyasasındaki işlemlere ilişkin bilgilerin, belirleyeceği şekil ve içerikte, işlemleri gerçekleştirenlerce doğrudan kendisine veya yetkilendireceği bir <strong>veri depolama kuruluşuna</strong> bildirilmesini isteyebilir: <strong>E</strong>. Bildirim yükümlüleri özel mevzuatlarındaki gizlilik ve sır saklama yükümlülüklerini ileri sürerek bilgi vermekten kaçınamaz.</p>",
+   "<p><strong>2. Tamamlayıcı hükümler.</strong> Veri depolama kuruluşu nezdindeki bilgilerin kamu tüzel kişileri dahil üçüncü kişilerle paylaşımı Kurul onayına tabidir (87/3). Kurul, finansal işlem yapanların tanımlayıcı bir kod veya numara almasını zorunlu tutabilir (87/4). Veri depolama kuruluşları md. 35’te sermaye piyasası kurumları arasında sayılır.</p>",
+   "<p><strong>3. Diğer kurumların işlevi.</strong> Merkezî takas kuruluşu takas, teslim ve teminat işlemlerini (md. 77/1), merkezî saklama kuruluşu merkezî saklamayı (md. 80/1), Merkezî Kayıt Kuruluşu kaydileştirilmiş araçların kayden izlenmesini (md. 81/1), Yatırımcı Tazmin Merkezi yatırımcıların tazminini (md. 83/1) yürütür. İşlem bilgilerinin sistemik risk amacıyla toplanması bunların görev tanımında değil, md. 87’dedir.</p>"
+  ],
+  "dayanak": "6362 sayılı SPKn md. 87/1–4 (veri depolama kuruluşları), md. 35 (sermaye piyasası kurumları); karşılaştırma için md. 77/1, 80/1, 81/1, 83/1.",
+  "tuzaklar": {
+   "A": "Merkezî Kayıt Kuruluşu, kaydileştirilen sermaye piyasası araçlarını ve bunlara bağlı hakları elektronik ortamda kayden izler ve merkezî saklamasını yapar (md. 81/1); md. 87’deki bildirim mercii değildir.",
+   "B": "Merkezî saklama kuruluşları sermaye piyasası araçlarının merkezî saklanması ve haklarının kullanımı hizmetini verir (md. 80/1).",
+   "C": "Merkezî takas kuruluşları borsada işlem gören araçların teslimi, bedellerin ödenmesi ve teminat yükümlülükleriyle ilgili işlemleri yürütür (md. 77/1).",
+   "D": "Yatırımcı Tazmin Merkezi yatırımcıların tazmini amacıyla kurulmuş kamu tüzel kişisidir (md. 83/1); işlem bilgisi toplamaz."
+  },
+  "kartlar": [
+   {
+    "on": "SPKn’ye göre sistemik risk gözetimi için işlem bilgileri kime bildirilir?",
+    "arka": "Kurulun belirleyeceği şekil ve içerikte, doğrudan Kurula veya Kurulun yetkilendireceği bir veri depolama kuruluşuna (SPKn md. 87/1)."
+   },
+   {
+    "on": "Veri depolama kuruluşundaki bilgiler üçüncü kişilerle paylaşılabilir mi?",
+    "arka": "Kamu tüzel kişileri dahil üçüncü kişilerle paylaşım Kurulun onayına tabidir; kişisel verilerin korunması mevzuatına uyulur (SPKn md. 87/3)."
+   }
+  ],
+  "konuBaglantisi": "Borsalar ve piyasa kurumları"
+ }
+]
