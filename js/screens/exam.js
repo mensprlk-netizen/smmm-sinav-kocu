@@ -220,7 +220,7 @@ async function showResult(view, id, ctx) {
     } catch { kayitHatasi(); tekrarBtn.disabled = false; }
   } }, s.tekrarEklendi ? 'Tekrara eklendi' : 'Yanlışları tekrara ekle');
   const mesaj = s.dersler.length > 1
-    ? (r.ortalamaGecti ? 'Ortalama barajı (60) geçildi' : 'Ortalama 60 altında')
+    ? `${Object.values(r.dersler).every(d => d.gecti) && r.ortalamaGecti ? 'Geçti' : 'Kaldı'} · Resmî kural: her ders en az 50 ve ortalama en az 60`
     : (r.dersler[s.dersler[0]]?.gecti ? 'Ders barajı (50) geçildi' : 'Ders barajı 50 altında');
   view.append(h('h1', {}, 'Deneme sonucu'),
     h('div', { class: 'card', style: 'text-align:center' }, h('div', { style: 'font-size:2.2em;font-weight:700' }, fmtPuan(r.ortalama)), h('div', { class: 'muted' }, mesaj),

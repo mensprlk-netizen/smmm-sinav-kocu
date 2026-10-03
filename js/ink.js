@@ -55,7 +55,7 @@ export function createInk({ strokes = [], onChange, height = 320 } = {}) {
   function abortStroke() { cur = null; pid = null; }
 
   function pos(e) { const r = canvas.getBoundingClientRect(); return [e.clientX - r.left, e.clientY - r.top, e.pressure || 0.5]; }
-  function isEraser(e) { return tool === 'eraser' || e.button === 5 || (e.buttons & 32) === 32; }
+  function isEraser(e) { return tool === 'eraser' || e.button === 5 || (e.buttons & 32) === 32 || (e.pointerType === 'pen' && (e.buttons & 2) === 2); }
   function scrollBy(dy) {
     for (let n = canvas.parentElement; n; n = n.parentElement) {
       const oy = globalThis.getComputedStyle ? getComputedStyle(n).overflowY : '';
@@ -64,7 +64,7 @@ export function createInk({ strokes = [], onChange, height = 320 } = {}) {
     globalThis.window?.scrollBy?.(0, dy);
   }
   function down(e) {
-    if (e.pointerType === 'touch') { touchId = e.pointerId; touchY = e.clientY; return; }
+    if (e.pointerType === 'touch') { if (cur) { e.preventDefault(); return; } touchId = e.pointerId; touchY = e.clientY; return; }
     if (e.pointerType !== 'pen' && e.pointerType !== 'mouse') return;
     if (cur) return;
     e.preventDefault(); canvas.setPointerCapture?.(e.pointerId);
@@ -74,6 +74,7 @@ export function createInk({ strokes = [], onChange, height = 320 } = {}) {
   }
   function move(e) {
     if (e.pointerType === 'touch') {
+      if (cur) { e.preventDefault(); return; } // avuç: kalem vuruşu sürerken kaydırma yok
       if (touchId !== null && e.pointerId === touchId) { scrollBy(touchY - e.clientY); touchY = e.clientY; }
       return;
     }
@@ -92,6 +93,11 @@ export function createInk({ strokes = [], onChange, height = 320 } = {}) {
   canvas.addEventListener('pointerup', up);
   canvas.addEventListener('pointercancel', up);
   canvas.addEventListener('contextmenu', (e) => e.preventDefault());
+  // Uygulama arka plana alınır/kapanırsa 300 ms'lik gecikme son vuruşu kaybettirmesin.
+  const onHide = () => { if (document.hidden) flush(); };
+  const onPageHide = () => flush();
+  document.addEventListener('visibilitychange', onHide);
+  window.addEventListener('pagehide', onPageHide);
 
   function undo() { abortStroke(); if (idx === 0) return; idx--; list = history[idx].slice(); redraw(); schedule(); }
   function redo() { abortStroke(); if (idx >= history.length - 1) return; idx++; list = history[idx].slice(); redraw(); schedule(); }
@@ -105,5 +111,5 @@ export function createInk({ strokes = [], onChange, height = 320 } = {}) {
   if (typeof ResizeObserver !== 'undefined') { ro = new ResizeObserver(resize); ro.observe(el); }
   else resizeTimer = setTimeout(resize, 0);
   renderTools();
-  return { el, getStrokes, setStrokes, undo, redo, clear, setTool, setColor, destroy() { flush(); ro?.disconnect(); clearTimeout(resizeTimer); } };
+  return { el, getStrokes, setStrokes, undo, redo, clear, setTool, setColor, destroy() { flush(); document.removeEventListener('visibilitychange', onHide); window.removeEventListener('pagehide', onPageHide); ro?.disconnect(); clearTimeout(resizeTimer); } };
 }

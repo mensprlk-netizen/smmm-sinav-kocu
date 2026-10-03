@@ -23,6 +23,8 @@ const route = createRouter({
 
 async function start() {
   try { await db.open(); } catch { toast('İlerleme kaydedilemiyor, yedek alın.', 5000); }
+  // Kalıcı depolama sessizce istenir (sonuç/hata yok sayılır); Ayarlar'daki düğme durur.
+  try { Promise.resolve(navigator.storage?.persist?.()).catch(() => {}); } catch { /* desteklenmiyor */ }
   await applySettings();
   try { await data.loadIndex(); } catch { toast('Veri yüklenemedi, önbellekten devam ediliyor.'); }
   window.addEventListener('hashchange', () => route(location.hash));

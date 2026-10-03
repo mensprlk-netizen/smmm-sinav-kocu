@@ -1,6 +1,6 @@
 .btn { min-height: 44px; padding: 10px 16px; border-radius: var(--radius); border: 1px solid var(--border); background: var(--surface); color: var(--text); font: inherit; cursor: pointer; }
 .btn-primary { background: var(--primary); color: var(--primary-text); border-color: var(--primary); }
-.btn-small { min-height: 36px; padding: 6px 12px; font-size: 0.9em; }
+.btn-small { min-height: 44px; padding: 8px 12px; font-size: 0.9em; }
 .btn-icon { min-width: 44px; min-height: 44px; border: 0; background: transparent; font: inherit; font-size: 1.2em; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
 .btn-block { width: 100%; }
 .btn[disabled] { opacity: 0.5; cursor: default; }
@@ -8,7 +8,7 @@
 .card h3 { margin: 0 0 6px; font-size: 1.05em; }
 .bar { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
 .bar > span { display: block; height: 100%; background: var(--primary); }
-.chip { display: inline-flex; align-items: center; min-height: 36px; padding: 4px 12px; border-radius: 18px; border: 1px solid var(--border); background: var(--surface); font-size: 0.9em; cursor: pointer; }
+.chip { display: inline-flex; align-items: center; min-height: 44px; padding: 6px 12px; border-radius: 22px; border: 1px solid var(--border); background: var(--surface); font-size: 0.9em; cursor: pointer; }
 .chip.on { background: var(--primary); color: var(--primary-text); border-color: var(--primary); }
 .badge { display: inline-block; padding: 2px 8px; border-radius: 8px; font-size: 0.8em; background: var(--sel); }
 .badge-err { background: var(--err); color: #fff; }
@@ -45,7 +45,7 @@ table.yevmiye td.n { text-align: right; white-space: nowrap; width: 1%; }
 .grid-map button.current { outline: 2px solid var(--primary); }
 .timer { font-variant-numeric: tabular-nums; font-weight: 600; } .timer.low { color: var(--err); }
 .ink-wrap { position: relative; touch-action: pan-y; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
-.ink-wrap canvas { display: block; width: 100%; touch-action: none; }
+.ink-wrap canvas { background: #fff; display: block; width: 100%; touch-action: none; }
 .ink-tools { display: flex; gap: 4px; padding: 6px; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
 .ink-tools .btn-icon.on { background: var(--sel); border-radius: 8px; }
 .stat-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); }
