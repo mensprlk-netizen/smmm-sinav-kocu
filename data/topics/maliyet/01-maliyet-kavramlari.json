@@ -1,0 +1,80 @@
+{
+ "kod": "01-maliyet-kavramlari",
+ "sira": 1,
+ "baslik": "Maliyet Kavramları",
+ "amac": "Harcama, maliyet, gider ve zarar ayrımını; üretim maliyetinin üç unsurunu; ilk ve dönüşüm maliyetini; maliyetlerin davranışa, kontrol edilebilirliğe ve karara göre sınıflarını sınavda şaşmadan kullanmak.",
+ "bolumler": [
+  {
+   "baslik": "Harcama, maliyet, gider, zarar",
+   "html": "<p><strong>Harcama</strong>, bir mal ya da hizmeti elde etmek için ödeme yapılması veya borç altına girilmesidir. <strong>Maliyet</strong>, belirli bir amaca ulaşmak (mal ya da hizmet elde etmek, üretmek) için katlanılan fedakârlıkların parayla ölçülen tutarıdır; tüketilinceye kadar varlık olarak bilançoda (örneğin 150, 151, 152 stoklarında) bekler. <strong>Gider</strong>, gelir elde etmek amacıyla tüketilen maliyettir; dönemin gelirleriyle karşılaştırılır. Satılan mamulün maliyeti satış anında 620 Satılan Mamuller Maliyeti olarak gidere dönüşür. <strong>Zarar</strong>, karşılığında gelir elde edilmeyen, olağan dışı tüketimdir: yangın, hırsızlık, anormal fire (68 Olağandışı Gider ve Zararlar grubu).</p><p>Sıra: harcama → maliyet (varlık) → gider (gelirle karşılaştırılır) ya da zarar (gelir sağlamaz).</p><p><strong>Mamul maliyeti – dönem gideri ayrımı:</strong> üretim maliyetleri (710, 720, 730) mamule yüklenir ve mamul satılana kadar stokta bekler. Araştırma-geliştirme, pazarlama-satış-dağıtım, genel yönetim ve finansman giderleri ise dönem gideridir; oluştukları dönemde gelir tablosuna (63 ve 66 grupları) aktarılır.</p>"
+  },
+  {
+   "baslik": "Üretim maliyetinin unsurları; ilk ve dönüşüm maliyeti",
+   "html": "<p>Üretim maliyeti üç unsurdan oluşur:</p><ul><li><strong>Direkt ilk madde ve malzeme (DİMM, 710):</strong> mamulün bünyesine giren ve mamule doğrudan, ekonomik biçimde izlenebilen madde.</li><li><strong>Direkt işçilik (Dİ, 720):</strong> doğrudan mamulün üretiminde çalışan ve mamule doğrudan izlenebilen işçilik.</li><li><strong>Genel üretim giderleri (GÜG, 730):</strong> üretimle ilgili olup mamule doğrudan izlenemeyen giderler: endirekt malzeme, endirekt işçilik, fabrika enerjisi, amortisman, bakım-onarım, sigorta, kira vb.</li></ul><p><strong>İlk (asal) maliyet = DİMM + Dİ</strong></p><p><strong>Dönüşüm (şekillendirme) maliyeti = Dİ + GÜG</strong></p><p><strong>Üretim maliyeti = DİMM + Dİ + GÜG</strong></p><p>Direkt işçilik iki tanımda da yer aldığı için ilk maliyet ile dönüşüm maliyetinin toplamı, üretim maliyetinden Dİ kadar büyüktür. Terimler: “ilk maliyet” ile “asal maliyet” aynı kavramdır (kitapçıklar “İlk (Asal) Maliyet” diye birlikte yazar); “dönüşüm”, “şekillendirme” ve “dönüştürme” maliyeti de eşanlamlıdır. “Asal maliyet yöntemi” ise ayrı bir kavramdır: yalnız DİMM ve Dİ'yi mamule yükleyen bir maliyetleme yöntemidir (Konu 11).</p>"
+  },
+  {
+   "baslik": "Davranışa göre maliyetler ve ilgili aralık",
+   "html": "<p>Maliyetler, faaliyet hacmindeki değişmeye verdikleri tepkiye göre sınıflanır. Bu davranış yalnız <strong>ilgili aralıkta</strong>, yani işletmenin mevcut kapasite ve koşullarla faaliyet gösterdiği hacim aralığında geçerlidir.</p><ul><li><strong>Değişken maliyet:</strong> toplamı hacimle orantılı değişir, birim başına sabittir (DİMM, parça başı ücret).</li><li><strong>Sabit maliyet:</strong> ilgili aralıkta toplamı değişmez, birim başına düşen tutar hacim arttıkça azalır (kira, normal amortisman, sigorta).</li><li><strong>Karma maliyet:</strong> sabit ve değişken öğeyi birlikte taşır. <em>Yarı değişken</em> maliyette sabit bir tabanın üzerine hacimle artan kısım eklenir (sabit abonelik bedeli + tüketime bağlı elektrik). <em>Yarı sabit (basamaklı)</em> maliyet belirli hacim aralıklarında sabit kalır, aralık aşılınca sıçrar (her vardiya için bir ustabaşı).</li></ul><p><strong>Toplam maliyet = Sabit maliyet + (Birim değişken maliyet × Hacim)</strong></p><p>Kaynak farkı: bazı kitaplar “karma maliyet” adını yalnız yarı değişken maliyete verir ve basamaklı maliyeti ayrı bir sınıf olarak anlatır; davranışın kendisi aynıdır. Grafiklerde dikey eksen toplam maliyeti, yatay eksen faaliyet hacmini gösterir.</p>",
+   "gorsel": {
+    "tip": "svg-static",
+    "veri": {
+     "svg": "<svg viewBox=\"0 0 600 450\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Maliyet davranış grafikleri: değişken, sabit, yarı değişken ve yarı sabit maliyetin toplam tutarının hacimle ilişkisi\"><text x=\"150\" y=\"26\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"600\" style=\"fill:var(--text)\">Değişken maliyet (toplam)</text><line x1=\"40\" y1=\"190\" x2=\"280\" y2=\"190\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"40\" y1=\"190\" x2=\"40\" y2=\"44\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><text x=\"32\" y=\"56\" text-anchor=\"end\" font-size=\"14\" style=\"fill:var(--muted)\">₺</text><text x=\"280\" y=\"210\" text-anchor=\"end\" font-size=\"14\" style=\"fill:var(--muted)\">Hacim</text><line x1=\"40\" y1=\"190\" x2=\"270\" y2=\"60\" stroke-width=\"3\" fill=\"none\" style=\"stroke:var(--primary)\"/><text x=\"150\" y=\"150\" font-size=\"14\" style=\"fill:var(--text)\">hacimle orantılı</text><text x=\"450\" y=\"26\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"600\" style=\"fill:var(--text)\">Sabit maliyet (toplam)</text><line x1=\"340\" y1=\"190\" x2=\"580\" y2=\"190\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"340\" y1=\"190\" x2=\"340\" y2=\"44\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><text x=\"332\" y=\"56\" text-anchor=\"end\" font-size=\"14\" style=\"fill:var(--muted)\">₺</text><text x=\"580\" y=\"210\" text-anchor=\"end\" font-size=\"14\" style=\"fill:var(--muted)\">Hacim</text><line x1=\"340\" y1=\"110\" x2=\"570\" y2=\"110\" stroke-width=\"3\" fill=\"none\" style=\"stroke:var(--primary)\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"190\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" fill=\"none\" style=\"stroke:var(--muted)\"/><line x1=\"540\" y1=\"70\" x2=\"540\" y2=\"190\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" fill=\"none\" style=\"stroke:var(--muted)\"/><text x=\"465\" y=\"150\" text-anchor=\"middle\" font-size=\"14\" style=\"fill:var(--text)\">ilgili aralık</text><text x=\"150\" y=\"256\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"600\" style=\"fill:var(--text)\">Yarı değişken (karma)</text><line x1=\"40\" y1=\"420\" x2=\"280\" y2=\"420\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"40\" y1=\"420\" x2=\"40\" y2=\"274\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><text x=\"32\" y=\"286\" text-anchor=\"end\" font-size=\"14\" style=\"fill:var(--muted)\">₺</text><text x=\"280\" y=\"440\" text-anchor=\"end\" font-size=\"14\" style=\"fill:var(--muted)\">Hacim</text><line x1=\"40\" y1=\"370\" x2=\"270\" y2=\"290\" stroke-width=\"3\" fill=\"none\" style=\"stroke:var(--primary)\"/><line x1=\"40\" y1=\"370\" x2=\"270\" y2=\"370\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" fill=\"none\" style=\"stroke:var(--muted)\"/><text x=\"150\" y=\"398\" text-anchor=\"middle\" font-size=\"14\" style=\"fill:var(--text)\">sabit kısım</text><text x=\"450\" y=\"256\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"600\" style=\"fill:var(--text)\">Yarı sabit (basamaklı)</text><line x1=\"340\" y1=\"420\" x2=\"580\" y2=\"420\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><line x1=\"340\" y1=\"420\" x2=\"340\" y2=\"274\" stroke-width=\"1.5\" style=\"stroke:var(--muted)\"/><text x=\"332\" y=\"286\" text-anchor=\"end\" font-size=\"14\" style=\"fill:var(--muted)\">₺</text><text x=\"580\" y=\"440\" text-anchor=\"end\" font-size=\"14\" style=\"fill:var(--muted)\">Hacim</text><polyline points=\"340,390 417,390\" stroke-width=\"3\" fill=\"none\" style=\"stroke:var(--primary)\"/><polyline points=\"417,350 493,350\" stroke-width=\"3\" fill=\"none\" style=\"stroke:var(--primary)\"/><polyline points=\"493,310 570,310\" stroke-width=\"3\" fill=\"none\" style=\"stroke:var(--primary)\"/><line x1=\"417\" y1=\"390\" x2=\"417\" y2=\"350\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" fill=\"none\" style=\"stroke:var(--muted)\"/><line x1=\"493\" y1=\"350\" x2=\"493\" y2=\"310\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" fill=\"none\" style=\"stroke:var(--muted)\"/><text x=\"455\" y=\"290\" text-anchor=\"middle\" font-size=\"14\" style=\"fill:var(--text)\">aralık aşılınca sıçrar</text></svg>"
+    }
+   }
+  },
+  {
+   "baslik": "Kontrol edilebilirlik, fırsat ve batık maliyet",
+   "html": "<p><strong>Kontrol edilebilir maliyet:</strong> belirli bir yönetim kademesinin belirli bir dönemde tutarını önemli ölçüde etkileyebildiği maliyettir. Kontrol edilebilirlik kademeye ve süreye bağlıdır: bölüm şefinin etkileyemediği fabrika binası amortismanı, yatırım kararını veren üst yönetim için kontrol edilebilirdir. Performans raporlarında yönetici yalnız kontrol edebildiği maliyetten sorumlu tutulur.</p><p><strong>Fırsat maliyeti:</strong> bir seçenek tercih edildiğinde vazgeçilen en iyi seçeneğin sağlayacağı net faydadır; muhasebe kayıtlarına girmez ama kararda dikkate alınır.</p><p><strong>Batık maliyet:</strong> geçmişte katlanılmış ve hiçbir gelecek kararla değiştirilemeyen maliyettir (eski bir makinenin defter değeri gibi); seçenekler arasında farklılaşmadığı için karar için ilgisizdir.</p>"
+  },
+  {
+   "baslik": "Muhasebe bilgi sistemi, amaçlar, üretim kayıpları",
+   "html": "<p>Muhasebe bilgi sistemi, yönetim bilgi sisteminin bir alt sistemidir; veriler toplanır, kaydedilir, sınıflandırılır, özetlenir ve raporlanır. Alt sistemleri finansal muhasebe, maliyet muhasebesi ve yönetim muhasebesidir. Finansal muhasebe, başta işletme dışındakiler (ortaklar, yatırımcılar, kredi verenler, devlet) olmak üzere tüm ilgililere bilgi sunar; yalnız işletme içine hizmet etmez.</p><p>Maliyet muhasebesinin amaçları: birim maliyeti hesaplamak, stokları değerlemek ve dönem kârını belirlemek; planlamaya, maliyet kontrolüne ve yönetsel kararlara bilgi sağlamak. İşletmenin ortaklık yapısına ilişkin kararlar bu amaçlar arasında değildir.</p><p>Üretim kayıpları: <strong>fire</strong> (buharlaşma, kırılma gibi nedenlerle miktarca kaybolan, geri kazanılamayan madde), <strong>artık</strong> (talaş, kırpıntı; satılabilir ama mamul niteliği yoktur), <strong>bozuk mamul</strong> (ek işlemle de birinci kaliteye getirilemeyen ya da getirilmesi ekonomik olmayan mamul), <strong>kusurlu mamul</strong> (ek işçilik, malzeme ve GÜG harcanarak birinci kalite mamule dönüştürülebilen mamul).</p>"
+  }
+ ],
+ "sinavYaklasimi": [
+  "Direkt işçilik hem ilk hem dönüşüm maliyetine girer. Şıklarda ilk + dönüşüm toplamını ya da üretim maliyetini (DİMM + Dİ + GÜG) veren tuzaklar bulunur: 2026-1-MAL-01'de ilk maliyet 107.750 + 31.000 = 138.750 ₺, dönüşüm maliyeti 31.000 + 48.000 = 79.000 ₺ (C).",
+  "Soru bütün kalemlerin “üretimle ilgili olarak” katlanıldığını söylüyorsa DİMM ve Dİ dışındaki her kalem, memur ücreti ve dışarıdan sağlanan hizmetler dahil, GÜG sayılır: 2026-2-MAL-13'te GÜG 440.000 ₺, birim dönüşüm maliyeti (400.000 + 440.000) / 100 = 8.400 ₺ (E). Kalem yönetim ya da pazarlama gideri diye verilirse dönem gideridir, maliyete girmez.",
+  "Eşanlamlılar: ilk = asal maliyet; dönüşüm = şekillendirme = dönüştürme maliyeti.",
+  "“Ek işlemle birinci kaliteye dönüştürülebilen” kayıp kusurlu mamuldür; dönüştürülemeyen bozuk mamuldür (2026-2-MAL-02, D).",
+  "Olumsuz köklü kavram soruları: ortaklık yapısına karar vermek maliyet muhasebesinin amacı değildir (2026-1-MAL-10, E); “finansal muhasebe sadece işletme içi kullanıcılara hizmet eder” yanlıştır (2026-2-MAL-06, A).",
+  "Davranış sorularında “toplam” ve “birim” sözcüğüne dikkat: birim değişken maliyet hacimle değişmez, birim sabit maliyet hacim arttıkça azalır."
+ ],
+ "ornekler": [
+  {
+   "soru": "<p>Bir işletmede ay içinde şu tutarlar oluşmuştur: direkt ilk madde ve malzeme 240.000 ₺, direkt işçilik 90.000 ₺, endirekt malzeme 18.000 ₺, endirekt işçilik 22.000 ₺, fabrika binası amortismanı 30.000 ₺, fabrika enerjisi 15.000 ₺, genel yönetim giderleri 40.000 ₺, pazarlama, satış ve dağıtım giderleri 25.000 ₺. Dönem başı ve dönem sonu yarı mamul ve mamul stoku yoktur; 500 adet mamul tamamlanmıştır.</p><p><strong>İlk maliyeti, dönüşüm maliyetini, toplam üretim maliyetini ve birim dönüşüm maliyetini bulunuz.</strong></p>",
+   "cozum": [
+    "<p><strong>1. GÜG.</strong> Endirekt malzeme, endirekt işçilik, fabrika amortismanı ve fabrika enerjisi GÜG'dür: 18.000 + 22.000 + 30.000 + 15.000 = <strong>85.000 ₺</strong>. Genel yönetim (40.000 ₺) ve pazarlama (25.000 ₺) giderleri dönem gideridir, maliyete girmez.</p>",
+    "<p><strong>2. İlk (asal) maliyet.</strong> DİMM + Dİ = 240.000 + 90.000 = <strong>330.000 ₺</strong></p>",
+    "<p><strong>3. Dönüşüm maliyeti.</strong> Dİ + GÜG = 90.000 + 85.000 = <strong>175.000 ₺</strong></p>",
+    "<p><strong>4. Üretim maliyeti.</strong> 240.000 + 90.000 + 85.000 = <strong>415.000 ₺</strong>; birim maliyet 415.000 / 500 = 830 ₺.</p>",
+    "<p><strong>5. Birim dönüşüm maliyeti.</strong> 175.000 / 500 = <strong>350 ₺</strong></p>",
+    "<p><strong>Sağlama.</strong> İlk + dönüşüm = 330.000 + 175.000 = 505.000 ₺; üretim maliyetinden farkı 90.000 ₺, yani direkt işçilik (iki kez sayılmıştır).</p>"
+   ]
+  }
+ ],
+ "cikmisSorular": [
+  "2026-1-MAL-01",
+  "2026-2-MAL-13",
+  "2026-1-MAL-10",
+  "2026-2-MAL-06",
+  "2026-2-MAL-02"
+ ],
+ "kartlar": [
+  {
+   "on": "İlk (asal) maliyet nasıl hesaplanır?",
+   "arka": "İlk (asal) maliyet = Direkt ilk madde ve malzeme + Direkt işçilik. Genel üretim giderleri girmez."
+  },
+  {
+   "on": "Dönüşüm (şekillendirme) maliyeti nasıl hesaplanır?",
+   "arka": "Dönüşüm (şekillendirme, dönüştürme) maliyeti = Direkt işçilik + Genel üretim giderleri. DİMM girmez; direkt işçilik hem ilk hem dönüşüm maliyetinde yer alır."
+  },
+  {
+   "on": "İlgili aralıkta değişken ve sabit maliyet toplamda ve birim başına nasıl davranır?",
+   "arka": "Değişken maliyet: toplamı hacimle orantılı artar, birim başına sabittir. Sabit maliyet: toplamı değişmez, birim başına düşen tutar hacim arttıkça azalır."
+  },
+  {
+   "on": "Batık maliyet ile fırsat maliyeti arasındaki fark nedir?",
+   "arka": "Batık maliyet geçmişte katlanılmış, hiçbir kararla değiştirilemeyen ve karar için ilgisiz maliyettir. Fırsat maliyeti, seçilmeyen en iyi seçenekten vazgeçilen net faydadır; kayda girmez ama kararda dikkate alınır."
+  }
+ ]
+}
