@@ -5,6 +5,8 @@
   "konular": ["01-maliyet-kavramlari", "02-maliyet-akisi-7a-7b", "03-direkt-ilk-madde-malzeme", "04-direkt-iscilik", "05-genel-uretim-giderleri-dagitim", "06-siparis-maliyeti", "07-safha-maliyeti", "08-birlesik-yan-urun", "09-standart-maliyet-sapma", "10-maliyet-hacim-kar", "11-maliyet-yontemleri", "12-butceleme-esnek-butce", "13-karar-verme-ilgili-maliyet", "14-faaliyet-tabanli-maliyetleme"],
   "kaynaklar": {
     "2026-1": { "url": "https://smmmonline.com/yeterlilik-cikmis-sorular/2026-1", "aciklama": "TÜRMOB-TESMER SMMM 2026-1 resmi soru kitapçıkları", "indirme": "2026-10-02" },
-    "2026-2": { "url": "https://smmmonline.com/yeterlilik-cikmis-sorular/2026-2", "aciklama": "TÜRMOB SMMM 2026-2 resmi soru kitapçıkları (TESMER 27.07.2026 yayını)", "indirme": "2026-10-02" }
+    "2026-2": { "url": "https://smmmonline.com/yeterlilik-cikmis-sorular/2026-2", "aciklama": "TÜRMOB SMMM 2026-2 resmi soru kitapçıkları (TESMER 27.07.2026 yayını)", "indirme": "2026-10-02" },
+    "2026-1-anahtar": { "url": "https://www.tesmer.org.tr/?p=2050", "aciklama": "TESMER SMMM 2026-1 sınav sonrası cevap anahtarları (İPTAL işaretli, 11.06.2026)", "indirme": "2026-10-03", "pdf": "https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/1/{01..08}/smmm_2026_1_{01..08}.pdf", "dosyalar": "tools/pdfs/resmi-anahtar/2026-1_*.pdf" },
+    "2026-2-anahtar": { "url": "https://www.tesmer.org.tr/?p=2050", "aciklama": "TESMER SMMM 2026-2 sınav sonrası cevap anahtarları (İPTAL işaretli, 20.08.2026)", "indirme": "2026-10-03", "pdf": "https://www2.tesmer.org.tr/files/ortak/soru_cevaplar/smmm/2026/2/{01..08}/smmm_2026_2_{01..08}.pdf", "dosyalar": "tools/pdfs/resmi-anahtar/2026-2_*.pdf" }
   }
 }
