@@ -1,0 +1,562 @@
+[
+ {
+  "id": "2026-1-SPK-01",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 1,
+  "konu": "İhraç, izahname ve halka arz",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, izahname ile kamuya açıklanan bilgilerde, satışa başlamadan önce veya satış süresi içinde yatırımcıların yatırım kararını etkileyebilecek değişiklik veya yeni hususların ortaya çıkması hâlinde, değişiklik veya yeni hususların yayımlanmasından önce sermaye piyasası araçlarını satın almak için talepte bulunmuş olan yatırımcılar, izahnamede yapılan ek ve değişikliklerin yayımlanmasından itibaren kaç iş günü içinde taleplerini geri alma hakkına sahiptirler?</strong></p>",
+  "secenekler": {
+   "A": "<p>1</p>",
+   "B": "<p>2</p>",
+   "C": "<p>3</p>",
+   "D": "<p>7</p>",
+   "E": "<p>10</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    355,
+    520,
+    249
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-02",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 2,
+  "konu": "Halka açık ortaklıklar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, halka açık ortaklıklar ve kolektif yatırım kuruluşları, ilişkili taraf işlemlerinin emsallerine, piyasa teamüllerine, ticari hayatın basiret ve dürüstlük ilkelerine uygun şartlarda gerçekleştirilmiş olduğunu tevsik edici bilgi ve belgeleri <u>en az</u> kaç yıl süre ile saklamak zorundadırlar?</strong></p>",
+  "secenekler": {
+   "A": "<p>2</p>",
+   "B": "<p>5</p>",
+   "C": "<p>7</p>",
+   "D": "<p>8</p>",
+   "E": "<p>10</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    972,
+    499,
+    184
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-03",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 3,
+  "konu": "Halka açık ortaklıklar",
+  "ortakBilgi": null,
+  "metin": "<ul class=\"madde\"><li>I. Yatırım ortaklıklarının yatırım ortaklığı niteliklerinin değiştirilmesi, yitirilmesi ve bu kapsamda yapılan imtiyaz değişiklikleri işlemlerinde ayrılma hakkı doğmaktadır.</li><li>II. Ortaklığın bağlı ortaklık paylarının halka arz yoluyla satılması işleminde ayrılma hakkının doğmadığı kabul edilir.</li><li>III. Birleşme ve Bölünme Tebliği uyarınca gerçekleştirilen kolaylaştırılmış usulde birleşme ve bölünme işlemlerinde ayrılma hakkı doğmaktadır.</li><li>IV. İflas ya da başka bir sona erme halinin oluşması sonucunda tasfiyeye giren ortaklıkların İcra İflas Kanunu, Türk Ticaret Kanunu ve ilgili diğer mevzuat hükümleri çerçevesinde tasfiye kapsamında gerçekleştirdiği işlemlerde ayrılma hakkının doğmadığı kabul edilir.</li></ul><p><strong>Önemli Nitelikteki İşlemler ve Ayrılma Hakkı Tebliği’ne göre, önemli nitelikteki işlemler ve ayrılma hakkına ilişkin yukarıdaki ifadelerden hangisi/hangileri doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yalnız I</p>",
+   "B": "<p>I ve III</p>",
+   "C": "<p>II ve III</p>",
+   "D": "<p>II ve IV</p>",
+   "E": "<p>III ve IV</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    664,
+    167,
+    507,
+    462
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-04",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 4,
+  "konu": "Temel kavramlar ve araçlar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, teminat yönetim sözleşmesi ve teminat yöneticisine ilişkin aşağıdaki ifadelerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Teminat konusu varlıklar, teminat yöneticisinin mal varlığından ayrıdır ve ayrı izlenir.</p>",
+   "B": "<p>Teminata konu varlıkların mülkiyeti teminaten genel saklama yetkisine sahip yatırım kuruluşu niteliğini haiz teminat yöneticisine devredilir veya bu varlıklar üzerinde teminat yöneticisi lehine sınırlı ayni hak tesis edilir.</p>",
+   "C": "<p>Temerrüt hâlinde ya da kanun veya sözleşme hükümlerinde öngörülen sebeplerle teminattan alacağın karşılanması söz konusu olduğunda; teminat yöneticisinin teminata konu varlıkları satıp bedellerini yatırımcılar arasında paylaştırabilmesi için Sermaye Piyasası Kurulundan izin alması gerekmektedir.</p>",
+   "D": "<p>Kurulun onayladığı her teminat yöneticisinin ticaret unvanı, hangi ihraçla ilgili olarak atandığı ve yetkileri, ihraççı tarafından ihraççının merkezinin bulunduğu yerin ticaret siciline ayırt edici şekilde tescil ve Türkiye Ticaret Sicili Gazetesi’nde ilan olunur.</p>",
+   "E": "<p>Teminat yöneticisinin sorumluluğunu hafifleten ya da kaldıran anlaşmalar, hüküm veya ifadeler geçersizdir.</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    914,
+    515,
+    511
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-05",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 5,
+  "konu": "Kamuyu aydınlatma ve sorumluluk",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, kamuyu aydınlatma belgelerinden doğan sorumlulukla ilgili aşağıdaki ifadelerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Kamuya açıklanan belgede yer alan bilgiler yanlış, yanıltıcı veya eksik olmasaydı dahi yatırımcıların zarara uğrayacak olmaları halinde kamuyu aydınlatma belgelerinin yanlış, yanıltıcı veya eksik olmasından kaynaklanan tazminat talebi reddedilir.</p>",
+   "B": "<p>Kamuyu aydınlatma belgelerinde yer alan bilgilerin yanlış, yanıltıcı veya eksik olması konusunda bilgi sahibi olmadığını ve bu bilgi eksikliğinin kast veya ağır ihmallerinden kaynaklanmadığını ispatlayan kişiler sorumlu olmaz.</p>",
+   "C": "<p>Bağımsız denetim, derecelendirme ve değerleme kuruluşları gibi kamuyu aydınlatma belgelerinde yer alan veya bu belgelere dayanak olmak üzere hazırlanan raporları hazırlayan kişi ve kurumlar da bu Kanun hükümleri çerçevesinde sorumludur.</p>",
+   "D": "<p>Sermaye piyasası araçlarının alım veya satımının kamuyu aydınlatma belgelerinde yer alan bilgilerin yanlış, yanıltıcı veya eksik olduğu bilinmesine rağmen yapılması halinde kamuyu aydınlatma belgelerinin yanlış, yanıltıcı veya eksik olmasından kaynaklanan tazminat talebi reddedilir.</p>",
+   "E": "<p>Kamuyu aydınlatma belgelerinden doğan tazminat talebi, zararın meydana geldiği tarihten itibaren üç ay içinde zamanaşımına uğrar.</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    133,
+    517,
+    619
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-06",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 6,
+  "konu": "Kripto varlıklar ve kitle fonlaması",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, aşağıdakilerden hangisi kripto varlık hizmet sağlayıcısı yönetim kurulu üyelerinde aranan şartlardan <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Müflis olmamak</p>",
+   "B": "<p>Gerekli mali güce sahip olmak</p>",
+   "C": "<p>Vergi kaçakçılığı suçlarından veya bu suçlara iştirakten hükümlü bulunmamak</p>",
+   "D": "<p>Uzlaşma suretiyle yeniden yapılandırma başvurusunun tasdik edilmiş olmaması</p>",
+   "E": "<p>İradi tasfiye haricinde faaliyet izni iptal edilmiş varlık yönetim şirketinde doğrudan veya dolaylı olarak yüzde on veya daha fazla paya sahip olmamak</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    1099,
+    515,
+    295
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-07",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 7,
+  "konu": "Halka açık ortaklıklar",
+  "ortakBilgi": null,
+  "metin": "<ul class=\"madde\"><li>I. Bir hesap döneminde verilecek toplam kâr payı avansı bir önceki yıla ait dönem kârının %25’lik kısmını aşamaz.</li><li>II. Önceki dönemde ödenen kâr payı avansları mahsup edilmeden ilave kâr payı avansı verilmesine ve kâr payı dağıtılmasına karar verilemez.</li><li>III. Kusurlarına ve durumun gereklerine göre zararlar şahsen kendilerine yükletilebildiği ölçüde yönetim kurulu üyeleri ara dönem finansal tablolarının gerçeği dürüst bir şekilde yansıtmamasından veya mevzuat ile muhasebe ilke ve kurallarına uygun olarak düzenlenmemiş olması nedeniyle dağıtılan kâr payı avansının doğru olmamasından doğan zararlar için ortaklığa, pay sahiplerine, ortaklık alacaklılarına karşı sorumludurlar.</li><li>IV. Hukuki sorumluluk doğuran hâllerin varlığı hâlinde, ortaklık alacaklıları tarafından, kâr payı avansı dağıtımına ilişkin kararın ilanından itibaren otuz gün içinde iptal davası açılabilir.</li></ul><p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, kâr payı avansı ile ilgili yukarıdakilerden hangisi/hangileri doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yalnız I</p>",
+   "B": "<p>Yalnız II</p>",
+   "C": "<p>II ve III</p>",
+   "D": "<p>III ve IV</p>",
+   "E": "<p>I, II ve III</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    664,
+    167,
+    512,
+    505
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-08",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 8,
+  "konu": "Yatırım ortaklıkları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, yatırım ortaklıklarının kuruluş ve faaliyet şartlarına ilişkin aşağıdaki ifadelerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yatırım ortaklıklarının bir portföy yönetim şirketinden hizmet alabilmesi için esas sözleşmelerinde hüküm bulunması yeterli olup Kuruldan ayrıca onay almalarına gerek bulunmamaktadır.</p>",
+   "B": "<p>Yatırım ortaklıklarına kuruluş izni verilebilmesi için; Kurulca yetkilendirilmiş bir kuruluşun portföy saklama hizmetini yürütmek üzere belirlenmiş olması gereklidir.</p>",
+   "C": "<p>Yatırım ortaklıklarının kuruluşuna ilişkin şartlar, yatırım ortaklığına dönüşümde de aranır.</p>",
+   "D": "<p>Yatırım ortaklıklarına kuruluş izni verilebilmesi için; paylarının nakit karşılığı çıkarılması ve pay bedellerinin kuruluş sırasında tam ve nakden ödenmesi gerekmektedir.</p>",
+   "E": "<p>Gayrimenkul yatırım ortaklıklarının kuruluşlarında ve sermaye artırımlarında, Kurulca portföye alınması uygun görülen varlıklar ayni sermaye olarak konulabilir.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    648,
+    985,
+    518,
+    446
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-09",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 9,
+  "konu": "Yatırım kuruluşları",
+  "ortakBilgi": null,
+  "metin": "<ul class=\"madde\"><li>I. Emir İletimine Aracılık</li><li>II. Yatırım Danışmanlığı</li><li>III. En İyi Gayret Aracılığı Faaliyeti</li><li>IV. Sınırlı Saklama Hizmeti</li><li>V. Aracılık Yüklenimi</li></ul><p><strong>Yatırım Hizmetleri ve Faaliyetleri ile Yan Hizmetlere İlişkin Esaslar Hakkında Tebliğ’e göre, “dar yetkili” aracı kurumlar yukarıda sayılan hizmet ve faaliyetlerden hangisini/hangilerini yürütebilirler?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yalnız V</p>",
+   "B": "<p>I ve II</p>",
+   "C": "<p>III ve IV</p>",
+   "D": "<p>IV ve V</p>",
+   "E": "<p>I, II ve III</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    84,
+    167,
+    463,
+    268
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-10",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 10,
+  "konu": "Yatırım fonları ve portföy yönetimi",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, yatırım fonlarına ilişkin aşağıdaki ifadelerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Portföy yönetim şirketi yatırım fonuna ait varlıklar üzerinde kendi adına ve fon hesabına mevzuat ve fon iç tüzüğüne uygun olarak tasarrufta bulunmaya ve bundan doğan hakları kullanmaya yetkilidir.</p>",
+   "B": "<p>Tapuda, ticaret sicilinde ve diğer resmî sicillerde fon adına yapılacak işlemler, portföy yönetim şirketi ile portföy saklama hizmetini yürüten kuruluşu temsil eden birer yetkilinin müşterek imzalarıyla gerçekleştirilir.</p>",
+   "C": "<p>Yatırım fonlarının kuruluş izni alabilmesi için, kurucunun portföy saklama hizmetini yürütmek üzere Kurulca yetkilendirilmiş bir kuruluş ile anlaşmış olması ve fon iç tüzüğünün Kurulca onaylanması gereklidir.</p>",
+   "D": "<p>Yatırım fonu portföyünde bulunan taşınmazlar, taşınmaza dayalı haklar ve taşınmaza dayalı senetler tapu kütüğüne portföy yönetim şirketi adına tescil edilir.</p>",
+   "E": "<p>Portföy yönetim şirketi, fonu, yatırım fonu katılma payı sahiplerinin haklarını koruyacak şekilde temsil eder, yönetir veya yönetimini denetler.</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    636,
+    529,
+    468
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-11",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 11,
+  "konu": "Sermaye piyasası suçları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, “Bu Kanunda tanımlanan veya atıfta bulunulan suçlardan dolayı yargılama yapmaya Hâkimler ve Savcılar Yüksek Kurulunun ihtisas mahkemesi olarak görevlendireceği ---- yetkilidir.” cümlesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Danıştay</p>",
+   "B": "<p>Ağır ceza mahkemeleri</p>",
+   "C": "<p>Ticaret mahkemeleri</p>",
+   "D": "<p>Asliye hukuk mahkemeleri</p>",
+   "E": "<p>Asliye ceza mahkemeleri</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    1334,
+    527,
+    274
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-12",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 12,
+  "konu": "Yatırım fonları ve portföy yönetimi",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, yatırım fon mal varlığının ayrılığına ilişkin aşağıdaki ifadelerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Fon mal varlığı, kamu alacaklarının tahsili amacı da dâhil olmak üzere haczedilemez, üzerine ihtiyati tedbir konulamaz ve iflas masasına dâhil edilemez.</p>",
+   "B": "<p>Fon mal varlığının tasfiyesi durumunda yalnızca katılma payı sahiplerine ödeme yapılabilir.</p>",
+   "C": "<p>Fon mal varlığı, fon iç tüzüğünde hüküm bulunsa dahi fon hesabına yapılacak kredi alma, türev araç ve açığa satış işlemleri için teminat olarak gösterilemez.</p>",
+   "D": "<p>Portföy yönetim şirketlerinin üçüncü kişilere olan borçları ve yükümlülükleri ile yatırım fonlarının aynı üçüncü kişilerden olan alacakları birbirlerine karşı mahsup edilemez.</p>",
+   "E": "<p>Fon mal varlığı portföy yönetim şirketinin ve portföy saklama hizmetini yürüten kuruluşun yönetiminin veya denetiminin kamu kurumlarına devredilmesi hâlinde dahi başka bir amaçla tasarruf edilemez.</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    133,
+    529,
+    447
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-13",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 13,
+  "konu": "Yatırım fonları ve portföy yönetimi",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, aşağıdakilerden hangisi portföy saklama hizmetinin kapsamına <u>girmez</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yatırım fonlarına ait fon portföyünün hangi sermaye piyasası araçlarına yatırılacağına ilişkin yatırım kararlarını vermek ve uygulanmasını sağlamak</p>",
+   "B": "<p>Yatırım fonları hesabına katılma paylarının ihraç ve itfa edilmesi işlemlerinin mevzuat ve fon iç tüzüğü hükümlerine uygunluğunu sağlamak</p>",
+   "C": "<p>Kolektif yatırım kuruluşlarının varlıklarıyla ilgili işlemlerinden doğan edimlerine ilişkin bedelin uygun sürede aktarılmasını sağlamak</p>",
+   "D": "<p>Kolektif yatırım kuruluşlarının gelirlerinin mevzuat ile fon iç tüzüğü veya esas sözleşme hükümlerine uygun olarak kullanılmasını sağlamak</p>",
+   "E": "<p>Kolektif yatırım kuruluşlarının varlık alım satımlarının, portföy yapılarının, işlemlerinin mevzuat, fon iç tüzüğü veya esas sözleşme hükümlerine uygunluğunu sağlamak</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    837,
+    529,
+    446
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-14",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 14,
+  "konu": "Borsalar ve piyasa kurumları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, “Kurul, yatırım kuruluşlarının sermaye piyasası faaliyetinden kaynaklanan nakit ödeme veya sermaye piyasası araçları teslim yükümlülüklerini yerine getiremediğinin veya kısa sürede yerine getiremeyeceğinin tespit edilmesi hâlinde yatırımcıları tazmin kararı alır. Bu karar, durumun tespitinden itibaren ---- içinde alınır.” cümlesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1 Ay</p>",
+   "B": "<p>3 Ay</p>",
+   "C": "<p>6 Ay</p>",
+   "D": "<p>9 Ay</p>",
+   "E": "<p>12 Ay</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    133,
+    522,
+    227
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-15",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 15,
+  "konu": "Yatırım fonları ve portföy yönetimi",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Yatırım Fonlarına İlişkin Esaslar Tebliği’ne göre, portföyünün tamamı devamlı olarak, vadesine <u>en fazla</u> 184 gün kalmış likiditesi yüksek para ve sermaye piyasası araçlarından oluşan ve portföyünün günlük olarak hesaplanan ağırlıklı ortalama vadesi <u>en fazla</u> 45 gün olan fonları kapsayan şemsiye fon türü aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Garantili</p>",
+   "B": "<p>Değişken</p>",
+   "C": "<p>Serbest</p>",
+   "D": "<p>Fon sepeti</p>",
+   "E": "<p>Para piyasası</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    757,
+    518,
+    295
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-16",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 16,
+  "konu": "Sermaye piyasası suçları",
+  "ortakBilgi": null,
+  "metin": "<ul class=\"madde\"><li>I. Makul bir ekonomik veya finansal gerekçeyle açıklanamayan, borsa ve teşkilatlanmış diğer piyasaların güven, açıklık ve istikrar içinde çalışmasını bozacak nitelikteki eylem ve işlemler, bir suç oluşturmadığı takdirde piyasa bozucu nitelikte eylem sayılır.</li><li>II. Sermaye piyasası araçlarının fiyatlarını, değerlerini veya yatırımcıların kararlarını etkilemek amacıyla yalan, yanlış veya yanıltıcı bilgi vermek, söylenti çıkarmak, haber vermek, yorum yapmak veya rapor hazırlamak ya da bunları yaymak ve bu suretle menfaat sağlamak fiili bilgi suistimali suçu sayılan fiiller arasında yer almaktadır.</li><li>III. Yönetim, denetim veya sermaye bakımından dolaylı veya dolaysız olarak ilişkili bulunduğu diğer bir teşebbüs veya şahısla emsallerine göre bariz şekilde farklı fiyat, ücret ve bedel uygulamak, örtülü işlemlerde bulunarak halka açık ortaklıkların kârını veya mal varlığını azaltmak fiili piyasa dolandırıcılığı suçu sayılan fiiller arasında yer almaktadır.</li></ul><p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, idari para cezası gerektiren fiiller ile sermaye piyasası suçlarına ilişkin yukarıdaki ifadelerden hangisi/hangileri doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yalnız I</p>",
+   "B": "<p>Yalnız II</p>",
+   "C": "<p>I ve II</p>",
+   "D": "<p>I ve III</p>",
+   "E": "<p>II ve III</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    666,
+    167,
+    509,
+    526
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-17",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 17,
+  "konu": "Denetim, tedbirler ve idari yaptırımlar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, aşağıdakilerden hangisi piyasa bozucu eylemler, bilgi suistimali ve piyasa dolandırıcılığı incelemelerinde sermaye piyasası kurulunun almaya yetkili olduğu tedbirler arasında <u>sayılmamıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Teminat yükümlülüğü getirilmesi veya yükümlülüğün değiştirilmesi</p>",
+   "B": "<p>Borsalarda geçici veya sürekli olarak işlem yapılmasının yasaklanması</p>",
+   "C": "<p>İşlem veya pozisyon limiti getirilmesi</p>",
+   "D": "<p>Kredili alım, açığa satış, ödünç alma ve verme işlemlerine ilişkin sınırlamalar getirilmesi</p>",
+   "E": "<p>İlgili kişiler hakkında adli para cezasına hükmedilmesi ve uygulanması</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    1035,
+    529,
+    339
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-18",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 18,
+  "konu": "İhraç, izahname ve halka arz",
+  "ortakBilgi": null,
+  "metin": "<p><strong>İzahname ve İhraç Belgesi Tebliği’ne göre, izahname hazırlama yükümlülüğünden muafiyetler ile izahname hazırlanmasını gerektirmeyen durumlara ilişkin aşağıdaki ifadelerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Bir ortaklığın sermayesini değiştirmeyecek şekilde kupür, tertip, pay birleştirilmesine veya bölünmesine konu paylar olması durumunda izahname hazırlanmaz.</p>",
+   "B": "<p>Kamuyu aydınlatma amacıyla, gerekli bilgileri içeren ve örneği Kurulca belirlenen bir duyuru metninin ilan edilmesi şartıyla, Kurulun birleşme ve bölünme işlemlerine ilişkin düzenlemeleri çerçevesinde birleşme, devir, bölünme, aktifin bir kısmının ayni sermaye olarak konulması veyahut pay değişimi nedeniyle sermaye piyasası araçlarının çıkarılması durumunda izahname hazırlanmaz.</p>",
+   "C": "<p>Her halka arz için ayrı ayrı olmak üzere yatırımcı başına en az yüz bin TL değerinde sermaye piyasası aracı alan yatırımcılara yönelik yapılan halka arzlarda ihraççı veya halka arz eden izahname hazırlama yükümlülüğünden muaftır.</p>",
+   "D": "<p>Kâr payının pay olarak dağıtımı da dahil olmak üzere bedelsiz paylar çıkarılması durumunda izahname hazırlanmaz.</p>",
+   "E": "<p>Nitelikli yatırımcılara satılmak üzere ihraç edilen sermaye piyasası araçlarının borsada nitelikli yatırımcılar arasında işlem görmesi durumunda ihraççı veya halka arz eden izahname hazırlama yükümlülüğünden muaftır.</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    57,
+    133,
+    525,
+    641
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-19",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 19,
+  "konu": "Temel kavramlar ve araçlar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, her türlü varlık veya hakkın finansmanını sağlamak amacıyla varlık kiralama şirketleri tarafından ihraç edilen ve sahiplerinin bu varlık veya haklardan elde edilen gelirlerden payları oranında hak sahibi olmalarını sağlayan, nitelikleri Kurul’ca belirlenen sermaye piyasası aracı aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Kira sertifikası</p>",
+   "B": "<p>Gayrimenkul sertifikası</p>",
+   "C": "<p>Kitle fonlaması</p>",
+   "D": "<p>İpotekli sermaye piyasası aracı</p>",
+   "E": "<p>Konut finansmanı</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    57,
+    1121,
+    529,
+    296
+   ]
+  }
+ },
+ {
+  "id": "2026-1-SPK-20",
+  "donem": "2026-1",
+  "ders": "SPK",
+  "no": 20,
+  "konu": "Borsalar ve piyasa kurumları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6362 sayılı Sermaye Piyasası Kanunu’na göre, “Sistemik riskin gözetimi ve finansal istikrarın korunması amacıyla, Kurul, sermaye piyasasında gerçekleştirilen işlemlere ilişkin olarak, bu işlemleri gerçekleştirenlerden, bu işlemlere ilişkin bilgilerin, belirleyeceği şekil ve içerikte, doğrudan kendisine veya yetkilendireceği bir ---- bildirilmesini isteyebilir.” cümlesinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Merkezi kayıt kuruluşuna</p>",
+   "B": "<p>Merkezi saklama kuruluşuna</p>",
+   "C": "<p>Merkezi takas kuruluşuna</p>",
+   "D": "<p>Yatırımcı tazmin merkezine</p>",
+   "E": "<p>Veri depolama kuruluşuna</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    638,
+    133,
+    529,
+    339
+   ]
+  }
+ }
+]
