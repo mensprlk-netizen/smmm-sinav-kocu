@@ -1,0 +1,562 @@
+[
+ {
+  "id": "2026-1-MH-01",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 1,
+  "konu": "Etik ilkeler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi Serbest Muhasebeci Mali Müşavirler ve Yeminli Mali Müşavirlerin Mesleki Faaliyetlerinde Uyacakları Etik İlkeler Hakkında Yönetmelik’in Ek-1’inde yer alan etik ilkeler uyarınca, bağımsız çalışan meslek mensubu için kişisel çıkar tehdidi yaratabilecek durumlara verilebilecek örneklerden biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Tek bir müşteriden alınacak toplam ücrete aşırı bağlılık</p>",
+   "B": "<p>Değeri önemsiz olanlar hariç, bir müşteriden hediye veya ayrıcalıklı hizmet alınması</p>",
+   "C": "<p>Müşteriyi kaybetme olasılığını dikkate alma</p>",
+   "D": "<p>Müşterisinden finansal çıkarı olması veya müşteri ile ortak bir finansal çıkarı paylaşması</p>",
+   "E": "<p>Güvence sağlama sözleşmesi ile ilgili şarta bağlı ücretler</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    233,
+    520,
+    339
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-02",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 2,
+  "konu": "Yasak haller",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi Serbest Muhasebeci Mali Müşavir ve Yeminli Mali Müşavirlerin Çalışma Usul ve Esasları Hakkında Yönetmelik’e göre, meslekle ve meslek onuru ile bağdaşmayan hallerden biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Meslek mensuplarının hizmetlerine karşılık alacakları ücretin en az miktarının altında iş kabul etmek</p>",
+   "B": "<p>Yanında çalıştırdığı kişilere karşı uygunsuz davranışlarda bulunmak</p>",
+   "C": "<p>Aşırı içki ve kumar düşkünlüğü ile tanınmak</p>",
+   "D": "<p>Kanunlara göre yapılması yasak olan işlerden herhangi birini yapmak</p>",
+   "E": "<p>Meslekî etik ve meslekî bağımsızlık kurallarını ihlal etmek</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    801,
+    512,
+    317
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-03",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 3,
+  "konu": "Odalar ve organları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi 3568 sayılı Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Kanunu’na göre, Odaların gelirlerinden biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yardım ve bağışlar</p>",
+   "B": "<p>Odaya giriş ücretleri</p>",
+   "C": "<p>Yıllık üye aidatları</p>",
+   "D": "<p>Ruhsatname ücretleri</p>",
+   "E": "<p>Mesleki eğitime yönelik kurs ücretleri</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    1320,
+    508,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-04",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 4,
+  "konu": "Disiplin cezaları ve usulü",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Kanunu Disiplin Yönetmeliği’ne göre, Oda Disiplin Kurulu kararlarına karşı ilgililer ne kadar süre içinde itiraz edebilirler?</strong></p>",
+  "secenekler": {
+   "A": "<p>Bildirim tarihinden itibaren 15 gün içinde</p>",
+   "B": "<p>Bildirim tarihinden itibaren 30 gün içinde</p>",
+   "C": "<p>Bildirim tarihinden itibaren 60 gün içinde</p>",
+   "D": "<p>Karar tarihinden itibaren 30 gün içinde</p>",
+   "E": "<p>Karar tarihinden itibaren 45 gün içinde</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    133,
+    502,
+    231
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-05",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 5,
+  "konu": "Etik ilkeler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi Serbest Muhasebeci Mali Müşavirler ve Yeminli Mali Müşavirlerin Mesleki Faaliyetlerinde Uyacakları Etik İlkeler Hakkında Yönetmelik uyarınca tüm meslek mensuplarının uyması zorunlu temel etik ilkelerden biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Gizlilik</p>",
+   "B": "<p>Mesleki Davranış</p>",
+   "C": "<p>Mesleki Yeterlilik ve Özen</p>",
+   "D": "<p>Objektiflik</p>",
+   "E": "<p>Dürüstlük</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    677,
+    520,
+    252
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-06",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 6,
+  "konu": "Haksız rekabet ve reklam",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Mesleklerine İlişkin Haksız Rekabet ve Reklam Yasağı Yönetmeliği’ne göre, “reklam yoluyla haksız rekabete neden olacak eylem ve davranış” örneği olarak açıkça sayılan hallerden biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Meslek mensuplarının dürüstlüğü, güvenirliği ve tarafsızlığı hakkında yanlış ve asılsız beyanlarda bulunmak</p>",
+   "B": "<p>Kendisi, hizmetleri ve faaliyetleri hakkında gerçek dışı veya yanıltıcı açıklamalarda bulunmak</p>",
+   "C": "<p>Meslek mensupları hakkında asılsız ihbar ve şikayette bulunmak</p>",
+   "D": "<p>Meslek mensuplarının hizmetlerini ve faaliyetlerini yanlış ve yanıltıcı veya yersiz açıklamalarla kötülemek</p>",
+   "E": "<p>Üçüncü şahısları yanıltacak şekilde gerçeğe aykırı belge düzenlemek ve onaylamak</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    1171,
+    518,
+    404
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-07",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 7,
+  "konu": "Odalar ve organları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi 3568 sayılı Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Kanunu’na göre, Odaların organlarından biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yönetim Kurulu</p>",
+   "B": "<p>Genel Kurul</p>",
+   "C": "<p>Danışma Kurulu</p>",
+   "D": "<p>Disiplin Kurulu</p>",
+   "E": "<p>Denetleme Kurulu</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    133,
+    508,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-08",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 8,
+  "konu": "Ücret ve sözleşme",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavir ve Yeminli Mali Müşavirlerin Çalışma Usul ve Esasları Hakkında Yönetmelik’e göre, aşağıdakilerden hangisi sözleşmede bulunması gereken asgari bilgilerden biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Sözleşme yeri</p>",
+   "B": "<p>Ücret tutarı</p>",
+   "C": "<p>Önceki meslek mensubunun adresi</p>",
+   "D": "<p>Yapılacak işlerin amacı</p>",
+   "E": "<p>Tarafların vergi daireleri</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    572,
+    503,
+    252
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-09",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 9,
+  "konu": "Etik ilkeler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi Serbest Muhasebeci Mali Müşavirler ve Yeminli Mali Müşavirlerin Mesleki Faaliyetlerinde Uyacakları Etik İlkeler Hakkında Yönetmelik’e ekli Etik İlkeler’e göre, temel etik ilkelerine yönelik tehditlerin sınıflandırıldığı 5 temel tehditten biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Gizlilik</p>",
+   "B": "<p>Kişisel Çıkar</p>",
+   "C": "<p>Yeniden Değerlendirme</p>",
+   "D": "<p>Yakınlık</p>",
+   "E": "<p>Taraf Tutma</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    1119,
+    481,
+    274
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-10",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 10,
+  "konu": "Etik ilkeler",
+  "ortakBilgi": null,
+  "metin": "<p>Serbest Muhasebeci Mali Müşavirler ve Yeminli Mali Müşavirlerin Mesleki Faaliyetlerinde Uyacakları Etik İlkeler Hakkında Yönetmelik’e ekli Etik İlkeler’e göre, tehditleri ortadan kaldıran veya kabul edilebilir bir düzeye indiren önlemler iki büyük gruba ayrılır.</p><p><strong>Aşağıdakilerden hangisi bu gruplardan biri olan mevzuat ile oluşturulabilecek önlemlere verilebilecek örneklerden biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Sürekli meslekî gelişim gereksinimleri</p>",
+   "B": "<p>Kurumsal yönetim gereksinimleri</p>",
+   "C": "<p>Meslekî standartlar</p>",
+   "D": "<p>Meslekî veya düzenleyici izleme ve disiplin prosedürleri</p>",
+   "E": "<p>İş çevresinden sağlanacak önlemler</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    133,
+    520,
+    330
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-11",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 11,
+  "konu": "Meslek mensubu olma şartları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi 3568 sayılı Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Kanunu’na göre, meslek mensubu olabilmenin “genel şartları”ndan biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Ceza veya disiplin soruşturması sonucunda memuriyetten çıkarılmış olmamak</p>",
+   "B": "<p>Medeni hakları kullanma ehliyetine sahip bulunmak</p>",
+   "C": "<p>Kamu haklarından mahrum bulunmamak</p>",
+   "D": "<p>Serbest muhasebeci mali müşavirlik sınavını kazanmış olmak</p>",
+   "E": "<p>Meslek şeref ve haysiyetine uymayan durumları bulunmamak</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    636,
+    519,
+    296
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-12",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 12,
+  "konu": "Haksız rekabet ve reklam",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Mesleklerine İlişkin Haksız Rekabet ve Reklam Yasağı Yönetmeliği’ne göre, aşağıdakilerden hangisi “ücret ve diğer mali nitelikteki uygulamalarda” haksız rekabet örneği olarak açıkça sayılan hallerden biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Bir meslek mensubuna olan ücret borcunu ödememiş iş sahibine hizmet vermek</p>",
+   "B": "<p>Meslek ruhsatının kiralanması veya çeşitli menfaatler sağlayarak meslek mensubu olmayan kişilere faaliyette bulunma imkanı sağlamak</p>",
+   "C": "<p>Alınan ücrete karşılık olmak üzere gerçeğe aykırı serbest meslek makbuzu düzenlemek</p>",
+   "D": "<p>Üçüncü kişilere ücret ya da herhangi bir menfaat sağlamak suretiyle iş almak</p>",
+   "E": "<p>İş sahiplerine ait veya iş sahiplerinden elde edilen bilgileri kullanmak suretiyle ekonomik çıkar sağlamak</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    1189,
+    522,
+    403
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-13",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 13,
+  "konu": "Staj ve sınav",
+  "ortakBilgi": null,
+  "metin": "<p>Yeminli Mali Müşavirlik ve Serbest Muhasebeci Mali Müşavirlik Sınav Yönetmeliği’ne göre; Serbest Muhasebeci Mali Müşavirlik sınavında başarılı olamayanlar;</p><ul class=\"madde\"><li>I. İlk sınav tarihinden itibaren ---- yıl içerisinde</li><li>II. Yılda ---- kez açılacak sınavlara girebilirler.</li><li>III. Bu sınav haklarını süresinde kullanmayanlar veya başarılı olamayanlar, ---- ay süreyle meslek sınavlarına alınmazlar.</li></ul><p><strong>Bu düzenlemede boş bırakılan kısımlar aşağıdakilerden hangisinde sırasıyla doğru olarak verilmiştir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1, 3, 12</p>",
+   "B": "<p>2, 2, 6</p>",
+   "C": "<p>2, 3, 6</p>",
+   "D": "<p>3, 3, 6</p>",
+   "E": "<p>3, 3, 12</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    133,
+    541,
+    302
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-14",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 14,
+  "konu": "Sürekli mesleki geliştirme",
+  "ortakBilgi": null,
+  "metin": "<p>TÜRMOB Sürekli Mesleki Geliştirme Eğitimi Yönetmeliği’ne göre;</p><ul class=\"madde\"><li>I. Eğitim kapsamındaki meslek mensubunun yılda en az 30 kredilik ve her 3 yılda en az 90 kredilik sürekli mesleki geliştirme eğitimi alması gereklidir.</li><li>II. Bu eğitimlerin yıllık en az 15 kredi ve her 3 yılda en az 45 kredilik kısmının doğrulanabilir olması gerekir.</li><li>III. 3 yıllık dönemde “Mesleki Çalışma Standartları ve Etik İlkeler” konusunda en az 3 kredi, “Denetim; Denetim ve Güvence Standartları” konusundan en az 2 kredi karşılığı eğitimin tamamlanması gerekir.</li><li>IV. Eğitim yükümlülüğünde doğrulanabilir eğitim kredileri dışında kalan 3 yıllık periyotta en çok 60 kredilik kısım “Diğer Faaliyetler” ile ikmal edilir.</li></ul><p><strong>Yukarıdaki ifadelerden hangisi/hangileri <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yalnız I</p>",
+   "B": "<p>Yalnız III</p>",
+   "C": "<p>I ve II</p>",
+   "D": "<p>II ve IV</p>",
+   "E": "<p>III ve IV</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    692,
+    536,
+    410
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-15",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 15,
+  "konu": "Disiplin cezaları ve usulü",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavirlik ve Yeminli Mali Müşavirlik Kanunu Disiplin Yönetmeliği’ne göre, aşağıdakilerden hangisi için Uyarma Cezası uygulanır?</strong></p>",
+  "secenekler": {
+   "A": "<p>En az iki kez yazı ile istenmesine rağmen, oda aidat borçlarının haklı gerekçe olmaksızın ödenmemesi</p>",
+   "B": "<p>Meslek mensuplarınca, sahip olunmayan unvanların kullanılması</p>",
+   "C": "<p>Meslek mensuplarınca, reklam yasağına uyulmaması</p>",
+   "D": "<p>Ticari faaliyet yasağına uyulmaması</p>",
+   "E": "<p>Büro tescil belgesi alınmaması</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    1328,
+    526,
+    252
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-16",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 16,
+  "konu": "TÜRMOB ve organları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Türkiye Serbest Muhasebeci Mali Müşavirler ve Yeminli Mali Müşavirler Odaları Birliği Yönetmeliği’ne göre, aşağıdakilerden hangisi TÜRMOB’un gelirlerinden biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Birliğe ait mal gelirleri</p>",
+   "B": "<p>Kurs ve eğitim gelirleri</p>",
+   "C": "<p>Yeminli mali müşavirlik mühür ücretleri</p>",
+   "D": "<p>Ruhsatname ücretleri</p>",
+   "E": "<p>Birliğe dahil odaların net gelirlerinin %10’unu geçmemek üzere, alınacak paylar</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    133,
+    528,
+    252
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-17",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 17,
+  "konu": "TÜRMOB ve organları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Türkiye Serbest Muhasebeci Mali Müşavirler ve Yeminli Mali Müşavirler Odaları Birliği Yönetmeliği’ne göre, aşağıdakilerden hangisi TÜRMOB Genel Kurulu’nun görevlerinden biridir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Birlik bütçesini hazırlamak</p>",
+   "B": "<p>Uyulması mecburi mesleki kararlar almak</p>",
+   "C": "<p>Mesleki standartları geliştirmek</p>",
+   "D": "<p>Mesleki çalışma komiteleri kurmak</p>",
+   "E": "<p>Meslek mensuplarının mesleki faaliyetlerini yürütmelerinde yardımcı olmak</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    698,
+    528,
+    253
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-18",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 18,
+  "konu": "Odalar ve organları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavirler Odaları Yönetmeliği’ne göre, bölgesi içinde kendi mesleği konusunda <u>en az</u> kaç meslek mensubu bulunan il merkezlerinde bir oda kurulur?</strong></p>",
+  "secenekler": {
+   "A": "<p>100</p>",
+   "B": "<p>125</p>",
+   "C": "<p>150</p>",
+   "D": "<p>200</p>",
+   "E": "<p>250</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    1208,
+    494,
+    120
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-19",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 19,
+  "konu": "Yasak haller",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavir ve Yeminli Mali Müşavirlerin Çalışma Usul ve Esasları Hakkında Yönetmelik’te Yasak Haller ve İstisnaları çerçevesinde sayılan Ticari Faaliyette Bulunamama kapsamında aşağıdaki ifadelerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Komandit şirketlerde komanditer ortak olamazlar.</p>",
+   "B": "<p>Türk Ticaret Kanunu’na göre tacir veya esnaf sayılmalarını gerektirecek bir faaliyette bulunamazlar.</p>",
+   "C": "<p>Kendi mesleki faaliyetleri dışında serbest meslek faaliyetinde bulunamazlar.</p>",
+   "D": "<p>Ticari mümessillik, ticari vekillik ve acentelik yapamazlar.</p>",
+   "E": "<p>Adi ve kollektif şirketlerde ortak olamazlar.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    133,
+    518,
+    317
+   ]
+  }
+ },
+ {
+  "id": "2026-1-MH-20",
+  "donem": "2026-1",
+  "ders": "MH",
+  "no": 20,
+  "konu": "Odalar ve organları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Serbest Muhasebeci Mali Müşavirler Odaları Yönetmeliği’ne göre, üye sayısı bin ilâ beş bin arasında olan odalarda Oda Yönetim Kurulu kaç asıl üyeden oluşur?</strong></p>",
+  "secenekler": {
+   "A": "<p>3</p>",
+   "B": "<p>5</p>",
+   "C": "<p>7</p>",
+   "D": "<p>9</p>",
+   "E": "<p>11</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    902,
+    528,
+    120
+   ]
+  }
+ }
+]

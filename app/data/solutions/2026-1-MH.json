@@ -1,0 +1,552 @@
+[
+ {
+  "id": "2026-1-MH-01",
+  "sonuc": "B",
+  "ozet": "Etik İlkeler Ek-1 md. 21 bağımsız çalışan meslek mensubu için kişisel çıkar tehdidi örneklerini sayar; değeri önemsiz olmayan hediye veya ayrıcalıklı hizmet alınması ise md. 24’te yakınlık tehdidi örneğidir: B.",
+  "adimlar": [
+   "<p><strong>1. Yapı.</strong> Etik İlkeler Yönetmeliği’nin eki (Ek-1) üç kısımdır: Birinci Kısım tüm meslek mensuplarının uyacağı temel ilkeler ve kavramsal çerçeve, İkinci Kısım <strong>bağımsız çalışan</strong> meslek mensupları, Üçüncü Kısım bağımlı çalışanlar. Ek-1’in kendi madde numarası vardır. İkinci Kısımda her tehdit türünün örnekleri ayrı bir maddede sayılır: md. 21 kişisel çıkar, md. 22 tekrar değerlendirme, md. 23 taraf tutma, md. 24 yakınlık, md. 25 yıldırma.</p>",
+   "<p><strong>2. Kişisel çıkar örnekleri (Ek-1 md. 21/1).</strong> a) Müşterisinden finansal çıkarı olması veya müşteri ile ortak bir finansal çıkarı paylaşması (D); b) Tek bir müşteriden alınacak toplam ücrete aşırı bağlılık (A); c) Müşteri ile yakın iş ilişkisi kurmak; ç) Müşteriyi kaybetme olasılığını dikkate alma (C); d) Müşteri tarafından istihdam edilme olasılığı; e) Güvence sağlama sözleşmesi ile ilgili şarta bağlı ücretler (E); f) Güvence sağlama müşterisinden veya yöneticilerinden borç alınması ya da onlara borç verilmesi.</p>",
+   "<p><strong>3. Hediye (B).</strong> “Değeri önemsiz olanlar hariç, bir müşteriden hediye veya ayrıcalıklı hizmet alınması” Ek-1 md. 24/1-ç’de, yani <strong>yakınlık tehdidi</strong> örnekleri arasında sayılır. md. 21’deki listede yoktur: <strong>B</strong>.</p>",
+   "<p><strong>4. Not.</strong> Ek-1 md. 46/1 (Hediyeler ve Ağırlama) ayrıca, müşteriden hediye kabul edilmesinin “objektiflik ilkesine yönelik kişisel çıkar tehdidi” oluşturabileceğini söyler. Soru ise md. 21’de örnek olarak sayılan durumları soruyor; A, C, D ve E md. 21’in kelimesi kelimesine aynısıdır, B o listede değil md. 24’tedir. Bu yüzden cevap yine B’dir.</p>"
+  ],
+  "dayanak": "Etik İlkeler Yönetmeliği Ek-1, İkinci Kısım: md. 21/1 (kişisel çıkar tehdidi örnekleri), md. 24/1-ç (yakınlık tehdidi örneği: hediye veya ayrıcalıklı hizmet), md. 46/1 (hediyeler).",
+  "tuzaklar": {
+   "A": "Tek bir müşteriden alınan ücrete aşırı bağlılık, md. 21/1-b’de kişisel çıkar tehdidi örneğidir.",
+   "C": "Müşteriyi kaybetme olasılığını dikkate alma, md. 21/1-ç’de kişisel çıkar tehdidi örneğidir.",
+   "D": "Müşteride finansal çıkar veya ortak finansal çıkar, md. 21/1-a’da ilk sırada sayılan kişisel çıkar örneğidir.",
+   "E": "Güvence sağlama sözleşmesiyle ilgili şarta bağlı ücret, md. 21/1-e’de kişisel çıkar tehdidi örneğidir."
+  },
+  "kartlar": [
+   {
+    "on": "Etik İlkeler Ek-1’e göre bağımsız çalışan meslek mensubu için kişisel çıkar tehdidi örnekleri nelerdir?",
+    "arka": "Müşteride finansal çıkar veya ortak finansal çıkar; tek müşteriden alınan ücrete aşırı bağlılık; müşteriyle yakın iş ilişkisi; müşteriyi kaybetme olasılığını dikkate alma; müşteri tarafından istihdam edilme olasılığı; güvence sözleşmesinde şarta bağlı ücret; güvence müşterisinden veya yöneticilerinden borç alma ya da onlara borç verme (Ek-1 md. 21)."
+   },
+   {
+    "on": "Etik İlkeler Ek-1 md. 24’e göre değeri önemsiz olmayan bir hediyenin müşteriden alınması hangi tehdidin örneğidir?",
+    "arka": "Yakınlık tehdidi (Ek-1 md. 24/1-ç). Kişisel çıkar örneklerinin listesi (md. 21) hediyeyi saymaz."
+   }
+  ],
+  "konuBaglantisi": "Etik ilkeler"
+ },
+ {
+  "id": "2026-1-MH-02",
+  "sonuc": "A",
+  "ozet": "Çalışma Usul ve Esasları Yönetmeliği md. 42 meslekle ve meslek onuruyla bağdaşmayan beş hâli sayar; asgari ücretin altında iş kabul etmek bu listede değildir, ayrı bir yasaktır (3568 md. 46): A.",
+  "adimlar": [
+   "<p><strong>1. Kural (md. 42).</strong> Meslek mensuplarının şu davranışları meslekle ve meslek onuruyla bağdaşmayan hâllerden sayılır: a) Yanında çalıştırdığı kişilere karşı uygunsuz davranışlarda bulunmak (B); b) Aşırı içki ve kumar düşkünlüğü ile tanınmak (C); c) İlgili mevzuat gereğince meslektaşlarına, müşterilerine ve kanunlara göre bilgi vermek zorunda olduğu kişi ve kuruluşlara bilgi vermemek veya kasten yanıltıcı bilgi vermek; d) Kanunlara göre yapılması yasak olan işlerden herhangi birini yapmak (D); e) Meslekî etik ve meslekî bağımsızlık kurallarını ihlal etmek (E).</p>",
+   "<p><strong>2. Asgari ücretin altında iş (A).</strong> Bu hâl md. 42’de sayılmaz. Kaynağı 3568 sayılı Kanun md. 46’dır: ücretin asgari miktarı tarife ile belirlenir; tarifedeki asgari miktarın altında ücretle iş kabulü yasaktır ve aksine hareket disiplin cezasını gerektirir. Disiplin Yönetmeliği md. 6/g bunu kınama cezasıyla, Haksız Rekabet ve Reklam Yasağı Yönetmeliği md. 7/1-a ise haksız rekabet hâli olarak düzenler. Cevap <strong>A</strong>.</p>",
+   "<p><strong>3. Not.</strong> A’daki fiil kanunen yasak olduğu için md. 42/d’nin genel ifadesine (“Kanunlara göre yapılması yasak olan işlerden herhangi birini yapmak”) girdiği düşünülebilir. Soru ise md. 42’de sayılan hâlleri soruyor: B, C, D ve E bentlerin kelimesi kelimesine aynısıdır, A ise listede ayrı bir hâl olarak yer almaz.</p>"
+  ],
+  "dayanak": "Çalışma Usul ve Esasları Yönetmeliği md. 42 (meslekle ve meslek onuru ile bağdaşmayan hâller); 3568 sayılı Kanun md. 46 (ücret, asgari ücretin altında iş kabulü yasağı); Disiplin Yönetmeliği md. 6/g; Haksız Rekabet ve Reklam Yasağı Yönetmeliği md. 7/1-a.",
+  "tuzaklar": {
+   "B": "Yanında çalıştırdığı kişilere uygunsuz davranmak md. 42/a’dır.",
+   "C": "Aşırı içki ve kumar düşkünlüğü ile tanınmak md. 42/b’dir.",
+   "D": "Kanunlara göre yasak işlerden birini yapmak md. 42/d’dir.",
+   "E": "Meslekî etik ve meslekî bağımsızlık kurallarını ihlal md. 42/e’dir (2007 değişikliğiyle eklenen bent)."
+  },
+  "kartlar": [
+   {
+    "on": "Çalışma Usul ve Esasları Yönetmeliği md. 42’ye göre meslekle ve meslek onuruyla bağdaşmayan hâller nelerdir?",
+    "arka": "Yanında çalışanlara uygunsuz davranmak; aşırı içki ve kumar düşkünlüğü ile tanınmak; bilgi vermek zorunda olduğu kişilere bilgi vermemek veya kasten yanıltıcı bilgi vermek; kanunen yasak işleri yapmak; meslekî etik ve bağımsızlık kurallarını ihlal etmek."
+   },
+   {
+    "on": "Asgari ücret tarifesinin altında iş kabul etmenin dayanağı ve yaptırımı nedir?",
+    "arka": "3568 md. 46: yasaktır ve disiplin cezası gerektirir. Disiplin Yönetmeliği md. 6/g: kınama. Haksız Rekabet ve Reklam Yasağı Yönetmeliği md. 7/1-a: haksız rekabet hâli."
+   }
+  ],
+  "konuBaglantisi": "Yasak haller"
+ },
+ {
+  "id": "2026-1-MH-03",
+  "sonuc": "D",
+  "ozet": "3568 md. 16’ya göre odaların gelirleri giriş ücreti, yıllık aidat, yardım ve bağışlar ile kurs ve staj ücretleridir; ruhsatname ücreti Birliğin (TÜRMOB) geliridir (md. 30): D.",
+  "adimlar": [
+   "<p><strong>1. Odaların gelirleri (3568 md. 16).</strong> a) Odaya giriş ücreti (B); b) Yıllık üye aidatları (C); c) Yardım ve bağışlar (A); d) Mesleki eğitime yönelik kurs ve staj ücretleri ile diğer çeşitli gelirler (E).</p>",
+   "<p><strong>2. Ruhsatname ücreti (D).</strong> 3568 md. 30’a göre Birliğin gelirleri; odaların gelirlerinden alınacak paylar, Birliğe ait mal varlığından sağlanan gelirler, <strong>ruhsatname ücretleri</strong> ile bağış ve yardımlardır. Ruhsat Birlik tarafından verilir; TÜRMOB Yönetmeliği md. 23/h’ye göre meslekî ruhsatları vermek Birlik Yönetim Kurulunun görevidir. Ruhsatname ücreti odanın değil Birliğin geliridir: <strong>D</strong>.</p>",
+   "<p><strong>3. Ek bilgi.</strong> Aynı maddeye göre kamu kurum ve kuruluşlarında çalışan meslek mensupları ile mesleği fiilen icra etmeyenler odaya giriş ücreti ve yıllık aidatı yüzde elli indirimli öder (3568 md. 16, 5786 sayılı Kanun’la eklenen fıkra).</p>"
+  ],
+  "dayanak": "3568 sayılı Kanun md. 16 (odaların gelirleri), md. 30 (Birliğin gelirleri); TÜRMOB Yönetmeliği md. 8/c ve 23/h.",
+  "tuzaklar": {
+   "A": "Yardım ve bağışlar md. 16/c’de oda geliridir (Birlik için de ayrıca gelirdir).",
+   "B": "Odaya giriş ücreti md. 16/a’da oda geliridir.",
+   "C": "Yıllık üye aidatları md. 16/b’de oda geliridir.",
+   "E": "Mesleki eğitime yönelik kurs (ve staj) ücretleri md. 16/d’de oda geliridir."
+  },
+  "kartlar": [
+   {
+    "on": "3568’e göre odaların gelirleri nelerdir?",
+    "arka": "Odaya giriş ücreti, yıllık üye aidatları, yardım ve bağışlar, mesleki eğitime yönelik kurs ve staj ücretleri ile diğer çeşitli gelirler (md. 16)."
+   },
+   {
+    "on": "Ruhsatname ücreti kimin geliridir?",
+    "arka": "Birliğin (TÜRMOB). 3568 md. 30: Birliğin gelirleri odalardan alınan paylar, Birliğe ait mal varlığı gelirleri, ruhsatname ücretleri, bağış ve yardımlardır."
+   }
+  ],
+  "konuBaglantisi": "Odalar ve organları"
+ },
+ {
+  "id": "2026-1-MH-04",
+  "sonuc": "B",
+  "ozet": "Disiplin Yönetmeliği md. 28: oda disiplin kurulu kararlarına karşı ilgililer bildirim tarihinden itibaren 30 gün içinde Birlik Disiplin Kuruluna itiraz edebilir: B.",
+  "adimlar": [
+   "<p><strong>1. Kural (Disiplin Yönetmeliği md. 28/1).</strong> Oda disiplin kurulunun kararlarına karşı ilgililer <strong>bildirim tarihinden itibaren 30 gün</strong> içinde, ilgili oda aracılığıyla veya doğrudan <strong>Birlik Disiplin Kuruluna</strong> itiraz edebilir. Posta ile yapılan itirazlarda dilekçenin kurum evrakına girdiği tarih itiraz tarihi sayılır (14/01/2026 değişikliği; Birlik itirazları elektronik ortamda almaya da yetkilidir).</p>",
+   "<p><strong>2. Kanundaki karşılığı.</strong> 3568 md. 25 aynı süreyi koyar: oda disiplin kurulunun kararlarına karşı <strong>tebliğ</strong> tarihinden itibaren otuz gün içinde Birlik Disiplin Kuruluna itiraz edilebilir. Birlik Disiplin Kurulunun itirazların reddine ait kararları Maliye (bugün Hazine ve Maliye) Bakanlığının tasdiki ile kesinleşir (3568 md. 38).</p>",
+   "<p><strong>3. Sonuç.</strong> Süre 30 gündür ve <strong>karar</strong> tarihinden değil <strong>bildirim</strong> tarihinden başlar: <strong>B</strong>.</p>"
+  ],
+  "dayanak": "Disiplin Yönetmeliği md. 28/1 (oda disiplin kurulu kararlarına itiraz); 3568 sayılı Kanun md. 25 ve md. 38.",
+  "tuzaklar": {
+   "A": "15 gün bu itirazın süresi değildir. 3568 md. 24’te 15 günlük bir itiraz süresi vardır, ama o, üst üste üç toplantıya özürsüz katılmadığı için istifa etmiş sayılan oda yönetim kurulu üyesinin Birliğe itirazına aittir.",
+   "C": "Disiplin kararlarına itiraz için 60 günlük bir süre öngörülmemiştir; süre 30 gündür.",
+   "D": "Süre 30 gündür ama başlangıç karar tarihi değil bildirim (Kanunda: tebliğ) tarihidir.",
+   "E": "Hem süre (45 gün) hem başlangıç (karar tarihi) yanlıştır."
+  },
+  "kartlar": [
+   {
+    "on": "Oda disiplin kurulu kararlarına karşı itiraz süresi ve mercii nedir?",
+    "arka": "Bildirim (Kanunda: tebliğ) tarihinden itibaren 30 gün; ilgili oda aracılığıyla veya doğrudan Birlik Disiplin Kuruluna (Disiplin Yönetmeliği md. 28; 3568 md. 25)."
+   },
+   {
+    "on": "Oda yönetim kurulunun kovuşturmaya yer olmadığına ilişkin kararlarına kim, hangi sürede itiraz edebilir?",
+    "arka": "Şikâyetçi, ihbarcı veya istemde bulunan; bildirim tarihinden itibaren 30 gün içinde Birlik Disiplin Kuruluna (Disiplin Yönetmeliği md. 21)."
+   }
+  ],
+  "konuBaglantisi": "Disiplin cezaları ve usulü"
+ },
+ {
+  "id": "2026-1-MH-05",
+  "sonuc": "D",
+  "ozet": "Etik İlkeler Ek-1 md. 1’deki beş zorunlu temel ilke dürüstlük, tarafsızlık, meslekî yeterlilik ve özen, gizlilik ve meslekî davranıştır; “objektiflik” adlı bir temel ilke sayılmaz: D.",
+  "adimlar": [
+   "<p><strong>1. Kural (Ek-1 md. 1/1).</strong> Tüm meslek mensuplarının uyması gereken zorunlu temel etik ilkeleri: a) <strong>Dürüstlük</strong> (E): tüm meslekî ve iş ilişkilerinde doğru sözlü ve dürüst davranmak; b) <strong>Tarafsızlık</strong>: yanlı veya önyargılı davranarak ya da üçüncü kişilerin haksız baskılarıyla meslekî kararların etkilenmemesi; c) <strong>Meslekî Yeterlilik ve Özen</strong> (C); ç) <strong>Gizlilik</strong> (A); d) <strong>Meslekî Davranış</strong> (B): mevzuata uymak ve mesleğin itibarını zedeleyecek her davranıştan kaçınmak.</p>",
+   "<p><strong>2. Objektiflik (D).</strong> Listede “objektiflik” adında bir ilke yoktur. Uluslararası etik kurallarında (IESBA) “objectivity” olarak geçen ilke, bu Yönetmelikte <strong>Tarafsızlık</strong> adıyla düzenlenmiştir. Soru Yönetmeliğin saydığı adları soruyor: <strong>D</strong>.</p>",
+   "<p><strong>3. Not.</strong> Ek-1 md. 46/1, hediyeler bahsinde bir kez “objektiflik ilkesi” ifadesini kullanır. Bu, md. 1’deki listeye beşinci bir ad eklemez. A, B, C ve E md. 1’deki adların aynısı olduğundan tek cevap D’dir.</p>"
+  ],
+  "dayanak": "Etik İlkeler Yönetmeliği Ek-1, Birinci Kısım md. 1/1 (temel etik ilkeleri).",
+  "tuzaklar": {
+   "A": "Gizlilik md. 1/1-ç’de sayılan temel ilkedir.",
+   "B": "Meslekî Davranış md. 1/1-d’de sayılan temel ilkedir.",
+   "C": "Meslekî Yeterlilik ve Özen md. 1/1-c’de sayılan temel ilkedir.",
+   "E": "Dürüstlük md. 1/1-a’da ilk sırada sayılan temel ilkedir."
+  },
+  "kartlar": [
+   {
+    "on": "Etik İlkeler Ek-1’e göre tüm meslek mensuplarının uyması zorunlu beş temel etik ilke nedir?",
+    "arka": "Dürüstlük, Tarafsızlık, Meslekî Yeterlilik ve Özen, Gizlilik, Meslekî Davranış (Ek-1 md. 1)."
+   },
+   {
+    "on": "IESBA’daki “objectivity” ilkesi Türk Etik İlkeler Yönetmeliği’nde hangi adla yer alır?",
+    "arka": "Tarafsızlık (Ek-1 md. 1/1-b). Yönetmeliğin temel ilke listesinde “objektiflik” adı geçmez."
+   }
+  ],
+  "konuBaglantisi": "Etik ilkeler"
+ },
+ {
+  "id": "2026-1-MH-06",
+  "sonuc": "E",
+  "ozet": "Haksız Rekabet ve Reklam Yasağı Yönetmeliği md. 8 reklam yoluyla haksız rekabet hâllerini sayar; gerçeğe aykırı belge düzenlemek ve onaylamak md. 6’da (meslek mensupları arası ve iş sahipleriyle ilişkilerde haksız rekabet) yer alır: E.",
+  "adimlar": [
+   "<p><strong>1. Yönetmeliğin üç listesi.</strong> Haksız rekabet sayılan hâller üç maddede ayrı ayrı sayılır: md. 6 meslek mensupları arasında ve iş sahipleriyle ilişkilerde haksız rekabet; md. 7 ücret ve diğer mali nitelikteki uygulamalarla haksız rekabet; md. 8 <strong>reklam yoluyla</strong> haksız rekabet.</p>",
+   "<p><strong>2. Reklam yoluyla haksız rekabet (md. 8/1).</strong> a) Meslek mensuplarının dürüstlüğü, güvenirliği ve tarafsızlığı hakkında yanlış ve asılsız beyanlarda bulunmak (A); b) Meslek mensuplarının hizmetlerini ve faaliyetlerini yanlış ve yanıltıcı veya yersiz açıklamalarla kötülemek (D); c) Meslek mensupları hakkında asılsız ihbar ve şikâyette bulunmak (C); ç) Kendisi, hizmetleri ve faaliyetleri hakkında gerçek dışı veya yanıltıcı açıklamalarda bulunmak (B); d) Sahip olmadığı meslek unvanını kullanmak; e) Yönetmelikle belirlenen reklam ilke ve kurallarına aykırı davranmak; f) Meslekî ve akademik unvan dışında sahip olunan başka unvanları kullanmak.</p>",
+   "<p><strong>3. Gerçeğe aykırı belge (E).</strong> “Üçüncü şahısları yanıltacak şekilde gerçeğe aykırı belge düzenlemek ve onaylamak” md. 6/1-f’dedir; reklamla ilgisi yoktur: <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Haksız Rekabet ve Reklam Yasağı Yönetmeliği md. 6/1-f, md. 8/1 (a–f).",
+  "tuzaklar": {
+   "A": "Meslektaşların dürüstlüğü, güvenirliği ve tarafsızlığı hakkında asılsız beyan md. 8/1-a’dır.",
+   "B": "Kendisi hakkında gerçek dışı veya yanıltıcı açıklama md. 8/1-ç’dir. (Disiplin Yönetmeliği md. 6/t bunu ayrıca kınama sebebi sayar.)",
+   "C": "Meslektaşlar hakkında asılsız ihbar ve şikâyet md. 8/1-c’dir.",
+   "D": "Meslektaşların hizmetlerini yanlış, yanıltıcı veya yersiz açıklamalarla kötülemek md. 8/1-b’dir."
+  },
+  "kartlar": [
+   {
+    "on": "Haksız Rekabet ve Reklam Yasağı Yönetmeliği’nde haksız rekabet hâlleri hangi üç maddede sayılır?",
+    "arka": "md. 6: meslek mensupları arasında ve iş sahipleriyle ilişkilerde; md. 7: ücret ve diğer mali nitelikteki uygulamalarda; md. 8: reklam yoluyla."
+   },
+   {
+    "on": "“Üçüncü şahısları yanıltacak şekilde gerçeğe aykırı belge düzenlemek ve onaylamak” hangi haksız rekabet grubundadır?",
+    "arka": "Meslek mensupları arasında ve iş sahipleriyle ilişkilerde haksız rekabet (md. 6/1-f); reklam yoluyla haksız rekabet (md. 8) değil."
+   }
+  ],
+  "konuBaglantisi": "Haksız rekabet ve reklam"
+ },
+ {
+  "id": "2026-1-MH-07",
+  "sonuc": "C",
+  "ozet": "3568 md. 17’ye göre odaların organları Genel Kurul, Yönetim Kurulu, Disiplin Kurulu ve Denetleme Kuruludur; danışma kurulu bir oda organı değildir: C.",
+  "adimlar": [
+   "<p><strong>1. Kural (3568 md. 17).</strong> Odaların organları: a) <strong>Genel Kurul</strong>, b) <strong>Yönetim Kurulu</strong>, c) <strong>Disiplin Kurulu</strong>, d) <strong>Denetleme Kurulu</strong>. Serbest Muhasebeci Mali Müşavirler Odaları Yönetmeliği md. 6 aynı dört organı sayar.</p>",
+   "<p><strong>2. Uygulama.</strong> Kanunda “Danışma Kurulu” adlı bir oda organı yoktur: <strong>C</strong>.</p>",
+   "<p><strong>3. Birlikle karşılaştırma.</strong> Birliğin (TÜRMOB) organları da aynı dörtlüdür: Genel Kurul, Yönetim Kurulu, Disiplin Kurulu, Denetleme Kurulu (3568 md. 31).</p>"
+  ],
+  "dayanak": "3568 sayılı Kanun md. 17 (odaların organları), md. 31 (Birliğin organları); Serbest Muhasebeci Mali Müşavirler Odaları Yönetmeliği md. 6.",
+  "tuzaklar": {
+   "A": "Yönetim Kurulu md. 17/b’de sayılan oda organıdır.",
+   "B": "Genel Kurul md. 17/a’da sayılan, odanın en yüksek organıdır (md. 18).",
+   "D": "Disiplin Kurulu md. 17/c’de sayılan oda organıdır.",
+   "E": "Denetleme Kurulu md. 17/d’de sayılan oda organıdır."
+  },
+  "kartlar": [
+   {
+    "on": "3568’e göre odaların (ve Birliğin) organları nelerdir?",
+    "arka": "Genel Kurul, Yönetim Kurulu, Disiplin Kurulu, Denetleme Kurulu (odalar: md. 17; Birlik: md. 31)."
+   }
+  ],
+  "konuBaglantisi": "Odalar ve organları"
+ },
+ {
+  "id": "2026-1-MH-08",
+  "sonuc": "C",
+  "ozet": "Çalışma Usul ve Esasları Yönetmeliği md. 25 sözleşmenin asgari içeriğini sayar (taraf adresleri ve vergi daireleri, işin amacı ve kapsamı, karşılıklı sorumluluklar, ücret ve ödeme şekli, yer-tarih-süre); önceki meslek mensubunun adresi bunlar arasında değildir: C.",
+  "adimlar": [
+   "<p><strong>1. Kural (md. 25).</strong> Sözleşmelerde en az şu hususlara yer verilir: a) Tarafların açık adresleri, <strong>vergi daireleri</strong> ve vergi daireleri sicil numaraları (E); b) Yapılacak işlerin <strong>amacı</strong>, kapsamı (D); c) Tarafların karşılıklı sorumluluk ve yükümlülükleri; d) <strong>Ücret tutarı</strong> ve ödeme şekli (B); e) Sözleşme <strong>yeri</strong>, tarihi ve süresi (A).</p>",
+   "<p><strong>2. Önceki meslek mensubu (C).</strong> Önceki meslek mensubu md. 23’te (İş Kabulü) geçer: meslek mensubu gerek duyarsa kendisine gelen müşterinin kim olduğunu önceki meslek mensubundan sorup öğrenir ve gerekli görüşmeleri yaptıktan sonra işi kabul eder. Bu, sözleşmenin asgari içeriği değildir: <strong>C</strong>.</p>",
+   "<p><strong>3. Ek bilgi.</strong> md. 24’e göre defter tutma, süreklilik arz eden müşavirlik hizmeti, inceleme, tahlil ve denetim ile bunlara ilişkin rapor düzenleme ve yeminli mali müşavirlerin tasdik işlemleri için sözleşme yapılması zorunludur. Yazılı hizmet sözleşmesi yapmadan iş kabul etmek Disiplin Yönetmeliği md. 6/d’ye göre kınama sebebidir.</p>"
+  ],
+  "dayanak": "Çalışma Usul ve Esasları Yönetmeliği md. 23 (iş kabulü), md. 24 (sözleşme yapılması), md. 25 (sözleşmede bulunması gereken asgari bilgiler).",
+  "tuzaklar": {
+   "A": "Sözleşme yeri (tarihi ve süresiyle birlikte) md. 25/e’de sayılır.",
+   "B": "Ücret tutarı (ödeme şekliyle birlikte) md. 25/d’de sayılır.",
+   "D": "Yapılacak işlerin amacı ve kapsamı md. 25/b’de sayılır.",
+   "E": "Tarafların vergi daireleri (açık adresleri ve sicil numaralarıyla birlikte) md. 25/a’da sayılır."
+  },
+  "kartlar": [
+   {
+    "on": "Çalışma Usul ve Esasları Yönetmeliği md. 25’e göre meslek mensubunun sözleşmesinde en az neler bulunur?",
+    "arka": "Tarafların açık adresleri, vergi daireleri ve sicil numaraları; işin amacı ve kapsamı; karşılıklı sorumluluk ve yükümlülükler; ücret tutarı ve ödeme şekli; sözleşmenin yeri, tarihi ve süresi."
+   },
+   {
+    "on": "Hangi işlerde meslek mensubu ile müşteri arasında sözleşme yapılması zorunludur?",
+    "arka": "Defter tutma; süreklilik arz eden müşavirlik; inceleme, tahlil ve denetim ile rapor düzenleme; YMM tasdik işlemleri (Çalışma Usul ve Esasları Yönetmeliği md. 24)."
+   }
+  ],
+  "konuBaglantisi": "Ücret ve sözleşme"
+ },
+ {
+  "id": "2026-1-MH-09",
+  "sonuc": "A",
+  "ozet": "Etik İlkeler Ek-1 md. 3 tehditleri beşe ayırır: kişisel çıkar, yeniden değerlendirme, taraf tutma, yakınlık ve yıldırma; gizlilik bir tehdit değil temel etik ilkesidir: A.",
+  "adimlar": [
+   "<p><strong>1. Kural (Ek-1 md. 3/1).</strong> Temel etik ilkelerine yönelik tehditlerin çoğu şöyle sınıflandırılır: a) <strong>Kişisel Çıkar</strong> tehditleri (B); b) <strong>Yeniden Değerlendirme</strong> tehditleri (C): daha önce alınmış bir kararın o karardan sorumlu meslek mensubunca yeniden değerlendirilmesi; c) <strong>Taraf Tutma</strong> tehditleri (E); ç) <strong>Yakınlık</strong> tehditleri (D); d) <strong>Yıldırma</strong> amaçlı tehditler.</p>",
+   "<p><strong>2. Gizlilik (A).</strong> Gizlilik, Ek-1 md. 1/1-ç’de sayılan beş temel etik ilkesinden biridir. Tehditler bu ilkelere yöneliktir; gizlilik kendisi bir tehdit türü değildir: <strong>A</strong>.</p>",
+   "<p><strong>3. Hatırlatma.</strong> Şıklarda olmayan beşinci tehdit <strong>yıldırma</strong>dır. İkinci Kısımda her tehdit için ayrı örnek maddesi vardır (md. 21–25); md. 22 yeniden değerlendirmeyi “tekrar değerlendirme” diye anar.</p>"
+  ],
+  "dayanak": "Etik İlkeler Yönetmeliği Ek-1, Birinci Kısım md. 3/1 (tehditler), md. 1/1-ç (gizlilik ilkesi).",
+  "tuzaklar": {
+   "B": "Kişisel çıkar, md. 3/1-a’daki ilk tehdit türüdür.",
+   "C": "Yeniden değerlendirme, md. 3/1-b’deki tehdit türüdür.",
+   "D": "Yakınlık, md. 3/1-ç’deki tehdit türüdür.",
+   "E": "Taraf tutma, md. 3/1-c’deki tehdit türüdür."
+  },
+  "kartlar": [
+   {
+    "on": "Etik İlkeler Ek-1’e göre temel etik ilkelerine yönelik beş tehdit türü nedir?",
+    "arka": "Kişisel çıkar, yeniden değerlendirme, taraf tutma, yakınlık, yıldırma (Ek-1 md. 3)."
+   },
+   {
+    "on": "Temel etik ilkeler ile tehditleri karıştırmamak için hangi ayrımı hatırlamalı?",
+    "arka": "İlkeler (md. 1): dürüstlük, tarafsızlık, meslekî yeterlilik ve özen, gizlilik, meslekî davranış. Tehditler (md. 3): kişisel çıkar, yeniden değerlendirme, taraf tutma, yakınlık, yıldırma."
+   }
+  ],
+  "konuBaglantisi": "Etik ilkeler"
+ },
+ {
+  "id": "2026-1-MH-10",
+  "sonuc": "E",
+  "ozet": "Etik İlkeler Ek-1 md. 4 önlemleri “mevzuat ile oluşturulabilecek önlemler” ve “iş çevresinden sağlanacak önlemler” diye ikiye ayırır; E ikinci grubun adıdır, birinci grubun örneği değildir: E.",
+  "adimlar": [
+   "<p><strong>1. İki grup (Ek-1 md. 4/1).</strong> Tehditleri ortadan kaldıran veya kabul edilebilir düzeye indiren önlemler: a) <strong>Mevzuat ile oluşturulabilecek önlemler</strong>; b) <strong>İş çevresinden sağlanacak önlemler</strong>.</p>",
+   "<p><strong>2. Mevzuatla oluşturulabilecek önlemlerin örnekleri (md. 4/1-a).</strong> 1) Mesleğe giriş için gerekli eğitim, meslekî eğitim (staj) ve tecrübe gereksinimleri; 2) Sürekli meslekî gelişim gereksinimleri (A); 3) Kurumsal yönetim gereksinimleri (B); 4) Meslekî standartlar (C); 5) Meslekî veya düzenleyici izleme ve disiplin prosedürleri (D); 6) Meslek mensubunun ürettiği rapor, sonuç, iletişim ve bilgilerin yasal yetkili üçüncü bir kurumca dış kontrolden geçirilmesi.</p>",
+   "<p><strong>3. Uygulama.</strong> “İş çevresinden sağlanacak önlemler” birinci grubun örneği değil, ikinci grubun kendisidir: <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Etik İlkeler Yönetmeliği Ek-1, Birinci Kısım md. 4/1 (tehditlere karşı önlemler).",
+  "tuzaklar": {
+   "A": "Sürekli meslekî gelişim gereksinimleri md. 4/1-a-2’de mevzuatla oluşturulabilecek önlem örneğidir.",
+   "B": "Kurumsal yönetim gereksinimleri md. 4/1-a-3’te mevzuatla oluşturulabilecek önlem örneğidir.",
+   "C": "Meslekî standartlar md. 4/1-a-4’te mevzuatla oluşturulabilecek önlem örneğidir.",
+   "D": "Meslekî veya düzenleyici izleme ve disiplin prosedürleri md. 4/1-a-5’te mevzuatla oluşturulabilecek önlem örneğidir."
+  },
+  "kartlar": [
+   {
+    "on": "Etik İlkeler Ek-1’e göre tehditlere karşı önlemler hangi iki gruba ayrılır?",
+    "arka": "Mevzuat ile oluşturulabilecek önlemler ve iş çevresinden sağlanacak önlemler (Ek-1 md. 4)."
+   },
+   {
+    "on": "Mevzuat ile oluşturulabilecek önlemlere örnekler nelerdir?",
+    "arka": "Mesleğe giriş eğitimi, staj ve tecrübe şartları; sürekli meslekî gelişim; kurumsal yönetim gereksinimleri; meslekî standartlar; meslekî veya düzenleyici izleme ve disiplin prosedürleri; rapor ve bilgilerin yetkili üçüncü bir kurumca dış kontrolü (Ek-1 md. 4/1-a)."
+   }
+  ],
+  "konuBaglantisi": "Etik ilkeler"
+ },
+ {
+  "id": "2026-1-MH-11",
+  "sonuc": "D",
+  "ozet": "3568 md. 4 meslek mensubu olmanın genel şartlarını sayar; SMMM sınavını kazanmış olmak md. 5/A’daki özel şartlardandır: D.",
+  "adimlar": [
+   "<p><strong>1. Genel şartlar (3568 md. 4).</strong> a) T.C. vatandaşı olmak (yabancı serbest muhasebeci mali müşavirler hakkındaki hüküm saklı); b) Medeni hakları kullanma ehliyetine sahip bulunmak (B); c) Kamu haklarından mahrum bulunmamak (C); d) Kasten işlenen bir suçtan bir yıl veya daha fazla hapis cezasına ya da bentte sayılan suçlardan (ör. zimmet, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, kaçakçılık) mahkûm olmamak; e) Ceza veya disiplin soruşturması sonucunda memuriyetten çıkarılmış olmamak (A); f) Meslek şeref ve haysiyetine uymayan durumları bulunmamak (E).</p>",
+   "<p><strong>2. Özel şartlar (3568 md. 5/A).</strong> SMMM olabilmek için ayrıca: a) Kanunda sayılan dallarda en az lisans mezunu olmak (ya da diğer lisans mezunlarında bu dallarda lisansüstü diploma); b) En az üç yıl staj yapmış olmak; c) <strong>Serbest muhasebeci mali müşavirlik sınavını kazanmış olmak</strong> (D); d) SMMM ruhsatını almış olmak.</p>",
+   "<p><strong>3. Sonuç.</strong> Sınavı kazanmak genel değil özel şarttır: <strong>D</strong>. (md. 5/A-c’nin istisnası: kanunları uyarınca vergi inceleme yetkisini almış ve meslekî yeterlilik sınavında başarılı olduktan sonra yeminli mali müşavirlik sınavını vermiş olanlarda SMMM sınavını kazanma şartı aranmaz.)</p>"
+  ],
+  "dayanak": "3568 sayılı Kanun md. 4 (genel şartlar), md. 5/A (serbest muhasebeci mali müşavir olabilmenin özel şartları).",
+  "tuzaklar": {
+   "A": "Memuriyetten çıkarılmış olmamak md. 4/e’deki genel şarttır.",
+   "B": "Medeni hakları kullanma ehliyeti md. 4/b’deki genel şarttır.",
+   "C": "Kamu haklarından mahrum bulunmamak md. 4/c’deki genel şarttır.",
+   "E": "Meslek şeref ve haysiyetine uymayan durumu bulunmamak md. 4/f’deki genel şarttır."
+  },
+  "kartlar": [
+   {
+    "on": "3568 md. 4’e göre meslek mensubu olmanın genel şartları nelerdir?",
+    "arka": "T.C. vatandaşlığı; medeni hakları kullanma ehliyeti; kamu haklarından mahrum olmamak; bentte sayılan suçlardan mahkûm olmamak; ceza veya disiplin soruşturmasıyla memuriyetten çıkarılmamış olmak; meslek şeref ve haysiyetine uymayan durumu bulunmamak."
+   },
+   {
+    "on": "3568 md. 5/A’ya göre SMMM olabilmenin özel şartları nelerdir?",
+    "arka": "Kanunda sayılan dallarda en az lisans mezuniyeti (veya diğer lisans + bu dallarda lisansüstü), en az üç yıl staj, SMMM sınavını kazanmak, SMMM ruhsatını almak."
+   }
+  ],
+  "konuBaglantisi": "Meslek mensubu olma şartları"
+ },
+ {
+  "id": "2026-1-MH-12",
+  "sonuc": "B",
+  "ozet": "Haksız Rekabet ve Reklam Yasağı Yönetmeliği md. 7 ücret ve mali nitelikteki uygulamalarda haksız rekabet hâllerini sayar; ruhsat kiralamak md. 6/1-d’de, meslek mensupları arası ve iş sahipleriyle ilişkilerdeki haksız rekabettedir: B.",
+  "adimlar": [
+   "<p><strong>1. Ücret ve mali nitelikteki uygulamalar (md. 7/1).</strong> a) Asgari ücret tarifesinin altında ücret talep etmek veya ücretsiz hizmet vermek; b) İş sahibiyle elde edilen menfaat üzerinden ortaklık pay anlaşmaları yapmak; c) Bir meslek mensubuna olan ücret borcunu ödememiş iş sahibine hizmet vermek (A); ç) İş sahiplerinden emanet para toplamak, alınan ücrete karşılık olmak üzere gerçeğe aykırı serbest meslek makbuzu veya fatura düzenlemek (C); d) Sözleşme değerinin altında makbuz veya fatura düzenlemek ya da hiç düzenlememek, mali yükümlülükleri yerine getirmemek; e) Üçüncü kişilere ücret ya da herhangi bir menfaat sağlamak veya vaat etmek suretiyle iş almak (D); f) İş sahiplerine menfaat sağlayarak veya vaat ederek iş almak; g) İş sahiplerine ait veya onlardan elde edilen bilgileri kullanarak ekonomik çıkar sağlamak (E); ğ) Çalışanlara iş mevzuatındaki ücret ve sosyal hakları vermemek.</p>",
+   "<p><strong>2. Ruhsat kiralamak (B).</strong> “Meslek ruhsatının kiralanması veya çeşitli menfaatler sağlayarak meslek mensubu olmayan kişilere faaliyette bulunma imkanı sağlamak” md. 6/1-d’de sayılır: <strong>B</strong>.</p>",
+   "<p><strong>3. Not.</strong> Ruhsatı başkasına kullandırmanın yaptırımı ağırdır: 3568 md. 48’e 7546 sayılı Kanun’la (27/3/2025) eklenen fıkraya göre meslek ruhsatnamesini bir başkasına bedelli veya bedelsiz kullandırdığı tespit edilen meslek mensubuna meslekten çıkarma cezası verilir.</p>"
+  ],
+  "dayanak": "Haksız Rekabet ve Reklam Yasağı Yönetmeliği md. 6/1-d, md. 7/1 (a–ğ); 3568 sayılı Kanun md. 48 (7546 sayılı Kanun’la eklenen fıkra).",
+  "tuzaklar": {
+   "A": "Ücret borcunu ödememiş iş sahibine hizmet vermek md. 7/1-c’de sayılır.",
+   "C": "Alınan ücrete karşılık gerçeğe aykırı serbest meslek makbuzu düzenlemek md. 7/1-ç’de sayılır (metinde “veya fatura” da geçer).",
+   "D": "Üçüncü kişilere ücret veya menfaat sağlayarak iş almak md. 7/1-e’de sayılır.",
+   "E": "İş sahiplerinin bilgilerini kullanarak ekonomik çıkar sağlamak md. 7/1-g’de sayılır."
+  },
+  "kartlar": [
+   {
+    "on": "Meslek ruhsatını kiralamak hangi haksız rekabet grubundadır ve 3568’e göre yaptırımı nedir?",
+    "arka": "Meslek mensupları arasında ve iş sahipleriyle ilişkilerde haksız rekabet (Haksız Rekabet ve Reklam Yasağı Yönetmeliği md. 6/1-d). 3568 md. 48 (2025 değişikliği): ruhsatnameyi bedelli veya bedelsiz kullandırana meslekten çıkarma."
+   },
+   {
+    "on": "Ücret ve mali nitelikteki uygulamalarda haksız rekabete üç örnek verin.",
+    "arka": "Asgari ücret tarifesinin altında ücret talep etmek veya ücretsiz hizmet; ücret borcunu ödememiş iş sahibine hizmet vermek; üçüncü kişilere menfaat sağlayarak iş almak (md. 7/1-a, c, e)."
+   }
+  ],
+  "konuBaglantisi": "Haksız rekabet ve reklam"
+ },
+ {
+  "id": "2026-1-MH-13",
+  "sonuc": "C",
+  "ozet": "Sınav Yönetmeliği md. 21: SMMM sınavında başarılı olamayanlar ilk sınav tarihinden itibaren 2 yıl içinde yılda 3 kez açılacak sınavlara girebilir; hakkını kullanmayan veya başaramayan 6 ay sınava alınmaz: 2, 3, 6 → C.",
+  "adimlar": [
+   "<p><strong>1. Kural (md. 21/2, 24/02/2025 değişikliğiyle).</strong> Serbest Muhasebeci Mali Müşavirlik sınavında başarılı olamayanlar, ilk sınav tarihinden itibaren <strong>2 yıl</strong> içerisinde yılda <strong>3 kez</strong> açılacak tüm sınavlara girebilirler. Bu sınav süresi hiçbir nedenle uzatılamaz.</p>",
+   "<p><strong>2. Bekleme süresi (md. 21/3–4).</strong> Bu sınav haklarını süresinde kullanmayanlar veya başarılı olamayanlar <strong>altı ay</strong> süreyle meslek sınavlarına alınmaz. Altı aylık süreyi dolduranlardan dileyenler yeniden <strong>tüm konuları</strong> kapsamak üzere sınavlara katılabilir.</p>",
+   "<p><strong>3. Sonuç.</strong> Boşluklar sırasıyla 2, 3, 6: <strong>C</strong>.</p>",
+   "<p><strong>4. Not (tartışmalı).</strong> 24/02/2025 tarihli değişiklikten önce md. 21/2’deki süre <strong>3 yıl</strong> idi. Aynı değişiklikle eklenen geçici md. 2’ye göre, bu tarihten önce oda nezdinde staj dosyası açtırmış ve staja giriş sınavını kazanmış olanlar hakkında md. 21/2’nin eski hükmü uygulanmaya devam eder. Bu adaylar için boşluklar 3, 3, 6 olur, yani <strong>D</strong>. 2026 sınavlarına girenlerin önemli bir kısmının bu geçiş hükmü kapsamında olması beklenir. Soru md. 21’in yürürlükteki metnini sorduğu için resmî cevap C’dir. Kendi süreni hesaplarken staj dosyanın açılış tarihine bak.</p>"
+  ],
+  "dayanak": "Yeminli Mali Müşavirlik ve Serbest Muhasebeci Mali Müşavirlik Sınav Yönetmeliği md. 21/2–4 (24/02/2025 tarihli ve 32823 sayılı RG ile “3 yıl” ibaresi “2 yıl” olarak değiştirildi), geçici md. 2.",
+  "tuzaklar": {
+   "A": "Süre 1 değil 2 yıldır; bekleme 12 ay değil altı aydır.",
+   "B": "Sınavlar yılda 2 değil 3 kez açılır.",
+   "D": "3 yıl, md. 21/2’nin 24/02/2025 öncesi metnidir; bugün yalnız geçici md. 2 kapsamındaki adaylara (o tarihten önce staj dosyası açtırıp staja giriş sınavını kazanmış olanlara) uygulanır. Yürürlükteki genel kural 2 yıldır (bkz. Not).",
+   "E": "Süre (3 yıl) eski metne aittir; bekleme süresi 12 ay değil altı aydır."
+  },
+  "kartlar": [
+   {
+    "on": "SMMM sınavında başarısız olan aday hangi süre içinde, yılda kaç kez sınava girebilir; sonra ne olur?",
+    "arka": "İlk sınav tarihinden itibaren 2 yıl içinde, yılda 3 kez açılan sınavlara; süre uzatılamaz. Hakkını kullanmayan veya başaramayan 6 ay meslek sınavlarına alınmaz, sonra tüm konulardan yeniden başlar (Sınav Yönetmeliği md. 21)."
+   },
+   {
+    "on": "Sınav Yönetmeliği geçici md. 2 kime 3 yıllık sınav süresini uygular?",
+    "arka": "24/02/2025’ten önce oda nezdinde staj dosyası açtırmış ve staja giriş sınavını kazanmış olanlara (md. 21/2’nin eski hükmü: 3 yıl)."
+   }
+  ],
+  "konuBaglantisi": "Staj ve sınav"
+ },
+ {
+  "id": "2026-1-MH-14",
+  "sonuc": "C",
+  "ozet": "SMG Eğitimi Yönetmeliği md. 11: yılda en az 30, üç yılda en az 120 kredi; bunun yılda en az 15, üç yılda en az 60 kredisi doğrulanabilir olmalı. I (90) ve II (45) yanlış, III ve IV doğru: C.",
+  "adimlar": [
+   "<p><strong>1. Kural (md. 11, 29/03/2023 değişikliğiyle).</strong> (1) Yılda en az <strong>30</strong> ve her üç yılda en az <strong>120</strong> kredi; (2) bunun yıllık en az <strong>15</strong> ve üç yılda en az <strong>60</strong> kredisi doğrulanabilir olmalı; (3) üç yıllık dönemde “Mesleki Çalışma Standartları ve Etik İlkeler” konusundan en az 3, “Denetim; Denetim ve Güvence Standartları” konusundan en az 2 kredi; (4) doğrulanabilir krediler dışında kalan üç yıllık periyotta en çok 60 kredilik kısım md. 13’teki diğer faaliyetlerle ikmal edilir.</p>",
+   "<p><strong>2. İfadeleri karşılaştır.</strong> I: 30 doğru ama üç yıllık asgari 90 değil <strong>120</strong> → yanlış. II: 15 doğru ama üç yıllık doğrulanabilir asgari 45 değil <strong>60</strong> → yanlış. III: 3 ve 2 kredi → doğru. IV: en çok 60 kredi diğer faaliyetlerle → doğru.</p>",
+   "<p><strong>3. Sağlama.</strong> Üç yılda 120 kredi = en az 60 doğrulanabilir + en çok 60 diğer faaliyet. 120’nin sağlanıp sağlanmadığı her yıl, önceki iki yıl da dahil edilerek değerlendirilir (md. 11/5). Yanlışlar I ve II: <strong>C</strong>.</p>"
+  ],
+  "dayanak": "TÜRMOB Sürekli Mesleki Geliştirme Eğitimi Yönetmeliği md. 11/1–5 (29/03/2023 tarihli ve 32147 sayılı RG ile değişik), md. 13/1.",
+  "tuzaklar": {
+   "A": "Yalnız I eksik: II’deki 45 kredi de yanlıştır; üç yıllık doğrulanabilir asgari 60 kredidir.",
+   "B": "III doğrudur (3 kredi etik ve çalışma standartları, 2 kredi denetim).",
+   "D": "IV doğrudur (en çok 60 kredi diğer faaliyetlerle); I ise yanlıştır.",
+   "E": "III ve IV yönetmeliğin metniyle aynıdır, ikisi de doğrudur."
+  },
+  "kartlar": [
+   {
+    "on": "SMG Eğitimi Yönetmeliği’ne göre yıllık ve üç yıllık kredi yükümlülüğü nedir?",
+    "arka": "Yılda en az 30, üç yılda en az 120 kredi. Bunun yılda en az 15, üç yılda en az 60 kredisi doğrulanabilir olmalı; en çok 60 kredi diğer faaliyetlerle tamamlanabilir (md. 11)."
+   },
+   {
+    "on": "SMG’de üç yıllık dönemde zorunlu konu kredileri nelerdir?",
+    "arka": "Mesleki Çalışma Standartları ve Etik İlkeler en az 3 kredi; Denetim, Denetim ve Güvence Standartları en az 2 kredi (md. 11/3)."
+   }
+  ],
+  "konuBaglantisi": "Sürekli mesleki geliştirme"
+ },
+ {
+  "id": "2026-1-MH-15",
+  "sonuc": "A",
+  "ozet": "Disiplin Yönetmeliği md. 5/h: en az iki kez yazıyla istenmesine rağmen oda aidat borcunun haklı gerekçe olmadan ödenmemesi uyarma cezası gerektirir; diğer şıklar kınama veya geçici alıkoyma hâlleridir: A.",
+  "adimlar": [
+   "<p><strong>1. Ceza türleri.</strong> 3568 md. 48 ve Disiplin Yönetmeliği md. 4: uyarma, kınama, geçici olarak mesleki faaliyetten alıkoyma (altı aydan az, bir yıldan çok olmamak üzere), yeminli sıfatını kaldırma, meslekten çıkarma. Yönetmelik her cezayı gerektiren hâlleri ayrı maddede sayar: uyarma md. 5, kınama md. 6, geçici alıkoyma md. 7.</p>",
+   "<p><strong>2. Uyarma (md. 5/h).</strong> “En az iki kez yazı ile istenmesine rağmen, oda aidat borçlarının haklı gerekçe olmaksızın ödenmemesi” uyarma cezası hâlidir: <strong>A</strong>.</p>",
+   "<p><strong>3. Diğer şıkların cezası.</strong> Sahip olunmayan unvanların kullanılması → kınama (md. 6/b). Reklam yasağına uyulmaması → kınama (md. 6/f). Büro tescil belgesi alınmaması → kınama (md. 6/r). Ticari faaliyet yasağına uyulmaması → geçici olarak mesleki faaliyetten alıkoyma (md. 7/e).</p>"
+  ],
+  "dayanak": "Disiplin Yönetmeliği md. 4 (ceza türleri), md. 5/h (uyarma), md. 6/b, f, r (kınama), md. 7/e (geçici alıkoyma); 3568 sayılı Kanun md. 48.",
+  "tuzaklar": {
+   "B": "Sahip olunmayan unvan kullanmak uyarma değil kınama gerektirir (md. 6/b).",
+   "C": "Reklam yasağına uymamak kınama gerektirir (md. 6/f).",
+   "D": "Ticari faaliyet yasağına uymamak daha ağır ceza olan geçici alıkoyma gerektirir (md. 7/e).",
+   "E": "Büro tescil belgesi almamak veya süresinde vize ettirmemek kınama gerektirir (md. 6/r)."
+  },
+  "kartlar": [
+   {
+    "on": "Oda aidat borcunu ödemeyen meslek mensubuna hangi disiplin cezası verilir?",
+    "arka": "En az iki kez yazıyla istenmesine rağmen haklı gerekçe olmadan ödenmezse uyarma (Disiplin Yönetmeliği md. 5/h)."
+   },
+   {
+    "on": "Unvan kullanma, reklam yasağı, büro tescil belgesi ve ticari faaliyet yasağı ihlallerinin disiplin cezaları nelerdir?",
+    "arka": "Sahip olunmayan unvan: kınama (md. 6/b). Reklam yasağı: kınama (md. 6/f). Büro tescil belgesi almamak: kınama (md. 6/r). Ticari faaliyet yasağı: geçici olarak mesleki faaliyetten alıkoyma (md. 7/e)."
+   }
+  ],
+  "konuBaglantisi": "Disiplin cezaları ve usulü"
+ },
+ {
+  "id": "2026-1-MH-16",
+  "sonuc": "E",
+  "ozet": "TÜRMOB Yönetmeliği md. 8/a’ya göre Birlik payı odaların “brüt” gelirlerinin %10’unu geçmemek üzere alınır; şıktaki “net gelirlerinin %10’u” bu düzenlemeyi yanlış aktarır: E.",
+  "adimlar": [
+   "<p><strong>1. Kural (TÜRMOB Yönetmeliği md. 8).</strong> Birliğin gelirleri: a) Birliğe dâhil odaların <strong>brüt gelirlerinin %10’unu</strong> geçmemek üzere alınacak paylar; b) Birliğe ait mal gelirleri (A); c) Ruhsatname ücretleri (D); d) Yeminli Mali Müşavirlik mühür ücretleri (C); e) Genel hükümler çerçevesinde elde edilen bağış ve yardımlar; f) Diğer gelirler; g) Kurs ve eğitim gelirleri (B).</p>",
+   "<p><strong>2. Uygulama.</strong> E şıkkı payı odaların <strong>net</strong> gelirlerine bağlıyor. Bent 16/05/2015 tarihli değişiklikle “gelir bütçelerinin” yerine “brüt gelirlerinin” ifadesini almıştır. “Net gelir” ifadesi metnin hiçbir sürümünde yoktur. Şık bu hâliyle yönetmelikte sayılan gelirlerden biri değildir: <strong>E</strong>.</p>",
+   "<p><strong>3. Destekleyici hükümler.</strong> Üye Aidatları ile Birlik Paylarının Tespitine Ait Yönetmelik md. 8 de Birlik payını odaların brüt gelirlerinin %10’unu geçmemek üzere Birlik Genel Kurulunca belirlenen oran üzerinden hesaplar. Payı Birlik Genel Kurulu tespit eder (3568 md. 33/d; TÜRMOB Yönetmeliği md. 12/d).</p>"
+  ],
+  "dayanak": "TÜRMOB Yönetmeliği md. 8 (16/05/2015 tarihli ve 29357 sayılı RG ile değişik ibare: “brüt gelirlerinin”), md. 12/d; Üye Aidatları ile Birlik Paylarının Tespitine Ait Yönetmelik md. 8; 3568 sayılı Kanun md. 30.",
+  "tuzaklar": {
+   "A": "Birliğe ait mal gelirleri md. 8/b’de sayılır.",
+   "B": "Kurs ve eğitim gelirleri md. 8/g’de sayılır (2007’de eklendi).",
+   "C": "Yeminli mali müşavirlik mühür ücretleri md. 8/d’de sayılır.",
+   "D": "Ruhsatname ücretleri md. 8/c’de sayılır; 3568 md. 30’da da Birlik geliridir."
+  },
+  "kartlar": [
+   {
+    "on": "TÜRMOB Yönetmeliği’ne göre Birliğin gelirleri nelerdir?",
+    "arka": "Odaların brüt gelirlerinin %10’unu geçmemek üzere alınan paylar; Birliğe ait mal gelirleri; ruhsatname ücretleri; YMM mühür ücretleri; bağış ve yardımlar; diğer gelirler; kurs ve eğitim gelirleri (md. 8)."
+   },
+   {
+    "on": "Birlik payının üst sınırı neye göre hesaplanır?",
+    "arka": "Odaların brüt gelirlerinin %10’u (net gelir değil); oranı Birlik Genel Kurulu belirler (TÜRMOB Yönetmeliği md. 8/a, 12/d)."
+   }
+  ],
+  "konuBaglantisi": "TÜRMOB ve organları"
+ },
+ {
+  "id": "2026-1-MH-17",
+  "sonuc": "B",
+  "ozet": "TÜRMOB Yönetmeliği md. 12/f: uyulması mecburi meslekî kararları almak Birlik Genel Kurulunun görevidir; diğer şıklar md. 23’te Birlik Yönetim Kurulunun görevleridir: B.",
+  "adimlar": [
+   "<p><strong>1. Genel Kurulun görevleri (md. 12).</strong> a) Yönetim, disiplin ve denetleme kurulu üyelerini seçmek; b) Yönetim kurulunca hazırlanan yönetmelik ve raporları incelemek ve onaylamak; c) Odalar arasında işbirliği kurmak; d) Bütçe ve kesin hesabı görüşerek karara bağlamak, odalardan alınacak pay miktarını, ruhsat ve mühür ücretlerini tespit etmek; e) Taşınmaz alım-satımı için yönetim kuruluna yetki vermek; f) <strong>Uyulması mecburi meslekî kararları almak</strong> (B); g) Yönetim kurulunu ibra etmek; h) Diğer görevler. 3568 md. 33/f aynı görevi Kanunda da Genel Kurula verir.</p>",
+   "<p><strong>2. Yönetim Kurulunun görevleri (md. 23).</strong> d) Bütçeyi yapmak ve uygulamak (A); j) Meslekî standartları geliştirmek (C); k) Meslekî çalışma komiteleri oluşturmak (D); l) Meslek mensuplarının meslekî faaliyetlerini yürütmelerinde yardımcı olmak için Birlikte merkezî bilgisayar ağını oluşturmak (E).</p>",
+   "<p><strong>3. Sonuç.</strong> Genel Kurulun görevi olan tek şık <strong>B</strong>. Bütçede iş bölümü şöyledir: Yönetim Kurulu bütçeyi yapar (hazırlar), Genel Kurul görüşüp karara bağlar.</p>"
+  ],
+  "dayanak": "TÜRMOB Yönetmeliği md. 12 (Genel Kurulun görevleri), md. 23 (Yönetim Kurulunun görevleri); 3568 sayılı Kanun md. 33/f.",
+  "tuzaklar": {
+   "A": "Bütçeyi yapmak (hazırlamak) Yönetim Kurulunun görevidir (md. 23/d); Genel Kurul bütçeyi görüşüp karara bağlar (md. 12/d).",
+   "C": "Meslekî standartları geliştirmek Yönetim Kurulunun görevidir (md. 23/j).",
+   "D": "Meslekî çalışma komiteleri oluşturmak Yönetim Kurulunun görevidir (md. 23/k).",
+   "E": "Meslek mensuplarına meslekî faaliyetlerinde yardımcı olmak (merkezî bilgisayar ağı) Yönetim Kurulunun görevidir (md. 23/l)."
+  },
+  "kartlar": [
+   {
+    "on": "Uyulması mecburi meslekî kararları hangi organ alır?",
+    "arka": "Birlik (TÜRMOB) Genel Kurulu (3568 md. 33/f; TÜRMOB Yönetmeliği md. 12/f)."
+   },
+   {
+    "on": "TÜRMOB’da bütçeyle ilgili görev Genel Kurul ile Yönetim Kurulu arasında nasıl bölünür?",
+    "arka": "Yönetim Kurulu bütçeyi yapar ve uygular (md. 23/d); Genel Kurul bütçe ve kesin hesabı görüşüp karara bağlar (md. 12/d)."
+   }
+  ],
+  "konuBaglantisi": "TÜRMOB ve organları"
+ },
+ {
+  "id": "2026-1-MH-18",
+  "sonuc": "E",
+  "ozet": "Odalar Yönetmeliği md. 5 ve 3568 md. 15: bölgesi içinde kendi mesleği konusunda en az 250 meslek mensubu bulunan il merkezlerinde bir oda kurulur: E.",
+  "adimlar": [
+   "<p><strong>1. Kural (Odalar Yönetmeliği md. 5/1; 3568 md. 15/1).</strong> Bölgesi içinde kendi mesleği konusunda en az <strong>250</strong> meslek mensubu bulunan il merkezlerinde ve bölgesi içinde 250 meslek mensubu bulunan ilçelerde (büyükşehir belediyesi sınırları içindeki ilçeler hariç) bir oda kurulur.</p>",
+   "<p><strong>2. İlçe şartı.</strong> İlçelerde oda kurulabilmesi için ayrıca o ilçedeki en az <strong>100</strong> meslek mensubunun yazılı başvurusu aranır. Odalar kuruluşlarını Birlik Yönetim Kurulu aracılığıyla Bakanlığa bildirmekle tüzel kişilik kazanır.</p>",
+   "<p><strong>3. Sonuç.</strong> İl merkezi için sayı 250: <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Serbest Muhasebeci Mali Müşavirler Odaları Yönetmeliği md. 5 (25/12/2012 tarihli değişik fıkra); 3568 sayılı Kanun md. 15/1.",
+  "tuzaklar": {
+   "A": "100, ilçede oda kurulması için aranan yazılı başvuru sayısıdır; kuruluş eşiği değildir.",
+   "B": "125 mevzuatta oda kuruluşu için öngörülmüş bir sayı değildir; eşik 250’dir.",
+   "C": "150 mevzuatta oda kuruluşu için öngörülmüş bir sayı değildir; eşik 250’dir.",
+   "D": "200 mevzuatta oda kuruluşu için öngörülmüş bir sayı değildir; eşik 250’dir."
+  },
+  "kartlar": [
+   {
+    "on": "SMMM odası kurulabilmesi için kaç meslek mensubu gerekir?",
+    "arka": "Bölgesinde en az 250 meslek mensubu bulunan il merkezinde ve 250 meslek mensubu bulunan ilçede (büyükşehir ilçeleri hariç) oda kurulur; ilçede ayrıca en az 100 meslek mensubunun yazılı başvurusu aranır (3568 md. 15; Odalar Yönetmeliği md. 5)."
+   }
+  ],
+  "konuBaglantisi": "Odalar ve organları"
+ },
+ {
+  "id": "2026-1-MH-19",
+  "sonuc": "A",
+  "ozet": "Çalışma Usul ve Esasları Yönetmeliği md. 43 meslek mensubunun komandit şirkette komandite (sınırsız sorumlu) ortak olmasını yasaklar; komanditer ortaklık md. 47/b’ye göre meslekle bağdaşan iştir. A yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Ticari faaliyette bulunamama (md. 43).</strong> Meslek mensupları: TTK’ya göre tacir veya esnaf sayılmalarını gerektirecek bir faaliyette bulunamaz (B); kendi meslekî faaliyetleri dışında serbest meslek faaliyetinde bulunamaz (C); ticari mümessillik, ticari vekillik ve acentelik yapamaz (D); adi ve kollektif şirketlerde ortak (E) veya komandit şirketlerde <strong>komandite</strong> ortak olamaz; limited şirketlerde müdürlük, anonim şirketlerde yönetim kurulu üyeliği ve başkanlığı görevinde bulunamaz.</p>",
+   "<p><strong>2. Komanditer ortaklık serbest (md. 47/b).</strong> Meslekle bağdaşan işler arasında “Limited ve anonim şirketler’de ortak, komandit şirketlerde <strong>komanditer</strong> ortak olmak veya murakıplık yapmak” sayılır. Yasak, sınırsız sorumlu ortaklığa (komandite) yöneliktir; sorumluluğu koyduğu sermayeyle sınırlı komanditer ortaklık serbesttir. A bu nedenle yanlıştır: <strong>A</strong>.</p>",
+   "<p><strong>3. Not (14/01/2026 değişikliği).</strong> Sınavdan önce yürürlüğe giren değişiklikle md. 43’e şu fıkra eklendi: anonim şirketlerde <strong>bağımsız</strong> yönetim kurulu üyeliği ticari faaliyet sayılmaz. Ancak bu görevi alan meslek mensubu o şirkete ve o şirketin doğrudan veya dolaylı hissedarı ya da iştiraki olduğu şirketlere 3568 md. 2 kapsamında hizmet veremez.</p>"
+  ],
+  "dayanak": "Çalışma Usul ve Esasları Yönetmeliği md. 43 (ticari faaliyette bulunamama; 14/01/2026 tarihli ve 33137 sayılı RG ile değişik cümle ve ek fıkra), md. 47/b (meslekle bağdaşan işler); 3568 sayılı Kanun md. 45.",
+  "tuzaklar": {
+   "B": "Tacir veya esnaf sayılmayı gerektiren faaliyet yasağı md. 43’ün ilk cümlesidir; ifade doğrudur.",
+   "C": "Kendi meslekî faaliyeti dışında serbest meslek faaliyeti yasağı md. 43’te yer alır; ifade doğrudur.",
+   "D": "Ticari mümessillik, ticari vekillik ve acentelik yasağı md. 43’te yer alır; ifade doğrudur.",
+   "E": "Adi ve kollektif şirketlerde ortaklık yasağı md. 43’te yer alır; ifade doğrudur."
+  },
+  "kartlar": [
+   {
+    "on": "Meslek mensubu hangi şirketlerde ortak olamaz, hangilerinde olabilir?",
+    "arka": "Olamaz: adi ve kollektif şirkette ortak, komandit şirkette komandite ortak (md. 43). Olabilir: limited ve anonim şirkette ortak, komandit şirkette komanditer ortak (md. 47/b)."
+   },
+   {
+    "on": "Meslek mensubu anonim şirkette yönetim kurulu üyesi olabilir mi?",
+    "arka": "Kural olarak hayır (md. 43). 14/01/2026 değişikliğiyle bağımsız yönetim kurulu üyeliği ticari faaliyet sayılmaz; ama o şirkete ve onun doğrudan veya dolaylı hissedarı ya da iştiraki olduğu şirketlere meslekî hizmet veremez."
+   }
+  ],
+  "konuBaglantisi": "Yasak haller"
+ },
+ {
+  "id": "2026-1-MH-20",
+  "sonuc": "C",
+  "ozet": "Odalar Yönetmeliği md. 10 ve 3568 md. 21: üye sayısı bin ile beş bin arasındaki odalarda Yönetim Kurulu yedi asıl ve yedi yedek üyeden oluşur: C.",
+  "adimlar": [
+   "<p><strong>1. Kural (Odalar Yönetmeliği md. 10/1; 3568 md. 21/1).</strong> Yönetim Kurulu, Genel Kurulca kendi üyeleri arasından <strong>üç yıl</strong> için seçilir ve şu sayıda üyeden oluşur: üye sayısı binin altında olan odalarda <strong>5 asıl + 5 yedek</strong>; bin ilâ beş bin arasında olan odalarda <strong>7 asıl + 7 yedek</strong>; beş bini aşan odalarda <strong>9 asıl + 9 yedek</strong>.</p>",
+   "<p><strong>2. Uygulama.</strong> Soru bin ilâ beş bin arası üyeli odayı soruyor: 7 asıl üye, <strong>C</strong>.</p>",
+   "<p><strong>3. Ek bilgi.</strong> Yönetim Kurulu kendi üyeleri arasından gizli oyla bir başkan, bir başkan yardımcısı, bir muhasip ve oda sekreterini seçer; odanın hukuki temsilcisi Yönetim Kurulu Başkanıdır.</p>"
+  ],
+  "dayanak": "Serbest Muhasebeci Mali Müşavirler Odaları Yönetmeliği md. 10 (25/12/2012 tarihli değişik fıkra); 3568 sayılı Kanun md. 21.",
+  "tuzaklar": {
+   "A": "3 asıl üyeli bir oda yönetim kurulu yoktur. 3 sayısı, üye sayısı 50’ye kadar olan odalarda disiplin kurulu üye sayısıdır (3568 md. 25).",
+   "B": "5 asıl üye, üye sayısı binin altındaki odalar içindir.",
+   "D": "9 asıl üye, üye sayısı beş bini aşan odalar içindir.",
+   "E": "Oda yönetim kurulu için 11 asıl üye öngörülmemiştir; en büyük odalarda bile 9’dur."
+  },
+  "kartlar": [
+   {
+    "on": "Oda Yönetim Kurulu kaç üyeden oluşur?",
+    "arka": "Üye sayısı 1.000’in altında: 5 asıl + 5 yedek; 1.000–5.000: 7 asıl + 7 yedek; 5.000’in üstünde: 9 asıl + 9 yedek; görev süresi 3 yıl (3568 md. 21; Odalar Yönetmeliği md. 10)."
+   }
+  ],
+  "konuBaglantisi": "Odalar ve organları"
+ }
+]
