@@ -5,7 +5,7 @@ import * as X from '../exam.js';
 import { startExam } from '../examflow.js';
 import * as fsrs from '../fsrs.js';
 import { DERSLER, DONEMLER, dersAdi } from '../data.js';
-import { examDateMs, scheduleForReview } from '../progress.js';
+import { examDateMs, scheduleForReview, addInfoCards, tagLastAnswer } from '../progress.js';
 
 let timer = null, qv = null;
 let epoch = 0;   // destroy() bumps it; in-flight work from an older epoch stops
@@ -235,6 +235,7 @@ async function reviewWrong(view, id, ctx) {
   const { db, data } = ctx;
   const ep = epoch;
   const s = await db.getExam(id);
+  const examDate = await examDateMs(db);
   if (ep !== epoch) return;
   if (!s) return notFound(view);
   const wrong = [];
@@ -248,11 +249,16 @@ async function reviewWrong(view, id, ctx) {
     try {
       const at = i;
       const q = await data.getQuestion(wrong[at]); const sol = await data.getSolution(q.id);
-      const inkStrokes = await db.getInk('deneme:' + id + ':' + q.id);
+      const inkStrokes = await db.getInk('deneme:' + id + ':' + q.id), feynmanStrokes = await db.getInk('feynman:' + q.id);
+      const flag = await db.getFlag(q.id);
       if (stale()) return;
       qv?.destroy(); view.innerHTML = '';
       qv = createQuestionView({ question: q, solution: sol, mode: 'review', index: at, total: wrong.length, selected: s.cevaplar[q.id] ?? null, emin: true,
-        inkStrokes, onAnswer: () => {}, onInk: safe((st) => db.saveInk('deneme:' + id + ':' + q.id, st)),
+        inkStrokes, feynmanStrokes, flagged: !!flag?.bayrak, onAnswer: () => {}, onInk: safe((st) => db.saveInk('deneme:' + id + ':' + q.id, st)),
+        onFlag: safe((b) => db.setFlag(q.id, { bayrak: b })),
+        onTag: safe((t) => tagLastAnswer(db, q.id, t, id)),
+        onCards: safe((kartlar) => addInfoCards({ db, fsrs, kaynakId: q.id, kartlar, examDate })),
+        onFeynman: safe((st) => db.saveInk('feynman:' + q.id, st)),
         onPrev: at > 0 ? () => { i = at - 1; show(); } : null, onNext: at < wrong.length - 1 ? () => { i = at + 1; show(); } : () => ctx.navigate('#/exam/result/' + id) });
       view.append(qv.el);
       qv.reveal();

@@ -157,3 +157,22 @@ test('yazma hatası tek cümlelik toast gösterir', async () => {
   const toasts = [...document.querySelectorAll('.toast')].map(t => t.textContent);
   assert.deepEqual(toasts, ['Kayıt yapılamadı, yedek almayı deneyin.']);
 });
+
+test('derin bağlantıdan açılan tek soruda Sonraki study:state değerini silmez', async () => {
+  const st = { ids: IDS, idx: 1, filtre: null };
+  await db.setSetting('study:state', st);
+  await study.render(view, { id: IDS[0] }, ctx); await settle();
+  view.querySelector('button.opt[data-letter="A"]').click(); await settle();
+  btn('Sonraki ›').click(); await settle();
+  assert.deepEqual(await db.getSetting('study:state', null), st);
+  assert.deepEqual(navigated, ['#/']);
+});
+
+test('Boş geç: cevap null yazılır, kart Tekrar, çözüm açılır', async () => {
+  await study.render(view, { id: IDS[0] }, ctx); await settle();
+  btn('Boş geç').click(); await settle();
+  const a = (await db.answersFor(IDS[0]))[0];
+  assert.equal(a.cevap, null); assert.equal(a.dogruMu, false);
+  assert.equal((await db.getCard('soru:' + IDS[0])).state, 'learning');
+  assert.ok(view.querySelector('.solution'));
+});

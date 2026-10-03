@@ -65,3 +65,10 @@ test('scheduleForReview: iptal soruda null döner, kart ve cevap yazılmaz', asy
   assert.equal((await db.allCards()).length, 0);
   assert.equal((await db.allAnswers()).length, 0);
 });
+
+test('cevap null (boş geç): satır cevap null, kart Tekrar', async () => {
+  const card = await recordAnswer({ db, fsrs, question: q, cevap: null, dogruMu: false, emin: false, sure: 1, mod: 'study', now });
+  assert.equal(card.state, 'learning');
+  const [a] = await db.answersFor(q.id);
+  assert.equal(a.cevap, null); assert.equal(a.dogruMu, false);
+});

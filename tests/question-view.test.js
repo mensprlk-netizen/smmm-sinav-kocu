@@ -85,7 +85,7 @@ test('çözüm yoksa mesaj gösterilir, kart düğmesi yok, orijinal var', () =>
 
 test('yanlış seçimle yeniden açılış: kilitli, renkli, çözüm ve etiketler var, onAnswer çağrılmaz', () => {
   let n = 0;
-  const v = createQuestionView({ question: q, solution: sol, mode: 'review', index: 0, total: 1, selected: 'B', onAnswer: () => { n++; } });
+  const v = createQuestionView({ question: q, solution: sol, mode: 'review', index: 0, total: 1, selected: 'B', onTag: () => {}, onAnswer: () => { n++; } });
   assert.ok(opt(v, 'B').classList.contains('wrong'));
   assert.ok(opt(v, 'C').classList.contains('correct'));
   assert.ok(opt(v, 'A').hasAttribute('disabled'));
@@ -230,4 +230,40 @@ test('tuzak metinleri HTML olarak işlenir', () => {
   const li = v.el.querySelector('.solution ul li');
   assert.ok(li.querySelector('em'));
   assert.equal(li.textContent, 'A) Yalnız net tutar');
+});
+
+test('Boş geç yalnız çalışma modunda; kilitler, çözümü açar, null cevap bildirir', () => {
+  const events = [];
+  const v = createQuestionView({ question: q, solution: sol, mode: 'study', index: 0, total: 1, onAnswer: e => events.push(e) });
+  const b = v.el.querySelector('[data-role="bos"]');
+  assert.equal(b.textContent, 'Boş geç');
+  b.click();
+  assert.deepEqual(events, [{ cevap: null, dogruMu: false, emin: false }]);
+  assert.ok(v.el.querySelector('.solution'));
+  assert.ok(opt(v, 'A').hasAttribute('disabled'));
+  assert.ok(opt(v, 'C').classList.contains('correct'));
+  assert.equal(v.el.querySelectorAll('.opt.wrong').length, 0);
+  b.click(); assert.equal(events.length, 1);
+  for (const mode of ['exam', 'review']) assert.equal(createQuestionView({ question: q, solution: sol, mode, index: 0, total: 1, onAnswer: () => {} }).el.querySelector('[data-role="bos"]'), null);
+});
+
+test('iptal soruda "İlk anahtar: X (iptal)" yazar', () => {
+  const v = createQuestionView({ question: { ...q, iptal: true }, solution: sol, mode: 'study', index: 0, total: 1, onAnswer: () => {} });
+  assert.ok(v.el.textContent.includes('İlk anahtar: C (iptal)'));
+  assert.ok(!v.el.textContent.includes('Doğru cevap'));
+});
+
+test('tekrar modunda Feynman çözümden önce erişilir (tek düğme)', () => {
+  const v = createQuestionView({ question: q, solution: sol, mode: 'review', index: 0, total: 1, onAnswer: () => {}, onFeynman: () => {} });
+  assert.equal(v.el.querySelector('.solution'), null);
+  assert.equal(v.el.querySelectorAll('[data-role="feynman"]').length, 1);
+  opt(v, 'A').click();
+  assert.equal(v.el.querySelectorAll('[data-role="feynman"]').length, 1);
+});
+
+test('kontroller yalnız geri çağrısı varsa çizilir', () => {
+  const v = createQuestionView({ question: q, solution: sol, mode: 'study', index: 0, total: 1, onAnswer: () => {} });
+  opt(v, 'A').click();
+  for (const r of ['flag', 'ink', 'cards', 'feynman']) assert.equal(v.el.querySelector(`[data-role="${r}"]`), null, r);
+  assert.equal(v.el.querySelector('[data-tag]'), null);
 });

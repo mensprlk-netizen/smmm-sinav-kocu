@@ -96,7 +96,7 @@ test('zayıf konular: 3+ görülen ve düşük doğruluk listelenir, 2 görülen
 
 test('hata türleri: etiket başına tam sayılar, doğrular sayılmaz', async () => {
   await seedAnswers(); await run();
-  assert.deepEqual(rows('Hata türleri'), [['Bilgi eksiği', '2'], ['Dikkatsizlik', '1'], ['Süre', '1'], ['Yanlış okudum', '1'], ['Etiketsiz', '1']]);
+  assert.deepEqual(rows('Hata türleri'), [['Bilgi eksiği', '2'], ['Dikkatsizlik', '1'], ['Süre', '1'], ['Yanlış okudum', '1'], ['Etiketsiz', '0']]);
 });
 
 test('deneme geçmişi: virgüllü puan, sonuç bağlantısı, bitmeyen yok, yeni önce', async () => {

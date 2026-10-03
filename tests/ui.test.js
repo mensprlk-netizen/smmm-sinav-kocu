@@ -38,3 +38,32 @@ test('fmtPuan: Türkçe ondalık virgül', () => {
   assert.equal(fmtPuan(0), '0');
   assert.equal(fmtPuan(100), '100');
 });
+
+test('confirm: arka plana tıklayınca false ile çözülür, sheet kalkar', async () => {
+  const { confirm } = await import('../app/js/ui.js');
+  const p = confirm('Emin misin?');
+  document.querySelector('.sheet-backdrop').click();
+  assert.equal(await p, false);
+  assert.equal(document.querySelector('.sheet'), null);
+});
+
+test('confirm: ✕ ile false, Evet ile true', async () => {
+  const { confirm } = await import('../app/js/ui.js');
+  const p = confirm('Emin misin?');
+  document.querySelector('[aria-label="Kapat"]').click();
+  assert.equal(await p, false);
+  const p2 = confirm('Emin misin?');
+  [...document.querySelectorAll('.sheet button')].find(b => b.textContent === 'Evet').click();
+  assert.equal(await p2, true);
+});
+
+test('closeAllSheets: açık sheet ve bekleyen onay false ile kapanır', async () => {
+  const { confirm, sheet, closeAllSheets } = await import('../app/js/ui.js');
+  const p = confirm('x');
+  let closed = 0;
+  sheet({ title: 't', content: 'c', onClose: () => closed++ });
+  closeAllSheets();
+  assert.equal(await p, false);
+  assert.equal(closed, 1);
+  assert.equal(document.querySelectorAll('.sheet, .sheet-backdrop').length, 0);
+});

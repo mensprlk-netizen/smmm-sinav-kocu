@@ -240,3 +240,25 @@ test('show aşamasında destroy: geç gelen soru görünüme eklenmez', async ()
   gate(mkQ(1)); await settle();
   assert.equal(view.children.length, 0);
 });
+
+test('tekrar ekranı: Kartları ekle kart yazar, etiket ve bayrak kaydedilir, Feynman cevaptan önce erişilir', async () => {
+  data.reset();
+  data.setFetch(async (url) => {
+    let b = FILES[String(url).replace(/^\.\//, '')];
+    if (b && String(url).includes('solutions')) b = b.map(x => ({ ...x, kartlar: [{ on: 'ön', arka: 'arka' }] }));
+    return b === undefined ? { ok: false } : { ok: true, json: async () => b };
+  });
+  await putAll([qCard(1, NOW - 1000)]);
+  await run();
+  assert.ok(view.querySelector('[data-role="feynman"]'));
+  assert.equal(view.querySelector('.solution'), null);
+  view.querySelector('button.opt[data-letter="A"]').click(); await settle();
+  assert.equal(view.querySelectorAll('[data-role="feynman"]').length, 1);
+  const before = (await db.allCards()).length;
+  view.querySelector('[data-role="cards"]').click(); await settle();
+  assert.equal((await db.allCards()).length, before + 1);
+  view.querySelector('[data-tag="bilgi"]').click(); await settle();
+  assert.equal((await db.answersFor('2026-1-FM-01'))[0].hataEtiketi, 'bilgi');
+  view.querySelector('[data-role="flag"]').click(); await settle();
+  assert.equal((await db.getFlag('2026-1-FM-01')).bayrak, true);
+});

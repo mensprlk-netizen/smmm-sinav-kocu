@@ -407,3 +407,41 @@ test('devam: ilk cevapsız soruda açılır', async () => {
   await run('run', 'd1');
   assert.ok(view.querySelector('.question').textContent.includes('4 / 19'));
 });
+
+test('onay arka plana tıklanarak kapatılırsa Başla yeniden çalışır', async () => {
+  await seed(); await run();
+  const [dersSel, donemSel] = cardOf('Tek ders').querySelectorAll('select');
+  dersSel.value = 'MAL'; donemSel.value = '2026-1';
+  startBtn('Tek ders').click(); await settle();
+  document.querySelector('.sheet-backdrop').click(); await settle();
+  assert.equal(navs.length, 0);
+  startBtn('Tek ders').click(); await settle();
+  assert.ok(document.body.textContent.includes('silinip yenisi başlatılsın mı?'));
+  await click('Evet');
+  assert.equal(navs.length, 1);
+});
+
+test('gözden geçir: Kartları ekle kart yazar, etiket deneme satırına, bayrak ve Feynman mürekkebi kaydedilir', async () => {
+  data.reset();
+  data.setFetch(async (url) => {
+    let b = FILES[String(url).replace(/^\.\//, '')];
+    if (b && String(url).includes('solutions')) b = b.map(x => ({ ...x, kartlar: [{ on: 'ön', arka: 'arka' }] }));
+    return b === undefined ? { ok: false } : { ok: true, json: async () => b };
+  });
+  const fin = await seedFinished(); const qid = fin.soruIdler[10];
+  await db.addAnswer({ soruId: qid, cevap: 'A', dogruMu: false, emin: true, sure: 0, mod: 'exam', denemeId: 'd1' });
+  await run('review', 'd1');
+  const before = (await db.allCards()).length;
+  view.querySelector('[data-role="cards"]').click(); await settle();
+  assert.equal((await db.allCards()).length, before + 1);
+  view.querySelector('[data-tag="dikkat"]').click(); await settle();
+  assert.equal((await db.answersFor(qid))[0].hataEtiketi, 'dikkat');
+  view.querySelector('[data-role="flag"]').click(); await settle();
+  assert.equal((await db.getFlag(qid)).bayrak, true);
+  view.querySelector('[data-role="feynman"]').click();
+  const cv = document.querySelector('.sheet canvas');
+  const ev = (t, x, y) => cv.dispatchEvent(new PointerEvent(t, { clientX: x, clientY: y, pointerType: 'pen', pressure: 0.6, bubbles: true }));
+  ev('pointerdown', 5, 5); ev('pointermove', 20, 20); ev('pointerup', 20, 20);
+  await tick(400);
+  assert.ok((await db.getInk('feynman:' + qid))?.length >= 1);
+});

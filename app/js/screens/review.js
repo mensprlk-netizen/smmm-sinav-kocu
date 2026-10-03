@@ -3,7 +3,7 @@ import { h, safe, kayitHatasi } from '../ui.js';
 import { createQuestionView } from './question-view.js';
 import * as fsrs from '../fsrs.js';
 import { buildQueue } from '../reviewqueue.js';
-import { examDateMs } from '../progress.js';
+import { examDateMs, addInfoCards, tagLastAnswer } from '../progress.js';
 import { gunlukPlan, sinavaKalanGun, dailyCounter, todayKey } from '../planner.js';
 
 let qv = null;
@@ -75,15 +75,19 @@ export async function render(view, params, ctx) {
           if (stale()) return;
           if (!q || q.iptal) { i++; return show(); }
           const sol = await data.getSolution(q.id);
+          const flag = await db.getFlag(q.id);
           const inkStrokes = await db.getInk('soru:' + q.id), feynmanStrokes = await db.getInk('feynman:' + q.id);
           if (stale()) return;
           const holder = h('div');
-          qv = createQuestionView({ question: q, solution: sol, mode: 'review', index: i, total: list.length, inkStrokes, feynmanStrokes,
+          qv = createQuestionView({ question: q, solution: sol, mode: 'review', index: i, total: list.length, flagged: !!flag?.bayrak, inkStrokes, feynmanStrokes,
             onAnswer: safe(async ({ cevap, dogruMu, emin }) => {
               try { await db.addAnswer({ soruId: q.id, cevap, dogruMu, emin, sure: 0, mod: 'review' }); } catch { kayitHatasi(); }
               if (stale()) return;
               holder.append(h('p', { class: 'muted' }, dogruMu ? 'Doğru. Ne kadar kolaydı?' : 'Yanlış. Çözümü oku, sonra derecelendir.'), ratingRow(card));
             }),
+            onFlag: safe((b) => db.setFlag(q.id, { bayrak: b })),
+            onTag: safe((t) => tagLastAnswer(db, q.id, t)),
+            onCards: safe((kartlar) => addInfoCards({ db, fsrs, kaynakId: q.id, kartlar, examDate })),
             onInk: safe((s) => db.saveInk('soru:' + q.id, s)), onFeynman: safe((s) => db.saveInk('feynman:' + q.id, s)) });
           view.append(qv.el, holder);
         } else {

@@ -24,3 +24,26 @@ test('konu kodu', () => {
 test('bilinmeyen yol ana sayfa', () => {
   assert.deepEqual(parseRoute('#/yok'), { name: 'home', params: {} });
 });
+
+import { createRouter } from '../app/js/router.js';
+
+const mkView = () => ({ innerHTML: 'x' });
+const gate = () => { let go; const p = new Promise(r => { go = r; }); return { p, go }; };
+
+test('createRouter: her gezinmede cleanup çalışır, eski ekran yok edilir', async () => {
+  const log = [];
+  const mod = (n) => ({ destroy: () => log.push('destroy ' + n), render: async () => { log.push('render ' + n); } });
+  const route = createRouter({ view: mkView(), ctx: {}, cleanup: () => log.push('cleanup'), load: async (n) => mod(n) });
+  await route('#/study'); await route('#/exam');
+  assert.deepEqual(log, ['cleanup', 'render study', 'destroy study', 'cleanup', 'render exam']);
+});
+
+test('createRouter: ilk yüklemede iki hızlı gezinme yalnız sonuncuyu çizer', async () => {
+  const g = gate(); const rendered = [];
+  const mod = (n) => ({ render: async () => { rendered.push(n); } });
+  const route = createRouter({ view: mkView(), ctx: {}, load: async (n) => { if (n === 'study') await g.p; return mod(n); } });
+  const first = route('#/study');
+  const second = route('#/exam');
+  await second; g.go(); await first;
+  assert.deepEqual(rendered, ['exam']);
+});

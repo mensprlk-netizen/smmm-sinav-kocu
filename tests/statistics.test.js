@@ -6,8 +6,8 @@ const qs = [
   { id: 'a', ders: 'MAL', konu: 'k1', iptal: false }, { id: 'b', ders: 'MAL', konu: 'k1', iptal: false },
   { id: 'c', ders: 'MAL', konu: 'k2', iptal: false }, { id: 'd', ders: 'FM', konu: 'x', iptal: false }];
 const ans = [
-  { soruId: 'a', dogruMu: false, tarih: 1, sure: 1000, hataEtiketi: 'bilgi' }, { soruId: 'a', dogruMu: true, tarih: 2, sure: 3000 },
-  { soruId: 'b', dogruMu: false, tarih: 3, sure: 2000 }, { soruId: 'd', dogruMu: false, tarih: 4, sure: 500, hataEtiketi: 'dikkat' }];
+  { soruId: 'a', mod: 'study', dogruMu: false, tarih: 1, sure: 1000, hataEtiketi: 'bilgi' }, { soruId: 'a', dogruMu: true, tarih: 2, sure: 3000 },
+  { soruId: 'b', mod: 'study', dogruMu: false, tarih: 3, sure: 2000 }, { soruId: 'd', dogruMu: false, tarih: 4, sure: 500, hataEtiketi: 'dikkat' }];
 
 test('konu istatistikleri', () => {
   const k1 = konuIstatistikleri(qs, ans).find(k => k.konu === 'k1');
@@ -55,4 +55,10 @@ test('ortalama süre: satır başına 10 dk üst sınır (konu ve ders)', () => 
 
 test('hata defteri: etiketsiz filtresi yalnız etiketsiz yanlışları verir', () => {
   assert.deepEqual(hataDefteri(qs, ans, { etiket: 'etiketsiz' }).map(x => x.question.id), ['b']);
+});
+
+test('hata dağılımı: deneme/tekrar satırları Etiketsiz şişirmez; etiketli olan sayılır; null cevap yanlış sayılır', () => {
+  const rows = [{ soruId: 'a', mod: 'exam', dogruMu: false }, { soruId: 'b', mod: 'review', dogruMu: false }, { soruId: 'c', mod: 'review', dogruMu: false, hataEtiketi: 'sure' },
+    { soruId: 'd', mod: 'study', dogruMu: false, cevap: null }];
+  assert.deepEqual(hataDagilimi(rows), { bilgi: 0, dikkat: 0, sure: 1, okuma: 0, etiketsiz: 1 });
 });
