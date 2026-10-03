@@ -63,7 +63,7 @@ export function createQuestionView(o) {
       h('p', {}, h('strong', {}, `Doğru cevap: ${q.dogru}`), s ? ' — ' + s.ozet : ''),
       s ? h('div', {}, ...s.adimlar.map(a => h('div', { class: 'step', html: a }))) : h('p', { class: 'muted' }, 'Bu soru için çözüm henüz eklenmedi.'),
       s?.dayanak ? h('p', { class: 'muted' }, 'Dayanak: ' + s.dayanak) : null,
-      s && Object.keys(s.tuzaklar || {}).length ? h('div', {}, h('h2', {}, 'Tuzak şıklar'), h('ul', {}, ...Object.entries(s.tuzaklar).map(([L, t]) => h('li', {}, h('strong', {}, L + ') '), t)))) : null,
+      s && Object.keys(s.tuzaklar || {}).length ? h('div', {}, h('h2', {}, 'Tuzak şıklar'), h('ul', {}, ...Object.entries(s.tuzaklar).map(([L, t]) => h('li', {}, h('strong', {}, L + ') '), h('span', { html: t }))))) : null,
       wrong ? h('div', {}, h('h2', {}, 'Neden yanlış yaptım?'), h('div', { class: 'row' }, ...TAGS.map(([k, label]) => h('button', { class: 'chip', 'data-tag': k, onClick: (e) => { panel.querySelectorAll('[data-tag]').forEach(c => c.classList.remove('on')); e.currentTarget.classList.add('on'); o.onTag?.(k); } }, label)))) : null,
       h('div', { class: 'row', style: 'margin-top:10px' },
         s?.kartlar?.length ? h('button', { class: 'btn btn-small', 'data-role': 'cards', onClick: (e) => { const btn = e.currentTarget; if (btn.disabled) return; btn.disabled = true; btn.textContent = 'Kartlar eklendi'; o.onCards?.(s.kartlar); toast('Kartlar tekrar kuyruğuna eklendi.'); } }, `Kartları ekle (${s.kartlar.length})`) : null,
