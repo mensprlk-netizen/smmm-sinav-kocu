@@ -57,7 +57,7 @@ Kitapçık 1. sayfada (soru 2’nin altında) şu not basılıdır: “2. Sorunu
 
 Uygulama: `dogru: "A"`, `iptal: false`, `cevapNotu` = kitapçıktaki cümle (basıldığı gibi, düz tırnaklarla) + “(Kitapçıktaki not; cevap anahtarı tablosunda da bu soru için “B --> A” ve “Şık Değ.” yazılıdır.)”.
 
-Bağımsız çözüm A’yı verir: dünya geliri 10.000.000 ₺ → vergi 3.690.000 ₺; GVK md. 123 sınırı 3.690.000 × 2/10 = 738.000 ₺ > 400.000 ₺ → 400.000 ₺ tamamen mahsup; geçici vergi 1.500.000 ₺ mahsup → 1.790.000 ₺. (Marjinal yöntemle hesaplanan sınır da — 3.690.000 − 2.890.000 = 800.000 ₺ — 400.000 ₺’nin üzerinde; sonuç değişmez.) B’nin (2.110.000) hangi hatadan doğduğu tespit edilemedi: 3.690.000 − 1.500.000 − 80.000 veya 9.800.000 ₺ matrah üzerinden 3.610.000 − 1.500.000 gibi aritmetik olarak mümkün ama kanuni dayanağı olmayan yollar dışında tutarlı bir mekanizma bulunamadı; çözümde uydurma bir gerekçe yazılmadı, yalnız “tutarlı bir hesap yolu tespit edilemedi” denildi.
+Bağımsız çözüm A’yı verir: dünya geliri 10.000.000 ₺ → vergi 3.690.000 ₺; GVK md. 123 sınırı 3.690.000 × 2/10 = 738.000 ₺ > 400.000 ₺ → 400.000 ₺ tamamen mahsup; geçici vergi 1.500.000 ₺ mahsup → 1.790.000 ₺. (Marjinal yöntemle hesaplanan sınır da — 3.690.000 − 2.890.000 = 800.000 ₺ — 400.000 ₺’nin üzerinde; sonuç değişmez.) B’yi veren hesap (düzeltme turu 1, koordinatör kararı): GVK md. 123’teki oran (2/10) Türkiye’de hesaplanan vergiye değil Bulgaristan’da ödenen vergiye uygulanırsa 400.000 × 2/10 = 80.000 ₺ mahsup edilir ve 3.690.000 − 80.000 − 1.500.000 = 2.110.000 ₺ bulunur. Oysa oran Türkiye’de hesaplanan vergiye uygulanır ve mahsup sınırını verir (738.000 ₺). Güncellemenin resmi gerekçesi yayımlanmamıştır; çözümde “B’yi veren hesap” olarak verildi (tuzak B ve Not adımı).
 
 ## Anahtar çelişkisi
 
@@ -65,9 +65,9 @@ Yok. `tools/allow-missing.txt` değiştirilmedi.
 
 ## Tartışmalı soru
 
-Yok. Aşağıdaki noktalar resmi cevabı değiştiren ikinci bir okuma üretmez:
+**03: tartışmalı (cevap değişmez).** Diğer nokta (19) resmi cevabı değiştiren ikinci bir okuma üretmez:
 
-- **03 (eurobond):** Soru ihraççıyı söylemez. Hazine eurobondu okumasında gelir geçici md. 67 dışındadır ve beyan sınırını aşar (resmi cevap). Tam mükellef kurum eurobondu okumasında, geçici md. 67/1 kapsamında %0 tevkifat “tevkifata tabi tutulan” sayılıp 67/7 gereği beyan dışı kalabilirdi; bu matrahı 0 yapar ve şıklarda yoktur. Çözümde Not olarak verildi.
+- **03 (eurobond), tartışmalı (cevap değişmez):** Soru ihraççıyı söylemez. Hazine eurobondu okumasında (terimin olağan anlamı) faiz geçici md. 67/2’deki parantez içi hüküm gereği (dönemsel getiri tahsilinde 67/1 altıncı paragraf da) geçici 67 tevkifatı dışındadır ve 86/1-c sınırını (330.000 ₺) aştığı için beyan edilir: A (resmi cevap). Yabancı ihraççı okumasında gelir tevkifata ve istisnaya konu olmayan MSİ’dir, 86/1-d sınırını aştığı için yine beyan edilir: A. Tam mükellef bir kurumun yurt dışında ihraç ettiği tahvil okumasında faiz geçici md. 67/2 kapsamında tevkifata tabi tutulur ve 67/7 gereği beyan edilmez; matrah 0 olur, şıklarda yoktur. Çözümde “Not (tartışmalı)” adımıyla verildi.
 - **03 (yabancı emekli aylığı):** Tartışma yok. GVK md. 23/13 (3239 sayılı Kanun’la eklenen bent) yabancı ülkelerdeki sosyal güvenlik kurumlarınca ödenen emekli, malüliyet, dul ve yetim aylıklarını açıkça istisna eder. (İlk taslakta md. 23/11 ve İdare görüşü olarak yazılmıştı; kanun metninde 23/13 görülerek düzeltildi.)
 - **19:** C ve D’de alıcı Türk firmasıdır. “Türkiye’de faydalanma” ölçütü geniş yorumlansaydı C veya D de konu içinde sayılabilirdi; ancak E her okumada KDV’nin konusundadır (Türkiye’de ifa). İdare, yurt dışında ifa edilip yurt dışında tüketilen hizmetleri konu dışı görür. Çözümde Not olarak açıklandı. Güven: E kesin; C’nin konu dışı oluşu, yurt dışındaki fuarlarda verilen stant kurulum ve montaj hizmetlerine ilişkin GİB özelgesiyle (21/07/2011 tarihli; web aramasında görüldü, metni ayrıca getirilmedi) ve KDVK md. 1 ve 6 yorumuyla uyumlu (yüksek); D aynı ilkeye dayanır (orta-yüksek).
 
@@ -85,14 +85,14 @@ Yok.
 - **12:** Cumhurbaşkanı Kararı ile belirlenen %10 oranı ve “aşan kısım / toplam yabancı kaynak” dağıtım formülü tebliğ düzeyindedir; Karar sayısı ve tebliğ bölüm numarası yazılmadı. C (75.000) için mekanizma bulunamadı; açıklama yazılmadı.
 - **16:** E’deki “yatırım izleme ve koordinasyon başkanlıkları” 7566 sayılı Kanun’la (4/12/2025) MTVK md. 4/a’ya eklenmiştir; 2026 sınavı için yürürlükte. Çözümde belirtildi.
 - **18:** A (%10) ve C (%30) kanunda karşılığı olmayan oranlardır; uydurma mekanizma yazılmadı.
-- **02:** B (2.110.000) için mekanizma yazılmadı (yukarıda).
-- **Tuzaklar:** Mekanizması aritmetikle veya kanun metniyle doğrulanamayan şıklar için uydurma açıklama yazılmadı (02-B yalnız “ilk yayımlanan cevap” olarak; 06-D, 07-B ve 08-B/E, 12-C, 18-A/C için yalnız “kanunda böyle bir süre/oran yok” denildi ya da açıklama yazılmadı).
+- **02:** B (2.110.000) mekanizması düzeltme turu 1’de eklendi (yukarıda).
+- **Tuzaklar:** Mekanizması aritmetikle veya kanun metniyle doğrulanamayan şıklar için uydurma açıklama yazılmadı (06-D, 07-B ve 08-B/E, 12-C, 18-A/C için yalnız “kanunda böyle bir süre/oran yok” denildi ya da açıklama yazılmadı).
 
 ## Dayanak atıfları ve güven düzeyi
 
 Kesin = madde metni mevzuat.gov.tr metninde görülerek yazıldı.
 
-- GVK md. 3/1, 4/1, 21 (ikinci fıkra, 6322 ile), 22/3, 23/11, 23/13, 61 (ikinci fıkra; üçüncü fıkra 4 numaralı bent), 74 (götürü gider %15), 75/2-5, 75/2-7, mükerrer md. 80 (üçüncü fıkra, 7104 ile; son fıkra), 86/1-b, 86/1-c, 86/1-d, 103, mükerrer md. 120, md. 123, geçici md. 67/1 (altıncı paragraf), 67/2, 67/4, 67/7 — kesin.
+- GVK md. 3/1, 4/1, 21 (ikinci fıkra, 6322 ile), 22/3, 23/11, 23/13, 61 (ikinci fıkra; üçüncü fıkra 4 numaralı bent), 74 (götürü gider %15), 75/2-5, 75/2-7, mükerrer md. 80 (üçüncü fıkra, 7104 ile; son fıkra), geçici md. 94 (7587 sayılı Kanun, yürürlük 1/7/2026; gerçek usul ticari kazanç mükelleflerinin önceden sahip oldukları ticari plakaların satış kazancı istisnası), 86/1-b, 86/1-c, 86/1-d, 103, mükerrer md. 120, md. 123, geçici md. 67/1 (altıncı paragraf), 67/2, 67/4, 67/7 — kesin.
 - KVK md. 3/1, 3/2, 3/3-a, 4, 5/1-h, 11/1-i, 12/1, 12/2, 12/3-b, 12/6-a, 12/6-b, 13/4-a, 14/3, 17/2, 22/1, 24, 25, 26, 30, 32/C (1), (2), (6) ve 2025’ten itibaren yürürlük (7524) — kesin.
 - KDVK md. 1/1, 6/b, 11/1-a, 11/1-c, 24/c, 29/1-a, 29/1-ç (7491; 1/1/2024), 29/2 — kesin.
 - VUK md. 267, 280, 344, 370 (a ve a-2; %20), 371, 374/1, 374/2 — kesin.
@@ -107,4 +107,11 @@ Kesin = madde metni mevzuat.gov.tr metninde görülerek yazıldı.
   - 12: Finansman gider kısıtlaması oranının %10 olması — Cumhurbaşkanı Kararı (güven: yüksek); dağıtım formülü — KVK Genel Tebliği Seri No: 1 (güven: yüksek).
   - 15: Tecil edilecek KDV = tecil edilebilir ile ödenmesi gereken KDV’den küçük olanı — KDV Genel Uygulama Tebliği (güven: yüksek).
   - 19: Yurt dışında ifa edilip yurt dışında tüketilen hizmetlerin konu dışı oluşu (C ve D) — İdare özelgeleri (C için yüksek, D için orta-yüksek; cevap E’yi etkilemez).
-- Değişiklik tarihleri metin dipnotlarından doğrulandı: GVK mük. 80 plaka ibaresi 7104 (2018); GVK 21 ikinci fıkra 6322 (2012); geçici vergi üç aylık dönem 7338 (2021); KVK 32/C 7524 (2025 kazançları); KDVK 29/1-ç 7491 (1/1/2024); MTVK 4/a yatırım izleme ve koordinasyon başkanlıkları 7566 (4/12/2025); VUK 370 6728 ve 7194.
+- Değişiklik tarihleri metin dipnotlarından doğrulandı: GVK mük. 80 plaka ibaresi 7104 (2018); GVK 21 ikinci fıkra 6322 (2012); geçici vergi dönemleri: 4444 (1999) altı aylık yaptı, 5035 2004’ten itibaren üç aylığa döndürdü, 7338 2022’den itibaren dönemleri yılın ilk dokuz ayıyla sınırladı, 7566 bu sınırlamayı 2025 dönemlerinden itibaren kaldırdı (bağımsız incelemede dipnotlardan doğrulandı); KVK 32/C 7524 (2025 kazançları); KDVK 29/1-ç 7491 (1/1/2024); MTVK 4/a yatırım izleme ve koordinasyon başkanlıkları 7566 (4/12/2025); VUK 370 6728 ve 7194.
+
+## Düzeltme turu 1 (bağımsız inceleme sonrası)
+
+- 14 `tuzaklar.A`: 7338 sayılı Kanun’a yanlış atfedilen “altı aylıktan üç aylığa” geçişi kaldırıldı; doğru değişiklik tarihçesi yazıldı.
+- 03 `kartlar[0].arka` ve 4. adım: GVK geçici md. 94 (7587 sayılı Kanun, yürürlük 1/7/2026) eklendi; 4. adımdaki parantez “2025 itibarıyla” diye sınırlandı.
+- 03 Not adımı: “Not (tartışmalı)” oldu; üç ihraççı okuması ve verdikleri sonuç adlandırıldı.
+- 02 `tuzaklar.B` ve Not adımı: B’yi veren hesap (oranın ödenen yabancı vergiye uygulanması: 400.000 × 2/10 = 80.000) yazıldı.
