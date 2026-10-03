@@ -68,11 +68,11 @@ Yok (hiçbir sayfada iptal işareti yok).
 
 ## Baskı hataları ve kuşkular
 
-- **06:** Kök “ihtiyati haciz sebeplerine karşı dava … vergi mahkemesinde açılmalıdır” diyor; AATUHK md. 15’in metni hâlâ “vergi itiraz komisyonu nezdinde … itiraz” ifadesini kullanır. Bu komisyonların görevini bugün vergi mahkemeleri yürüttüğü için kökteki ifade uygulamaya uygun. Süre (15 gün) her iki ifadede aynı; cevap etkilenmez. Çözümde açıklandı.
+- **06:** Kök “ihtiyati haciz sebeplerine karşı dava … vergi mahkemesinde açılmalıdır” diyor; AATUHK md. 15’in metni hâlâ “vergi itiraz komisyonu nezdinde … itiraz” ifadesini kullanır. 2576 sayılı Kanun md. 13’e göre kanunlardaki “itiraz komisyonu” deyimi “vergi mahkemesi” anlamına gelir (md. 6/b ile birlikte), bu yüzden kökteki ifade doğrudur. Süre (15 gün) her iki ifadede aynı; cevap etkilenmez. Çözümde açıklandı.
 - **01:** Tarife bu soruda vergi hesaplamak için değil, iki sınırı okumak için kullanılıyor (4. dilim 4.300.000 ₺; 2. dilim 330.000 ₺). Tarifedeki tutarlar aritmetik olarak tutarlı (23.700; 58.100; 185.000/293.000; 1.410.000/1.378.000 betikle doğrulandı). Tarife oranları kitapçıkta “15%” biçiminde yazılmış; aynen korundu.
 - **01:** Senaryonun Kültür ve Turizm Bakanlığı’nca tescilli olması istisna kapsamındaki bir eser olduğunu gösterir; GVK 18’in 7194 sayılı Kanun’la eklenen fıkrası sınırı aşanların istisnadan “faydalanamayacağını” söyler ve tescilli eserler için ayrık tutmaz (güncel madde metninden doğrulandı).
 - **02:** Ücretler kitapçıkta “Safi Ücret” olarak verilmiş; 86/1-b sınırları bu tutarlarla uygulandı. Kira geliri brüt 420.000 ₺; götürü gider sonrası 357.000 ₺ de 330.000 ₺’yi aştığı için brüt ya da safi esas alınması sonucu değiştirmez.
-- **03:** Bağ-Kur priminin gelirden indirilmesi için madde numarası verilmedi (kural sözle anlatıldı). GVK 40 ve 89’da Bağ-Kur primlerine ilişkin açık bir bent bulunamadı; uygulama (fiilen ödenen primin ödendiği yılın gelirinden indirilmesi) 5510 sayılı Kanun ve İdare görüşlerine dayanır.
+- **03:** GVK 40 ve 89’da Bağ-Kur primlerine ilişkin açık bir bent yok. Dayanak 5510 md. 88 (fiilen ödenmeyen prim gider yazılamaz) ile İdare uygulamasıdır; Hazinece karşılanan 5 puanlık kısım düşülemez (md. 81/1-j). Düzeltme turu 1’de çözüme eklendi.
 - **10:** D şıkkındaki “karma sanat eserleri” ifadesi aynen aktarıldı; cevap etkilenmez.
 - **13:** “Sermayeye eklendiği tarih” olarak tescil tarihi (10.01.2024) alındı; genel kurul tarihi (29.12.2023) alınsa da azaltım tarihinde (07.05.2025) beş tam yıl dolmamıştır, sonuç değişmez.
 - **15:** 60.000 (A) ve 78.000 (B) şıklarının aritmetiği (600.000 × %10; 580.000 × %10 + 20.000) tuzaklarda gösterildi; %10 oranının kaynağı olan bir kural bulunmadığı için “%30 yerine %10 alınmış” denmekle yetinildi, uydurma bir gerekçe yazılmadı.
@@ -94,5 +94,10 @@ Madde numaraları, mevzuat.gov.tr’den indirilen güncel kanun metninde tek tek
 - VİVK (7338) md. 9 — kesin.
 - MTVK (197) md. 14 — kesin.
 - İYUK md. 7 (vergi mahkemelerinde genel dava açma süresi 30 gün; 06 tuzak E) — kesin (kanun metni indirilmedi, iyi bilinen genel hüküm).
-- Madde numarası verilmeden kural olarak anlatılanlar: 03’te Bağ-Kur primlerinin gelirden indirilmesi; 06’da itiraz komisyonlarının görevinin vergi mahkemelerine geçmesi; 12’de kollektif şirket ortaklarının payının ticari kazanç olarak vergilendirilmesi.
+- Düzeltme turu 1’de dayanağı eklenen üç kural (bağımsız incelemede doğrulandı):
+  - 03, Bağ-Kur primi: 5510 sayılı Kanun md. 88. Madde olumsuz bir şart koyar: Kuruma fiilen ödenmeyen primler gider yazılamaz. Fiilen ödenen primin ödendiği yılda düşülmesi bu hükme ve İdare uygulamasına dayanır. Hazinece karşılanan 5 puanlık kısım düşülemez (5510 md. 81/1-j). Güven: kesin (md. 88 ve 81/1-j metni görüldü); düşülebilirliğin kendisi İdare uygulamasıdır.
+  - 06, “itiraz komisyonu” ifadesinin vergi mahkemesi anlamına gelmesi: 2576 sayılı Kanun md. 13 (değiştirilen deyimler) ve md. 6/b (vergi mahkemelerinin 6183 uyuşmazlıklarındaki görevi). Güven: kesin (metin incelemede getirildi).
+  - 12, kollektif şirket ortaklarının ve komandite ortakların kâr payının şahsi ticari kazanç olması: GVK md. 37 son fıkra. Komanditerlerin kâr payı ise menkul sermaye iradıdır: GVK md. 75/2-2. Güven: kesin (iki metin de görüldü).
+- 15: MTVK md. 14, 7061 sayılı Kanun’dan beri (I), (I/A) ve (IV) sayılı tarifeleri kapsar. 2018’den itibaren ilk kez tescil edilen binek otomobiller (I/A) sayılı tarifededir. Çözüm metni “(I) ve (I/A) sayılı tarifeler” olarak düzeltildi.
+- Madde numarası verilmeden kural olarak anlatılan bir şey kalmadı.
 - Değişiklik tarihleri: 6183 md. 15 süresi 7061 sayılı Kanun’la 1.1.2018’den itibaren 7 günden 15 güne çıktı; KVK 32/B 7420 sayılı Kanun’la eklendi; ÖTVK 5/1-b’deki serbest bölge ibaresi 7491 sayılı Kanun’la eklendi; DVK md. 5’in birinci cümlesi 6728 sayılı Kanun’la değişti; BES katkı paylarının GVK 89/1-1’den çıkarılması 6327 sayılı Kanun’la; eğitim-sağlık oranının %5’ten %10’a çıkarılması 5281 sayılı Kanun’la — hepsi kanun metnindeki dipnotlardan doğrulandı.
