@@ -1,2 +1,4 @@
 # Resmi cevap anahtarı bu soru için standart hesapla çelişiyor; çözüm yayımlanmadı, kullanıcının kararı bekleniyor.
 2026-1-MAL-17
+# 2026-2-DEN-11 resmi anahtarda İPTAL; kök "doğrudur" der ama işaretli A, BDY md. 36/5'e göre yanlış ifadedir (beş yıl), B-E doğrudur; çözüm yayımlanmadı.
+2026-2-DEN-11

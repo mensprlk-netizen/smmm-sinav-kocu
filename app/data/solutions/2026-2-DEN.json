@@ -1,0 +1,529 @@
+[
+ {
+  "id": "2026-2-DEN-01",
+  "sonuc": "A",
+  "ozet": "Bağımsız Denetim Yönetmeliği (BDY) md. 4/1-m’ye göre kilit yönetici; yönetim organı üyeleri dahil olmak üzere, şirketin faaliyetlerini plânlama, yönetme veya kontrol etme yetki ve sorumluluğuna doğrudan veya dolaylı olarak sahip olan kişilerdir.",
+  "adimlar": [
+   "<p><strong>1. Tanım (BDY md. 4/1-m).</strong> “Kilit yönetici: <strong>Yönetim organı üyeleri dahil olmak üzere</strong>, şirketin <strong>faaliyetlerini</strong> plânlama, yönetme veya kontrol etme yetki ve sorumluluğuna <strong>doğrudan veya dolaylı olarak</strong> sahip olan kişileri” ifade eder. A şıkkı bu tanımın aynısıdır.</p>",
+   "<p><strong>2. Tanımın üç anahtarı.</strong> (a) Yönetim organı üyeleri (anonim şirkette yönetim kurulu, limited şirkette müdürler: md. 4/1-y) kapsamın içindedir. (b) Ölçüt şirketin <em>faaliyetleri</em>dir; yalnızca finansal faaliyet ve işlemlerle sınırlı değildir. (c) Fiiller “plânlama, yönetme veya kontrol etme”dir ve yetkinin doğrudan veya dolaylı olması yeterlidir.</p>",
+   "<p><strong>3. Kavram nerede kullanılır?</strong> Kilit yönetici BDY’nin bağımsızlık ve yetkilendirme kurallarında geçer: denetim kuruluşunun denetçileri, ortakları ve kilit yöneticileri başka bir denetim kuruluşunda veya denetim üstlenen bağımsız denetçi yanında denetçi, ortak ya da kilit yönetici olamaz (md. 13/1-i); denetlenen işletmeyle kilit yönetici sıfatıyla iş ilişkisi bağımsızlığı zedeleyen hâller arasındadır (md. 22/3-a); denetçiler görevden ayrılmalarından itibaren iki yıl geçmedikçe son iki yılda denetiminde bulundukları işletmelerde ve bağlı ortaklıklarında kilit yönetici olamaz (md. 26/3).</p>",
+   "<p><strong>4. Sonuç.</strong> <strong>A</strong>.</p>"
+  ],
+  "dayanak": "Bağımsız Denetim Yönetmeliği md. 4/1-m (kilit yönetici tanımı), md. 4/1-y (yönetim organı); md. 13/1-i, 22/3-a, 26/3 (kavramın kullanıldığı hükümler).",
+  "tuzaklar": {
+   "B": "Kapsam “finansal faaliyet ve işlemler”e daraltılmış, “kontrol etme” yetkisi ve “yönetim organı üyeleri dahil” ibaresi düşürülmüştür. Tanım şirketin <em>tüm</em> faaliyetlerini kapsar.",
+   "C": "“Prosedürleri oluşturma” tanımda yoktur; kapsam yine yalnız finansal faaliyetlere daraltılmıştır.",
+   "D": "Tanımdaki fiiller “plânlama, yönetme veya kontrol etme”dir; “politika ve planları belirleme, gözetme” değildir. “Doğrudan veya dolaylı” ve “yönetim organı üyeleri dahil” ibareleri de eksiktir.",
+   "E": "Genel kurula hesap verme tanımda bir ölçüt değildir. Gözetim vurgusu BDS’lerdeki “üst yönetimden sorumlu olanlar” kavramını (işletmenin stratejik yönetimi ve hesap verebilirliğine ilişkin yükümlülüklerin gözetiminden sorumlu olanlar, BDS 200 parag. 13) çağrıştırır; bu, BDY’deki kilit yönetici tanımı değildir."
+  },
+  "kartlar": [
+   {
+    "on": "BDY md. 4’e göre kilit yönetici kimdir?",
+    "arka": "Yönetim organı üyeleri dahil olmak üzere, şirketin faaliyetlerini plânlama, yönetme veya kontrol etme yetki ve sorumluluğuna doğrudan veya dolaylı olarak sahip olan kişiler."
+   },
+   {
+    "on": "Denetçi, görevden ayrıldıktan sonra denetlediği işletmede ne zaman kilit yönetici olabilir?",
+    "arka": "Görevden ayrılmasından itibaren iki yıl geçmedikçe, son iki yılda denetiminde bulunduğu işletmelerde ve bağlı ortaklıklarında kilit yönetici olamaz (BDY md. 26/3)."
+   }
+  ],
+  "konuBaglantisi": "Denetim kavramı ve unsurları"
+ },
+ {
+  "id": "2026-2-DEN-02",
+  "sonuc": "C",
+  "ozet": "BDY md. 5/2’ye göre denetim makul veya sınırlı güvence sağlar; sınırlı güvence mevzuatta veya sözleşmede açıkça belirtilmemişse denetim makul güvence verecek şekilde yapılır. C, “makul” yerine “tam” güvence dediği için yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Kural (BDY md. 5).</strong> (1) Denetim, denetime tabi konuların belirlenmiş bir kıstasa uyumlu olup olmadığı hususunda kullanıcılara TDS çerçevesinde güvence sağlayacak bir görüş oluşturmak amacıyla yapılır. (2) Denetim, kullanıcılara <strong>makul veya sınırlı güvence</strong> sağlar. Sınırlı güvence sağlayacağı ilgili mevzuatında veya denetim sözleşmesinde açıkça belirtilmemiş ise denetim <strong>makul güvence</strong> verecek şekilde gerçekleştirilir. Makul ve sınırlı güvence seviyesinin gerektirdiği kapsam TDS çerçevesinde belirlenir. (3) Denetim; etik ilkelere bağlı kalarak ve mesleki şüphecilik içinde TDS çerçevesinde yeterli ve uygun kanıt toplanmasını, buna dayalı görüş oluşturulmasını ve görüşün raporlanmasını kapsar. (4) Unsurlar: konu, taraflar, kıstas, kanıt ve denetim raporu.</p>",
+   "<p><strong>2. C’nin hatası.</strong> Şık iki yerde “makul” yerine “<strong>tam</strong>” güvence demiştir. Denetim tam (mutlak) güvence vermez: makul güvence yüksek ama mutlak olmayan bir güvence seviyesidir; çünkü denetimin yapısal kısıtlamaları nedeniyle kanıtların çoğu kesin değil ikna edicidir (BDS 200, parag. 5).</p>",
+   "<p><strong>3. Eşleştirme.</strong> A = md. 5/2’nin son cümlesi; B = md. 5/1; D = md. 5/3; E = md. 5/4. Yanlış olan: <strong>C</strong>.</p>"
+  ],
+  "dayanak": "Bağımsız Denetim Yönetmeliği md. 5 (denetimin amacı ve kapsamı); BDS 200, parag. 5 (makul güvence mutlak değildir).",
+  "tuzaklar": {
+   "A": "Doğru ifadedir: BDY md. 5/2’nin son cümlesi.",
+   "B": "Doğru ifadedir: BDY md. 5/1.",
+   "D": "Doğru ifadedir: BDY md. 5/3.",
+   "E": "Doğru ifadedir: BDY md. 5/4 (beş unsur)."
+  },
+  "kartlar": [
+   {
+    "on": "BDY md. 5/2’ye göre denetim hangi güvenceyi sağlar; varsayılan hangisidir?",
+    "arka": "Makul veya sınırlı güvence. Sınırlı güvence mevzuatta veya denetim sözleşmesinde açıkça belirtilmemişse denetim makul güvence verecek şekilde yapılır; kapsam TDS çerçevesinde belirlenir."
+   },
+   {
+    "on": "BDY md. 5/4’e göre denetimin unsurları nelerdir?",
+    "arka": "Denetimin konusu, tarafları, kıstası, kanıtları ve denetim raporu."
+   }
+  ],
+  "konuBaglantisi": "Denetim kavramı ve unsurları"
+ },
+ {
+  "id": "2026-2-DEN-03",
+  "sonuc": "D",
+  "ozet": "BDY md. 8’e göre finansal tabloların kıstası TMS, yıllık faaliyet raporu ile riskin erken saptanması ve yönetimi sisteminin kıstası Türk Ticaret Kanunu ve ilgili mevzuatın kıstas hükümleridir. D, bunları Türkiye Denetim Standartları ve Sermaye Piyasası Kanunu ile değiştirdiği için yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Kural (BDY md. 8).</strong> (1) Denetimde, denetim konusunun uyumunun değerlendirildiği önceden belirlenmiş kıstaslar esas alınır. Finansal tablolar açısından <strong>TMS</strong>; yıllık faaliyet raporları, riskin erken saptanması ve yönetimine ilişkin sistem açısından <strong>Türk Ticaret Kanunu</strong>nun ve ilgili mevzuatın denetim kıstasına ilişkin hükümleri; diğer mevzuattan kaynaklanan denetim konuları açısından ise denetim kıstasıyla ilgili düzenlemeler veya bunların atıf yaptığı kurallar kıstası oluşturur. (2) Diğer mevzuat denetim öngörüp kıstası belirtmemişse kıstası <strong>KGK</strong> belirler; isteğe bağlı denetimlerde bu belirlemeyi denetimi talep edenler yapar.</p>",
+   "<p><strong>2. D’deki iki hata.</strong> (a) Finansal tabloların kıstası Türkiye Denetim Standartları değil <strong>TMS</strong>’dir. TDS denetimin <em>nasıl yürütüleceğini</em> düzenleyen standartlardır (md. 4/1-t); denetim konusunun <em>neye göre</em> değerlendirileceğini, yani kıstası belirlemez. (b) Faaliyet raporu ile riskin erken saptanması ve yönetimi sistemi için kıstas Sermaye Piyasası Kanunu değil <strong>Türk Ticaret Kanunu</strong> ve ilgili mevzuattır.</p>",
+   "<p><strong>3. Eşleştirme.</strong> A = md. 8/2’nin ilk cümlesi; B = md. 8/1; C = md. 8/1’in son kısmı; E = md. 8/2’nin ikinci cümlesi. A ve C’deki “Türk Ticaret Kanunu ve ilgili mevzuat dışında” ibaresi, maddedeki “diğer mevzuat” ifadesinin açıklamasıdır; anlamı değiştirmez. Yanlış olan: <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Bağımsız Denetim Yönetmeliği md. 8 (denetim kıstası), md. 4/1-t (TDS tanımı), md. 4/1-u (TMS tanımı).",
+  "tuzaklar": {
+   "A": "Doğru ifadedir: BDY md. 8/2 (kıstas belirtilmemişse KGK belirler).",
+   "B": "Doğru ifadedir: BDY md. 8/1 (faaliyet raporu ve riskin erken saptanması sistemi için TTK, finansal tablolar için TMS).",
+   "C": "Doğru ifadedir: BDY md. 8/1’in son kısmı.",
+   "E": "Doğru ifadedir: BDY md. 8/2’nin ikinci cümlesi."
+  },
+  "kartlar": [
+   {
+    "on": "BDY md. 8’e göre denetim kıstasları nelerdir?",
+    "arka": "Finansal tablolar: TMS. Yıllık faaliyet raporu ile riskin erken saptanması ve yönetimi sistemi: TTK ve ilgili mevzuatın kıstas hükümleri. Diğer mevzuattan kaynaklanan denetimler: o düzenlemeler veya atıf yaptıkları kurallar."
+   },
+   {
+    "on": "Mevzuat kıstası belirtmemişse kıstası kim belirler?",
+    "arka": "Zorunlu (diğer mevzuattan kaynaklanan) denetimlerde KGK; isteğe bağlı denetimlerde denetimi talep edenler (BDY md. 8/2)."
+   }
+  ],
+  "konuBaglantisi": "Denetim kavramı ve unsurları"
+ },
+ {
+  "id": "2026-2-DEN-04",
+  "sonuc": "B",
+  "ozet": "BDY md. 14/3-b’ye göre kendi adına denetim üstlenecek bağımsız denetçinin sorumlu denetçi olabilme şartlarını karşılaması gerekir; B, bunu “kıdemli denetçi olabilme şartları” diye değiştirdiği için yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Kural (BDY md. 14/3).</strong> Bağımsız denetçinin kendi adına denetim üstlenebilmesi için: (a) KGK’ya onay başvurusu; (b) başvuranın <strong>sorumlu denetçi olabilme şartlarını</strong> karşılaması; (c) kadronun md. 27’deki denetim ekiplerini oluşturabilecek nitelik ve genişlikte olması; (ç) denetçilerin tam zamanlı ve asgari bir raporlama dönemi için istihdamı; (d) kadroda kendisi hariç en az bir sorumlu denetçi; (e) kendisinin ve denetçilerinin başka bir denetim kuruluşunda veya denetim üstlenen bağımsız denetçi yanında ortak, kilit yönetici veya denetçi olmaması, denetçilerinin ayrıca denetim üstlenen bağımsız denetçi olarak faaliyette bulunmaması; (f) kalite yönetim sistemine ilişkin yazılı politika ve süreçler; (g) yeterli organizasyon, mekân, donanım, belge ve kayıt düzeni; (ğ) onaylananların sicile kayıt ve ilanı.</p>",
+   "<p><strong>2. Neden “sorumlu denetçi”?</strong> Denetim üstlenen bağımsız denetçi, üstlendiği denetimlerin sorumlu denetçisidir (md. 27/6); raporu o imzalar. Sorumlu denetçi olabilme şartları md. 28/1’dedir: KAYİK denetimleri için 15 yıllık, diğer denetimler için 10 yıllık mesleki tecrübe (bunun sırasıyla en az 3 ve 2 yılı fiilen denetçi, kıdemli denetçi veya başdenetçi unvanıyla denetimde geçmiş olmalı) ve rapor imzalamaya yetkilendirilmiş olmak.</p>",
+   "<p><strong>3. B’nin hatası.</strong> “Kıdemli denetçi” bir şart kümesi değil, denetim kuruluşlarının denetçilere verebileceği bir <strong>unvandır</strong>; denetçilikte altı yılını doldurmayanlara verilemez (md. 27/5). Kendi adına denetim üstlenme şartı olarak aranmaz: <strong>B</strong>.</p>",
+   "<p><strong>4. Eşleştirme.</strong> A = md. 14/3-ç; C = md. 14/3-d; D = md. 14/3-e; E = md. 14/3-f.</p>"
+  ],
+  "dayanak": "Bağımsız Denetim Yönetmeliği md. 14/3 (kendi adına denetim üstlenme şartları), md. 27/5–6 (unvanlar; denetim üstlenen bağımsız denetçi sorumlu denetçidir), md. 28/1 (sorumlu denetçi olabilme şartları).",
+  "tuzaklar": {
+   "A": "Doğru ifadedir: BDY md. 14/3-ç.",
+   "C": "Doğru ifadedir: BDY md. 14/3-d (“en az iki sorumlu denetçi” şartı ise denetim kuruluşları içindir: md. 13/1-ğ).",
+   "D": "Doğru ifadedir: BDY md. 14/3-e.",
+   "E": "Doğru ifadedir: BDY md. 14/3-f."
+  },
+  "kartlar": [
+   {
+    "on": "Bağımsız denetçinin kendi adına denetim üstlenebilmesi için kişisel ve kadro şartı nedir?",
+    "arka": "Kendisi sorumlu denetçi olabilme şartlarını karşılamalı; kadrosunda kendisi hariç en az bir sorumlu denetçi bulunmalı ve kadro md. 27’deki ekipleri kurabilecek genişlikte olmalı; KGK onayı ve sicile kayıt gerekir (BDY md. 14/3)."
+   },
+   {
+    "on": "BDY’de kıdemli denetçi ve başdenetçi unvanları için asgari süre?",
+    "arka": "Denetçilikte altı yılını doldurmayana kıdemli denetçi, on yılını doldurmayana başdenetçi unvanı verilemez (BDY md. 27/5)."
+   }
+  ],
+  "konuBaglantisi": "Yetkilendirme ve denetçilik şartları"
+ },
+ {
+  "id": "2026-2-DEN-05",
+  "sonuc": "E",
+  "ozet": "BDY md. 15’e göre denetçi olmak isteyenler en az 3 yıl uygulamalı mesleki eğitim alır; en az on beş yıl mesleki tecrübeye sahip olanlarda bu şart aranmaz.",
+  "adimlar": [
+   "<p><strong>1. Kural (BDY md. 15/1–2).</strong> “Denetçi olmak isteyenlerin <strong>en az 3 yıl</strong> süreyle, finansal tablo denetimi dahil olmak üzere mesleki konularda denetim üstlenen bağımsız denetçi yanında ya da denetim kuruluşunda uygulamalı eğitim almaları şarttır.” 3568 sayılı Kanun çerçevesinde tasdik ve vergi denetimi hizmetlerinde geçen süreler ile aynı Kanunun 6. maddesinin ikinci fıkrasında yer alan kamu kurum ve kuruluşlarında denetim yetkisini haiz olanların orada geçirdikleri süreler eğitim süresinden sayılır. “<strong>En az on beş yıl</strong> mesleki tecrübeye sahip olanlarda uygulamalı mesleki eğitim şartı aranmaz.”</p>",
+   "<p><strong>2. Sonuç.</strong> (i) en az 3 yıl süreyle, (ii) en az on beş yıl mesleki tecrübeye: <strong>E</strong>.</p>",
+   "<p><strong>3. Karıştırılan sayılar.</strong> 10 ve 15 yıl, sorumlu denetçi olabilmek için aranan mesleki tecrübe süreleridir (KAYİK denetimleri 15 yıl, diğer denetimler 10 yıl: md. 28/1). Uygulamalı eğitim muafiyetinde tek sayı vardır: 15 yıl. Mesleki tecrübenin nasıl hesaplandığı md. 15/3’tedir (6. soruya bakınız).</p>"
+  ],
+  "dayanak": "Bağımsız Denetim Yönetmeliği md. 15/1–2 (uygulamalı mesleki eğitim süresi ve muafiyet); md. 28/1 (sorumlu denetçi tecrübe süreleri, ayırt etmek için).",
+  "tuzaklar": {
+   "A": "Eğitim süresi 1 değil en az 3 yıldır (md. 15/1). (ii) doğrudur.",
+   "B": "Eğitim süresi 2 değil 3 yıl; muafiyet için 10 değil 15 yıl tecrübe gerekir. 10 yıl, KAYİK dışı denetimlerde sorumlu denetçi olmak için aranan tecrübedir (md. 28/1-b).",
+   "C": "Eğitim süresi 2 değil en az 3 yıldır. (ii) doğrudur.",
+   "D": "(i) doğrudur; muafiyet için 10 değil en az 15 yıl mesleki tecrübe gerekir (md. 15/2)."
+  },
+  "kartlar": [
+   {
+    "on": "BDY’ye göre uygulamalı mesleki eğitim süresi ve muafiyeti?",
+    "arka": "En az 3 yıl (denetim üstlenen bağımsız denetçi yanında veya denetim kuruluşunda); tasdik ve vergi denetimi süreleri ile 3568 sayılı Kanun md. 6/2’deki kamu kurumlarında denetim yetkisiyle geçen süreler sayılır. En az 15 yıl mesleki tecrübesi olanlarda şart aranmaz (md. 15/1–2)."
+   }
+  ],
+  "konuBaglantisi": "Yetkilendirme ve denetçilik şartları"
+ },
+ {
+  "id": "2026-2-DEN-06",
+  "sonuc": "B",
+  "ozet": "B şıkkı BDY md. 15/3’ün ilk iki cümlesidir: mesleki tecrübe bağımsız denetimde fiilen geçirilen süredir; 3568 sayılı Kanun kapsamındaki mesleki faaliyetlerde veya staj ve stajdan sayılan hizmetlerde geçen süreler de hesaba katılır. Diğer şıklar sürelerde veya kavramlarda metinden ayrılır.",
+  "adimlar": [
+   "<p><strong>1. Mesleki tecrübe (BDY md. 15/3).</strong> Mesleki tecrübe bağımsız denetimde fiilen geçirilen süredir; ancak 3568 sayılı Kanun kapsamındaki mesleki faaliyetlerde veya aynı Kanun uyarınca staj ve stajdan sayılan hizmetlerde bulunulan süreler de hesaba katılır. Hesapta bu faaliyetlere başlama tarihi esas alınır ve kamu kurum ve kuruluşlarında geçirilen süreler hariç, <strong>bir yıldan fazla</strong> ara verilmesi hâlinde ara verilen fazla süreler dikkate alınmaz. Dört yılı aşmamak ve aynı tarihlere denk gelen süreler mükerrer sayılmamak şartıyla md. 14/1-a’daki alanlardaki lisans ve lisansüstü eğitim süreleri eklenir.</p>",
+   "<p><strong>2. Eğitim dönemi (BDY md. 15/4).</strong> Uygulamalı mesleki eğitim alanlar bu dönemde <strong>denetçi yardımcısı</strong>dır ve denetçilerin refakatinde denetim çalışmalarına katılır. Refakatinde denetçi yardımcısı çalıştıranlar, teorik bilgilerin uygulamaya geçirilmesi amacıyla denetçi yardımcılarının gerekli mesleki yeterliliği kazanmaları için her türlü tedbiri alır. Denetçi, denetçi yardımcılarını denetimlerde görevlendirmek, denetlenen işletme ile olan görüşmelerde <strong>bulundurmak</strong>, onların çalışmalarına <strong>nezaret etmek</strong> ve hazırladıkları çalışma kâğıtlarını <strong>incelemek</strong> gibi konularda yetkili ve yükümlüdür.</p>",
+   "<p><strong>3. Şıkların değerlendirmesi.</strong> A: ara verme sınırı “üç yıl” değil <strong>bir yıl</strong>dır. B: md. 15/3’ün ilk iki cümlesinin aynısıdır, doğrudur. C: eğitim alanlar “denetçi” değil denetçi yardımcısıdır; “kıdemlerine göre görev alırlar” ifadesi maddede yoktur. D: tedbir yükümlülüğü <em>denetçi yardımcılarının</em> yeterlik kazanması içindir; eğitim alan kişi henüz denetçi değildir, çünkü uygulamalı eğitimi tamamlamak denetçi olmanın şartıdır (md. 14/1-d). E: metin denetçi yardımcısını görüşmelere “göndermek” değil görüşmelerde “bulundurmak”, onlarla “birlikte çalışmak” değil çalışmalarına “nezaret etmek” der; kişi yine “denetçi” diye anılmıştır. Doğru olan: <strong>B</strong>.</p>"
+  ],
+  "dayanak": "Bağımsız Denetim Yönetmeliği md. 15/3 (mesleki tecrübenin hesabı), md. 15/4 (denetçi yardımcılığı dönemi), md. 14/1-d (uygulamalı eğitimi tamamlama şartı).",
+  "tuzaklar": {
+   "A": "Ara verme sınırı bir yıldır: kamu kurum ve kuruluşlarında geçen süreler hariç, bir yıldan fazla ara verilirse fazla süreler sayılmaz (md. 15/3). “Üç yıl” metinde yoktur.",
+   "C": "Eğitim alanlar bu dönemde denetçi yardımcısıdır ve denetçilerin refakatinde çalışır (md. 15/4); kıdeme göre görev alma diye bir kural yoktur.",
+   "D": "Cümlenin yapısı md. 15/4’e benzer ama kişi “denetçi” diye anılmıştır. Metne göre refakatinde <em>denetçi yardımcısı</em> çalıştıranlar, <em>denetçi yardımcılarının</em> yeterlik kazanması için tedbir alır.",
+   "E": "Denetçinin yetki ve yükümlülükleri denetçi yardımcılarını görüşmelerde bulundurmak, çalışmalarına nezaret etmek ve çalışma kâğıtlarını incelemektir (md. 15/4); “görüşmelere göndermek” ve “birlikte çalışmak” metinde yoktur."
+  },
+  "kartlar": [
+   {
+    "on": "BDY’de mesleki tecrübe nasıl hesaplanır?",
+    "arka": "Bağımsız denetimde fiilen geçen süre + 3568 sayılı Kanun kapsamındaki mesleki faaliyet, staj ve stajdan sayılan süreler. Başlama tarihi esastır; kamu kurumlarındaki süreler hariç, bir yıldan fazla aranın fazlası sayılmaz; ilgili alanlardaki lisans ve lisansüstü süreler en çok dört yıl eklenir (md. 15/3)."
+   },
+   {
+    "on": "Uygulamalı mesleki eğitim alan kişinin bu dönemdeki statüsü nedir?",
+    "arka": "Denetçi yardımcısıdır; denetçilerin refakatinde denetime katılır. Denetçi onu görevlendirir, görüşmelerde bulundurur, çalışmalarına nezaret eder ve çalışma kâğıtlarını inceler (md. 15/4)."
+   }
+  ],
+  "konuBaglantisi": "Yetkilendirme ve denetçilik şartları"
+ },
+ {
+  "id": "2026-2-DEN-07",
+  "sonuc": "D",
+  "ozet": "BDY md. 10’a göre denetim raporu; kanıtların TDS çerçevesinde değerlendirilmesiyle, belirlenen güvence seviyesine uygun oluşturulan görüşün ve varsa dikkat çekilmek istenen hususların kullanıcılara sunulması için hazırlanan ve imzalayanın sorumluluğunu üstlendiği belgedir.",
+  "adimlar": [
+   "<p><strong>1. Tanım (BDY md. 10/1).</strong> “<strong>Denetim raporu</strong>, denetim kanıtlarının TDS çerçevesinde değerlendirilmesi sonucunda, belirlenen güvence seviyesine uygun şekilde oluşturulan denetçi görüşünün ve varsa dikkat çekilmek istenen diğer hususların kullanıcıların istifadesine sunulması amacıyla Kurum düzenlemelerine uygun olarak hazırlanan ve imzalayan denetim kuruluşu veya denetim üstlenen bağımsız denetçi tarafından sorumluluğu üstlenilen belgedir.” Kökteki metin bu tanımın aynısıdır (Kurum yerine KGK).</p>",
+   "<p><strong>2. Ayırt edici ipuçları.</strong> İçeriği <em>denetçi görüşü</em>dür; amacı görüşün <em>kullanıcıların istifadesine sunulması</em>dır; imzalayan kuruluş veya denetçi sorumluluğunu üstlenir. Denetim raporu BDY’de sayılan beş unsurdan biridir (md. 5/4).</p>",
+   "<p><strong>3. Diğer belgeler.</strong> Denetim planı ve denetim programı denetimin planlanmasına (BDS 300), çalışma kâğıtları denetimin belgelendirilmesine (BDS 230) ilişkin iç belgelerdir; her denetimin belgeleri ekleriyle birlikte denetim dosyası hâline getirilir (BDY md. 35/3). Denetim sözleşmesi denetimi üstlenen ile denetlenen işletme arasında yazılı olarak yapılan ve asgari içeriği md. 29’da sayılan sözleşmedir. Hiçbiri kullanıcılara görüş sunan belge değildir. Sonuç: <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Bağımsız Denetim Yönetmeliği md. 10 (denetim raporu tanımı), md. 5/4, md. 29/1, md. 35/3; BDS 230 ve BDS 300 (yalnız ad olarak).",
+  "tuzaklar": {
+   "A": "Denetim programı, denetimin planlanması sırasında hazırlanan iç çalışma belgesidir; kullanıcılara görüş sunmaz.",
+   "B": "Çalışma kâğıtları denetimin belgelendirilmesidir ve denetim dosyasında saklanır (BDY md. 35/3); görüş içeren, kullanıcılara sunulan belge değildir.",
+   "C": "Denetim planı, denetimin nasıl yürütüleceğini gösteren iç planlama belgesidir.",
+   "E": "Denetim sözleşmesi denetimi üstlenen ile denetlenen işletme arasında yazılı olarak yapılır (BDY md. 29/1); görüş içermez."
+  },
+  "kartlar": [
+   {
+    "on": "BDY md. 10’a göre denetim raporu nedir?",
+    "arka": "Kanıtların TDS çerçevesinde değerlendirilmesiyle, belirlenen güvence seviyesine uygun oluşturulan denetçi görüşünün ve varsa dikkat çekilmek istenen hususların kullanıcılara sunulması amacıyla KGK düzenlemelerine uygun hazırlanan, sorumluluğunu imzalayan denetim kuruluşu veya denetim üstlenen bağımsız denetçinin üstlendiği belge."
+   }
+  ],
+  "konuBaglantisi": "Denetim kavramı ve unsurları"
+ },
+ {
+  "id": "2026-2-DEN-08",
+  "sonuc": "A",
+  "ozet": "BDY md. 17/3’e göre faaliyet izni askıya alınanlar, denetim faaliyetinde bulunmayacağını beyan edenler ve sürekli eğitim yükümlülüğünü yerine getirmeyenler sicilden silinmez; sicilde gayri faal olarak gösterilir.",
+  "adimlar": [
+   "<p><strong>1. Kural (BDY md. 17).</strong> (1) Denetim kuruluşlarına ve denetçilere ilişkin yetkilendirme, ikaz, uyarı, faaliyetin kısıtlanması, faaliyet izninin askıya alınması, faaliyet izninin iptali, idari para cezası ve durdurma işlemleri KGK’ca elektronik ortamda tutulan sicile kaydedilir ve güncel olarak kamuoyunun erişimine açık tutulmak suretiyle ilan edilir. Yetkilendirme işlemleri, sicile kayıt ve KGK internet sitesinde ilanla birlikte yürürlüğe girer. (2) Her denetim kuruluşuna ve denetçiye bir sicil numarası verilir. (3) Faaliyet izni askıya alınanlar, denetim faaliyetinde bulunmayacağını beyan edenler ve sürekli eğitim yükümlülüğünü yerine getirmeyenler sicilde <strong>gayri faal olarak gösterilir</strong>. (4) Sicile kayıtlı olmayanlar ile sicilde gayri faal gösterilenler denetim faaliyetinde bulunamaz.</p>",
+   "<p><strong>2. A’nın hatası.</strong> Sayılan üç grup “sicilden silinmez”; sicilde kalır ve <strong>gayri faal</strong> olarak gösterilir (md. 17/3). Sonuç aynı yöne çıkar: gayri faal gösterilen denetim faaliyetinde bulunamaz (md. 17/4).</p>",
+   "<p><strong>3. Eşleştirme.</strong> B = md. 17/1’in ilk cümlesi (kayıt); C = md. 17/1 (ilan); D = md. 17/1’in son cümlesi; E = md. 17/2. Yanlış olan: <strong>A</strong>.</p>"
+  ],
+  "dayanak": "Bağımsız Denetim Yönetmeliği md. 17 (sicile kayıt ve ilan).",
+  "tuzaklar": {
+   "B": "Doğru ifadedir: BDY md. 17/1’in ilk cümlesi.",
+   "C": "Doğru ifadedir: BDY md. 17/1 (sicil güncel olarak kamuoyunun erişimine açık tutulmak suretiyle ilan edilir). Şıktaki “Resmi Kayıt Sicili” adı, yönetmelikteki “Bağımsız Denetim Resmi Sicili”dir.",
+   "D": "Doğru ifadedir: BDY md. 17/1’in son cümlesi.",
+   "E": "Doğru ifadedir: BDY md. 17/2."
+  },
+  "kartlar": [
+   {
+    "on": "Faaliyet izni askıya alınan, faaliyette bulunmayacağını beyan eden veya sürekli eğitimi tamamlamayan denetçi sicilde nasıl gösterilir?",
+    "arka": "Sicilden silinmez; sicilde gayri faal olarak gösterilir ve denetim faaliyetinde bulunamaz (BDY md. 17/3–4)."
+   },
+   {
+    "on": "BDY’ye göre yetkilendirme işlemleri ne zaman yürürlüğe girer?",
+    "arka": "Sicile kayıt ve KGK internet sitesinde ilanla birlikte (md. 17/1); yetkilerin kullanımı da yetkilendirmenin KGK tarafından ilanıyla başlar (md. 11/2)."
+   }
+  ],
+  "konuBaglantisi": "Yetkilendirme ve denetçilik şartları"
+ },
+ {
+  "id": "2026-2-DEN-09",
+  "sonuc": "D",
+  "ozet": "D şıkkı BDY md. 27/3’ün ilk cümlesidir: denetim ekiplerinde yetkisi olmayan denetçiler, denetçi yardımcıları, bilgi sistemleri denetimi dahil uzmanlar ve diğer yardımcılar, denetçi olarak görevlendirilmemek kaydıyla yer alabilir.",
+  "adimlar": [
+   "<p><strong>1. Kurallar (BDY md. 27).</strong> (1) Denetim ekipleri <strong>üç denetçiden az olamaz</strong>; sorumlu denetçi ve belirlenen diğer kademeler için en az birer yedek denetçi belirlenir. (3) Ekiplerde; söz konusu denetim için yetkisi bulunmayan denetçiler, denetçi yardımcıları, bilgi sistemleri denetimi dahil teknik bilgisine başvurulacak uzmanlar ve diğer yardımcılar <strong>denetçi olarak görevlendirilmemek kaydıyla</strong> yer alabilir. Bankalar ve KGK’ca belirlenen işletmelerin denetimlerinde bilgi sistemleri denetimi konusunda şartları taşıyan yeterli sayıda denetçi ya da uzman <strong>bulundurulur</strong>; bunlar denetçilerin sorumluluk, gözetim ve kontrolü altında çalışır, denetimin herhangi bir aşamasında <strong>karar verici konumunda bulunamaz</strong>, asgari denetçi sayısına dahil edilmez ve genel hükümler, bağımsızlık, tarafsızlık ve sır saklama yükümlülükleri saklı kalmak kaydıyla denetimden sorumlu tutulmaz. (4) Ekipler, denetimlerini <strong>sorumlu denetçinin</strong> gözetim ve idaresi altında gerçekleştirir.</p>",
+   "<p><strong>2. Şıkların değerlendirmesi.</strong> A: kural tersine çevrilmiştir; bu kişiler söz konusu yükümlülükler <em>saklı kalmak kaydıyla</em> denetimden sorumlu tutulmaz. B: ekip en az dört değil <strong>üç</strong> denetçidir. C: uzman bulundurmak bankalarda zorunludur (“bulundurulur”) ve bu kişiler <strong>karar verici olamaz</strong>. D: md. 27/3’ün aynısıdır. E: gözetim ve idare başdenetçinin değil <strong>sorumlu denetçinin</strong>dir. Doğru olan: <strong>D</strong>.</p>"
+  ],
+  "dayanak": "Bağımsız Denetim Yönetmeliği md. 27/1, 27/3, 27/4 (denetim ekipleri).",
+  "tuzaklar": {
+   "A": "Kural ters çevrilmiştir. BDY md. 27/3’e göre bilgi sistemleri denetçi ve uzmanları, genel hükümler, bağımsızlık, tarafsızlık ve sır saklama yükümlülükleri <em>saklı kalmak kaydıyla</em> denetimden sorumlu tutulmaz; yani bu yükümlülüklerden sorumludurlar, denetimden değil.",
+   "B": "Denetim ekipleri üç denetçiden az olamaz (md. 27/1); “bir sorumlu denetçi ve üç diğer, en az dört kişi” kuralı yoktur. Yedekler sorumlu denetçi ve belirlenen diğer kademeler için belirlenir.",
+   "C": "Bu kişiler denetçilerin sorumluluk, gözetim ve kontrolü altında çalışır ve denetimin herhangi bir aşamasında karar verici konumunda bulunamaz (md. 27/3). Bankalarda bulundurulmaları da isteğe bağlı değil zorunludur.",
+   "E": "Ekipler sorumlu denetçinin gözetim ve idaresi altında çalışır (md. 27/4). Başdenetçi yalnızca bir unvandır (md. 27/5)."
+  },
+  "kartlar": [
+   {
+    "on": "BDY’ye göre denetim ekibinin asgari büyüklüğü ve yedek kuralı?",
+    "arka": "Ekip üç denetçiden az olamaz; sorumlu denetçi ve belirlenen diğer kademeler için en az birer yedek denetçi belirlenir; ekip sorumlu denetçinin gözetim ve idaresinde çalışır (md. 27/1, 27/4)."
+   },
+   {
+    "on": "Bilgi sistemleri denetimi uzmanlarının ekipteki konumu?",
+    "arka": "Bankalar ve KGK’ca belirlenen işletmelerde yeterli sayıda bulundurulur; denetçilerin sorumluluk, gözetim ve kontrolünde çalışır, karar verici olamaz, asgari sayıya dahil edilmez; bağımsızlık, tarafsızlık, sır saklama ve genel hükümler saklı kalmak kaydıyla denetimden sorumlu tutulmaz (md. 27/3)."
+   }
+  ],
+  "konuBaglantisi": "Denetim faaliyeti ve kısıtlamalar"
+ },
+ {
+  "id": "2026-2-DEN-10",
+  "sonuc": "B",
+  "ozet": "BDY md. 30/2-ç’ye göre, denetim konusunun genelini etkileyen önemli hususlarda yeterli ve uygun kanıt elde edilemediğinde ya da görüş oluşturmayı engelleyen belirsizlikler sonradan ortaya çıktığında görüş bildirmekten kaçınıldığına ilişkin görüş verilir.",
+  "adimlar": [
+   "<p><strong>1. Dört görüş (BDY md. 30/2).</strong></p><table class=\"veri\"><tr><th>Durum</th><th>Görüş</th></tr><tr><td>Önemli sayılabilecek uyumsuzluk veya aykırılık yok</td><td>Olumlu görüş (a)</td></tr><tr><td>Önemli uyumsuzluk var <em>ya da</em> yeterli ve uygun kanıt toplanamadı, ancak konunun <strong>genelini etkilemiyor</strong></td><td>Sınırlı olumlu görüş (b)</td></tr><tr><td>Yeterli ve uygun kanıt <strong>elde edildikten sonra</strong>, tespit edilen uyumsuzluklar önemli ve konunun <strong>genelini etkiliyor</strong></td><td>Olumsuz görüş (c)</td></tr><tr><td>Konunun <strong>genelini etkileyen</strong> önemli hususlarda yeterli ve uygun kanıt <strong>elde edilemedi</strong> ya da yeterli kanıta rağmen görüş oluşturmayı engelleyen belirsizlikler sonradan ortaya çıktı</td><td>Görüş bildirmekten kaçınıldığına ilişkin görüş (ç)</td></tr></table>",
+   "<p><strong>2. İki soru ile ayırın.</strong> (1) Sorun <em>kanıt eksikliği</em> mi, <em>tespit edilmiş yanlışlık</em> mı? (2) Etkisi konunun <em>genelini</em> etkiliyor mu? Kanıt eksikliği + genel etki = görüş bildirmekten kaçınma. Kökteki alıntı md. 30/2-ç’nin aynısıdır: <strong>B</strong>.</p>"
+  ],
+  "dayanak": "Bağımsız Denetim Yönetmeliği md. 30/2 (denetim raporu görüş türleri); BDS 200, parag. 12 (“sınırlı olumlu görüş (şartlı görüş)”).",
+  "tuzaklar": {
+   "A": "Olumlu görüş, önemli uyumsuzluk veya aykırılık bulunmadığında verilir (md. 30/2-a); burada görüşe dayanak kanıt bile yoktur.",
+   "C": "Sınırlı olumlu görüş için kanıt eksikliğinin konunun genelini <em>etkilememesi</em> gerekir (md. 30/2-b); kökte genelini etkileyen hususlar söz konusudur.",
+   "D": "Olumsuz görüş, yeterli ve uygun kanıt <em>elde edildikten sonra</em> önemli ve yaygın uyumsuzluk tespit edildiğinde verilir (md. 30/2-c); kökte kanıt elde edilememiştir.",
+   "E": "Şartlı görüş, sınırlı olumlu görüşün öteki adıdır (BDS 200 parag. 12: “sınırlı olumlu görüş (şartlı görüş)”); genel etki olmamasını gerektirir."
+  },
+  "kartlar": [
+   {
+    "on": "BDY md. 30/2’ye göre görüş bildirmekten kaçınma hangi durumlarda verilir?",
+    "arka": "Denetim konusunun genelini etkileyen önemli hususlarda yeterli ve uygun kanıt elde edilemediğinde ya da yeterli kanıt toplanmasına rağmen görüş oluşturmayı engelleyen belirsizlikler sonradan ortaya çıktığında."
+   },
+   {
+    "on": "Olumsuz görüş ile sınırlı olumlu görüş arasındaki fark (BDY md. 30/2)?",
+    "arka": "Olumsuz: yeterli kanıt elde edildikten sonra tespit edilen önemli uyumsuzluklar konunun genelini etkiler. Sınırlı olumlu: önemli uyumsuzluk veya kanıt eksikliği vardır ama konunun genelini etkilemez."
+   }
+  ],
+  "konuBaglantisi": "Denetçi raporu ve görüş"
+ },
+ {
+  "id": "2026-2-DEN-12",
+  "sonuc": "C",
+  "ozet": "KYS 2 parag. 8 ve 13’e göre kalitenin gözden geçirilmesi, denetim ekibinin yaptığı önemli muhakemelerin ve ulaşılan sonuçların tarafsız bir şekilde değerlendirilmesidir; C bunu “önemli bulgular”, “kanıtlar” ve “bağımsız” diye değiştirdiği için yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Tanım (KYS 2, parag. 8 ve 13).</strong> Kalitenin gözden geçirilmesi, kaliteyi gözden geçiren kişinin, denetim ekibi tarafından yapılan <strong>önemli muhakemeler</strong> ve bu kapsamda ulaşılan <strong>sonuçları</strong> <strong>tarafsız</strong> bir şekilde değerlendirmesidir; rapor tarihinde veya öncesinde tamamlanır.</p>",
+   "<p><strong>2. Gözden geçirenin rolü (KYS 2, parag. 8–9).</strong> Değerlendirme mesleki standartlar ve mevzuat çerçevesinde yapılır, ancak denetimin <em>tamamının</em> uygunluğunu değerlendirme amacı taşımaz. Kaliteyi gözden geçiren kişi denetim ekibinin üyesi değildir; sorumlu denetçinin sorumlulukları değişmez. Gözden geçirenin görüş veya sonuçları desteklemek için <strong>kanıt toplamasına gerek yoktur</strong>; ekip, ortaya çıkan hususlara karşılık vermek için daha fazla kanıt toplayabilir.</p>",
+   "<p><strong>3. C’nin hatası.</strong> Değerlendirilen “önemli bulgular ve kanıtlar” değil, <strong>önemli muhakemeler ve ulaşılan sonuçlar</strong>dır; standart “bağımsız” değil <strong>tarafsız</strong> değerlendirme der. Kanıtın değerlendirilmesi vurgusu, gözden geçirenin kanıt toplamadığı kuralıyla da uyuşmaz.</p>",
+   "<p><strong>4. Eşleştirme.</strong> A = parag. 9; B = parag. 8; D = parag. 9; E = parag. 9. Yanlış olan: <strong>C</strong>.</p>"
+  ],
+  "dayanak": "KYS 2 Denetimin Kalitesinin Gözden Geçirilmesi, parag. 8, 9 ve 13 (tanımlar).",
+  "tuzaklar": {
+   "A": "Doğru ifadedir: KYS 2 parag. 9.",
+   "B": "Doğru ifadedir: KYS 2 parag. 8.",
+   "D": "Doğru ifadedir: KYS 2 parag. 9.",
+   "E": "Doğru ifadedir: KYS 2 parag. 9."
+  },
+  "kartlar": [
+   {
+    "on": "KYS 2’ye göre kalitenin gözden geçirilmesi nedir?",
+    "arka": "Kaliteyi gözden geçiren kişinin, denetim ekibinin yaptığı önemli muhakemeleri ve bu kapsamda ulaşılan sonuçları tarafsız bir şekilde değerlendirmesi; rapor tarihinde veya öncesinde tamamlanır (parag. 8, 13)."
+   },
+   {
+    "on": "Kaliteyi gözden geçiren kişi kanıt toplar mı?",
+    "arka": "Gerek yoktur; denetim ekibi, gözden geçirme sırasında ortaya çıkan hususlara karşılık vermek için daha fazla kanıt toplayabilir. Gözden geçiren denetim ekibinin üyesi değildir (KYS 2 parag. 9)."
+   }
+  ],
+  "konuBaglantisi": "Kalite yönetimi"
+ },
+ {
+  "id": "2026-2-DEN-13",
+  "sonuc": "E",
+  "ozet": "Bağımsız Denetçiler İçin Etik Kurallar parag. 100.1’e göre mevzuat, Kurallardaki hükümlerden daha kısıtlayıcı hükümler öngörüyorsa denetçi söz konusu mevzuata uymak zorundadır.",
+  "adimlar": [
+   "<p><strong>1. Kural (Etik Kurallar, parag. 100.1).</strong> “Denetçilik mesleğinin ayırt edici özelliklerinden biri, kamu yararına hareket etme sorumluluğunu kabul etmesidir. Mevzuatın bu Kurallarda yer alan hükümlerden daha kısıtlayıcı hükümler öngörmesi hâlinde denetçi <strong>söz konusu mevzuata uymak zorundadır</strong>.” Örneğin Kuralların bazı şartlarla izin verdiği bir durumu mevzuat istisnasız yasaklayabilir veya Kurallarda olmayan bir kısıtlama getirebilir; bu durum ilave belgelendirme gerektirebilir.</p>",
+   "<p><strong>2. Ters durum.</strong> Kuralların belirli hükümlerine uyulması mevzuatla yasaklanmışsa denetçi Kuralların diğer bütün hükümlerine uyar (parag. 100.1). Mesleğe uygun davranış ilkesi de mevzuata uymayı zorunlu kılar; denetçi farklılıklardan haberdar olmalı ve mevzuatla yasaklanmadığı sürece daha kısıtlayıcı hükümlere uymalıdır (parag. 100.7 U1).</p>",
+   "<p><strong>3. Sonuç.</strong> Etik Kurallar bir alt sınırdır; daha sıkı mevzuat varsa sıkı olana uyulur: <strong>E</strong>.</p>"
+  ],
+  "dayanak": "Bağımsız Denetçiler İçin Etik Kurallar (KGK, 2025 metni), parag. 100.1 ve 100.7 U1; parag. 100.6 U3 (ayırt etmek için).",
+  "tuzaklar": {
+   "A": "Bu durum için Kurallar danışma değil doğrudan mevzuata uyma der (parag. 100.1). Düzenleyici kuruma danışma, Kurallardaki bir hükme uyulmasının kamu yararına olmayacağına veya orantısız sonuç doğuracağına inanılan olağan dışı durumlar için önerilir (parag. 100.6 U3); bu başka bir durumdur.",
+   "B": "Etik Kurallar asgari çerçevedir. Mevzuat daha kısıtlayıcıysa yalnız Kurallara uymak yetmez; mevzuata uymak zorunludur (parag. 100.1).",
+   "C": "Sorumlu denetçiye danışma diye bir çözüm öngörülmemiştir; kural doğrudan mevzuata uymaktır.",
+   "D": "Denetim riski, finansal tablolar önemli yanlışlık içerirken uygun olmayan görüş verilmesi riskidir (BDS 200); etik hükümlerle mevzuat arasındaki çatışmayı çözmez."
+  },
+  "kartlar": [
+   {
+    "on": "Mevzuat Etik Kurallardan daha kısıtlayıcıysa denetçi ne yapar?",
+    "arka": "Söz konusu mevzuata uyar (Etik Kurallar parag. 100.1). Kuralların bir hükmüne uymak mevzuatla yasaklanmışsa Kuralların diğer bütün hükümlerine uyar."
+   }
+  ],
+  "konuBaglantisi": "Etik ilkeler ve bağımsızlık"
+ },
+ {
+  "id": "2026-2-DEN-14",
+  "sonuc": "B",
+  "ozet": "Etik Kurallar parag. 111.1 U1’e göre dürüstlük; doğru iş yapmayı, güvenilir olmayı ve olumsuz sonuçlara veya baskıya rağmen uygun şekilde davranma gücüne sahip olmayı içerir.",
+  "adimlar": [
+   "<p><strong>1. Beş temel ilke (Etik Kurallar, parag. 110.1 U1).</strong> (a) <strong>Dürüstlük</strong>: bütün mesleki ve iş ilişkilerinde dürüst, açık, doğru ve güvenilir olmak. (b) <strong>Tarafsızlık</strong>: muhakeme ve kararları önyargı ve temayüllerden, çıkar çatışmalarından ve bireyler, kuruluşlar, teknoloji veya diğer etkenlere gereğinden fazla güvenilmesinden ya da bunların nüfuzunun kötüye kullanılmasından etkilenmeden uygulamak. (c) <strong>Mesleki yeterlik ve özen</strong>. (ç) <strong>Sır saklama (gizlilik)</strong>. (d) <strong>Mesleğe uygun davranış</strong>: mevzuata uymak, kamu yararıyla tutarlı davranmak, mesleğin itibarını zedeleyici davranışlardan kaçınmak.</p>",
+   "<p><strong>2. Kökteki cümle (parag. 111.1 U1).</strong> “<strong>Dürüstlük</strong>; doğru iş yapmayı, güvenilir olmayı ve bu şekilde hareket etmek olumsuz kişisel veya kurumsal sonuçlara yol açabilecek olsa ya da aksi şekilde hareket etme baskısıyla karşı karşıya kalınsa dahi uygun şekilde davranma gücüne sahip olmayı içerir.” Uygun şekilde davranma, ikilemler ve zor durumlarda pozisyonu koruyabilmeyi veya şartlar gerektirdiğinde başkalarına karşı koyabilmeyi içerir (parag. 111.1 U2).</p>",
+   "<p><strong>3. Sonuç.</strong> İpucu “doğru iş yapmak, güvenilir olmak, baskıya rağmen doğru davranmak”tır: <strong>B</strong>. Aynı beş ilke BDY’de de sayılır (md. 21).</p>"
+  ],
+  "dayanak": "Bağımsız Denetçiler İçin Etik Kurallar (KGK, 2025 metni), parag. 110.1 U1 (beş temel ilke), 111.1 U1–U2 (dürüstlük); Bağımsız Denetim Yönetmeliği md. 21/1.",
+  "tuzaklar": {
+   "A": "Tarafsızlık, muhakemenin önyargı, çıkar çatışması veya aşırı güven ve nüfuzdan etkilenmemesidir (parag. 110.1 U1-b); baskıya rağmen doğru davranma gücü dürüstlüğün tanımındadır.",
+   "C": "“Adillik” beş temel ilkeden biri değildir.",
+   "D": "Bağımsızlık beş temel ilke arasında sayılmaz; Kurallarda ayrıca düzenlenir. Tarafsızlığın tanımı da kökteki cümleyle örtüşmez.",
+   "E": "Mesleğe uygun davranış, mevzuata uymayı, kamu yararıyla tutarlı davranmayı ve mesleğin itibarını zedeleyici davranışlardan kaçınmayı ifade eder (parag. 110.1 U1-d)."
+  },
+  "kartlar": [
+   {
+    "on": "Etik Kurallara göre beş temel ilke nelerdir?",
+    "arka": "Dürüstlük, tarafsızlık, mesleki yeterlik ve özen, sır saklama (gizlilik), mesleğe uygun davranış (parag. 110.1 U1; BDY md. 21/1 de aynı beşini sayar)."
+   },
+   {
+    "on": "Etik Kurallara göre dürüstlük neyi içerir?",
+    "arka": "Doğru iş yapmayı, güvenilir olmayı ve olumsuz kişisel veya kurumsal sonuçlara ya da aksi yönde baskıya rağmen uygun şekilde davranma gücüne sahip olmayı (parag. 111.1 U1)."
+   }
+  ],
+  "konuBaglantisi": "Etik ilkeler ve bağımsızlık"
+ },
+ {
+  "id": "2026-2-DEN-15",
+  "sonuc": "D",
+  "ozet": "BDS 200’e göre makul güvence, finansal tabloların denetimi çerçevesinde yüksek ancak mutlak olmayan güvence seviyesidir; denetçi, denetim riskini kabul edilebilir düşük bir seviyeye indirecek yeterli ve uygun denetim kanıtı elde ettiğinde makul güvence sağlamış olur.",
+  "adimlar": [
+   "<p><strong>1. Tanım (BDS 200, parag. 13).</strong> “Makul güvence: Finansal tabloların denetimi çerçevesinde, <strong>yüksek ancak mutlak olmayan</strong> güvence seviyesidir.”</p>",
+   "<p><strong>2. Nasıl sağlanır? (BDS 200, parag. 5 ve 17).</strong> Denetçi, <strong>denetim riskini</strong> (finansal tablolar önemli bir yanlışlık içerirken duruma uygun olmayan bir görüş verme riski) <strong>kabul edilebilir düşük bir seviyeye indirecek yeterli ve uygun denetim kanıtı</strong> elde ettiğinde makul güvence sağlamış olur.</p>",
+   "<p><strong>3. Neden mutlak değil? (parag. 5).</strong> Denetimin yapısal kısıtlamaları nedeniyle denetçinin dayandığı kanıtların çoğu kesin olmaktan çok ikna edicidir. Bu nedenle denetim BDS’lere uygun planlanıp yürütülse bile, finansal tablolardaki bazı önemli yanlışlıkların tespit edilememe riski kaçınılmaz olarak vardır (BDS 240, parag. 5).</p>",
+   "<p><strong>4. Sonuç.</strong> Tanım ve sağlanma yolu birlikte yalnız D’de doğru verilmiştir: <strong>D</strong>.</p>"
+  ],
+  "dayanak": "BDS 200 Bağımsız Denetçinin Genel Amaçları, parag. 5 (makul güvence ve yapısal kısıtlamalar), parag. 6 (önemlilik kavramının uygulanması), parag. 13 (makul güvence ve denetim riski tanımları), parag. 17; BDS 240, parag. 5 (yapısal kısıtlamalar nedeniyle kaçınılmaz tespit edilememe riski).",
+  "tuzaklar": {
+   "A": "“Geçerli denetim çerçevesi” diye bir kavram yoktur (BDS’lerde “geçerli finansal raporlama çerçevesi” tabloların hazırlanma çerçevesidir). Makul güvence, denetim riskini düşük seviyeye indirecek yeterli ve uygun kanıtla sağlanır; “denetim ilkelerine uygun denetim yapmak” bunu tarif etmez.",
+   "B": "İlk cümle BDS 200 parag. 6’daki önemlilik kavramının nerede uygulandığının tarifidir (belirlenmiş yanlışlıkların denetim üzerindeki ve düzeltilmemiş yanlışlıkların tablolar üzerindeki etkisi); makul güvencenin tanımı değildir.",
+   "C": "Makul güvence bir güvence <em>seviyesidir</em>, yanlışlıkların tespit edilmesi değildir. Denetimin yapısal kısıtlamaları nedeniyle bazı önemli yanlışlıkların tespit edilememe riski kaçınılmaz olarak vardır (BDS 200 parag. 5; BDS 240 parag. 5).",
+   "E": "Kalite yönetim standartları (KYS 1, KYS 2) denetim şirketinin kalite yönetim sistemini düzenler; makul güvence ise tek bir denetimde, denetim riskini düşük seviyeye indirecek yeterli ve uygun kanıtla sağlanır."
+  },
+  "kartlar": [
+   {
+    "on": "BDS 200’e göre makul güvence nedir ve ne zaman sağlanır?",
+    "arka": "Finansal tabloların denetiminde yüksek ancak mutlak olmayan güvence seviyesi. Denetçi, denetim riskini kabul edilebilir düşük seviyeye indirecek yeterli ve uygun kanıt elde ettiğinde sağlanır (parag. 5, 13, 17)."
+   },
+   {
+    "on": "BDS 200’e göre denetim riski nedir?",
+    "arka": "Finansal tablolar önemli bir yanlışlık içerirken denetçinin duruma uygun olmayan bir görüş vermesi riski; önemli yanlışlık riski ile tespit edememe riskinin bir fonksiyonudur (parag. 13)."
+   }
+  ],
+  "konuBaglantisi": "Genel amaçlar ve ilkeler"
+ },
+ {
+  "id": "2026-2-DEN-16",
+  "sonuc": "E",
+  "ozet": "BDS 210 parag. 6(b)’ye göre yönetimin ön kabul sorumlulukları finansal tabloların hazırlanması, gerekli gördüğü iç kontrol ve denetçiye bilgi, ek bilgi ve kişilere erişim sağlanmasıdır. İç denetçilerin denetime katılımı ön kabul değildir; uygun hâllerde sözleşmede düzenlenebilecek bir husustur (parag. A26).",
+  "adimlar": [
+   "<p><strong>1. Yönetimin ön kabulleri (BDS 210, parag. 6(b)).</strong> Denetçi, yönetimin şu sorumlulukları anladığına ve üstlendiğine dair mutabakatını alır: (i) gerekli hâllerde gerçeğe uygun sunum dâhil, finansal tabloların geçerli finansal raporlama çerçevesine uygun hazırlanması; (ii) hata veya hile kaynaklı önemli yanlışlık içermeyen finansal tabloların hazırlanması için gerekli gördüğü <strong>iç kontrol</strong>; (iii) denetçiye (a) muttali olduğu tüm bilgilere <strong>erişim</strong>, (b) talep edebileceği <strong>ilave bilgiler</strong>, (c) gerekli gördüğü kişilerle kısıtlama olmaksızın <strong>görüşme</strong> imkânı sağlama.</p>",
+   "<p><strong>2. E neden ön kabul değil?</strong> İşletmenin diğer çalışanlarının ve <strong>iç denetçilerinin denetime katılımına</strong> ilişkin kararlaştırılan hususlara, <em>uygun hâllerde</em> denetim sözleşmesinde yer verilebilir (BDS 210, parag. A26). Bu, sözleşmeye konabilecek isteğe bağlı bir husustur; denetimin ön şartı olarak yönetimden alınan mutabakat değildir.</p>",
+   "<p><strong>3. Eşleştirme.</strong> A = 6(b)(iii)-c; B = 6(b)(i); C = 6(b)(ii); D = 6(b)(iii)-a. Ön kabul olmayan: <strong>E</strong>.</p>"
+  ],
+  "dayanak": "BDS 210 Bağımsız Denetim Sözleşmesinin Şartları Üzerinde Anlaşmaya Varılması, parag. 6(b) (yönetimin sorumluluklarına ilişkin mutabakat) ve parag. A26 (sözleşmede uygun hâllerde yer verilebilecek hususlar).",
+  "tuzaklar": {
+   "A": "Ön kabul sorumluluğudur: BDS 210 parag. 6(b)(iii)-c.",
+   "B": "Ön kabul sorumluluğudur: BDS 210 parag. 6(b)(i).",
+   "C": "Ön kabul sorumluluğudur: BDS 210 parag. 6(b)(ii).",
+   "D": "Ön kabul sorumluluğudur: BDS 210 parag. 6(b)(iii)-a."
+  },
+  "kartlar": [
+   {
+    "on": "BDS 210’a göre yönetimin ön kabul ettiği üç sorumluluk?",
+    "arka": "1) Finansal tabloların geçerli çerçeveye uygun (gerekli hâllerde gerçeğe uygun sunum dâhil) hazırlanması; 2) hata veya hile kaynaklı önemli yanlışlık içermeyen tablolar için gerekli gördüğü iç kontrol; 3) denetçiye tüm bilgilere erişim, ilave bilgi ve kişilerle kısıtlamasız görüşme imkânı (parag. 6(b))."
+   },
+   {
+    "on": "İç denetçilerin bağımsız denetime katılımı BDS 210’da nasıl yer alır?",
+    "arka": "Ön kabul sorumluluğu değildir; kararlaştırılan hususlara uygun hâllerde denetim sözleşmesinde yer verilebilir (BDS 210 parag. A26)."
+   }
+  ],
+  "konuBaglantisi": "Denetim sözleşmesi ve ön şartlar"
+ },
+ {
+  "id": "2026-2-DEN-17",
+  "sonuc": "A",
+  "ozet": "BDS 200 parag. A35’e göre risklerin değerlendirilmesi kesin ölçümü yapılabilir bir konu değil, mesleki muhakeme gerektiren bir husustur; A bunu tersine çevirdiği için yanlıştır.",
+  "adimlar": [
+   "<p><strong>1. Kurallar (BDS 200).</strong> Denetim riski, “önemli yanlışlık” riskinin ve tespit edememe riskinin bir fonksiyonudur. Risklerin değerlendirilmesi, bunun için gerekli bilginin toplanmasına yönelik uygulanan prosedürlere ve denetim sırasında toplanan kanıtlara dayanır. Risklerin değerlendirilmesi, <strong>kesin ölçümü yapılabilir bir konu değil, mesleki muhakeme gerektiren bir husustur</strong> (parag. A35). Denetim riski, tablolar önemli yanlışlık içermediği hâlde içerdiği şeklinde görüş bildirme riskini içermez; bu riskin genellikle önemsiz olduğu kabul edilir (parag. A36). Önemli yanlışlık riskleri finansal tabloların geneli düzeyinde ve yönetim beyanı düzeyinde olmak üzere iki düzeyde ortaya çıkabilir (parag. A37).</p>",
+   "<p><strong>2. A’nın hatası.</strong> A, risk değerlendirmesini “kesin ölçümü yapılması gereken” ve “mesleki muhakemeden ziyade kanıt gerektiren” bir konu olarak sunar. Standart tam tersini söyler: değerlendirme kanıtlara <em>dayanır</em> ama sonuçta bir <strong>mesleki muhakeme</strong>dir.</p>",
+   "<p><strong>3. Eşleştirme.</strong> B = parag. A35 (ve parag. 13’teki tanım); C = parag. A35; D = parag. A36; E = parag. A37. Yanlış olan: <strong>A</strong>.</p>"
+  ],
+  "dayanak": "BDS 200 Bağımsız Denetçinin Genel Amaçları (KGK 2025 metni), parag. 13 (denetim riski tanımı), A35, A36, A37.",
+  "tuzaklar": {
+   "B": "Doğru ifadedir: BDS 200 parag. A35 ve parag. 13’teki denetim riski tanımı.",
+   "C": "Doğru ifadedir: BDS 200 parag. A35.",
+   "D": "Doğru ifadedir: BDS 200 parag. A36.",
+   "E": "Doğru ifadedir: BDS 200 parag. A37."
+  },
+  "kartlar": [
+   {
+    "on": "BDS 200’e göre risk değerlendirmesi kesin ölçüm müdür?",
+    "arka": "Hayır. Prosedürlere ve denetim sırasında toplanan kanıtlara dayanır ama kesin ölçümü yapılabilir bir konu değil, mesleki muhakeme gerektiren bir husustur (parag. A35)."
+   },
+   {
+    "on": "Denetim riski hangi riski içermez?",
+    "arka": "Tablolar önemli yanlışlık içermediği hâlde içerdiği şeklinde görüş bildirme riskini; bu risk genellikle önemsiz kabul edilir. Denetçinin dava, itibar kaybı gibi iş risklerini de ifade etmez (BDS 200 parag. A36)."
+   },
+   {
+    "on": "Önemli yanlışlık riskleri hangi iki düzeyde ortaya çıkar?",
+    "arka": "Finansal tabloların geneli düzeyinde ve işlem sınıfları, hesap bakiyeleri ve açıklamalara ilişkin yönetim beyanı düzeyinde (BDS 200 parag. A37)."
+   }
+  ],
+  "konuBaglantisi": "Denetim riski ve önemlilik"
+ },
+ {
+  "id": "2026-2-DEN-18",
+  "sonuc": "E",
+  "ozet": "Dört öncül de BDS 580 Yazılı Beyanlar’dan alınmıştır: I tanım (parag. 7), II yazılı beyanın kanıt niteliği (parag. 3), III ve IV yazılı beyanın sınırları (parag. 4). Hepsi doğrudur.",
+  "adimlar": [
+   "<p><strong>1. Öncül I (BDS 580, parag. 7).</strong> Yazılı beyan, belirli konuları teyit etmek veya diğer kanıtları desteklemek için yönetimin denetçiye sunduğu yazılı bildirimdir; finansal tabloları, tablolardaki yönetim beyanlarını veya bunları destekleyen defter ve kayıtları <strong>kapsamaz</strong>. Doğru.</p>",
+   "<p><strong>2. Öncül II (parag. 3).</strong> Yazılı beyanlar, denetçinin talep ettiği gerekli bilgilerdir; sorgulamalara verilen yanıtlar gibi <strong>denetim kanıtı niteliğindedir</strong>. Doğru.</p>",
+   "<p><strong>3. Öncül III ve IV (parag. 4).</strong> Yazılı beyanlar gerekli kanıtı sağlar ama ele aldıkları konularla ilgili <strong>tek başlarına yeterli ve uygun kanıt sağlamaz</strong>. Yönetimin güvenilir yazılı beyanlar sunmuş olması, denetçinin elde edeceği <strong>diğer kanıtların niteliğini veya kapsamını etkilemez</strong>; yani denetçi güvenilir bir beyan aldı diye prosedürlerini azaltamaz. İkisi de doğru.</p>",
+   "<p><strong>4. Sonuç.</strong> I, II, III ve IV: <strong>E</strong>.</p>"
+  ],
+  "dayanak": "BDS 580 Yazılı Beyanlar, parag. 3, 4 ve 7.",
+  "tuzaklar": {
+   "A": "II (kanıt niteliği, parag. 3) ve III (tek başına yeterli değil, parag. 4) de doğrudur.",
+   "B": "I (tanım, parag. 7) ve IV (diğer kanıtların niteliğini veya kapsamını etkilemez, parag. 4) de doğrudur. I’deki “kapsamaz” cümlesi standardın tanımının parçasıdır.",
+   "C": "II de doğrudur: yazılı beyanlar, sorgulamalara verilen yanıtlar gibi denetim kanıtıdır (parag. 3).",
+   "D": "I de doğrudur: yazılı beyanlar finansal tabloları, yönetim beyanlarını ve destekleyici defter ve kayıtları kapsamaz (parag. 7)."
+  },
+  "kartlar": [
+   {
+    "on": "BDS 580’e göre yazılı beyan nedir ve neyi kapsamaz?",
+    "arka": "Belirli konuları teyit etmek veya diğer kanıtları desteklemek için yönetimin denetçiye sunduğu yazılı bildirim. Finansal tabloları, tablolardaki yönetim beyanlarını ve destekleyici defter ve kayıtları kapsamaz (parag. 7)."
+   },
+   {
+    "on": "Güvenilir yazılı beyan, denetçinin diğer prosedürlerini azaltır mı?",
+    "arka": "Hayır. Yazılı beyan kanıttır ama tek başına yeterli ve uygun kanıt sağlamaz; güvenilir beyan diğer kanıtların niteliğini veya kapsamını etkilemez (BDS 580 parag. 3–4)."
+   }
+  ],
+  "konuBaglantisi": "Denetim kanıtı"
+ },
+ {
+  "id": "2026-2-DEN-19",
+  "sonuc": "A",
+  "ozet": "BDS 240 parag. 8’e göre denetçi, kontrollerin yönetimce ihlali ihtimalini ve hataların ortaya çıkarılmasında etkin olan prosedürlerin hileyi ortaya çıkarmada etkin olmayabileceğini göz önünde bulundurarak tüm denetim boyunca mesleki şüpheciliğini sürdürür. A iki noktada metni değiştirmiştir.",
+  "adimlar": [
+   "<p><strong>1. Kural (BDS 240, parag. 8).</strong> “Makul güvence elde ederken denetçi, yönetim tarafından kontrollerin ihlal edilmesi ihtimalini ve hataların ortaya çıkarılmasında etkin olan denetim prosedürlerinin hilenin ortaya çıkarılmasında <strong>etkin olmayabileceğini</strong> göz önünde bulundurarak, tüm denetim boyunca <strong>mesleki şüpheciliğini</strong> sürdürmekle sorumludur.”</p>",
+   "<p><strong>2. A’daki iki hata.</strong> (a) “Etkili olacağını” denmiştir; standart, hata için etkin prosedürlerin hileyi ortaya çıkarmada <em>etkin olmayabileceğini</em> söyler. (b) Sürdürülen “mesleki yetkinlik” değil <strong>mesleki şüphecilik</strong>tir. Gerekçe: hile, saklanmak üzere dikkatlice tasarlanmış planlar ve muvazaalı işlemler içerebilir (parag. 6) ve yönetim kontrolleri ihlal edebilecek konumdadır (parag. 7).</p>",
+   "<p><strong>3. Eşleştirme.</strong> B, C ve D = parag. 6; E = parag. 7. Yanlış olan: <strong>A</strong>.</p>"
+  ],
+  "dayanak": "BDS 240 Finansal Tabloların Bağımsız Denetiminde Bağımsız Denetçinin Hileye İlişkin Sorumlulukları (KGK 2025 metni), parag. 6, 7 ve 8.",
+  "tuzaklar": {
+   "B": "Doğru ifadedir: BDS 240 parag. 6 (hile, gizlenmek üzere tasarlandığı için tespit edilememe riski hatadan yüksektir).",
+   "C": "Doğru ifadedir: BDS 240 parag. 6.",
+   "D": "Doğru ifadedir: BDS 240 parag. 6’nın son cümlesi.",
+   "E": "Doğru ifadedir: BDS 240 parag. 7 (yönetim, kayıtları manipüle edebilecek ve kontrolleri ihlal edebilecek konumdadır)."
+  },
+  "kartlar": [
+   {
+    "on": "BDS 240’a göre hile ve hata kaynaklı yanlışlıkları tespit edememe riskleri nasıl karşılaştırılır?",
+    "arka": "Hile kaynaklı önemli yanlışlığı tespit edememe riski, hata kaynaklıdan yüksektir (parag. 6); yönetim hilesini tespit edememe riski, çalışan hilesini tespit edememe riskinden yüksektir (parag. 7)."
+   },
+   {
+    "on": "BDS 240 parag. 8’e göre denetçi tüm denetim boyunca neyi sürdürür?",
+    "arka": "Mesleki şüpheciliği; kontrollerin yönetimce ihlali ihtimalini ve hata için etkin prosedürlerin hileyi ortaya çıkarmada etkin olmayabileceğini göz önünde bulundurarak."
+   }
+  ],
+  "konuBaglantisi": "İç kontrol ve hile"
+ },
+ {
+  "id": "2026-2-DEN-20",
+  "sonuc": "C",
+  "ozet": "BDS 265 parag. 6’ya göre iç kontrol eksikliği; bir kontrolün yanlışlıkları zamanında önleyemeyecek veya tespit edip düzeltemeyecek şekilde tasarlanması, uygulanması veya kullanılması ya da bunun için gereken bir kontrolün bulunmaması durumunda mevcuttur.",
+  "adimlar": [
+   "<p><strong>1. Tanım (BDS 265, parag. 6).</strong> “<strong>İç kontrol eksikliği</strong>: (i) Bir kontrolün, finansal tablolarda yer alan yanlışlıkları zamanında önleyemeyecek veya tespit edip düzeltemeyecek şekilde tasarlanması, uygulanması veya kullanılması veya (ii) finansal tablolarda yer alan yanlışlıkları zamanında önlemek veya tespit edip düzeltmek için gereken bir kontrolün bulunmaması durumunda mevcuttur.” Kökteki metin bu tanımın aynısıdır: <strong>C</strong>.</p>",
+   "<p><strong>2. Önemli iç kontrol eksikliği ve bildirim.</strong> Önemli iç kontrol eksikliği, denetçinin mesleki muhakemesine göre üst yönetimden sorumlu olanların dikkatini çekmeyi gerektirecek kadar önemli olan eksiklik veya eksikliklerin bileşimidir (parag. 6). Denetçi bunları üst yönetimden sorumlu olanlara zamanında ve yazılı olarak bildirir (parag. 9); uygun yönetim kademesine de önemli eksiklikleri yazılı olarak ve yönetimin dikkatini gerektiren diğer eksiklikleri zamanında bildirir (parag. 10).</p>",
+   "<p><strong>3. Risk ile eksikliği ayırın.</strong> Kontrol riski bir <em>risktir</em>: yönetim beyanındaki önemli olabilecek bir yanlışlığın işletmenin kontrolleri tarafından zamanında önlenememesi veya tespit edilip düzeltilememesi riski (BDS 200, parag. 13). Kökteki cümle ise var olan bir <em>durumu</em> (kontrolün kusurlu olması veya hiç olmaması) tanımlar; bu, eksikliktir.</p>"
+  ],
+  "dayanak": "BDS 265 İç Kontrol Eksikliklerinin Üst Yönetimden Sorumlu Olanlara ve Yönetime Bildirilmesi, parag. 6, 9 ve 10; BDS 200 parag. 13 (kontrol riski tanımı); BDS 240 parag. 32 (kontrollerin yönetim tarafından ihlali).",
+  "tuzaklar": {
+   "A": "Kontrol riski bir olasılıktır (yanlışlığın kontrollerce zamanında önlenememesi veya tespit edilip düzeltilememesi riski, BDS 200 parag. 13); kökteki cümle ise kontrolün kusurlu olduğu veya bulunmadığı durumu tanımlar.",
+   "B": "“İç kontrol riski” BDS’lerde tanımlanmış bir terim değildir; önemli yanlışlık riskinin yönetim beyanı düzeyindeki bileşenleri yapısal risk ve kontrol riskidir (BDS 200 parag. 13). Üstelik kökteki cümle bir risk değil bir durum tanımlar.",
+   "D": "“Yönetimin ihmali” BDS’lerde tanımlanmış bir terim değildir.",
+   "E": "Kontrollerin yönetim tarafından ihlal edilmesi BDS 240’ta ayrı bir hile riskidir (yönetim etkin görünen kontrolleri ihlal ederek kayıtları manipüle edebilir, parag. 32); kontrol eksikliğinin tanımı değildir."
+  },
+  "kartlar": [
+   {
+    "on": "BDS 265’e göre iç kontrol eksikliği ne zaman mevcuttur?",
+    "arka": "Bir kontrol yanlışlıkları zamanında önleyemeyecek veya tespit edip düzeltemeyecek şekilde tasarlanmış, uygulanmış veya kullanılmışsa ya da bunun için gereken bir kontrol hiç yoksa (parag. 6)."
+   },
+   {
+    "on": "Önemli iç kontrol eksiklikleri kime ve nasıl bildirilir?",
+    "arka": "Üst yönetimden sorumlu olanlara zamanında ve yazılı olarak (parag. 9); uygun yönetim kademesine de yazılı olarak. Yönetimin dikkatini gerektiren diğer eksiklikler yönetime zamanında bildirilir (BDS 265 parag. 10)."
+   }
+  ],
+  "konuBaglantisi": "İç kontrol ve hile"
+ }
+]

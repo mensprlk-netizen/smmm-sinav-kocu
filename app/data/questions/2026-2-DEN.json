@@ -1,0 +1,562 @@
+[
+ {
+  "id": "2026-2-DEN-01",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 1,
+  "konu": "Denetim kavramı ve unsurları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi KGK Bağımsız Denetim Yönetmeliği kapsamında “kilit yönetici”yi tanımlar?</strong></p>",
+  "secenekler": {
+   "A": "<p>Kilit yönetici: Yönetim organı üyeleri dahil olmak üzere, şirketin faaliyetlerini plânlama, yönetme veya kontrol etme yetki ve sorumluluğuna doğrudan veya dolaylı olarak sahip olan kişilerdir.</p>",
+   "B": "<p>Kilit yönetici: Şirketin finansal faaliyet ve işlemlerini planlama, yürütme yetki ve sorumluluğuna doğrudan veya dolaylı olarak sahip olan kişilerdir.</p>",
+   "C": "<p>Kilit yönetici: Şirketin finansal faaliyet ve işlemlerini planlama, prosedürleri oluşturma ve yürütme yetki ve sorumluluğuna doğrudan veya dolaylı olarak sahip olan kişilerdir.</p>",
+   "D": "<p>Kilit yönetici: Şirketin finansal faaliyet ve işlemleriyle ilgili politika ve planları belirleme, gözetme ve yürütme yetki ve sorumluluğuna sahip olan kişilerdir.</p>",
+   "E": "<p>Kilit yönetici: Şirketin gözetimi ve denetiminden doğrudan sorumlu genel kurula hesap verme sorumluluğu olan yöneticilerdir.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    223,
+    516,
+    446
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-02",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 2,
+  "konu": "Denetim kavramı ve unsurları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>KGK Bağımsız Denetim Yönetmeliği’ne göre denetimin amacı ve kapsamıyla ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Makul ve sınırlı güvence seviyesinin gerektirdiği denetimin kapsamı Türkiye Denetim Standartları çerçevesinde belirlenir.</p>",
+   "B": "<p>Denetim, finansal tablolar ve diğer finansal bilgiler dâhil olmak üzere denetime tabi konuların belirlenmiş bir kıstasa uyumlu olup olmadığı hususunda kullanıcılara Türkiye Denetim Standartları çerçevesinde güvence sağlayacak bir görüş oluşturulması amacı ile yapılır.</p>",
+   "C": "<p>Denetim, kullanıcılara denetim konusunun denetim kıstasına uyumuyla ilgili tam veya sınırlı güvence sağlar. Sınırlı güvence sağlayacağı ilgili mevzuatında veya denetim sözleşmesinde açıkça belirtilmemiş ise denetim tam güvence verecek şekilde gerçekleştirilir.</p>",
+   "D": "<p>Denetim; denetimin konusu hakkında, mesleki etik ilkelere bağlı kalmak ve mesleki şüphecilik içinde bulunmak suretiyle, Türkiye Denetim Standartları çerçevesinde yeterli ve uygun denetim kanıtı toplanmasını, bu kanıtlara dayandırılarak bir görüş oluşturulmasını ve görüşün raporlanmasını kapsar.</p>",
+   "E": "<p>Denetimin unsurlarını; denetimin konusu, tarafları, kıstası, kanıtları ve denetim raporu oluşturur.</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    927,
+    516,
+    554
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-03",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 3,
+  "konu": "Denetim kavramı ve unsurları",
+  "ortakBilgi": null,
+  "metin": "<p>KGK Bağımsız Denetim Yönetmeliği’ne göre denetimde denetim konusunun uyumunun değerlendirildiği önceden belirlenmiş kıstaslar esas alınır.</p><p><strong>Aynı bağlamda denetim kıstasını belirleme ile ilgili düzenleme açısından aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Türk Ticaret Kanunu ve ilgili mevzuat dışında diğer mevzuatta doğrudan veya dolaylı olarak denetim kuruluşları ve denetçiler tarafından denetim yapılmasının öngörüldüğü ancak denetim konularının hangi kıstaslara uyumunun aranacağının belirtilmediği durumlarda, denetim kıstası KGK tarafından belirlenir.</p>",
+   "B": "<p>Yıllık faaliyet raporları, riskin erken saptanması ve yönetimine ilişkin sistem açısından Türk Ticaret Kanunu’nun ve ilgili mevzuatın denetim kıstasına ilişkin hükümleri; finansal tablolar açısından ise Türkiye Muhasebe Standartları kıstas alınır.</p>",
+   "C": "<p>Türk Ticaret Kanunu ve ilgili mevzuat dışında diğer mevzuattan kaynaklanan denetim konuları açısından, denetim kıstasıyla ilgili düzenlemeler veya bunların atıf yaptığı kurallar denetim kıstasını oluşturur.</p>",
+   "D": "<p>Finansal tablolar açısından Türkiye Denetim Standartları; yıllık faaliyet raporları, riskin erken saptanması ve yönetimine ilişkin sistem açısından Sermaye Piyasası Kanunu ve ilgili mevzuatın denetim kıstasına ilişkin hükümleri kıstas alınır.</p>",
+   "E": "<p>İsteğe bağlı yaptırılan denetimlerde denetim kıstasını belirleme denetimi talep edenlerce yapılır.</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    133,
+    506,
+    653
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-04",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 4,
+  "konu": "Yetkilendirme ve denetçilik şartları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>KGK Bağımsız Denetim Yönetmeliği’ne göre bağımsız denetçilerin kendi adına denetim üstlenebilmesi için aranan şartlarla ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Denetçilerin tam zamanlı ve asgari bir raporlama dönemi için istihdam edilmiş olması</p>",
+   "B": "<p>Başvuranın kıdemli denetçi olabilme şartlarını karşılaması</p>",
+   "C": "<p>Denetim kadrosunda kendisi hariç en az bir sorumlu denetçinin bulunması</p>",
+   "D": "<p>Kendisinin ve denetçilerinin herhangi bir denetim kuruluşunda veya başka bir denetim üstlenen bağımsız denetçi yanında ortak, kilit yönetici veya denetçi olarak görev almaması ve denetçilerinin ayrıca denetim üstlenen bağımsız denetçi olarak faaliyette bulunmaması</p>",
+   "E": "<p>Denetim rehberleri dahil olmak üzere, esasları KGK’ca belirlenen kalite yönetim sistemine ilişkin politika ve süreçlerini yazılı olarak oluşturmuş olması</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    1043,
+    520,
+    425
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-05",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 5,
+  "konu": "Yetkilendirme ve denetçilik şartları",
+  "ortakBilgi": null,
+  "metin": "<p>Denetçi olmak isteyenlerin (i)_____, finansal tablo denetimi dahil olmak üzere mesleki konularda denetim üstlenen bağımsız denetçi yanında ya da denetim kuruluşunda uygulamalı eğitim almaları şarttır. 3568 sayılı Kanun çerçevesinde tasdik ve vergi denetimi hizmetlerinde geçen süreler ile aynı Kanunda yer alan kamu kurum ve kuruluşlarında denetim yetkisini haiz olanların, bu kamu kurum ve kuruluşlarında geçirdikleri süreler uygulamalı mesleki eğitim süresinden sayılır. (ii)_____ sahip olanlarda uygulamalı mesleki eğitim şartı aranmaz.</p><p><strong>KGK Bağımsız Denetim Yönetmeliği’nin Uygulamalı Mesleki Eğitim Düzenlemesi kapsamında yer alan bu ifadedeki boşluğu tamamlayan doğru seçenek aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>(i) en az 1 yıl süreyle; (ii) En az on beş yıl mesleki tecrübeye</p>",
+   "B": "<p>(i) en az 2 yıl süreyle; (ii) En az on yıl mesleki tecrübeye</p>",
+   "C": "<p>(i) en az 2 yıl süreyle; (ii) En az on beş yıl mesleki tecrübeye</p>",
+   "D": "<p>(i) en az 3 yıl süreyle; (ii) En az on yıl mesleki tecrübeye</p>",
+   "E": "<p>(i) en az 3 yıl süreyle; (ii) En az on beş yıl mesleki tecrübeye</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    133,
+    516,
+    524
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-06",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 6,
+  "konu": "Yetkilendirme ve denetçilik şartları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>KGK Bağımsız Denetim Yönetmeliği’ne göre Uygulamalı Mesleki Eğitim ile ilgili aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Bağımsız denetimde fiilen geçirilen sürenin hesabında belirtilen faaliyetlere başlama tarihi esas alınır ve kamu kurum ve kuruluşlarında geçirilen süreler hariç olmak üzere, üç yıldan fazla süreyle bu faaliyetlere ara verilmesi durumunda ara verilen fazla süreler dikkate alınmaz.</p>",
+   "B": "<p>KGK Bağımsız Denetim Yönetmeliği’nin uygulamasında mesleki tecrübe bağımsız denetimde fiilen geçirilen süredir. Ancak, 3568 sayılı Kanun kapsamındaki mesleki faaliyetlerde veya aynı Kanun uyarınca staj ve stajdan sayılan hizmetlerde bulunulan süreler de bu sürenin hesabında dikkate alınır.</p>",
+   "C": "<p>Uygulamalı mesleki eğitim almakta olan denetçiler, uygulamalı mesleki eğitim döneminde kıdemlerine göre görev alırlar ve denetçilerin refakatinde denetim çalışmalarına katılırlar.</p>",
+   "D": "<p>Uygulamalı mesleki eğitim döneminde, refakatinde denetçi çalıştıranlar, teorik bilgilerin uygulamaya geçirilmesi amacıyla, denetçilerin gerekli mesleki yeterliliği kazanmaları için her türlü tedbiri alır.</p>",
+   "E": "<p>Denetçi, uygulamalı mesleki eğitim almakta olan denetçileri denetimlerde görevlendirmek, denetlenen işletme ile görüşmelere göndermek, onlarla birlikte çalışmak ve birlikte hazırladıkları çalışma kağıtlarını birlikte incelemek gibi konularda yetkili ve yükümlüdür.</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    914,
+    520,
+    641
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-07",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 7,
+  "konu": "Denetim kavramı ve unsurları",
+  "ortakBilgi": null,
+  "metin": "<p>_____; denetim kanıtlarının Türkiye Denetim Standartları çerçevesinde değerlendirilmesi sonucunda, belirlenen güvence seviyesine uygun şekilde oluşturulan denetçi görüşünün ve varsa dikkat çekilmek istenen diğer hususların kullanıcıların istifadesine sunulması amacıyla KGK düzenlemelerine uygun olarak hazırlanan ve imzalayan denetim kuruluşu veya denetim üstlenen bağımsız denetçi tarafından sorumluluğu üstlenilen belgedir.</p><p><strong>KGK Bağımsız Denetim Yönetmeliği kapsamında bu ifadede boşluğu doğru bir şekilde tamamlayan seçenek aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Denetim programı</p>",
+   "B": "<p>Çalışma kağıdı</p>",
+   "C": "<p>Denetim planı</p>",
+   "D": "<p>Denetim raporu</p>",
+   "E": "<p>Denetim sözleşmesi</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    648,
+    133,
+    519,
+    416
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-08",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 8,
+  "konu": "Yetkilendirme ve denetçilik şartları",
+  "ortakBilgi": null,
+  "metin": "<p><strong>KGK Bağımsız Denetim Yönetmeliği’ne göre Bağımsız Denetim Resmi Sicili’ne kayıt ile ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Denetim kuruluşları ve denetçilerden faaliyet izni askıya alınanlar, denetim faaliyetinde bulunmayacağını beyan edenler ve sürekli eğitim yükümlülüğünü yerine getirmeyenler sicilden silinirler.</p>",
+   "B": "<p>Denetim kuruluşlarına ve denetçilere ilişkin yetkilendirme ikaz, uyarı, faaliyetin kısıtlanması, faaliyet izninin askıya alınması, faaliyet izninin iptali, idari para cezası ve durdurma işlemleri KGK’ca elektronik ortamda tutulan sicile kaydedilir.</p>",
+   "C": "<p>Resmi Kayıt Sicili güncel olarak kamuoyunun erişimine açık tutmak suretiyle ilan edilir.</p>",
+   "D": "<p>Yetkilendirme işlemleri, sicile kayıt ve KGK internet sitesinde ilanla birlikte yürürlüğe girer.</p>",
+   "E": "<p>KGK tarafından her denetim kuruluşuna ve denetçiye bir sicil numarası verilir.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    648,
+    889,
+    517,
+    425
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-09",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 9,
+  "konu": "Denetim faaliyeti ve kısıtlamalar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>KGK Bağımsız Denetim Yönetmeliği’ne göre aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Denetçilerin gözetimi altında çalışan denetçiler ve uzmanlar genel hükümler, bağımsızlık, tarafsızlık ve sır saklama yükümlülükleri hariç denetimden sorumludurlar.</p>",
+   "B": "<p>Denetim ekipleri; bir sorumlu denetçi ve üç diğer kademelerdeki denetçiler olmak üzere en az dört kişiden oluşur. Denetim ekiplerinde yer alan denetçilerin dışında en az birer yedek denetçi belirlenir.</p>",
+   "C": "<p>5411 sayılı Bankacılık Kanunu’nda tanımlanan bankalar ve KGK’ca belirlenen diğer işletmelerin denetimlerinde bilgi sistemleri denetimi konusunda KGK’ca öngörülen şartları taşıyan yeterli sayıda denetçi ya da uzman çalıştırılabilir ancak bunlar, denetçilerin kontrolü altında çalışsa da denetimin ilgili aşamalarında karar verici konumunda bulunabilirler.</p>",
+   "D": "<p>Denetim ekiplerinde; söz konusu denetim için yetkisi bulunmayan denetçiler, denetçi yardımcıları, bilgi sistemleri denetimi de dahil olmak üzere teknik bilgisine başvurulacak uzmanlar ve denetime yardımcı diğer kişiler de denetçi olarak görevlendirilmemek kaydıyla yer alabilir.</p>",
+   "E": "<p>Denetim ekipleri, denetimlerini baş denetçinin gözetim ve idaresi altında gerçekleştirir.</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    68,
+    133,
+    528,
+    554
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-10",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 10,
+  "konu": "Denetçi raporu ve görüş",
+  "ortakBilgi": null,
+  "metin": "<p><strong>KGK Bağımsız Denetim Yönetmeliği’ne göre denetim raporu düzenleme ve görüş bildirme yükümlülüğü kapsamında;</strong></p><p>“Denetim konusunun genelini etkileyen önemli hususlarda denetim görüşüne dayanak olacak yeterli ve uygun denetim kanıtının elde edilemediği durumlarda ya da yeterli kanıt toplanmasına rağmen görüş oluşturmayı engelleyen belirsizliklerin sonradan ortaya çıktığı durumlarda’’</p><p><strong>denetim raporu görüş başlığı altında hangi görüş verilir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Olumlu görüş</p>",
+   "B": "<p>Görüş bildirmekten kaçınıldığına ilişkin görüş</p>",
+   "C": "<p>Sınırlı olumlu görüş</p>",
+   "D": "<p>Olumsuz görüş</p>",
+   "E": "<p>Şartlı görüş</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    1000,
+    530,
+    385
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-11",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 11,
+  "konu": "Denetim faaliyeti ve kısıtlamalar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>KGK Bağımsız Denetim Yönetmeliği’ne göre Şeffaflık Raporu’nun hazırlanması ve duyurulması hükmü kapsamında aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Şeffaflık raporu ile bu raporun güncellenmesi halinde raporun orijinal hali ve güncellenmiş halleri ayrı ayrı dört yıl süreyle kamunun erişimine açık tutulur.</p>",
+   "B": "<p>Bir takvim yılında Kamu Yararını İlgilendiren Kuruluşlar denetimi yapmış denetim kuruluşları ilgili takvim yılını müteakip, özel hesap dönemi kullanan denetim kuruluşları ise hesap dönemi kapanışını müteakip dördüncü ayın sonuna kadar yıllık şeffaflık raporunu KGK’ya bildirir.</p>",
+   "C": "<p>Kamu Yararını İlgilendiren Kuruluşlar denetimi yapmış denetim kuruluşları şeffaflık raporunu kendi internet sitelerinde yayımlar.</p>",
+   "D": "<p>Şeffaflık raporu denetim kuruluşunun yönetim organı başkanı tarafından imzalanır.</p>",
+   "E": "<p>Kamu Yararını İlgilendiren Kuruluşlar (KAYİK) denetimine ilişkin listelerde yer almakla birlikte bir takvim yılı içerisinde KAYİK denetimi yapmayan denetim kuruluşları bu durumu internet sitelerinin şeffaflık raporlarıyla ilgili bölümünde açıklar.</p>"
+  },
+  "dogru": "A",
+  "iptal": true,
+  "cevapNotu": "Bu soru cevap anahtarında İPTAL edilmiştir (kitapçıkta soru “Değerlendirme Dışı” damgalıdır); anahtardaki ve kitapçıkta işaretli şık: A. Muhtemel gerekçe (resmî gerekçe yayımlanmadı): kök “doğrudur” diye sorar, ancak A şıkkı BDY md. 36/5’e göre yanlıştır; şeffaflık raporu ile güncellenmiş halleri dört değil beş yıl süreyle kamunun erişimine açık tutulur. B, C, D ve E ise md. 36’nın 1., 2. ve 4. fıkralarıyla uyumlu doğru ifadelerdir. Kök “yanlıştır” olsaydı cevap A olurdu. Bu nedenle çözüm yayımlanmadı.",
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    133,
+    529,
+    511
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-12",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 12,
+  "konu": "Kalite yönetimi",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Türkiye Denetim Standartları Kalite Yönetim Standardı 2- Denetimin Kalitesinin Gözden Geçirilmesi’ne göre aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Kaliteyi gözden geçiren kişi denetim ekibinin bir üyesi değildir.</p>",
+   "B": "<p>Kaliteyi gözden geçiren kişinin önemli muhakemeler hakkında yaptığı değerlendirme, mesleki standartlar ve mevzuat hükümleri çerçevesinde gerçekleştirilir ancak bu, denetimin tamamının, mesleki standartlar ve mevzuat hükümlerine veya denetim şirketinin politika veya prosedürlerine uygun olup olmadığını değerlendirme amacı taşımaz.</p>",
+   "C": "<p>Kalitenin gözden geçirilmesi, denetim ekibi tarafından yapılan önemli bulguların ve bu kapsamda ulaşılan kanıtların bağımsız bir şekilde değerlendirilmesidir.</p>",
+   "D": "<p>Kalitenin gözden geçirilmesi; sorumlu denetçinin denetimin yönetilmesi, kaliteli bir şekilde yürütülmesi veya denetim ekibi üyelerinin yönlendirilmesi ve gözetimi ile yaptıkları işlerin gözden geçirilmesine ilişkin sorumluluklarını değiştirmez.</p>",
+   "E": "<p>Kaliteyi gözden geçiren kişinin denetime ilişkin görüş veya sonuçları desteklemek için kanıt toplamasına gerek yoktur, ancak denetim ekibi, kalitenin gözden geçirilmesi sırasında ortaya çıkan hususlara karşılık vermek amacıyla daha fazla kanıt toplayabilir.</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    874,
+    530,
+    576
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-13",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 13,
+  "konu": "Etik ilkeler ve bağımsızlık",
+  "ortakBilgi": null,
+  "metin": "<p>Denetçilik mesleğinin ayırt edici özelliklerinden biri, kamu yararına hareket etme sorumluluğunu kabul etmesidir.</p><p><strong>Mevzuatın, Türkiye Denetim Standartları-Bağımsız Denetçiler İçin Etik Kurallar’da yer alan hükümlerden daha kısıtlayıcı hükümler öngörmesi hâlinde Bağımsız Denetçiler İçin Etik Kurallar’a göre denetçi ne yapmalıdır?</strong></p>",
+  "secenekler": {
+   "A": "<p>Denetçi bu durumu KGK’ya sorar.</p>",
+   "B": "<p>Denetçi etik kurallara uymak zorundadır.</p>",
+   "C": "<p>Denetçi bu durumda ne yapması gerektiğini sorumlu denetçiye sorar.</p>",
+   "D": "<p>Denetim riskini gözden geçirir.</p>",
+   "E": "<p>Denetçi bu durumda söz konusu mevzuata uymak zorundadır.</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    133,
+    519,
+    351
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-14",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 14,
+  "konu": "Etik ilkeler ve bağımsızlık",
+  "ortakBilgi": null,
+  "metin": "<p>_____; doğru iş yapmayı, güvenilir olmayı ve bu şekilde hareket etmek olumsuz kişisel veya kurumsal sonuçlara yol açabilecek olsa ya da aksi şekilde hareket etme baskısıyla karşı karşıya kalınsa dahi uygun şekilde davranma gücüne sahip olmayı içerir.</p><p><strong>Türkiye Denetim Standartları-Bağımsız Denetçiler İçin Etik Kurallar kapsamında yer alan bu ifadede boşluğu tamamlayan <u>en uygun</u> seçenek aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Tarafsızlık</p>",
+   "B": "<p>Dürüstlük</p>",
+   "C": "<p>Adillik</p>",
+   "D": "<p>Bağımsızlık ve tarafsızlık</p>",
+   "E": "<p>Mesleğe uygun davranış</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    880,
+    528,
+    351
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-15",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 15,
+  "konu": "Genel amaçlar ve ilkeler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Türkiye Bağımsız Denetim Standartları (BDS) kapsamında makul güvence nedir ve denetçi bu güvenceyi nasıl sağlar?</strong></p>",
+  "secenekler": {
+   "A": "<p>Makul güvence denetçinin geçerli denetim çerçevesini uygulayarak ulaştığı mutlak olmayan güvencedir. Denetçi denetim ilkelerine uygun denetim yaparak makul güvence sağlamış olur.</p>",
+   "B": "<p>Makul güvence denetçi tarafından denetimin planlanması ve yürütülmesi ile belirlenmiş yanlışlıkların denetim üzerindeki ve -varsa- düzeltilmemiş yanlışlıkların finansal tablolar üzerindeki etkisini değerlendirmek suretiyle erişilen güvencedir. Denetçi standartları uygulayarak makul güvenceyi sağlamış olur.</p>",
+   "C": "<p>Makul güvence denetçinin finansal tabloları bir bütün olarak ele alarak finansal tabloların bütünü açısından önemlilik arzeden yanlışlıkları tespit etmesidir. Denetçi uygun prosedürleri uygulayarak makul güvenceyi sağlamış olur.</p>",
+   "D": "<p>Makul güvence finansal tabloların denetimi çerçevesinde, yüksek ancak mutlak olmayan güvence seviyesidir. Denetçi, denetim riskini kabul edilebilir düşük bir seviyeye indirecek yeterli ve uygun denetim kanıtı elde ettiğinde makul güvence sağlamış olur.</p>",
+   "E": "<p>Makul güvence denetçinin kalite standartlarını uygulayarak ulaştığı mutlak olmayan güvencedir. Denetçi raporlama ilke ve esaslarına uygun denetim yaparak makul güvence sağlamış olur.</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    133,
+    530,
+    619
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-16",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 16,
+  "konu": "Denetim sözleşmesi ve ön şartlar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi Türkiye Bağımsız Denetim Standartları (BDS)’lere uygun bir denetimde, yönetim ve -uygun hâllerde- üst yönetimden sorumlu olanların, sorumluluklarını anladığı ve üstlendiği ön kabul sorumluluklarından biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Denetim kanıtlarının toplanması için denetçinin işletme içinde gerekli gördüğü kişilerle kısıtlama olmaksızın görüşme imkânı sağlama sorumluluğu</p>",
+   "B": "<p>Gerekli hâllerde, finansal tabloların gerçeğe uygun sunumu dâhil olmak üzere, finansal tabloların geçerli finansal raporlama çerçevesine uygun olarak hazırlanması sorumluluğu</p>",
+   "C": "<p>Finansal tabloların hata veya hile kaynaklı önemli yanlışlık içermeyecek şekilde hazırlanması için gerekli gördüğü iç kontrole ilişkin sorumluluğu</p>",
+   "D": "<p>Denetçiye; finansal tabloların hazırlanmasıyla ilgili kayıtlar, belgeler ve diğer hususlar gibi muttali olduğu tüm bilgilere erişim imkânı sağlama sorumluluğu</p>",
+   "E": "<p>İç denetçilerin bağımsız denetçilere yardımcı olmalarının sağlanması sorumluluğu</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    1009,
+    529,
+    468
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-17",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 17,
+  "konu": "Denetim riski ve önemlilik",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Türkiye Bağımsız Denetim Standartları (BDS) kapsamında denetim riski ile ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Risklerin değerlendirilmesi, kesin ölçümü yapılması gereken önemli bir konu olması nedeniyle mesleki muhakemeden ziyade kanıt gerektiren bir husustur.</p>",
+   "B": "<p>Denetim riski, önemli yanlışlık riskinin ve tespit edememe riskinin bir fonksiyonudur.</p>",
+   "C": "<p>Denetimde risklerin değerlendirilmesi, bu değerlendirmeye yönelik gerekli bilginin toplanması için uygulanan denetim prosedürlerine ve denetim sırasında toplanan kanıtlara dayanır.</p>",
+   "D": "<p>BDS’lerin amaçları doğrultusunda denetim riski denetçinin, önemli bir yanlışlık içermediği hâlde, finansal tabloların önemli yanlışlık içerdiği şeklinde görüş bildirmesi riskini içermez. Bu riskin genellikle önemsiz olduğu kabul edilir.</p>",
+   "E": "<p>Önemli yanlışlık riskleri; finansal tabloların geneli düzeyinde ve işlem sınıfları, hesap bakiyeleri ile açıklamalara ilişkin yönetim beyanı düzeyinde olmak üzere iki düzeyde ortaya çıkabilir.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    57,
+    133,
+    527,
+    490
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-18",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 18,
+  "konu": "Denetim kanıtı",
+  "ortakBilgi": null,
+  "metin": "<ul class=\"madde\"><li>I. Yazılı beyan, belirli konuları teyit etmek veya diğer denetim kanıtlarını desteklemek için yönetim tarafından denetçiye sunulan yazılı bildirimdir. Bu bağlamda yazılı beyanlar; finansal tabloları, bu tablolarda yer alan yönetim beyanlarını veya bu tabloları destekleyen defterleri ve kayıtları kapsamaz.</li><li>II. Yazılı beyanlar, işletmenin finansal tablolarının denetimiyle ilgili olarak denetçinin talep ettiği gerekli bilgilerdir. Dolayısıyla, sorgulamalara verilen yanıtlar gibi, yazılı beyanlar da denetim kanıtı niteliğindedir.</li><li>III. Yazılı beyanlar gerekli olan denetim kanıtını sağlamalarına rağmen, ele aldıkları konularla ilgili tek başlarına yeterli ve uygun denetim kanıtı sağlamazlar.</li><li>IV. Yönetimin güvenilir yazılı beyanlar sunmuş olması, yönetimin sorumluluklarını yerine getirmesiyle ve belirli yönetim beyanlarıyla ilgili denetçinin elde edeceği diğer denetim kanıtlarının niteliğini veya kapsamını etkilemez.</li></ul><p><strong>Türkiye Bağımsız Denetim Standartları’na göre, finansal tabloların denetiminde, denetçinin yönetimden ve -uygun hâllerde- üst yönetimden sorumlu olanlardan yazılı beyan alması kapsamında yukarıdaki ifadelerden hangisi/hangileri doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>I ve IV</p>",
+   "B": "<p>II ve III</p>",
+   "C": "<p>I, III ve IV</p>",
+   "D": "<p>II, III ve IV</p>",
+   "E": "<p>I, II, III ve IV</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    84,
+    914,
+    516,
+    631
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-19",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 19,
+  "konu": "İç kontrol ve hile",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Finansal Tabloların Bağımsız Denetiminde Türkiye Bağımsız Denetim Standartları-Bağımsız Denetçinin Hileye İlişkin Sorumlulukları kapsamında aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Makul güvence elde ederken denetçi, yönetim tarafından kontrollerin ihlal edilmesi ihtimalini ve hataların ortaya çıkarılmasında etkin olan denetim prosedürlerinin hilenin ortaya çıkarılmasında etkili olacağını göz önünde bulundurarak, tüm denetim boyunca mesleki yetkinliğini sürdürmekle sorumludur.</p>",
+   "B": "<p>Hile kaynaklı önemli bir yanlışlığı tespit edememe riski, hata kaynaklı önemli bir yanlışlığı tespit edememe riskinden daha yüksektir.</p>",
+   "C": "<p>Denetçinin bir hileyi tespit edebilmesi; suç işleyenin becerisi, manipülasyonun sıklığı ve kapsamı, içerdiği muvazaalı işlemin niteliği, manipüle edilen her bir tutarın nispî büyüklüğü ve olaya karışan kişilerin kıdemleri gibi etkenlere bağlıdır.</p>",
+   "D": "<p>Hile yapılmasına fırsat oluşturan durumlar denetçi tarafından daha kolay belirlenebilirken, muhasebe tahminleri gibi yargıya dayalı alanlardaki yanlışlıkların hatadan mı yoksa hileden mi kaynaklandığına karar verilmesi daha zordur.</p>",
+   "E": "<p>Denetçinin, yönetim tarafından yapılan hile kaynaklı önemli yanlışlığı tespit edememe riski, çalışanların yaptığı hileyi tespit edememe riskinden daha yüksektir.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    638,
+    133,
+    526,
+    598
+   ]
+  }
+ },
+ {
+  "id": "2026-2-DEN-20",
+  "donem": "2026-2",
+  "ders": "DEN",
+  "no": 20,
+  "konu": "İç kontrol ve hile",
+  "ortakBilgi": null,
+  "metin": "<p>Bağımsız Denetim Standartları kapsamında; _____; bir kontrolün, finansal tablolarda yer alan yanlışlıkları zamanında önleyemeyecek veya tespit edip düzeltemeyecek şekilde tasarlanması, uygulanması veya kullanılması veya finansal tablolarda yer alan yanlışlıkları zamanında önlemek veya tespit edip düzeltmek için gereken bir kontrolün bulunmaması durumunda mevcuttur.</p><p><strong>Bu ifadede boşluğu en iyi tamamlayan seçenek aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Kontrol riski</p>",
+   "B": "<p>İç kontrol riski</p>",
+   "C": "<p>İç kontrol eksikliği</p>",
+   "D": "<p>Yönetimin ihmali</p>",
+   "E": "<p>Yönetimin ihlali</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 5,
+   "kutu": [
+    638,
+    961,
+    523,
+    351
+   ]
+  }
+ }
+]
