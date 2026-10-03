@@ -34,7 +34,7 @@
   "adimlar": [
    "<p><strong>1. Örtülü kazanç aktarımı yasağı (md. 21/1–2).</strong> Halka açık ortaklıklar ve kolektif yatırım kuruluşları ile bunların iştirak ve bağlı ortaklıklarının, yönetim, denetim veya sermaye bakımından ilişkili oldukları kişilerle emsallerine, piyasa teamüllerine, ticari hayatın basiret ve dürüstlük ilkelerine aykırı fiyat, ücret, bedel veya şartlarla işlem yaparak kârlarını veya malvarlıklarını azaltmaları (ya da artmasını engellemeleri) yasaktır. Yapılması beklenen kârlı faaliyeti yapmayarak ilişkili kişiyi zenginleştirmek de örtülü kazanç aktarımı sayılır.</p>",
    "<p><strong>2. Belgeleme ve saklama (md. 21/3).</strong> Bu kuruluşlar ilişkili taraf işlemlerinin emsallere, piyasa teamüllerine, basiret ve dürüstlük ilkelerine uygun şartlarda yapıldığını <strong>belgelemek</strong> ve bunu tevsik edici bilgi ve belgeleri <strong>en az sekiz yıl</strong> saklamak zorundadır: <strong>D</strong>.</p>",
-   "<p><strong>3. Sonuçları.</strong> Kurul kazanç aktarımını tespit ederse ortaklık, aktarılan tutarın kanuni faiziyle birlikte iadesini ilişkili taraftan ister; ilişkili taraf da Kurulca belirlenen sürede iade etmek zorundadır (md. 21/4). Aynı fiil güveni kötüye kullanma suçunun nitelikli hâli olarak da düzenlenmiştir (md. 110/1-c). Sekiz yıllık saklama yükümlülüğü, bu inceleme ve kovuşturmalar için delilin korunmasını amaçlar.</p>"
+   "<p><strong>3. Sonuçları.</strong> Kurul kazanç aktarımını tespit ederse ortaklık, aktarılan tutarın kanuni faiziyle birlikte iadesini ilişkili taraftan ister; ilişkili taraf da Kurulca belirlenen sürede iade etmek zorundadır (md. 21/4). Aynı fiil güveni kötüye kullanma suçunun nitelikli hâli olarak da düzenlenmiştir (md. 110/1-c). Sekiz yıllık saklama yükümlülüğünün amacı, kanaatimizce, bu inceleme ve kovuşturmalarda işlemin emsale uygunluğunun sonradan da gösterilebilmesidir.</p>"
   ],
   "dayanak": "6362 sayılı SPKn md. 21 (örtülü kazanç aktarımı yasağı), özellikle 21/3 (en az sekiz yıl saklama) ve 21/4 (iade); md. 110/1-c (güveni kötüye kullanma suçunun nitelikli hâli).",
   "tuzaklar": {
@@ -124,7 +124,7 @@
    "<p><strong>2. Kurtuluş kanıtı (md. 32/3).</strong> Bilgilerin yanlış, yanıltıcı veya eksik olduğunu bilmediğini ve bunun kast veya ağır ihmalinden kaynaklanmadığını ispat eden sorumlu olmaz (B).</p>",
    "<p><strong>3. Talebin reddi (md. 32/5).</strong> Tazminat talebi şu hâllerde reddedilir: (a) alım veya satım belgeye dayanmıyorsa; (b) bilgilerin yanlış, yanıltıcı veya eksik olduğu <strong>bilinmesine rağmen</strong> işlem yapılmışsa (D); (c) düzeltme, yatırım kararından önce ilan edilmişse; (ç) bilgiler doğru olsaydı da yatırımcı zarara uğrayacak idiyse (A).</p>",
    "<p><strong>4. Zamanaşımı (md. 32/6).</strong> Tazminat talebi, md. 32/4’teki zararın meydana geldiği tarihten itibaren <strong>altı ay</strong> içinde zamanaşımına uğrar. E şıkkı “üç ay” diyor: <strong>E</strong> yanlıştır.</p>",
-   "<p><strong>Not.</strong> Sorumluluğu hafifleten veya kaldıran anlaşmalar, hüküm veya ifadeler geçersizdir (md. 32/7). Md. 32/4, belgedeki yanlışlıktan sonra alınıp gerçek bilgi ortaya çıkınca satılan araçlarda illiyet bağının kurulmuş sayılacağını düzenler.</p>"
+   "<p><strong>Not.</strong> Sorumluluğu hafifleten veya kaldıran anlaşmalar, hüküm veya ifadeler geçersizdir (md. 32/7). Md. 32/4’e göre yanlış, yanıltıcı veya eksik bilgi içeren izahnamenin geçerlilik süresi boyunca, diğer kamuyu aydınlatma belgelerinde ise belgenin kamuya açıklandığı tarihten hemen sonra, ilk halka arzdan veya borsada alınan veya satılan araçların, gerçeğe uygun bilgi ortaya çıktıktan hemen sonra borsada satılması veya satın alınması üzerine zarar doğarsa, belge ile zarar arasında illiyet bağı kurulmuş sayılır.</p>"
   ],
   "dayanak": "6362 sayılı SPKn md. 32 (kamuyu aydınlatma belgelerinden doğan sorumluluk): 32/1–3, 32/5-b ve ç, 32/6 (altı ay zamanaşımı), 32/7.",
   "tuzaklar": {
@@ -295,25 +295,26 @@
   "sonuc": "E",
   "ozet": "SPKn md. 116/1: Kanunda tanımlanan veya atıfta bulunulan suçlardan dolayı yargılamaya HSK’nın ihtisas mahkemesi olarak görevlendireceği asliye ceza mahkemeleri yetkilidir: E.",
   "adimlar": [
-   "<p><strong>1. Kural (md. 116/1).</strong> Bu Kanunda tanımlanan veya atıfta bulunulan suçlardan dolayı yargılama yapmaya Hâkimler ve Savcılar Kurulunun (HSK) ihtisas mahkemesi olarak görevlendireceği <strong>asliye ceza mahkemeleri</strong> yetkilidir: <strong>E</strong>.</p>",
-   "<p><strong>2. Soruşturma şartı (md. 115).</strong> Bu suçlardan soruşturma yapılması, Kurulun Cumhuriyet başsavcılığına yazılı başvurusuna bağlıdır ve bu başvuru muhakeme şartıdır. Kamu davası açılırsa Kurul katılan sıfatını kazanır; kovuşturmaya yer olmadığı kararına itiraz edebilir.</p>",
-   "<p><strong>3. Neden ağır ceza değil?</strong> Bilgi suistimali ve piyasa dolandırıcılığı gibi suçlarda üç yıldan beş yıla kadar hapis öngörülse de görev, ceza miktarına göre değil md. 116’daki özel hükümle belirlenmiştir: ihtisas mahkemesi olarak görevlendirilen asliye ceza mahkemesi.</p>"
+   "<p><strong>1. Kural (md. 116/1).</strong> Bu Kanunda tanımlanan veya atıfta bulunulan suçlardan dolayı yargılama yapmaya Hâkimler ve Savcılar Yüksek Kurulunun (2017 Anayasa değişikliğiyle Hâkimler ve Savcılar Kurulu, HSK) ihtisas mahkemesi olarak görevlendireceği <strong>asliye ceza mahkemeleri</strong> yetkilidir: <strong>E</strong>. Soru kökü bu fıkrayı aynen alıntılar.</p>",
+   "<p><strong>2. Soruşturma şartı (md. 115).</strong> Kural olarak bu suçlardan soruşturma yapılması, Kurulun Cumhuriyet başsavcılığına yazılı başvurusuna bağlıdır ve bu başvuru muhakeme şartıdır. Kamu davası açılırsa Kurul katılan sıfatını kazanır; kovuşturmaya yer olmadığı kararına itiraz edebilir (md. 115/1–4).</p>",
+   "<p><strong>3. İstisna: kripto varlık hizmet sağlayıcılarda zimmet (md. 110/A, 115/A).</strong> 26/6/2024 tarihli ve 7518 sayılı Kanunla eklenen md. 110/A, kripto varlık hizmet sağlayıcılarda zimmeti ağır cezalarla düzenler (sekiz yıldan on dört yıla, hileli zimmette on dört yıldan yirmi yıla, kontrol sahibi ortakların kaynak kullandırmasında on iki yıldan yirmi iki yıla kadar hapis). Bu zimmet suçuna ait davalar, fiilin işlendiği yerin bağlı olduğu ilin adıyla anılan <strong>(1) numaralı ağır ceza mahkemelerinde</strong> görülür (md. 115/A-3). Md. 110/A-3’teki suç için soruşturma Kurulun yazılı bildirimi üzerine veya <strong>gecikmesinde sakınca görülen hâllerde resen</strong> Cumhuriyet savcılarınca yapılır (md. 115/A-1).</p>",
+   "<p><strong>4. Genel görev kuralıyla ilişkisi.</strong> Genel kurala göre ağır ceza mahkemesi, kanunların ayrıca görevli kıldığı hâller saklı kalmak üzere, on yıldan fazla hapis cezası gerektiren suçlara bakar; geri kalanlar asliye cezanındır (5235 sayılı Kanun md. 11–12). Bilgi suistimali ve piyasa dolandırıcılığı gibi üç yıldan beş yıla kadar hapis gerektiren suçlar zaten asliye cezaya düşer; md. 116/1 bunları ihtisas asliye ceza mahkemelerinde toplar. Üst sınırı on yılı aşan md. 110/A zimmeti ise md. 115/A-3 ile ağır cezaya gönderilmiştir. Soru md. 116/1’in cümlesini sorduğu için cevap <strong>E</strong>’dir.</p>"
   ],
-  "dayanak": "6362 sayılı SPKn md. 116/1 (görev ve yetki), md. 115/1–4 (yazılı başvuru ve özel soruşturma usulleri), md. 105/4 (idari para cezalarına karşı idari yargı).",
+  "dayanak": "6362 sayılı SPKn md. 116/1 (görev ve yetki), md. 115/1–4 (yazılı başvuru ve özel soruşturma usulleri), md. 110/A ve 115/A-1, 3 (kripto varlık hizmet sağlayıcılarda zimmet; özel soruşturma usulü ve (1) numaralı ağır ceza mahkemesi; 7518 sayılı Kanunla eklendi), md. 105/4 (idari para cezalarına karşı idari yargı); 5235 sayılı Kanun md. 11–12 (asliye ceza ve ağır ceza mahkemelerinin görevi).",
   "tuzaklar": {
    "A": "Danıştay idari yargı merciidir. Kurulun verdiği idari para cezalarına karşı idari yargı yoluna gidilir (md. 105/4); suçların yargılanması ise ceza mahkemesine aittir.",
-   "B": "Suçların cezası yüksek olsa da Kanun görevi özel olarak düzenlemiştir: HSK’nın ihtisas mahkemesi olarak görevlendirdiği asliye ceza mahkemeleri (md. 116/1).",
+   "B": "Md. 116/1’in cümlesi asliye ceza mahkemelerini sayar. SPKn ağır ceza mahkemesini yalnız md. 110/A’daki kripto varlık hizmet sağlayıcılarda zimmet davaları için görevlendirir (md. 115/A-3); soru bu istisnayı değil md. 116/1’i sorar.",
    "C": "Ticaret mahkemeleri hukuk davalarına bakar; örneğin kayıtlı sermaye sisteminde yönetim kurulu kararlarına karşı iptal davası ortaklık merkezindeki ticaret mahkemesinde açılır (md. 18/6). Ceza yargılaması yapmaz.",
    "D": "Asliye hukuk mahkemeleri hukuk davalarına bakar; sermaye piyasası suçlarında görevli değildir."
   },
   "kartlar": [
    {
     "on": "Sermaye piyasası suçlarında görevli mahkeme hangisidir?",
-    "arka": "HSK’nın ihtisas mahkemesi olarak görevlendirdiği asliye ceza mahkemeleri (SPKn md. 116/1)."
+    "arka": "Kural: HSK’nın ihtisas mahkemesi olarak görevlendirdiği asliye ceza mahkemeleri (SPKn md. 116/1). İstisna: kripto varlık hizmet sağlayıcılarda zimmet (md. 110/A) davaları, fiilin işlendiği ilin (1) numaralı ağır ceza mahkemesinde görülür (md. 115/A-3)."
    },
    {
     "on": "Sermaye piyasası suçlarında soruşturma nasıl başlar?",
-    "arka": "Kurulun Cumhuriyet başsavcılığına yazılı başvurusuyla; başvuru muhakeme şartıdır, dava açılırsa Kurul katılan olur (SPKn md. 115/1–2)."
+    "arka": "Kural: Kurulun Cumhuriyet başsavcılığına yazılı başvurusuyla; başvuru muhakeme şartıdır, dava açılırsa Kurul katılan olur (SPKn md. 115/1–2). İstisna: md. 110/A-3’teki kripto zimmet suçunda Kurulun yazılı bildirimi üzerine veya gecikmesinde sakınca varsa savcılıkça resen soruşturma yapılır (md. 115/A-1)."
    }
   ],
   "konuBaglantisi": "Sermaye piyasası suçları"
@@ -482,7 +483,7 @@
    },
    {
     "on": "Adli para cezası ile idari para cezasını kim verir?",
-    "arka": "İdari para cezasını Kurul verir (md. 103–104). Adli para cezası suçların cezasıdır; asliye ceza mahkemesi hükmeder (md. 106–107, 116/1)."
+    "arka": "İdari para cezasını Kurul verir (md. 103–104). Adli para cezası suçların cezasıdır ve mahkemece hükmedilir; md. 106–107 suçlarında (bilgi suistimali, piyasa dolandırıcılığı) görevli mahkeme asliye ceza mahkemesidir (md. 116/1)."
    }
   ],
   "konuBaglantisi": "Denetim, tedbirler ve idari yaptırımlar"
