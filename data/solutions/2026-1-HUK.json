@@ -1,0 +1,553 @@
+[
+ {
+  "id": "2026-1-HUK-01",
+  "sonuc": "E",
+  "ozet": "5510 md. 3/1-10 eşi, çocukları ve geçimi sağlanan ana-babayı bakmakla yükümlü olunan kişi sayar; SGK’nın 2017/26 sayılı Genelgesi oturma izni almamış yabancı uyruklu anne-babayı açıkça “bakmakla yükümlü olunan kişi sayılmayanlar” arasında gösterir: E.",
+  "adimlar": [
+   "<p><strong>1. Kanundaki tanım.</strong> 5510 md. 3/1-10’a göre bakmakla yükümlü olunan kişi; genel sağlık sigortalısının, kendisi sigortalı veya isteğe bağlı sigortalı olmayan ve kendi sigortalılığı nedeniyle gelir ya da aylık almayan (a) <strong>eşi</strong>, (b) 18 yaşını (lise ve dengi öğrenim veya çıraklık/meslekî eğitimde 20, yükseköğrenimde 25 yaşını) doldurmamış ve evli olmayan <strong>çocukları</strong> ile yaşına bakılmaksızın malul olduğu tespit edilen evli olmayan çocukları, (c) geçiminin sigortalı tarafından sağlandığı Kurumca belirlenen kriterlere göre tespit edilen <strong>ana ve babası</strong>dır.</p>",
+   "<p><strong>2. Eş ve çocuk (B, C).</strong> Doğrudan kanun metnindedir; ikisi de bakmakla yükümlü olunan kişidir.</p>",
+   "<p><strong>3. Evlatlık (D).</strong> SGK Genelgesi 2017/26, bölüm 1.4: genel sağlık sigortalısı tarafından mahkeme kararıyla evlat edinilen çocuk, md. 3/1-10’a göre bakmakla yükümlü olunan kişi olarak sağlık hizmetlerinden yararlandırılır. Evlatlık, kanundaki “çocuk” kavramına girer.</p>",
+   "<p><strong>4. Oturma izni almamış anne-baba (E).</strong> Kanun ana-babayı sayar ama yabancı uyruklu ana-baba için uygulama şartını Kurum belirlemiştir. SGK Genelgesi 2017/26, bölüm 1.8 “Bakmakla Yükümlü Olunan Kişi Sayılmayanlar”: <em>(2) Genel sağlık sigortalısının oturma izni almamış yabancı uyruklu anne/babaları</em> bakmakla yükümlü olunan kişi sayılmaz. Bu dışlama koşulsuzdur: <strong>E</strong>.</p>",
+   "<p><strong>5. Not (tartışmalı).</strong> Aynı Genelgenin 1.6.4 bölümüne göre üvey çocuklar yalnız geçiş hükümleri kapsamında bakmakla yükümlü olunan kişi sayılır: 5510 geçici 4. madde kapsamındaki (devirden önce göreve başlamış) kamu görevlilerinin üvey çocukları ve 01/01/2012’den önce görevlendirilen güvenlik korucularının üvey çocukları. 01/10/2008’den sonra ilk kez 4/1-c kapsamında çalışmaya başlayanların ve diğer bütün genel sağlık sigortalılarının üvey çocukları bakmakla yükümlü olunan kişi <strong>sayılmaz</strong>. Bu okumayla <strong>A</strong> da doğru cevap olabilir. Resmî cevap E’dir: anne-babanın dışlanması herkes için geçerlidir, üvey çocuğun dışlanması ise geçiş hükümleri kapsamındaki sigortalılar için geçerli değildir. İki kural da kanun metninde değil, SGK Genelgesindedir.</p>"
+  ],
+  "dayanak": "5510 sayılı Kanun md. 3/1-10 (bakmakla yükümlü olunan kişi). SGK Genelgesi 2017/26 (7/9/2017, Genel Sağlık Sigortası Sağlık Aktivasyon İşlemleri), bölüm 1.4 (evlat edinilen çocuklar), 1.6.4 (üvey çocuklar), 1.8 (bakmakla yükümlü olunan kişi sayılmayanlar).",
+  "tuzaklar": {
+   "A": "Kanun “çocuk” der; üvey çocuğu ayrıca saymaz. SGK uygulamasında üvey çocuk yalnız geçiş hükümleri kapsamında (eski memur statüsü, 2012 öncesi güvenlik korucuları) bakmakla yükümlü olunan kişi sayılır. Resmî cevap bu nedenle A’yı değil, koşulsuz dışlanan E’yi esas almıştır (bkz. Not).",
+   "B": "Çocuk, 5510 md. 3/1-10-b’de açıkça sayılır (18, öğrenimde 20 veya 25 yaş; malul ise yaş sınırı yok; evli olmamak şartı).",
+   "C": "Eş, 5510 md. 3/1-10-a’da ilk sırada sayılır.",
+   "D": "Mahkeme kararıyla evlat edinilen çocuk “çocuk” kavramına girer ve bakmakla yükümlü olunan kişi sayılır (SGK Genelgesi 2017/26, bölüm 1.4)."
+  },
+  "kartlar": [
+   {
+    "on": "5510’a göre genel sağlık sigortalısının bakmakla yükümlü olduğu kişiler kimlerdir?",
+    "arka": "Kendisi sigortalı olmayan ve kendi sigortalılığından gelir/aylık almayan: eşi; 18 yaşını (lise ve dengi öğrenimde 20, yükseköğrenimde 25) doldurmamış evli olmayan çocukları ve yaşına bakılmaksızın malul evli olmayan çocukları; geçimi sigortalıca sağlanan ana ve babası (md. 3/1-10)."
+   },
+   {
+    "on": "Evlatlık, üvey çocuk ve oturma izni almamış yabancı anne-baba GSS’de bakmakla yükümlü olunan kişi midir?",
+    "arka": "Evlatlık: evet. Üvey çocuk: kural olarak hayır, yalnız geçiş hükümleri kapsamında (eski memurlar, 2012 öncesi korucular) evet. Oturma izni almamış yabancı uyruklu anne-baba: hayır (SGK Genelgesi 2017/26)."
+   }
+  ],
+  "konuBaglantisi": "Sosyal güvenlik"
+ },
+ {
+  "id": "2026-1-HUK-02",
+  "sonuc": "D",
+  "ozet": "İş K. md. 15: deneme süresi en çok iki aydır; toplu iş sözleşmesiyle dört aya kadar uzatılabilir: D.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> İş K. md. 15/1: taraflar iş sözleşmesine deneme kaydı koyarsa bunun süresi <strong>en çok iki ay</strong> olabilir. Ancak deneme süresi <strong>toplu iş sözleşmeleriyle dört aya kadar</strong> uzatılabilir.</p>",
+   "<p><strong>2. Uygulama.</strong> Soru toplu iş sözleşmesiyle ulaşılabilecek üst sınırı soruyor: <strong>4 ay</strong>, <strong>D</strong>.</p>",
+   "<p><strong>3. Deneme süresinin sonucu.</strong> Deneme süresi içinde taraflar sözleşmeyi bildirim süresine gerek olmaksızın ve tazminatsız feshedebilir; işçinin çalıştığı günler için ücret ve diğer hakları saklıdır (md. 15/2).</p>"
+  ],
+  "dayanak": "İş K. md. 15 (deneme süreli iş sözleşmesi).",
+  "tuzaklar": {
+   "B": "2 ay, bireysel iş sözleşmesine konabilecek deneme süresinin üst sınırıdır. Soru toplu iş sözleşmesiyle uzatmayı soruyor; bu sınır 4 aydır.",
+   "C": "3 ay kanunda geçen bir sınır değildir; iki sınır 2 ay (iş sözleşmesi) ve 4 ay (toplu iş sözleşmesi) olarak belirlenmiştir.",
+   "E": "6 ay deneme süresi için öngörülmüş bir süre değildir; toplu iş sözleşmesiyle bile 4 ay aşılamaz."
+  },
+  "kartlar": [
+   {
+    "on": "İş Kanunu’nda deneme süresi en çok ne kadardır?",
+    "arka": "İş sözleşmesiyle en çok 2 ay; toplu iş sözleşmesiyle 4 aya kadar uzatılabilir (İş K. 15)."
+   },
+   {
+    "on": "Deneme süresi içinde fesih nasıl yapılır?",
+    "arka": "Taraflar bildirim süresine gerek olmaksızın ve tazminatsız feshedebilir; işçinin çalıştığı günlerin ücreti ve diğer hakları saklıdır (İş K. 15)."
+   }
+  ],
+  "konuBaglantisi": "İş hukuku"
+ },
+ {
+  "id": "2026-1-HUK-03",
+  "sonuc": "C",
+  "ozet": "TBK’da borcu sona erdiren hâller ifa, ibra, yenileme, birleşme, ifa imkânsızlığı ve takastır; zamanaşımı aynı bölümde düzenlenir. Ölüm borcu sona erdirmez, borç mirasçılara geçer: C.",
+  "adimlar": [
+   "<p><strong>1. TBK sistematiği.</strong> Borçların ifası İkinci Bölümde (md. 83 vd.) düzenlenir; ifa, borcu sona erdirmenin olağan yoludur. Üçüncü Bölümün başlığı “Borçların ve Borç İlişkilerinin Sona Ermesi, Zamanaşımı”dır. Birinci Ayırımında (“Sona Erme Hâlleri”) <strong>ibra</strong> (md. 132), yenileme (md. 133), birleşme (md. 135), ifa imkânsızlığı (md. 136) ve <strong>takas</strong> (md. 139–145); İkinci Ayırımında <strong>zamanaşımı</strong> (md. 146 vd.) yer alır.</p>",
+   "<p><strong>2. Ölüm.</strong> TMK md. 599’a göre mirasçılar, mirasbırakanın ölümüyle mirası bir bütün olarak kazanır ve <strong>mirasbırakanın borçlarından kişisel olarak sorumlu olur</strong>. Borçlunun ölümüyle borç sona ermez, mirasçılara geçer. Ölüm TBK’nın saydığı sona erme hâllerinden biri değildir: <strong>C</strong>.</p>",
+   "<p><strong>3. Ölümün istisnai etkisi.</strong> Kişiye sıkı sıkıya bağlı bazı sözleşmeler ölümle kendiliğinden sona erer; örneğin hizmet sözleşmesi işçinin ölümüyle (TBK md. 440), vekâlet sözleşmesi kural olarak vekilin veya vekâlet verenin ölümüyle (TBK md. 513). Bunlar sözleşmeye özgü hükümlerdir; borçları sona erdiren genel bir hâl değildir.</p>",
+   "<p><strong>Not.</strong> Zamanaşımı alacağı ortadan kaldırmaz; dava yoluyla istenebilirliğini ortadan kaldırır ve borçlu ileri sürmedikçe hâkim onu kendiliğinden dikkate alamaz (TBK md. 161). Bu nedenle öğretide “eksik borç” doğurduğu söylenir. Ancak TBK zamanaşımını sona erme hâlleriyle aynı bölümde düzenler ve ders kitapları onu borcu sona erdiren hâller arasında sayar. Ölüm ise hiçbir sınıflandırmada genel bir sona erme hâli değildir.</p>"
+  ],
+  "dayanak": "TBK md. 83 vd. (ifa), md. 132 (ibra), md. 139–145 (takas), md. 146 vd. (zamanaşımı), md. 161 (zamanaşımı re’sen dikkate alınmaz), md. 440 ve 513 (ölümle sona eren sözleşmeler); TMK md. 599 (mirasçıların borçlardan sorumluluğu).",
+  "tuzaklar": {
+   "A": "İfa, borcu sona erdirmenin olağan yoludur (TBK md. 83 vd.).",
+   "B": "Zamanaşımı TBK’da sona erme hâlleriyle aynı bölümde düzenlenir ve sona erme sebepleri arasında sayılır. Teknik olarak alacağı eksik borca dönüştürür (md. 161); bu incelik onu ölümle aynı konuma koymaz.",
+   "D": "Takas, TBK md. 139 vd.’da düzenlenmiş bir sona erme hâlidir: karşılıklı ve muaccel para veya özdeş edim borçlarında borçlu takas iradesini alacaklıya bildirince iki borç, takas edilebilecekleri anda daha az olan borç tutarınca sona erer (md. 143).",
+   "E": "İbra, TBK md. 132’de düzenlenmiş bir sona erme hâlidir: alacaklı ile borçlunun anlaşmasıyla borç kısmen veya tamamen ortadan kalkar."
+  },
+  "kartlar": [
+   {
+    "on": "TBK’ya göre borcu sona erdiren hâller nelerdir?",
+    "arka": "İfa (md. 83 vd.), ibra (132), yenileme (133), birleşme (135), ifa imkânsızlığı (136), takas (139–145); aynı bölümde zamanaşımı (146 vd.)."
+   },
+   {
+    "on": "Borçlunun ölümü borcu sona erdirir mi?",
+    "arka": "Hayır. Mirasçılar mirasbırakanın borçlarından kişisel olarak sorumlu olur (TMK 599). Yalnız kişiye bağlı bazı sözleşmeler ölümle sona erer (ör. hizmet sözleşmesi işçinin ölümüyle, TBK 440; vekâlet, TBK 513)."
+   }
+  ],
+  "konuBaglantisi": "Borçlar: genel hükümler"
+ },
+ {
+  "id": "2026-1-HUK-04",
+  "sonuc": "B",
+  "ozet": "Haksız fiilden doğan tazminat istemi, zarar görenin zararı ve tazminat yükümlüsünü öğrendiği tarihten itibaren 2 yıl, her hâlde fiilden itibaren 10 yılda zamanaşımına uğrar (TBK md. 72): B.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> TBK md. 72/1: tazminat istemi, zarar görenin <strong>zararı ve tazminat yükümlüsünü öğrendiği tarihten başlayarak iki yılın</strong> ve her hâlde fiilin işlendiği tarihten başlayarak on yılın geçmesiyle zamanaşımına uğrar. Tazminat, ceza kanunlarının daha uzun zamanaşımı öngördüğü bir fiilden doğmuşsa o süre uygulanır.</p>",
+   "<p><strong>2. Haksız fiille mal edinme.</strong> Haksız fiille bir malvarlığı değeri edinilmişse zarar gören, haksız fiil tazminatı yanında sebepsiz zenginleşme hükümlerine de dayanabilir. TBK md. 82’ye göre sebepsiz zenginleşmeden doğan istem de geri isteme hakkının öğrenildiği tarihten itibaren <strong>iki yıl</strong>, her hâlde zenginleşmeden itibaren on yılda zamanaşımına uğrar. İki yoldan da öğrenmeye bağlı süre 2 yıldır: <strong>B</strong>.</p>",
+   "<p><strong>3. Def’i hakkı.</strong> Haksız fiil dolayısıyla zarar gören bakımından bir borç doğmuşsa (ör. aldatmayla imzalatılan bir borç senedi), tazminat istemi zamanaşımına uğramış olsa bile zarar gören bu borcu ifadan her zaman kaçınabilir (TBK md. 72/2).</p>"
+  ],
+  "dayanak": "TBK md. 72 (haksız fiilde zamanaşımı: 2 yıl / 10 yıl; ceza zamanaşımı; ifadan kaçınma), TBK md. 82 (sebepsiz zenginleşmede zamanaşımı: 2 yıl / 10 yıl).",
+  "tuzaklar": {
+   "A": "1 yıl, 6098 sayılı TBK’dan önce yürürlükte olan 818 sayılı Borçlar Kanunu’ndaki süreydi. TBK bu süreyi 2 yıla çıkarmıştır.",
+   "D": "5 yıl, TBK md. 147’deki beş yıllık zamanaşımına tabi alacaklar içindir (ör. kira bedelleri, faizler); haksız fiil tazminatına uygulanmaz.",
+   "E": "TBK’da 8 yıllık bir zamanaşımı süresi yoktur; haksız fiilde süreler 2 yıl (öğrenme) ve 10 yıldır (fiil)."
+  },
+  "kartlar": [
+   {
+    "on": "Haksız fiilden doğan tazminat isteminde zamanaşımı?",
+    "arka": "Zararı ve tazminat yükümlüsünü öğrenmeden itibaren 2 yıl; her hâlde fiilden itibaren 10 yıl. Fiil daha uzun ceza zamanaşımına tabi bir suçsa o süre (TBK 72)."
+   },
+   {
+    "on": "Sebepsiz zenginleşmede zamanaşımı?",
+    "arka": "Geri isteme hakkının öğrenilmesinden itibaren 2 yıl; her hâlde zenginleşmeden itibaren 10 yıl (TBK 82)."
+   }
+  ],
+  "konuBaglantisi": "Borçlar: genel hükümler"
+ },
+ {
+  "id": "2026-1-HUK-05",
+  "sonuc": "A",
+  "ozet": "İYUK md. 14/3’e göre dilekçeler görev ve yetki, idari merci tecavüzü, ehliyet, kesin ve yürütülmesi gereken işlem, süre aşımı, husumet ve 3-5. maddelere uygunluk yönünden incelenir; ivedilik bu listede yoktur: A.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> İYUK md. 14/3: dilekçeler Danıştayda tetkik hâkimi, idare ve vergi mahkemelerinde mahkeme başkanı veya görevlendireceği üye tarafından sırasıyla şu yönlerden incelenir: a) <strong>görev ve yetki</strong>, b) <strong>idari merci tecavüzü</strong>, c) ehliyet, d) idari davaya konu olacak kesin ve yürütülmesi gereken bir işlem olup olmadığı, e) <strong>süre aşımı</strong>, f) <strong>husumet</strong>, g) 3 ve 5. maddelere uygunluk (dilekçenin şekli ve her işleme ayrı dava).</p>",
+   "<p><strong>2. Uygulama.</strong> B, C, D ve E listede yer alır. “İvedilik” ilk inceleme konusu değildir: <strong>A</strong>.</p>",
+   "<p><strong>3. İvedilik nerede geçer?</strong> İYUK md. 20/A ivedi yargılama usulünü düzenler: ihaleden yasaklama hariç ihale işlemleri, acele kamulaştırma, Özelleştirme Yüksek Kurulu kararları gibi sayılan uyuşmazlıklarda dava açma süresi 30 gündür ve yargılama kısaltılmış sürelerle yürür. Bu, davanın türüne bağlı bir usuldür; dilekçenin ilk incelemesinde bakılan bir husus değildir.</p>",
+   "<p><strong>Not.</strong> İlk inceleme ve buna ilişkin işlemler dilekçenin alındığı tarihten itibaren en geç 15 gün içinde sonuçlandırılır (md. 14/4). Eksiklik görülürse md. 15’e göre karar verilir; bu hususlar sonradan anlaşılırsa davanın her safhasında md. 15 uygulanır (md. 14/6).</p>"
+  ],
+  "dayanak": "İYUK md. 14/3 (ilk inceleme konuları), md. 14/4 (15 günlük süre), md. 20/A (ivedi yargılama usulü).",
+  "tuzaklar": {
+   "B": "İdari merci tecavüzü md. 14/3-b’de sayılır: dava dilekçesinin görevli olmayan bir idari makama verilmesi.",
+   "C": "Görev ve yetki md. 14/3-a’da, listenin ilk sırasındadır.",
+   "D": "Husumet (davanın doğru idareye yöneltilip yöneltilmediği) md. 14/3-f’de sayılır.",
+   "E": "Süre aşımı md. 14/3-e’de sayılır."
+  },
+  "kartlar": [
+   {
+    "on": "İYUK md. 14’e göre ilk inceleme konuları (sırasıyla)?",
+    "arka": "Görev ve yetki; idari merci tecavüzü; ehliyet; kesin ve yürütülmesi gereken işlem olup olmadığı; süre aşımı; husumet; 3 ve 5. maddelere uygunluk. İnceleme 15 gün içinde sonuçlandırılır."
+   },
+   {
+    "on": "İvedi yargılama usulü hangi uyuşmazlıklarda uygulanır?",
+    "arka": "İYUK 20/A: ihaleden yasaklama hariç ihale işlemleri, acele kamulaştırma, ÖYK kararları, 2634 sayılı Kanun’a göre satış/tahsis/kiralama, ÇED kararları (idari yaptırım hariç), 6306 sayılı Kanun’a göre Cumhurbaşkanı kararları. Dava açma süresi 30 gün."
+   }
+  ],
+  "konuBaglantisi": "İdari yargı"
+ },
+ {
+  "id": "2026-1-HUK-06",
+  "sonuc": "B",
+  "ozet": "İYUK md. 28/1: idare, esasa ve yürütmenin durdurulmasına ilişkin kararların gereğini gecikmeksizin yerine getirmek zorundadır; bu süre kararın idareye tebliğinden itibaren 30 günü geçemez: B.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> İYUK md. 28/1: Danıştay, bölge idare mahkemeleri, idare ve vergi mahkemelerinin esasa ve yürütmenin durdurulmasına ilişkin kararlarının gereğine göre idare, <strong>gecikmeksizin</strong> işlem tesis etmeye veya eylemde bulunmaya mecburdur. <em>Bu süre hiçbir şekilde kararın idareye tebliğinden başlayarak otuz günü geçemez.</em></p>",
+   "<p><strong>2. Uygulama.</strong> En fazla <strong>30 gün</strong>: <strong>B</strong>.</p>",
+   "<p><strong>3. Yerine getirilmezse.</strong> Karara göre işlem tesis edilmez veya eylemde bulunulmazsa idare aleyhine maddi ve manevi tazminat davası açılabilir (md. 28/3); kararın süresinde kamu görevlilerince yerine getirilmemesi hâlinde tazminat davası ancak ilgili idare aleyhine açılabilir (md. 28/4).</p>",
+   "<p><strong>Not.</strong> 7588 sayılı Kanun’la (2/7/2026) md. 28/1’e eklenen cümleye göre Millî Savunma Bakanlığı, Jandarma, Sahil Güvenlik, Emniyet ve MİT personeli ile adayları gibi sayılan gruplarda, terör örgütleriyle iltisak gibi gerekçelerle göreve alınmama veya görevden çıkarılma ile olumsuz güvenlik soruşturmasına dayanan işlemlere karşı açılan davalarda, göreve iade sonucunu doğuran kararlar nihai kararların kesinleşmesinden sonra yerine getirilir. Bu sınırlı bir istisnadır; genel kural 30 gündür.</p>"
+  ],
+  "dayanak": "İYUK md. 28/1 (kararların 30 gün içinde yerine getirilmesi), md. 28/3–4 (yerine getirmeme hâlinde tazminat davası).",
+  "tuzaklar": {
+   "A": "15 gün, İYUK’ta ilk incelemenin sonuçlandırılma süresidir (md. 14/4); kararların yerine getirilme süresi değildir.",
+   "C": "60 gün, Danıştay ve idare mahkemelerinde genel dava açma süresidir (İYUK md. 7/1; vergi mahkemelerinde 30 gün). Kararın uygulanma süresiyle karıştırılmamalıdır.",
+   "E": "120 gün, md. 28’de geçmez; idare için üst sınır tebliğden itibaren 30 gündür."
+  },
+  "kartlar": [
+   {
+    "on": "İdare, idari yargı kararını en geç ne zaman yerine getirmek zorundadır?",
+    "arka": "Gecikmeksizin; her hâlde kararın idareye tebliğinden itibaren 30 gün içinde (İYUK 28/1). Esasa ve yürütmenin durdurulmasına ilişkin kararlar için geçerlidir."
+   },
+   {
+    "on": "İYUK’ta genel dava açma süreleri?",
+    "arka": "Danıştay ve idare mahkemelerinde 60 gün, vergi mahkemelerinde 30 gün (İYUK 7/1); ivedi yargılamada 30 gün (20/A)."
+   }
+  ],
+  "konuBaglantisi": "İdari yargı"
+ },
+ {
+  "id": "2026-1-HUK-07",
+  "sonuc": "E",
+  "ozet": "5510 md. 8/1-b: ilk defa işyeri bildirgesi verilecek işyerlerinde, ilk sigortalı çalıştırılan tarihten itibaren bir ay içinde işe başlayanların işe giriş bildirgesi en geç bu bir aylık sürenin sonuna kadar verilebilir: 1 ay, E.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> 5510 md. 8/1: işveren, 4/1-a sigortalılarını sigortalılık başlangıcından <strong>önce</strong> sigortalı işe giriş bildirgesiyle Kuruma bildirir.</p>",
+   "<p><strong>2. İstisnalar.</strong> a) İnşaat, balıkçılık ve tarım işyerlerinde en geç çalışmaya başlatıldığı gün; <strong>b) yabancı ülkelere sefer yapan ulaştırma araçlarına sefer esnasında alınanlar ile Kuruma ilk defa işyeri bildirgesi verilecek işyerlerinde, ilk defa sigortalı çalıştırmaya başlanılan tarihten itibaren bir ay içinde çalışmaya başlayanlar için, çalışmaya başladıkları tarihten itibaren en geç söz konusu bir aylık sürenin dolduğu tarihe kadar</strong>; c) kamu idarelerinin 4447’ye tabi olmayan sözleşmeli personeli ve yurt dışı görev için işe alınanlar için bir ay içinde. Bu sürelerde verilen bildirge, sigortalılık başlangıcından önce verilmiş sayılır.</p>",
+   "<p><strong>3. Uygulama.</strong> Soru (b) bendini soruyor: <strong>1 ay</strong>, <strong>E</strong>.</p>",
+   "<p><strong>Not.</strong> Bir aylık süre her işçi için ayrı işlemez; işyerinde ilk kez sigortalı çalıştırılmaya başlanan tarihten itibaren işler. O ay içinde sonradan işe başlayan işçi için kalan süre bir aydan kısa olur. Ayrıca sigortalılar da çalışmaya başladıkları tarihten itibaren en geç bir ay içinde kendilerini Kuruma bildirir; bildirmemeleri aleyhlerine delil sayılmaz (md. 8/2). Kökteki “sigortalı olarak çalışmaya başladıklarını … bildirir” ifadesi bu ikinci fıkranın diline yakındır; iki okumada da süre bir aydır. Kitapçıkta E şıkkı “1ay” (boşluksuz) basılmıştır.</p>"
+  ],
+  "dayanak": "5510 sayılı Kanun md. 8/1 (işe giriş bildirgesi; a, b, c bentlerindeki istisnalar), md. 8/2 (sigortalının kendini bir ay içinde bildirmesi).",
+  "tuzaklar": {
+   "A": "“Çalışmaya başlatıldığı gün” kuralı md. 8/1-a’ya, yani inşaat, balıkçılık ve tarım işyerlerine aittir; ilk defa işyeri bildirgesi verilecek işyerleri (b) bendindedir.",
+   "C": "Md. 8’de bir haftalık bildirim süresi yoktur.",
+   "D": "Md. 8’de iki haftalık bildirim süresi yoktur; (b) ve (c) bentlerinde süre bir aydır."
+  },
+  "kartlar": [
+   {
+    "on": "Sigortalı işe giriş bildirgesi ne zaman verilir (5510 md. 8)?",
+    "arka": "Kural: çalışmaya başlamadan önce. İnşaat, balıkçılık, tarım: en geç işe başlatıldığı gün. Yabancı ülkelere sefer yapan araçlarda sefer esnasında alınanlar ve ilk defa işyeri bildirgesi verilecek işyerlerinde ilk ay içinde başlayanlar: ilk sigortalı çalıştırma tarihinden itibaren bir aylık sürenin sonuna kadar."
+   },
+   {
+    "on": "Sigortalı kendini Kuruma ne kadar sürede bildirir?",
+    "arka": "Çalışmaya başladığı tarihten itibaren en geç bir ay içinde; bildirmemesi aleyhine delil olmaz (5510 md. 8/2)."
+   }
+  ],
+  "konuBaglantisi": "Sosyal güvenlik"
+ },
+ {
+  "id": "2026-1-HUK-08",
+  "sonuc": "C",
+  "ozet": "5510 md. 16’ya göre iş kazası veya meslek hastalığı sonucu ölen sigortalının hak sahiplerine (eş, çocuk, ana ve baba) gelir bağlanır; “üçüncü derecede yakınlar” diye bir hak sahibi grubu yoktur: C.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> 5510 md. 16/1: iş kazası veya meslek hastalığı sigortasından sağlanan haklar: a) sigortalıya geçici iş göremezlik süresince günlük geçici iş göremezlik ödeneği; b) sigortalıya sürekli iş göremezlik geliri; c) iş kazası veya meslek hastalığı sonucu ölen sigortalının <strong>hak sahiplerine</strong> gelir; d) gelir bağlanmış kız çocuklarına evlenme ödeneği; e) iş kazası ve meslek hastalığı sonucu ölen sigortalı için cenaze ödeneği. Hastalık ve analık sigortasından da geçici iş göremezlik ödeneği ve emzirme ödeneği verilir (md. 16/2–3).</p>",
+   "<p><strong>2. Hak sahibi kimdir?</strong> 5510 md. 3/1-7: hak sahibi; sigortalının ölümü hâlinde gelir veya aylık bağlanmasına ya da toptan ödeme yapılmasına hak kazanan <strong>eş, çocuk, ana ve babası</strong>dır.</p>",
+   "<p><strong>3. Uygulama.</strong> A, B, D ve E md. 16/1’deki bentlerin aynısıdır. C’de gelir “üçüncü derecede yakınlara” bağlanıyor; kanun yalnız hak sahiplerine (eş, çocuk, ana-baba) gelir bağlar: <strong>C</strong>.</p>"
+  ],
+  "dayanak": "5510 sayılı Kanun md. 16 (iş kazası, meslek hastalığı, hastalık ve analık sigortasından sağlanan haklar), md. 3/1-7 (hak sahibi tanımı).",
+  "tuzaklar": {
+   "A": "Gelir bağlanmış kız çocuklarına evlenme ödeneği md. 16/1-d’de sayılan bir haktır.",
+   "B": "Cenaze ödeneği md. 16/1-e’de sayılır.",
+   "D": "Sürekli iş göremezlik geliri md. 16/1-b’de sayılır.",
+   "E": "Günlük geçici iş göremezlik ödeneği md. 16/1-a’da sayılır; hastalık ve analık sigortasında da verilir (md. 16/2)."
+  },
+  "kartlar": [
+   {
+    "on": "İş kazası ve meslek hastalığı sigortasından sağlanan haklar (5510 md. 16)?",
+    "arka": "Geçici iş göremezlik ödeneği; sürekli iş göremezlik geliri; ölen sigortalının hak sahiplerine gelir; gelir bağlanmış kız çocuklarına evlenme ödeneği; ölen sigortalı için cenaze ödeneği."
+   },
+   {
+    "on": "5510’a göre hak sahibi kimlerdir?",
+    "arka": "Sigortalının ölümü hâlinde gelir/aylık veya toptan ödemeye hak kazanan eş, çocuk, ana ve baba (md. 3/1-7)."
+   }
+  ],
+  "konuBaglantisi": "Sosyal güvenlik"
+ },
+ {
+  "id": "2026-1-HUK-09",
+  "sonuc": "E",
+  "ozet": "İş K. md. 29/1: toplu işçi çıkarma en az 30 gün önceden yazıyla işyeri sendika temsilcilerine, ilgili bölge müdürlüğüne ve Türkiye İş Kurumuna bildirilir: E.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> İş K. md. 29/1: işveren; ekonomik, teknolojik, yapısal ve benzeri işletme, işyeri veya işin gerekleri sonucu toplu işçi çıkarmak istediğinde bunu <strong>en az otuz gün önceden</strong> bir yazıyla <strong>işyeri sendika temsilcilerine, ilgili bölge müdürlüğüne ve Türkiye İş Kurumuna</strong> bildirir.</p>",
+   "<p><strong>2. Uygulama.</strong> Şıklardan yalnız Türkiye İş Kurumu bu listededir: <strong>E</strong>.</p>",
+   "<p><strong>3. Toplu işçi çıkarma sayılan durum.</strong> Bir aylık süre içinde aynı veya farklı tarihlerde md. 17’ye göre işine son verilen işçi sayısı: işyerinde 20–100 işçi varsa en az 10; 101–300 işçi varsa en az %10; 301 ve daha fazla işçi varsa en az 30 işçi (md. 29/2).</p>",
+   "<p><strong>4. Sonuçlar.</strong> Bildirimde çıkarmanın sebepleri, etkilenecek işçi sayısı ve grupları, işe son vermenin zaman dilimi bulunur. Fesih bildirimleri, isteğin bölge müdürlüğüne bildirilmesinden otuz gün sonra hüküm doğurur. İşyeri bütünüyle ve kesin olarak kapatılıyorsa işveren yalnız durumu en az otuz gün önceden ilgili bölge müdürlüğüne ve Türkiye İş Kurumuna bildirir ve işyerinde ilan eder.</p>"
+  ],
+  "dayanak": "İş K. md. 29 (toplu işçi çıkarma).",
+  "tuzaklar": {
+   "A": "Ticaret il müdürlüğü ticaret sicili ve ticari işlerle ilgili bir birimdir; İş K. md. 29’daki bildirim muhatapları arasında yoktur.",
+   "B": "Vergi dairesi toplu işçi çıkarmada bildirim muhatabı değildir; bildirim, işyeri sendika temsilcilerine, ilgili bölge müdürlüğüne ve Türkiye İş Kurumuna yapılır.",
+   "D": "Ticaret ve sanayi odası md. 29’da sayılmaz."
+  },
+  "kartlar": [
+   {
+    "on": "Toplu işçi çıkarma kime, ne kadar önce bildirilir?",
+    "arka": "En az 30 gün önceden yazıyla: işyeri sendika temsilcilerine, ilgili bölge müdürlüğüne ve Türkiye İş Kurumuna (İş K. 29). Fesihler bölge müdürlüğüne bildirimden 30 gün sonra hüküm doğurur."
+   },
+   {
+    "on": "Hangi sayıda çıkarma toplu işçi çıkarma sayılır?",
+    "arka": "Bir ay içinde: 20–100 işçili işyerinde en az 10; 101–300 işçili işyerinde en az %10; 301 ve üzeri işçili işyerinde en az 30 işçi (İş K. 29)."
+   }
+  ],
+  "konuBaglantisi": "İş hukuku"
+ },
+ {
+  "id": "2026-1-HUK-10",
+  "sonuc": "B",
+  "ozet": "TTK md. 5/1: aksine hüküm bulunmadıkça, değer veya tutara bakılmaksızın tüm ticari davalar ile ticari nitelikteki çekişmesiz yargı işlerine asliye ticaret mahkemesi bakar: B.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> TTK md. 5/1: <em>Aksine hüküm bulunmadıkça, dava olunan şeyin değerine veya tutarına bakılmaksızın <strong>asliye ticaret mahkemesi</strong> tüm ticari davalar ile ticari nitelikteki çekişmesiz yargı işlerine bakmakla görevlidir.</em> Kökteki alıntı bu fıkradır: <strong>B</strong>.</p>",
+   "<p><strong>2. Ticari dava nedir?</strong> TTK md. 4/1: her iki tarafın da ticari işletmesiyle ilgili hususlardan doğan hukuk davaları ile tarafların tacir olup olmadıklarına bakılmaksızın TTK’da, TMK’nın rehinle ödünç verme işine ilişkin hükümlerinde, TBK’nın sayılan maddelerinde (ör. işletmenin devralınması, komisyon, havale, saklama), fikrî mülkiyet mevzuatında, bankacılık ve finans düzenlemelerinde öngörülen hususlardan doğan davalar ticari davadır (mutlak ticari davalar).</p>",
+   "<p><strong>Not.</strong> TTK md. 4/2’ye göre miktar veya değeri bir milyon Türk lirasını geçmeyen ticari davalarda basit yargılama usulü uygulanır; bu sınır HMK ek 1. maddeye göre artırılır. Bu, mahkemenin görevini değil, yargılama usulünü belirler.</p>"
+  ],
+  "dayanak": "TTK md. 4/1 (ticari davalar), md. 4/2 (basit yargılama sınırı), md. 5/1 (asliye ticaret mahkemesinin görevi).",
+  "tuzaklar": {
+   "A": "İş mahkemesi iş ilişkisinden doğan uyuşmazlıklara bakar; ticari davalarla görevli değildir.",
+   "D": "İcra mahkemesi icra ve iflas işlemlerine ilişkin şikâyet ve itirazlara bakar; ticari davalarda genel görevli mahkeme değildir.",
+   "E": "TTK md. 5/1 değere bakılmaksızın görevi asliye ticaret mahkemesine verir; ticari bir dava, değeri düşük diye sulh hukuk mahkemesine gitmez."
+  },
+  "kartlar": [
+   {
+    "on": "Ticari davalarda görevli mahkeme hangisidir?",
+    "arka": "Aksine hüküm yoksa, değere bakılmaksızın asliye ticaret mahkemesi; ticari nitelikteki çekişmesiz yargı işleri de dahil (TTK 5/1)."
+   },
+   {
+    "on": "Mutlak ticari dava nedir?",
+    "arka": "Tarafların tacir olup olmadığına bakılmaksızın ticari sayılan davalar: TTK’da düzenlenen hususlar, TBK’nın TTK 4/1-c’de sayılan maddeleri, fikrî mülkiyet, bankacılık-finans düzenlemeleri vb. (TTK 4/1)."
+   }
+  ],
+  "konuBaglantisi": "Ticari işletme ve tacir"
+ },
+ {
+  "id": "2026-1-HUK-11",
+  "sonuc": "A",
+  "ozet": "İş K. ek md. 3: iş sözleşmesinden doğan yıllık izin ücreti ile kıdem, ihbar (bildirim şartına uymama), kötüniyet ve eşit davranmama tazminatları 5 yıllık zamanaşımına tabidir; haksız fiil tazminatı TBK md. 72’ye göre 2/10 yıldır: A.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> İş K. ek md. 3 (7036 sayılı Kanun’la eklendi): iş sözleşmesinden kaynaklanmak kaydıyla hangi kanuna tabi olursa olsun, <strong>yıllık izin ücreti</strong> ve şu tazminatların zamanaşımı <strong>beş yıldır</strong>: a) kıdem tazminatı, b) iş sözleşmesinin bildirim şartına uyulmaksızın feshinden kaynaklanan tazminat, c) kötüniyet tazminatı, d) iş sözleşmesinin eşit davranma ilkesine uyulmaksızın feshinden kaynaklanan tazminat.</p>",
+   "<p><strong>2. Uygulama.</strong> B, C, D ve E ek md. 3’teki dört tazminatın aynısıdır, hepsi 5 yıl. Haksız fiilden doğan tazminat ek md. 3’te yoktur; TBK md. 72’ye tabidir: zararın ve tazminat yükümlüsünün öğrenilmesinden itibaren 2 yıl, her hâlde fiilden itibaren 10 yıl (fiil daha uzun ceza zamanaşımına tabi bir suçsa o süre). Farklı süreye tabi olan: <strong>A</strong>.</p>",
+   "<p><strong>3. Geçiş.</strong> Ek md. 3 öncesinde bu alacaklar için özel bir süre yoktu ve TBK md. 146’daki on yıllık genel zamanaşımı uygulanıyordu. Geçici md. 8’e göre ek md. 3, yürürlüğünden (25/10/2017) sonra sona eren iş sözleşmelerine uygulanır.</p>",
+   "<p><strong>Not.</strong> Ücret alacaklarında zamanaşımı da beş yıldır (İş K. md. 32/8).</p>"
+  ],
+  "dayanak": "İş K. ek md. 3 (yıllık izin ücreti ve tazminatlarda 5 yıllık zamanaşımı), geçici md. 8 (geçiş), md. 32/8 (ücret alacaklarında 5 yıl); TBK md. 72 (haksız fiilde 2/10 yıl), md. 146 (10 yıllık genel zamanaşımı).",
+  "tuzaklar": {
+   "B": "Bildirim şartına uyulmaksızın fesihten doğan tazminat (ihbar tazminatı) ek md. 3/b’de sayılır: 5 yıl.",
+   "C": "Kötüniyet tazminatı ek md. 3/c’de sayılır: 5 yıl.",
+   "D": "Eşit davranma ilkesine aykırı fesihten doğan tazminat ek md. 3/d’de sayılır: 5 yıl.",
+   "E": "Kıdem tazminatı ek md. 3/a’da sayılır: 5 yıl."
+  },
+  "kartlar": [
+   {
+    "on": "İş sözleşmesinden doğan hangi alacaklar 5 yıllık zamanaşımına tabidir?",
+    "arka": "Yıllık izin ücreti; kıdem, ihbar (bildirim şartına uymama), kötüniyet ve eşit davranmama tazminatları (İş K. ek md. 3); ücret alacakları (İş K. 32/8)."
+   },
+   {
+    "on": "Haksız fiil tazminatında zamanaşımı?",
+    "arka": "Zararı ve tazminat yükümlüsünü öğrenmeden itibaren 2 yıl, her hâlde fiilden itibaren 10 yıl; daha uzun ceza zamanaşımı varsa o (TBK 72)."
+   }
+  ],
+  "konuBaglantisi": "İş hukuku"
+ },
+ {
+  "id": "2026-1-HUK-12",
+  "sonuc": "C",
+  "ozet": "İş K. md. 74/7: kadın işçilere bir yaşından küçük çocuklarını emzirmeleri için günde toplam bir buçuk saat süt izni verilir: C.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> İş K. md. 74/7: <em>Kadın işçilere bir yaşından küçük çocuklarını emzirmeleri için günde toplam <strong>birbuçuk saat</strong> süt izni verilir. Bu sürenin hangi saatler arasında ve kaça bölünerek kullanılacağını işçi kendisi belirler. Bu süre günlük çalışma süresinden sayılır.</em></p>",
+   "<p><strong>2. Uygulama.</strong> <strong>1,5 saat</strong>: <strong>C</strong>.</p>",
+   "<p><strong>3. Çalışma süresinden sayılır.</strong> Süt izni süresi günlük çalışma süresinden sayılır; md. 66/1-e de çocuk emziren kadın işçilerin çocuklarına süt vermeleri için belirtilecek süreleri günlük çalışma süresinden sayar. Doğum sonrası analık izninin bitiminden itibaren haftalık çalışma süresinin yarısı kadar ücretsiz izin (md. 74/2) kullanılan süre içinde süt izni hükümleri uygulanmaz.</p>",
+   "<p><strong>Not (sınav için güncel).</strong> 7578 sayılı Kanun’la (22/4/2026) analık izni değişti: doğumdan önce 8, doğumdan sonra <strong>16</strong> hafta, toplam <strong>24 hafta</strong> (önceden 8 + 8 = 16 hafta). Süt izni süresi değişmedi.</p>"
+  ],
+  "dayanak": "İş K. md. 74/7 (süt izni), md. 74/1 ve 74/2 (analık izni ve yarım çalışma; 7578 sayılı Kanun değişikliği), md. 66/1-e (süt süresinin çalışma süresinden sayılması).",
+  "tuzaklar": {
+   "A": "Süt izni günde toplam 1,5 saattir; işçi bunu bölerek kullanabilir ama toplam yarım saate inmez.",
+   "B": "1 saat kanundaki süreden kısadır; md. 74/7 “birbuçuk saat” der.",
+   "D": "2 saat kanundaki süreden uzundur; toplu iş sözleşmesiyle artırılabilir ama kanunun öngördüğü süre 1,5 saattir."
+  },
+  "kartlar": [
+   {
+    "on": "Süt izni ne kadardır ve kime verilir?",
+    "arka": "Bir yaşından küçük çocuğu olan kadın işçiye günde toplam 1,5 saat; saatlerini ve kaça bölüneceğini işçi belirler; çalışma süresinden sayılır (İş K. 74/7)."
+   },
+   {
+    "on": "Analık izni (2026 değişikliğinden sonra)?",
+    "arka": "Doğumdan önce 8, sonra 16 hafta, toplam 24 hafta; çoğul gebelikte doğum öncesine 2 hafta eklenir (İş K. 74/1, 7578 sayılı Kanun)."
+   }
+  ],
+  "konuBaglantisi": "İş hukuku"
+ },
+ {
+  "id": "2026-1-HUK-13",
+  "sonuc": "A",
+  "ozet": "5510 md. 81’e (ve ek md. 2’ye) göre kontrol ve denetimlerde kayıt dışı çalıştırdığı veya fiilen çalıştırmadığı kişiyi bildirdiği tespit edilen işverenler bir yıl süreyle bu maddeyle sağlanan destek unsurlarından yararlanamaz: A.",
+  "adimlar": [
+   "<p><strong>1. Kanun metni.</strong> 5510 md. 81’e 6486 sayılı Kanun’la eklenen fıkra: <em>Yapılan kontrol ve denetimlerde, çalıştırdığı kişileri sigortalı olarak bildirmediği veya bildirilen sigortalının fiilen çalışmadığının tespit edilmesi hâlinde, işverenler <strong>bir yıl</strong> süreyle bu maddeyle sağlanan <strong>destek unsurlarından</strong> yararlanamaz.</em> Aynı cümle, yatırım teşvik belgesi kapsamındaki prim desteğini düzenleyen ek md. 2’de de vardır.</p>",
+   "<p><strong>2. Uygulama.</strong> Boşluklar: “1 yıl” ve “destek unsurlarından”: <strong>A</strong>.</p>",
+   "<p><strong>3. Yersiz yararlanma.</strong> Teşvikten yersiz yararlanıldığı tespit edilirse yararlanılan tutar gecikme cezası ve gecikme zammıyla birlikte tahsil edilir (md. 81’deki aynı fıkra; ek md. 2).</p>",
+   "<p><strong>Not.</strong> 6824 sayılı Kanun’la (2017) eklenen ek md. 14, bu yaptırımı bütün teşvikler için ayrıca düzenler: mahkeme kararıyla veya kontrol ve denetimlerde kayıt dışı çalıştırma ya da fiilen çalışmayanın bildirilmesi tespit edilen işyerleri <strong>ilk tespitte bir ay</strong>, ilk tespitten itibaren üç yıl içinde tekrar eden her tespitte <strong>bir yıl</strong> süreyle 5510, 3294 ve 4447 sayılı Kanunlardaki prim teşvik, destek ve indirimlerden yararlanamaz. Bu kanunlardaki aykırı hükümler uygulanmaz. Soru, md. 81’deki cümlenin boşluklarını sorduğu için cevap metindeki ifadedir (1 yıl / destek unsurları). Kitapçıkta kökteki alıntının açılış tırnağı basılmamıştır; yalnız kapanış tırnağı (”) vardır.</p>"
+  ],
+  "dayanak": "5510 sayılı Kanun md. 81 (6486 sayılı Kanun’la eklenen fıkra: bir yıl süreyle destek unsurlarından yararlanamama), ek md. 2 (yatırım teşvikinde aynı yaptırım), ek md. 14 (ilk tespitte bir ay, tekrarında bir yıl).",
+  "tuzaklar": {
+   "B": "“6 ay” ve “prim teşviki” metinde geçmez; süre bir yıl, yararlanılamayan şey “bu maddeyle sağlanan destek unsurları”dır.",
+   "D": "Süre 2 yıl değil bir yıldır; ek md. 14’teki “üç yıl” ise tekrarın arandığı dönemdir, yararlanamama süresi değildir.",
+   "E": "5 yıl yararlanamama süresi metinde yoktur."
+  },
+  "kartlar": [
+   {
+    "on": "Kayıt dışı işçi çalıştırdığı tespit edilen işveren teşviklerden ne kadar süre yararlanamaz?",
+    "arka": "5510 md. 81 ve ek md. 2 metni: bir yıl süreyle “bu maddeyle sağlanan destek unsurlarından”. Ek md. 14 (2017): ilk tespitte 1 ay, üç yıl içinde tekrarında her tespit için 1 yıl, 5510, 3294 ve 4447’deki tüm prim teşvik, destek ve indirimlerinden."
+   }
+  ],
+  "konuBaglantisi": "Sosyal güvenlik"
+ },
+ {
+  "id": "2026-1-HUK-14",
+  "sonuc": "B",
+  "ozet": "5510 md. 102’ye göre idari para cezasının 15 gün içinde peşin ödenmesi hâlinde dörtte üçü tahsil edilir ve peşin ödeme yargı yoluna başvurma hakkını etkilemez; “yargı yolu kapanır” ifadesi yanlıştır: B.",
+  "adimlar": [
+   "<p><strong>1. Peşin ödeme (B).</strong> 5510 md. 102/5: idari para cezalarının Kuruma itiraz edilmeden veya yargı yoluna başvurulmadan önce tebliğden itibaren on beş gün içinde peşin ödenmesi hâlinde dörtte üçü tahsil edilir. <em>Peşin ödeme idari para cezasına karşı yargı yoluna başvurma hakkını etkilemez.</em> B bunun tersini söylüyor: <strong>yanlış</strong>.</p>",
+   "<p><strong>2. Dörtte bir (A).</strong> Md. 102/2: bildirge veya belgenin yasal süresi geçtikten sonra ilgililerce kendiliğinden 30 gün içinde verilmesi ve cezanın tebligatı izleyen günden itibaren 15 gün içinde ödenmesi hâlinde, birinci fıkranın (a), (b), (g), (h) ve (j) bentlerindeki cezalar <strong>dörtte bir</strong> oranına karşılık gelen tutar üzerinden uygulanır (tespit üzerine düzenlenenler hariç). A bu hükmü şartlarını kısaltarak aktarır; ifade hükmün kendisidir, doğru kabul edilir.</p>",
+   "<p><strong>3. C ve D.</strong> Md. 102/6: mahkemeye başvurulması idari para cezasının takip ve tahsilini <strong>durdurmaz</strong>; tebliğden itibaren 15 gün içinde ödenmeyen cezalar md. 89’a göre hesaplanacak gecikme cezası ve gecikme zammıyla birlikte tahsil edilir. İkisi de doğru.</p>",
+   "<p><strong>4. E.</strong> Md. 102/7: idari para cezaları <strong>on yıllık</strong> zamanaşımına tabidir; süre fiilin işlendiği tarihten başlar. Doğru.</p>",
+   "<p><strong>5. Sonuç.</strong> Yanlış olan <strong>B</strong>.</p>",
+   "<p><strong>Not.</strong> İtiraz yolu (md. 102/4): ceza tebliğle tahakkuk eder; 15 gün içinde ödenir veya aynı sürede Kuruma itiraz edilir. Kuruma itiraz takibi durdurur; itirazı reddedilen, ret kararının tebliğinden itibaren 30 gün içinde yetkili idare mahkemesine başvurabilir. Mahkemeye başvuru ise takip ve tahsili durdurmaz (C).</p>"
+  ],
+  "dayanak": "5510 sayılı Kanun md. 102/2 (kendiliğinden verme + 15 günde ödeme: dörtte bir), 102/4 (tebliğ, 15 gün, Kuruma itiraz, 30 gün içinde idare mahkemesi), 102/5 (peşin ödemede dörtte üç; yargı yolu hakkı etkilenmez), 102/6 (mahkemeye başvuru tahsili durdurmaz; gecikme cezası ve zammı), 102/7 (10 yıllık zamanaşımı).",
+  "tuzaklar": {
+   "A": "Dörtte bir oranı md. 102/2’dedir: belge kendiliğinden 30 gün içinde verilir ve ceza 15 gün içinde ödenirse uygulanır. Peşin ödemedeki “dörtte üçü tahsil edilir” kuralıyla (md. 102/5) karıştırılmamalı.",
+   "C": "Md. 102/6’nın metnidir: mahkemeye başvurmak takip ve tahsili durdurmaz. (Kuruma itiraz ise durdurur, md. 102/4.)",
+   "D": "Md. 102/6: 15 gün içinde ödenmeyen ceza md. 89’a göre gecikme cezası ve gecikme zammıyla tahsil edilir.",
+   "E": "Md. 102/7: on yıllık zamanaşımı, fiilin işlendiği tarihten başlar."
+  },
+  "kartlar": [
+   {
+    "on": "5510’da idari para cezasının peşin ödenmesinin sonucu?",
+    "arka": "Kuruma itiraz veya dava açılmadan önce tebliğden itibaren 15 gün içinde ödenirse dörtte üçü tahsil edilir (%25 indirim); peşin ödeme yargı yoluna başvurma hakkını etkilemez (md. 102/5)."
+   },
+   {
+    "on": "5510’da idari para cezasına itiraz ve dava süreci?",
+    "arka": "Tebliğden itibaren 15 gün içinde Kuruma itiraz (takibi durdurur); ret kararının tebliğinden itibaren 30 gün içinde idare mahkemesi (takibi durdurmaz). Zamanaşımı fiilden itibaren 10 yıl (md. 102)."
+   }
+  ],
+  "konuBaglantisi": "Sosyal güvenlik"
+ },
+ {
+  "id": "2026-1-HUK-15",
+  "sonuc": "D",
+  "ozet": "5510 md. 102/1-ı-1: Kurum denetim elemanlarının görevini yapmasına engel olanlara, eylemleri başka bir suç oluştursa dahi asgari ücretin beş katı idari para cezası uygulanır: D.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> 5510 md. 102/1-ı-1: Kurumun denetim ve kontrolle görevlendirilmiş memurlarının inceleme ve soruşturma görevlerini yerine getirmeleri sırasında işverenler, sigortalılar, işyeri sahipleri ve bu işle ilgili diğer kişiler görevlerini yapmasına engel olamazlar; <em>engel olanlar hakkında eylemleri başka bir suç oluştursa dahi, asgari ücretin <strong>beş katı</strong> tutarında idari para cezası uygulanır.</em></p>",
+   "<p><strong>2. Uygulama.</strong> <strong>5</strong>: <strong>D</strong>.</p>",
+   "<p><strong>3. Ağırlaştırılmış hâl.</strong> Md. 102/1-ı-2: görevin yapılmasını engellemek amacıyla <strong>cebir ve tehdit</strong> kullananlar, fiil daha ağır bir suç oluşturmuyorsa TCK md. 265/2’ye göre cezalandırılır; ayrıca asgari ücretin <strong>on katı</strong> idari para cezası uygulanır.</p>"
+  ],
+  "dayanak": "5510 sayılı Kanun md. 102/1-ı-1 (denetime engel olma: asgari ücretin 5 katı), md. 102/1-ı-2 (cebir ve tehditle engelleme: 10 kat ve TCK md. 265/2), md. 59 (Kurumun denetleme ve kontrol yetkisi).",
+  "tuzaklar": {
+   "C": "Asgari ücretin 2 katı md. 102’de başka fiiller için öngörülür (ör. işe giriş bildirgesinin verilmediğinin tespit yoluyla anlaşılması, md. 102/1-a-2); denetime engel olmanın cezası 5 kattır.",
+   "E": "10 kat, cebir ve tehditle engellemenin (md. 102/1-ı-2) cezasıdır; basit engellemede 5 kat uygulanır.",
+   "A": "Asgari ücretin yarısı, md. 102’de daha hafif bildirim ihlallerine uygulanan bir orandır (ör. md. 102/1-k); denetime engel olmanın cezası değildir."
+  },
+  "kartlar": [
+   {
+    "on": "SGK denetim elemanının görevine engel olmanın idari para cezası?",
+    "arka": "Asgari ücretin 5 katı, eylem başka bir suç oluştursa dahi (5510 md. 102/1-ı-1). Cebir veya tehditle engellemede TCK 265/2’ye göre ceza ve ayrıca asgari ücretin 10 katı (102/1-ı-2)."
+   }
+  ],
+  "konuBaglantisi": "Sosyal güvenlik"
+ },
+ {
+  "id": "2026-1-HUK-16",
+  "sonuc": "D",
+  "ozet": "TBK’nın “Borç İlişkisinin Kaynakları” bölümü üç ayırımdan oluşur: sözleşme, haksız fiil, sebepsiz zenginleşme (I, II, III): D.",
+  "adimlar": [
+   "<p><strong>1. TBK sistematiği.</strong> TBK Birinci Kısım (Genel Hükümler), Birinci Bölüm “<strong>Borç İlişkisinin Kaynakları</strong>”: Birinci Ayırım “Sözleşmeden Doğan Borç İlişkileri” (md. 1 vd.), İkinci Ayırım “Haksız Fiillerden Doğan Borç İlişkileri” (md. 49 vd.), Üçüncü Ayırım “Sebepsiz Zenginleşmeden Doğan Borç İlişkileri” (md. 77 vd.).</p>",
+   "<p><strong>2. Amme alacağı (IV).</strong> Vergi gibi kamu alacakları kamu hukukundan doğar ve 6183 sayılı Amme Alacaklarının Tahsil Usulü Hakkında Kanun gibi özel kanunlara tabidir; TBK’da borç ilişkisinin kaynağı olarak sayılmaz.</p>",
+   "<p><strong>3. Sonuç.</strong> I, II ve III: <strong>D</strong>.</p>"
+  ],
+  "dayanak": "TBK Birinci Kısım, Birinci Bölüm “Borç İlişkisinin Kaynakları”: md. 1 vd. (sözleşme), md. 49 vd. (haksız fiil), md. 77 vd. (sebepsiz zenginleşme).",
+  "tuzaklar": {
+   "A": "Sebepsiz zenginleşme (III) eksik; TBK üç kaynak sayar.",
+   "B": "Haksız fiil (II) eksik.",
+   "C": "Sözleşme (I) ve sebepsiz zenginleşme (III) eksik; amme alacağı (IV) TBK’da bir kaynak değildir.",
+   "E": "Sözleşme (I) eksik ve kamu hukukuna ait amme alacağı (IV) eklenmiş."
+  },
+  "kartlar": [
+   {
+    "on": "TBK’ya göre borç ilişkisinin kaynakları nelerdir?",
+    "arka": "Sözleşme (md. 1 vd.), haksız fiil (md. 49 vd.), sebepsiz zenginleşme (md. 77 vd.)."
+   }
+  ],
+  "konuBaglantisi": "Borçlar: genel hükümler"
+ },
+ {
+  "id": "2026-1-HUK-17",
+  "sonuc": "A",
+  "ozet": "TBK md. 256/1’e göre alıcı peşin satış bedelinin en az onda birini (yüzde 10) en geç teslim anında öder; “%50” yanlıştır: A.",
+  "adimlar": [
+   "<p><strong>1. Peşinat (A).</strong> TBK md. 256/1: alıcı, peşin satış bedelinin <strong>en az onda birini</strong> en geç teslim anında peşin olarak, kalanını sözleşmenin kurulmasını izleyen üç yıl içinde ödemekle yükümlüdür. Md. 256/2: Cumhurbaşkanı, satılanın türüne göre peşinat miktarı ile ödeme sürelerini yarıya kadar indirebilir veya iki katına kadar çıkarabilir. Buna göre peşinat %5 ile %20 arasında belirlenebilir; %50 hiçbir durumda kanuni peşinat değildir. A <strong>yanlış</strong>.</p>",
+   "<p><strong>2. B.</strong> TBK md. 257/1: alıcı, satıcının taksitle satıştan doğan alacağı ile kendi alacağını takas etme hakkından önceden feragat edemez. Doğru.</p>",
+   "<p><strong>3. C ve D.</strong> TBK md. 256/3: kanundaki asgari peşinatı tamamen almadan satılanı devreden satıcı, peşinatın ödenmeyen kısmı üzerinde istem hakkını kaybeder. Md. 256/4: peşinattan vazgeçilmesi karşılığında satış bedelinde yapılacak artırma hükümsüzdür. İkisi de metnin aynısıdır, doğru.</p>",
+   "<p><strong>4. E.</strong> TBK md. 258: <em>Taksit borcu kambiyo senedine bağlanmış olmadıkça, alıcı satış bedelinin kalan kısmını her zaman <strong>bir defada</strong> ödeyerek borcundan kurtulabilir.</em> Bu durumda vade farkının ödenmemiş taksitlere düşen kısmı, yarısından az olmamak üzere indirilir. Kitapçıktaki E “bir defada” yerine “taksitler halinde” der.</p>",
+   "<p><strong>5. Sonuç.</strong> Açıkça yanlış olan <strong>A</strong>: resmî cevap.</p>",
+   "<p><strong>Not (tartışmalı).</strong> E, md. 258’in “bir defada” ödeme kuralını “taksitler halinde” diye aktarır. Bu ifade kanunun öngördüğü erken ödeme hakkını yanlış anlatır; bu okumayla <strong>E</strong> de yanlış bir ifadedir ve soru iki cevaplı olur. E lafzen “taksitleri ödeyen borçtan kurtulur” diye okunursa doğru sayılabilir, ama md. 258’in kuralı bu değildir. Resmî anahtar yalnız A’yı kabul eder.</p>"
+  ],
+  "dayanak": "TBK md. 256/1–4 (peşinat: en az onda bir, Cumhurbaşkanının yarıya indirme/iki katına çıkarma yetkisi, asgari peşinat almadan teslim, peşinattan vazgeçme karşılığı artırma), md. 257/1 (takastan önceden feragat yasağı), md. 258 (kalan bedelin bir defada ödenmesi).",
+  "tuzaklar": {
+   "B": "TBK md. 257/1’in metnidir: alıcı takas hakkından önceden feragat edemez. Doğru ifade.",
+   "C": "TBK md. 256/3’ün metnidir. Doğru ifade.",
+   "D": "TBK md. 256/4’ün metnidir. Doğru ifade.",
+   "E": "Md. 258 kalan bedelin “bir defada” ödenerek borçtan kurtulmayı düzenler; E’deki “taksitler halinde” ifadesi kuralı bozar. Resmî cevap A olsa da E de kanun metnine uymaz (bkz. Not)."
+  },
+  "kartlar": [
+   {
+    "on": "Taksitle satışta asgari peşinat ve ödeme süresi?",
+    "arka": "Peşin satış bedelinin en az onda biri, en geç teslimde; kalan bedel sözleşmeden itibaren 3 yıl içinde. Cumhurbaşkanı peşinatı ve süreleri yarıya indirebilir veya iki katına çıkarabilir (TBK 256)."
+   },
+   {
+    "on": "Taksitle satışta alıcının erken ödeme hakkı?",
+    "arka": "Taksit borcu kambiyo senedine bağlanmamışsa alıcı kalan bedeli her zaman bir defada ödeyerek borçtan kurtulur; vade farkı, yarısından az olmamak üzere indirilir (TBK 258)."
+   }
+  ],
+  "konuBaglantisi": "Borçlar: sözleşmeler"
+ },
+ {
+  "id": "2026-1-HUK-18",
+  "sonuc": "E",
+  "ozet": "TTK md. 124/2: anonim, limited ve sermayesi paylara bölünmüş komandit şirket sermaye şirketidir (IV, V, VI); kollektif ve komandit şirket şahıs şirketidir; kooperatif ikisine de girmez: E.",
+  "adimlar": [
+   "<p><strong>1. Ticaret şirketleri.</strong> TTK md. 124/1: ticaret şirketleri; kollektif, komandit, anonim, limited ve <strong>kooperatif</strong> şirketlerden ibarettir.</p>",
+   "<p><strong>2. Ayrım.</strong> TTK md. 124/2: <em>Bu Kanunda, kollektif ile komandit şirket <strong>şahıs</strong>; anonim, limited ve sermayesi paylara bölünmüş komandit şirket <strong>sermaye şirketi</strong> sayılır.</em></p>",
+   "<p><strong>3. Uygulama.</strong> Sermaye şirketleri: IV (sermayesi paylara bölünmüş komandit), V (limited), VI (anonim): <strong>E</strong>. II (kollektif) ve III (adi komandit) şahıs şirketidir. I (kooperatif) bir ticaret şirketidir ama md. 124/2’de ne şahıs ne sermaye şirketi olarak sayılır.</p>"
+  ],
+  "dayanak": "TTK md. 124/1 (ticaret şirketlerinin türleri), md. 124/2 (şahıs ve sermaye şirketi ayrımı).",
+  "tuzaklar": {
+   "A": "Kooperatif ve kollektif şirket sermaye şirketi değildir; kollektif şirket şahıs şirketidir.",
+   "B": "Kooperatif (I) ve kollektif şirket (II) sermaye şirketi sayılmaz; listede yalnız IV doğru.",
+   "C": "Adi komandit şirket (III) şahıs şirketidir; sermaye şirketi olan, sermayesi paylara bölünmüş komandit şirkettir (IV).",
+   "D": "Adi komandit şirket (III) şahıs şirketidir; limited şirket (V) ise eksik bırakılmış."
+  },
+  "kartlar": [
+   {
+    "on": "TTK’ya göre şahıs ve sermaye şirketleri hangileridir?",
+    "arka": "Şahıs: kollektif ve komandit. Sermaye: anonim, limited ve sermayesi paylara bölünmüş komandit (TTK 124/2). Kooperatif ticaret şirketidir ama bu ikili ayrıma girmez (124/1)."
+   }
+  ],
+  "konuBaglantisi": "Ticaret şirketleri: genel hükümler"
+ },
+ {
+  "id": "2026-1-HUK-19",
+  "sonuc": "C",
+  "ozet": "Zayi olan kıymetli evrakın iptalini, zıya anında senet üzerinde hak sahibi olan kişi mahkemeden ister (TTK md. 651); bu TTK’dan doğan bir ticari iş olduğundan görevli mahkeme asliye ticaret mahkemesidir (TTK md. 4/1-a, 5/1): C.",
+  "adimlar": [
+   "<p><strong>1. Kural.</strong> TTK md. 651: kıymetli evrak zayi olduğu takdirde <strong>mahkeme</strong> tarafından iptaline karar verilebilir; senedin zayi olduğu veya zıyaın ortaya çıktığı anda senet üzerinde hak sahibi olan kişi iptal kararı verilmesini isteyebilir. İptal kararı üzerine hak sahibi hakkını senetsiz ileri sürebilir veya yeni senet düzenlenmesini isteyebilir (md. 652/1).</p>",
+   "<p><strong>2. Görevli mahkeme.</strong> TTK’da düzenlenen hususlardan doğan davalar ve çekişmesiz yargı işleri, tarafların tacir olup olmadığına bakılmaksızın ticari sayılır (md. 4/1-a); bunlara değere bakılmaksızın <strong>asliye ticaret mahkemesi</strong> bakar (md. 5/1): <strong>C</strong>.</p>",
+   "<p><strong>3. Kambiyo senetleri.</strong> Poliçede iradesi dışında senet elinden çıkan kişi, ödeme yerinin veya hamilin yerleşim yerinin asliye ticaret mahkemesinden muhatabın ödemeden menedilmesini ister (md. 757/1); senedi eline geçiren bilinmiyorsa iptal istenir ve mahkeme ilanla senedi getirme süresi verir (md. 759–762; süre en az üç ay, en çok bir yıl). Bu hükümler bonoya (md. 778/1-ı) ve çeke (md. 818/1-s) de uygulanır.</p>"
+  ],
+  "dayanak": "TTK md. 651–652 (kıymetli evrakın iptali), md. 4/1-a ve 5/1 (ticari dava, asliye ticaret mahkemesi), md. 757–764 (poliçenin iptali), md. 778/1-ı (bonoya uygulanması), md. 818/1-s (çeke uygulanması).",
+  "tuzaklar": {
+   "A": "İş mahkemesi iş ilişkisinden doğan uyuşmazlıklara bakar; kıymetli evrakın iptali TTK’dan doğan ticari bir iştir.",
+   "B": "Vergi mahkemesi vergi uyuşmazlıklarına bakan idari yargı merciidir; kıymetli evrak özel hukuk (ticaret hukuku) konusudur.",
+   "D": "Sulh hukuk mahkemesi akla gelebilir, ama TTK’dan doğan çekişmesiz yargı işleri de ticari sayılır ve asliye ticaret mahkemesinin görevindedir (TTK 4/1-a, 5/1).",
+   "E": "Vergi dairesi bir yargı mercii değildir; senedin iptaline yalnız mahkeme karar verebilir."
+  },
+  "kartlar": [
+   {
+    "on": "Kıymetli evrak zayi olursa kim, nereye başvurur?",
+    "arka": "Zıya anında senet üzerinde hak sahibi olan kişi, iptal için asliye ticaret mahkemesine başvurur (TTK 651; 4/1-a, 5/1). Poliçede ödeme yeri veya hamilin yerleşim yeri asliye ticaret mahkemesi (757); bono ve çekte de uygulanır."
+   },
+   {
+    "on": "Poliçe iptalinde senedi getirme süresi?",
+    "arka": "En az üç ay, en çok bir yıl; ilan üç defa yapılır (TTK 761, 762)."
+   }
+  ],
+  "konuBaglantisi": "Kıymetli evrak"
+ },
+ {
+  "id": "2026-1-HUK-20",
+  "sonuc": "B",
+  "ozet": "İYUK’ta kararlara karşı başvuru yolları istinaf, temyiz, kanun yararına temyiz, yargılamanın yenilenmesi, yürütmenin durdurulmasına itiraz ve kararın açıklanması/aykırılığın giderilmesidir; “şikâyet” bunlar arasında yoktur: B.",
+  "adimlar": [
+   "<p><strong>1. Kanun yolları.</strong> İYUK Üçüncü Bölüm “Kararlara Karşı Başvuru Yolları”: istinaf (md. 45), <strong>temyiz</strong> (md. 46), kanun yararına temyiz (md. 51), <strong>yargılamanın yenilenmesi</strong> (md. 53). Kararın düzeltilmesi (md. 54) 6545 sayılı Kanun’la yürürlükten kaldırılmıştır.</p>",
+   "<p><strong>2. Diğer başvurular.</strong> <strong>Yürütmenin durdurulmasına itiraz</strong>: YD istemleri hakkındaki kararlara, tebliği izleyen günden itibaren yedi gün içinde bir defaya mahsus itiraz edilebilir; itiraz üzerine verilen kararlar kesindir (md. 27/7). <strong>Kararın açıklanması veya aykırılığın giderilmesi</strong>: karar yeterince açık değilse veya birbirine aykırı hüküm fıkraları taşıyorsa taraflardan her biri bunu isteyebilir (md. 29).</p>",
+   "<p><strong>3. Uygulama.</strong> A, C, D ve E İYUK’ta düzenlenmiştir. “Şikâyet” İYUK’ta idari yargı kararlarına karşı bir başvuru yolu değildir: <strong>B</strong>.</p>"
+  ],
+  "dayanak": "İYUK md. 27/7 (yürütmenin durdurulmasına itiraz), md. 29 (açıklama ve aykırılığın giderilmesi), md. 45 (istinaf), md. 46 (temyiz), md. 51 (kanun yararına temyiz), md. 53 (yargılamanın yenilenmesi), md. 54 (kararın düzeltilmesi; mülga).",
+  "tuzaklar": {
+   "A": "Temyiz md. 46’da düzenlenir: Danıştay dava dairelerinin nihai kararları ile bölge idare mahkemelerinin sayılan davalardaki kararları, tebliğden itibaren 30 gün içinde Danıştayda temyiz edilebilir.",
+   "C": "YD kararlarına itiraz md. 27/7’dedir: tebliği izleyen günden itibaren 7 gün içinde, bir defaya mahsus.",
+   "D": "Md. 29: kararın açıklanması veya aykırılığın giderilmesi, karar yerine getirilinceye kadar istenebilir.",
+   "E": "Yargılamanın yenilenmesi md. 53’te düzenlenir."
+  },
+  "kartlar": [
+   {
+    "on": "İYUK’ta kararlara karşı başvuru yolları nelerdir?",
+    "arka": "İstinaf (45), temyiz (46), kanun yararına temyiz (51), yargılamanın yenilenmesi (53); ayrıca YD kararlarına itiraz (27/7) ve kararın açıklanması/aykırılığın giderilmesi (29). Kararın düzeltilmesi (54) 6545 ile kaldırıldı; şikâyet diye bir yol yoktur."
+   },
+   {
+    "on": "Yürütmenin durdurulması kararına itiraz süresi?",
+    "arka": "Tebliği izleyen günden itibaren 7 gün, bir defaya mahsus; itiraz mercii 7 gün içinde karar verir; itiraz üzerine verilen karar kesindir (İYUK 27/7)."
+   }
+  ],
+  "konuBaglantisi": "İdari yargı"
+ }
+]

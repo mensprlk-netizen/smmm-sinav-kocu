@@ -1,0 +1,562 @@
+[
+ {
+  "id": "2026-1-HUK-01",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 1,
+  "konu": "Sosyal güvenlik",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi 5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu’na göre, genel sağlık sigortalısının bakmakla yükümlü olduğu kişiler arasında <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Üvey çocuğu</p>",
+   "B": "<p>Çocuğu</p>",
+   "C": "<p>Eşi</p>",
+   "D": "<p>Evlatlığı</p>",
+   "E": "<p>Oturma izni almamış anne ve babası</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    238,
+    516,
+    231
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-02",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 2,
+  "konu": "İş hukuku",
+  "ortakBilgi": null,
+  "metin": "<p><strong>4857 sayılı İş Kanunu’na göre, bir iş yerinde deneme süresi toplu iş sözleşmesiyle <u>en fazla</u> kaç aya kadar uzatılabilir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1</p>",
+   "B": "<p>2</p>",
+   "C": "<p>3</p>",
+   "D": "<p>4</p>",
+   "E": "<p>6</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    726,
+    492,
+    98
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-03",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 3,
+  "konu": "Borçlar: genel hükümler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6098 sayılı Türk Borçlar Kanunu’na göre, aşağıdakilerden hangisi borcu sona erdiren hallerden biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>İfa</p>",
+   "B": "<p>Zamanaşımı</p>",
+   "C": "<p>Ölüm</p>",
+   "D": "<p>Takas</p>",
+   "E": "<p>İbra</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    1082,
+    502,
+    126
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-04",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 4,
+  "konu": "Borçlar: genel hükümler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6098 sayılı Türk Borçlar Kanunu’na göre, haksız bir fiil ile mal iktisabından doğan borçlarda zamanaşımı, zarara uğrayan tarafından durumun öğrenilmesinden itibaren kaç yıldır?</strong></p>",
+  "secenekler": {
+   "A": "<p>1</p>",
+   "B": "<p>2</p>",
+   "C": "<p>3</p>",
+   "D": "<p>5</p>",
+   "E": "<p>8</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    1443,
+    508,
+    120
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-05",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 5,
+  "konu": "İdari yargı",
+  "ortakBilgi": null,
+  "metin": "<p><strong>2577 sayılı İdari Yargılama Usulü Kanunu madde 14’e göre dava dilekçeleri üzerindeki ilk inceleme işleminde aşağıdaki hususlardan hangisine <u>bakılmaz</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>İvedilik</p>",
+   "B": "<p>İdari merci tecavüzü</p>",
+   "C": "<p>Görev ve yetki</p>",
+   "D": "<p>Husumet</p>",
+   "E": "<p>Süre aşımı</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    133,
+    513,
+    154
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-06",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 6,
+  "konu": "İdari yargı",
+  "ortakBilgi": null,
+  "metin": "<p><strong>2577 sayılı İdari Yargılama Usulü Kanunu’na göre, idari yargı kararları, kararın idareye tebliğinden itibaren idare tarafından en fazla kaç gün içerisinde yerine getirilmek zorundadır?</strong></p>",
+  "secenekler": {
+   "A": "<p>15</p>",
+   "B": "<p>30</p>",
+   "C": "<p>60</p>",
+   "D": "<p>75</p>",
+   "E": "<p>120</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    460,
+    515,
+    120
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-07",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 7,
+  "konu": "Sosyal güvenlik",
+  "ortakBilgi": null,
+  "metin": "<p><strong>5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu’nun madde 8 (b) bendine göre, işveren, işçilerin ilk defa işyeri bildirgesi verilecek işyerlerinde, çalışmaya başladıkları tarihten itibaren <u>en geç</u> ne kadar süre içinde sigortalı olarak çalışmaya başladıklarını Sosyal Güvenlik Kurumuna bildirir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1 gün</p>",
+   "B": "<p>3 gün</p>",
+   "C": "<p>1 hafta</p>",
+   "D": "<p>2 hafta</p>",
+   "E": "<p>1ay</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    810,
+    518,
+    191
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-08",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 8,
+  "konu": "Sosyal güvenlik",
+  "ortakBilgi": null,
+  "metin": "<p><strong>5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu’na göre, aşağıda sayılanlardan hangisi iş kazası, meslek hastalığı, hastalık ve analık sigortasından sağlanan haklardan biri <u>değildir</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Gelir bağlanmış olan kız çocuklarına evlenme ödeneği verilmesi</p>",
+   "B": "<p>İş kazası ve meslek hastalığı sonucu ölen sigortalı için cenaze ödeneği verilmesi</p>",
+   "C": "<p>İş kazası veya meslek hastalığı sonucu ölen sigortalının üçüncü derecede yakınlarına gelir bağlanması</p>",
+   "D": "<p>Sigortalıya sürekli iş göremezlik geliri bağlanması</p>",
+   "E": "<p>Sigortalıya, geçici iş göremezlik süresince günlük geçici iş göremezlik ödeneği verilmesi</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    1230,
+    513,
+    317
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-09",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 9,
+  "konu": "İş hukuku",
+  "ortakBilgi": null,
+  "metin": "<p><strong>4857 sayılı İş Kanunu’na göre işveren; ekonomik, teknolojik, yapısal ve benzeri işletme, işyeri veya işin gerekleri sonucu toplu işçi çıkarmak istediğinde aşağıdaki kurumlardan hangisine bildirmek zorundadır?</strong></p>",
+  "secenekler": {
+   "A": "<p>Ticaret İl Müdürlüğüne</p>",
+   "B": "<p>Bağlı bulunduğu vergi dairesine</p>",
+   "C": "<p>Bulunduğu yerin belediyesine</p>",
+   "D": "<p>Ticaret ve Sanayi Odasına</p>",
+   "E": "<p>Türkiye İş Kurumuna</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    133,
+    498,
+    252
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-10",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 10,
+  "konu": "Ticari işletme ve tacir",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6102 sayılı Türk Ticaret Kanunu madde 5’te geçen “Aksine hüküm bulunmadıkça, dava olunan şeyin değerine veya tutarına bakılmaksızın tüm ticari davalar ile ticari nitelikteki çekişmesiz yargı işlerine bakmakla görevli mahkeme” aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>İş Mahkemesi</p>",
+   "B": "<p>Asliye Ticaret Mahkemesi</p>",
+   "C": "<p>Asliye Ceza Mahkemesi</p>",
+   "D": "<p>İcra Mahkemesi</p>",
+   "E": "<p>Sulh Hukuk Mahkemesi</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    57,
+    636,
+    523,
+    253
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-11",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 11,
+  "konu": "İş hukuku",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi 4857 sayılı İş Kanunu’nda düzenlenen ve iş sözleşmesinden kaynaklanan yıllık izin ücreti ve diğer tazminatlardan farklı bir zamanaşımına tabidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Haksız fiilden doğan tazminat</p>",
+   "B": "<p>İş sözleşmesinin bildirim şartına uyulmaksızın feshinden kaynaklanan tazminat</p>",
+   "C": "<p>Kötü niyet tazminatı</p>",
+   "D": "<p>İş sözleşmesinin eşit davranma ilkesine uyulmaksızın feshinden kaynaklanan tazminat</p>",
+   "E": "<p>Kıdem tazminatı</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    57,
+    1174,
+    526,
+    274
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-12",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 12,
+  "konu": "İş hukuku",
+  "ortakBilgi": null,
+  "metin": "<p><strong>4857 sayılı İş Kanunu’na göre, kadın işçilere bir yaşından küçük çocuklarını emzirmeleri için günde toplam kaç saat süt izni verilir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Yarım saat</p>",
+   "B": "<p>1 saat</p>",
+   "C": "<p>1,5 saat</p>",
+   "D": "<p>2 saat</p>",
+   "E": "<p>3,5 saat</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    133,
+    490,
+    126
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-13",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 13,
+  "konu": "Sosyal güvenlik",
+  "ortakBilgi": null,
+  "metin": "<p><strong>5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu’na göre yapılan kontrol ve denetimlerde, çalıştırdığı kişileri sigortalı olarak bildirmediği veya bildirilen sigortalıyı fiilen çalıştırmadığı tespit edilen işverenler, ---- süreyle, bu maddeyle sağlanan ---- yararlanamaz.” cümlesinde boş bırakılan yerlere sırasıyla aşağıdakilerden hangisi gelmelidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>1 yıl / destek unsurlarından</p>",
+   "B": "<p>6 ay / prim teşvikinden</p>",
+   "C": "<p>6 ay / indirimden</p>",
+   "D": "<p>2 yıl / teşvikten</p>",
+   "E": "<p>5 yıl / destek ve teşvikten</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    433,
+    518,
+    296
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-14",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 14,
+  "konu": "Sosyal güvenlik",
+  "ortakBilgi": null,
+  "metin": "<p><strong>5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu’na göre, idari para cezaları ile ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Söz konusu cezaların, ilgililerce yapılacak tebligat tarihini takip eden günden itibaren 15 gün içinde ödenmesi halinde, cezalar dörtte bir oranına karşılık gelen tutar üzerinden uygulanır.</p>",
+   "B": "<p>Tebliğ tarihinden itibaren 15 gün içinde cezanın peşin ödenmesi halinde yargı yolu kapanır.</p>",
+   "C": "<p>Mahkemeye başvurulması idari para cezasının takip ve tahsilini durdurmaz.</p>",
+   "D": "<p>Tebliğ tarihinden itibaren 15 gün içinde ödenmeyen idari para cezaları, hesaplanacak gecikme cezası ve gecikme zammı ile birlikte tahsil edilir.</p>",
+   "E": "<p>İdarî para cezaları 10 yıllık zamanaşımı süresine tabidir.</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    1013,
+    529,
+    360
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-15",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 15,
+  "konu": "Sosyal güvenlik",
+  "ortakBilgi": null,
+  "metin": "<p>5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu’na göre, “Kurumun denetim ve kontrolle görevlendirilmiş memurlarının bu Kanunun uygulanmasından doğan inceleme ve soruşturma görevlerini yerine getirmeleri sırasında işverenler, sigortalılar, işyeri sahipleri ve bu işle ilgili diğer kişiler görevlerini yapmasına engel olamazlar.”</p><p><strong>Engel olanlar hakkında eylemleri başka bir suç oluştursa dahi, asgari ücretin kaç katı tutarında idari para cezası uygulanır?</strong></p>",
+  "secenekler": {
+   "A": "<p>1/2</p>",
+   "B": "<p>3/4</p>",
+   "C": "<p>2</p>",
+   "D": "<p>5</p>",
+   "E": "<p>10</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    133,
+    502,
+    261
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-16",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 16,
+  "konu": "Borçlar: genel hükümler",
+  "ortakBilgi": null,
+  "metin": "<ul class=\"madde\"><li>I. Sözleşmelerden doğan borç</li><li>II. Haksız fiillerden doğan borç</li><li>III. Sebepsiz zenginleşmeden doğan borç</li><li>IV. Amme alacağından doğan borç</li></ul><p><strong>Aşağıdaki hangi seçenekte 6098 sayılı Türk Borçlar Kanunu’na göre borç ilişkisinin kaynakları tam olarak ifade edilmiştir?</strong></p>",
+  "secenekler": {
+   "A": "<p>I ve II</p>",
+   "B": "<p>I ve III</p>",
+   "C": "<p>II ve IV</p>",
+   "D": "<p>I, II ve III</p>",
+   "E": "<p>II, III ve IV</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    84,
+    723,
+    485,
+    234
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-17",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 17,
+  "konu": "Borçlar: sözleşmeler",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6098 sayılı Türk Borçlar Kanunu’na göre, taksitle satışta tarafların hak ve borçları ile ilgili olarak aşağıdaki ifadelerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Alıcı, peşin satış bedelinin en az %50’sini en geç teslim anında peşin olarak ödemekle yükümlüdür.</p>",
+   "B": "<p>Alıcı, satıcının taksitle satıştan doğan alacağı ile kendisinin satıcıdan olan alacağını takas etme hakkından önceden feragat edemez.</p>",
+   "C": "<p>Kanunda belirlenen asgari peşinatı tamamen almaksızın, satılanı alıcıya devreden satıcı, peşinatın ödenmeyen kısmı üzerinde istem hakkını kaybeder.</p>",
+   "D": "<p>Peşinattan vazgeçilmesi karşılığında, satış bedelinde yapılacak artırma hükümsüzdür.</p>",
+   "E": "<p>Taksit borcu kambiyo senedine bağlanmış olmadıkça, alıcı satış bedelinin kalan kısmını her zaman taksitler halinde ödeyerek borcundan kurtulabilir.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    1230,
+    519,
+    382
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-18",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 18,
+  "konu": "Ticaret şirketleri: genel hükümler",
+  "ortakBilgi": null,
+  "metin": "<ul class=\"madde\"><li>I. Kooperatif</li><li>II. Kollektif Şirket</li><li>III. Adi Komandit Şirket</li><li>IV. Sermayesi Paylara Bölünmüş Komandit Şirket</li><li>V. Limited Şirket</li><li>VI. Anonim Şirket</li></ul><p><strong>6102 sayılı Türk Ticaret Kanunu’na göre yukarıdakilerden hangileri sermaye şirketidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>I ve II</p>",
+   "B": "<p>I, II ve IV</p>",
+   "C": "<p>I, III ve IV</p>",
+   "D": "<p>III, IV ve VI</p>",
+   "E": "<p>IV, V ve VI</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    664,
+    167,
+    420,
+    339
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-19",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 19,
+  "konu": "Kıymetli evrak",
+  "ortakBilgi": null,
+  "metin": "<p><strong>6102 sayılı Türk Ticaret Kanunu’na göre, kıymetli evrakı zayi olan senet üzerinde hak sahibi olan kişinin aşağıdaki mercilerden hangisine başvurması gerekir?</strong></p>",
+  "secenekler": {
+   "A": "<p>İş Mahkemesi</p>",
+   "B": "<p>Vergi Mahkemesi</p>",
+   "C": "<p>Asliye Ticaret Mahkemesi</p>",
+   "D": "<p>Sulh Hukuk Mahkemesi</p>",
+   "E": "<p>Vergi Dairesi Müdürlüğü</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    735,
+    530,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-1-HUK-20",
+  "donem": "2026-1",
+  "ders": "HUK",
+  "no": 20,
+  "konu": "İdari yargı",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi 2577 sayılı İdari Yargılama Usulü Kanunu’nda idari yargı mahkemelerince verilen kararlara karşı belirlenen başvuru yolları arasında <u>yer almaz</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Temyiz</p>",
+   "B": "<p>Şikayet</p>",
+   "C": "<p>Yürütmenin durdurulmasına itiraz</p>",
+   "D": "<p>Kararın açıklanmasını veya aykırılığın giderilmesini isteme</p>",
+   "E": "<p>Yargılamanın yenilenmesi</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    1174,
+    515,
+    253
+   ]
+  }
+ }
+]
