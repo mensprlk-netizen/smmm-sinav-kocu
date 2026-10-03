@@ -1,0 +1,562 @@
+[
+ {
+  "id": "2026-2-FM-01",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 1,
+  "konu": "Maddi duran varlıklar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Satın aldığı genel müdürlük binası için dış cephe yalıtımı ve yenilemesi yaptıran işletme, katlandığı maliyeti aşağıdaki hangi hesapta muhasebeleştirir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Binalar</p>",
+   "B": "<p>Özel Maliyetler</p>",
+   "C": "<p>Genel Yönetim Giderleri</p>",
+   "D": "<p>Diğer Olağan Gider ve Zararlar</p>",
+   "E": "<p>Diğer Olağandışı Gider ve Zararlar</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    361,
+    485,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-02",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 2,
+  "konu": "Yabancı kaynaklar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Aşağıdakilerden hangisi işletmenin uzun vadeli borçlarının izlendiği bir hesaptır?</strong></p>",
+  "secenekler": {
+   "A": "<p>Tahvil Anapara Borç, Taksit ve Faizleri</p>",
+   "B": "<p>Çıkarılmış Bonolar ve Senetler</p>",
+   "C": "<p>Uzun Vadeli Kredilerin Anapara Taksit ve Faizleri</p>",
+   "D": "<p>Kamu Kesimi Tahvil, Senet ve Bonoları</p>",
+   "E": "<p>Çıkarılmış Tahviller</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    688,
+    459,
+    188
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-03",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 3,
+  "konu": "Özkaynaklar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>Bir işletmenin ihraç ettiği hisse senetlerini nominal değerinin üzerinde satması durumunda, nominal değerle satış değeri arasındaki fark aşağıdaki hesapların hangisinde muhasebeleştirilir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Çıkarılmış Bonolar ve Senetler</p>",
+   "B": "<p>Sermaye</p>",
+   "C": "<p>Ödenmemiş Sermaye</p>",
+   "D": "<p>Menkul Kıymet İhraç Farkları</p>",
+   "E": "<p>Hisse Senedi İhraç Primleri</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    994,
+    479,
+    231
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-04",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 4,
+  "konu": "Dönem sonu işlemleri",
+  "ortakBilgi": null,
+  "metin": "<p>İşletme kayıtlarındaki bir borç senedi için raporlama tarihinde 1.000 ₺’lik reeskont hesaplanmıştır.</p><p><strong>Hesaplanan tutar için yapılacak günlük defter kaydıyla ilgili aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Reeskont Faiz Gelirleri hesabına alacak kaydı yapılır.</p>",
+   "B": "<p>Reeskont Faiz Giderleri hesabına alacak kaydı yapılır.</p>",
+   "C": "<p>Reeskont Faiz Giderleri hesabına borç kaydı yapılır.</p>",
+   "D": "<p>Borç Senetleri hesabına borç kaydı yapılır.</p>",
+   "E": "<p>Borç Senetleri Reeskontu hesabına alacak kaydı yapılır.</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    68,
+    1344,
+    516,
+    243
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-05",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 5,
+  "konu": "Hazır değerler",
+  "ortakBilgi": null,
+  "metin": "<p>İşletmenin bankadaki mevduat hesabına vade tarihinde 2.000 ₺ faiz tahakkuk ettirilmiştir. Banka aynı anda 300 ₺’lik vergi kesintisi yapmıştır.</p><p><strong>Bu işlemler için işletmede tek bir günlük defter kaydı yapılmış ise aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Ödenecek Vergi ve Fonlar hesabı 300 ₺ alacaklandırılır.</p>",
+   "B": "<p>Faiz Gelirleri hesabı 1.700 ₺ alacaklandırılır.</p>",
+   "C": "<p>Faiz Gelirleri hesabı 2.000 ₺ alacaklandırılır.</p>",
+   "D": "<p>Bankalar hesabı 2.000 ₺ borçlandırılır.</p>",
+   "E": "<p>Bankalar hesabı 2.300 ₺ borçlandırılır.</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    133,
+    518,
+    265
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-06",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 6,
+  "konu": "Yabancı kaynaklar",
+  "ortakBilgi": null,
+  "metin": "<table class=\"yevmiye\"><tr><td>102 BANKALAR</td><td class=\"n\">XX</td><td class=\"n\"></td></tr><tr><td>308 MENKUL KIYMETLER İHRAÇ FARKLARI</td><td class=\"n\">XX</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">305 ÇIKARILMIŞ BONOLAR VE SENETLER</td><td class=\"n\"></td><td class=\"n\">XX</td></tr></table><p><strong>Yukarıdaki günlük defter kaydı hangi işlemin karşılığı olarak yapılır?</strong></p>",
+  "secenekler": {
+   "A": "<p>Tahvil ihraç edilmesi</p>",
+   "B": "<p>Bononun iskontolu olarak ihraç edilmesi</p>",
+   "C": "<p>Bono satın alınması</p>",
+   "D": "<p>Çıkarılmış bononun itfa edilmesi</p>",
+   "E": "<p>Çıkarılmış tahvilin itfa edilmesi</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    669,
+    496,
+    487,
+    270
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-07",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 7,
+  "konu": "Özkaynaklar",
+  "ortakBilgi": null,
+  "metin": "<p>Sermaye artırımına giden bir işletme nominal değeri 1 ₺ olan 20.000 adet hisse senedini 3 ₺’lik birim fiyatla banka aracılığıyla satmıştır.</p><p><strong>Sermaye artırımı ve hisse senetlerinin satışını ayrı ayrı muhasebeleştiren işletmenin yapacağı günlük defter kayıtlarıyla ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Ödenmemiş Sermaye hesabı 20.000 ₺ alacaklandırılır.</p>",
+   "B": "<p>Sermaye hesabı 20.000 ₺ alacaklandırılır.</p>",
+   "C": "<p>Ödenmemiş Sermaye hesabı 20.000 ₺ borçlandırılır.</p>",
+   "D": "<p>Hisse Senedi İhraç Primleri hesabı 40.000 ₺ borçlandırılır.</p>",
+   "E": "<p>Bankalar hesabı 60.000 ₺ borçlandırılır.</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    857,
+    509,
+    308
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-08",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 8,
+  "konu": "Stoklar",
+  "ortakBilgi": null,
+  "metin": "<p>Aralıksız sayım (sürekli envanter) yöntemini kullanarak ticari mal hareketlerini muhasebeleştiren bir işletmede Ticari Mallar hesabının borç kalanı 9.000 ₺’dir. Yapılan sayım sonucunda işletmede 8.500 ₺ değerinde ticari mal olduğu saptanmıştır.</p><p><strong>Aradaki farkın nedenini araştırma kararı alan işletmenin yapacağı kayıtla ilgili aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Araştırma sürdüğü için bir işlem yapılmaz.</p>",
+   "B": "<p>Sayım ve Tesellüm Noksanları hesabı 500 ₺ borçlandırılır.</p>",
+   "C": "<p>Ticari Mallar hesabı 500 ₺ borçlandırılır.</p>",
+   "D": "<p>Satılan Ticari Mallar Maliyeti hesabı 500 ₺ alacaklandırılır.</p>",
+   "E": "<p>Sayım ve Tesellüm Fazlaları hesabı 500 ₺ alacaklandırılır.</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 1,
+   "kutu": [
+    648,
+    1255,
+    520,
+    394
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-09",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 9,
+  "konu": "Stoklar",
+  "ortakBilgi": null,
+  "metin": "<p>İşletme, deposunda çıkan yangın nedeniyle değeri düşen 10.000 ₺’lik ticari malları için dönem içinde 9.000 ₺ karşılık ayırmıştır. Aynı dönem içinde bu ticari malları 1.500 ₺ + KDV bedelle satmıştır.</p><p><strong>Belirtilen bu işlemlerin muhasebeleştirilmesinde aşağıdaki hesaplardan hangisi <u>kullanılmaz</u>?</strong></p>",
+  "secenekler": {
+   "A": "<p>Diğer Olağandışı Gider ve Zararlar</p>",
+   "B": "<p>Konusu Kalmayan Karşılıklar</p>",
+   "C": "<p>Stok Değer Düşüklüğü Karşılığı</p>",
+   "D": "<p>Karşılık Giderleri</p>",
+   "E": "<p>Ticari Mallar</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    68,
+    133,
+    510,
+    286
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-10",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 10,
+  "konu": "Menkul kıymetler",
+  "ortakBilgi": null,
+  "metin": "<table class=\"yevmiye\"><tr><td>102 BANKALAR</td><td class=\"n\">XX</td><td class=\"n\"></td></tr><tr><td>119 MENKUL KIYMETLER DEĞER DÜŞÜKLÜĞÜ KARŞILIĞI</td><td class=\"n\">XX</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">110 HİSSE SENETLERİ</td><td class=\"n\"></td><td class=\"n\">XX</td></tr></table><p><strong>Yukarıdaki günlük defter kaydı hangi işlemin karşılığı olarak yapılır?</strong></p>",
+  "secenekler": {
+   "A": "<p>Hisse senetleri için değer düşüklüğü karşılığı ayrılması</p>",
+   "B": "<p>Değer düşüklüğü karşılığı ayrılmış olan hisse senetlerinin beklenen fiyatla satışı</p>",
+   "C": "<p>Değer düşüklüğü karşılığı ayrılmış olan hisse senetlerinin beklenenden düşük fiyatla satışı</p>",
+   "D": "<p>Hisse senedi satışından kâr edilmesi</p>",
+   "E": "<p>Değer düşüklüğü karşılığı ayrılmış olan hisse senetlerinin beklenenden daha yüksek fiyatla satışı</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    88,
+    523,
+    487,
+    352
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-11",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 11,
+  "konu": "Yabancı kaynaklar",
+  "ortakBilgi": null,
+  "metin": "<p><strong>İşletmelerin para ve sermaye piyasalarından sağladığı borçlar için kullanılması gereken hesap grubu aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Borç ve Gider Karşılıkları</p>",
+   "B": "<p>Ticari Borçlar</p>",
+   "C": "<p>Mali Borçlar</p>",
+   "D": "<p>Diğer Borçlar</p>",
+   "E": "<p>Alınan Avanslar</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    57,
+    993,
+    516,
+    209
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-12",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 12,
+  "konu": "Mali duran varlıklar",
+  "ortakBilgi": null,
+  "metin": "<p>İşletme, yaptığı 3.000 ₺’lik ek yatırımla başka bir işletmedeki mevcut ortaklık payını %45’ten %60’a çıkarmıştır.</p><p><strong>Bu durumda yapılması gereken kayıtlarla ilgili aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>Bağlı Menkul Kıymet yatırımı İştirak yatırımına dönüştürülür.</p>",
+   "B": "<p>Yapılan yatırım İştirakler hesabında izlenmeye devam edilir.</p>",
+   "C": "<p>Toplam yatırım tutarı Bağlı Menkul Kıymetler hesabına aktarılır.</p>",
+   "D": "<p>İştirak yatırımı Bağlı Ortaklık yatırımına dönüştürülür.</p>",
+   "E": "<p>Bağlı Ortaklık yatırımı İştirak yatırımına dönüştürülür.</p>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    57,
+    1321,
+    515,
+    330
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-13",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 13,
+  "konu": "Maddi duran varlıklar",
+  "ortakBilgi": null,
+  "metin": "<p>İşletme, pazarlama faaliyetinde kullanmak üzere satın alacağı kamyonet için banka hesabından 4.200 ₺ avans ödemiştir.</p><p><strong>Buna göre yapılacak muhasebe kaydında borçlandırılacak hesap aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<p>Verilen Avanslar</p>",
+   "B": "<p>Verilen Depozito ve Teminatlar</p>",
+   "C": "<p>Pazarlama, Satış ve Dağıtım Giderleri</p>",
+   "D": "<p>Verilen Sipariş Avansları</p>",
+   "E": "<p>Taşıtlar</p>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    133,
+    499,
+    265
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-14",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 14,
+  "konu": "Dönem sonu işlemleri",
+  "ortakBilgi": null,
+  "metin": "<p>İşletme, 1 Kasım’da 90 gün vadeli ve %24 faizli 100.000 ₺ tutarında banka kredisi kullanmıştır. Anapara ve faiz vade sonunda ödenecektir.</p><p><strong>Buna göre kredinin alındığı yılın sonunda yapılması gereken kayıtla ilgili aşağıdakilerden hangisi doğrudur?</strong></p><p>(Bir yıl 360 gün olarak alınacaktır)</p>",
+  "secenekler": {
+   "A": "<p>Gider Tahakkukları hesabı 2.000 ₺ alacaklandırılır.</p>",
+   "B": "<p>Banka Kredileri hesabı 2.000 ₺ borçlandırılır.</p>",
+   "C": "<p>Finansman Giderleri hesabı 2.000 ₺ borçlandırılır.</p>",
+   "D": "<p>Gelecek Aylara Ait Giderler hesabı 4.000 ₺ borçlandırılır.</p>",
+   "E": "<p>Gider Tahakkukları hesabı 4.000 ₺ alacaklandırılır.</p>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    603,
+    532,
+    321
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-15",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 15,
+  "konu": "Stoklar",
+  "ortakBilgi": null,
+  "metin": "<p>İşletme, daha önce kredili olarak ticari mal satın aldığı bir satıcıya olan 2.400 ₺’lik borcunu aynı dönem içinde vadesinden önce ödemiş ve bu çerçevede 120 ₺ + %20 KDV tutarında iskonto elde etmiştir.</p><p><strong>Buna göre yapılacak günlük defter kaydıyla ilgili aşağıdakilerden hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<p>İndirilecek KDV hesabına 24 ₺ borç kaydı yapılır.</p>",
+   "B": "<p>Ticari Mallar hesabına 120 ₺ alacak kaydı yapılır.</p>",
+   "C": "<p>Diğer Olağandışı Gelir ve Kârlar hesabına 120 ₺ alacak kaydı yapılır.</p>",
+   "D": "<p>Satış İskontoları hesabına 144 ₺ borç kaydı yapılır.</p>",
+   "E": "<p>Satıcılar hesabına 2.400 ₺ alacak kaydı yapılır.</p>"
+  },
+  "dogru": "B",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 2,
+   "kutu": [
+    638,
+    1209,
+    521,
+    308
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-16",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 16,
+  "konu": "Dönem sonu işlemleri",
+  "ortakBilgi": null,
+  "metin": "<p>İşletme kasım ayı sonu itibarıyla satış mağazasının tahmini elektrik tüketim bedeli olan 600 ₺’yi 30 Kasım’da muhasebeleştirmiştir. Aralık ayında gelen elektrik faturası ise 700 ₺ + %20 KDV tutarındadır ve hemen bankadan ödenmiştir.</p><p><strong>Faturanın gelmesine ve ödenmesine ilişkin günlük defter kaydı aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<table class=\"yevmiye\"><tr><td>760 PAZARLAMA, SATIŞ VE DAĞITIM GİDERLERİ</td><td class=\"n\">100</td><td class=\"n\"></td></tr><tr><td>373 MALİYET GİDERLERİ KARŞILIĞI</td><td class=\"n\">600</td><td class=\"n\"></td></tr><tr><td>191 İNDİRİLECEK KDV</td><td class=\"n\">140</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">102 BANKALAR</td><td class=\"n\"></td><td class=\"n\">840</td></tr></table>",
+   "B": "<table class=\"yevmiye\"><tr><td>760 PAZARLAMA, SATIŞ VE DAĞITIM GİDERLERİ</td><td class=\"n\">700</td><td class=\"n\"></td></tr><tr><td>191 İNDİRİLECEK KDV</td><td class=\"n\">140</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">102 BANKALAR</td><td class=\"n\"></td><td class=\"n\">840</td></tr></table>",
+   "C": "<table class=\"yevmiye\"><tr><td>760 PAZARLAMA, SATIŞ VE DAĞITIM GİDERLERİ</td><td class=\"n\">600</td><td class=\"n\"></td></tr><tr><td>373 MALİYET GİDERLERİ KARŞILIĞI</td><td class=\"n\">100</td><td class=\"n\"></td></tr><tr><td>191 İNDİRİLECEK KDV</td><td class=\"n\">140</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">102 BANKALAR</td><td class=\"n\"></td><td class=\"n\">840</td></tr></table>",
+   "D": "<table class=\"yevmiye\"><tr><td>770 GENEL YÖNETİM GİDERLERİ</td><td class=\"n\">600</td><td class=\"n\"></td></tr><tr><td>373 MALİYET GİDERLERİ KARŞILIĞI</td><td class=\"n\">100</td><td class=\"n\"></td></tr><tr><td>191 İNDİRİLECEK KDV</td><td class=\"n\">140</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">102 BANKALAR</td><td class=\"n\"></td><td class=\"n\">840</td></tr></table>",
+   "E": "<table class=\"yevmiye\"><tr><td>770 GENEL YÖNETİM GİDERLERİ</td><td class=\"n\">700</td><td class=\"n\"></td></tr><tr><td>191 İNDİRİLECEK KDV</td><td class=\"n\">140</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">102 BANKALAR</td><td class=\"n\"></td><td class=\"n\">840</td></tr></table>"
+  },
+  "dogru": "A",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    57,
+    133,
+    526,
+    732
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-17",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 17,
+  "konu": "Dönem sonu işlemleri",
+  "ortakBilgi": null,
+  "metin": "<p>İşletmenin dönem sonu itibariyle hesapladığı Kurumlar Vergisi yükümlülüğü 2.500 ₺’dir.</p><p><strong>Buna göre yapılacak günlük defter kaydı aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<table class=\"yevmiye\"><tr><td>370 DÖNEM KÂRI VERGİ VE DİĞER YASAL YÜKÜMLÜLÜK KARŞILIKLARI</td><td class=\"n\">2.500</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">691 DÖNEM KÂRI VERGİ VE DİĞER YASAL YÜKÜMLÜLÜK KARŞILIKLARI</td><td class=\"n\"></td><td class=\"n\">2.500</td></tr></table>",
+   "B": "<table class=\"yevmiye\"><tr><td>691 DÖNEM KÂRI VERGİ VE DİĞER YASAL YÜKÜMLÜLÜK KARŞILIKLARI</td><td class=\"n\">2.500</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">692 DÖNEM NET KÂRI VEYA ZARARI</td><td class=\"n\"></td><td class=\"n\">2.500</td></tr></table>",
+   "C": "<table class=\"yevmiye\"><tr><td>691 DÖNEM KÂRI VERGİ VE DİĞER YASAL YÜKÜMLÜLÜK KARŞILIKLARI</td><td class=\"n\">2.500</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">370 DÖNEM KÂRI VERGİ VE DİĞER YASAL YÜKÜMLÜLÜK KARŞILIKLARI</td><td class=\"n\"></td><td class=\"n\">2.500</td></tr></table>",
+   "D": "<table class=\"yevmiye\"><tr><td>370 DÖNEM KÂRI VERGİ VE DİĞER YASAL YÜKÜMLÜLÜK KARŞILIKLARI</td><td class=\"n\">2.500</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">371 DÖNEM KÂRININ PEŞİN ÖDENEN VERGİ VE DİĞER YÜKÜMLÜLÜKLERİ</td><td class=\"n\"></td><td class=\"n\">2.500</td></tr></table>",
+   "E": "<table class=\"yevmiye\"><tr><td>691 DÖNEM KÂRI VERGİ VE DİĞER YASAL YÜKÜMLÜLÜK KARŞILIKLARI</td><td class=\"n\">2.500</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">360 ÖDENECEK VERGİ VE FONLAR</td><td class=\"n\"></td><td class=\"n\">2.500</td></tr></table>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 3,
+   "kutu": [
+    638,
+    133,
+    518,
+    673
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-18",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 18,
+  "konu": "Maddi duran varlıklar",
+  "ortakBilgi": null,
+  "metin": "<p>İşletme fabrika binası yapmak üzere 2024 yılında 30.000 ₺’ye aldığı ve maliyet değeriyle ölçtüğü bir arsayı 2025 yılında yatırım amaçlı olarak elde tutmaya karar vermiştir. Akredite bir değerleme şirketine yaptırılan değerleme sonucunda arsanın gerçeğe uygun değerinin 40.000 ₺ olduğu belirlenmiştir.</p><p><strong>TMS 40 Yatırım Amaçlı Gayrimenkuller’e göre binanın sınıf değişikliği ve değerlemesiyle ilgili kayıtlar kapsamında aşağıdaki günlük defter kayıtlarından hangisi doğrudur?</strong></p>",
+  "secenekler": {
+   "A": "<table class=\"yevmiye\"><tr><td>250 ARAZİ VE ARSALAR</td><td class=\"n\">10.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">647 YATIRIM AMAÇLI GAYRİMENKULLERDEN ELDE EDİLEN GELİR VE KAZANÇLAR</td><td class=\"n\"></td><td class=\"n\">10.000</td></tr></table>",
+   "B": "<table class=\"yevmiye\"><tr><td>245 GERÇEĞE UYGUN DEĞERLE ÖLÇÜLEN YATIRIM AMAÇLI GAYRİMENKULLER</td><td class=\"n\">40.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">250 ARAZİ VE ARSALAR</td><td class=\"n\"></td><td class=\"n\">30.000</td></tr><tr><td class=\"alacak\">647 YATIRIM AMAÇLI GAYRİMENKULLERDEN ELDE EDİLEN GELİR VE KAZANÇLAR</td><td class=\"n\"></td><td class=\"n\">10.000</td></tr></table>",
+   "C": "<table class=\"yevmiye\"><tr><td>250 ARAZİ VE ARSALAR</td><td class=\"n\">10.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">245 GERÇEĞE UYGUN DEĞERLE ÖLÇÜLEN YATIRIM AMAÇLI GAYRİMENKULLER</td><td class=\"n\"></td><td class=\"n\">10.000</td></tr></table>",
+   "D": "<table class=\"yevmiye\"><tr><td>245 GERÇEĞE UYGUN DEĞERLE ÖLÇÜLEN YATIRIM AMAÇLI GAYRİMENKULLER</td><td class=\"n\">40.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">647 YATIRIM AMAÇLI GAYRİMENKULLERDEN ELDE EDİLEN GELİR VE KAZANÇLAR</td><td class=\"n\"></td><td class=\"n\">40.000</td></tr></table>",
+   "E": "<table class=\"yevmiye\"><tr><td>245 GERÇEĞE UYGUN DEĞERLE ÖLÇÜLEN YATIRIM AMAÇLI GAYRİMENKULLER</td><td class=\"n\">40.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">250 ARAZİ VE ARSALAR</td><td class=\"n\"></td><td class=\"n\">30.000</td></tr><tr><td class=\"alacak\">551 MADDİ DURAN VARLIKLAR YENİDEN DEĞERLEME ARTIŞLARI</td><td class=\"n\"></td><td class=\"n\">10.000</td></tr></table>"
+  },
+  "dogru": "E",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    57,
+    133,
+    518,
+    933
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-19",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 19,
+  "konu": "Stoklar",
+  "ortakBilgi": null,
+  "metin": "<p>Tek bir mamul üreten bir işletmenin döneme ilişkin normal üretim kapasitesi 10.000 birimdir. İşletmede dönem başı ve dönem sonu yarı mamul stoku ile dönem başı mamul stoku bulunmamaktadır. İşletme ilgili dönemde 8.000 birim mamul üretmiş ve tamamını satmıştır. Dönemde katlanılan üretim giderleri aşağıdaki gibidir:</p><table class=\"veri\"><tr><td>Direkt İlk Madde ve Malzeme Giderleri</td><td class=\"n\">20.000 ₺</td></tr><tr><td>Direkt İşçilik Giderleri</td><td class=\"n\">80.000 ₺</td></tr><tr><td>Sabit Genel Üretim Giderleri</td><td class=\"n\">60.000 ₺</td></tr><tr><td>Değişken Genel Üretim Giderleri</td><td class=\"n\">40.000 ₺</td></tr></table><p><strong>TMS 2 Stoklar’a göre, satılan mamullerin bilançodan çıkarılmasına ilişkin günlük defter kaydı aşağıdakilerden hangisidir?</strong></p>",
+  "secenekler": {
+   "A": "<table class=\"yevmiye\"><tr><td>620 SATILAN MAMULLER MALİYETİ</td><td class=\"n\">140.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">152 MAMULLER</td><td class=\"n\"></td><td class=\"n\">140.000</td></tr></table>",
+   "B": "<table class=\"yevmiye\"><tr><td>620 SATILAN MAMULLER MALİYETİ</td><td class=\"n\">200.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">152 MAMULLER</td><td class=\"n\"></td><td class=\"n\">200.000</td></tr></table>",
+   "C": "<table class=\"yevmiye\"><tr><td>620 SATILAN MAMULLER MALİYETİ</td><td class=\"n\">100.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">152 MAMULLER</td><td class=\"n\"></td><td class=\"n\">100.000</td></tr></table>",
+   "D": "<table class=\"yevmiye\"><tr><td>620 SATILAN MAMULLER MALİYETİ</td><td class=\"n\">188.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">152 MAMULLER</td><td class=\"n\"></td><td class=\"n\">188.000</td></tr></table>",
+   "E": "<table class=\"yevmiye\"><tr><td>620 SATILAN MAMULLER MALİYETİ</td><td class=\"n\">188.000</td><td class=\"n\"></td></tr><tr><td>624 DAĞITILMAYAN SABİT GENEL ÜRETİM GİDERLERİ</td><td class=\"n\">12.000</td><td class=\"n\"></td></tr><tr><td class=\"alacak\">152 MAMULLER</td><td class=\"n\"></td><td class=\"n\">200.000</td></tr></table>"
+  },
+  "dogru": "D",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    133,
+    526,
+    741
+   ]
+  }
+ },
+ {
+  "id": "2026-2-FM-20",
+  "donem": "2026-2",
+  "ders": "FM",
+  "no": 20,
+  "konu": "Maddi duran varlıklar",
+  "ortakBilgi": null,
+  "metin": "<p>İşletme, yönetim toplantılarında kullanmak üzere 01.06.2025 tarihinde 4.000 ₺’ye satın aldığı projeksiyon cihazının faydalı ömrünün 1.000 saatlik çalışma olduğunu saptamıştır. Cihazın hurda değerinin 500 ₺ olacağı tahmin edilmektedir. Dönem sonu itibariyle cihazın toplantılarda 200 saat çalıştığı belirlenmiştir.</p><p><strong>Cihaz için TMS 16 Maddi Duran Varlıklar kapsamında üretim miktarı yöntemiyle amortisman hesaplayan işletmenin döneme ilişkin amortisman tutarı kaç ₺’dir?</strong></p>",
+  "secenekler": {
+   "A": "<p>200</p>",
+   "B": "<p>500</p>",
+   "C": "<p>700</p>",
+   "D": "<p>800</p>",
+   "E": "<p>900</p>"
+  },
+  "dogru": "C",
+  "iptal": false,
+  "cevapNotu": null,
+  "orijinal": {
+   "sayfa": 4,
+   "kutu": [
+    638,
+    1216,
+    522,
+    240
+   ]
+  }
+ }
+]
