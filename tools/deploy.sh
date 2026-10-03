@@ -9,17 +9,24 @@ if [ "$(git branch --show-current)" != "main" ]; then
   exit 1
 fi
 
+if [ -n "$(git status --porcelain)" ]; then
+  echo "Çalışma ağacı temiz değil; önce değişiklikleri işleyin veya saklayın." >&2
+  exit 1
+fi
+
 PYTHONIOENCODING=utf-8 python tools/validate.py
 PYTHONIOENCODING=utf-8 python tools/build_sw_manifest.py
 npm test
 
-if [ -n "$(git status --porcelain)" ]; then
-  git add -A
-  git commit -qm "Yayın: $(date +%F)" -m "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>"
+# Yalnız üretilen önbellek listesi işlenir (kullanıcının yayın işlemesi; yardımcı eş-yazar satırı yok).
+git add app/sw-manifest.js
+if ! git diff --cached --quiet; then
+  git commit -qm "Yayın: $(date +%F)"
 fi
 git push origin main
 
 # app/ alt ağacını gh-pages dalı olarak gönder (geçmiş yeniden yazılır; Pages için sorun değil).
+git branch -D gh-pages-tmp 2>/dev/null || true
 git subtree split --prefix app -b gh-pages-tmp
 git push -f origin gh-pages-tmp:gh-pages
 git branch -D gh-pages-tmp

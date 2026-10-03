@@ -1,10 +1,9 @@
 // app/js/exam.js — deneme oturumu ve resmi puanlama (saf)
-const r2 = (x) => Math.round(x * 100) / 100;
+// Küsurat tama iblağ edilmez: iki ondalığa KIRPILIR (10,526 -> 10,52; 59,9975 -> 59,99).
+const kirp = (x) => Math.floor(x * 100 + 1e-9) / 100;
+const hamPuan = ({ dogru, yanlis, gecerli }) => gecerli ? Math.max(0, (dogru - yanlis * 0.25) * (100 / gecerli)) : 0;
 
-export function dersPuani({ dogru, yanlis, gecerli }) {
-  if (!gecerli) return 0;
-  return Math.max(0, r2((dogru - yanlis * 0.25) * (100 / gecerli)));
-}
+export function dersPuani(d) { return kirp(hamPuan(d)); }
 
 export function pickQuestions(pool, { mod = 'resmi', adet = 20, rng = Math.random } = {}) {
   const valid = pool.filter(q => !q.iptal);
@@ -40,7 +39,7 @@ export function finish(session, questionsById, now = Date.now()) {
   for (const kod of session.dersler) dersler[kod] = { dogru: 0, yanlis: 0, bos: 0, gecerli: 0 };
   for (const id of session.soruIdler) {
     const q = questionsById[id]; const d = dersler[session.dersOf[id]];
-    if (!q || !d) continue;
+    if (!q || q.iptal || !d) continue; // sonradan iptal edilen soru sayılmaz
     d.gecerli++;
     const c = session.cevaplar[id];
     if (!c) d.bos++; else if (c === q.dogru) d.dogru++; else d.yanlis++;
@@ -48,9 +47,10 @@ export function finish(session, questionsById, now = Date.now()) {
   let toplam = 0, toplamDogru = 0, toplamYanlis = 0, toplamBos = 0;
   for (const d of Object.values(dersler)) {
     d.puan = dersPuani(d); d.gecti = d.puan >= 50;
-    toplam += d.puan; toplamDogru += d.dogru; toplamYanlis += d.yanlis; toplamBos += d.bos;
+    toplam += hamPuan(d); // ortalama ham (kırpılmamış) ders puanlarından hesaplanır
+ toplamDogru += d.dogru; toplamYanlis += d.yanlis; toplamBos += d.bos;
   }
   const n = Object.keys(dersler).length;
-  const ortalama = n ? r2(toplam / n) : 0;
+  const ortalama = n ? kirp(toplam / n) : 0;
   return { ...session, bittiMi: true, bitis: now, sonuc: { dersler, ortalama, ortalamaGecti: ortalama >= 60, toplamDogru, toplamYanlis, toplamBos } };
 }

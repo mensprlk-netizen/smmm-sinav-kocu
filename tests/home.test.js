@@ -154,3 +154,11 @@ test('Tekrar çubuğu bugünkü yapılan + kalan kotayı gösterir (5 / 8)', asy
   await run();
   assert.equal(rowText('Tekrar'), '5 / 8');
 });
+
+test('veritabanı açılamadıysa Ana sayfa yine de çizilir (salt okunur mod)', async () => {
+  await assert.rejects(() => db.open(null));
+  view.innerHTML = '';
+  await run();
+  assert.equal(big(), '57 gün'); // kayıtlı tarih okunamaz: varsayılan sınav tarihi
+  assert.ok(view.textContent.length > 0);
+});

@@ -25,6 +25,8 @@ const btn = (text, root = document) => [...root.querySelectorAll('button')].find
 const change = async (el, v) => { el.value = v; el.dispatchEvent(new win.Event('change', { bubbles: true })); await settle(); };
 const sheetBtn = (text) => btn(text, document.querySelector('.sheet'));
 const setStorage = (v) => Object.defineProperty(navigator, 'storage', { value: v, configurable: true });
+const setSw = (v) => Object.defineProperty(navigator, 'serviceWorker', { value: v, configurable: true });
+const offlineText = () => view.querySelector('[data-offline]').textContent;
 const pickFile = async (content) => {
   const input = view.querySelector('input[type=file]');
   const file = new win.File([content], 'yedek.json', { type: 'application/json' });
@@ -52,6 +54,7 @@ beforeEach(async () => {
   events = 0;
   window.addEventListener('settings-changed', onSettings);
   setStorage(undefined);
+  setSw(undefined);
 });
 afterEach(() => {
   window.removeEventListener('settings-changed', onSettings);
@@ -242,4 +245,21 @@ test('destroy() bekleyen render sırasında hiçbir şey eklemez', async () => {
   screen.destroy();
   await p; await settle();
   assert.equal(view.children.length, 0);
+});
+
+test('çevrimdışı hazır göstergesi: controller veya aktif kayıt varsa hazır, yoksa bekliyor', async () => {
+  await run();
+  assert.equal(offlineText(), 'Çevrimdışı kurulum bekleniyor');
+  setSw({ controller: {}, getRegistration: async () => undefined });
+  await run();
+  assert.equal(offlineText(), 'Çevrimdışı kullanıma hazır');
+  setSw({ controller: null, getRegistration: async () => ({ active: {} }) });
+  await run();
+  assert.equal(offlineText(), 'Çevrimdışı kullanıma hazır');
+  setSw({ controller: null, getRegistration: async () => ({ installing: {} }) });
+  await run();
+  assert.equal(offlineText(), 'Çevrimdışı kurulum bekleniyor');
+  setSw({ controller: null, getRegistration: async () => { throw new Error('x'); } });
+  await run();
+  assert.equal(offlineText(), 'Çevrimdışı kurulum bekleniyor');
 });

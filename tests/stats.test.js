@@ -185,3 +185,9 @@ test('aynı konu etiketi iki derste: Konu bazında ve Zayıf konular ayrı göst
     [`H4:${data.dersAdi('FM')}`, 'DIV:genel3 · 100% · —', `H4:${data.dersAdi('MAL')}`, 'DIV:genel3 · 33% · —']);
   assert.deepEqual(rowTexts('Zayıf konular'), [`${data.dersAdi('MAL')} · genel | 33% · —`, `${data.dersAdi('FM')} · genel | 100% · —`]);
 });
+
+test('veritabanı açılamadıysa İstatistik ekranı yine çizilir', async () => {
+  await assert.rejects(() => db.open(null));
+  await run();
+  assert.ok(view.querySelector('h1'));
+});

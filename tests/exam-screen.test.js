@@ -154,10 +154,10 @@ test('Bitir: onay ister, bir cevap satırı/cevaplı soru, kart yok, sonuca gide
   assert.deepEqual(navs, ['#/exam/result/d1']);
 });
 
-test('sonuç: 10 doğru 4 yanlış 5 boş → 47,37 ve baraj altı mesajı', async () => {
+test('sonuç: 10 doğru 4 yanlış 5 boş → 47,36 ve baraj altı mesajı', async () => {
   await seedFinished(); await run('result', 'd1');
   const t = view.textContent;
-  assert.ok(t.includes('47,37'));
+  assert.ok(t.includes('47,36'));
   assert.ok(t.includes('Doğru 10 · Yanlış 4 · Boş 5'));
   assert.ok(t.includes('Ders barajı 50 altında'));
   assert.ok(t.includes('10D 4Y 5B'));
@@ -444,4 +444,31 @@ test('gözden geçir: Kartları ekle kart yazar, etiket deneme satırına, bayra
   ev('pointerdown', 5, 5); ev('pointermove', 20, 20); ev('pointerup', 20, 20);
   await tick(400);
   assert.ok((await db.getInk('feynman:' + qid))?.length >= 1);
+});
+
+test('veritabanı açılamadıysa Deneme kurulum ekranı yine çizilir', async () => {
+  await assert.rejects(() => db.open(null));
+  await run();
+  assert.equal(view.querySelector('h1').textContent, 'Deneme');
+  assert.equal(view.querySelectorAll('.card').length, 3);
+});
+
+test('sonuç (çok ders): her ders >= 50 ve ortalama >= 60 şartı, "Resmî kural"', async () => {
+  const mal = await malPool();
+  const fm = X.pickQuestions(await data.filterQuestions({ dersler: ['FM'], donemler: ['2026-1'], iptalHaric: false }), { mod: 'resmi' });
+  const byId = Object.fromEntries([...mal, ...fm].map(q => [q.id, q]));
+  const finish = async (id, malDogru) => {
+    let s = X.createExam({ tur: 'oturum', sorular: [...mal, ...fm], sureDk: 180, now: NOW, denemeId: id });
+    for (const q of fm) s = X.answer(s, q.id, 'C');
+    mal.forEach((q, k) => { s = X.answer(s, q.id, k < malDogru ? 'C' : 'A'); });
+    await db.saveExam({ ...X.finish(s, byId, NOW + MIN), satirlarYazildi: true });
+  };
+  await finish('g1', 19); await run('result', 'g1');
+  assert.ok(view.textContent.includes('Geçti'));
+  assert.ok(view.textContent.includes('Resmî kural'));
+  assert.ok(!view.textContent.includes('Kaldı'));
+  view.innerHTML = '';
+  await finish('g2', 8); await run('result', 'g2'); // MAL ~42 < 50, ortalama ~71 >= 60
+  assert.ok(view.textContent.includes('Kaldı'));
+  assert.ok(view.textContent.includes('Resmî kural'));
 });

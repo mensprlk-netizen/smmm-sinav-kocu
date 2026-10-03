@@ -3,9 +3,11 @@ const NAME = 'smmm-koc', VERSION = 1;
 const STORES = ['answers', 'cards', 'ink', 'exams', 'settings', 'flags'];
 let dbp = null;
 
+// Açılamazsa dbp null kalır: okumalar boş değer döner (salt okunur mod), yazmalar reddedilir.
 export function open(factory = globalThis.indexedDB) {
+  dbp = null;
   if (!factory) return Promise.reject(new Error('IndexedDB yok'));
-  dbp = new Promise((resolve, reject) => {
+  const p = new Promise((resolve, reject) => {
     const req = factory.open(NAME, VERSION);
     req.onupgradeneeded = () => {
       const d = req.result;
@@ -20,11 +22,17 @@ export function open(factory = globalThis.indexedDB) {
     };
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error);
+    req.onblocked = () => reject(new Error('IndexedDB engellendi'));
   });
-  return dbp.then(() => undefined);
+  return p.then(() => { dbp = p; });
 }
 
+const yok = () => Promise.reject(new Error('IndexedDB yok'));
+// Okuma işlevleri veritabanı yokken boş değer döndürür; yazmalar reddedilir.
+const okuma = (bos, fn) => (...a) => dbp ? fn(...a) : Promise.resolve(bos);
+
 function tx(store, mode, fn) {
+  if (!dbp) return yok();
   return dbp.then(d => new Promise((resolve, reject) => {
     const t = d.transaction(store, mode);
     const r = fn(t.objectStore(store));
@@ -35,8 +43,8 @@ function tx(store, mode, fn) {
 }
 
 export const put = (s, v) => tx(s, 'readwrite', o => o.put(v));
-export const get = (s, k) => tx(s, 'readonly', o => o.get(k));
-export const getAll = (s) => tx(s, 'readonly', o => o.getAll());
+export const get = okuma(undefined, (s, k) => tx(s, 'readonly', o => o.get(k)));
+export const getAll = okuma([], (s) => tx(s, 'readonly', o => o.getAll()));
 export const del = (s, k) => tx(s, 'readwrite', o => o.delete(k));
 export const clear = (s) => tx(s, 'readwrite', o => o.clear());
 
@@ -49,6 +57,7 @@ export const setSetting = (anahtar, deger) => put('settings', { anahtar, deger }
 // Writes all rows in ONE transaction: either every row is stored or none.
 export function addAnswers(rows) {
   if (!rows.length) return Promise.resolve();
+  if (!dbp) return yok();
   return dbp.then(d => new Promise((resolve, reject) => {
     const t = d.transaction('answers', 'readwrite');
     const st = t.objectStore('answers');
@@ -60,18 +69,16 @@ export function addAnswers(rows) {
   }));
 }
 export function addAnswer(a) { return put('answers', { ...a, tarih: Date.now() }); }
-export function answersFor(soruId) {
-  return tx('answers', 'readonly', o => o.index('soruId').getAll(soruId));
-}
+export const answersFor = okuma([], (soruId) => tx('answers', 'readonly', o => o.index('soruId').getAll(soruId)));
 export const allAnswers = () => getAll('answers');
 
 export const saveCard = (card) => put('cards', card);
 export const getCard = (kartId) => get('cards', kartId);
 export const allCards = () => getAll('cards');
-export async function dueCards(now) {
+export const dueCards = okuma([], async (now) => {
   const all = await tx('cards', 'readonly', o => o.index('due').getAll(IDBKeyRange.upperBound(now)));
   return all.filter(c => c.state !== 'new');
-}
+});
 
 export async function getInk(hedefId) { const r = await get('ink', hedefId); return r ? r.vuruslar : []; }
 export const saveInk = (hedefId, vuruslar) => put('ink', { hedefId, vuruslar, guncelleme: Date.now() });
@@ -86,7 +93,7 @@ export const allFlags = () => getAll('flags');
 
 export async function exportAll() {
   const depolar = {};
-  for (const s of STORES) depolar[s] = await getAll(s);
+  for (const s of STORES) depolar[s] = await tx(s, 'readonly', o => o.getAll()); // yedek: veritabanı yoksa boş dosya üretme, reddet
   return { surum: VERSION, tarih: new Date().toISOString(), depolar };
 }
 
@@ -110,6 +117,7 @@ export async function importAll(json) {
       throw new Error('Yedek dosyası tanınmadı.');
     }
   }
+  if (!dbp) throw new Error('IndexedDB yok');
   const d = await dbp;
   await new Promise((resolve, reject) => {
     const t = d.transaction(STORES, 'readwrite');
@@ -124,4 +132,14 @@ export async function importAll(json) {
   });
 }
 
-export async function resetAll() { for (const s of STORES) await clear(s); }
+// Tüm depolar tek işlemde silinir: ya hepsi ya hiçbiri.
+export async function resetAll() {
+  if (!dbp) throw new Error('IndexedDB yok');
+  const d = await dbp;
+  await new Promise((resolve, reject) => {
+    const t = d.transaction(STORES, 'readwrite');
+    for (const s of STORES) t.objectStore(s).clear();
+    t.oncomplete = () => resolve(); t.onerror = () => reject(t.error);
+    t.onabort = () => reject(t.error || new Error('İşlem iptal edildi.'));
+  });
+}

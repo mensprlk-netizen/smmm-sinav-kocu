@@ -177,3 +177,53 @@ test('silgi vuruşu destination-out kullanır ve yeniden çizim sırayı korur',
   const strokes = after.filter(k => k[0] === 'stroke').map(k => k[1]);
   assert.deepEqual(strokes, ['source-over', 'destination-out']);
 });
+
+test('kalem yan düğmesi (buttons 2) siler; fare sağ tuşu silmez', () => {
+  const ink = createInk(); const c = canvasOf(ink);
+  draw(c, 10, { buttons: 2 }); draw(c, 10, { pointerType: 'mouse', buttons: 2 });
+  assert.deepEqual(ink.getStrokes().map(s => s.silgi), [true, false]);
+});
+
+test('kalem vuruşu sürerken avuç (touch) kaydırmaz ve vuruşu bozmaz', () => {
+  const calls = [];
+  const orig = window.scrollBy; window.scrollBy = (x, y) => calls.push([x, y]);
+  try {
+    const ink = createInk(); const c = canvasOf(ink);
+    ptr(c, 'pointerdown', { pointerId: 1 });
+    ptr(c, 'pointerdown', { pointerType: 'touch', pointerId: 2, clientY: 100 });
+    ptr(c, 'pointermove', { pointerType: 'touch', pointerId: 2, clientY: 60 });
+    ptr(c, 'pointermove', { pointerId: 1, clientX: 40 });
+    ptr(c, 'pointerup', { pointerId: 1, clientX: 40 });
+    assert.deepEqual(calls, []);
+    const s = ink.getStrokes();
+    assert.equal(s.length, 1); assert.equal(s[0].p.at(-1)[0], 40);
+  } finally { window.scrollBy = orig; }
+});
+
+test('touch daha önce başlamışsa kalem vuruşu sırasında kaydırma durur', () => {
+  const calls = [];
+  const orig = window.scrollBy; window.scrollBy = (x, y) => calls.push([x, y]);
+  try {
+    const ink = createInk(); const c = canvasOf(ink);
+    ptr(c, 'pointerdown', { pointerType: 'touch', pointerId: 2, clientY: 100 });
+    ptr(c, 'pointerdown', { pointerId: 1 });
+    ptr(c, 'pointermove', { pointerType: 'touch', pointerId: 2, clientY: 60 });
+    assert.deepEqual(calls, []);
+  } finally { window.scrollBy = orig; }
+});
+
+test('visibilitychange (gizli) ve pagehide bekleyen kaydı hemen boşaltır; destroy dinleyicileri kaldırır', withTimers(() => {
+  let n = 0;
+  const ink = createInk({ onChange: () => { n++; } });
+  draw(canvasOf(ink)); assert.equal(n, 0);
+  Object.defineProperty(document, 'hidden', { value: false, configurable: true });
+  document.dispatchEvent(new Event('visibilitychange')); assert.equal(n, 0);
+  Object.defineProperty(document, 'hidden', { value: true, configurable: true });
+  document.dispatchEvent(new Event('visibilitychange')); assert.equal(n, 1);
+  draw(canvasOf(ink)); window.dispatchEvent(new Event('pagehide')); assert.equal(n, 2);
+  ink.destroy();
+  draw(canvasOf(ink)); // destroy sonrası bekleyen kayıt yok sayılır
+  document.dispatchEvent(new Event('visibilitychange')); window.dispatchEvent(new Event('pagehide'));
+  assert.equal(n, 2);
+  delete document.hidden;
+}));

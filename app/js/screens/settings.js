@@ -39,6 +39,16 @@ async function depolamaDurumu() {
   } catch { return null; }
 }
 
+async function cevrimdisiHazir() {
+  try {
+    const sw = navigator.serviceWorker;
+    if (!sw) return false;
+    if (sw.controller) return true;
+    const reg = await sw.getRegistration?.();
+    return !!reg?.active;
+  } catch { return false; }
+}
+
 export async function render(view, params, ctx) {
   const ep = epoch;
   const { db, data } = ctx;
@@ -49,6 +59,7 @@ export async function render(view, params, ctx) {
   let tarih = await db.getSetting('sinavTarihi', '2026-11-28');
   const sonYedek = await db.getSetting('sonYedek', null);
   let kalici = await depolamaDurumu();
+  const hazir = await cevrimdisiHazir();
   if (ep !== epoch) return;
 
   const yeniden = async () => { if (ep === epoch) await render(view, params, ctx); };
@@ -141,6 +152,7 @@ export async function render(view, params, ctx) {
       h('p', { class: 'muted' }, 'İlerleme, çizimler ve deneme sonuçları bu cihazda saklanır. Düzenli yedek al.'),
       sonYedekEl,
       h('p', { class: 'muted' }, kaliciYazi), kaliciKutu,
+      h('p', { class: 'muted', 'data-offline': hazir ? 'hazir' : 'bekliyor' }, hazir ? 'Çevrimdışı kullanıma hazır' : 'Çevrimdışı kurulum bekleniyor'),
       h('div', { class: 'row' },
         h('button', { class: 'btn btn-primary', onClick: yedekle }, 'Yedekle'),
         h('button', { class: 'btn', onClick: () => fileIn.click() }, 'Geri yükle'), fileIn,

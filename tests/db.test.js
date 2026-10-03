@@ -97,3 +97,38 @@ test('addAnswers: ortadaki geçersiz satır hepsini geri alır', async () => {
   await assert.rejects(db.addAnswers([{ soruId: 'a', mod: 'exam' }, { id: {}, soruId: 'b', mod: 'exam' }, { soruId: 'c', mod: 'exam' }]));
   assert.equal((await db.allAnswers()).length, 0);
 });
+
+const failingFactory = { open() { const req = {}; setTimeout(() => { req.error = new Error('açılamadı'); req.onerror && req.onerror(); }, 0); return req; } };
+
+test('open başarısızsa okumalar boş döner, yazmalar reddedilir', async () => {
+  for (const f of [failingFactory, null]) {
+    await assert.rejects(() => db.open(f));
+    assert.deepEqual(await db.allAnswers(), []);
+    assert.deepEqual(await db.allCards(), []);
+    assert.deepEqual(await db.allExams(), []);
+    assert.deepEqual(await db.allFlags(), []);
+    assert.deepEqual(await db.answersFor('q'), []);
+    assert.deepEqual(await db.dueCards(Date.now()), []);
+    assert.deepEqual(await db.getInk('x'), []);
+    assert.equal(await db.getExam('e'), undefined);
+    assert.equal(await db.getSetting('tema', 'system'), 'system');
+    await assert.rejects(() => db.addAnswer({ soruId: 'q' }));
+    await assert.rejects(() => db.addAnswers([{ soruId: 'q' }]));
+    await assert.rejects(() => db.setSetting('a', 1));
+    await assert.rejects(() => db.saveInk('x', []));
+    await assert.rejects(() => db.resetAll());
+    await assert.rejects(() => db.exportAll());
+  }
+});
+
+test('resetAll altı depoyu da tek işlemde boşaltır', async () => {
+  await db.setSetting('tema', 'dark');
+  await db.addAnswer({ soruId: 'q', cevap: 'A', mod: 'study' });
+  await db.saveCard({ kartId: 'k', state: 'review', due: 1 });
+  await db.saveInk('x', [{ p: [[1, 2, 0.5]] }]);
+  await db.saveExam({ denemeId: 'd' });
+  await db.setFlag('q', { bayrak: true });
+  await db.resetAll();
+  const dump = await db.exportAll();
+  for (const s of ['answers', 'cards', 'ink', 'exams', 'settings', 'flags']) assert.deepEqual(dump.depolar[s], [], s);
+});
