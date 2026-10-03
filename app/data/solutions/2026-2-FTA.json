@@ -58,8 +58,8 @@
   "sonuc": "D",
   "ozet": "Altı aylık dönem 180 gün: hedef devir hızı 180 / 36 = 5 → ortalama ticari borç 190.000 / 5 = 38.000 → (34.000 + X) / 2 = 38.000 → X = 42.000 ₺.",
   "adimlar": [
-   "<p><strong>1. Formül.</strong> Ticari borç devir hızı = Satışların maliyeti / Ortalama ticari borç; Ortalama borç ödeme süresi = Dönemin gün sayısı / Ticari borç devir hızı. Pay olarak ideal olarak (kredili) alışlar kullanılır; soruda alış tutarı verilmediği için yaygın uygulamada olduğu gibi satışların maliyeti kullanılır. Talimat gereği ortalama borç (dönem başı + dönem sonu) / 2 alınır.</p>",
-   "<p><strong>2. Dönemin uzunluğu.</strong> 190.000 ₺, 1 Ocak – 30 Haziran 2026 arasındaki altı aylık satışların maliyetidir (31 Aralık 2025 bakiyesi bu dönemin başlangıcıdır). Talimat “ay bazında hesaplamalarda 30 gün ve katlarını” kullanmayı istediği için dönem 6 × 30 = <strong>180 gün</strong>dür. 360 gün yalnız yıllık tutarlarla kullanılır.</p>",
+   "<p><strong>1. Formül.</strong> Ticari borç devir hızı = Satışların maliyeti / Ortalama ticari borç; Ortalama borç ödeme süresi = Dönemin gün sayısı / Ticari borç devir hızı. Pay için ideal olan (kredili) alışlardır; soruda alış tutarı verilmediği için yaygın uygulamada olduğu gibi satışların maliyeti kullanılır. Talimat gereği ortalama borç (dönem başı + dönem sonu) / 2 alınır.</p>",
+   "<p><strong>2. Dönemin uzunluğu.</strong> 190.000 ₺, 1 Ocak – 30 Haziran 2026 arasındaki altı aylık satışların maliyetidir (31 Aralık 2025 bakiyesi bu dönemin başlangıcıdır). Talimat “ay bazında hesaplamalarda 30 gün ve katlarını” kullanmayı istediği için dönem 6 × 30 = <strong>180 gün</strong>dür. 360 gün yalnız yıllık tutarlarla kullanılır. Tablodaki 31 Aralık 2025 satışların maliyeti (150.000 ₺) önceki yıla aittir ve hesapta kullanılmaz; o tarihten yalnız dönem başı ticari borç (34.000 ₺) alınır.</p>",
    "<p><strong>3. Hedef devir hızı ve ortalama borç.</strong> Ödeme süresi 36 gün olacaksa altı aylık devir hızı 180 / 36 = 5 olmalıdır. Ortalama ticari borç = 190.000 / 5 = <strong>38.000 ₺</strong>.</p>",
    "<p><strong>4. Dönem sonu borç.</strong> Dönem başı borç 34.000 ₺ (31 Aralık 2025): (34.000 + X) / 2 = 38.000 → X = 76.000 − 34.000 = <strong>42.000 ₺</strong>.</p>",
    "<p><strong>5. Sağlama ve sonuç.</strong> Ortalama borç (34.000 + 42.000) / 2 = 38.000; 190.000 / 38.000 = 5; 180 / 5 = 36 gün ✓. Yıllıklandırarak da aynı sonuç çıkar: yıllık satışların maliyeti 190.000 × 2 = 380.000; 380.000 / 38.000 = 10; 360 / 10 = 36 gün. Cevap <strong>D</strong>.</p>"
@@ -124,10 +124,10 @@
   ],
   "dayanak": "Dikey yüzde (yapı) analizi: gelir tablosunda baz = net satışlar (%100); kalemin dikey yüzdesi = Kalem / Net satışlar × 100.",
   "tuzaklar": {
-   "A": "65.000 net satışların %13'üdür (65.000 / 500.000); faaliyet kârlılığı %15 verilmiştir.",
-   "B": "73.500 net satışların %14,7'sidir; doğru bazla %15 = 75.000 çıkar.",
-   "D": "95.000 net satışların %19'udur; verilen %15 ile tutmaz.",
-   "E": "105.000 net satışların %21'idir; verilen %15 ile tutmaz."
+   "A": "65.000 net satışların %13'üdür (65.000 / 500.000); faaliyet kârlılığı %15 verilmiştir. Bilinen bir hata mekanizmasından çıkmaz.",
+   "B": "73.500 net satışların %14,7'sidir; doğru bazla %15 = 75.000 çıkar. Bilinen bir hata mekanizmasından çıkmaz.",
+   "D": "95.000 net satışların %19'udur; verilen %15 ile tutmaz. Bilinen bir hata mekanizmasından çıkmaz.",
+   "E": "105.000 net satışların %21'idir; verilen %15 ile tutmaz. Bilinen bir hata mekanizmasından çıkmaz."
   },
   "kartlar": [
    {
@@ -246,7 +246,7 @@
   ],
   "dayanak": "Faaliyet (devir hızı) oranları: Yarı mamul stok devir hızı = Dönemin toplam üretim maliyeti / Ortalama yarı mamul stoku; Devir süresi = Dönem gün sayısı / Devir hızı.",
   "tuzaklar": {
-   "A": "10,80 doğru formülle çıkmaz; doğru pay (150.000) ve ortalama stokla (25.000) süre 15 gündür.",
+   "A": "10,80 = 90 × 18.000 / 150.000; yarı mamul stoku yerine 31 Mart 2026 dönem sonu mamul stoku (18.000) kullanılmış. Doğru pay (150.000) ve ortalama yarı mamul stokuyla (25.000) süre 15 gündür.",
    "B": "13,20 = 90 × 22.000 / 150.000; ortalama yerine dönem sonu yarı mamul stoku kullanılmış.",
    "D": "60,00 = 360 / 6; üç aylık devir hızı 360 güne bölünmüş. Çeyrek dönem 90 gündür.",
    "E": "67,20 = 360 × 28.000 / 150.000; dönem başı stoku ve 360 gün kullanılmış."
@@ -420,7 +420,7 @@
   "ozet": "Dönem kârının (vergi öncesi) dikey yüzdesi = Dönem kârı / Net satışlar × 100 = 1.659 / 42.000 × 100 = %3,95.",
   "adimlar": [
    "<p><strong>1. Kural.</strong> Gelir tablosunun dikey yüzde analizinde baz net satışlardır (%100): Dikey yüzde = Kalem / Net satışlar × 100.</p>",
-   "<p><strong>2. Kalemin seçimi.</strong> “Dönem Kârı Veya Zararı” vergi öncesi kârdır (finansman giderlerinden sonra, vergi karşılığından önce): 2025'te 1.659 ₺. “Dönem Net Kârı” (1.244 ₺) ayrı bir satırdır.</p>",
+   "<p><strong>2. Kalemin seçimi.</strong> “Dönem Kârı Veya Zararı” vergi öncesi kârdır (finansman giderlerinden sonra, vergi karşılığından önce): 2025'te 1.659 ₺. “Dönem Net Kârı” (1.244 ₺) ayrı bir satırdır. Bilançodaki Dönem Net Karı (800 / 1.200 / 500) gelir tablosundaki net kârla (895 / 1.244 / 540) tutmaz; kitapçıktaki bu veri tutarsızlığı soruyu etkilemez, dikey yüzde gelir tablosundan hesaplanır.</p>",
    "<p><strong>3. Hesap.</strong> 1.659 / 42.000 = 0,0395 → <strong>%3,95</strong>.</p>",
    "<p><strong>4. Sonuç.</strong> Net kâr kullanılsaydı 1.244 / 42.000 = %2,96 çıkardı; şıklarda yoktur. Cevap <strong>A</strong>.</p>"
   ],
@@ -528,7 +528,7 @@
   "tuzaklar": {
    "A": "121,00 = 24.200 / 20.000 × 100; 2024 bazlı eğilim (trend) yüzdesidir. Değişim yüzdesi = 121 − 100 = 21.",
    "B": "85,50 = 17.100 / 20.000 × 100; 31 Mart 2026 tutarının 2024'e göre eğilim yüzdesidir; hem tarih hem yöntem yanlış.",
-   "C": "79,00 doğru formülle çıkmaz; kısa vadeli mali borçlar azalmamış, %21 artmıştır.",
+   "C": "79,00 = 100 − 21; değişim yüzdesi 100'den çıkarılmış. Kısa vadeli mali borçlar azalmamış, %21 artmıştır.",
    "D": "28,75 doğru formülle çıkmaz; 2024-2025 değişimi 4.200 / 20.000 = %21'dir."
   },
   "kartlar": [

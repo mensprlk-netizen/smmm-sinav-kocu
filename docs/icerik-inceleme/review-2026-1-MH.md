@@ -12,12 +12,12 @@ Meslek Hukuku için tanımlanan set (12 etiket). 2026-2-MH dosyası tam olarak b
 
 | Etiket | Kapsam | 2026-1 soruları |
 |---|---|---|
-| Meslek mensubu olma şartları | 3568 md. 4–5, 7–9: genel ve özel şartlar, yabancılar, mesleğe kabul engelleri; ruhsat alma şartları | 11 |
-| Staj ve sınav | Staj Yönetmeliği (staja giriş, staj süresi, stajdan sayılan hâller, tezkiye), Sınav Yönetmeliği (sınav konuları, başarı notu, süreler, itiraz), 3568 md. 6 ve TESMER | 13 |
-| Sürekli mesleki geliştirme | TÜRMOB Sürekli Mesleki Geliştirme Eğitimi Yönetmeliği: kredi yükümlülükleri, doğrulanabilir eğitim, diğer faaliyetler, yaptırım | 14 |
+| Meslek mensubu olma şartları | 3568 md. 4, 5, 8, 9: genel ve özel şartlar, yabancılar, mesleğe kabul engelleri; ruhsat alma şartları | 11 |
+| Staj ve sınav | Staj Yönetmeliği (staja giriş, staj süresi, stajdan sayılan hâller, tezkiye), Sınav Yönetmeliği (sınav konuları, başarı notu, süreler, itiraz), 3568 md. 6, 7, 10 ve TESMER | 13 |
+| Sürekli mesleki geliştirme | 3568 md. 44 (mesleki geliştirme eğitimi), TÜRMOB Sürekli Mesleki Geliştirme Eğitimi Yönetmeliği: kredi yükümlülükleri, doğrulanabilir eğitim, diğer faaliyetler, yaptırım | 14 |
 | Ruhsat ve çalışma esasları | Çalışma Usul ve Esasları Yönetmeliği: meslek kütüğü ve çalışanlar listesi, büro ve büro tescili, iş kabulü ve reddi, ortaklık büroları ve şirketler, defter-belge saklama ve iadesi, çalışanlar listesinden silinme, denetim çalışma esasları; kaşe ve tutulacak defterler yönetmelikleri | (yok) |
 | Ücret ve sözleşme | 3568 md. 46, Ücret Yönetmeliği ve asgari ücret tarifesi; meslek mensubu ile müşteri arasındaki sözleşme (yapılması, asgari içeriği, feshi; Çalışma Usul ve Esasları Yönetmeliği md. 24–26) | 08 |
-| Yasak haller | 3568 md. 43–45 (sır saklama, reklam yasağı, yasaklar) ve Çalışma Usul ve Esasları Yönetmeliği “Yasak Haller ve İstisnaları” bölümü (md. 42–47): meslekle bağdaşmayan hâller, ticari faaliyet yasağı, hizmet akdi yasağı, meslekle bağdaşan işler, YMM yakınlık yasakları | 02, 19 |
+| Yasak haller | 3568 md. 43 (meslek sırları), md. 45 (yasaklar, reklam yasağı fıkrası) ve Çalışma Usul ve Esasları Yönetmeliği “Yasak Haller ve İstisnaları” bölümü (md. 42–47): meslekle bağdaşmayan hâller, ticari faaliyet yasağı, hizmet akdi yasağı, meslekle bağdaşan işler, YMM yakınlık yasakları | 02, 19 |
 | Haksız rekabet ve reklam | Haksız Rekabet ve Reklam Yasağı Yönetmeliği: haksız rekabet hâlleri (md. 6–8), oda ve meslek mensubunun hakları, reklam ilke ve kuralları | 06, 12 |
 | Etik ilkeler | Etik İlkeler Yönetmeliği ve Ek-1: temel ilkeler, kavramsal çerçeve, tehditler, önlemler, bağımsız ve bağımlı çalışanlar için özel durumlar, Etik Kurulu | 01, 05, 09, 10 |
 | Disiplin cezaları ve usulü | 3568 md. 48–49, Disiplin Yönetmeliği: ceza türleri, cezayı gerektiren hâller, soruşturma ve kovuşturma, itiraz, kesinleşme ve ilan, zamanaşımı | 04, 15 |

@@ -50,7 +50,7 @@ Yok. 20 sorunun hepsinde bağımsız çözüm, kırmızı işaret ve cevap anaht
 - Kitapçıkta açık bir baskı hatası bulunamadı.
 - **03:** Standart süre "dönemde 2.400 DİS çalışılacağını ... planlamıştır" diye verilmiş; fiili üretime göre izin verilen standart süre olarak kabul edildi (sorunun tek tutarlı yorumu, şıklardaki 21.000 / 25.000 tutarları da bunu doğruluyor).
 - **08:** Kitapçık "Satıştan İndirimler" diyor (Tekdüzen hesap planında grup adı "Satış İndirimleri"); aynen aktarıldı. İki okuma için yukarıdaki "Tartışmalı soru" bölümüne bakınız. I-V öncülleri `<ul class="madde">` olarak işaretlendi (madde imi gösterilmez).
-- **11:** Çözümde gider yeri türleri "örneğin" diye sayıldı. Tebliğdeki tam liste ve sıra burada aktarılmadı.
+- **11:** Çözümde gider yeri türleri "gibi" ile örnek olarak sayıldı. Tebliğdeki tam liste ve sıra burada aktarılmadı.
 - **13:** "Memur ücret ve gideri" soruda açıkça "üretimle ilgili olarak katlanılan" maliyetler arasında, bu yüzden GÜG sayıldı.
 - **20:** C şıkkında "borçlandığı tutarla" (tekil) yazıyor; aynen aktarıldı. Çözümde 782 Finansman Giderleri Fark Hesabı adı ve 66 grubuna (660/661) kapanış belirtildi.
 - **Tuzaklar:** Hangi hatadan üretildiği bulunamayan şıklar için uydurma bir mekanizma yazılmadı, yalnızca "doğru yöntemle bulunamaz" denildi: 12-D, 13-D, 14-C, 15-B, 15-E, 16-E, 17-E, 19-C. 18-A ve 18-D için ise o oranla bulunan eşdeğer miktarın 11.000 br'yi tutmadığı gösterildi.

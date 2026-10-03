@@ -94,7 +94,7 @@
    },
    {
     "on": "Hazinenin yurt dışında ihraç ettiği eurobondların faizi beyan edilir mi?",
-    "arka": "Geçici md. 67 tevkifatının dışındadır; fiilen vergi kesilmemişse ve GVK md. 86’daki beyan sınırı aşılıyorsa beyan edilir."
+    "arka": "Geçici md. 67 dışındadır; tevkifata tabi tutulmuşsa (%0 dahil) GVK md. 86/1-c sınırı (2025: 330.000 ₺) aşıldığında beyan edilir."
    }
   ],
   "konuBaglantisi": "Gelir vergisi: kazanç ve iratlar"
@@ -279,6 +279,7 @@
   "dayanak": "KVK md. 32/C (yurt içi asgari kurumlar vergisi; 7524 sayılı Kanun, 2025 ve izleyen dönemler): (1) %10 alt sınır, (2) düşülebilecek istisna ve indirimler, (6) “indirim ve istisnalar düşülmeden önceki kurum kazancı” tanımı; KVK md. 5/1-h.",
   "tuzaklar": {
    "A": "3.000.000 ₺ = (150.000.000 − 120.000.000) × %10. 5/1-h istisnası asgari vergi matrahından düşülmüş; bu istisna md. 32/C(2)’deki listede yoktur.",
+   "B": "7.500.000 ₺ = (150.000.000 − 120.000.000) × %25: istisna düşülmüş normal kurumlar vergisi; asgari vergi ise istisna düşülmeden %10’dur.",
    "C": "14.000.000 ₺ = 140.000.000 × %10. KKEG eklenmemiş; md. 32/C(6) KKEG’in ticari bilanço kârına eklenmesini açıkça ister.",
    "E": "37.500.000 ₺ = 150.000.000 × %25. Genel kurumlar vergisi oranı uygulanmış; asgari vergi oranı %10’dur."
   },
@@ -299,7 +300,7 @@
   "sonuc": "C",
   "ozet": "İştirakin bankadan temin edip aynı şartlarla kullandırdığı kredi örtülü sermaye sayılmaz (KVK md. 12/6-b); ortak bankanın kredisi %50, ortak teminatıyla üçüncü kişiden alınan borç hiç dikkate alınmaz; ortaklardan borç 5.000.000 ₺ < 6.000.000 ₺ olduğundan örtülü sermaye de oluşmaz.",
   "adimlar": [
-   "<p><strong>1. Kural.</strong> Ortaklardan veya ortaklarla ilişkili kişilerden doğrudan veya dolaylı temin edilip işletmede kullanılan borçların, hesap dönemi başındaki öz sermayenin üç katını <strong>aşan</strong> kısmı örtülü sermayedir (KVK md. 12/1 ve 12/3-b). Sınır: 2.000.000 × 3 = <strong>6.000.000 ₺</strong>.</p>",
+   "<p><strong>1. Kural.</strong> Ortaklardan veya ortaklarla ilişkili kişilerden doğrudan veya dolaylı temin edilip işletmede kullanılan borçların, hesap dönemi içinde herhangi bir tarihte hesap dönemi başındaki öz sermayenin üç katını <strong>aşan</strong> kısmı örtülü sermayedir (KVK md. 12/1 ve 12/3-b). Sınır: 2.000.000 × 3 = <strong>6.000.000 ₺</strong>.</p>",
    "<p><strong>2. Ortak (E)’den borç.</strong> Ortaktan doğrudan borçtur; tamamı dikkate alınır: <strong>3.000.000 ₺</strong>.</p>",
    "<p><strong>3. Ortak (K) Bankasından kredi.</strong> Ana faaliyet konusuna uygun faaliyette bulunan ve ortak sayılan bankalardan yapılan borçlanmalar <strong>%50</strong> oranında dikkate alınır (md. 12/2): 4.000.000 × %50 = <strong>2.000.000 ₺</strong>.</p>",
    "<p><strong>4. Ortak (L)’nin arsası teminat gösterilerek Bay (F)’den alınan borç.</strong> Ortakların sağladığı gayrinakdî teminatlar (arsanın teminat gösterilmesi gibi) karşılığında üçüncü kişilerden yapılan borçlanmalar örtülü sermaye sayılmaz (md. 12/6-a): <strong>0</strong>.</p>",
@@ -339,7 +340,7 @@
   "tuzaklar": {
    "B": "50.000 ₺ = 500.000 × %10. Kısıtlama tüm finansman giderine uygulanmış; yalnız yabancı kaynağın öz kaynağı aşan kısmına isabet eden gidere uygulanır.",
    "D": "250.000 ₺, aşan kısma isabet eden finansman gideridir; KKEG bunun yalnız %10’udur.",
-   "E": "500.000 ₺ finansman giderinin tamamıdır; tamamı gider yazılamaz değildir."
+   "E": "500.000 ₺ finansman giderinin tamamıdır. Finansman giderinin tamamı KKEG değildir; yalnız aşan kısma isabet eden giderin %10’u KKEG’dir."
   },
   "kartlar": [
    {
@@ -367,7 +368,7 @@
    "A": "Tam mükellefiyet için kanuni veya iş merkezinden en az birinin Türkiye’de olması gerekir (md. 3/1); ikisi de Almanya’dadır.",
    "C": "Dar mükelleflerin Türkiye’de elde ettiği kazancın yarısını istisna eden bir hüküm yoktur.",
    "D": "Yabancı bir ticaret şirketi KVK md. 4’teki muaf kurumlar arasında değildir.",
-   "E": "Kesinti yoluyla vergilendirme ve beyanname verilmemesi, iş yeri olmayan dar mükelleflerin belirli kazançları içindir (KVK md. 30).Türkiye’de iş yeri (şube) aracılığıyla elde edilen ticari kazanç yıllık beyannameyle beyan edilir (md. 24-25)."
+   "E": "Kesinti yoluyla vergilendirme ve beyanname verilmemesi, iş yeri olmayan dar mükelleflerin belirli kazançları içindir (KVK md. 30). Türkiye’de iş yeri (şube) aracılığıyla elde edilen ticari kazanç yıllık beyannameyle beyan edilir (md. 24-25)."
   },
   "kartlar": [
    {
@@ -534,7 +535,7 @@
    "<p><strong>4. Sonuç.</strong> <strong>E</strong>.</p>",
    "<p><strong>Not.</strong> C ve D’de hizmeti satın alan Türk firmasıdır; ancak alıcının Türkiye’de yerleşik olması tek başına “Türkiye’de faydalanma” sayılmaz. Hizmet yurt dışında ifa edilip yurt dışında tüketildiği (stant yurt dışındaki fuarda kullanılır; eğitim ve tanıştırma yurt dışında yapılır) için İdare bu tür hizmetleri KDV’nin konusu dışında görür (özelgeler).</p>"
   ],
-  "dayanak": "KDVK md. 1/1 (verginin konusu), md. 6/b (hizmetin Türkiye’de yapılması veya hizmetten Türkiye’de faydalanılması), md. 11/1-a (hizmet ihracatı istisnası); KDV Genel Uygulama Tebliği ve İdare özelgeleri (yurt dışında ifa edilip yurt dışında faydalanılan hizmetler).",
+  "dayanak": "KDVK md. 1/1 (verginin konusu), md. 6/b (hizmetin Türkiye’de yapılması veya hizmetten Türkiye’de faydalanılması), md. 11/1-a (hizmet ihracatı istisnası); İdare özelgeleri (yurt dışında ifa edilip yurt dışında faydalanılan hizmetler; ör. yurt dışındaki fuarlarda verilen stant hizmetleri).",
   "tuzaklar": {
    "A": "Yurt dışındaki iki firma arasındaki satışa yönelik ve yurt dışında verilen komisyonculuk hizmeti ne Türkiye’de yapılır ne de Türkiye’de faydalanılır.",
    "B": "Yurt dışında yapılan inşaat, onarım ve montaj işleri yurt dışında ifa edilir ve yurt dışında faydalanılır; KDV’nin konusu dışındadır.",
