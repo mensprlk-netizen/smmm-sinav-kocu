@@ -1,0 +1,170 @@
+{
+ "kod": "08-birlesik-yan-urun",
+ "sira": 8,
+ "baslik": "Birleşik Ürün ve Yan Ürün Maliyeti",
+ "amac": "Birleşik ürün ile yan ürünü ayırt etmek; ortak maliyeti fiziksel ölçü, katsayı, satış değeri, net satış değeri ve sabit brüt kâr oranı yöntemleriyle dağıtmak; yan ürünü doğru muhasebeleştirmek.",
+ "bolumler": [
+  {
+   "baslik": "Birleşik ürün, yan ürün ve ayrılma noktası",
+   "html": "<p><strong>Birleşik (ortak) mamuller</strong>, aynı hammaddeden aynı üretim sürecinde birlikte ve kaçınılmaz olarak elde edilen, satış değerleri birbirine göre önemli olan mamullerdir (rafineride benzin, motorin, fuel-oil; mezbahada et ve deri). <strong>Yan ürün</strong>, ana ürünle birlikte kaçınılmaz olarak çıkan ama satış değeri ana ürüne göre önemsiz olan üründür (kereste üretiminde talaş, şeker üretiminde melas). Ayrım, satış değerinin göreli büyüklüğüne dayanır.</p><p><strong>Ayrılma noktası</strong>, ortak üretim sürecinin bittiği ve mamullerin ayrı ayrı tanınabildiği noktadır. Bu noktaya kadar katlanılan <strong>ortak (birleşik) maliyet</strong> mamuller arasında bir dağıtım ölçüsüyle bölüştürülür. Ayrılma noktasından sonraki <strong>ek işlem maliyetleri</strong> ilgili mamule doğrudan yüklenir, ortak maliyete katılmaz.</p><p><strong>Mamulün toplam maliyeti = Ortak maliyet payı + Ayrılma sonrası ek maliyet</strong></p>"
+  },
+  {
+   "baslik": "Ortak maliyetin dağıtım yöntemleri",
+   "html": "<ul><li><strong>Fiziksel ölçü (miktar):</strong> dağıtım kg, litre, adet gibi miktarlarla yapılır; bütün mamullerin birim maliyeti eşit çıkar.</li><li><strong>Katsayılı bölme:</strong> miktarlar, mamullerin teknik ya da ekonomik farkını yansıtan katsayılarla çarpılır (katsayılı birim); dağıtım bu birimlerle yapılır.</li><li><strong>Satış değeri:</strong> ölçü, ayrılma noktasındaki satış değeridir (miktar × birim satış fiyatı).</li><li><strong>Net satış değeri (net gerçekleşebilir değer, NGD):</strong> mamul ayrılma noktasında satılamıyor ya da ek işlem görüyorsa kullanılır.</li><li><strong>Sabit brüt kâr oranı:</strong> ortak maliyet, bütün mamullerin brüt kâr oranı işletme ortalamasına eşit olacak biçimde dağıtılır.</li></ul><p><strong>Mamulün payı = Ortak maliyet × (Mamulün dağıtım ölçüsü ÷ Toplam dağıtım ölçüsü)</strong></p><p><strong>Net satış değeri = Son satış değeri − Ayrılma noktasından sonraki ek maliyetler</strong></p><p>NGD tanımında ek işlem maliyetlerinin yanında tahmini satış giderleri de düşülür; sınav sorularında çoğunlukla tek bir ek maliyet verilir. Tablo, 2026-1-MAL-05 verisiyle satış değeri yöntemini adım adım uygular.</p>",
+   "gorsel": {
+    "tip": "allocation-table",
+    "veri": {
+     "basliklar": [
+      "",
+      "Satış değeri (₺)",
+      "Pay oranı",
+      "Ortak maliyet payı (₺)",
+      "Birim (₺/kg)"
+     ],
+     "satirlar": [
+      [
+       "A: 800 kg × 20 ₺",
+       "16.000",
+       "2/3",
+       "13.000",
+       "16,25"
+      ],
+      [
+       "B: 500 kg × 16 ₺",
+       "8.000",
+       "1/3",
+       "6.500",
+       "13"
+      ],
+      [
+       "Toplam",
+       "24.000",
+       "1",
+       "19.500",
+       ""
+      ]
+     ],
+     "adimlar": [
+      {
+       "hucreler": [
+        [
+         0,
+         1
+        ],
+        [
+         1,
+         1
+        ]
+       ],
+       "aciklama": "Satış değeri = miktar × birim satış fiyatı: A 800 × 20 = 16.000 ₺; B 500 × 16 = 8.000 ₺."
+      },
+      {
+       "hucreler": [
+        [
+         2,
+         1
+        ]
+       ],
+       "aciklama": "Toplam satış değeri 16.000 + 8.000 = 24.000 ₺."
+      },
+      {
+       "hucreler": [
+        [
+         0,
+         2
+        ],
+        [
+         1,
+         2
+        ]
+       ],
+       "aciklama": "Pay oranı: A 16.000 / 24.000 = 2/3; B 8.000 / 24.000 = 1/3."
+      },
+      {
+       "hucreler": [
+        [
+         0,
+         3
+        ],
+        [
+         1,
+         3
+        ],
+        [
+         2,
+         3
+        ]
+       ],
+       "aciklama": "Ortak maliyet payı: A 19.500 × 2/3 = 13.000 ₺; B 19.500 × 1/3 = 6.500 ₺; toplam 19.500 ₺ (2026-1-MAL-05, E)."
+      },
+      {
+       "hucreler": [
+        [
+         0,
+         4
+        ],
+        [
+         1,
+         4
+        ]
+       ],
+       "aciklama": "Birim maliyet: A 13.000 / 800 = 16,25 ₺/kg; B 6.500 / 500 = 13 ₺/kg. Her iki mamulde maliyet / fiyat = 0,8125; satış değeri yöntemi brüt kâr oranlarını eşitler (%18,75)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "baslik": "Yan ürünlerin muhasebesi",
+   "html": "<p>Yan ürünün satış değeri küçük olduğundan ortak maliyetten dağıtım ölçüsüyle pay verilmez. Başlıca yaklaşımlar:</p><ul><li><strong>Gelir yöntemi:</strong> yan ürüne maliyet yüklenmez; ortak maliyetin tamamı ana ürüne kalır, yan ürünün net satış hasılatı (satış − ek maliyet) dönem kârına diğer gelir olarak eklenir.</li><li><strong>Net hasılatı ortak maliyetten indirme:</strong> yan ürünün net satış hasılatı ortak maliyetten düşülür; kalan ana ürünün maliyetidir.</li><li><strong>Satış fiyatından geriye doğru hesaplama:</strong> yan ürünün satış tutarından normal kâr ve ayrılma sonrası ek maliyetler düşülerek yan ürünün ortak maliyet payı bulunur; ortak maliyetten bu pay çıkarılır.</li></ul><p><strong>Yan ürünün ortak maliyet payı = Satış tutarı − Normal kâr − Ayrılma sonrası ek maliyetler</strong></p><p><strong>Ana ürünün maliyeti = Ortak maliyet − Yan ürünün ortak maliyet payı</strong></p><p>Geriye doğru hesaplamada yan ürünün stok maliyeti, ortak maliyet payı ile ek maliyetlerin toplamıdır (= satış tutarı − normal kâr); böylece yan ürün satıldığında tam normal kârı verir.</p>"
+  }
+ ],
+ "sinavYaklasimi": [
+  "Satış değeri mi, net satış değeri mi: soru “satış değeri” diyorsa miktar × fiyat kullanılır (2026-1-MAL-05: 16.000 ve 8.000 ₺ → A 13.000, B 6.500 ₺, E; 2026-2-MAL-15: oran 180.000 / 60.000 = 3, Z'nin kg başına payı 70 × 3 = 210 ₺, D). “Net satış değeri” diyorsa ek maliyet düşülür (2026-1-MAL-20: 620 − 20 = 600 ve 230 − 30 = 200 → A 3.750, C 1.250 ₺, D). Ek maliyet düşülmeden dağıtmak satış değeri yöntemidir, NSD değildir.",
+  "2026-1-MAL-20 kökünde “birim maliyet” denmesine karşın miktar verilmediğinden şıklar her mamulün ortak maliyet payıdır; ek maliyet paya eklenmez. Ders kitaplarındaki “net gerçekleşebilir değer” ile kitapçıktaki “net satış değeri” aynı yöntemdir.",
+  "Katsayılı bölme: 2026-1-MAL-18'de 1.000 × 5 + 2.000 × 4 + 3.000 × 1 = 16.000 katsayılı birim; 1.600.000 / 16.000 = 100 ₺; A 500.000, B 800.000, C 300.000 ₺ (B).",
+  "2026-1-MAL-17 (yan ürün, satış fiyatından geriye doğru hesaplama): standart hesap yan ürüne 250.000 − 250.000 × %20 − 50.000 = 150.000 ₺, ana ürüne 5.000.000 − 150.000 = 4.850.000 ₺ verir ve bu sonuç hiçbir şıkta yoktur. 2026/1 resmi anahtarı (E: 350.000 ₺; 4.650.000 ₺) standart hesapla çelişir; soru TESMER itiraz sonucu kontrol edilene kadar çözümsüz bırakıldı. A şıkkındaki 200.000 ₺ yan ürünün ek maliyet dahil maliyetidir, ama ana ürüne 4.850.000 ₺ kalmalıdır. Sınavda yöntemi standart biçimiyle uygulayın."
+ ],
+ "ornekler": [
+  {
+   "soru": "<p>Görseldeki işletmede (ortak maliyet 19.500 ₺; A 800 kg, B 500 kg) mamullerin ayrılma noktasında piyasası olmadığını varsayalım. A, 2.000 ₺ ek işlemle 25 ₺/kg'dan; B, 4.500 ₺ ek işlemle 25 ₺/kg'dan satılmaktadır.</p><p><strong>Ortak maliyeti net satış değeri yöntemiyle ve sabit brüt kâr oranı yöntemiyle dağıtınız.</strong></p>",
+   "cozum": [
+    "<p><strong>1. Net satış değeri.</strong> A 20.000 − 2.000 = 18.000 ₺; B 12.500 − 4.500 = 8.000 ₺; toplam 26.000 ₺. Oran 19.500 / 26.000 = 0,75.</p><table class=\"veri\"><tr><th></th><th class=\"n\">A</th><th class=\"n\">B</th><th class=\"n\">Toplam</th></tr><tr><td>Son satış değeri</td><td class=\"n\">800 × 25 = 20.000</td><td class=\"n\">500 × 25 = 12.500</td><td class=\"n\">32.500</td></tr><tr><td>Ek işlem maliyeti</td><td class=\"n\">2.000</td><td class=\"n\">4.500</td><td class=\"n\">6.500</td></tr><tr><td>Net satış değeri</td><td class=\"n\">18.000</td><td class=\"n\">8.000</td><td class=\"n\">26.000</td></tr><tr><td>Ortak maliyet payı (× 0,75)</td><td class=\"n\"><strong>13.500</strong></td><td class=\"n\"><strong>6.000</strong></td><td class=\"n\">19.500</td></tr><tr><td>Toplam maliyet</td><td class=\"n\">15.500</td><td class=\"n\">10.500</td><td class=\"n\">26.000</td></tr><tr><td>Brüt kâr (oranı)</td><td class=\"n\">4.500 (%22,5)</td><td class=\"n\">2.000 (%16)</td><td class=\"n\">6.500</td></tr></table><p>NGD'ye göre A <strong>13.500 ₺</strong>, B <strong>6.000 ₺</strong> alır; brüt kâr oranları farklı çıkar.</p>",
+    "<p><strong>2. Sabit brüt kâr oranı.</strong> İşletme brüt kârı 32.500 − (19.500 + 6.500) = 6.500 ₺; oran 6.500 / 32.500 = %20. Her mamulün toplam maliyeti satışının %80'i olmalıdır.</p><table class=\"veri\"><tr><th></th><th class=\"n\">A</th><th class=\"n\">B</th><th class=\"n\">Toplam</th></tr><tr><td>Satış × (1 − %20) = toplam maliyet</td><td class=\"n\">16.000</td><td class=\"n\">10.000</td><td class=\"n\">26.000</td></tr><tr><td>− Ek işlem maliyeti</td><td class=\"n\">2.000</td><td class=\"n\">4.500</td><td class=\"n\">6.500</td></tr><tr><td>Ortak maliyet payı</td><td class=\"n\"><strong>14.000</strong></td><td class=\"n\"><strong>5.500</strong></td><td class=\"n\">19.500</td></tr></table><p>A <strong>14.000 ₺</strong>, B <strong>5.500 ₺</strong>; toplam 19.500 ₺. Sağlama: A brüt kârı 20.000 − 16.000 = 4.000 (%20), B 12.500 − 10.000 = 2.500 (%20).</p>"
+   ]
+  },
+  {
+   "soru": "<p>Ortak maliyeti 900.000 ₺ olan bir üretimde ana ürünün yanında bir yan ürün çıkmaktadır. Yan ürünün satış tutarı 60.000 ₺, ayrılma sonrası ek maliyeti 6.000 ₺, satış tutarı üzerinden normal kâr oranı %15'tir.</p><p><strong>Ana ürünün maliyetini üç yaklaşıma göre bulunuz.</strong></p>",
+   "cozum": [
+    "<p><strong>1. Gelir yöntemi.</strong> Ana ürün <strong>900.000 ₺</strong>; yan ürünün net hasılatı 60.000 − 6.000 = 54.000 ₺ diğer gelirdir.</p>",
+    "<p><strong>2. Net hasılatı indirme.</strong> Ana ürün 900.000 − 54.000 = <strong>846.000 ₺</strong>.</p>",
+    "<p><strong>3. Satış fiyatından geriye doğru.</strong> Normal kâr 60.000 × %15 = 9.000 ₺; yan ürünün payı 60.000 − 9.000 − 6.000 = 45.000 ₺; ana ürün 900.000 − 45.000 = <strong>855.000 ₺</strong>. Yan ürünün stok maliyeti 45.000 + 6.000 = 51.000 ₺ = 60.000 − 9.000.</p>"
+   ]
+  }
+ ],
+ "cikmisSorular": [
+  "2026-1-MAL-05",
+  "2026-1-MAL-17",
+  "2026-1-MAL-18",
+  "2026-1-MAL-20",
+  "2026-2-MAL-15"
+ ],
+ "kartlar": [
+  {
+   "on": "Birleşik ürün ile yan ürünün farkı nedir? Ayrılma noktası nedir?",
+   "arka": "İkisi de aynı süreçten birlikte ve kaçınılmaz olarak çıkar. Birleşik ürünlerin satış değerleri birbirine göre önemlidir; yan ürünün satış değeri ana ürüne göre önemsizdir. Ayrılma noktası, ortak sürecin bitip mamullerin ayrı tanınabildiği noktadır; o noktaya kadarki maliyet ortak maliyettir."
+  },
+  {
+   "on": "Satış değeri ve net satış değeri yöntemlerinde ortak maliyet nasıl dağıtılır?",
+   "arka": "Pay = Ortak maliyet × (mamulün ölçüsü ÷ toplam ölçü). Satış değeri yönteminde ölçü miktar × birim satış fiyatıdır. Net satış değeri yönteminde ölçü son satış değeri − ayrılma sonrası ek maliyetlerdir."
+  },
+  {
+   "on": "Sabit brüt kâr oranı yönteminde ortak maliyet payı nasıl bulunur?",
+   "arka": "İşletme brüt kâr oranı = (Toplam satış − ortak maliyet − tüm ek maliyetler) ÷ Toplam satış. Mamulün toplam maliyeti = Satışı × (1 − oran); ortak maliyet payı = bu tutar − mamulün ek maliyeti."
+  },
+  {
+   "on": "Satış fiyatından geriye doğru hesaplamada yan ürün ve ana ürün maliyeti nasıl bulunur?",
+   "arka": "Yan ürünün ortak maliyet payı = Satış tutarı − Normal kâr − Ayrılma sonrası ek maliyetler. Ana ürünün maliyeti = Ortak maliyet − bu pay."
+  }
+ ]
+}
