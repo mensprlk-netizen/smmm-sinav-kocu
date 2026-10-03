@@ -285,7 +285,7 @@
   "adimlar": [
    "<p><strong>1. Suç (md. 110/A).</strong> 26/6/2024 tarihli ve 7518 sayılı Kanunla eklenen md. 110/A, kripto varlık hizmet sağlayıcılarda zimmeti düzenler: görevi nedeniyle tevdi edilen veya koruma, saklama ve gözetimiyle yükümlü olunan para, evrak, senet, diğer mallar veya kripto varlıkları zimmetine geçiren yönetim kurulu başkan ve üyeleri ile diğer mensuplar sekiz yıldan on dört yıla kadar hapisle cezalandırılır; hileli zimmette ceza on dört yıldan yirmi yıla, faaliyet izni kaldırılan hizmet sağlayıcının yönetim veya kontrolünü elinde bulunduran gerçek kişi ortaklarının kaynakları kullandırması (md. 110/A-3) hâlinde on iki yıldan yirmi iki yıla kadar hapistir.</p>",
    "<p><strong>2. Görevli mahkeme (md. 115/A-3).</strong> “Bu Kanunda tanımlanan zimmet suçuna ait davalar, fiilin işlendiği yerin bağlı olduğu ilin adıyla anılan (1) numaralı <strong>ağır ceza mahkemelerinde</strong> görülür.” Gerekli görülen yerlerde Adalet Bakanlığının teklifi üzerine Hâkimler ve Savcılar Kurulu o yerlerdeki diğer ağır ceza mahkemelerini de görevlendirebilir. Cevap <strong>E</strong>.</p>",
-   "<p><strong>3. Genel kuralla ilişkisi.</strong> SPKn suçlarında genel kural, Hâkimler ve Savcılar Yüksek Kurulunun (2017 Anayasa değişikliğiyle Hâkimler ve Savcılar Kurulu, HSK) ihtisas mahkemesi olarak görevlendirdiği <strong>asliye ceza mahkemeleridir</strong> (md. 116/1). Genel görev kuralına göre ağır ceza mahkemesi, kanunların ayrıca görevli kıldığı hâller saklı kalmak üzere, on yıldan fazla hapis gerektiren suçlara bakar; kalan dava ve işler asliye cezanındır (5235 sayılı Kanun md. 11–12). Bilgi suistimali, piyasa dolandırıcılığı gibi üç yıldan beş yıla kadar hapis gerektiren suçlar asliye cezaya düşer; üst sınırı on yılı aşan md. 110/A zimmeti ise özel hükümle (md. 115/A-3) ağır ceza mahkemesine verilmiştir.</p>",
+   "<p><strong>3. Genel kuralla ilişkisi.</strong> SPKn suçlarında genel kural, Hâkimler ve Savcılar Yüksek Kurulunun (2017 Anayasa değişikliğiyle Hâkimler ve Savcılar Kurulu, HSK) ihtisas mahkemesi olarak görevlendirdiği <strong>asliye ceza mahkemeleridir</strong> (md. 116/1). Genel görev kuralına göre ağır ceza mahkemesi, kanunların ayrıca görevli kıldığı hâller saklı kalmak üzere, ağırlaştırılmış müebbet, müebbet ve on yıldan fazla hapis cezası gerektiren suçlara ve sayılan bazı TCK suçlarına (örneğin yağma, irtikâp, resmî belgede sahtecilik) bakar; kalan dava ve işler asliye cezanındır (5235 sayılı Kanun md. 11–12). Bilgi suistimali, piyasa dolandırıcılığı gibi üç yıldan beş yıla kadar hapis gerektiren suçlar asliye cezaya düşer; üst sınırı on yılı aşan md. 110/A zimmeti ise özel hükümle (md. 115/A-3) ağır ceza mahkemesine verilmiştir.</p>",
    "<p><strong>4. Soruşturma usulü (md. 115/1, 115/A-1).</strong> Kural olarak SPKn suçlarında soruşturma, Kurulun Cumhuriyet başsavcılığına yazılı başvurusuna bağlıdır ve başvuru muhakeme şartıdır (md. 115/1). Md. 110/A-3’teki suçta ise soruşturma ve kovuşturma Kurulun yazılı bildirimi üzerine veya <strong>gecikmesinde sakınca görülen hâllerde resen</strong> Cumhuriyet savcılarınca yapılır ve Kurul haberdar edilir; kamu davası açılırsa Kurul katılan sıfatını kazanır (md. 115/A-1).</p>"
   ],
   "dayanak": "6362 sayılı SPKn md. 110/A-1–3 (kripto varlık hizmet sağlayıcılarda zimmet), md. 115/A-1, 3 (kripto varlıkların zimmet suçuna özel soruşturma usulü ve görevli mahkeme; 7518 sayılı Kanunla eklendi), md. 115/1 (yazılı başvuru), md. 116/1 (görev ve yetki), md. 105/4, md. 18/6; 5235 sayılı Kanun md. 11–12 (asliye ceza ve ağır ceza mahkemelerinin görevi).",
@@ -297,8 +297,8 @@
   },
   "kartlar": [
    {
-    "on": "Sermaye piyasası suçlarında görevli mahkeme hangisidir?",
-    "arka": "Kural: HSK’nın ihtisas mahkemesi olarak görevlendirdiği asliye ceza mahkemeleri (SPKn md. 116/1). İstisna: kripto varlık hizmet sağlayıcılarda zimmet (md. 110/A) davaları, fiilin işlendiği ilin (1) numaralı ağır ceza mahkemesinde görülür (md. 115/A-3)."
+    "on": "Kripto varlık hizmet sağlayıcılarda zimmet (md. 110/A) davası hangi mahkemede görülür?",
+    "arka": "Fiilin işlendiği yerin bağlı olduğu ilin adıyla anılan (1) numaralı ağır ceza mahkemesinde (SPKn md. 115/A-3); gerekli yerlerde HSK o yerdeki diğer ağır ceza mahkemelerini de görevlendirebilir. Diğer SPKn suçlarına ise HSK’nın ihtisas mahkemesi olarak görevlendirdiği asliye ceza mahkemeleri bakar (md. 116/1)."
    },
    {
     "on": "Kripto varlık hizmet sağlayıcılarda zimmetin cezası nedir?",
@@ -319,11 +319,11 @@
    "<p><strong>1. Savunma (md. 105/1).</strong> İdari para cezası uygulanmadan önce ilgilinin savunması alınır. Savunma istendiğine ilişkin yazının tebliğ tarihinden itibaren <strong>otuz gün</strong> içinde savunma verilmezse ilgilinin savunma hakkından feragat ettiği kabul edilir. Şıktaki “on beş gün” Kanuna aykırıdır: <strong>A yanlıştır</strong>.</p>",
    "<p><strong>2. Tekrarlanan kabahat (md. 105/2).</strong> Kanunda tanımlanan kabahatlerden birinin idari yaptırım kararı verilinceye kadar birden çok işlenmesi hâlinde, ilgili hükme göre bir idari para cezası verilir ve ceza iki kat artırılır (D). Ancak bu kabahatin işlenmesiyle menfaat temin edilmesi veya zarara sebebiyet verilmesi hâlinde ceza menfaat veya zararın üç katından az olamaz (B bu cümleyi aktarır).</p>",
    "<p><strong>3. Tahsilat ve yargı yolu (md. 105/3–4).</strong> Tahsil edilen idari para cezalarının yüzde ellisi genel bütçeye gelir kaydedilir, yüzde ellisi gelir kaydedilmek üzere YTM’ye aktarılır (C). Kararlara karşı idari yargı yoluna başvurulabilir (E).</p>",
-   "<p><strong>Yakın okuma (B).</strong> B’deki “üç kat” alt sınırı Kanunda md. 105/2’nin ikinci cümlesindedir ve “bu kabahatin” ifadesiyle aynı fıkradaki tekrarlanan kabahate bağlanmıştır. Tek bir aykırılıkla menfaat temin edilirse alt sınır menfaatin <strong>iki katıdır</strong> (md. 103/1; piyasa bozucu eylemlerde md. 104/1). Şık md. 105’in cümlesini bağlamı kısaltarak aktarır; açık bir Kanun aykırılığı taşıyan tek şık süreyi değiştiren A’dır.</p>"
+   "<p><strong>Not (tartışmalı).</strong> Sınav yapıcı B’yi doğru saymıştır; B, md. 105/2’nin ikinci cümlesinin aktarımıdır. Ancak Kanunda bu cümle “bu kabahatin” ifadesiyle aynı fıkradaki, idari yaptırım kararı verilinceye kadar <strong>birden çok işlenen</strong> kabahate bağlanmıştır. Tek bir aykırılıkla menfaat temin edilirse alt sınır menfaatin <strong>iki katıdır</strong> (md. 103/1; piyasa bozucu eylemlerde md. 104/1). Şık lafzen okunursa (her kabahatte üç kat) eksik ve yanıltıcıdır; bu okumada <strong>B</strong> de yanlış ifade olur ve soruda iki yanlış bulunur. A ise her okumada yanlıştır (savunma süresi on beş gün değil otuz gündür, md. 105/1); bu yüzden cevap <strong>A</strong> olarak kalır.</p>"
   ],
   "dayanak": "6362 sayılı SPKn md. 105/1–4 (idari para cezalarının uygulanması); karşılaştırma için md. 103/1 ve 104/1 (menfaatin iki katı alt sınırı).",
   "tuzaklar": {
-   "B": "Doğru kabul edilir: md. 105/2’nin ikinci cümlesidir. Üç kat alt sınırı tekrarlanan kabahatte uygulanır; tek aykırılıkta alt sınır iki kattır (md. 103/1).",
+   "B": "Sınav yapıcı doğru saymıştır; ancak üç kat alt sınırı yalnız karar verilinceye kadar birden çok işlenen kabahatte geçerlidir (md. 105/2). Tek aykırılıkta alt sınır iki kattır (md. 103/1, 104/1); şık lafzen eksik ve yanıltıcıdır. Kesin yanlış A’dır.",
    "C": "Doğru ifadedir: yüzde elli genel bütçe, yüzde elli YTM (md. 105/3).",
    "D": "Doğru ifadedir: md. 105/2’nin ilk cümlesidir.",
    "E": "Doğru ifadedir: idari yargı yolu açıktır (md. 105/4)."
@@ -443,7 +443,7 @@
    "A": "Piyasa bozucu eylem bir suç değildir; bir suç oluşturmadığı takdirde idari para cezası gerektiren eylemdir (md. 104/1). Kökteki fiiller md. 107/1’de suç olarak tanımlanmıştır.",
    "C": "Bilgi suistimali, henüz kamuya duyurulmamış ve fiyatı etkileyebilecek bilgiye dayanarak emir verip menfaat temin etmektir (md. 106/1); yanıltıcı izlenim uyandırma amacı bu suçun unsuru değildir.",
    "D": "Güveni kötüye kullanma, tevdi edilen araç ve nakdin kendi veya başkası menfaatine kullanılması ya da örtülü işlemlerle ortaklığın kârının veya malvarlığının azaltılmasıdır (md. 110/1).",
-   "E": "Md. 110/2’deki suç, yatırım kuruluşu, fon kurulu ve teminat sorumluları bünyesindeki kayıtları bozma, yok etme, değiştirme veya erişilmez kılmadır; fiyat üzerinde yanıltıcı izlenim uyandırma değildir."
+   "E": "Md. 110/2’deki suç, yatırım kuruluşu, fon kurulu ve teminat sorumluları bünyesindeki kayıtları bozma, yok etme, değiştirme veya erişilmez kılmadır; fiyat üzerinde yanıltıcı izlenim uyandırma değildir (md. 110’un başlığı “Güveni kötüye kullanma ve sahtecilik”tir; sahtecilik niteliğindeki fiil 110/2’dir)."
   },
   "kartlar": [
    {
@@ -463,10 +463,10 @@
   "ozet": "SPKn md. 92/1: ihraççıların sermayeyi veya mal varlığını azaltan hukuka aykırı işlemlerinde Kurul aykırılığın giderilmesini isteyebilir, iptal ve butlan veya yokluk davası açabilir, imza yetkilerini kaldırıp ilgilileri görevden alabilir; tedricî tasfiye bu tedbirler arasında yoktur: C.",
   "adimlar": [
    "<p><strong>1. Md. 92/1’deki tedbirler.</strong> (a) 6102 sayılı Kanun hükümleri saklı kalmak kaydıyla ilgililerden aykırılıkların giderilmesi için tedbir almalarını ve öngörülen işlemleri yapmalarını istemek, gerektiğinde durumu ilgili mercilere intikal ettirmek (D). (b) Hukuka aykırılığın Kurulca tespitinden itibaren üç ay ve her hâlde işlemin vukuundan itibaren üç yıl içinde <strong>iptal davası</strong> (B), beş yıl içinde <strong>butlan veya yokluğun tespiti davası</strong> açmak (A). (c) Durum ve işlemlerin ilk derece mahkeme kararıyla tespiti veya Kurulun talebiyle mahkemenin karar vermesi hâlinde sorumluların imza yetkilerini kaldırmak, ilgililer hakkında suç duyurusunda bulunulmuşsa yargılama sonuçlanıncaya kadar <strong>görevden almak</strong> (E) ve ilk genel kurula kadar yerlerine yenilerini atamak.</p>",
-   "<p><strong>2. Tedricî tasfiye nerede düzenlenir? (md. 86/1)</strong> Kurul, md. 82 uyarınca <strong>yatırımcıları tazmin kararı verilenler</strong> hakkında, bankalar hariç olmak üzere, tazmin sürecinin kapanmasına ilişkin kararıyla birlikte tedricî tasfiye kararı da verebilir; işlemleri YTM yürütür. Yani tedricî tasfiye, yükümlülüklerini yerine getiremeyen yatırım kuruluşlarına ilişkin bir araçtır; md. 92’de sayılmaz. Cevap <strong>C</strong>.</p>",
+   "<p><strong>2. Tedricî tasfiye nerede düzenlenir? (md. 97/1, 86/1)</strong> Tedricî tasfiye <strong>sermaye piyasası kurumlarına</strong> (md. 35’te sayılan kurumlar) ilişkin bir tedbirdir. Sermaye yeterliliğini sağlayamayan, nakit ödeme veya araç teslim yükümlülüklerini yerine getiremeyen ya da <strong>mali durumu bozulan</strong> kurumlar hakkında Kurul, diğer tedbirlerin yanında tedricî tasfiyeye karar verebilir (md. 97/1). Ayrıca md. 82 uyarınca <strong>yatırımcıları tazmin kararı verilenler</strong> hakkında, bankalar hariç olmak üzere, tazmin sürecinin kapanmasına ilişkin kararla birlikte tedricî tasfiye kararı verilebilir; işlemleri YTM yürütür (md. 86/1). İhraççılara ilişkin md. 92’de ise tedricî tasfiye yer almaz. Cevap <strong>C</strong>.</p>",
    "<p><strong>Ek bilgi.</strong> Halka açık bankalar hakkında md. 92’ye göre işlem tesis edilmeden önce BDDK’nın görüşü alınır (md. 92/2); bu madde kapsamında Kurulun açtığı dava ve takipler ile ihtiyati tedbir ve ihtiyati haciz taleplerinde Kurul her türlü harç ve teminattan muaftır (md. 92/3).</p>"
   ],
-  "dayanak": "6362 sayılı SPKn md. 92/1–3 (ihraççıların hukuka aykırı işlemleri ile sermayeyi veya mal varlığını azaltıcı işlemlerinde uygulanacak tedbirler), md. 86/1 (tedricî tasfiye), md. 82.",
+  "dayanak": "6362 sayılı SPKn md. 92/1–3 (ihraççıların hukuka aykırı işlemleri ile sermayeyi veya mal varlığını azaltıcı işlemlerinde uygulanacak tedbirler), md. 97/1 (mali durumun bozulması hâlinde uygulanacak tedbirler; tedricî tasfiye), md. 86/1 (tazmin kararı verilenlerde tedricî tasfiye), md. 82, md. 35.",
   "tuzaklar": {
    "A": "Yer alır: butlan veya yokluğun tespiti davası beş yıl içinde açılabilir (md. 92/1-b).",
    "B": "Yer alır: iptal davası tespitten itibaren üç ay ve her hâlde işlemden itibaren üç yıl içinde açılabilir (md. 92/1-b).",
@@ -479,8 +479,8 @@
     "arka": "Aykırılığın giderilmesini isteme ve gerekirse ilgili mercilere intikal; iptal davası (tespitten itibaren üç ay, her hâlde işlemden itibaren üç yıl içinde) ve beş yıl içinde butlan veya yokluğun tespiti davası; mahkeme kararıyla imza yetkilerini kaldırma, suç duyurusunda yargılama sonuçlanıncaya kadar görevden alma ve ilk genel kurula kadar yerine atama (SPKn md. 92/1)."
    },
    {
-    "on": "Tedricî tasfiye kararı kimin hakkında ve ne zaman verilir?",
-    "arka": "Md. 82 uyarınca yatırımcıları tazmin kararı verilenler hakkında, bankalar hariç, tazmin sürecinin kapanmasına ilişkin kararla birlikte Kurulca verilir; işlemleri YTM yürütür (SPKn md. 86/1)."
+    "on": "Tedricî tasfiye kararı kimin hakkında verilir?",
+    "arka": "Sermaye piyasası kurumları hakkında: mali durumu bozulan veya yükümlülüklerini yerine getiremeyen kurumlar için Kurulun md. 97/1’deki tedbiri olarak; yatırımcıları tazmin kararı verilenler için (bankalar hariç) tazmin sürecinin kapanmasına ilişkin kararla birlikte (SPKn md. 86/1). İhraççılara ilişkin md. 92 tedbirleri arasında yer almaz."
    }
   ],
   "konuBaglantisi": "Denetim, tedbirler ve idari yaptırımlar"

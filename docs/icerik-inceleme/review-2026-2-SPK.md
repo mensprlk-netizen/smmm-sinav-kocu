@@ -44,12 +44,12 @@ Sınır notları (öneriyle aynı sonuç, gerekçe): 03 bir tebliğ sorusu (III-
 | 09 | ok | Satır birleştirme; kalın kök, altı çizili “yanlıştır” | B (II-15.1 md. 6/2 son cümle) | B | evet |
 | 10 | ok | Satır birleştirme; kalın kök, altı çizili “yanlıştır” | C (SPKn md. 89/3) | C | evet |
 | 11 | ok | Satır birleştirme; kalın kök | E (SPKn md. 115/A-3) | E | evet |
-| 12 | ok | Satır birleştirme; kalın kök, altı çizili “yanlıştır” | A (SPKn md. 105/1: otuz gün) | A | evet |
+| 12 | tartışmalı | Satır birleştirme; kalın kök, altı çizili “yanlıştır” | A (SPKn md. 105/1: otuz gün); lafzi okumada B de yanlış | A | evet |
 | 13 | ok | Satır birleştirme; kalın kök, altı çizili “yanlıştır” | E (SPKn md. 65/1 ve 65/7) | E | evet |
 | 14 | ok | Satır birleştirme; kalın kök | C (SPKn md. 85/1: bir yıl) | C | evet |
 | 15 | ok | Satır birleştirme; kalın kök | A (II-23.2 md. 4/1-n) | A | evet |
 | 16 | ok | Satır birleştirme; kalın kök | B (SPKn md. 107/1) | B | evet |
-| 17 | ok | Satır birleştirme; kalın kök, altı çizili “yer almaz” | C (SPKn md. 92/1; tedricî tasfiye md. 86/1) | C | evet |
+| 17 | ok | Satır birleştirme; kalın kök, altı çizili “yer almaz” | C (SPKn md. 92/1; tedricî tasfiye md. 97/1 ve 86/1) | C | evet |
 | 18 | ok | Satır birleştirme; kalın kök, altı çizili “değildir” | E (II-5.2 md. 6/1, 13/1) | E | evet |
 | 19 | ok | Roma rakamlı öncüller, düz “ifade eder.”, kalın soru cümlesi | D (SPKn md. 3/1-b, d, ö, s, aa, dd) | D | evet |
 | 20 | ok | Satır birleştirme; kalın kök | C (SPKn md. 77/1) | C | evet |
@@ -62,9 +62,10 @@ Yok. 20 sorunun hepsinde bağımsız çözüm resmî anahtarla aynıdır. `tools
 
 ## Tartışmalı sorular
 
-Yok. Yakın okuma gerektiren yerler (çözümlerde açıklandı, cevabı değiştirmez):
+- **12 (TARTIŞMALI; resmî cevap A, öteki okuma B):** B şıkkı (“Kabahatlerden birisinin işlenmesi suretiyle menfaat temin edilmesi hâlinde ceza menfaatin üç katından az olamaz.”) md. 105/2’nin ikinci cümlesinin aktarımıdır; sınav yapıcı doğru saymıştır. Ancak Kanunda bu cümle “bu kabahatin” ifadesiyle aynı fıkradaki, idari yaptırım kararı verilinceye kadar birden çok işlenen kabahate bağlıdır. Tek aykırılıkta alt sınır menfaatin iki katıdır (md. 103/1, 104/1). Şık lafzen okunursa B de yanlış ifade olur ve soruda iki yanlış bulunur. A (savunma süresi on beş gün; Kanunda otuz gün, md. 105/1) her okumada yanlıştır, bu yüzden çözüm resmî cevabı (A) izler. Çözüme “Not (tartışmalı)” adımı eklendi (eski “Yakın okuma (B)” içeriği bu nota taşındı) ve `tuzaklar.B` lafzi okumayı açıklayacak şekilde yeniden yazıldı.
 
-- **12-B:** “Kabahatlerden birisinin işlenmesi suretiyle menfaat temin edilmesi hâlinde ceza menfaatin üç katından az olamaz.” Bu cümle md. 105/2’nin ikinci cümlesidir; Kanunda “bu kabahatin” ifadesiyle aynı fıkradaki tekrarlanan kabahate (karar verilinceye kadar birden çok işlenme) bağlıdır. Tek aykırılıkta alt sınır menfaatin iki katıdır (md. 103/1, 104/1). Şık bağlamı kısaltılmış bir Kanun cümlesidir; kesin aykırılık taşıyan tek şık süreyi otuz günden on beş güne indiren A’dır. B’yi de yanlış sayan bir okuma, resmî cevabı (A) çürütmez; soruyu en fazla iki yanlışlı hâle getirir. Bu nedenle “TARTIŞMALI” sayılmadı; çözümde “Yakın okuma (B)” notu ve `tuzaklar.B` bunu öğretir.
+Yakın okuma gerektiren diğer yerler (çözümlerde açıklandı, cevabı değiştirmez):
+
 - **01-III:** Öncül md. 10/1’in ikinci kademesinden yalnız lider aracı kurumu anar ve “edilemeyeceğinin açıkça belli olması” hâlini yazmaz. 2026-1-SPK-07-III’teki gibi eksik sayım ifadeyi yanlış yapmaz. **01-IV** de md. 10/2’deki örneklerden yalnız bağımsız denetim kuruluşlarını anar.
 - **07-IV:** md. 46/2’deki listeden (kredili işlemler, ödünç, açığa satış, diğer hizmetler) ikisini anar; eksik sayım.
 - **13-C:** md. 65/12 “borsa başkanı ve yönetim kurulu üyeleri ve üst yönetimi” der; şık üst yönetimi yazmaz; eksik sayım.
@@ -96,12 +97,12 @@ Kullanılan metinler:
 - **SPK Bülteni 2025/68** (31/12/2025; Kurul Karar Organı’nın 30/12/2025 tarih ve 68/2461 sayılı kararıyla yapılan duyuru): md. 84/5 satırı (100.000 TL → 2026 için 2.065.145 TL), PDF tablosundan okundu.
 
 Atıflar:
-- **6362 SPKn:** md. 3/1-b, d, e, h, l, ö, s, z, aa, dd; 10/1–2; 16/1–3; 18/1, 2, 6; 29/1–2; 35/A-1, 2, 4, 5, 6; 46/2, 4, 5, 6, 7; 50/1–3; 55/1; 65/1, 2, 4, 5, 7, 12; 77/1, 4; 78/1; 80/1; 81/1; 82/1; 83/1; 84/5; 85/1–2; 86/1; 88/1; 89/1–3; 92/1–3; 93/1; 103/1; 104/1; 105/1–4; 106/1; 107/1–2; 110/1–2; 110/A-1–3; 115/1; 115/A-1, 3; 116/1 — kesin.
+- **6362 SPKn:** md. 3/1-b, d, e, h, l, ö, s, z, aa, dd; 10/1–2; 16/1–3; 18/1, 2, 6; 29/1–2; 35/1; 35/A-1, 2, 4, 5, 6; 46/2, 4, 5, 6, 7; 50/1–3; 55/1; 65/1, 2, 4, 5, 7, 12; 77/1, 4; 78/1; 80/1; 81/1; 82/1; 83/1; 84/5; 85/1–2; 86/1; 88/1; 89/1–3; 92/1–3; 93/1; 97/1; 103/1; 104/1; 105/1–4; 106/1; 107/1–2; 110/1–2; 110/A-1–3; 115/1; 115/A-1, 3; 116/1 — kesin. md. 98/1 okundu (inceleme düzeltmesinde md. 86 ve 97’yi birlikte andığı teyit edildi; çözümde atıf yok).
 - **III-37.1:** md. 40/1, 2, 4, 5, 6; 48/1; 59/3-b — kesin. **III-39.1:** md. 33/1 — kesin.
 - **II-15.1:** md. 6/1–4 (6/3-c dahil), 9/2 — kesin.
 - **II-23.2:** md. 4/1-ç, e, ı, k, n, ö — kesin.
 - **II-5.2:** md. 4/1-ö, 6/1, 7/1, 13/1, 14/4, 15/1, 16/1 — kesin.
-- **6102 TTK:** md. 159/1-a, 414/1 — kesin. **5235:** md. 11–12 — kesin.
+- **6102 TTK:** md. 159/1-a, 414/1 — kesin. **5235:** md. 11–12 (md. 12’deki sayılan TCK suçları dahil) — kesin.
 - **SPK Bülteni 2025/68:** md. 84/5 satırı — kesin.
 
 Madde numarası verilmeden kural olarak yazılanlar:
@@ -109,3 +110,10 @@ Madde numarası verilmeden kural olarak yazılanlar:
 - 15: “Tebliğ ‘tasfiyeli tam bölünme’ diye bir tür tanımlamaz.” II-23.2’de “tasfiye” kelimesinin yalnız birleşme tanımlarında (“tasfiyesiz sona erme”) ve md. 12’de geçtiği betikle doğrulandı.
 - 11: “2017 Anayasa değişikliğiyle Hâkimler ve Savcılar Kurulu (HSK)” — genel bilgi (2026-1-SPK-11 ile aynı ifade); cevabı taşımaz.
 - 13: “703 sayılı KHK ile ‘Bakanlar Kurulu’ yerine Cumhurbaşkanı” — 6362 konsolide metnindeki dipnottan (dipnot 5) alındı.
+
+## İnceleme düzeltmeleri (bağımsız inceleme sonrası)
+
+- **12 (Önemli):** Soru “Tartışmalı sorular” bölümüne alındı (resmî A, öteki okuma B). Çözümdeki “Yakın okuma (B)” adımı “Not (tartışmalı)” adımına dönüştürüldü; `tuzaklar.B` yeniden yazıldı: üç kat alt sınırı yalnız karar verilinceye kadar birden çok işlenen kabahatte (md. 105/2), tek aykırılıkta iki kat (md. 103/1, 104/1); kesin yanlış A. Cevap A değişmedi.
+- **17 (Önemli):** Tedricî tasfiye yalnız md. 86/1 aracı olarak sunuluyordu. md. 97/1 (mali durumu bozulan sermaye piyasası kurumları hakkında Kurulun tedricî tasfiyeye karar verme yetkisi) eklendi; md. 98/1 iki dayanağı birlikte anar (her ikisi 6362 metninde okundu). Adım 2, kart 2 ve `dayanak` (md. 97/1, md. 35) güncellendi. Cevap C değişmedi.
+- **11 (Küçük):** Kart 1 2026-1-SPK-11’in kartının aynısıydı; istisnaya odaklanacak şekilde yeniden yazıldı (kripto zimmet davası → (1) numaralı ağır ceza, md. 115/A-3; diğer suçlar ihtisas asliye ceza, md. 116/1). Adım 3’teki 5235 md. 12 aktarımı tamamlandı (ağırlaştırılmış müebbet, müebbet, on yıldan fazla hapis ve sayılan bazı TCK suçları).
+- **16 (Küçük):** `tuzaklar.E`’ye md. 110 başlığının “Güveni kötüye kullanma ve sahtecilik” olduğu ve sahtecilik niteliğindeki fiilin 110/2 olduğu eklendi (başlık 6362 metninde doğrulandı).
