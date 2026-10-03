@@ -43,3 +43,31 @@ test('variance-tree iç içe kutular', () => {
 test('bilinmeyen tip boş değil, çökmez', () => {
   assert.ok(renderVisual({ tip: 'yok', veri: {} }).textContent.length > 0);
 });
+
+test('iki flow şeması farklı ok işareti kimliği kullanır', () => {
+  const veri = { w: 300, h: 100, dugumler: [{ id: 'a', etiket: 'A', x: 10, y: 10 }, { id: 'b', etiket: 'B', x: 160, y: 10 }], oklar: [{ from: 'a', to: 'b' }] };
+  const ids = [renderVisual({ tip: 'flow', veri }), renderVisual({ tip: 'flow', veri })].map(el => el.querySelector('marker').id);
+  assert.notEqual(ids[0], ids[1]);
+  for (const el of [renderVisual({ tip: 'flow', veri })]) assert.ok(el.querySelector('line').getAttribute('marker-end').includes(el.querySelector('marker').id));
+});
+
+test('flow etiketleri okunur boyutta, uzun etiket kutuya sıkıştırılır', () => {
+  const el = renderVisual({ tip: 'flow', veri: { w: 300, h: 100, dugumler: [{ id: 'a', etiket: '150 İlk Madde ve Malzeme Stokları', x: 10, y: 10, w: 120 }, { id: 'b', etiket: '710', x: 160, y: 10 }], oklar: [] } });
+  const [uzun, kisa] = el.querySelectorAll('text');
+  assert.equal(uzun.getAttribute('font-size'), '14');
+  assert.equal(uzun.getAttribute('textLength'), '112');
+  assert.equal(kisa.getAttribute('textLength'), null);
+});
+
+test('allocation-table bozuk adımda çökmez', () => {
+  const el = renderVisual({ tip: 'allocation-table', veri: { basliklar: ['', 'A'], satirlar: [['x', '1']], adimlar: [{}, { hucreler: [[9, 9]], aciklama: 'yok' }] } });
+  const btn = el.querySelector('button');
+  btn.click(); btn.click();
+  assert.ok(el.textContent.includes('2/2: yok'));
+});
+
+test('cvp: fiyat ≤ bdm metni ve geçersiz veri geri dönüşü', () => {
+  const el = renderVisual({ tip: 'cvp-interactive', veri: { fiyat: 30, bdm: 30, sabit: 10000 } });
+  assert.ok(el.textContent.includes('başabaş noktası yok'));
+  assert.ok(renderVisual({ tip: 'cvp-interactive', veri: { fiyat: 'x' } }).textContent.includes('Görsel gösterilemiyor.'));
+});

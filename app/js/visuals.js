@@ -10,29 +10,35 @@ export function bepHesapla({ fiyat, bdm, sabit }) {
   return { birim: Math.round(birim * 100) / 100, tutar: Math.round(birim * fiyat * 100) / 100 };
 }
 
+let flowSayac = 0;
 function flow({ w = 600, h = 300, dugumler = [], oklar = [] }) {
-  const svg = svgEl('svg', { viewBox: `0 0 ${w} ${h}`, role: 'img' });
-  const defs = svgEl('defs'); const m = svgEl('marker', { id: 'arr', viewBox: '0 0 10 10', refX: 10, refY: 5, markerWidth: 8, markerHeight: 8, orient: 'auto-start-reverse' });
+  const svg = svgEl('svg', { viewBox: `0 0 ${w} ${h}`, role: 'img', 'aria-label': 'Akış şeması: ' + dugumler.map(d => d.etiket).join(', ') });
+  const arrId = `arr${++flowSayac}`; // sayfada birden çok şema olabilir; marker kimliği benzersiz
+  const defs = svgEl('defs'); const m = svgEl('marker', { id: arrId, viewBox: '0 0 10 10', refX: 10, refY: 5, markerWidth: 8, markerHeight: 8, orient: 'auto-start-reverse' });
   m.append(svgEl('path', { d: 'M0,0 L10,5 L0,10 z', fill: 'currentColor' })); defs.append(m); svg.append(defs);
   const pos = {};
   for (const d of dugumler) {
     const bw = d.w ?? 130, bh = d.h ?? 44; pos[d.id] = { cx: d.x + bw / 2, cy: d.y + bh / 2, bw, bh };
     svg.append(svgEl('rect', { x: d.x, y: d.y, width: bw, height: bh, rx: 8, fill: 'var(--surface)', stroke: 'var(--primary)', 'stroke-width': 1.5 }));
-    svg.append(svgEl('text', { x: d.x + bw / 2, y: d.y + bh / 2 + 4, 'text-anchor': 'middle', 'font-size': 12, fill: 'var(--text)' }, d.etiket));
+    const label = svgEl('text', { x: d.x + bw / 2, y: d.y + bh / 2 + 5, 'text-anchor': 'middle', 'font-size': 14, fill: 'var(--text)' }, d.etiket);
+    // Kutuya sığmayan etiketler sıkıştırılır (yaklaşık 7,2 px/karakter @14px).
+    if (String(d.etiket ?? '').length * 7.2 > bw - 8) { label.setAttribute('textLength', bw - 8); label.setAttribute('lengthAdjust', 'spacingAndGlyphs'); }
+    svg.append(label);
   }
   for (const o of oklar) {
     const a = pos[o.from], b = pos[o.to]; if (!a || !b) continue;
     const dx = b.cx - a.cx, dy = b.cy - a.cy;
     const x1 = a.cx + Math.sign(dx) * (Math.abs(dx) > Math.abs(dy) ? a.bw / 2 : 0), y1 = a.cy + Math.sign(dy) * (Math.abs(dx) > Math.abs(dy) ? 0 : a.bh / 2);
     const x2 = b.cx - Math.sign(dx) * (Math.abs(dx) > Math.abs(dy) ? b.bw / 2 : 0), y2 = b.cy - Math.sign(dy) * (Math.abs(dx) > Math.abs(dy) ? 0 : b.bh / 2);
-    svg.append(svgEl('line', { x1, y1, x2, y2, stroke: 'currentColor', 'stroke-width': 1.5, 'marker-end': 'url(#arr)' }));
-    if (o.etiket) svg.append(svgEl('text', { x: (x1 + x2) / 2, y: (y1 + y2) / 2 - 6, 'text-anchor': 'middle', 'font-size': 11, fill: 'var(--muted)' }, o.etiket));
+    svg.append(svgEl('line', { x1, y1, x2, y2, stroke: 'currentColor', 'stroke-width': 1.5, 'marker-end': `url(#${arrId})` }));
+    if (o.etiket) svg.append(svgEl('text', { x: (x1 + x2) / 2, y: (y1 + y2) / 2 - 6, 'text-anchor': 'middle', 'font-size': 13, fill: 'var(--muted)' }, o.etiket));
   }
   return svg;
 }
 
 function cvp(veri) {
-  const st = { fiyat: veri.fiyat, bdm: veri.bdm, sabit: veri.sabit }, max = veri.maxMiktar || 1000;
+  for (const k of ['fiyat', 'bdm', 'sabit']) if (!Number.isFinite(veri[k]) || veri[k] < 0) throw new Error('cvp: ' + k);
+  const st = { fiyat: veri.fiyat, bdm: veri.bdm, sabit: veri.sabit }, max = veri.maxMiktar > 0 ? veri.maxMiktar : 1000;
   const W = 600, H = 320, L = 50, B = 280;
   const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}` });
   const out = h('p', {});
@@ -45,19 +51,19 @@ function cvp(veri) {
     svg.append(svgEl('line', { x1: X(0), y1: Y(0), x2: X(max), y2: Y(st.fiyat * max), stroke: 'var(--ok)', 'stroke-width': 2 }));
     svg.append(svgEl('line', { x1: X(0), y1: Y(st.sabit), x2: X(max), y2: Y(st.sabit + st.bdm * max), stroke: 'var(--err)', 'stroke-width': 2 }));
     svg.append(svgEl('line', { x1: X(0), y1: Y(st.sabit), x2: X(max), y2: Y(st.sabit), stroke: 'var(--muted)', 'stroke-dasharray': '4 4' }));
-    svg.append(svgEl('text', { x: X(max) - 4, y: Y(st.fiyat * max) - 6, 'text-anchor': 'end', 'font-size': 11, fill: 'var(--ok)' }, 'Toplam gelir'));
-    svg.append(svgEl('text', { x: X(max) - 4, y: Y(st.sabit + st.bdm * max) + 14, 'text-anchor': 'end', 'font-size': 11, fill: 'var(--err)' }, 'Toplam maliyet'));
-    svg.append(svgEl('text', { x: L + 4, y: Y(st.sabit) - 4, 'font-size': 11, fill: 'var(--muted)' }, 'Sabit maliyet'));
+    svg.append(svgEl('text', { x: X(max) - 4, y: Y(st.fiyat * max) - 6, 'text-anchor': 'end', 'font-size': 14, fill: 'var(--ok)' }, 'Toplam gelir'));
+    svg.append(svgEl('text', { x: X(max) - 4, y: Y(st.sabit + st.bdm * max) + 14, 'text-anchor': 'end', 'font-size': 14, fill: 'var(--err)' }, 'Toplam maliyet'));
+    svg.append(svgEl('text', { x: L + 4, y: Y(st.sabit) - 4, 'font-size': 14, fill: 'var(--muted)' }, 'Sabit maliyet'));
     const bep = bepHesapla(st);
     if (bep && bep.birim <= max) {
       svg.append(svgEl('circle', { cx: X(bep.birim), cy: Y(bep.tutar), r: 6, fill: 'var(--accent)', stroke: 'currentColor' }));
-      svg.append(svgEl('text', { x: X(bep.birim) + 8, y: Y(bep.tutar) - 8, 'font-size': 12, fill: 'var(--text)' }, 'Başabaş'));
+      svg.append(svgEl('text', { x: X(bep.birim) + 8, y: Y(bep.tutar) - 8, 'font-size': 14, fill: 'var(--text)' }, 'Başabaş'));
     }
-    svg.append(svgEl('text', { x: W / 2, y: H - 4, 'text-anchor': 'middle', 'font-size': 11, fill: 'var(--muted)' }, 'Miktar (birim)'));
+    svg.append(svgEl('text', { x: W / 2, y: H - 4, 'text-anchor': 'middle', 'font-size': 14, fill: 'var(--muted)' }, 'Miktar (birim)'));
     for (const k of Object.keys(st)) { const o = wrap.querySelector(`[data-out="${k}"]`); if (o) o.textContent = fmt(st[k]); }
     out.textContent = bep ? `Başabaş = Sabit / (Fiyat − BDM) = ${fmt(st.sabit)} / (${fmt(st.fiyat)} − ${fmt(st.bdm)}) = ${fmt(bep.birim)} birim; ${fmt(bep.tutar)} ₺ satış tutarı.` : 'Fiyat birim değişken maliyeti aşmıyor: katkı payı yok, başabaş noktası yok.';
   }
-  const wrap = h('div', {}, svg, slider('fiyat', 'Satış fiyatı', 1, veri.fiyat * 3, 1), slider('bdm', 'Birim değişken maliyet', 0, veri.fiyat * 3, 1), slider('sabit', 'Sabit maliyet', 0, veri.sabit * 4, Math.max(1, Math.round(veri.sabit / 100))), out);
+  const wrap = h('div', {}, svg, slider('fiyat', 'Satış fiyatı', 1, veri.fiyat * 3, 1), slider('bdm', 'Birim değişken maliyet', 0, veri.fiyat * 3, 1), slider('sabit', 'Sabit maliyet', 0, Math.max(1, veri.sabit * 4), 1), out);
   draw();
   return wrap;
 }
@@ -69,8 +75,8 @@ function allocation({ basliklar = [], satirlar = [], adimlar = [] }) {
   const btn = h('button', { class: 'btn btn-small', onClick: () => {
     i = (i + 1) % adimlar.length;
     table.querySelectorAll('td.vurgu').forEach(td => td.classList.remove('vurgu'));
-    for (const [r, c] of adimlar[i].hucreler) table.rows[r + 1]?.cells[c]?.classList.add('vurgu');
-    note.textContent = `${i + 1}/${adimlar.length}: ${adimlar[i].aciklama}`;
+    for (const [r, c] of adimlar[i].hucreler ?? []) table.rows[r + 1]?.cells[c]?.classList.add('vurgu');
+    note.textContent = `${i + 1}/${adimlar.length}: ${adimlar[i].aciklama ?? ''}`;
   } }, 'Sonraki adım');
   return h('div', {}, table, adimlar.length ? btn : null, note);
 }
