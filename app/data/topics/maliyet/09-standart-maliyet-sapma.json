@@ -1,0 +1,123 @@
+{
+ "kod": "09-standart-maliyet-sapma",
+ "sira": 9,
+ "baslik": "Standart Maliyet ve Sapma Analizi",
+ "amac": "Standart maliyetle fiili maliyet arasındaki farkı DİMM fiyat ve miktar, direkt işçilik ücret ve süre, GÜG harcama, verimlilik ve hacim sapmalarına ayırmak; her sapmayı olumlu ya da olumsuz olarak doğru nitelemek.",
+ "bolumler": [
+  {
+   "baslik": "Standart maliyet ve işaret kuralı",
+   "html": "<p><strong>Standart maliyet</strong>, üretimden önce zaman etüdü, mühendislik çalışması ve bütçe gibi yöntemlerle belirlenen, mamul biriminin “olması gereken” maliyetidir: birim başına DİMM miktarı ve fiyatı, direkt işçilik süresi ve ücreti, GÜG yükleme oranı. Fiili maliyet standartla karşılaştırılır; fark (sapma) nedenlerine ayrıştırılıp yönetimin dikkatine sunulur (istisnalarla yönetim). Sistem maliyet kontrolünü, planlamayı ve bütçelemeyi kolaylaştırır; ancak standart belirlemek uzmanlık, zaman ve maliyet ister, standartlar sürekli güncellenmelidir ve sistemin her işletmede kurulması kolay değildir.</p><p><strong>Fiili üretim için standart miktar (süre) = Fiili üretim miktarı × Birim başına standart miktar (süre)</strong></p><p><strong>Sapma = Standart − Fiili</strong></p><p>Bu konuda sonuç pozitifse sapma <strong>olumlu</strong>, negatifse <strong>olumsuz</strong>dur (fiili maliyet standardı aşmıştır). Bazı kaynaklar fiili − standart yazar; o zaman işaret ters döner, olumlu/olumsuz niteleme değişmez.</p>"
+  },
+  {
+   "baslik": "DİMM ve direkt işçilik sapmaları",
+   "html": "<p><strong>DİMM fiyat sapması = (Standart fiyat − Fiili fiyat) × Fiili miktar</strong></p><p><strong>DİMM miktar sapması = (Standart miktar − Fiili miktar) × Standart fiyat</strong></p><p><strong>Dİ ücret sapması = (Standart ücret − Fiili ücret) × Fiili süre</strong></p><p><strong>Dİ süre (verimlilik) sapması = (Standart süre − Fiili süre) × Standart ücret</strong></p><p>Fiyat ve ücret sapmasında fiili miktar (süre), miktar ve süre sapmasında standart fiyat (ücret) kullanılır; böylece iki sapmanın toplamı toplam farka eşit olur. Fiyat sapması satın alma anında hesaplanıyorsa fiili kullanılan yerine satın alınan miktar alınır. Fiyat ve ücret sapması genellikle satın alma ve ücret politikasının, miktar ve süre sapması üretim bölümünün sorumluluğundadır.</p>"
+  },
+  {
+   "baslik": "GÜG sapmaları: iki, üç ve dört sapma",
+   "html": "<p>Kısaltmalar: SS fiili üretim için standart süre, FS fiili süre, N normal (bütçe) kapasite, d standart değişken GÜG oranı, s standart sabit GÜG oranı (= bütçelenmiş sabit GÜG ÷ N).</p><p><strong>Toplam GÜG sapması = Yüklenen GÜG (SS × (d + s)) − Fiili GÜG</strong></p><ul><li><strong>Değişken harcama</strong> = d × FS − Fiili değişken GÜG</li><li><strong>Değişken verimlilik</strong> = (SS − FS) × d</li><li><strong>Sabit harcama (bütçe)</strong> = Bütçelenmiş sabit GÜG − Fiili sabit GÜG</li><li><strong>Hacim (kapasite)</strong> = (SS − N) × s</li></ul><p><strong>Üç sapmada</strong> iki harcama sapması birleşir: bütçe (harcama) sapması = (d × FS + bütçelenmiş sabit GÜG) − Fiili GÜG; verimlilik ve hacim aynı kalır. <strong>İki sapmada</strong> bütçe ve verimlilik birleşir: kontrol edilebilir sapma = (d × SS + bütçelenmiş sabit GÜG) − Fiili GÜG; diğeri hacim sapmasıdır. Hacim sapması kapasite kullanımından doğar ve kısa dönemde kontrol edilemez.</p><p>Aşağıdaki örneğin işletmesinde SS 2.000, FS 2.100, N 2.200 DİS; d 40, s 60 ₺/DİS (bütçelenmiş sabit GÜG 132.000 ₺); fiili değişken GÜG 86.100, sabit GÜG 130.000 ₺. Yüklenen 2.000 × 100 = 200.000 ₺.</p><table class=\"veri\"><tr><th>Analiz</th><th class=\"n\">Sapma</th><th class=\"n\">Hesap</th><th class=\"n\">Tutar (₺)</th></tr><tr><td>Dört sapma</td><td class=\"n\">Değişken harcama</td><td class=\"n\">40 × 2.100 − 86.100</td><td class=\"n\">−2.100</td></tr><tr><td></td><td class=\"n\">Değişken verimlilik</td><td class=\"n\">(2.000 − 2.100) × 40</td><td class=\"n\">−4.000</td></tr><tr><td></td><td class=\"n\">Sabit harcama</td><td class=\"n\">132.000 − 130.000</td><td class=\"n\">+2.000</td></tr><tr><td></td><td class=\"n\">Hacim</td><td class=\"n\">(2.000 − 2.200) × 60</td><td class=\"n\">−12.000</td></tr><tr><td>Üç sapma</td><td class=\"n\">Bütçe (harcama)</td><td class=\"n\">(84.000 + 132.000) − 216.100</td><td class=\"n\">−100</td></tr><tr><td></td><td class=\"n\">Verimlilik</td><td class=\"n\">değişken verimlilik</td><td class=\"n\">−4.000</td></tr><tr><td></td><td class=\"n\">Hacim (kapasite)</td><td class=\"n\">dört sapmadaki hacim</td><td class=\"n\">−12.000</td></tr><tr><td>İki sapma</td><td class=\"n\">Kontrol edilebilir</td><td class=\"n\">(80.000 + 132.000) − 216.100</td><td class=\"n\">−4.100</td></tr><tr><td></td><td class=\"n\">Hacim</td><td class=\"n\">dört sapmadaki hacim</td><td class=\"n\">−12.000</td></tr><tr><td><strong>Toplam</strong></td><td class=\"n\"></td><td class=\"n\">200.000 − 216.100</td><td class=\"n\"><strong>−16.100</strong></td></tr></table><p>7/A'da sapmalar 712 Direkt İlk Madde ve Malzeme Fiyat Farkı, 713 Direkt İlk Madde ve Malzeme Miktar Farkı, 722 Direkt İşçilik Ücret Farkları, 723 Direkt İşçilik Süre Farkları, 732 Genel Üretim Giderleri Bütçe Farkları, 733 Genel Üretim Giderleri Verimlilik Farkları ve 734 Genel Üretim Giderleri Kapasite Farkları hesaplarında izlenir: olumsuz farklar borca, olumlu farklar alacağa yazılır; dönem sonunda ilgili stok ve satış maliyeti hesaplarına aktarılarak kapatılır. Ağaç, örneğin bütün sapmalarını gösterir.</p>",
+   "gorsel": {
+    "tip": "variance-tree",
+    "veri": {
+     "etiket": "Toplam sapma (standart − fiili)",
+     "deger": "−25.600 ₺ olumsuz",
+     "cocuklar": [
+      {
+       "etiket": "DİMM",
+       "deger": "−800 ₺ olumsuz",
+       "cocuklar": [
+        {
+         "etiket": "Fiyat",
+         "deger": "+4.200 ₺ olumlu"
+        },
+        {
+         "etiket": "Miktar",
+         "deger": "−5.000 ₺ olumsuz"
+        }
+       ]
+      },
+      {
+       "etiket": "Direkt işçilik",
+       "deger": "−8.700 ₺ olumsuz",
+       "cocuklar": [
+        {
+         "etiket": "Ücret",
+         "deger": "+6.300 ₺ olumlu"
+        },
+        {
+         "etiket": "Süre (verimlilik)",
+         "deger": "−15.000 ₺ olumsuz"
+        }
+       ]
+      },
+      {
+       "etiket": "GÜG",
+       "deger": "−16.100 ₺ olumsuz",
+       "cocuklar": [
+        {
+         "etiket": "Değişken harcama",
+         "deger": "−2.100 ₺ olumsuz"
+        },
+        {
+         "etiket": "Değişken verimlilik",
+         "deger": "−4.000 ₺ olumsuz"
+        },
+        {
+         "etiket": "Sabit harcama",
+         "deger": "+2.000 ₺ olumlu"
+        },
+        {
+         "etiket": "Hacim (kapasite)",
+         "deger": "−12.000 ₺ olumsuz"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "sinavYaklasimi": [
+  "İşaret kuralı: bu konuda sapma = standart − fiili; pozitif olumlu, negatif olumsuz. 2026-2-MAL-03'ün çözümü ve Konu 4 fiili − standart yazar; o kuralda işaret ters, nitelik aynıdır. Sınavda belirleyici olan “olumlu/olumsuz” sözcüğüdür: fiili maliyet standardı aşıyorsa sapma olumsuzdur.",
+  "2026-2-MAL-03: planlanan 2.400 DİS ve 210 ₺ standarttır. Zaman (süre) sapması (2.400 − 2.500) × 210 = −21.000 → 21.000 ₺ olumsuz; ücret sapması (210 − 200) × 2.500 = +25.000 → 25.000 ₺ olumlu (A). Sağlama: 504.000 − 500.000 = +4.000 = −21.000 + 25.000.",
+  "2026-2-MAL-04: standart maliyet DİMM'yi miktar ve fiyat, direkt işçiliği süre ve ücret olarak kontrol eder, planlamayı kolaylaştırır ve sapmalar yönetimin dikkatini çeker; ama standart belirlemek uzmanlık ve maliyet ister, sistem her işletmede kolayca kurulamaz (yanlış ifade E).",
+  "GÜG sapmalarının adlandırılması kaynaklara göre değişir. Burada dört sapma (değişken harcama, değişken verimlilik, sabit harcama, hacim), üç sapma (bütçe, verimlilik, hacim/kapasite) ve iki sapma (kontrol edilebilir, hacim) öğretildi. Bazı Türk kaynakları üçlü analizde verimlilik sapmasını toplam GÜG oranıyla, (SS − FS) × (d + s), kapasite sapmasını fiili süreyle, (FS − N) × s, hesaplar; örnekte bu −10.000 ve −6.000 ₺ verir. Bütçe sapması (−100 ₺) ve toplam (−16.100 ₺) iki yaklaşımda aynıdır; şıklarda hangisi varsa ona göre ayırın. 2026 kitapçıklarında GÜG sapması sorulmadı.",
+  "Standart miktar ve süre, fiili üretim × birim standarttır; bütçelenen üretimle çarpılmaz. Fiyat ve ücret sapmasında fiili miktar ve süre, miktar ve süre sapmasında standart fiyat ve ücret kullanılır."
+ ],
+ "ornekler": [
+  {
+   "soru": "<p>X mamulünün birim standart maliyeti: DİMM 4 kg × 25 ₺ = 100 ₺; direkt işçilik 2 DİS × 150 ₺ = 300 ₺; GÜG 2 DİS × 100 ₺ = 200 ₺. Dönemde 1.000 birim üretilmiştir. 4.200 kg DİMM kg'ı 24 ₺'den alınıp kullanılmış; 2.100 DİS çalışılmış ve saat başına 147 ₺ ödenmiştir.</p><p><strong>DİMM fiyat ve miktar, direkt işçilik ücret ve süre sapmalarını hesaplayıp niteleyiniz.</strong></p>",
+   "cozum": [
+    "<p><strong>1. Fiili üretim için standartlar.</strong> Standart miktar 1.000 × 4 = 4.000 kg; standart süre 1.000 × 2 = 2.000 DİS. Standart maliyet: DİMM 4.000 × 25 = 100.000 ₺, Dİ 2.000 × 150 = 300.000 ₺. Fiili maliyet: DİMM 4.200 × 24 = 100.800 ₺, Dİ 2.100 × 147 = 308.700 ₺.</p>",
+    "<p><strong>2. DİMM sapmaları.</strong> Fiyat (25 − 24) × 4.200 = <strong>+4.200 ₺ olumlu</strong>; miktar (4.000 − 4.200) × 25 = <strong>−5.000 ₺ olumsuz</strong>; toplam 4.200 − 5.000 = −800 ₺ = 100.000 − 100.800 (olumsuz).</p>",
+    "<p><strong>3. Direkt işçilik sapmaları.</strong> Ücret (150 − 147) × 2.100 = <strong>+6.300 ₺ olumlu</strong>; süre (2.000 − 2.100) × 150 = <strong>−15.000 ₺ olumsuz</strong>; toplam 6.300 − 15.000 = −8.700 ₺ = 300.000 − 308.700 (olumsuz).</p>",
+    "<p><strong>4. Yorum.</strong> Malzeme ucuza alınmış ama fazla kullanılmış (düşük kalite olabilir); ücret düşük ama süre uzun (deneyimsiz işçi olabilir). GÜG sapmaları (−16.100 ₺) yukarıdaki tabloda; toplam sapma (−800) + (−8.700) + (−16.100) = −25.600 ₺ = standart 600.000 − fiili 625.600.</p>"
+   ]
+  }
+ ],
+ "cikmisSorular": [
+  "2026-2-MAL-03",
+  "2026-2-MAL-04"
+ ],
+ "kartlar": [
+  {
+   "on": "DİMM fiyat ve miktar sapması nasıl hesaplanır (standart − fiili kuralı)?",
+   "arka": "Fiyat = (Standart fiyat − Fiili fiyat) × Fiili miktar. Miktar = (Standart miktar − Fiili miktar) × Standart fiyat. Standart miktar = fiili üretim × birim standart. Pozitif sonuç olumlu, negatif olumsuzdur."
+  },
+  {
+   "on": "Direkt işçilik ücret ve süre sapması nasıl hesaplanır?",
+   "arka": "Ücret = (Standart ücret − Fiili ücret) × Fiili süre. Süre (verimlilik) = (Standart süre − Fiili süre) × Standart ücret. Fiili maliyet standardı aşıyorsa sapma olumsuzdur."
+  },
+  {
+   "on": "GÜG'de dört sapma nelerdir?",
+   "arka": "Değişken harcama = d × FS − fiili değişken GÜG; değişken verimlilik = (SS − FS) × d; sabit harcama = bütçelenmiş sabit GÜG − fiili sabit GÜG; hacim = (SS − N) × s. Toplamları yüklenen GÜG − fiili GÜG'dür."
+  },
+  {
+   "on": "GÜG'de üç ve iki sapmalı analiz nasıl kurulur?",
+   "arka": "Üç sapma: bütçe (iki harcama sapmasının toplamı), verimlilik, hacim (kapasite). İki sapma: kontrol edilebilir (bütçe + verimlilik) = (d × SS + bütçelenmiş sabit GÜG) − fiili GÜG ve hacim. Bazı kaynaklar verimliliği toplam oranla, kapasiteyi fiili süreyle hesaplar; toplam değişmez."
+  },
+  {
+   "on": "Standart maliyet sisteminin yararları ve sınırlılığı nedir? Farklar 7/A'da nerede izlenir?",
+   "arka": "Maliyet kontrolü, planlama ve bütçelemeyi kolaylaştırır, sapmalar yönetimin dikkatini çeker. Standart belirlemek uzmanlık ve maliyet ister, her işletmede kolay kurulmaz. Farklar 712, 713, 722, 723, 732, 733, 734 hesaplarında izlenir; olumsuz farklar borca yazılır."
+  }
+ ]
+}
