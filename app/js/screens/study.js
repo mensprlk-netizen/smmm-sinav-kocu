@@ -63,12 +63,22 @@ async function showFilters(view, ctx) {
   }
 }
 
+// Liste bitince: bu oturumun doğru / yanlış / boş sayısı.
+function ozetKarti(s, toplam) {
+  const kutu = (cls, n, ad) => h('div', { class: cls }, h('b', {}, String(n)), h('span', {}, ad));
+  return h('div', { class: 'card', 'data-role': 'ozet' },
+    h('h3', {}, 'Liste bitti'),
+    h('div', { class: 'ozet' }, kutu('dogru', s.dogru, 'doğru'), kutu('yanlis', s.yanlis, 'yanlış'), kutu('bos', s.bos, 'boş')),
+    h('p', { class: 'muted' }, `${toplam} soruluk liste. Yanlışlar tekrar kuyruğuna girdi.`));
+}
+
 async function showList(view, ctx, ids, idx, filtre, persist) {
   const { db, data } = ctx;
   const ep = epoch;
   const examDate = await examDateMs(db);
   if (ep !== epoch) return;
   let startedAt = Date.now();
+  const sayac = { dogru: 0, yanlis: 0, bos: 0 }; // bu listede verilen cevaplar (özet için)
 
   async function finish() {
     if (busy) return;
@@ -78,6 +88,7 @@ async function showList(view, ctx, ids, idx, filtre, persist) {
       await db.setSetting('study:state', null);
       if (ep !== epoch || my !== seq) return;
       qv?.destroy(); qv = null; view.innerHTML = '';
+      if (sayac.dogru + sayac.yanlis + sayac.bos > 0) view.append(ozetKarti(sayac, ids.length));
       showFilters(view, ctx);
     } catch { kayitHatasi(); } finally { if (my === seq) busy = false; }
   }
@@ -103,7 +114,10 @@ async function showList(view, ctx, ids, idx, filtre, persist) {
       if (stale()) return;
       qv = createQuestionView({
         question: q, solution: sol, mode: 'study', index: i, total: ids.length, flagged: !!flag?.bayrak, inkStrokes, feynmanStrokes,
-        onAnswer: safe(({ cevap, dogruMu, emin }) => recordAnswer({ db, fsrs, question: q, cevap, dogruMu, emin, sure: Date.now() - startedAt, mod: 'study', examDate })),
+        onAnswer: safe(({ cevap, dogruMu, emin }) => {
+          if (cevap === null) sayac.bos++; else if (dogruMu) sayac.dogru++; else sayac.yanlis++;
+          return recordAnswer({ db, fsrs, question: q, cevap, dogruMu, emin, sure: Date.now() - startedAt, mod: 'study', examDate });
+        }),
         onFlag: safe((b) => db.setFlag(q.id, { bayrak: b })),
         onTag: safe((t) => tagLastAnswer(db, q.id, t, undefined, 'study')),
         onCards: safe((kartlar) => addInfoCards({ db, fsrs, kaynakId: q.id, kartlar, examDate })),

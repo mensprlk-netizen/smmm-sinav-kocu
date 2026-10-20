@@ -82,3 +82,34 @@ test('günlük kota bugünkü yapılan tekrarı düşer, vadesi gelen kartı aş
   assert.equal(k({ vadesiGelen: 12, bugunYapilan: 0 }), 12);
   assert.equal(k({ vadesiGelen: 12, bugunYapilan: 3, sinavaKalanGun: 0 }), 0);
 });
+
+// --- Seri ve hafta özeti (ana ekran takvim yaprağı) ---
+const { aktifGunler, seriHesapla, haftaOzeti } = await import('../app/js/planner.js');
+const L2 = (...a) => new Date(...a).getTime();
+
+test('aktifGunler: cevap tarihleri ve bugünkü tekrar sayacı gün kümesine girer', () => {
+  const s = aktifGunler([{ tarih: L2(2026, 9, 1, 23, 30) }, { tarih: L2(2026, 9, 2, 0, 45) }], { tarih: '2026-10-03', sayac: 2 });
+  assert.deepEqual([...s].sort(), ['2026-10-01', '2026-10-02', '2026-10-03']);
+  assert.equal(aktifGunler([], { tarih: '2026-10-03', sayac: 0 }).size, 0);
+  assert.equal(aktifGunler([], null).size, 0);
+});
+
+test('seriHesapla: bugün dahil ardışık günler; bugün boşsa dünden sayar; boşluk seriyi keser', () => {
+  const now = L2(2026, 9, 5, 12, 0); // Pazartesi 5 Ekim 2026
+  assert.equal(seriHesapla(new Set(['2026-10-05', '2026-10-04', '2026-10-03']), now), 3);
+  assert.equal(seriHesapla(new Set(['2026-10-04', '2026-10-03']), now), 2);
+  assert.equal(seriHesapla(new Set(['2026-10-05', '2026-10-03']), now), 1);
+  assert.equal(seriHesapla(new Set(['2026-10-03']), now), 0);
+  assert.equal(seriHesapla(new Set(), now), 0);
+});
+
+test('haftaOzeti: Pazartesi başlar, bugün işaretli, dolu günler kümeden', () => {
+  const h = haftaOzeti(new Set(['2026-10-05', '2026-10-07']), L2(2026, 9, 7, 9, 0)); // Çarşamba
+  assert.deepEqual(h.map(g => g.gun), ['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz']);
+  assert.deepEqual(h.map(g => g.tarih), ['2026-10-05', '2026-10-06', '2026-10-07', '2026-10-08', '2026-10-09', '2026-10-10', '2026-10-11']);
+  assert.deepEqual(h.map(g => g.dolu), [true, false, true, false, false, false, false]);
+  assert.deepEqual(h.map(g => g.bugun), [false, false, true, false, false, false, false]);
+  const p = haftaOzeti(new Set(), L2(2026, 9, 11, 9, 0)); // Pazar: hafta yine Pazartesi'den başlar
+  assert.equal(p[0].tarih, '2026-10-05');
+  assert.equal(p[6].bugun, true);
+});

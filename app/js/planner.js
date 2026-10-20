@@ -45,3 +45,34 @@ export function dersIstatistikleri(questions, answers) {
     return { kod: d.kod, gorulen: seen.length, toplam: qs.length, dogruluk: seen.length ? dogru / seen.length : null };
   });
 }
+
+// --- Çalışma serisi (ana ekran takvim yaprağı) ---
+const GUN_ADI = ['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'];
+const gunBasi = (ms) => { const d = new Date(ms); return new Date(d.getFullYear(), d.getMonth(), d.getDate()); };
+const gunEkle = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+
+// Çalışılan günler: cevap satırlarının günleri + bugünkü tekrar sayacının günü (bilgi kartları cevap satırı yazmaz).
+export function aktifGunler(answers, reviewGun) {
+  const s = new Set((answers || []).map(a => todayKey(a.tarih)));
+  if (reviewGun?.sayac > 0 && reviewGun.tarih) s.add(reviewGun.tarih);
+  return s;
+}
+
+// Bugünden geriye (bugün boşsa dünden) ardışık çalışılan gün sayısı.
+export function seriHesapla(gunler, now = Date.now()) {
+  let d = gunBasi(now);
+  if (!gunler.has(todayKey(d.getTime()))) d = gunEkle(d, -1);
+  let n = 0;
+  while (gunler.has(todayKey(d.getTime()))) { n++; d = gunEkle(d, -1); }
+  return n;
+}
+
+// Pazartesi'den başlayan içinde bulunulan hafta: { gun, tarih, dolu, bugun }.
+export function haftaOzeti(gunler, now = Date.now()) {
+  const bugun = gunBasi(now);
+  const pzt = gunEkle(bugun, -((bugun.getDay() + 6) % 7));
+  return GUN_ADI.map((gun, i) => {
+    const tarih = todayKey(gunEkle(pzt, i).getTime());
+    return { gun, tarih, dolu: gunler.has(tarih), bugun: tarih === todayKey(bugun.getTime()) };
+  });
+}

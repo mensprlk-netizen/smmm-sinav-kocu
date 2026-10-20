@@ -68,7 +68,12 @@ export async function render(view, params, ctx) {
       const stale = () => ep !== epoch || my !== seq;
       try {
         qv?.destroy(); qv = null; view.innerHTML = '';
-        if (i >= list.length) { view.append(h('div', { class: 'card' }, h('h3', {}, 'Tekrar bitti.'), h('a', { class: 'btn btn-primary', href: '#/' }, 'Ana sayfa'))); return; }
+        if (i >= list.length) {
+          const c = dailyCounter(await db.getSetting('review:gun', null), todayKey());
+          if (stale()) return;
+          view.append(h('div', { class: 'card' }, h('h3', {}, 'Tekrar bitti.'), h('p', { class: 'muted' }, `Bugün ${c.sayac} kart tekrar ettin.`), h('a', { class: 'btn btn-primary', href: '#/' }, 'Ana sayfa')));
+          return;
+        }
         const card = list[i];
         if (card.tur === 'soru') {
           const q = await data.getQuestion(card.kaynakId);
@@ -91,9 +96,9 @@ export async function render(view, params, ctx) {
             onInk: safe((s) => db.saveInk('soru:' + q.id, s)), onFeynman: safe((s) => db.saveInk('feynman:' + q.id, s)) });
           view.append(qv.el, holder);
         } else {
-          const back = h('div', { class: 'card', hidden: true }, h('p', {}, card.arka), ratingRow(card));
+          const back = h('div', { class: 'card', hidden: true }, h('p', { class: 'serif' }, card.arka), ratingRow(card));
           view.append(h('div', { class: 'q-head' }, h('span', {}, 'Tekrar'), h('span', {}, `${i + 1} / ${list.length}`)),
-            h('div', { class: 'card' }, h('p', { class: 'muted' }, 'Bilgi kartı'), h('p', {}, h('strong', {}, card.on)),
+            h('div', { class: 'card' }, h('p', { class: 'muted' }, 'Bilgi kartı'), h('p', { class: 'bilgi-on' }, h('strong', {}, card.on)),
               h('button', { class: 'btn btn-primary', onClick: (e) => { back.hidden = false; e.currentTarget.remove(); } }, 'Cevabı göster')), back);
         }
       } catch { if (!stale()) kayitHatasi(); }

@@ -2,3 +2,4 @@
 node_modules/
 tools/out/
 __pycache__/
+.playwright-mcp/

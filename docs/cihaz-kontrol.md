@@ -12,6 +12,13 @@
 - [ ] Yeni sürüm yayınlanınca "Yeni sürüm hazır. Yenile" şeridi çıkıyor, "Yenile" yeni sürüme geçiriyor
 - [ ] Şerit görünmişken uygulama kapatılıp açılırsa şerit hemen yeniden görünüyor
 
+## Arayüz (20 Ekim 2026 tasarımı)
+- [ ] Uçak modunda yazı tipleri yerelden geliyor (Archivo başlık/sayı, Literata soru metni; sistem fontuna düşmüyor)
+- [ ] Takvim yaprağının delikli üst kenarı ve büyük sayı okunaklı; hafta noktaları bugünü gösteriyor
+- [ ] Şıkka dokununca yuvarlak doluyor; doğru/yanlışta titreşim geliyor (sessiz modda yok sayılır)
+- [ ] Koyu temada yaprak, şıklar, çözüm paneli ve deneme kaşesi okunaklı
+- [ ] Yazı boyutu "Çok büyük" ile yaprak sayısı ve alt sekme adları taşmıyor
+
 ## Yayın sonrası (Galaxy S23 Ultra, Task 24)
 - [ ] Ana ekrana ekle çalıştı, tam ekran açılıyor
 - [ ] Uçak modunda açılıyor; soru, görüntü ve konu sayfaları yükleniyor

@@ -22,6 +22,7 @@
 
 ## Yapı
 - `app/` — bağımlılıksız statik PWA (ES modülleri, hash yönlendirme, IndexedDB, service worker)
+- `app/fonts/` — yerel yazı tipleri: Archivo (arayüz, sayılar) ve Literata (okuma metni), SIL OFL; tasarım dili için bkz. `docs/superpowers/specs/2026-10-20-arayuz-tasarim-design.md`
 - `tools/` — PDF'den soru çıkarma, doğrulama, önbellek listesi ve yayın betikleri
 - `tests/` — jsdom + fake-indexeddb ile JS testleri
 - `docs/` — tasarım/plan belgeleri, içerik inceleme notları, cihaz kontrol listesi

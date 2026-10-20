@@ -25,10 +25,13 @@ const FILES = {
 const NOW = new Date(2026, 9, 2, 12, 0, 0).getTime();
 let view, ctx;
 const settle = async () => { for (let i = 0; i < 8; i++) await new Promise(r => setTimeout(r, 0)); };
-const rowOf = (name) => [...view.querySelectorAll('div')].find(d => d.firstElementChild?.tagName === 'SPAN' && d.firstElementChild.textContent === name && d.children.length === 2);
-const rowText = (name) => rowOf(name).children[1].textContent;
-const big = () => view.querySelector('div[style*="2.4em"]').textContent;
-const label = () => view.querySelector('.muted').textContent;
+const rowOf = (name) => view.querySelector(`[data-row="${name}"]`) ?? undefined;
+const rowText = (name) => rowOf(name).querySelector('[data-val]').textContent;                 // Tekrar / Yeni soru: "5 / 8"
+const dersText = (name) => { const r = rowOf(name); return `${r.querySelector('[data-gorulen]').textContent} ${r.querySelector('[data-oran]').textContent}`; }; // "2/2 50%"
+const big = () => view.querySelector('[data-role="gun"]').textContent;
+const label = () => view.querySelector('[data-role="sinav-tarihi"]').textContent;
+const seri = () => view.querySelector('[data-role="seri"]').textContent;
+const hafta = () => [...view.querySelectorAll('.leaf-hafta .g')].map(g => (g.classList.contains('dolu') ? '●' : '○') + (g.classList.contains('bugun') ? '!' : ''));
 const run = async () => { await home.render(view, {}, ctx); await settle(); };
 
 beforeEach(async () => {
@@ -48,27 +51,30 @@ afterEach(() => { mock.timers.reset(); });
 
 test('geri sayım, plan mesajı ve tarih etiketi', async () => {
   await run();
-  assert.equal(big(), '10 gün');
+  assert.equal(big(), '10');
+  assert.ok(view.textContent.includes('gün kaldı'));
   const plan = gunlukPlan({ hedefSaat: 1.5, vadesiGelen: 0, sinavaKalanGun: 10, dersIstatistik: [] });
   assert.ok(view.textContent.includes(plan.mesaj));
-  assert.equal(label(), 'SMMM Yeterlilik Sınavı · 12 Ekim 2026');
+  assert.equal(label(), '12 Ekim 2026, Pazartesi');
   await db.setSetting('sinavTarihi', '2026-11-28');
   view.innerHTML = ''; await run();
-  assert.equal(label(), 'SMMM Yeterlilik Sınavı · 28 Kasım 2026');
-  assert.equal(big(), '57 gün');
+  assert.equal(label(), '28 Kasım 2026, Cumartesi');
+  assert.equal(big(), '57');
 });
 
 test('cevap yokken ders kartı 0/toplam ve —; cevaplardan sonra güncellenir', async () => {
   await run();
-  assert.equal(rowText('Finansal Muhasebe'), '0/2 · —');
-  assert.equal(rowText('Maliyet Muhasebesi'), '0/2 · —');
+  assert.equal(dersText('Finansal Muhasebe'), '0/2 —');
+  assert.equal(dersText('Maliyet Muhasebesi'), '0/2 —');
   assert.equal(rowOf('Hukuk'), undefined);
   view.innerHTML = '';
   await db.addAnswer({ soruId: '2026-1-MAL-01', cevap: 'C', dogruMu: true, emin: true, sure: 5, mod: 'study', denemeId: null });
   await db.addAnswer({ soruId: '2026-1-MAL-02', cevap: 'A', dogruMu: false, emin: true, sure: 5, mod: 'study', denemeId: null });
   await run();
-  assert.equal(rowText('Maliyet Muhasebesi'), '2/2 · 50%');
-  assert.equal(rowText('Finansal Muhasebe'), '0/2 · —');
+  assert.equal(dersText('Maliyet Muhasebesi'), '2/2 50%');
+  assert.equal(dersText('Finansal Muhasebe'), '0/2 —');
+  assert.ok(rowOf('Finansal Muhasebe').textContent.includes('Öneri')); // hiç görülmemiş ders önce önerilir
+  assert.ok(!rowOf('Maliyet Muhasebesi').textContent.includes('Öneri'));
 });
 
 test('vadesi geçmiş kart varken Tekrar çubuğu 0 / 1 gösterir', async () => {
@@ -93,7 +99,7 @@ test('sınav günü: Bugün ve Sınav günü mesajı', async () => {
   await run();
   assert.equal(big(), 'Bugün');
   assert.ok(view.textContent.includes('Sınav günü'));
-  assert.equal(label(), 'SMMM Yeterlilik Sınavı · 2 Ekim 2026');
+  assert.equal(label(), '2 Ekim 2026, Cuma');
 });
 
 test('sınav tarihi geçmişte: Geçti, çökmez', async () => {
@@ -124,7 +130,7 @@ test('sınav günü sabah 08:00 de Bugün', async () => {
 test('sınavdan önceki akşam 23:00: 1 gün ve tam oturum önerisi', async () => {
   mock.timers.setTime(new Date(2026, 9, 11, 23, 0).getTime());
   await run();
-  assert.equal(big(), '1 gün');
+  assert.equal(big(), '1');
   assert.ok(view.textContent.includes('tam oturum'));
 });
 
@@ -159,6 +165,32 @@ test('veritabanı açılamadıysa Ana sayfa yine de çizilir (salt okunur mod)',
   await assert.rejects(() => db.open(null));
   view.innerHTML = '';
   await run();
-  assert.equal(big(), '57 gün'); // kayıtlı tarih okunamaz: varsayılan sınav tarihi
+  assert.equal(big(), '57'); // kayıtlı tarih okunamaz: varsayılan sınav tarihi
   assert.ok(view.textContent.length > 0);
+});
+
+test('takvim yaprağı: hafta noktaları ve seri; bugün çalışılmadıysa "sürdür", ilk günde "Henüz seri yok"', async () => {
+  // 2 Ekim 2026 Cuma. Çarşamba ve Perşembe çalışılmış, bugün henüz değil.
+  await run();
+  assert.equal(seri(), 'Henüz seri yok. Bugün başla.');
+  assert.deepEqual(hafta(), ['○', '○', '○', '○', '○!', '○', '○']);
+  view.innerHTML = '';
+  mock.timers.setTime(new Date(2026, 8, 30, 20, 0).getTime());
+  await db.addAnswer({ soruId: '2026-1-MAL-01', cevap: 'C', dogruMu: true, emin: true, sure: 5, mod: 'study', denemeId: null });
+  mock.timers.setTime(new Date(2026, 9, 1, 20, 0).getTime());
+  await db.addAnswer({ soruId: '2026-1-MAL-02', cevap: 'C', dogruMu: true, emin: true, sure: 5, mod: 'study', denemeId: null });
+  mock.timers.setTime(NOW);
+  await run();
+  assert.equal(seri(), 'Seri 2 gün; bugün sürdür.');
+  assert.deepEqual(hafta(), ['○', '○', '●', '●', '○!', '○', '○']);
+  view.innerHTML = '';
+  await db.setSetting('review:gun', { tarih: '2026-10-02', sayac: 3 }); // bugün yalnız bilgi kartı tekrarı: yine çalışılmış sayılır
+  await run();
+  assert.equal(seri(), '3 gün üst üste çalıştın.');
+  assert.deepEqual(hafta(), ['○', '○', '●', '●', '●!', '○', '○']);
+});
+
+test('yarım kalan deneme yokken ana ekrana "null" yazılmaz', async () => {
+  await run();
+  assert.ok(!view.textContent.includes('null'));
 });
