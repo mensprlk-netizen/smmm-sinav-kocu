@@ -13,7 +13,7 @@ export function destroy() { epoch++; }
 
 const yuzde = (d) => d === null || d === undefined ? '—' : Math.round(d * 100) + '%';
 const sure = (ms) => ms > 0 ? fmtSure(ms) : '—';
-const satir = (sol, sag, extra = {}) => h(extra.href ? 'a' : 'div', { class: 'stat-row', ...(extra.href ? { href: extra.href, style: 'text-decoration:none;color:inherit' } : {}) }, h('span', {}, sol), h(extra.strong ? 'strong' : 'span', extra.strong ? {} : (extra.muted ? { class: 'muted' } : {}), sag));
+const satir = (sol, sag, extra = {}) => h(extra.href ? 'a' : 'div', { class: 'stat-row', ...(extra.href ? { href: extra.href } : {}) }, h('span', {}, sol), h(extra.strong ? 'strong' : 'span', extra.strong ? {} : (extra.muted ? { class: 'muted' } : {}), sag));
 const bos = (metin) => h('p', { class: 'muted' }, metin);
 
 export async function render(view, params, ctx) {

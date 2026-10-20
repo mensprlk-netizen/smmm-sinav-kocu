@@ -3,6 +3,9 @@ import { h, sheet, toast } from '../ui.js';
 import { createInk } from '../ink.js';
 import { dersAdi } from '../data.js';
 
+// Dokunsal geri bildirim (Android): doğru kısa, yanlış çift vuruş. Desteklenmiyorsa sessizce geçilir.
+function titre(p) { try { navigator.vibrate?.(p); } catch { /* yok */ } }
+
 const TAGS = [['bilgi', 'Bilgi eksiği'], ['dikkat', 'Dikkatsizlik'], ['sure', 'Süre'], ['okuma', 'Yanlış okudum']];
 
 export function createQuestionView(o) {
@@ -12,8 +15,8 @@ export function createQuestionView(o) {
   let solveInk = null, feynmanInk = null;
 
   const head = h('div', { class: 'q-head' },
-    h('span', {}, `${dersAdi(q.ders)} · ${q.donem} · Soru ${q.no}`),
-    h('span', {}, `${(o.index ?? 0) + 1} / ${o.total ?? 1}`),
+    h('span', {}, h('span', { class: 'q-ders' }, dersAdi(q.ders)), h('span', { class: 'q-meta' }, `${q.donem} dönemi, Soru ${q.no}`)),
+    h('span', { class: 'q-sira' }, `${(o.index ?? 0) + 1} / ${o.total ?? 1}`),
     o.onFlag ? h('button', { class: 'btn-icon', 'aria-label': 'Bayrak', 'data-role': 'flag', onClick: () => { flagged = !flagged; flagBtn.textContent = flagged ? '⚑' : '⚐'; o.onFlag(flagged); } }, flagged ? '⚑' : '⚐') : null);
   const flagBtn = head.querySelector('[data-role="flag"]');
 
@@ -25,7 +28,7 @@ export function createQuestionView(o) {
   const optEls = {};
   const opts = h('div', {}, ...Object.entries(q.secenekler).map(([L, html]) => {
     const b = h('button', { class: 'opt', 'data-letter': L, onClick: () => choose(L) },
-      h('span', { class: 'letter' }, L + ')'), h('span', { class: 'body', html }));
+      h('span', { class: 'letter', 'aria-hidden': 'true' }, L), h('span', { class: 'body', html }));
     optEls[L] = b; return b;
   }));
 
@@ -53,7 +56,8 @@ export function createQuestionView(o) {
   function choose(L) {
     if (q.iptal || (locked && mode !== 'exam')) return;
     selected = L;
-    if (mode === 'exam') { o.onAnswer?.({ cevap: L, dogruMu: L === q.dogru, emin: true }); paint(); return; }
+    if (mode === 'exam') { titre(8); o.onAnswer?.({ cevap: L, dogruMu: L === q.dogru, emin: true }); paint(); return; }
+    titre(L === q.dogru ? 12 : [18, 40, 18]);
     locked = true; paint();
     showSolution();
     o.onAnswer?.({ cevap: L, dogruMu: L === q.dogru, emin });
@@ -69,7 +73,7 @@ export function createQuestionView(o) {
     const wrong = (selected !== null || skipped) && selected !== q.dogru;
     const panel = h('div', { class: 'solution' },
       q.cevapNotu ? h('p', { class: 'badge' }, q.cevapNotu) : null,
-      h('p', {}, h('strong', {}, q.iptal ? `İlk anahtar: ${q.dogru} (iptal)` : `Doğru cevap: ${q.dogru}`), s ? ' — ' + s.ozet : ''),
+      h('p', {}, h('strong', {}, q.iptal ? `İlk anahtar: ${q.dogru} (iptal).` : `Doğru cevap: ${q.dogru}.`), s ? ' ' + s.ozet : ''),
       s ? h('div', {}, ...s.adimlar.map(a => h('div', { class: 'step', html: a }))) : h('p', { class: 'muted' }, 'Bu soru için çözüm henüz eklenmedi.'),
       s?.dayanak ? h('p', { class: 'muted' }, 'Dayanak: ' + s.dayanak) : null,
       s && Object.keys(s.tuzaklar || {}).length ? h('div', {}, h('h2', {}, 'Tuzak şıklar'), h('ul', {}, ...Object.entries(s.tuzaklar).map(([L, t]) => h('li', {}, h('strong', {}, L + ') '), h('span', { html: t }))))) : null,

@@ -51,7 +51,7 @@ async function setup(view, ctx) {
   const dersSel = h('select', {}, ...DERSLER.map(d => h('option', { value: d.kod }, d.ad)));
   const donemSel = h('select', {}, h('option', { value: 'karisik' }, 'İki dönemden rastgele 20'), ...DONEMLER.map(d => h('option', { value: d }, d + ' resmi seti')));
   const oturumSel = h('select', {}, h('option', { value: '1' }, '1. oturum: FM, MAL, HUK, SPK'), h('option', { value: '2' }, '2. oturum: FTA, DEN, VER, MH'));
-  const ozelDers = DERSLER.map(d => h('label', { class: 'chip' }, h('input', { type: 'checkbox', value: d.kod, style: 'margin-right:6px' }), d.ad));
+  const ozelDers = DERSLER.map(d => h('label', { class: 'chip' }, h('input', { type: 'checkbox', value: d.kod }), d.ad));
   const adetIn = h('input', { type: 'number', value: 20, min: 5, max: 160 });
   const sureIn = h('input', { type: 'number', value: 45, min: 5, max: 240 });
 
@@ -219,14 +219,19 @@ async function showResult(view, id, ctx) {
       toast(`${n} soru tekrar kuyruğuna eklendi.`);
     } catch { kayitHatasi(); tekrarBtn.disabled = false; }
   } }, s.tekrarEklendi ? 'Tekrara eklendi' : 'Yanlışları tekrara ekle');
+  const gecti = s.dersler.length > 1 ? Object.values(r.dersler).every(d => d.gecti) && r.ortalamaGecti : !!r.dersler[s.dersler[0]]?.gecti;
   const mesaj = s.dersler.length > 1
-    ? `${Object.values(r.dersler).every(d => d.gecti) && r.ortalamaGecti ? 'Geçti' : 'Kaldı'} · Resmî kural: her ders en az 50 ve ortalama en az 60`
-    : (r.dersler[s.dersler[0]]?.gecti ? 'Ders barajı (50) geçildi' : 'Ders barajı 50 altında');
+    ? `${gecti ? 'Geçti' : 'Kaldı'} · Resmî kural: her ders en az 50 ve ortalama en az 60`
+    : (gecti ? 'Ders barajı (50) geçildi' : 'Ders barajı 50 altında');
   view.append(h('h1', {}, 'Deneme sonucu'),
-    h('div', { class: 'card', style: 'text-align:center' }, h('div', { style: 'font-size:2.2em;font-weight:700' }, fmtPuan(r.ortalama)), h('div', { class: 'muted' }, mesaj),
-      h('p', { class: 'muted' }, `Doğru ${r.toplamDogru} · Yanlış ${r.toplamYanlis} · Boş ${r.toplamBos} · Süre ${fmtSure(s.bitis - s.baslangic)}`)),
-    ...Object.entries(r.dersler).map(([kod, d]) => h('div', { class: 'stat-row' }, h('span', {}, dersAdi(kod)), h('span', {}, `${d.dogru}D ${d.yanlis}Y ${d.bos}B → `, h('strong', { style: `color:${d.gecti ? 'var(--ok)' : 'var(--err)'}` }, fmtPuan(d.puan))))),
-    h('div', { class: 'row', style: 'margin-top:12px' }, tekrarBtn,
+    h('div', { class: 'sonuc' },
+      h('div', { class: 'sonuc-puan', 'data-role': 'puan' }, fmtPuan(r.ortalama)),
+      h('span', { class: 'kase' + (gecti ? '' : ' kaldi'), 'data-role': 'kase' }, gecti ? 'Geçti' : 'Kaldı'),
+      h('div', { class: 'sonuc-alt' }, h('div', {}, mesaj), h('div', {}, `Doğru ${r.toplamDogru} · Yanlış ${r.toplamYanlis} · Boş ${r.toplamBos} · Süre ${fmtSure(s.bitis - s.baslangic)}`))),
+    h('section', { class: 'defter' },
+      h('div', { class: 'defter-baslik' }, h('span', {}, 'Ders puanları'), h('span', { class: 'muted' }, 'doğru, yanlış, boş')),
+      ...Object.entries(r.dersler).map(([kod, d]) => h('div', { class: 'stat-row' }, h('span', {}, dersAdi(kod)), h('span', {}, h('span', { class: 'alt' }, `${d.dogru}D ${d.yanlis}Y ${d.bos}B`), h('strong', { style: `color:${d.gecti ? 'var(--ok)' : 'var(--err)'}` }, fmtPuan(d.puan)))))),
+    h('div', { class: 'row' }, tekrarBtn,
       h('a', { class: 'btn', href: '#/exam/review/' + id }, 'Yanlışları gözden geçir'),
       h('a', { class: 'btn', href: '#/exam' }, 'Yeni deneme')));
 }

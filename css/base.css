@@ -1,31 +1,97 @@
+/* SMMM Sınav Koçu — temel: yazı tipleri, renk belirteçleri, sayfa iskeleti.
+   Dil: defter ve optik form. Kâğıt yüzeyler, yeşil mürekkep (ileri/doğru), kırmızı mürekkep (yanlış/uyarı),
+   kurşun kalem (deneme işaretleri). Arayüz ve sayılar Archivo, okuma metni Literata. */
+
+/* Yazı tipleri yerel: uygulama çevrimdışı çalışır. Alt kümeler Google Fonts'un latin / latin-ext bölmesidir (Türkçe harfler latin-ext'te). */
+@font-face { font-family: 'Archivo'; font-style: normal; font-weight: 100 900; font-stretch: 62% 125%; font-display: swap;
+  src: url(../fonts/archivo-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Archivo'; font-style: normal; font-weight: 100 900; font-stretch: 62% 125%; font-display: swap;
+  src: url(../fonts/archivo-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Literata'; font-style: normal; font-weight: 200 900; font-display: swap;
+  src: url(../fonts/literata-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Literata'; font-style: normal; font-weight: 200 900; font-display: swap;
+  src: url(../fonts/literata-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Literata'; font-style: italic; font-weight: 200 900; font-display: swap;
+  src: url(../fonts/literata-italic-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Literata'; font-style: italic; font-weight: 200 900; font-display: swap;
+  src: url(../fonts/literata-italic-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
 :root {
-  --bg: #f6f7f9; --surface: #ffffff; --text: #16202a; --muted: #5b6b7a; --border: #d9e0e7;
-  --primary: #1b4965; --primary-text: #ffffff; --accent: #ffb703;
-  --ok: #2a9d3f; --err: #d62828; --warn: #e07a00; --sel: #dbe9f5;
-  --fs: 1rem; --radius: 12px; --tab-h: 60px; --top-h: 52px;
+  color-scheme: light;
+  /* Kâğıt ve mürekkep */
+  --paper: #eef1ea;      /* sayfa: soğuk defter kâğıdı */
+  --sheet: #fbfcf9;      /* yaprak, soru kâğıdı */
+  --ink: #15231c;        /* yazı: yeşil-siyah mürekkep */
+  --ink-2: #5c6b62;      /* ikincil yazı */
+  --rule: #c9d2c6;       /* defter çizgisi, kenarlık */
+  --rule-2: #e1e7de;     /* ince çizgi */
+  --green: #1d5c43;      /* yeşil mürekkep: eylem, doğru, ilerleme */
+  --green-soft: #dcebe1;
+  --on-green: #fbfcf9;
+  --red: #b3261e;        /* kırmızı mürekkep: yanlış, bayrak, uyarı */
+  --red-soft: #f6dedb;
+  --graphite: #2a2d2b;   /* kurşun kalem: denemede doldurulan yuvarlak */
+  --mark: #efe3a1;       /* fosforlu kalem: tabloda vurgulu hücre */
+  --shade: rgba(21, 35, 28, .42); /* alt panel arkası */
+  /* Eski adlar: ekran modülleri ve konu görselleri bunları kullanır */
+  --bg: var(--paper); --surface: var(--sheet); --text: var(--ink); --muted: var(--ink-2); --border: var(--rule);
+  --primary: var(--green); --primary-text: var(--on-green); --accent: var(--mark);
+  --ok: var(--green); --err: var(--red); --warn: var(--red); --sel: var(--green-soft);
+  /* Ölçüler */
+  --fs: 1rem; --r: 10px; --r-s: 6px; --tab-h: 64px; --top-h: 56px;
+  --sans: 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --serif: 'Literata', Georgia, 'Times New Roman', serif;
 }
 :root[data-theme="dark"] {
-  --bg: #0f151b; --surface: #1a222b; --text: #e8edf2; --muted: #9fb0bf; --border: #2c3845;
-  --primary: #5fa8d3; --primary-text: #0f151b; --sel: #24384a;
+  color-scheme: dark;
+  --paper: #0f1512; --sheet: #182019; --ink: #e7ece6; --ink-2: #9aa89f; --rule: #2e3b33; --rule-2: #222c26;
+  --green: #7fcba4; --green-soft: #1e3a2d; --on-green: #0f1512;
+  --red: #f0887e; --red-soft: #4a2320; --graphite: #e7ece6; --mark: #6b5f1d; --shade: rgba(0, 0, 0, .55);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0f151b; --surface: #1a222b; --text: #e8edf2; --muted: #9fb0bf; --border: #2c3845;
-    --primary: #5fa8d3; --primary-text: #0f151b; --sel: #24384a;
+    color-scheme: dark;
+    --paper: #0f1512; --sheet: #182019; --ink: #e7ece6; --ink-2: #9aa89f; --rule: #2e3b33; --rule-2: #222c26;
+    --green: #7fcba4; --green-soft: #1e3a2d; --on-green: #0f1512;
+    --red: #f0887e; --red-soft: #4a2320; --graphite: #e7ece6; --mark: #6b5f1d; --shade: rgba(0, 0, 0, .55);
   }
 }
 :root[data-fs="1"] { --fs: 0.95rem; } :root[data-fs="2"] { --fs: 1.05rem; }
 :root[data-fs="3"] { --fs: 1.2rem; }  :root[data-fs="4"] { --fs: 1.35rem; }
+
 * { box-sizing: border-box; }
-html, body { margin: 0; background: var(--bg); color: var(--text); font: var(--fs)/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-text-size-adjust: 100%; }
+html, body { margin: 0; background: var(--paper); color: var(--ink); font: var(--fs)/1.5 var(--sans); font-variant-numeric: tabular-nums; -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; }
+button, input, select { font-family: inherit; }
+:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
+
 #app { min-height: 100dvh; display: flex; flex-direction: column; }
-#topbar { height: var(--top-h); display: flex; align-items: center; justify-content: space-between; padding: 0 16px; background: var(--primary); color: var(--primary-text); position: sticky; top: 0; z-index: 5; }
-#topbar #title { font-weight: 600; }
-#topbar .btn-icon { color: inherit; text-decoration: none; }
-#update-bar { background: var(--accent); color: #16202a; padding: 8px 16px; display: flex; gap: 12px; align-items: center; justify-content: center; }
-#view { flex: 1; padding: 16px 16px calc(var(--tab-h) + 24px); max-width: 820px; width: 100%; margin: 0 auto; }
-#tabs { position: fixed; bottom: 0; left: 0; right: 0; height: calc(var(--tab-h) + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom); display: grid; grid-template-columns: repeat(6, 1fr); background: var(--surface); border-top: 1px solid var(--border); z-index: 5; }
-#tabs a { display: flex; align-items: center; justify-content: center; text-decoration: none; color: var(--muted); font-size: 0.85em; min-height: 44px; }
-#tabs a.active { color: var(--primary); font-weight: 600; }
-h1 { font-size: 1.35em; margin: 0 0 12px; } h2 { font-size: 1.15em; margin: 16px 0 8px; } p { margin: 0 0 8px; }
-.muted { color: var(--muted); } .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+#topbar { height: var(--top-h); display: flex; align-items: center; justify-content: space-between; padding: 0 6px 0 18px; background: var(--paper); border-bottom: 1px solid var(--rule); position: sticky; top: 0; z-index: 5; }
+#topbar #title { font-weight: 700; font-size: 1.05em; letter-spacing: -0.01em; }
+#topbar .btn-icon { color: var(--ink-2); text-decoration: none; }
+#update-bar { background: var(--ink); color: var(--paper); padding: 8px 16px; display: flex; gap: 12px; align-items: center; justify-content: center; font-weight: 500; }
+#update-bar .btn { background: var(--paper); color: var(--ink); border-color: var(--paper); }
+#view { flex: 1; padding: 16px 16px calc(var(--tab-h) + 28px); max-width: 720px; width: 100%; margin: 0 auto; }
+
+/* Alt sekmeler: simge + kısa ad. Etkin sekmenin üstünde yeşil defter ayracı. */
+#tabs { position: fixed; bottom: 0; left: 0; right: 0; height: calc(var(--tab-h) + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom); display: grid; grid-template-columns: repeat(6, 1fr); background: var(--sheet); border-top: 1px solid var(--rule); z-index: 5; }
+#tabs a { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; text-decoration: none; color: var(--ink-2); font-size: 0.68em; font-weight: 500; letter-spacing: 0.01em; min-height: 44px; }
+#tabs a svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+#tabs a.active { color: var(--green); font-weight: 700; }
+#tabs a.active::before { content: ''; position: absolute; top: -1px; left: 14px; right: 14px; height: 3px; background: var(--green); border-radius: 0 0 3px 3px; }
+
+h1 { font-size: 1.7em; font-weight: 700; letter-spacing: -0.02em; line-height: 1.15; margin: 4px 0 16px; }
+h2 { font-size: 1.1em; font-weight: 700; margin: 18px 0 8px; }
+h3 { font-size: 1em; font-weight: 700; margin: 0 0 8px; }
+h4 { font-size: 0.9em; font-weight: 700; color: var(--ink-2); margin: 14px 0 4px; }
+p { margin: 0 0 8px; }
+a { color: var(--green); }
+.muted { color: var(--ink-2); }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.serif { font-family: var(--serif); }
